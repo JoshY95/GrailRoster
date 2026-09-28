@@ -10,7 +10,7 @@ const { chromium } = require('playwright');
     // Verify the bundled catalogue fallback without relying on a live Supabase project.
     await page.route('**/rest/v1/**', route => route.abort());
     await page.goto(process.env.RINGVAULT_BASE_URL || 'http://127.0.0.1:8765/');
-    await page.locator('#allSets .set-card').first().waitFor();
+    await page.locator('#allSets .set-card').first().waitFor({ state: 'attached' });
     assert.equal(await page.locator('#allSets .set-card').count(), 17);
     assert.equal(await page.locator('#heroProgress strong').first().innerText(), '0%');
 
@@ -20,7 +20,7 @@ const { chromium } = require('playwright');
     await page.locator('#cardList .card-row').first().locator('.state-button.owned').click();
     assert.equal(await page.locator('#dashboardRecent .recent-card').count(), 1);
     await page.reload();
-    await page.locator('#allSets .set-card').first().waitFor();
+    await page.locator('#allSets .set-card').first().waitFor({ state: 'attached' });
     assert.equal(await page.locator('#dashboardRecent .recent-card').count(), 1);
 
     await page.locator('[data-view="collection"]').click();
