@@ -2,6 +2,8 @@
 
 GrailRoster is a WWE trading card collection tracker built from verified master catalogues.
 
+Production: <https://grailroster.com/>
+
 ## MVP features
 
 - Browse 7,671 card identities across 17 WWE sets
@@ -71,3 +73,5 @@ The ten post-Universe source workbooks and their original checklist files are st
 The browser uses the public Supabase publishable key in `config.js`; no server secret is shipped to the client. Before production sign-in testing, add every deployed GrailRoster origin to **Authentication → URL Configuration → Redirect URLs** in the GrailRoster Supabase dashboard. Keep localhost entries for local testing and use exact HTTPS deployment URLs in production.
 
 Email/password accounts use Supabase `signUp` and `signInWithPassword`. Hosted projects require email confirmation by default. For closed testing only, confirmation can be temporarily disabled under **Authentication → Providers → Email**. Re-enable confirmation and configure custom SMTP before a public launch.
+
+The production Supabase Site URL and exact redirect URL are both `https://grailroster.com/`. The legacy GitHub Pages redirect remains temporarily allow-listed during the domain migration.

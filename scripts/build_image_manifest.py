@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build RingVault's public image manifest from an approved rights register."""
+"""Build GrailRoster's public image manifest from an approved rights register."""
 
 import argparse
 import csv

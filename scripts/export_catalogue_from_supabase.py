@@ -1,4 +1,4 @@
-"""Export the verified public Supabase catalogue for RingVault's offline bundle."""
+"""Export the verified public Supabase catalogue for GrailRoster's offline bundle."""
 
 import json
 import re

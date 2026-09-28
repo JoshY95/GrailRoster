@@ -1,4 +1,4 @@
-name: RingVault UI smoke test
+name: GrailRoster UI smoke test
 
 on:
   pull_request:
@@ -17,6 +17,6 @@ jobs:
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
       - name: Start static app
-        run: python3 -m http.server 8765 >/tmp/ringvault-server.log 2>&1 &
+        run: python3 -m http.server 8765 >/tmp/grailroster-server.log 2>&1 &
       - name: Exercise guest and responsive flows
         run: node tests/smoke.cjs

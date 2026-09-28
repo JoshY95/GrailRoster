@@ -1,4 +1,4 @@
-"""Build RingVault's static catalogue and deterministic Supabase seed batches."""
+"""Build GrailRoster's static catalogue and deterministic Supabase seed batches."""
 
 import argparse
 import hashlib

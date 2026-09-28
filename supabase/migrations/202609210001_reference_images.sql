@@ -51,7 +51,7 @@ $$;
 grant select on public.reference_images to anon, authenticated;
 
 comment on table public.reference_images is
-  'Provenance and usage approval for RingVault public catalogue images. Uploads are performed only by trusted server-side tooling.';
+  'Provenance and usage approval for GrailRoster public catalogue images. Uploads are performed only by trusted server-side tooling.';
 
 insert into storage.buckets (id, name, public, file_size_limit, allowed_mime_types)
 values (

@@ -1,4 +1,4 @@
-name: Deploy RingVault to GitHub Pages
+name: Deploy GrailRoster to GitHub Pages
 # A push to main publishes the current static app.
 
 on:

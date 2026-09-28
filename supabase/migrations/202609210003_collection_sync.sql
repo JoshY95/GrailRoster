@@ -47,4 +47,4 @@ revoke all on public.collection_items from anon, authenticated;
 grant select, insert, update, delete on public.collection_items to authenticated;
 
 comment on table public.collection_items is
-  'Private per-user RingVault collection state. RLS restricts every row to its owner.';
+  'Private per-user GrailRoster collection state. RLS restricts every row to its owner.';

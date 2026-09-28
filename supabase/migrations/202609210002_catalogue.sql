@@ -78,6 +78,6 @@ begin
 end
 $$;
 
-comment on table public.catalogue_sets is 'Public RingVault trading-card set registry.';
+comment on table public.catalogue_sets is 'Public GrailRoster trading-card set registry.';
 comment on table public.catalogue_cards is 'Canonical checklist card identities; variants are stored separately.';
 comment on table public.catalogue_variants is 'Parallel and numbered variants generated from the authoritative workbooks.';
