@@ -139,7 +139,7 @@ function safeUrl(value, allowRelative = true) {
 function approvedImage(entry) { return entry?.rightsStatus === "approved" ? entry : null; }
 function cardImage(cardId) { return approvedImage(state.images.cards?.[cardId]); }
 function setImage(setId) { return approvedImage(state.images.sets?.[setId]); }
-function initials(value) { return String(value || "RV").split(/\s+/).filter(Boolean).slice(0, 2).map((part) => part[0]).join("").toUpperCase(); }
+function initials(value) { return String(value || "GR").split(/\s+/).filter(Boolean).slice(0, 2).map((part) => part[0]).join("").toUpperCase(); }
 
 function imageMarkup(entry, alt, fallback, className = "") {
   const source = safeUrl(entry?.thumbnail || entry?.front || entry?.image);
@@ -157,7 +157,7 @@ function setCard(set) {
   return `<article class="set-card" role="button" tabindex="0" aria-label="Open ${escapeHtml(set.shortName)} checklist" data-set-id="${escapeHtml(set.id)}" style="--accent:${escapeHtml(set.accent || '#8b7cf6')}">
     <div class="set-visual" aria-hidden="true">
       <span class="set-visual-rings"></span>
-      ${approved ? imageMarkup(approved, "", "", "set-cover") : `<div class="set-cover-placeholder"><span>RV</span><strong>${escapeHtml(set.year)}</strong><small>COLLECTION</small></div>`}
+      ${approved ? imageMarkup(approved, "", "", "set-cover") : `<div class="set-cover-placeholder"><span>GR</span><strong>${escapeHtml(set.year)}</strong><small>COLLECTION</small></div>`}
       <span class="set-visual-label">${escapeHtml(set.year)} COLLECTION</span>
     </div>
     <div class="set-card-body">
