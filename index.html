@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#09090b" />
+    <meta name="theme-color" content="#101225" />
     <meta name="description" content="Track WWE trading card sets, collection progress and wanted cards." />
     <link rel="manifest" href="manifest.json" />
     <link rel="stylesheet" href="styles.css" />
@@ -51,13 +51,16 @@
         <div class="content">
           <section class="view active" id="dashboardView">
             <div class="hero-panel">
-              <div>
+              <div class="hero-copy">
                 <p class="eyebrow">YOUR DIGITAL CARD VAULT</p>
-                <h2>Know what you own.<br /><span>Find what you need.</span></h2>
-                <p>Browse verified WWE checklists and track every card in your collection.</p>
-                <button class="primary-button" data-go="cards">Browse all cards</button>
+                <h2>Every card.<br /><span>One collection.</span></h2>
+                <p>Explore verified WWE checklists, follow your progress and keep your collection organised.</p>
+                <div class="hero-actions">
+                  <button class="primary-button" data-go="sets">Explore sets <span aria-hidden="true">↗</span></button>
+                  <button class="secondary-button" data-go="cards">Browse cards</button>
+                </div>
               </div>
-              <div class="hero-emblem" aria-hidden="true"><span>RV</span></div>
+              <div class="hero-progress" id="heroProgress" aria-label="Collection progress"></div>
             </div>
             <div class="stat-grid" id="stats"></div>
             <div class="section-heading">
@@ -65,6 +68,11 @@
               <button class="text-button" data-go="sets">View all sets</button>
             </div>
             <div class="set-grid" id="dashboardSets"></div>
+            <div class="section-heading recent-heading">
+              <div><p class="eyebrow">THE VAULT</p><h2>Recently collected</h2></div>
+              <button class="text-button" data-go="collection">View my collection</button>
+            </div>
+            <div class="recent-grid" id="dashboardRecent"></div>
           </section>
 
           <section class="view" id="setsView">

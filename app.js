@@ -141,19 +141,28 @@ function setCard(set) {
   const owned = setOwnedCount(set.id);
   const progress = set.cardCount ? (owned / set.cardCount) * 100 : 0;
   const progressLabel = formatPercentage(owned, set.cardCount);
-  return `<article class="set-card" data-set-id="${set.id}" style="--accent:${set.accent}">
-    ${imageMarkup(setImage(set.id), `${set.name} sealed product`, "BOX", "set-image")}
-    <span class="set-year">${set.year} · ${escapeHtml(set.manufacturer)}</span>
-    <h3>${escapeHtml(set.shortName)}</h3>
-    <div class="set-meta">${set.cardCount.toLocaleString()} cards · ${set.subsetCount} subsets</div>
-    <div class="progress-track"><div class="progress-fill" style="--progress:${progress}%"></div></div>
-    <div class="progress-label"><span>${owned.toLocaleString()} collected</span><strong>${progressLabel}</strong></div>
+  const approved = setImage(set.id);
+  return `<article class="set-card" role="button" tabindex="0" aria-label="Open ${escapeHtml(set.shortName)} checklist" data-set-id="${escapeHtml(set.id)}" style="--accent:${escapeHtml(set.accent || '#8b7cf6')}">
+    <div class="set-visual" aria-hidden="true">
+      <span class="set-visual-rings"></span>
+      ${approved ? imageMarkup(approved, "", "", "set-cover") : `<div class="set-cover-placeholder"><span>RV</span><strong>${escapeHtml(set.year)}</strong><small>COLLECTION</small></div>`}
+      <span class="set-visual-label">${escapeHtml(set.year)} COLLECTION</span>
+    </div>
+    <div class="set-card-body">
+      <span class="set-year">${set.year} · ${escapeHtml(set.manufacturer)}</span>
+      <h3>${escapeHtml(set.shortName)}</h3>
+      <div class="set-meta">${set.cardCount.toLocaleString()} cards · ${set.subsetCount} subsets</div>
+      <div class="progress-track" role="progressbar" aria-label="Set collected" aria-valuenow="${owned}" aria-valuemin="0" aria-valuemax="${set.cardCount}"><div class="progress-fill" style="--progress:${progress}%"></div></div>
+      <div class="progress-label"><span>${owned.toLocaleString()} collected</span><strong>${progressLabel}</strong></div>
+    </div>
   </article>`;
 }
 
 function renderStats() {
   const { owned, wanted } = counts();
   const completion = formatPercentage(owned, state.catalogue.cardCount);
+  const progress = state.catalogue.cardCount ? (owned / state.catalogue.cardCount) * 100 : 0;
+  $("#heroProgress").innerHTML = `<div class="hero-progress-ring" style="--progress:${progress}%"><div><strong>${completion}</strong><span>COMPLETE</span></div></div><p><strong>${owned.toLocaleString()}</strong> of ${state.catalogue.cardCount.toLocaleString()} cards collected</p>`;
   $("#stats").innerHTML = [
     ["Cards owned", owned.toLocaleString(), `${completion} of catalogued cards`],
     ["Wanted cards", wanted.toLocaleString(), "Your active chase list"],
@@ -166,6 +175,17 @@ function renderSets() {
   const cards = state.catalogue.sets.map(setCard).join("");
   $("#dashboardSets").innerHTML = cards;
   $("#allSets").innerHTML = cards;
+}
+
+function renderRecent() {
+  const recent = state.catalogue.cards.filter((card) => statusFor(card.id) === "owned")
+    .sort((a, b) => new Date(entryFor(b.id)?.updatedAt || 0) - new Date(entryFor(a.id)?.updatedAt || 0))
+    .slice(0, 6);
+  $("#dashboardRecent").innerHTML = recent.length ? recent.map((card) => `<button class="recent-card" data-open-card="${escapeHtml(card.id)}" aria-label="View ${escapeHtml(card.name)}">
+    ${imageMarkup(cardImage(card.id), `${card.name} card`, initials(card.name), "recent-image")}
+    <span class="recent-name">${escapeHtml(card.name)}</span><span class="recent-number">#${escapeHtml(card.number)} · ${escapeHtml(card.subset)}</span>
+    <span class="recent-owned">✓ Owned</span>
+  </button>`).join("") : emptyState("Your collection starts here", "Mark a card as Owned and it will appear in your vault.");
 }
 
 function filteredCards(collectionOnly = false) {
@@ -304,7 +324,7 @@ function renderCollection() {
 }
 
 function emptyState(title, message) { return `<div class="empty-state"><strong>${title}</strong><span>${message}</span></div>`; }
-function renderAll() { renderStats(); renderSets(); renderCards(); renderCollection(); }
+function renderAll() { renderStats(); renderSets(); renderRecent(); renderCards(); renderCollection(); }
 
 function populateFilters() {
   $("#setFilter").innerHTML = `<option value="all">All sets</option>${state.catalogue.sets.map((set) => `<option value="${set.id}">${escapeHtml(set.shortName)}</option>`).join("")}`;
@@ -603,6 +623,12 @@ function attachEvents() {
     }
     const action = event.target.closest("[data-card-id]");
     if (action) setStatus(action.dataset.cardId, action.dataset.status);
+  });
+  document.addEventListener("keydown", (event) => {
+    const set = event.target.closest(".set-card[data-set-id]");
+    if (!set || !["Enter", " "].includes(event.key)) return;
+    event.preventDefault();
+    set.click();
   });
   document.addEventListener("submit", (event) => {
     if (event.target.id !== "collectionDetailsForm") return;
