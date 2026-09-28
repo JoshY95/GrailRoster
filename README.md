@@ -1,6 +1,6 @@
-# RingVault
+# GrailRoster
 
-RingVault is a WWE trading card collection tracker built from verified master catalogues.
+GrailRoster is a WWE trading card collection tracker built from verified master catalogues.
 
 ## MVP features
 
@@ -16,13 +16,13 @@ RingVault is a WWE trading card collection tracker built from verified master ca
 - Installable, responsive and available offline after the first visit
 - Rights-aware card and sealed-product image support with lazy loading and placeholders
 
-Guest collection progress is stored in the browser. Signed-in collection progress is protected by Supabase Row Level Security and synchronized with RingVault Sydney.
+Guest collection progress is stored in the browser. Signed-in collection progress is protected by Supabase Row Level Security and synchronized with the GrailRoster backend.
 
-The active backend project is **RingVault Sydney** in Supabase region `ap-southeast-2` (project reference `jvsvuxgpaqwlcstfuzbd`).
+The active backend project is in Supabase region `ap-southeast-2` (project reference `jvsvuxgpaqwlcstfuzbd`).
 
 ## Reference images
 
-The app loads approved card and sealed-product images from `data/images.json`. Until an asset is approved, RingVault displays a generated placeholder. See `docs/IMAGE_LIBRARY.md` for the Supabase storage layout, rights register and bulk-manifest workflow.
+The app loads approved card and sealed-product images from `data/images.json`. Until an asset is approved, GrailRoster displays a generated placeholder. See `docs/IMAGE_LIBRARY.md` for the Supabase storage layout, rights register and bulk-manifest workflow.
 
 ## Run locally
 
@@ -68,6 +68,6 @@ The ten post-Universe source workbooks and their original checklist files are st
 
 ## Authentication setup
 
-The browser uses the public Supabase publishable key in `config.js`; no server secret is shipped to the client. Before production sign-in testing, add every deployed RingVault origin to **Authentication → URL Configuration → Redirect URLs** in the RingVault Sydney Supabase dashboard. Keep localhost entries for local testing and use exact HTTPS deployment URLs in production.
+The browser uses the public Supabase publishable key in `config.js`; no server secret is shipped to the client. Before production sign-in testing, add every deployed GrailRoster origin to **Authentication → URL Configuration → Redirect URLs** in the GrailRoster Supabase dashboard. Keep localhost entries for local testing and use exact HTTPS deployment URLs in production.
 
 Email/password accounts use Supabase `signUp` and `signInWithPassword`. Hosted projects require email confirmation by default. For closed testing only, confirmation can be temporarily disabled under **Authentication → Providers → Email**. Re-enable confirmation and configure custom SMTP before a public launch.

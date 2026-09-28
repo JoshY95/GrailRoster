@@ -1,6 +1,6 @@
 {
-  "name": "RingVault WWE Card Tracker",
-  "short_name": "RingVault",
+  "name": "GrailRoster WWE Card Tracker",
+  "short_name": "GrailRoster",
   "description": "Track WWE trading card sets, owned cards and wanted cards.",
   "start_url": "./",
   "display": "standalone",

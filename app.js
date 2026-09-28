@@ -1,5 +1,7 @@
-const GUEST_STORAGE_KEY = "ringvault.collection.v1";
-const USER_STORAGE_PREFIX = "ringvault.collection.user";
+const GUEST_STORAGE_KEY = "grailroster.collection.v1";
+const USER_STORAGE_PREFIX = "grailroster.collection.user";
+const LEGACY_GUEST_STORAGE_KEY = "ringvault.collection.v1";
+const LEGACY_USER_STORAGE_PREFIX = "ringvault.collection.user";
 const PAGE_SIZE = 100;
 const API_PAGE_SIZE = 1000;
 let authMode = "sign-in";
@@ -26,9 +28,19 @@ function collectionStorageKey(userId = state?.user?.id) {
   return userId ? `${USER_STORAGE_PREFIX}.${userId}.v1` : GUEST_STORAGE_KEY;
 }
 
+function legacyStorageKeyFor(storageKey) {
+  if (storageKey === GUEST_STORAGE_KEY) return LEGACY_GUEST_STORAGE_KEY;
+  if (storageKey.startsWith(`${USER_STORAGE_PREFIX}.`)) return storageKey.replace(USER_STORAGE_PREFIX, LEGACY_USER_STORAGE_PREFIX);
+  return null;
+}
+
 function loadCollection(storageKey = GUEST_STORAGE_KEY) {
   try {
-    const collection = JSON.parse(localStorage.getItem(storageKey)) || {};
+    const legacyStorageKey = legacyStorageKeyFor(storageKey);
+    const storedCollection = localStorage.getItem(storageKey);
+    const legacyCollection = storedCollection === null && legacyStorageKey ? localStorage.getItem(legacyStorageKey) : null;
+    const collection = JSON.parse(storedCollection ?? legacyCollection) || {};
+    if (storedCollection === null && legacyCollection !== null) localStorage.setItem(storageKey, legacyCollection);
     return Object.fromEntries(Object.entries(collection).filter(([, item]) => ["owned", "wanted", "missing"].includes(item?.status)));
   } catch { return {}; }
 }
@@ -370,7 +382,7 @@ function backupCollection() {
   const blob = new Blob([JSON.stringify({ version: 2, exportedAt: new Date().toISOString(), collection: state.collection }, null, 2)], { type: "application/json" });
   const link = document.createElement("a");
   link.href = URL.createObjectURL(blob);
-  link.download = `ringvault-backup-${new Date().toISOString().slice(0, 10)}.json`;
+  link.download = `grailroster-backup-${new Date().toISOString().slice(0, 10)}.json`;
   link.click();
   URL.revokeObjectURL(link.href);
 }
@@ -537,7 +549,7 @@ async function handleSession(session) {
 }
 
 async function initSupabase() {
-  const config = window.RINGVAULT_CONFIG;
+  const config = window.GRAILROSTER_CONFIG;
   if (!config?.supabaseUrl || !config?.supabasePublishableKey || !window.supabase?.createClient) return;
   state.supabase = window.supabase.createClient(config.supabaseUrl, config.supabasePublishableKey, {
     auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true },
@@ -600,7 +612,7 @@ function setAuthMode(mode) {
   $("#authPassword").autocomplete = signingUp ? "new-password" : "current-password";
   $("#passwordHint").textContent = signingUp
     ? "Create a password with at least 8 characters."
-    : "Use the password for your RingVault account.";
+    : "Use the password for your GrailRoster account.";
   $("#authSubmit").textContent = signingUp ? "Create account" : "Sign in";
   $("#authSubmit").disabled = false;
   $("#magicLinkButton").textContent = "Email me a one-time sign-in link";
@@ -697,7 +709,7 @@ function attachEvents() {
     message.textContent = "Sending your secure sign-in link…";
     try {
       await sendMagicLink(email.value.trim());
-      message.textContent = "Check your email and open the RingVault sign-in link.";
+      message.textContent = "Check your email and open the GrailRoster sign-in link.";
       button.textContent = "Link sent";
     } catch (error) {
       message.textContent = authErrorMessage(error);
@@ -724,7 +736,7 @@ async function init() {
     if (["dashboard", "sets", "cards", "collection"].includes(requested)) changeView(requested);
     if ("serviceWorker" in navigator && location.protocol !== "file:") navigator.serviceWorker.register("sw.js");
   } catch (error) {
-    $(".content").innerHTML = emptyState("RingVault could not load", "Refresh the page to try again.");
+    $(".content").innerHTML = emptyState("GrailRoster could not load", "Refresh the page to try again.");
     console.error(error);
   }
 }
