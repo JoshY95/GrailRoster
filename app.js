@@ -372,6 +372,7 @@ function updateSyncStatus(mode, message) {
 function updateAuthUI() {
   const signedIn = Boolean(state.user);
   $("#authButton").hidden = signedIn;
+  $("#accountSettingsButton").hidden = !signedIn;
   $("#signOutButton").hidden = !signedIn;
   $("#accountName").textContent = signedIn ? state.user.email : "Guest mode";
   $("#accountNote").textContent = signedIn ? "Your vault follows you" : "Sign in for cloud sync";
@@ -627,6 +628,41 @@ async function updatePassword(password) {
   if (error) throw error;
 }
 
+async function reauthenticate(currentPassword) {
+  if (!state.user?.email) throw new Error("Please sign in again before changing account settings.");
+  await signInWithPassword(state.user.email, currentPassword);
+}
+
+async function requestEmailChange(newEmail) {
+  const redirect = new URL(location.href);
+  redirect.hash = "";
+  redirect.search = "";
+  const { error } = await state.supabase.auth.updateUser(
+    { email: newEmail },
+    { emailRedirectTo: redirect.href },
+  );
+  if (error) throw error;
+}
+
+async function deleteCurrentAccount() {
+  if (!state.user) throw new Error("Please sign in again before deleting your account.");
+  const userId = state.user.id;
+  const userStorageKey = collectionStorageKey(userId);
+  const legacyUserStorageKey = legacyStorageKeyFor(userStorageKey);
+  const { error } = await state.supabase.functions.invoke("delete-account", { body: {} });
+  if (error) throw error;
+  localStorage.removeItem(userStorageKey);
+  if (legacyUserStorageKey) localStorage.removeItem(legacyUserStorageKey);
+  localStorage.removeItem(GUEST_STORAGE_KEY);
+  localStorage.removeItem(LEGACY_GUEST_STORAGE_KEY);
+  await state.supabase.auth.signOut({ scope: "local" }).catch(() => {});
+  state.user = null;
+  state.collection = {};
+  saveCollection();
+  updateAuthUI();
+  renderAll();
+}
+
 function authErrorMessage(error) {
   const message = error?.message || "Account access failed. Please try again.";
   if (/invalid login credentials/i.test(message)) return "Email or password is incorrect.";
@@ -727,6 +763,14 @@ function attachEvents() {
   $("#closeCardDialog").addEventListener("click", () => $("#cardDialog").close());
   $("#cardDialog").addEventListener("click", (event) => { if (event.target === event.currentTarget) event.currentTarget.close(); });
   $("#authButton").addEventListener("click", () => { setAuthMode("sign-in"); $("#authDialog").showModal(); });
+  $("#accountSettingsButton").addEventListener("click", () => {
+    $("#settingsAccountEmail").textContent = state.user?.email || "";
+    $$("#accountSettingsDialog form").forEach((form) => form.reset());
+    $$("#accountSettingsDialog .settings-message").forEach((message) => { message.textContent = ""; });
+    $("#accountSettingsDialog").showModal();
+  });
+  $("#closeAccountSettings").addEventListener("click", () => $("#accountSettingsDialog").close());
+  $("#accountSettingsDialog").addEventListener("click", (event) => { if (event.target === event.currentTarget) event.currentTarget.close(); });
   $("#closeAuthDialog").addEventListener("click", () => $("#authDialog").close());
   $("#authDialog").addEventListener("click", (event) => { if (event.target === event.currentTarget) event.currentTarget.close(); });
   $("#authSignInTab").addEventListener("click", () => setAuthMode("sign-in"));
@@ -736,6 +780,79 @@ function attachEvents() {
   $("#signOutButton").addEventListener("click", async () => {
     const { error } = await state.supabase.auth.signOut();
     if (error) showToast("Sign out failed. Please try again."); else showToast("Signed out · cloud collection stays with your account");
+  });
+  $("#emailChangeForm").addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const form = event.currentTarget;
+    const button = form.querySelector("button[type='submit']");
+    const message = $("#emailChangeMessage");
+    const newEmail = $("#newAccountEmail").value.trim();
+    const currentPassword = $("#emailCurrentPassword").value;
+    button.disabled = true;
+    message.textContent = "Checking your password…";
+    try {
+      await reauthenticate(currentPassword);
+      message.textContent = "Sending confirmation email…";
+      await requestEmailChange(newEmail);
+      form.reset();
+      message.textContent = "Confirmation sent. Follow the email instructions to finish changing your address.";
+    } catch (error) {
+      message.textContent = authErrorMessage(error);
+    } finally {
+      button.disabled = false;
+    }
+  });
+  $("#passwordChangeForm").addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const form = event.currentTarget;
+    const button = form.querySelector("button[type='submit']");
+    const message = $("#passwordChangeMessage");
+    const currentPassword = $("#settingsCurrentPassword").value;
+    const newPassword = $("#settingsNewPassword").value;
+    const confirmPassword = $("#settingsConfirmPassword").value;
+    if (newPassword !== confirmPassword) {
+      message.textContent = "The new passwords do not match.";
+      return;
+    }
+    if (currentPassword === newPassword) {
+      message.textContent = "Choose a password different from your current password.";
+      return;
+    }
+    button.disabled = true;
+    message.textContent = "Checking your current password…";
+    try {
+      await reauthenticate(currentPassword);
+      message.textContent = "Updating your password…";
+      await updatePassword(newPassword);
+      form.reset();
+      message.textContent = "Password updated successfully.";
+    } catch (error) {
+      message.textContent = authErrorMessage(error);
+    } finally {
+      button.disabled = false;
+    }
+  });
+  $("#deleteAccountForm").addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const form = event.currentTarget;
+    const button = form.querySelector("button[type='submit']");
+    const message = $("#deleteAccountMessage");
+    if ($("#deleteConfirmation").value !== "DELETE") {
+      message.textContent = "Type DELETE exactly to confirm.";
+      return;
+    }
+    button.disabled = true;
+    message.textContent = "Checking your password…";
+    try {
+      await reauthenticate($("#deleteCurrentPassword").value);
+      message.textContent = "Deleting your account and cloud collection…";
+      await deleteCurrentAccount();
+      $("#accountSettingsDialog").close();
+      showToast("Your account and cloud collection were deleted");
+    } catch (error) {
+      message.textContent = authErrorMessage(error);
+      button.disabled = false;
+    }
   });
   $("#authForm").addEventListener("submit", async (event) => {
     event.preventDefault();
