@@ -1,5 +1,5 @@
-const CACHE = "grailroster-obsidian-v16";
-const ASSETS = ["./", "index.html", "theme.css", "styles.css", "ui.js", "config.js", "app.js", "manifest.json", "data/catalogue.json", "data/images.json"];
+const CACHE = "grailroster-vault-v17";
+const ASSETS = ["./", "index.html", "theme.css", "styles.css", "vault.css", "ui.js", "vault.js", "config.js", "app.js", "manifest.json", "data/catalogue.json", "data/images.json"];
 
 self.addEventListener("install", (event) => event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS)).then(() => self.skipWaiting())));
 self.addEventListener("activate", (event) => event.waitUntil(caches.keys()
