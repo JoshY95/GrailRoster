@@ -16,6 +16,7 @@
     <link rel="manifest" href="manifest.json" />
     <link rel="stylesheet" href="theme.css" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="vault.css" />
     <title>GrailRoster</title>
   </head>
   <body>
@@ -118,6 +119,7 @@
 
           <section class="view" id="collectionView">
             <div class="collection-summary" id="collectionSummary"></div>
+            <div id="vaultOverview"></div>
             <div class="list-toolbar"><input id="ownedSearch" type="search" placeholder="Search your collection" aria-label="Search owned cards" /><select id="ownedSort" aria-label="Sort owned cards"><option value="recent">Recently added</option><option value="name">Wrestler A–Z</option><option value="set">Set</option></select><div class="view-toggle" aria-label="Collection layout"><button data-layout-target="collectionList" data-layout="grid" aria-label="Collection grid" aria-pressed="true"><span data-icon="grid"></span></button><button data-layout-target="collectionList" data-layout="list" aria-label="Collection list" aria-pressed="false"><span data-icon="list"></span></button></div></div>
             <div class="card-list" id="collectionList" data-layout="grid"></div>
           </section>
@@ -220,6 +222,7 @@
     <script src="config.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.112.0/dist/umd/supabase.min.js" integrity="sha384-De+l/Df7qym5QBDVocD3+gW1S7IjR3epf+6KbRDjB3FCCzM/LqVTwqckT6FhFar8" crossorigin="anonymous"></script>
     <script src="ui.js" defer></script>
+    <script src="vault.js" defer></script>
     <script src="app.js" defer></script>
   </body>
 </html>

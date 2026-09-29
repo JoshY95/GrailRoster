@@ -80,9 +80,10 @@ function migrateLegacyCollectionIds() {
 }
 
 function entryFor(cardId) { return state.collection[cardId] || null; }
-function statusFor(cardId) { return entryFor(cardId)?.status || "missing"; }
+function statusFor(cardId) { return Vault.effectiveStatus(entryFor(cardId)); }
 
 async function setStatus(cardId, nextStatus) {
+  if (Vault.managed(entryFor(cardId))) { Vault.open(cardId); return; }
   const current = statusFor(cardId);
   state.collection[cardId] = {
     ...(entryFor(cardId) || {}),
@@ -305,12 +306,14 @@ function openCard(cardId) {
     </div>
   </div>`;
   const dialog = $("#cardDialog");
+  Vault.mount(card.id);
   if (typeof dialog.showModal === "function") dialog.showModal(); else dialog.setAttribute("open", "");
 }
 
 async function saveCollectionDetails(form) {
   const values = new FormData(form);
   const cardId = form.dataset.cardId;
+  if (Vault.managed(entryFor(cardId))) { Vault.open(cardId); return; }
   const status = values.get("status");
   state.collection[cardId] = {
     status,
@@ -351,11 +354,12 @@ function renderCards() {
 }
 
 function renderCollection() {
+  Vault.overview();
   const ownedCards = state.catalogue.cards.filter((card) => statusFor(card.id) === "owned");
   const wanted = state.catalogue.cards.filter((card) => statusFor(card.id) === "wanted").length;
   const representedSets = new Set(ownedCards.map((card) => card.setId)).size;
   $("#collectionSummary").innerHTML = [
-    ["Total cards", ownedCards.length.toLocaleString()], ["Sets represented", representedSets], ["Wanted cards", wanted.toLocaleString()],
+    ["Unique cards", ownedCards.length.toLocaleString()], ["Physical copies", ownedCards.reduce((sum,card)=>sum+(Vault.managed(entryFor(card.id)) ? Vault.active(entryFor(card.id)).length : entryFor(card.id)?.quantity || 1),0).toLocaleString()], ["Sets represented", representedSets], ["Wanted cards", wanted.toLocaleString()],
   ].map(([label, value]) => `<div class="summary-card"><span>${label}</span><strong>${value}</strong></div>`).join("");
   const query = $("#ownedSearch").value.trim().toLocaleLowerCase();
   const sort = $("#ownedSort").value;
@@ -432,7 +436,7 @@ function updateAuthUI() {
 }
 
 function backupCollection() {
-  const blob = new Blob([JSON.stringify({ version: 2, exportedAt: new Date().toISOString(), collection: state.collection }, null, 2)], { type: "application/json" });
+  const blob = new Blob([JSON.stringify({ version: 3, exportedAt: new Date().toISOString(), collection: state.collection }, null, 2)], { type: "application/json" });
   const link = document.createElement("a");
   link.href = URL.createObjectURL(blob);
   link.download = `grailroster-backup-${new Date().toISOString().slice(0, 10)}.json`;
@@ -444,12 +448,19 @@ async function restoreCollection(file) {
   try {
     const payload = JSON.parse(await file.text());
     if (!payload.collection || typeof payload.collection !== "object") throw new Error("Invalid backup");
+    for (const entry of Object.values(payload.collection)) {
+      if (!entry || !["owned","wanted","missing"].includes(entry.status)) throw new Error("Invalid collection status");
+      if (entry.copies !== undefined && entry.copies !== null) {
+        if (!Array.isArray(entry.copies) || entry.copies.length > 999 || new Set(entry.copies.map(c=>c.id)).size !== entry.copies.length) throw new Error("Invalid copies");
+        entry.copies.forEach(Vault.validate);
+      }
+    }
     state.collection = payload.collection;
     migrateLegacyCollectionIds();
     saveCollection();
     renderAll();
     if (state.user) await syncCollection();
-    showToast("Collection restored");
+    showToast(state.user ? "Backup loaded. Existing cloud Vault records take priority." : "Collection restored");
   } catch (error) {
     showToast("That backup file could not be restored");
     console.error(error);
@@ -508,6 +519,7 @@ function remoteRowToEntry(row) {
   return {
     status: row.status, quantity: row.quantity, condition: row.condition, purchasePrice: row.purchase_price,
     purchaseCurrency: row.purchase_currency, acquiredAt: row.acquired_at, notes: row.notes, updatedAt: row.updated_at,
+    copies: row.vault_copies ?? null,
   };
 }
 
@@ -517,6 +529,7 @@ function entryToRemote(cardId, entry) {
     condition: entry.condition || null, purchase_price: entry.purchasePrice ?? null,
     purchase_currency: entry.purchaseCurrency || "AUD", acquired_at: entry.acquiredAt || null,
     notes: entry.notes || null, updated_at: entry.updatedAt || new Date().toISOString(),
+    ...(Vault.managed(entry) ? {vault_copies:entry.copies} : {}),
   };
 }
 
@@ -536,11 +549,13 @@ async function syncCollection() {
   state.syncing = true;
   updateSyncStatus("syncing", "Syncing your vault…");
   try {
-    const remoteRows = await fetchAllRows("collection_items", "card_id,status,quantity,condition,purchase_price,purchase_currency,acquired_at,notes,updated_at", "card_id");
+    const remoteRows = await fetchAllRows("collection_items", "card_id,status,quantity,condition,purchase_price,purchase_currency,acquired_at,notes,updated_at,vault_copies", "card_id");
     const remote = new Map(remoteRows.map((row) => [row.card_id, remoteRowToEntry(row)]));
     const validCardIds = new Set(state.catalogue.cards.map((card) => card.id));
     const upserts = [];
     const deletions = [];
+    const guestSnapshot = loadCollection(GUEST_STORAGE_KEY);
+    let guestVaultConflict = false;
 
     for (const cardId of new Set([...Object.keys(state.collection), ...remote.keys()])) {
       if (!validCardIds.has(cardId)) continue;
@@ -551,6 +566,14 @@ async function syncCollection() {
         continue;
       }
       if (!localEntry) continue;
+      // Once managed, cloud records are authoritative. Vault writes use optimistic
+      // concurrency checks; the legacy timestamp merge must not bypass them.
+      if (Vault.managed(remoteEntry)) {
+        const guestEntry = guestSnapshot[cardId];
+        if (guestEntry && JSON.stringify(guestEntry.copies || []) !== JSON.stringify(remoteEntry.copies)) guestVaultConflict = true;
+        state.collection[cardId] = remoteEntry;
+        continue;
+      }
       if (!remoteEntry) {
         if (localEntry.status !== "missing") upserts.push(entryToRemote(cardId, localEntry));
         continue;
@@ -573,7 +596,8 @@ async function syncCollection() {
       if (error) throw error;
     }
     saveCollection();
-    localStorage.setItem(GUEST_STORAGE_KEY, "{}");
+    if (!guestVaultConflict) localStorage.setItem(GUEST_STORAGE_KEY, "{}");
+    else showToast("Cloud Vault loaded. Conflicting guest records are still saved in guest mode.");
     renderAll();
     updateSyncStatus("cloud", "Synced to your account");
   } catch (error) {
@@ -588,6 +612,7 @@ async function handleSession(session) {
   const previousUserId = state.user?.id;
   const nextUser = session?.user || null;
   if (nextUser?.id !== previousUserId) {
+    Vault.reset();
     state.user = nextUser;
     state.collection = nextUser
       ? mergeLocalCollections(loadCollection(collectionStorageKey(nextUser.id)), loadCollection(GUEST_STORAGE_KEY))
@@ -701,6 +726,7 @@ async function deleteCurrentAccount() {
   const userId = state.user.id;
   const userStorageKey = collectionStorageKey(userId);
   const legacyUserStorageKey = legacyStorageKeyFor(userStorageKey);
+  await Vault.removeAccountPhotos();
   const { error } = await state.supabase.functions.invoke("delete-account", { body: {} });
   if (error) throw error;
   localStorage.removeItem(userStorageKey);
@@ -1012,6 +1038,7 @@ function attachEvents() {
 async function init() {
   try {
     GrailUI.mountIcons();
+    Vault.init();
     await initSupabase();
     const [catalogue, imageResponse] = await Promise.all([loadCatalogue(), fetch("data/images.json").catch(() => null)]);
     state.catalogue = catalogue;
