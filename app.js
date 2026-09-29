@@ -548,17 +548,34 @@ async function handleSession(session) {
   if (state.user && state.user.id !== previousUserId && state.catalogue) await syncCollection();
 }
 
+function recoveryRequestedInUrl() {
+  return new URLSearchParams(location.search).get("type") === "recovery"
+    || new URLSearchParams(location.hash.replace(/^#/, "")).get("type") === "recovery";
+}
+
+function openPasswordUpdate() {
+  setAuthMode("update-password");
+  if (!$("#authDialog").open) $("#authDialog").showModal();
+}
+
+async function handleAuthEvent(event, session) {
+  await handleSession(session);
+  if (event === "PASSWORD_RECOVERY") openPasswordUpdate();
+}
+
 async function initSupabase() {
   const config = window.GRAILROSTER_CONFIG;
   if (!config?.supabaseUrl || !config?.supabasePublishableKey || !window.supabase?.createClient) return;
+  const recoveryRequested = recoveryRequestedInUrl();
   state.supabase = window.supabase.createClient(config.supabaseUrl, config.supabasePublishableKey, {
     auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true },
   });
+  state.supabase.auth.onAuthStateChange((event, session) => setTimeout(() => handleAuthEvent(event, session), 0));
   const { data, error } = await state.supabase.auth.getSession();
   if (error) console.error(error);
   state.user = data?.session?.user || null;
   if (state.user) state.collection = mergeLocalCollections(loadCollection(collectionStorageKey(state.user.id)), loadCollection(GUEST_STORAGE_KEY));
-  state.supabase.auth.onAuthStateChange((_event, session) => setTimeout(() => handleSession(session), 0));
+  if (recoveryRequested && data?.session) openPasswordUpdate();
 }
 
 async function sendMagicLink(email) {
@@ -594,6 +611,22 @@ async function signUpWithPassword(email, password) {
   return data;
 }
 
+async function sendPasswordReset(email) {
+  if (!state.supabase) throw new Error("Cloud sync is unavailable right now");
+  const redirect = new URL(location.href);
+  redirect.pathname = "/";
+  redirect.hash = "";
+  redirect.search = "";
+  const { error } = await state.supabase.auth.resetPasswordForEmail(email, { redirectTo: redirect.href });
+  if (error) throw error;
+}
+
+async function updatePassword(password) {
+  if (!state.supabase) throw new Error("Cloud sync is unavailable right now");
+  const { error } = await state.supabase.auth.updateUser({ password });
+  if (error) throw error;
+}
+
 function authErrorMessage(error) {
   const message = error?.message || "Account access failed. Please try again.";
   if (/invalid login credentials/i.test(message)) return "Email or password is incorrect.";
@@ -605,18 +638,47 @@ function authErrorMessage(error) {
 function setAuthMode(mode) {
   authMode = mode;
   const signingUp = mode === "sign-up";
+  const requestingReset = mode === "forgot-password";
+  const updatingPassword = mode === "update-password";
+  const regularAuth = !requestingReset && !updatingPassword;
   $("#authSignInTab").classList.toggle("active", !signingUp);
   $("#authSignInTab").setAttribute("aria-selected", String(!signingUp));
   $("#authSignUpTab").classList.toggle("active", signingUp);
   $("#authSignUpTab").setAttribute("aria-selected", String(signingUp));
-  $("#authPassword").autocomplete = signingUp ? "new-password" : "current-password";
-  $("#passwordHint").textContent = signingUp
-    ? "Create a password with at least 8 characters."
+  $("#authTabs").hidden = !regularAuth;
+  $("#authEmailLabel").hidden = updatingPassword;
+  $("#authEmail").hidden = updatingPassword;
+  $("#authEmail").required = !updatingPassword;
+  $("#authPasswordLabel").hidden = requestingReset;
+  $("#authPassword").hidden = requestingReset;
+  $("#authPassword").required = !requestingReset;
+  $("#authPasswordConfirmLabel").hidden = !updatingPassword;
+  $("#authPasswordConfirm").hidden = !updatingPassword;
+  $("#authPasswordConfirm").required = updatingPassword;
+  $("#passwordHint").hidden = requestingReset;
+  $("#forgotPasswordButton").hidden = mode !== "sign-in";
+  $("#authDivider").hidden = !regularAuth;
+  $("#magicLinkButton").hidden = !regularAuth;
+  $("#authBackButton").hidden = !requestingReset;
+  $("#authPassword").autocomplete = signingUp || updatingPassword ? "new-password" : "current-password";
+  $("#authEyebrow").textContent = updatingPassword ? "ACCOUNT SECURITY" : "CLOUD SYNC";
+  $("#authTitle").textContent = requestingReset
+    ? "Reset your password."
+    : updatingPassword ? "Choose a new password." : signingUp ? "Create your vault." : "Sign in to your vault.";
+  $("#authDescription").textContent = requestingReset
+    ? "Enter your account email and we’ll send you a secure password-reset link."
+    : updatingPassword ? "Use at least 8 characters. Your new password will apply immediately."
+      : "Use an account to keep your collection synced across devices. Cards saved on this device will be merged into your account.";
+  $("#passwordHint").textContent = signingUp || updatingPassword
+    ? "Use at least 8 characters."
     : "Use the password for your GrailRoster account.";
-  $("#authSubmit").textContent = signingUp ? "Create account" : "Sign in";
+  $("#authSubmit").textContent = requestingReset
+    ? "Send reset link" : updatingPassword ? "Save new password" : signingUp ? "Create account" : "Sign in";
   $("#authSubmit").disabled = false;
   $("#magicLinkButton").textContent = "Email me a one-time sign-in link";
   $("#magicLinkButton").disabled = false;
+  $("#authPassword").value = "";
+  $("#authPasswordConfirm").value = "";
   $("#authMessage").textContent = "";
 }
 
@@ -666,6 +728,8 @@ function attachEvents() {
   $("#authDialog").addEventListener("click", (event) => { if (event.target === event.currentTarget) event.currentTarget.close(); });
   $("#authSignInTab").addEventListener("click", () => setAuthMode("sign-in"));
   $("#authSignUpTab").addEventListener("click", () => setAuthMode("sign-up"));
+  $("#forgotPasswordButton").addEventListener("click", () => setAuthMode("forgot-password"));
+  $("#authBackButton").addEventListener("click", () => setAuthMode("sign-in"));
   $("#signOutButton").addEventListener("click", async () => {
     const { error } = await state.supabase.auth.signOut();
     if (error) showToast("Sign out failed. Please try again."); else showToast("Signed out · cloud collection stays with your account");
@@ -677,8 +741,39 @@ function attachEvents() {
     const message = $("#authMessage");
     const email = $("#authEmail").value.trim();
     const password = $("#authPassword").value;
+    const passwordConfirm = $("#authPasswordConfirm").value;
     button.disabled = true;
     magicButton.disabled = true;
+    if (authMode === "forgot-password") {
+      message.textContent = "Sending your password-reset link…";
+      try {
+        await sendPasswordReset(email);
+        message.textContent = "If an account exists for that email, a GrailRoster reset link is on its way.";
+        button.textContent = "Reset link sent";
+      } catch (error) {
+        message.textContent = authErrorMessage(error);
+        button.disabled = false;
+      }
+      return;
+    }
+    if (authMode === "update-password") {
+      if (password !== passwordConfirm) {
+        message.textContent = "The passwords do not match.";
+        button.disabled = false;
+        return;
+      }
+      message.textContent = "Updating your password…";
+      try {
+        await updatePassword(password);
+        $("#authDialog").close();
+        setAuthMode("sign-in");
+        showToast("Password updated successfully");
+      } catch (error) {
+        message.textContent = authErrorMessage(error);
+        button.disabled = false;
+      }
+      return;
+    }
     message.textContent = authMode === "sign-up" ? "Creating your account…" : "Signing you in…";
     try {
       const data = authMode === "sign-up"

@@ -166,6 +166,9 @@ select { appearance: none; width: 100%; color: #e4e4e7; background: #151518; bor
 .auth-form input { width: 100%; margin-bottom: 13px; padding: 12px 13px; color: white; border: 1px solid #34343a; border-radius: 10px; outline: none; background: #18181b; }
 .auth-form input:focus { border-color: #7b2934; box-shadow: 0 0 0 3px rgba(225,29,46,.1); }
 .auth-form .password-hint { margin: -4px 0 2px; color: var(--muted); font-size: 11px; }
+.auth-help-button { display: block; width: fit-content; margin: 2px 0 0 auto; padding: 4px 0; color: #b9afff; border: 0; background: transparent; cursor: pointer; font: inherit; font-size: 11px; font-weight: 700; }
+.auth-help-button:hover { color: white; }
+.auth-back-button { margin: 14px auto 0; }
 .auth-form .primary-button { width: 100%; margin-top: 13px; }
 .auth-form .primary-button:disabled { opacity: .65; cursor: wait; }
 .auth-divider { display: flex; align-items: center; gap: 10px; margin: 17px 0 12px; color: #71717a; font-size: 10px; text-transform: uppercase; }
@@ -173,6 +176,7 @@ select { appearance: none; width: 100%; color: #e4e4e7; background: #151518; bor
 .auth-magic-button { width: 100%; }
 .auth-magic-button:disabled { opacity: .65; cursor: wait; }
 .auth-message { min-height: 18px; margin: 14px 0 0; color: #fda4af; font-size: 12px; }
+.auth-form [hidden] { display: none !important; }
 .empty-state { padding: 65px 24px; text-align: center; color: var(--muted); }
 .empty-state strong { display: block; color: white; margin-bottom: 7px; }
 .load-more { display: block; margin: 18px auto 0; }
