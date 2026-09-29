@@ -652,9 +652,12 @@ function setAuthMode(mode) {
   $("#authPasswordLabel").hidden = requestingReset;
   $("#authPassword").hidden = requestingReset;
   $("#authPassword").required = !requestingReset;
-  $("#authPasswordConfirmLabel").hidden = !updatingPassword;
-  $("#authPasswordConfirm").hidden = !updatingPassword;
-  $("#authPasswordConfirm").required = updatingPassword;
+  const confirmingPassword = signingUp || updatingPassword;
+  $("#authPasswordConfirmLabel").hidden = !confirmingPassword;
+  $("#authPasswordConfirm").hidden = !confirmingPassword;
+  $("#authPasswordConfirm").required = confirmingPassword;
+  $("#authPasswordConfirmLabel").textContent = updatingPassword ? "Confirm new password" : "Confirm password";
+  $("#authPasswordConfirm").placeholder = updatingPassword ? "Enter the new password again" : "Enter your password again";
   $("#passwordHint").hidden = requestingReset;
   $("#forgotPasswordButton").hidden = mode !== "sign-in";
   $("#authDivider").hidden = !regularAuth;
@@ -756,12 +759,13 @@ function attachEvents() {
       }
       return;
     }
+    if (["sign-up", "update-password"].includes(authMode) && password !== passwordConfirm) {
+      message.textContent = "The passwords do not match.";
+      button.disabled = false;
+      magicButton.disabled = false;
+      return;
+    }
     if (authMode === "update-password") {
-      if (password !== passwordConfirm) {
-        message.textContent = "The passwords do not match.";
-        button.disabled = false;
-        return;
-      }
       message.textContent = "Updating your password…";
       try {
         await updatePassword(password);
