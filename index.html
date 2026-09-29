@@ -37,6 +37,7 @@
           </div>
           <div class="sync-status local" id="syncStatus"><span class="status-dot"></span>Saved on this device</div>
           <button class="account-button" id="authButton">Sign in to sync</button>
+          <button class="text-button" id="accountSettingsButton" hidden>Account settings</button>
           <button class="text-button" id="signOutButton" hidden>Sign out</button>
           <button class="text-button" id="backupButton">Back up collection</button>
           <label class="text-button upload-label">Restore backup<input id="restoreInput" type="file" accept="application/json" /></label>
@@ -142,6 +143,55 @@
         <button class="auth-help-button auth-back-button" id="authBackButton" type="button" hidden>Back to sign in</button>
         <p class="auth-message" id="authMessage" role="status" aria-live="polite"></p>
       </form>
+    </dialog>
+
+    <dialog class="account-dialog" id="accountSettingsDialog">
+      <button class="dialog-close" id="closeAccountSettings" aria-label="Close account settings">×</button>
+      <div class="account-settings">
+        <p class="eyebrow">ACCOUNT SECURITY</p>
+        <h2>Account settings</h2>
+        <p class="account-settings-intro">Signed in as <strong id="settingsAccountEmail"></strong></p>
+
+        <section class="settings-section">
+          <h3>Change email address</h3>
+          <p>A confirmation link will be sent before the new address takes effect.</p>
+          <form id="emailChangeForm">
+            <label for="newAccountEmail">New email address</label>
+            <input id="newAccountEmail" name="new-email" type="email" autocomplete="email" required />
+            <label for="emailCurrentPassword">Current password</label>
+            <input id="emailCurrentPassword" name="current-password" type="password" autocomplete="current-password" minlength="8" required />
+            <button class="secondary-button" type="submit">Send confirmation</button>
+            <p class="settings-message" id="emailChangeMessage" role="status" aria-live="polite"></p>
+          </form>
+        </section>
+
+        <section class="settings-section">
+          <h3>Change password</h3>
+          <form id="passwordChangeForm">
+            <label for="settingsCurrentPassword">Current password</label>
+            <input id="settingsCurrentPassword" name="current-password" type="password" autocomplete="current-password" minlength="8" required />
+            <label for="settingsNewPassword">New password</label>
+            <input id="settingsNewPassword" name="new-password" type="password" autocomplete="new-password" minlength="8" required />
+            <label for="settingsConfirmPassword">Confirm new password</label>
+            <input id="settingsConfirmPassword" name="confirm-password" type="password" autocomplete="new-password" minlength="8" required />
+            <button class="secondary-button" type="submit">Update password</button>
+            <p class="settings-message" id="passwordChangeMessage" role="status" aria-live="polite"></p>
+          </form>
+        </section>
+
+        <section class="settings-section danger-zone">
+          <h3>Delete account</h3>
+          <p>This permanently deletes your account and cloud collection. Enter your password and type <strong>DELETE</strong> to continue.</p>
+          <form id="deleteAccountForm">
+            <label for="deleteCurrentPassword">Current password</label>
+            <input id="deleteCurrentPassword" name="current-password" type="password" autocomplete="current-password" minlength="8" required />
+            <label for="deleteConfirmation">Confirmation</label>
+            <input id="deleteConfirmation" name="delete-confirmation" type="text" autocomplete="off" pattern="DELETE" required placeholder="Type DELETE" />
+            <button class="danger-button" type="submit">Permanently delete account</button>
+            <p class="settings-message" id="deleteAccountMessage" role="status" aria-live="polite"></p>
+          </form>
+        </section>
+      </div>
     </dialog>
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
