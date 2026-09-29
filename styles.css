@@ -126,7 +126,7 @@ select { appearance: none; width: 100%; color: #e4e4e7; background: #151518; bor
 .set-image:not(.has-image) { display: none; }
 .set-card > :not(.set-image) { position: relative; z-index: 2; }
 .card-dialog { width: min(900px, calc(100vw - 30px)); max-height: calc(100vh - 30px); padding: 0; overflow: auto; color: var(--text); border: 1px solid #3c3c42; border-radius: 20px; background: #111114; box-shadow: 0 30px 100px rgba(0,0,0,.7); }
-.card-dialog::backdrop, .auth-dialog::backdrop { background: rgba(0,0,0,.75); backdrop-filter: blur(4px); }
+.card-dialog::backdrop, .auth-dialog::backdrop, .account-dialog::backdrop { background: rgba(0,0,0,.75); backdrop-filter: blur(4px); }
 .dialog-close { position: absolute; right: 14px; top: 12px; z-index: 2; width: 35px; height: 35px; color: white; border: 1px solid #3c3c42; border-radius: 50%; background: #1d1d21; cursor: pointer; font-size: 23px; line-height: 1; }
 .dialog-grid { display: grid; grid-template-columns: minmax(260px, .9fr) minmax(300px, 1.1fr); min-height: 500px; }
 .dialog-images { display: flex; align-items: center; justify-content: center; gap: 15px; padding: 45px 28px; background: radial-gradient(circle at 50% 35%, #29292f, #0d0d10 70%); }
@@ -177,6 +177,23 @@ select { appearance: none; width: 100%; color: #e4e4e7; background: #151518; bor
 .auth-magic-button:disabled { opacity: .65; cursor: wait; }
 .auth-message { min-height: 18px; margin: 14px 0 0; color: #fda4af; font-size: 12px; }
 .auth-form [hidden] { display: none !important; }
+.account-dialog { width: min(620px, calc(100vw - 30px)); max-height: min(88vh, 900px); padding: 0; color: var(--text); border: 1px solid #505577; border-radius: 20px; background: #171a2b; box-shadow: 0 30px 100px rgba(0,0,0,.7); }
+.account-settings { padding: 42px 38px 38px; }
+.account-settings h2 { margin: 9px 0 8px; font-size: 31px; letter-spacing: -1px; }
+.account-settings-intro { margin: 0 0 24px; color: var(--muted); font-size: 13px; }
+.settings-section { padding: 22px 0; border-top: 1px solid var(--line); }
+.settings-section h3 { margin: 0 0 7px; font-size: 17px; }
+.settings-section > p { margin: 0 0 17px; color: var(--muted); font-size: 12px; line-height: 1.5; }
+.settings-section label { display: block; margin: 0 0 7px; color: #d4d4d8; font-size: 12px; }
+.settings-section input { width: 100%; margin-bottom: 13px; padding: 12px 13px; color: white; border: 1px solid #414665; border-radius: 10px; outline: none; background: #1c2034; }
+.settings-section input:focus { border-color: #a08efa; box-shadow: 0 0 0 3px #8973ef25; }
+.settings-section button { width: 100%; margin-top: 3px; }
+.settings-section button:disabled { opacity: .65; cursor: wait; }
+.settings-message { min-height: 18px; margin: 12px 0 0; color: #fda4af; font-size: 12px; }
+.danger-zone { border-top-color: #703846; }
+.danger-zone h3 { color: #ffb4bf; }
+.danger-button { padding: 12px 16px; color: white; border: 1px solid #b74255; border-radius: 10px; background: #7d2534; cursor: pointer; font: inherit; font-size: 12px; font-weight: 800; }
+.danger-button:hover { background: #983043; }
 .empty-state { padding: 65px 24px; text-align: center; color: var(--muted); }
 .empty-state strong { display: block; color: white; margin-bottom: 7px; }
 .load-more { display: block; margin: 18px auto 0; }
@@ -347,7 +364,7 @@ button:focus-visible, a:focus-visible, select:focus-visible, input:focus-visible
 .image-frame { background: radial-gradient(circle at 35% 25%, #4b4b79, #1b2035 72%); border-color: #4a4f6e; }
 select, .collection-details-form input, .collection-details-form textarea, .auth-form input { background-color: #1c2034; border-color: #414665; }
 select:focus, .collection-details-form input:focus, .collection-details-form textarea:focus, .auth-form input:focus { border-color: #a08efa; }
-.card-dialog, .auth-dialog { background: #171a2b; border-color: #505577; }
+.card-dialog, .auth-dialog, .account-dialog { background: #171a2b; border-color: #505577; }
 .dialog-images { background: radial-gradient(circle at 50% 35%, #393b6c, #111524 70%); }
 .auth-tabs { background: #111425; border-color: #383d5b; }
 .auth-tab.active { background: #3b3c67; }
@@ -384,6 +401,7 @@ select:focus, .collection-details-form input:focus, .collection-details-form tex
   .set-visual { height: 155px; }
   .recent-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .recent-heading { align-items: start; }
+  .account-settings { padding: 36px 22px 28px; }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
