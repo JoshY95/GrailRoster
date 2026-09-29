@@ -24,6 +24,9 @@ both gallery and list views; `data-layout` selects their layout. `imageMarkup`
 accepts an approved image and a shared no-image treatment. `GrailUI.setCover`
 and `GrailUI.cardPlaceholder` use catalogue labels, not invented product art.
 All set records remain available. The two Cactus Jack releases retain separate IDs.
+The home-screen recent rail shows at most eight cards. Cards from the same set
+updated within thirty minutes are presented as one batch tile; the underlying
+collection records remain independent and unchanged.
 
 ## Interaction and responsive rules
 

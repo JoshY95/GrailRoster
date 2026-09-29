@@ -36,5 +36,5 @@ window.GrailUI = (() => {
   function mountIcons() {
     document.querySelectorAll('[data-icon]').forEach(el => { el.innerHTML = icon(el.dataset.icon); });
   }
-  return { icon, escape, setCover, cardPlaceholder, mountIcons };
+  return { icon, escape, coverStyle, setCover, cardPlaceholder, mountIcons };
 })();

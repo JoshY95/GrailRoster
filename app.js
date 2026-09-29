@@ -193,12 +193,33 @@ function renderSets() {
 function renderRecent() {
   const recent = state.catalogue.cards.filter((card) => statusFor(card.id) === "owned")
     .sort((a, b) => new Date(entryFor(b.id)?.updatedAt || 0) - new Date(entryFor(a.id)?.updatedAt || 0))
-    .slice(0, 6);
-  $("#dashboardRecent").innerHTML = recent.length ? recent.map((card) => `<button class="recent-card" data-open-card="${escapeHtml(card.id)}" aria-label="View ${escapeHtml(card.name)}">
-    ${imageMarkup(cardImage(card.id), `${card.name} card`, initials(card.name), "recent-image", GrailUI.cardPlaceholder(card, state.catalogue.sets.find(set => set.id === card.setId)))}
-    <span class="recent-name">${escapeHtml(card.name)}</span><span class="recent-number">#${escapeHtml(card.number)} · ${escapeHtml(card.subset)}</span>
-    <span class="recent-owned">✓ Owned</span>
-  </button>`).join("") : emptyState("Your collection starts here", "Mark a card as Owned and it will appear in your vault.");
+    .slice(0, 8);
+  const groups = [];
+  const batchWindow = 30 * 60 * 1000;
+  for (const card of recent) {
+    const updatedAt = new Date(entryFor(card.id)?.updatedAt || 0).getTime();
+    const group = groups.find(item => item.setId === card.setId && Math.abs(item.updatedAt - updatedAt) <= batchWindow);
+    if (group) group.cards.push(card);
+    else groups.push({ setId: card.setId, updatedAt, cards: [card] });
+  }
+  $("#dashboardRecent").innerHTML = groups.length ? groups.map((group) => {
+    const set = state.catalogue.sets.find(item => item.id === group.setId);
+    if (group.cards.length === 1) {
+      const card = group.cards[0];
+      return `<button class="recent-card" data-open-card="${escapeHtml(card.id)}" aria-label="View ${escapeHtml(card.name)}">
+        ${imageMarkup(cardImage(card.id), `${card.name} card`, initials(card.name), "recent-image", GrailUI.cardPlaceholder(card, set))}
+        <span class="recent-name">${escapeHtml(card.name)}</span><span class="recent-number">#${escapeHtml(card.number)} · ${escapeHtml(card.subset)}</span>
+        <span class="recent-owned">✓ Owned</span>
+      </button>`;
+    }
+    const names = group.cards.slice(0, 3).map(card => card.name).join(", ");
+    return `<button class="recent-card recent-batch" data-set-id="${escapeHtml(group.setId)}" aria-label="View ${group.cards.length} recently added cards from ${escapeHtml(set.shortName)}">
+      <span class="recent-batch-stack" data-cover="${GrailUI.coverStyle(set)}" aria-hidden="true"><i></i><i></i><i></i><strong>+${group.cards.length}</strong></span>
+      <span class="recent-name">${group.cards.length} cards added</span><span class="recent-number">${escapeHtml(set.shortName)}</span>
+      <span class="recent-batch-names">${escapeHtml(names)}${group.cards.length > 3 ? "…" : ""}</span>
+    </button>`;
+  }).join("") : emptyState("Your collection starts here", "Mark a card as Owned and it will appear in your vault.");
+  $(".recent-heading-actions").classList.toggle("has-overflow", groups.length > 4);
 }
 
 function filteredCards(collectionOnly = false) {
@@ -760,6 +781,11 @@ function attachEvents() {
     if (layout) {
       document.getElementById(layout.dataset.layoutTarget).dataset.layout = layout.dataset.layout;
       $$(`[data-layout-target="${layout.dataset.layoutTarget}"]`).forEach(button => button.setAttribute("aria-pressed", String(button === layout)));
+      return;
+    }
+    const recentScroll = event.target.closest("[data-recent-scroll]");
+    if (recentScroll) {
+      $("#dashboardRecent").scrollBy({ left: Number(recentScroll.dataset.recentScroll) * $("#dashboardRecent").clientWidth * .8, behavior: "smooth" });
       return;
     }
     const open = event.target.closest("[data-open-card]");

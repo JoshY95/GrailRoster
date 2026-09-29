@@ -79,9 +79,13 @@
             <div class="stat-grid" id="stats"></div>
             <div class="section-heading recent-heading">
               <div><h2>Recent additions</h2></div>
-              <button class="text-button" data-go="collection">See all →</button>
+              <div class="recent-heading-actions">
+                <button class="rail-button" data-recent-scroll="-1" aria-label="Previous recent additions">‹</button>
+                <button class="rail-button" data-recent-scroll="1" aria-label="Next recent additions">›</button>
+                <button class="text-button" data-go="collection">See all →</button>
+              </div>
             </div>
-            <div class="recent-grid" id="dashboardRecent"></div>
+            <div class="recent-grid" id="dashboardRecent" aria-label="Recently added cards"></div>
             <div class="section-heading">
               <div><p class="eyebrow">CHECKLISTS</p><h2>Explore your next set</h2></div>
               <button class="text-button" data-go="sets">View all sets</button>

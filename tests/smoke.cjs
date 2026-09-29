@@ -101,6 +101,15 @@ const { chromium } = require('playwright');
     assert.equal(await page.locator('#menuButton').getAttribute('aria-expanded'), 'true');
     await page.keyboard.press('Escape');
     assert.equal(await page.locator('#menuButton').getAttribute('aria-expanded'), 'false');
+    await page.evaluate(() => {
+      const sameSet = state.catalogue.cards.filter(card => card.setId === state.catalogue.cards[0].setId).slice(0, 8);
+      const updatedAt = new Date().toISOString();
+      sameSet.forEach(card => { state.collection[card.id] = { status:'owned', quantity:1, updatedAt }; });
+      renderRecent();
+    });
+    assert.equal(await page.locator('#dashboardRecent .recent-batch').count(), 1);
+    assert.ok(await page.locator('#dashboardRecent .recent-card').count() <= 8);
+    assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth), true);
     assert.deepEqual(errors, []);
     console.log('PASS: catalogue, progress, sets, owned persistence, details, search, backup, auth and password-reset UI, and mobile navigation');
   } finally {
