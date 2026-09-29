@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#101225" />
+    <meta name="theme-color" content="#0b0e10" />
     <meta name="description" content="Track WWE trading card sets, collection progress and wanted cards." />
     <meta name="application-name" content="GrailRoster" />
     <meta property="og:type" content="website" />
@@ -14,21 +14,24 @@
     <meta name="twitter:card" content="summary" />
     <link rel="canonical" href="https://grailroster.com/" />
     <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="theme.css" />
     <link rel="stylesheet" href="styles.css" />
     <title>GrailRoster</title>
   </head>
   <body>
     <div class="app-shell">
-      <aside class="sidebar">
+      <aside class="sidebar" id="navigationPanel" aria-label="Navigation and account">
+        <button class="sidebar-close" data-close-menu aria-label="Close navigation">×</button>
         <a class="brand" href="#dashboard" aria-label="GrailRoster dashboard">
-          <span class="brand-mark">GR</span>
+          <span class="brand-mark" data-icon="crown"></span>
           <span><strong>GrailRoster</strong><small>WWE card collection</small></span>
         </a>
         <nav aria-label="Main navigation">
-          <a class="nav-link active" href="#dashboard" data-view="dashboard"><span>Overview</span></a>
-          <a class="nav-link" href="#sets" data-view="sets"><span>Sets</span></a>
-          <a class="nav-link" href="#cards" data-view="cards"><span>Cards</span></a>
-          <a class="nav-link" href="#collection" data-view="collection"><span>My Collection</span></a>
+          <a class="nav-link active" href="#dashboard" data-view="dashboard"><span data-icon="collection"></span><span>Overview</span></a>
+          <a class="nav-link" href="#collection" data-view="collection"><span data-icon="grid"></span><span>Owned cards</span></a>
+          <a class="nav-link" href="#sets" data-view="sets"><span data-icon="sets"></span><span>Set library</span></a>
+          <a class="nav-link" href="#cards" data-view="cards"><span data-icon="search"></span><span>All cards</span></a>
+          <a class="nav-link" href="#wanted" data-view="wanted"><span data-icon="wanted"></span><span>Wanted</span></a>
         </nav>
         <div class="sidebar-footer">
           <div class="account-panel">
@@ -43,55 +46,59 @@
           <label class="text-button upload-label">Restore backup<input id="restoreInput" type="file" accept="application/json" /></label>
         </div>
       </aside>
+      <button class="drawer-scrim" data-close-menu aria-label="Close navigation" tabindex="-1"></button>
 
       <main>
         <header class="topbar">
-          <button class="menu-button" id="menuButton" aria-label="Open navigation">☰</button>
-          <div>
+          <a class="mobile-brand" href="#dashboard" data-go="dashboard"><span data-icon="crown"></span>GrailRoster</a>
+          <button class="menu-button" id="menuButton" aria-label="Open navigation and account" aria-controls="navigationPanel" aria-expanded="false"><span data-icon="profile"></span></button>
+          <div class="page-heading">
             <p class="eyebrow">COLLECTION TRACKER</p>
-            <h1 id="pageTitle">Overview</h1>
+            <h1 id="pageTitle">My collection</h1>
           </div>
           <label class="global-search">
-            <span aria-hidden="true">⌕</span>
+            <span data-icon="search"></span>
             <input id="globalSearch" type="search" placeholder="Search wrestler or card number" autocomplete="off" />
           </label>
         </header>
 
         <div class="content">
+          <nav class="collection-tabs" id="collectionTabs" aria-label="Collection views">
+            <a class="nav-link active" href="#dashboard" data-view="dashboard">Overview</a>
+            <a class="nav-link" href="#collection" data-view="collection">Owned cards</a>
+            <a class="nav-link" href="#cards" data-view="cards">All cards</a>
+          </nav>
           <section class="view active" id="dashboardView">
             <div class="hero-panel">
               <div class="hero-copy">
-                <p class="eyebrow">YOUR DIGITAL CARD VAULT</p>
-                <h2>Every card.<br /><span>One collection.</span></h2>
-                <p>Explore verified WWE checklists, follow your progress and keep your collection organised.</p>
-                <div class="hero-actions">
-                  <button class="primary-button" data-go="sets">Explore sets <span aria-hidden="true">↗</span></button>
-                  <button class="secondary-button" data-go="cards">Browse cards</button>
-                </div>
+                <h2>Catalogue progress</h2>
+                <p>Across all WWE sets</p>
               </div>
               <div class="hero-progress" id="heroProgress" aria-label="Collection progress"></div>
             </div>
             <div class="stat-grid" id="stats"></div>
+            <div class="section-heading recent-heading">
+              <div><h2>Recent additions</h2></div>
+              <button class="text-button" data-go="collection">See all →</button>
+            </div>
+            <div class="recent-grid" id="dashboardRecent"></div>
             <div class="section-heading">
-              <div><p class="eyebrow">CHECKLISTS</p><h2>Your sets</h2></div>
+              <div><p class="eyebrow">CHECKLISTS</p><h2>Explore your next set</h2></div>
               <button class="text-button" data-go="sets">View all sets</button>
             </div>
             <div class="set-grid" id="dashboardSets"></div>
-            <div class="section-heading recent-heading">
-              <div><p class="eyebrow">THE VAULT</p><h2>Recently collected</h2></div>
-              <button class="text-button" data-go="collection">View my collection</button>
-            </div>
-            <div class="recent-grid" id="dashboardRecent"></div>
           </section>
 
           <section class="view" id="setsView">
             <div class="section-heading">
-              <div><p class="eyebrow">CATALOGUE</p><h2>WWE sets</h2><p class="muted">Verified card identities from the completed master catalogues.</p></div>
+              <div><p class="muted" id="setLibraryCount">Explore the catalogue.</p></div>
             </div>
+            <div class="list-toolbar"><input id="setSearch" type="search" placeholder="Search sets" aria-label="Search sets" /><select id="setOwnership" aria-label="Filter set library"><option value="all">All sets</option><option value="collecting">Collecting</option></select></div>
             <div class="set-grid large" id="allSets"></div>
           </section>
 
           <section class="view" id="cardsView">
+            <div id="setContext" class="set-context" hidden></div>
             <div class="filter-bar">
               <select id="setFilter" aria-label="Filter by set"><option value="all">All sets</option></select>
               <select id="categoryFilter" aria-label="Filter by category"><option value="all">All categories</option></select>
@@ -100,19 +107,30 @@
               </select>
               <button class="secondary-button" id="clearFilters">Clear filters</button>
             </div>
-            <div class="results-line"><strong id="resultCount">0 cards</strong><span id="activeSetLabel">Across all sets</span></div>
-            <div class="card-list" id="cardList"></div>
+            <div class="results-line"><strong id="resultCount">0 cards</strong><span id="activeSetLabel">Across all sets</span><div class="view-toggle" aria-label="Card layout"><button data-layout-target="cardList" data-layout="grid" aria-label="Card grid" aria-pressed="false"><span data-icon="grid"></span></button><button data-layout-target="cardList" data-layout="list" aria-label="Card list" aria-pressed="true"><span data-icon="list"></span></button></div></div>
+            <div class="card-list" id="cardList" data-layout="list"></div>
             <button class="secondary-button load-more" id="loadMore">Load more</button>
           </section>
 
           <section class="view" id="collectionView">
             <div class="collection-summary" id="collectionSummary"></div>
-            <div class="section-heading"><div><p class="eyebrow">OWNED CARDS</p><h2>My collection</h2></div></div>
-            <div class="card-list" id="collectionList"></div>
+            <div class="list-toolbar"><input id="ownedSearch" type="search" placeholder="Search your collection" aria-label="Search owned cards" /><select id="ownedSort" aria-label="Sort owned cards"><option value="recent">Recently added</option><option value="name">Wrestler A–Z</option><option value="set">Set</option></select><div class="view-toggle" aria-label="Collection layout"><button data-layout-target="collectionList" data-layout="grid" aria-label="Collection grid" aria-pressed="true"><span data-icon="grid"></span></button><button data-layout-target="collectionList" data-layout="list" aria-label="Collection list" aria-pressed="false"><span data-icon="list"></span></button></div></div>
+            <div class="card-list" id="collectionList" data-layout="grid"></div>
+          </section>
+          <section class="view" id="wantedView">
+            <p class="muted" id="wantedCount">Your next finds.</p>
+            <div class="list-toolbar"><input id="wantedSearch" type="search" placeholder="Search your wanted list" aria-label="Search wanted cards" /><div class="view-toggle" aria-label="Wanted layout"><button data-layout-target="wantedList" data-layout="grid" aria-label="Wanted grid" aria-pressed="false"><span data-icon="grid"></span></button><button data-layout-target="wantedList" data-layout="list" aria-label="Wanted list" aria-pressed="true"><span data-icon="list"></span></button></div></div>
+            <div class="card-list" id="wantedList" data-layout="list"></div>
           </section>
         </div>
       </main>
     </div>
+    <nav class="mobile-nav" aria-label="Mobile navigation">
+      <a class="nav-link active" href="#dashboard" data-view="dashboard" data-nav-group="collection"><span data-icon="collection"></span>Collection</a>
+      <a class="nav-link" href="#sets" data-view="sets" data-nav-group="sets"><span data-icon="sets"></span>Sets</a>
+      <a class="nav-link" href="#wanted" data-view="wanted"><span data-icon="wanted"></span>Wanted</a>
+      <button data-profile aria-controls="navigationPanel" aria-expanded="false"><span data-icon="profile"></span>Profile</button>
+    </nav>
 
     <dialog class="card-dialog" id="cardDialog">
       <button class="dialog-close" id="closeCardDialog" aria-label="Close card details">×</button>
@@ -197,6 +215,7 @@
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
     <script src="config.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.112.0/dist/umd/supabase.min.js" integrity="sha384-De+l/Df7qym5QBDVocD3+gW1S7IjR3epf+6KbRDjB3FCCzM/LqVTwqckT6FhFar8" crossorigin="anonymous"></script>
+    <script src="ui.js" defer></script>
     <script src="app.js" defer></script>
   </body>
 </html>

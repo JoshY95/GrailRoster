@@ -2,7 +2,7 @@ const assert = require('node:assert/strict');
 const { chromium } = require('playwright');
 
 (async () => {
-  const browser = await chromium.launch({ headless: true });
+  const browser = await chromium.launch({ headless: true, ...(process.env.CHROMIUM_EXECUTABLE_PATH ? {executablePath:process.env.CHROMIUM_EXECUTABLE_PATH, args:['--no-sandbox']} : {}) });
   try {
     const page = await browser.newPage({ viewport: { width: 1440, height: 900 }, acceptDownloads: true });
     const errors = [];
@@ -15,6 +15,13 @@ const { chromium } = require('playwright');
     await page.locator('#allSets .set-card').first().waitFor({ state: 'attached' });
     assert.equal(await page.locator('#allSets .set-card').count(), 17);
     assert.equal(await page.locator('#heroProgress strong').first().innerText(), '0%');
+    assert.equal(await page.evaluate(() => getComputedStyle(document.documentElement).getPropertyValue('--accent').trim()), '#69e9bf');
+    await page.locator('.sidebar [data-view="sets"]').click();
+    await page.locator('#setSearch').fill('Cactus Jack');
+    assert.equal(await page.locator('#allSets .set-card').count(), 2);
+    await page.locator('#setSearch').fill('');
+    assert.equal(await page.locator('#allSets .set-card').count(), 17);
+    await page.locator('.sidebar [data-view="dashboard"]').click();
 
     await page.locator('#dashboardSets .set-card').first().click();
     assert.equal(await page.locator('#cardsView').isVisible(), true);
@@ -25,7 +32,7 @@ const { chromium } = require('playwright');
     await page.locator('#allSets .set-card').first().waitFor({ state: 'attached' });
     assert.equal(await page.locator('#dashboardRecent .recent-card').count(), 1);
 
-    await page.locator('[data-view="collection"]').click();
+    await page.locator('.sidebar [data-view="collection"]').click();
     assert.equal(await page.locator('#collectionList .card-row').count(), 1);
     await page.locator('#collectionList .card-name-button').first().click();
     assert.equal(await page.locator('#cardDialog').isVisible(), true);
@@ -36,12 +43,23 @@ const { chromium } = require('playwright');
     assert.equal(await page.locator('#collectionDetailsForm [name="quantity"]').inputValue(), '2');
     await page.locator('#closeCardDialog').click();
 
-    await page.locator('[data-view="cards"]').click();
+    await page.locator('.sidebar [data-view="cards"]').click();
     await page.locator('#clearFilters').click();
     await page.locator('#globalSearch').fill('unlikely-nonexistent-card-zzzz');
     assert.equal(await page.locator('#resultCount').innerText(), '0 cards');
     await page.locator('#clearFilters').click();
     assert.notEqual(await page.locator('#resultCount').innerText(), '0 cards');
+    await page.locator('#cardList .card-row').nth(1).locator('.state-button.wanted').click();
+    await page.locator('.sidebar [data-view="wanted"]').click();
+    assert.equal(await page.locator('#wantedList .card-row').count(), 1);
+    await page.locator('#wantedSearch').fill('nonexistent-zzzz');
+    assert.equal(await page.locator('#wantedList .card-row').count(), 0);
+    await page.locator('#wantedSearch').fill('');
+    await page.locator('[data-layout-target="wantedList"][data-layout="grid"]').click();
+    assert.equal(await page.locator('#wantedList').getAttribute('data-layout'), 'grid');
+    await page.reload();
+    await page.locator('#wantedList .card-row').first().waitFor();
+    assert.equal(await page.locator('#wantedList .card-row').count(), 1);
     const downloadPromise = page.waitForEvent('download');
     await page.locator('#backupButton').click();
     assert.match((await downloadPromise).suggestedFilename(), /^grailroster-backup-.*\.json$/);
@@ -61,15 +79,28 @@ const { chromium } = require('playwright');
     assert.equal(await page.locator('#authSubmit').innerText(), 'Save new password');
     await page.locator('#closeAuthDialog').click();
 
-    await page.locator('[data-view="dashboard"]').click();
+    await page.locator('.sidebar [data-view="dashboard"]').click();
     await page.setViewportSize({ width: 390, height: 844 });
     assert.equal(await page.locator('#menuButton').isVisible(), true);
     await page.locator('#menuButton').click();
     assert.equal(await page.locator('.sidebar').evaluate(el => el.classList.contains('open')), true);
-    await page.locator('[data-view="sets"]').click();
+    await page.locator('.sidebar [data-view="sets"]').click();
     assert.equal(await page.locator('#setsView').isVisible(), true);
     assert.equal(await page.locator('.sidebar').evaluate(el => el.classList.contains('open')), false);
     assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth), true);
+    for (const width of [320, 390, 768, 1024, 1440]) {
+      await page.setViewportSize({ width, height:900 });
+      for (const view of ['dashboard','sets','cards','collection','wanted']) {
+        await page.evaluate(view => changeView(view), view);
+        assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth), true, `${view} overflows at ${width}`);
+      }
+    }
+    await page.setViewportSize({width:390,height:844});
+    await page.locator('.mobile-nav [data-view="dashboard"]').click();
+    await page.locator('.mobile-nav [data-profile]').click();
+    assert.equal(await page.locator('#menuButton').getAttribute('aria-expanded'), 'true');
+    await page.keyboard.press('Escape');
+    assert.equal(await page.locator('#menuButton').getAttribute('aria-expanded'), 'false');
     assert.deepEqual(errors, []);
     console.log('PASS: catalogue, progress, sets, owned persistence, details, search, backup, auth and password-reset UI, and mobile navigation');
   } finally {

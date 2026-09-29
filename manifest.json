@@ -4,7 +4,7 @@
   "description": "Track WWE trading card sets, owned cards and wanted cards.",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#0b0d19",
-  "theme_color": "#101225",
+  "background_color": "#0b0e10",
+  "theme_color": "#0b0e10",
   "icons": []
 }

@@ -141,10 +141,10 @@ function cardImage(cardId) { return approvedImage(state.images.cards?.[cardId]);
 function setImage(setId) { return approvedImage(state.images.sets?.[setId]); }
 function initials(value) { return String(value || "GR").split(/\s+/).filter(Boolean).slice(0, 2).map((part) => part[0]).join("").toUpperCase(); }
 
-function imageMarkup(entry, alt, fallback, className = "") {
+function imageMarkup(entry, alt, fallback, className = "", placeholder = "") {
   const source = safeUrl(entry?.thumbnail || entry?.front || entry?.image);
   return `<div class="image-frame ${className} ${source ? "has-image" : ""}">
-    <span class="image-fallback" aria-hidden="true">${escapeHtml(fallback)}</span>
+    ${placeholder || `<span class="image-fallback" aria-hidden="true">${escapeHtml(fallback)}</span>`}
     ${source ? `<img src="${escapeHtml(source)}" alt="${escapeHtml(alt)}" loading="lazy" decoding="async" onerror="this.parentElement.classList.remove('has-image');this.remove()" />` : ""}
   </div>`;
 }
@@ -154,11 +154,9 @@ function setCard(set) {
   const progress = set.cardCount ? (owned / set.cardCount) * 100 : 0;
   const progressLabel = formatPercentage(owned, set.cardCount);
   const approved = setImage(set.id);
-  return `<article class="set-card" role="button" tabindex="0" aria-label="Open ${escapeHtml(set.shortName)} checklist" data-set-id="${escapeHtml(set.id)}" style="--accent:${escapeHtml(set.accent || '#8b7cf6')}">
+  return `<article class="set-card" role="button" tabindex="0" aria-label="Open ${escapeHtml(set.shortName)} checklist" data-set-id="${escapeHtml(set.id)}">
     <div class="set-visual" aria-hidden="true">
-      <span class="set-visual-rings"></span>
-      ${approved ? imageMarkup(approved, "", "", "set-cover") : `<div class="set-cover-placeholder"><span>GR</span><strong>${escapeHtml(set.year)}</strong><small>COLLECTION</small></div>`}
-      <span class="set-visual-label">${escapeHtml(set.year)} COLLECTION</span>
+      ${imageMarkup(approved, "", "", "set-cover", GrailUI.setCover(set))}
     </div>
     <div class="set-card-body">
       <span class="set-year">${set.year} · ${escapeHtml(set.manufacturer)}</span>
@@ -173,8 +171,7 @@ function setCard(set) {
 function renderStats() {
   const { owned, wanted } = counts();
   const completion = formatPercentage(owned, state.catalogue.cardCount);
-  const progress = state.catalogue.cardCount ? (owned / state.catalogue.cardCount) * 100 : 0;
-  $("#heroProgress").innerHTML = `<div class="hero-progress-ring" style="--progress:${progress}%"><div><strong>${completion}</strong><span>COMPLETE</span></div></div><p><strong>${owned.toLocaleString()}</strong> of ${state.catalogue.cardCount.toLocaleString()} cards collected</p>`;
+  $("#heroProgress").innerHTML = `<strong>${completion}</strong><span>of the catalogue collected</span>`;
   $("#stats").innerHTML = [
     ["Cards owned", owned.toLocaleString(), `${completion} of catalogued cards`],
     ["Wanted cards", wanted.toLocaleString(), "Your active chase list"],
@@ -186,7 +183,11 @@ function renderStats() {
 function renderSets() {
   const cards = state.catalogue.sets.map(setCard).join("");
   $("#dashboardSets").innerHTML = cards;
-  $("#allSets").innerHTML = cards;
+  const query = $("#setSearch").value.trim().toLocaleLowerCase();
+  const collecting = $("#setOwnership").value === "collecting";
+  const sets = state.catalogue.sets.filter(set => (!query || `${set.name} ${set.year}`.toLocaleLowerCase().includes(query)) && (!collecting || setOwnedCount(set.id) > 0));
+  $("#setLibraryCount").textContent = `${sets.length} of ${state.catalogue.sets.length} WWE sets`;
+  $("#allSets").innerHTML = sets.length ? sets.map(setCard).join("") : emptyState("No sets found", collecting ? "Mark a card as Owned to start collecting a set." : "Try another set name or year.");
 }
 
 function renderRecent() {
@@ -194,7 +195,7 @@ function renderRecent() {
     .sort((a, b) => new Date(entryFor(b.id)?.updatedAt || 0) - new Date(entryFor(a.id)?.updatedAt || 0))
     .slice(0, 6);
   $("#dashboardRecent").innerHTML = recent.length ? recent.map((card) => `<button class="recent-card" data-open-card="${escapeHtml(card.id)}" aria-label="View ${escapeHtml(card.name)}">
-    ${imageMarkup(cardImage(card.id), `${card.name} card`, initials(card.name), "recent-image")}
+    ${imageMarkup(cardImage(card.id), `${card.name} card`, initials(card.name), "recent-image", GrailUI.cardPlaceholder(card, state.catalogue.sets.find(set => set.id === card.setId)))}
     <span class="recent-name">${escapeHtml(card.name)}</span><span class="recent-number">#${escapeHtml(card.number)} · ${escapeHtml(card.subset)}</span>
     <span class="recent-owned">✓ Owned</span>
   </button>`).join("") : emptyState("Your collection starts here", "Mark a card as Owned and it will appear in your vault.");
@@ -217,15 +218,15 @@ function cardRow(card) {
   const status = statusFor(card.id);
   return `<article class="card-row">
     <button class="card-image-button" data-open-card="${escapeHtml(card.id)}" aria-label="View ${escapeHtml(card.name)}">
-      ${imageMarkup(cardImage(card.id), `${card.name} card`, initials(card.name), "card-thumbnail")}
+      ${imageMarkup(cardImage(card.id), `${card.name} card`, initials(card.name), "card-thumbnail", GrailUI.cardPlaceholder(card, set))}
     </button>
     <div class="card-number">#${escapeHtml(card.number)}</div>
     <button class="card-name card-name-button" data-open-card="${escapeHtml(card.id)}">${escapeHtml(card.name)}<small>${escapeHtml(card.subset)}${card.rookie === "Yes" ? " · Rookie" : ""}</small></button>
     <div class="card-set">${escapeHtml(set.shortName)}<small>${escapeHtml(card.roster || "WWE")}</small></div>
     <span class="category-pill">${escapeHtml(card.category)}</span>
     <div class="card-actions">
-      <button class="state-button owned ${status === "owned" ? "active" : ""}" data-card-id="${card.id}" data-status="owned">Owned</button>
-      <button class="state-button wanted ${status === "wanted" ? "active" : ""}" data-card-id="${card.id}" data-status="wanted">Wanted</button>
+      <button class="state-button owned ${status === "owned" ? "active" : ""}" aria-pressed="${status === "owned"}" data-card-id="${card.id}" data-status="owned">${status === "owned" ? "✓ " : ""}Owned</button>
+      <button class="state-button wanted ${status === "wanted" ? "active" : ""}" aria-pressed="${status === "wanted"}" data-card-id="${card.id}" data-status="wanted">Wanted</button>
     </div>
   </article>`;
 }
@@ -242,7 +243,7 @@ function openCard(cardId) {
   const selected = (value, current) => value === current ? " selected" : "";
   $("#cardDialogContent").innerHTML = `<div class="dialog-grid">
     <div class="dialog-images">
-      ${imageMarkup(front ? { front, rightsStatus: "approved" } : null, `${card.name} front`, initials(card.name), "card-preview")}
+      ${imageMarkup(front ? { front, rightsStatus: "approved" } : null, `${card.name} front`, initials(card.name), "card-preview", GrailUI.cardPlaceholder(card, set))}
       ${back ? imageMarkup({ front: back, rightsStatus: "approved" }, `${card.name} back`, "BACK", "card-preview") : ""}
     </div>
     <div class="dialog-details">
@@ -251,7 +252,7 @@ function openCard(cardId) {
         <div><dt>Card number</dt><dd>${escapeHtml(card.number)}</dd></div>
         <div><dt>Subset</dt><dd>${escapeHtml(card.subset)}</dd></div>
         <div><dt>Category</dt><dd>${escapeHtml(card.category)}</dd></div>
-        <div><dt>Card UID</dt><dd>${escapeHtml(card.id)}</dd></div>
+        <div><dt>Year</dt><dd>${escapeHtml(set.year)}</dd></div>
       </dl>
       <p class="image-status ${entry ? "approved" : "pending"}">${entry ? "Approved reference image" : "Reference image not yet added"}</p>
       ${entry?.photographerCredit ? `<p class="image-credit">Image: ${escapeHtml(entry.photographerCredit)}</p>` : ""}
@@ -320,6 +321,9 @@ function renderCards() {
   const shown = matches.slice(0, state.visibleCards);
   $("#resultCount").textContent = `${matches.length.toLocaleString()} card${matches.length === 1 ? "" : "s"}`;
   const selectedSet = state.catalogue.sets.find((set) => set.id === state.setId);
+  const context = $("#setContext");
+  context.hidden = !selectedSet;
+  context.innerHTML = selectedSet ? `<button class="text-button" data-go="sets">← Set library</button><h2>${escapeHtml(selectedSet.shortName)}</h2><p>${selectedSet.year} · ${setOwnedCount(selectedSet.id)} / ${selectedSet.cardCount.toLocaleString()} checklist cards · ${formatPercentage(setOwnedCount(selectedSet.id), selectedSet.cardCount)}</p><div class="progress-track"><div class="progress-fill" style="--progress:${selectedSet.cardCount ? setOwnedCount(selectedSet.id) / selectedSet.cardCount * 100 : 0}%"></div></div>` : "";
   $("#activeSetLabel").textContent = selectedSet ? selectedSet.name : "Across all sets";
   $("#cardList").innerHTML = shown.length ? shown.map(cardRow).join("") : emptyState("No cards match these filters", "Try changing the set, category, status or search.");
   $("#loadMore").hidden = shown.length >= matches.length;
@@ -332,7 +336,20 @@ function renderCollection() {
   $("#collectionSummary").innerHTML = [
     ["Total cards", ownedCards.length.toLocaleString()], ["Sets represented", representedSets], ["Wanted cards", wanted.toLocaleString()],
   ].map(([label, value]) => `<div class="summary-card"><span>${label}</span><strong>${value}</strong></div>`).join("");
-  $("#collectionList").innerHTML = ownedCards.length ? ownedCards.map(cardRow).join("") : emptyState("Your vault is empty", "Mark cards as Owned and they will appear here.");
+  const query = $("#ownedSearch").value.trim().toLocaleLowerCase();
+  const sort = $("#ownedSort").value;
+  const shown = ownedCards.filter(card => matchesPersonalSearch(card, query)).sort((a,b) => sort === "name" ? a.name.localeCompare(b.name) : sort === "set" ? a.setId.localeCompare(b.setId) || String(a.number).localeCompare(String(b.number), undefined, {numeric:true}) : new Date(entryFor(b.id)?.updatedAt || 0) - new Date(entryFor(a.id)?.updatedAt || 0));
+  $("#collectionList").innerHTML = shown.length ? shown.map(cardRow).join("") : emptyState(ownedCards.length ? "No matching cards" : "Your collection starts here", ownedCards.length ? "Try another wrestler, set or card number." : "Browse the set library and mark your first card as Owned.");
+  const wantedCards = state.catalogue.cards.filter(card => statusFor(card.id) === "wanted");
+  const wantedQuery = $("#wantedSearch").value.trim().toLocaleLowerCase();
+  const wantedShown = wantedCards.filter(card => matchesPersonalSearch(card, wantedQuery));
+  $("#wantedCount").textContent = `${wantedCards.length} card${wantedCards.length === 1 ? "" : "s"} on your wanted list`;
+  $("#wantedList").innerHTML = wantedShown.length ? wantedShown.map(cardRow).join("") : emptyState(wantedCards.length ? "No matching cards" : "Plan your next find", wantedCards.length ? "Try another search." : "Mark cards as Wanted while browsing a set. Your chase list will appear here.");
+}
+
+function matchesPersonalSearch(card, query) {
+  const set = state.catalogue.sets.find(item => item.id === card.setId);
+  return !query || [card.name, card.number, card.subset, set?.name].some(value => String(value || "").toLocaleLowerCase().includes(query));
 }
 
 function emptyState(title, message) { return `<div class="empty-state"><strong>${title}</strong><span>${message}</span></div>`; }
@@ -345,13 +362,27 @@ function populateFilters() {
 }
 
 function changeView(view) {
+  if (!["dashboard", "sets", "cards", "collection", "wanted"].includes(view)) return;
   state.view = view;
   $$(".view").forEach((element) => element.classList.toggle("active", element.id === `${view}View`));
-  $$(".nav-link").forEach((element) => element.classList.toggle("active", element.dataset.view === view));
-  $("#pageTitle").textContent = { dashboard: "Overview", sets: "Sets", cards: "Cards", collection: "My Collection" }[view];
-  $(".sidebar").classList.remove("open");
+  $$(".nav-link").forEach((element) => {
+    const active = element.dataset.navGroup === "collection" ? ["dashboard", "collection"].includes(view) : element.dataset.navGroup === "sets" ? ["sets", "cards"].includes(view) : element.dataset.view === view;
+    element.classList.toggle("active", active);
+    if (active) element.setAttribute("aria-current", "page"); else element.removeAttribute("aria-current");
+  });
+  $("#collectionTabs").hidden = !["dashboard", "collection", "cards"].includes(view);
+  $(".global-search").hidden = view !== "cards";
+  $("#pageTitle").textContent = { dashboard: "My collection", sets: "Set library", cards: "Card catalogue", collection: "Owned cards", wanted: "Wanted" }[view];
+  toggleMenu(false);
   history.replaceState(null, "", `#${view}`);
   window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function toggleMenu(open) {
+  $(".sidebar").classList.toggle("open", open);
+  $("#menuButton").setAttribute("aria-expanded", String(open));
+  $("[data-profile]").setAttribute("aria-expanded", String(open));
+  if (open) $(".sidebar-close").focus();
 }
 
 function showToast(message) {
@@ -723,6 +754,14 @@ function setAuthMode(mode) {
 
 function attachEvents() {
   document.addEventListener("click", (event) => {
+    if (event.target.closest("[data-profile]")) { toggleMenu(true); return; }
+    if (event.target.closest("[data-close-menu]")) { toggleMenu(false); $("#menuButton").focus(); return; }
+    const layout = event.target.closest("[data-layout-target]");
+    if (layout) {
+      document.getElementById(layout.dataset.layoutTarget).dataset.layout = layout.dataset.layout;
+      $$(`[data-layout-target="${layout.dataset.layoutTarget}"]`).forEach(button => button.setAttribute("aria-pressed", String(button === layout)));
+      return;
+    }
     const open = event.target.closest("[data-open-card]");
     if (open) { openCard(open.dataset.openCard); return; }
     const nav = event.target.closest("[data-view]");
@@ -731,13 +770,16 @@ function attachEvents() {
     if (go) { changeView(go.dataset.go); return; }
     const set = event.target.closest("[data-set-id]");
     if (set) {
-      state.setId = set.dataset.setId; $("#setFilter").value = state.setId; state.visibleCards = PAGE_SIZE;
+      state.setId = set.dataset.setId; state.category = state.status = "all"; state.query = "";
+      $("#globalSearch").value = ""; $("#categoryFilter").value = $("#statusFilter").value = "all";
+      $("#setFilter").value = state.setId; state.visibleCards = PAGE_SIZE;
       changeView("cards"); renderCards(); return;
     }
     const action = event.target.closest("[data-card-id]");
     if (action) setStatus(action.dataset.cardId, action.dataset.status);
   });
   document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && $(".sidebar").classList.contains("open")) { toggleMenu(false); $("#menuButton").focus(); }
     const set = event.target.closest(".set-card[data-set-id]");
     if (!set || !["Enter", " "].includes(event.key)) return;
     event.preventDefault();
@@ -748,7 +790,12 @@ function attachEvents() {
     event.preventDefault();
     saveCollectionDetails(event.target);
   });
-  $("#menuButton").addEventListener("click", () => $(".sidebar").classList.toggle("open"));
+  $("#menuButton").addEventListener("click", () => toggleMenu(!$(".sidebar").classList.contains("open")));
+  $("#setSearch").addEventListener("input", renderSets);
+  $("#setOwnership").addEventListener("change", renderSets);
+  $("#ownedSearch").addEventListener("input", renderCollection);
+  $("#wantedSearch").addEventListener("input", renderCollection);
+  $("#ownedSort").addEventListener("change", renderCollection);
   $("#globalSearch").addEventListener("input", (event) => { state.query = event.target.value; state.visibleCards = PAGE_SIZE; if (state.query && state.view !== "cards") changeView("cards"); renderCards(); });
   $("#setFilter").addEventListener("change", (event) => { state.setId = event.target.value; state.visibleCards = PAGE_SIZE; renderCards(); });
   $("#categoryFilter").addEventListener("change", (event) => { state.category = event.target.value; state.visibleCards = PAGE_SIZE; renderCards(); });
@@ -938,6 +985,7 @@ function attachEvents() {
 
 async function init() {
   try {
+    GrailUI.mountIcons();
     await initSupabase();
     const [catalogue, imageResponse] = await Promise.all([loadCatalogue(), fetch("data/images.json").catch(() => null)]);
     state.catalogue = catalogue;
@@ -949,7 +997,7 @@ async function init() {
     renderAll();
     if (state.user) await syncCollection();
     const requested = location.hash.slice(1);
-    if (["dashboard", "sets", "cards", "collection"].includes(requested)) changeView(requested);
+    changeView(["dashboard", "sets", "cards", "collection", "wanted"].includes(requested) ? requested : "dashboard");
     if ("serviceWorker" in navigator && location.protocol !== "file:") navigator.serviceWorker.register("sw.js");
   } catch (error) {
     $(".content").innerHTML = emptyState("GrailRoster could not load", "Refresh the page to try again.");
