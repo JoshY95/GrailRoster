@@ -47,8 +47,18 @@ const { chromium } = require('playwright');
     assert.match((await downloadPromise).suggestedFilename(), /^grailroster-backup-.*\.json$/);
     await page.locator('#authButton').click();
     assert.equal(await page.locator('#authDialog').isVisible(), true);
+    await page.locator('#forgotPasswordButton').click();
+    assert.equal(await page.locator('#authTitle').innerText(), 'Reset your password.');
+    assert.equal(await page.locator('#authPassword').isVisible(), false);
+    assert.equal(await page.locator('#authSubmit').innerText(), 'Send reset link');
+    await page.locator('#authBackButton').click();
     await page.locator('#authSignUpTab').click();
     assert.equal(await page.locator('#authSubmit').innerText(), 'Create account');
+    await page.evaluate(() => setAuthMode('update-password'));
+    assert.equal(await page.locator('#authTitle').innerText(), 'Choose a new password.');
+    assert.equal(await page.locator('#authEmail').isVisible(), false);
+    assert.equal(await page.locator('#authPasswordConfirm').isVisible(), true);
+    assert.equal(await page.locator('#authSubmit').innerText(), 'Save new password');
     await page.locator('#closeAuthDialog').click();
 
     await page.locator('[data-view="dashboard"]').click();
@@ -61,7 +71,7 @@ const { chromium } = require('playwright');
     assert.equal(await page.locator('.sidebar').evaluate(el => el.classList.contains('open')), false);
     assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth), true);
     assert.deepEqual(errors, []);
-    console.log('PASS: catalogue, progress, sets, owned persistence, details, search, backup, auth UI, and mobile navigation');
+    console.log('PASS: catalogue, progress, sets, owned persistence, details, search, backup, auth and password-reset UI, and mobile navigation');
   } finally {
     await browser.close();
   }
