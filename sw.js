@@ -1,7 +1,7 @@
-const CACHE = "grailroster-vault-v17";
-const ASSETS = ["./", "index.html", "theme.css", "styles.css", "vault.css", "ui.js", "vault.js", "config.js", "app.js", "manifest.json", "data/catalogue.json", "data/images.json"];
+const CACHE = "grailroster-vault-v18";
+const ASSETS = ["./", "index.html", "theme.css", "styles.css", "vault.css?v=18", "ui.js", "vault.js?v=18", "config.js", "app.js?v=18", "manifest.json", "data/catalogue.json", "data/images.json"];
 
-self.addEventListener("install", (event) => event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS)).then(() => self.skipWaiting())));
+self.addEventListener("install", (event) => event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS.map(url => new Request(url, {cache:"reload"})))).then(() => self.skipWaiting())));
 self.addEventListener("activate", (event) => event.waitUntil(caches.keys()
   .then((keys) => Promise.all(keys.filter((key) => key !== CACHE).map((key) => caches.delete(key))))
   .then(() => self.clients.claim())));
