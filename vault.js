@@ -8,6 +8,7 @@ const Vault = (() => {
   const active = entry => (entry?.copies || []).filter(copy => copy.status === 'owned');
   const managed = entry => Array.isArray(entry?.copies);
   const money = (amount, currency) => amount == null ? 'Not recorded' : new Intl.NumberFormat('en-AU', {style:'currency', currency}).format(amount);
+  const counted = (count, singular, plural = `${singular}s`) => `${count} ${count === 1 ? singular : plural}`;
   let busy = false;
   let generation = 0;
 
@@ -177,7 +178,7 @@ const Vault = (() => {
       const group = totals[copy.currency] ||= {cost:0,value:0,valued:0};
       group.cost += copy.purchasePrice || 0; group.value += copy.estimatedValue || 0; group.valued += copy.estimatedValue !== null ? 1 : 0;
     }
-    target.innerHTML = `<div class="vault-entry"><p class="eyebrow">COLLECTOR VAULT</p><h3>${copies.filter(c=>c.status==='owned').length} detailed copies · ${copies.filter(c=>c.status!=='owned').length} archived</h3><p class="muted">Open any card to manage its individual copies. Checklist completion counts unique card designs, not duplicates.</p>${Object.entries(totals).map(([currency,t])=>`<p>${escapeHtml(currency)} · Recorded cost ${escapeHtml(money(t.cost,currency))} · Manual estimates ${escapeHtml(money(t.value,currency))} (${t.valued} valued copies)</p>`).join('')}${entries.some(([,e])=>e.copies.some(c=>c.status!=='owned')) ? `<details><summary>Sold / traded history</summary>${entries.filter(([,e])=>e.copies.some(c=>c.status!=='owned')).map(([id])=>`<button class="secondary-button" data-vault-card="${escapeHtml(id)}">${escapeHtml(state.catalogue.cards.find(c=>c.id===id)?.name || id)}</button>`).join('')}</details>` : ''}</div>`;
+    target.innerHTML = `<div class="vault-entry"><p class="eyebrow">COLLECTOR VAULT</p><h3>${counted(copies.filter(c=>c.status==='owned').length,'detailed copy','detailed copies')} · ${copies.filter(c=>c.status!=='owned').length} archived</h3><p class="muted">Open any card to manage its individual copies. Checklist completion counts unique card designs, not duplicates.</p>${Object.entries(totals).map(([currency,t])=>`<p>${escapeHtml(currency)} · Recorded cost ${escapeHtml(money(t.cost,currency))} · Manual estimates ${escapeHtml(money(t.value,currency))} (${counted(t.valued,'valued copy','valued copies')})</p>`).join('')}${entries.some(([,e])=>e.copies.some(c=>c.status!=='owned')) ? `<details><summary>Sold / traded history</summary>${entries.filter(([,e])=>e.copies.some(c=>c.status!=='owned')).map(([id])=>`<button class="secondary-button" data-vault-card="${escapeHtml(id)}">${escapeHtml(state.catalogue.cards.find(c=>c.id===id)?.name || id)}</button>`).join('')}</details>` : ''}</div>`;
   }
 
   function reset() { generation++; document.querySelector('#vaultDialog')?.close(); document.querySelector('#vaultContent')?.replaceChildren(); }
