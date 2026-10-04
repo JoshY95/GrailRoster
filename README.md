@@ -6,7 +6,7 @@ Production: <https://grailroster.com/>
 
 ## MVP features
 
-- Browse 8,710 card identities across 18 WWE sets
+- Browse 9,362 card identities across 19 WWE sets
 - Search by wrestler, card number, subset, code or roster
 - Filter by set, category and collection status
 - Mark cards as owned or wanted
@@ -47,6 +47,7 @@ The generated app dataset currently includes:
 - 2025 Topps Chrome WWE Cactus Jack x WrestleMania
 - 2025 Topps Chrome Sapphire WWE
 - 2025 Topps Chrome WWE
+- 2024 Panini Flawless WWE
 - 2025 Topps John Cena Commemorative Collection
 - 2025 Topps Exalted WWE
 - 2026 Topps Chrome WWE
@@ -74,6 +75,14 @@ variants instead of being incorrectly counted as additional checklist cards. Run
 `node scripts/add_2025_topps_chrome_wwe.js /path/to/WWE2502-CheckList_25CWWE.pdf
 --sql-dir supabase/generated/2025-topps-chrome-wwe` to validate the source PDF,
 refresh the bundled catalogue, and generate idempotent Sydney database seed batches.
+
+The 2024 Panini Flawless WWE set is sourced from the published Panini checklist
+workbook. Its 3,356 printed rows normalize to 652 stable card identities across 25
+subsets. Every numbered base issue and parallel remains attached as an exact verified
+variant, including the Bronze FOTL cards and the three identities with no base issue.
+Run `python scripts/add_2024_panini_flawless_wwe.py /path/to/checklist.xls --sql-dir
+supabase/generated/2024-panini-flawless-wwe` to validate the workbook and regenerate
+the idempotent Sydney database batches.
 
 The ten post-Universe source workbooks and their original checklist files are stored under `sources/new_sets/`. Run `scripts/extract_new_catalogues.py` to re-normalize those checklists, then rebuild the workbooks and run `scripts/build_catalogue.py` to regenerate `data/catalogue.json` and the Supabase SQL batches.
 
