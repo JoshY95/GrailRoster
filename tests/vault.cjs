@@ -57,7 +57,7 @@ const {chromium} = require('playwright');
    assert.equal(await page.locator('#vaultDialog').evaluate(el=>el.scrollWidth<=el.clientWidth),true,`Vault overflow at ${width}`);
   }
   await page.setViewportSize({width:390,height:844});
-  await page.screenshot({path:'/workspace/scratch/4c525d9bd229/vault-mobile.png',fullPage:true});
+  await page.screenshot({path:require('node:path').join(require('node:os').tmpdir(),'grailroster-vault-mobile.png'),fullPage:true});
   page.on('dialog',d=>d.accept());await page.locator('#vaultDelete').click();
   await page.waitForFunction(()=>document.querySelectorAll('[data-vault-edit]').length===2);
   assert.equal(await page.evaluate(id=>statusFor(id),cardId),'missing');
