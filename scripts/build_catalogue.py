@@ -7,6 +7,7 @@ from datetime import UTC, date, datetime
 from pathlib import Path
 
 from openpyxl import load_workbook
+from catalogue_io import save_catalogue
 
 ROOT = Path(__file__).resolve().parents[1]
 WORKSPACE = ROOT.parent
@@ -183,7 +184,7 @@ def main():
         "schemaVersion": 2, "generatedAt": datetime.now(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
         "setCount": len(static_sets), "cardCount": len(static_cards), "sets": static_sets, "cards": static_cards,
     }
-    OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    save_catalogue(payload)
     sql_dir = args.sql_dir
     sql_dir.mkdir(parents=True, exist_ok=True)
     for old in sql_dir.glob("*.sql"):

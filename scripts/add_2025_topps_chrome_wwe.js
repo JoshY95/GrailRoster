@@ -4,6 +4,7 @@
 const fs = require('node:fs');
 const { execFileSync } = require('node:child_process');
 const path = require('node:path');
+const {loadCatalogue, saveCatalogue} = require('./catalogue_io');
 
 const ROOT = path.resolve(__dirname, '..');
 const CATALOGUE = path.join(ROOT, 'data/catalogue.json');
@@ -184,7 +185,7 @@ const set = {
   })),
 };
 
-const catalogue = JSON.parse(fs.readFileSync(CATALOGUE, 'utf8'));
+const catalogue = loadCatalogue();
 const existingCards = catalogue.cards.filter(card => card.setId === SET_ID);
 if (catalogue.sets.some(item => item.id === SET_ID) || existingCards.length) {
   if (existingCards.length !== cards.length || existingCards.some((card, index) => card.id !== cards[index].id || card.name !== cards[index].name)) {
@@ -201,7 +202,7 @@ if (catalogue.sets.some(item => item.id === SET_ID) || existingCards.length) {
   catalogue.setCount = catalogue.sets.length;
   catalogue.cardCount = catalogue.cards.length;
   catalogue.generatedAt = new Date().toISOString();
-  fs.writeFileSync(CATALOGUE, JSON.stringify(catalogue), 'utf8');
+  saveCatalogue(catalogue);
 }
 
 const sqlDirIndex = process.argv.indexOf('--sql-dir');

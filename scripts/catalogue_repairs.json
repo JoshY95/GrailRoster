@@ -1,0 +1,793 @@
+[
+  {
+    "setId": "2025-topps-royalty-wwe",
+    "removedCards": [
+      {
+        "id": "2025-TRWWE-UCSMR-100",
+        "setId": "2025-topps-royalty-wwe",
+        "order": 685,
+        "number": "100",
+        "name": "PERCENT STRATUSFACTION RELICS",
+        "subject2": null,
+        "category": "Relic",
+        "subset": "U CANT SEE ME RELICS",
+        "subsetCode": "UCSMR",
+        "roster": null,
+        "rookie": "No",
+        "parallelGroup": "UCSMR"
+      }
+    ],
+    "oldSubsetCode": "UCSMR",
+    "newSubset": {
+      "category": "Relic",
+      "name": "100 PERCENT STRATUSFACTION RELICS",
+      "code": "STRATUS-RELIC",
+      "count": 5
+    },
+    "updates": [
+      {
+        "before": {
+          "id": "2025-TRWWE-UCSMR-TSR_1",
+          "setId": "2025-topps-royalty-wwe",
+          "order": 686,
+          "number": "TSR-1",
+          "name": "Trish Stratus Legend",
+          "subject2": null,
+          "category": "Relic",
+          "subset": "U CANT SEE ME RELICS",
+          "subsetCode": "UCSMR",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "UCSMR"
+        },
+        "changes": {
+          "subset": "100 PERCENT STRATUSFACTION RELICS",
+          "subsetCode": "STRATUS-RELIC",
+          "parallelGroup": "STRATUS-RELIC"
+        }
+      },
+      {
+        "before": {
+          "id": "2025-TRWWE-UCSMR-TSR_2",
+          "setId": "2025-topps-royalty-wwe",
+          "order": 687,
+          "number": "TSR-2",
+          "name": "Trish Stratus Legend",
+          "subject2": null,
+          "category": "Relic",
+          "subset": "U CANT SEE ME RELICS",
+          "subsetCode": "UCSMR",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "UCSMR"
+        },
+        "changes": {
+          "subset": "100 PERCENT STRATUSFACTION RELICS",
+          "subsetCode": "STRATUS-RELIC",
+          "parallelGroup": "STRATUS-RELIC"
+        }
+      },
+      {
+        "before": {
+          "id": "2025-TRWWE-UCSMR-TSR_3",
+          "setId": "2025-topps-royalty-wwe",
+          "order": 688,
+          "number": "TSR-3",
+          "name": "Trish Stratus Legend",
+          "subject2": null,
+          "category": "Relic",
+          "subset": "U CANT SEE ME RELICS",
+          "subsetCode": "UCSMR",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "UCSMR"
+        },
+        "changes": {
+          "subset": "100 PERCENT STRATUSFACTION RELICS",
+          "subsetCode": "STRATUS-RELIC",
+          "parallelGroup": "STRATUS-RELIC"
+        }
+      },
+      {
+        "before": {
+          "id": "2025-TRWWE-UCSMR-TSR_4",
+          "setId": "2025-topps-royalty-wwe",
+          "order": 689,
+          "number": "TSR-4",
+          "name": "Trish Stratus Legend",
+          "subject2": null,
+          "category": "Relic",
+          "subset": "U CANT SEE ME RELICS",
+          "subsetCode": "UCSMR",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "UCSMR"
+        },
+        "changes": {
+          "subset": "100 PERCENT STRATUSFACTION RELICS",
+          "subsetCode": "STRATUS-RELIC",
+          "parallelGroup": "STRATUS-RELIC"
+        }
+      },
+      {
+        "before": {
+          "id": "2025-TRWWE-UCSMR-TSR_5",
+          "setId": "2025-topps-royalty-wwe",
+          "order": 690,
+          "number": "TSR-5",
+          "name": "Trish Stratus Legend",
+          "subject2": null,
+          "category": "Relic",
+          "subset": "U CANT SEE ME RELICS",
+          "subsetCode": "UCSMR",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "UCSMR"
+        },
+        "changes": {
+          "subset": "100 PERCENT STRATUSFACTION RELICS",
+          "subsetCode": "STRATUS-RELIC",
+          "parallelGroup": "STRATUS-RELIC"
+        }
+      }
+    ]
+  },
+  {
+    "setId": "2026-topps-chrome-sapphire-wwe",
+    "removedCards": [
+      {
+        "id": "2026-TCSWWE-BCIAV-1986",
+        "setId": "2026-topps-chrome-sapphire-wwe",
+        "order": 318,
+        "number": "1986",
+        "name": "TOPPS AUTOGRAPH VARIATION",
+        "subject2": null,
+        "category": "Autograph",
+        "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+        "subsetCode": "BCIAV",
+        "roster": null,
+        "rookie": "No",
+        "parallelGroup": "BCIAV"
+      }
+    ],
+    "oldSubsetCode": "BCIAV",
+    "newSubset": {
+      "category": "Autograph",
+      "name": "1986 TOPPS AUTOGRAPH VARIATION",
+      "code": "86TA",
+      "count": 30
+    },
+    "updates": [
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_AB",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 319,
+          "number": "86T-AB",
+          "name": "Alexa Bliss Smackdown",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_BB",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 320,
+          "number": "86T-BB",
+          "name": "Bianca Belair Smackdown",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_BY",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 321,
+          "number": "86T-BY",
+          "name": "Bayley Raw",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_CF",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 322,
+          "number": "86T-CF",
+          "name": "Charlotte Flair Smackdown",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_CG",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 323,
+          "number": "86T-CG",
+          "name": "Chelsea Green Smackdown",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_CM",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 324,
+          "number": "86T-CM",
+          "name": "CM Punk Raw",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_CR",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 325,
+          "number": "86T-CR",
+          "name": "\"The American Nightmare\" Cody Rhodes Smackdown",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_DM",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 326,
+          "number": "86T-DM",
+          "name": "Drew McIntyre Smackdown",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_DP",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 327,
+          "number": "86T-DP",
+          "name": "Damian Priest Smackdown",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_FB",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 328,
+          "number": "86T-FB",
+          "name": "Finn Bálor Raw",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_GT",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 329,
+          "number": "86T-GT",
+          "name": "Gunther Raw",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_IS",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 330,
+          "number": "86T-IS",
+          "name": "Iyo Sky Raw",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_JC",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 331,
+          "number": "86T-JC",
+          "name": "John Cena Legend",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_JF",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 332,
+          "number": "86T-JF",
+          "name": "Jacob Fatu Smackdown",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_JL",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 333,
+          "number": "86T-JL",
+          "name": "Jade Cargill Smackdown",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_JY",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 334,
+          "number": "86T-JY",
+          "name": "Jey Uso Raw",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_KO",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 335,
+          "number": "86T-KO",
+          "name": "Kevin Owens Smackdown",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_LA",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 336,
+          "number": "86T-LA",
+          "name": "LA Knight Raw",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_LM",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 337,
+          "number": "86T-LM",
+          "name": "Liv Morgan Raw",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_NJ",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 338,
+          "number": "86T-NJ",
+          "name": "Nia Jax Smackdown",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_PT",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 339,
+          "number": "86T-PT",
+          "name": "Penta Raw",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_RF",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 340,
+          "number": "86T-RF",
+          "name": "Rey Fenix Smackdown",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_RO",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 341,
+          "number": "86T-RO",
+          "name": "Randy Orton Smackdown",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_SA",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 342,
+          "number": "86T-SA",
+          "name": "\"Stone Cold\" Steve Austin Legend",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_SM",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 343,
+          "number": "86T-SM",
+          "name": "Shawn Michaels Legend",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_SS",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 344,
+          "number": "86T-SS",
+          "name": "Solo Sikoa Smackdown",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_TH",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 345,
+          "number": "86T-TH",
+          "name": "Triple H Legend",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_TR",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 346,
+          "number": "86T-TR",
+          "name": "The Rock Legend",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_TS",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 347,
+          "number": "86T-TS",
+          "name": "Tiffany Stratton Smackdown",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      },
+      {
+        "before": {
+          "id": "2026-TCSWWE-BCIAV-86T_UT",
+          "setId": "2026-topps-chrome-sapphire-wwe",
+          "order": 348,
+          "number": "86T-UT",
+          "name": "Undertaker Legend",
+          "subject2": null,
+          "category": "Autograph",
+          "subset": "BASE CARDS I AUTOGRAPH VARIATION",
+          "subsetCode": "BCIAV",
+          "roster": null,
+          "rookie": "No",
+          "parallelGroup": "BCIAV"
+        },
+        "changes": {
+          "subset": "1986 TOPPS AUTOGRAPH VARIATION",
+          "subsetCode": "86TA",
+          "parallelGroup": "86TA"
+        }
+      }
+    ]
+  }
+]

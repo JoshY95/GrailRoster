@@ -7,6 +7,7 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from datetime import UTC, datetime
 from pathlib import Path
+from catalogue_io import save_catalogue
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -159,7 +160,7 @@ def main():
             for row in cards
         ],
     }
-    OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    save_catalogue(payload)
     print(f"Exported {len(cards):,} cards across {len(sets)} sets to {OUTPUT}")
 
 

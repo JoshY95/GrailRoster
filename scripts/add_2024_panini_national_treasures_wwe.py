@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Import 2024 Panini Flawless WWE from the published Panini checklist workbook.
+"""Import 2024 Panini National Treasures WWE from the published Panini checklist workbook.
 
 The workbook lists every printed version as a separate row. This importer keeps one
 stable card identity per subset/card number and stores every numbered printing,
@@ -20,48 +20,39 @@ from catalogue_io import load_catalogue, save_catalogue
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CATALOGUE = ROOT / "data" / "catalogue.json"
-SET_ID = "2024-panini-flawless-wwe"
-SOURCE = "https://gogts.net/wp-content/uploads/2025/01/2024-Panini-Flawless-WWE-Trading-Cards-Checklist.xls"
+SET_ID = "2024-panini-national-treasures-wwe"
+SOURCE = "https://gogts.net/wp-content/uploads/2024/12/2024-Panini-National-Treasures-WWE-Trading-Cards-Checklist.xls"
 PRODUCT = "https://www.paniniamerica.net/checklist.html"
 
 PARALLEL_SUFFIXES = (
-    "Bronze FOTL",
-    "Amethyst",
-    "Emerald",
-    "Gold",
-    "Platinum",
-    "Ruby",
-    "Sapphire",
+    "Purple FOTL", "Red FOTL", "Holo Gold", "Holo Silver",
+    "Amethyst", "Emerald", "Platinum", "Red",
 )
 
-# Source order is preserved so a rebuild remains deterministic.
+# These are the actual subset/card-number unions present in the source workbook.
+# Missing base issues and gaps in printed numbering are intentionally preserved.
 SUBSETS = OrderedDict([
-    ("5 x 7 Box Topper Cut Signatures", ("BOX-CUT", "Autograph", 16)),
-    ("Base", ("BASE", "Base", 50)),
-    ("Base Legends", ("BASE-LGD", "Base", 50)),
-    ("Flawless Achievements", ("ACH", "Autograph", 26)),
-    ("Flawless Dual Memorabilia", ("DUAL-MEM", "Relic", 15)),
-    ("Flawless Finishing Moves", ("FIN", "Autograph", 33)),
-    ("Flawless Memorabilia", ("MEM", "Relic", 32)),
-    ("Flawless Patch Autographs", ("PATCH-AUTO", "Autograph Relic", 35)),
-    ("Flawless Performances", ("PERF", "Autograph", 25)),
-    ("Flawless Royal Rumble Autographs", ("RR-AUTO", "Autograph", 22)),
-    ("Flawless SummerSlam Autographs", ("SS-AUTO", "Autograph", 20)),
-    ("Flawless Survivor Series Autographs", ("SVS-AUTO", "Autograph", 20)),
-    ("Flawless Triple Memorabilia", ("TRIPLE-MEM", "Relic", 4)),
-    ("Flawless WrestleMania Autographs", ("WM-AUTO", "Autograph", 20)),
-    ("Horizontal Autographed Memorabilia", ("HAM", "Autograph Relic", 48)),
-    ("Jumbo Memorabilia", ("JUMBO-MEM", "Relic", 32)),
-    ("NXT Logo Gems", ("NXT-GEM", "Gem", 10)),
-    ("Raw Logo Gems", ("RAW-GEM", "Gem", 20)),
-    ("Signature Prime Materials", ("SPM", "Autograph Relic", 38)),
-    ("Smackdown Logo Gems", ("SD-GEM", "Gem", 20)),
-    ("Star Swatch Signatures", ("SSS", "Autograph Relic", 19)),
-    ("Superstar Logo Gems", ("SUPER-GEM", "Gem", 10)),
-    ("Vertical Autographed Memorabilia", ("VAM", "Autograph Relic", 47)),
-    ("WWE Legends Logo Gems", ("LEGENDS-GEM", "Gem", 20)),
-    ("WWE Logo Gems", ("WWE-GEM", "Gem", 20)),
+    ("Base", ("BASE", "Base", 100)),
+    ("Clutch Factor Signatures", ("CFS", "Autograph Relic", 19)),
+    ("Colossal Mat Material Signatures", ("CMMS", "Autograph Relic", 19)),
+    ("Colossal Mat Materials", ("CMM", "Relic", 29)),
+    ("Colossal Materials", ("CM", "Relic", 67)),
+    ("Definitive Ink", ("DI", "Autograph", 51)),
+    ("Dual Signatures", ("DUAL", "Autograph", 11)),
+    ("International Treasures Signatures", ("ITS", "Autograph", 17)),
+    ("Legendary Signatures", ("LS", "Autograph", 44)),
+    ("Material Treasures", ("MT", "Relic", 50)),
+    ("Peerless Signatures", ("PS", "Autograph", 26)),
+    ("Retro Materials", ("RM", "Relic", 29)),
+    ("Superstar Material Signatures", ("SMS", "Autograph Relic", 41)),
+    ("Superstar Signature Jumbo Material Booklet", ("SSJMB", "Autograph Relic", 10)),
+    ("Tag Team Material Signature Booklet", ("TTMSB", "Autograph Relic", 1)),
+    ("Timeline Materials", ("TM", "Relic", 68)),
+    ("Treasured Threads", ("TT", "Relic", 50)),
+    ("Treasures of WWE Signatures", ("TWS", "Autograph", 45)),
+    ("Triple Signatures", ("TRIPLE", "Autograph", 2)),
+    ("Viewpoint Signatures", ("VS", "Autograph", 24)),
+    ("WWE's Greatest Signatures", ("WGS", "Autograph", 15)),
 ])
 
 
@@ -136,8 +127,8 @@ def main() -> None:
             "sequence": int(sequence_value),
         })
 
-    if len(rows) != 3356:
-        raise ValueError(f"Unexpected printed-version count: {len(rows)}; expected 3356")
+    if len(rows) != 3550:
+        raise ValueError(f"Unexpected printed-version count: {len(rows)}; expected 3550")
     observed_card_sets = {row["card_set"] for row in rows}
     expected_card_sets = {
         family + (f" {suffix}" if suffix else "")
@@ -148,13 +139,19 @@ def main() -> None:
     if observed_card_sets != expected_card_sets:
         raise ValueError("A checklist card-set label was not classified exactly")
 
-    # Prefer the unsuffixed issue as the canonical name. Three explicitly documented
-    # cards have no base printing, so their first published parallel supplies identity.
+    # Prefer the unsuffixed issue as the canonical name. Parallel-only identities
+    # use their first published printing; never fabricate an absent base version.
     identity_rows = OrderedDict()
     for row in rows:
         key = (row["family"], row["number"])
         if key not in identity_rows or row["parallel"] == "Base":
             identity_rows[key] = row
+
+    # Subject order changes on eight multi-signed designs, but the people must agree.
+    for row in rows:
+        canonical = identity_rows[(row["family"], row["number"])]
+        if sorted(map(clean, row["athlete"].split("/"))) != sorted(map(clean, canonical["athlete"].split("/"))):
+            raise ValueError(f"Conflicting subjects for {row['family']} #{row['number']}")
 
     observed_counts = {family: 0 for family in SUBSETS}
     for family, _ in identity_rows:
@@ -169,7 +166,7 @@ def main() -> None:
         code, category, _ = SUBSETS[family]
         subjects = [part.strip() for part in row["athlete"].split("/")]
         card = {
-            "id": f"2024-PFWWE-{code}-{card_number}",
+            "id": f"2024-PNTWWE-{code}-{card_number}",
             "setId": SET_ID,
             "order": order,
             "number": card_number,
@@ -186,8 +183,8 @@ def main() -> None:
         cards.append(card)
         card_by_key[(family, card_number)] = card
 
-    if len(cards) != 652 or len({card["id"] for card in cards}) != 652:
-        raise ValueError("Expected 652 unique stable card identities")
+    if len(cards) != 718 or len({card["id"] for card in cards}) != 718:
+        raise ValueError("Expected 718 unique stable card identities")
 
     variants = []
     seen_variant_ids = set()
@@ -207,17 +204,17 @@ def main() -> None:
             "parallel": row["parallel"],
             "serialCap": row["sequence"],
             "serialExact": "1/1" if row["sequence"] == 1 else f'/{row["sequence"]}',
-            "exclusiveNote": "First Off the Line exclusive" if row["parallel"] == "Bronze FOTL" else None,
+            "exclusiveNote": "First Off the Line exclusive" if row["parallel"].endswith(" FOTL") else None,
         })
 
     set_record = {
         "id": SET_ID,
-        "name": "2024 Panini Flawless WWE",
-        "shortName": "Flawless WWE 2024",
+        "name": "2024 Panini National Treasures WWE",
+        "shortName": "National Treasures WWE 2024",
         "accent": "#d4af37",
         "year": 2024,
         "manufacturer": "Panini",
-        "releaseDate": "2025-01-03",
+        "releaseDate": "2024-12-31",
         "cardCount": len(cards),
         "subsetCount": len(SUBSETS),
         "subsets": [
@@ -228,12 +225,11 @@ def main() -> None:
 
     catalogue = load_catalogue()
     existing_cards = [card for card in catalogue["cards"] if card["setId"] == SET_ID]
-    if any(item["id"] == SET_ID for item in catalogue["sets"]) or existing_cards:
-        if len(existing_cards) != len(cards) or any(
-            existing["id"] != generated["id"] or existing["name"] != generated["name"]
-            for existing, generated in zip(existing_cards, cards)
-        ):
-            raise ValueError("Existing Flawless data differs from the source workbook")
+    existing_sets = [item for item in catalogue["sets"] if item["id"] == SET_ID]
+    generated_cards = [{key: value for key, value in card.items() if key != "subject1"} for card in cards]
+    if existing_sets or existing_cards:
+        if existing_sets != [set_record] or existing_cards != generated_cards:
+            raise ValueError("Existing National Treasures data differs from the source workbook")
     else:
         catalogue["sets"].append(set_record)
         catalogue["cards"].extend({key: value for key, value in card.items() if key != "subject1"} for card in cards)
@@ -278,7 +274,7 @@ def main() -> None:
                 + values([[card["id"], SET_ID, card["order"], card["category"], card["subsetCode"], card["number"],
                            card["name"], card["subject1"], card["subject2"], card["roster"], False,
                            card["parallelGroup"], "Missing", "Unpriced", SOURCE,
-                           "Published Panini 2024 Flawless WWE checklist workbook"] for card in batch])
+                           "Published Panini 2024 National Treasures WWE checklist workbook"] for card in batch])
                 + " on conflict (id) do update set checklist_order=excluded.checklist_order,category=excluded.category,"
                   "subset_code=excluded.subset_code,card_number=excluded.card_number,display_name=excluded.display_name,"
                   "subject_1=excluded.subject_1,subject_2=excluded.subject_2,roster=excluded.roster,"
@@ -309,10 +305,10 @@ def main() -> None:
                 continue
             seen_rules.add(rule_key)
             rule_rows.append([
-                f'2024-panini-flawless-wwe-{slug(code).lower()}-{slug(row["parallel"]).lower()}-{row["sequence"]}',
+                f'2024-panini-national-treasures-wwe-{slug(code).lower()}-{slug(row["parallel"]).lower()}-{row["sequence"]}',
                 SET_ID, code, row["family"], row["parallel"], row["sequence"],
                 "1/1" if row["sequence"] == 1 else f'/{row["sequence"]}',
-                "First Off the Line exclusive" if row["parallel"] == "Bronze FOTL" else None,
+                "First Off the Line exclusive" if row["parallel"].endswith(" FOTL") else None,
                 "Applies only to card numbers explicitly present in the checklist workbook",
                 "Official checklist verified",
             ])
@@ -327,9 +323,9 @@ def main() -> None:
         statements.append(
             "insert into public.catalogue_sources (id,set_id,source,purpose,url,notes) values "
             + values([
-                ["2024-panini-flawless-wwe-checklist", SET_ID, "GTS Distribution / Panini", "Checklist", SOURCE,
-                 "Published Panini workbook with 3,356 exact printed versions"],
-                ["2024-panini-flawless-wwe-panini", SET_ID, "Panini America", "Checklist index", PRODUCT,
+                ["2024-panini-national-treasures-wwe-checklist", SET_ID, "GTS Distribution / Panini", "Checklist", SOURCE,
+                 "Published Panini workbook with 3,550 exact printed versions; original scheduled release Dec 13, 2024; current hobby guides report Dec 31, 2024"],
+                ["2024-panini-national-treasures-wwe-panini", SET_ID, "Panini America", "Checklist index", PRODUCT,
                  "Official manufacturer checklist search"],
             ])
             + " on conflict (id) do update set url=excluded.url,notes=excluded.notes;"

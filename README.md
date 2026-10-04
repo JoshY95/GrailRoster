@@ -6,7 +6,7 @@ Production: <https://grailroster.com/>
 
 ## MVP features
 
-- Browse 9,362 card identities across 19 WWE sets
+- Browse 10,359 card identities across 23 sets
 - Search by wrestler, card number, subset, code or roster
 - Filter by set, category and collection status
 - Mark cards as owned or wanted
@@ -37,6 +37,12 @@ python -m http.server 8080
 Then open `http://localhost:8080`.
 
 ## Catalogue source files
+
+Read `PROJECT_STATUS.md` for the compact project handover. The runtime catalogue is
+`data/catalogue-index.json` plus one file per set in `data/sets/`. Importers use
+`scripts/catalogue_io.py` / `catalogue_io.js`, which do not rewrite unchanged sets.
+`data/catalogue.json` is retained only as a frozen pre-split compatibility snapshot.
+Run `node tests/catalogue-split.cjs` to verify the migration and loader/cache logic.
 
 The generated app dataset currently includes:
 
@@ -84,6 +90,15 @@ Run `python scripts/add_2024_panini_flawless_wwe.py /path/to/checklist.xls --sql
 supabase/generated/2024-panini-flawless-wwe` to validate the workbook and regenerate
 the idempotent Sydney database batches.
 
+2024 Panini National Treasures WWE adds 718 identities across 21 subsets and
+3,550 exact numbered versions from the published Panini workbook. The original
+source is retained under `sources/2024-panini-national-treasures-wwe/`. Run
+`python scripts/add_2024_panini_national_treasures_wwe.py
+sources/2024-panini-national-treasures-wwe/checklist.xls --sql-dir
+supabase/generated/2024-panini-national-treasures-wwe` to rebuild its split
+catalogue file and database batches. See `docs/NATIONAL_TREASURES_2024.md` for
+source coverage, provisional release date and verification details.
+
 The ten post-Universe source workbooks and their original checklist files are stored under `sources/new_sets/`. Run `scripts/extract_new_catalogues.py` to re-normalize those checklists, then rebuild the workbooks and run `scripts/build_catalogue.py` to regenerate `data/catalogue.json` and the Supabase SQL batches.
 
 ## Authentication setup
@@ -93,3 +108,5 @@ The browser uses the public Supabase publishable key in `config.js`; no server s
 Email/password accounts use Supabase `signUp` and `signInWithPassword`. Hosted projects require email confirmation by default. For closed testing only, confirmation can be temporarily disabled under **Authentication → Providers → Email**. Re-enable confirmation and configure custom SMTP before a public launch.
 
 The production Supabase Site URL and exact redirect URL are both `https://grailroster.com/`. The legacy GitHub Pages redirect remains temporarily allow-listed during the domain migration.
+
+Completed annual Topps NOW lists: 2025 (157 cards), 2026 through 4 October (123 cards) and the separately labelled 2026 WBC/WWE crossover (1 card). See docs/WWE_TOPPS_NOW_2025_2026_RELEASE_LIST.md; run `python scripts/add_topps_now_annual.py` to validate/rebuild the split records and guarded SQL. Printed parallels are not inferred from base print runs.

@@ -20,7 +20,7 @@ REQUIRED_COLUMNS = {
 
 def args_parser():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--catalogue", type=Path, default=Path("data/catalogue.json"))
+    parser.add_argument("--catalogue", type=Path, help="Optional legacy monolithic catalogue; otherwise use per-set files")
     parser.add_argument("--rights", type=Path, required=True, help="CSV rights register")
     parser.add_argument("--base-url", required=True, help="Public bucket URL ending before the filename")
     parser.add_argument("--output", type=Path, default=Path("data/images.json"))
@@ -33,7 +33,8 @@ def public_url(base_url, filename):
 
 def main():
     args = args_parser()
-    catalogue = json.loads(args.catalogue.read_text(encoding="utf-8"))
+    from catalogue_io import load_catalogue
+    catalogue = json.loads(args.catalogue.read_text(encoding="utf-8")) if args.catalogue else load_catalogue()
     card_ids = {card["id"] for card in catalogue["cards"]}
     set_ids = {item["id"] for item in catalogue["sets"]}
     manifest = {"schemaVersion": 1, "generatedAt": datetime.now(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z"), "cards": {}, "sets": {}}

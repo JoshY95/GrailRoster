@@ -480,9 +480,18 @@ async function fetchAllRows(table, columns, orderColumns) {
 }
 
 async function loadCatalogue() {
-  const offlineResponse = await fetch("data/catalogue.json");
+  const offlineResponse = await fetch("data/catalogue-index.json");
   if (!offlineResponse.ok) throw new Error("Catalogue failed to load");
-  const offlineCatalogue = await offlineResponse.json();
+  const index = await offlineResponse.json();
+  const chunks = await Promise.all(index.sets.map(async (set) => {
+    const response = await fetch(`data/${set.file}`);
+    if (!response.ok) throw new Error(`Catalogue set failed to load: ${set.id}`);
+    const chunk = await response.json();
+    if (chunk.setId !== set.id || chunk.cards.length !== set.cardCount) throw new Error(`Catalogue set mismatch: ${set.id}`);
+    return chunk.cards;
+  }));
+  const offlineCatalogue = {...index, cards: chunks.flat()};
+  if (offlineCatalogue.cards.length !== index.cardCount) throw new Error("Catalogue total mismatch");
   if (state.supabase) {
     try {
       const [sets, subsets, cards] = await Promise.all([
