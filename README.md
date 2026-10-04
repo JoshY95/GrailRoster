@@ -6,7 +6,7 @@ Production: <https://grailroster.com/>
 
 ## MVP features
 
-- Browse 7,671 card identities across 17 WWE sets
+- Browse 8,710 card identities across 18 WWE sets
 - Search by wrestler, card number, subset, code or roster
 - Filter by set, category and collection status
 - Mark cards as owned or wanted
@@ -46,6 +46,7 @@ The generated app dataset currently includes:
 - 2025 Topps Chrome WWE x Cactus Jack
 - 2025 Topps Chrome WWE Cactus Jack x WrestleMania
 - 2025 Topps Chrome Sapphire WWE
+- 2025 Topps Chrome WWE
 - 2025 Topps John Cena Commemorative Collection
 - 2025 Topps Exalted WWE
 - 2026 Topps Chrome WWE
@@ -65,6 +66,14 @@ Refractor is recorded as a set-level rule only; card-level variants remain unlis
 until Topps confirms applicability. To re-parse the official checklist, run
 `node scripts/add_nscc_wwe.js /path/to/official-checklist.pdf --sql` to validate
 the bundled data and print the Sydney database seed SQL.
+
+The 2025 Topps Chrome WWE flagship set is sourced from Topps' official 27-page
+checklist. It contains 1,039 stable checklist identities across 33 sections. The
+200 Frozenfractor entries reuse the base-card identities and are stored as verified
+variants instead of being incorrectly counted as additional checklist cards. Run
+`node scripts/add_2025_topps_chrome_wwe.js /path/to/WWE2502-CheckList_25CWWE.pdf
+--sql-dir supabase/generated/2025-topps-chrome-wwe` to validate the source PDF,
+refresh the bundled catalogue, and generate idempotent Sydney database seed batches.
 
 The ten post-Universe source workbooks and their original checklist files are stored under `sources/new_sets/`. Run `scripts/extract_new_catalogues.py` to re-normalize those checklists, then rebuild the workbooks and run `scripts/build_catalogue.py` to regenerate `data/catalogue.json` and the Supabase SQL batches.
 
