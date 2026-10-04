@@ -1,5 +1,6 @@
 const assert = require('node:assert/strict');
 const { chromium } = require('playwright');
+const expectedSetCount = require('../data/catalogue-index.json').setCount;
 
 (async () => {
   const browser = await chromium.launch({ headless: true, ...(process.env.CHROMIUM_EXECUTABLE_PATH ? {executablePath:process.env.CHROMIUM_EXECUTABLE_PATH, args:['--no-sandbox']} : {}) });
@@ -13,14 +14,14 @@ const { chromium } = require('playwright');
     assert.equal(await page.title(), 'GrailRoster');
     assert.equal(await page.locator('.brand strong').innerText(), 'GrailRoster');
     await page.locator('#allSets .set-card').first().waitFor({ state: 'attached' });
-    assert.equal(await page.locator('#allSets .set-card').count(), 17);
+    assert.equal(await page.locator('#allSets .set-card').count(), expectedSetCount);
     assert.equal(await page.locator('#heroProgress strong').first().innerText(), '0%');
     assert.equal(await page.evaluate(() => getComputedStyle(document.documentElement).getPropertyValue('--accent').trim()), '#69e9bf');
     await page.locator('.sidebar [data-view="sets"]').click();
     await page.locator('#setSearch').fill('Cactus Jack');
     assert.equal(await page.locator('#allSets .set-card').count(), 2);
     await page.locator('#setSearch').fill('');
-    assert.equal(await page.locator('#allSets .set-card').count(), 17);
+    assert.equal(await page.locator('#allSets .set-card').count(), expectedSetCount);
     await page.locator('.sidebar [data-view="dashboard"]').click();
 
     await page.locator('#dashboardSets .set-card').first().click();

@@ -16,7 +16,7 @@ jobs:
         run: npm install --no-save playwright@1.62.1
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
-      - name: Start static app
-        run: python3 -m http.server 8765 >/tmp/grailroster-server.log 2>&1 &
-      - name: Exercise guest and responsive flows
-        run: node tests/smoke.cjs
+      - name: Verify catalogue preservation
+        run: node tests/catalogue-split.cjs
+      - name: Exercise guest, Vault and offline flows
+        run: node tests/run.cjs tests/smoke.cjs tests/vault.cjs tests/offline.cjs

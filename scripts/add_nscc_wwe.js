@@ -3,6 +3,7 @@
 const fs = require('node:fs');
 const { execFileSync } = require('node:child_process');
 const path = require('node:path');
+const {loadCatalogue, saveCatalogue} = require('./catalogue_io');
 
 const ROOT = path.resolve(__dirname, '..');
 const CATALOGUE = path.join(ROOT, 'data/catalogue.json');
@@ -58,7 +59,7 @@ const set = {
   cardCount: cards.length, subsetCount: groups.length,
   subsets: groups.map(g => ({ category: g.category, name: g.name, code: g.code, count: g.rows.length })),
 };
-const catalogue = JSON.parse(fs.readFileSync(CATALOGUE, 'utf8'));
+const catalogue = loadCatalogue();
 if (new Set(cards.map(x => x.id)).size !== cards.length) throw new Error('Duplicate card IDs');
 if (catalogue.sets.some(x => x.id === SET_ID) || catalogue.cards.some(x => x.setId === SET_ID)) {
   if (!process.argv.includes('--sql')) throw new Error('NSCC set already exists');
@@ -70,7 +71,7 @@ if (catalogue.sets.some(x => x.id === SET_ID) || catalogue.cards.some(x => x.set
   catalogue.setCount = catalogue.sets.length;
   catalogue.cardCount = catalogue.cards.length;
   catalogue.generatedAt = new Date().toISOString();
-  fs.writeFileSync(CATALOGUE, JSON.stringify(catalogue));
+  saveCatalogue(catalogue);
 }
 
 if (process.argv.includes('--sql')) {

@@ -1,7 +1,15 @@
-const CACHE = "grailroster-vault-v21";
-const ASSETS = ["./", "index.html", "theme.css", "styles.css", "vault.css?v=19", "ui.js", "vault.js?v=19", "config.js", "app.js?v=19", "manifest.json", "data/catalogue.json", "data/images.json"];
+const CACHE = "grailroster-vault-v22";
+const ASSETS = ["./", "index.html", "theme.css", "styles.css", "vault.css?v=19", "ui.js", "vault.js?v=19", "config.js", "app.js?v=19", "manifest.json", "data/catalogue-index.json", "data/images.json"];
 
-self.addEventListener("install", (event) => event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS.map(url => new Request(url, {cache:"reload"})))).then(() => self.skipWaiting())));
+self.addEventListener("install", (event) => event.waitUntil((async () => {
+  const cache = await caches.open(CACHE);
+  const response = await fetch("data/catalogue-index.json", {cache: "reload"});
+  if (!response.ok) throw new Error("Catalogue index failed to cache");
+  const index = await response.json();
+  const assets = [...ASSETS, ...index.sets.map(set => `data/${set.file}`)];
+  await cache.addAll(assets.map(url => new Request(url, {cache: "reload"})));
+  await self.skipWaiting();
+})()));
 self.addEventListener("activate", (event) => event.waitUntil(caches.keys()
   .then((keys) => Promise.all(keys.filter((key) => key !== CACHE).map((key) => caches.delete(key))))
   .then(() => self.clients.claim())));

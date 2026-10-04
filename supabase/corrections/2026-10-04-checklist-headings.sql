@@ -1,0 +1,43 @@
+-- Reviewed manufacturer checklist heading repairs. Safe to rerun.
+BEGIN;
+LOCK TABLE public.catalogue_cards, public.collection_items, public.reference_images, public.catalogue_variants IN SHARE ROW EXCLUSIVE MODE;
+
+DO $$ BEGIN
+ IF (SELECT count(*) FROM public.catalogue_cards WHERE id IN ('2025-TRWWE-UCSMR-TSR_1','2025-TRWWE-UCSMR-TSR_2','2025-TRWWE-UCSMR-TSR_3','2025-TRWWE-UCSMR-TSR_4','2025-TRWWE-UCSMR-TSR_5') AND set_id='2025-topps-royalty-wwe' AND subset_code IN ('UCSMR','STRATUS-RELIC')) <> 5 THEN RAISE EXCEPTION 'Real card precondition failed'; END IF;
+ IF EXISTS (SELECT 1 FROM public.catalogue_cards WHERE id='2025-TRWWE-UCSMR-100' AND (set_id<>'2025-topps-royalty-wwe' OR card_number<>'100' OR display_name<>'PERCENT STRATUSFACTION RELICS')) THEN RAISE EXCEPTION 'Heading precondition failed'; END IF;
+ IF EXISTS (SELECT 1 FROM public.collection_items WHERE card_id='2025-TRWWE-UCSMR-100') OR EXISTS (SELECT 1 FROM public.reference_images WHERE card_uid='2025-TRWWE-UCSMR-100') THEN RAISE EXCEPTION 'Heading has user references'; END IF;
+ IF EXISTS (SELECT 1 FROM public.catalogue_variants WHERE card_id='2025-TRWWE-UCSMR-100' AND (parallel IS DISTINCT FROM 'Checklist identity' OR serial_cap IS NOT NULL)) THEN RAISE EXCEPTION 'Heading has nonidentity variants'; END IF;
+END $$;
+INSERT INTO public.catalogue_subsets(set_id,subset_code,category,name,card_count,parallel_group,source_url)
+SELECT '2025-topps-royalty-wwe','STRATUS-RELIC','Relic','100 PERCENT STRATUSFACTION RELICS',5,'STRATUS-RELIC',source_url FROM public.catalogue_subsets WHERE set_id='2025-topps-royalty-wwe' AND subset_code='UCSMR'
+ON CONFLICT(set_id,subset_code) DO UPDATE SET category=EXCLUDED.category,name=EXCLUDED.name,card_count=EXCLUDED.card_count,parallel_group=EXCLUDED.parallel_group;
+UPDATE public.catalogue_cards SET subset_code='STRATUS-RELIC',parallel_group='STRATUS-RELIC' WHERE id IN ('2025-TRWWE-UCSMR-TSR_1','2025-TRWWE-UCSMR-TSR_2','2025-TRWWE-UCSMR-TSR_3','2025-TRWWE-UCSMR-TSR_4','2025-TRWWE-UCSMR-TSR_5');
+UPDATE public.catalogue_variants SET subset='100 PERCENT STRATUSFACTION RELICS' WHERE card_id IN ('2025-TRWWE-UCSMR-TSR_1','2025-TRWWE-UCSMR-TSR_2','2025-TRWWE-UCSMR-TSR_3','2025-TRWWE-UCSMR-TSR_4','2025-TRWWE-UCSMR-TSR_5');
+INSERT INTO public.catalogue_parallel_rules(id,set_id,parallel_group,applies_to,parallel,serial_cap,serial_exact,exclusive_note,numbering_note,verification_status)
+SELECT 'rule-repair-stratus-relic','2025-topps-royalty-wwe','STRATUS-RELIC','100 PERCENT STRATUSFACTION RELICS',parallel,serial_cap,serial_exact,exclusive_note,numbering_note,verification_status
+FROM public.catalogue_parallel_rules WHERE set_id='2025-topps-royalty-wwe' AND parallel_group='UCSMR' AND parallel='Checklist identity' AND serial_cap IS NULL
+ON CONFLICT(id) DO NOTHING;
+DELETE FROM public.catalogue_cards WHERE id='2025-TRWWE-UCSMR-100';
+UPDATE public.catalogue_subsets s SET card_count=(SELECT count(*) FROM public.catalogue_cards c WHERE c.set_id=s.set_id AND c.subset_code=s.subset_code) WHERE s.set_id='2025-topps-royalty-wwe';
+UPDATE public.catalogue_sets s SET card_count=(SELECT count(*) FROM public.catalogue_cards c WHERE c.set_id=s.id),subset_count=(SELECT count(*) FROM public.catalogue_subsets c WHERE c.set_id=s.id),variant_count=(SELECT count(*) FROM public.catalogue_variants c WHERE c.set_id=s.id),updated_at=now() WHERE s.id='2025-topps-royalty-wwe';
+
+DO $$ BEGIN
+ IF (SELECT count(*) FROM public.catalogue_cards WHERE id IN ('2026-TCSWWE-BCIAV-86T_AB','2026-TCSWWE-BCIAV-86T_BB','2026-TCSWWE-BCIAV-86T_BY','2026-TCSWWE-BCIAV-86T_CF','2026-TCSWWE-BCIAV-86T_CG','2026-TCSWWE-BCIAV-86T_CM','2026-TCSWWE-BCIAV-86T_CR','2026-TCSWWE-BCIAV-86T_DM','2026-TCSWWE-BCIAV-86T_DP','2026-TCSWWE-BCIAV-86T_FB','2026-TCSWWE-BCIAV-86T_GT','2026-TCSWWE-BCIAV-86T_IS','2026-TCSWWE-BCIAV-86T_JC','2026-TCSWWE-BCIAV-86T_JF','2026-TCSWWE-BCIAV-86T_JL','2026-TCSWWE-BCIAV-86T_JY','2026-TCSWWE-BCIAV-86T_KO','2026-TCSWWE-BCIAV-86T_LA','2026-TCSWWE-BCIAV-86T_LM','2026-TCSWWE-BCIAV-86T_NJ','2026-TCSWWE-BCIAV-86T_PT','2026-TCSWWE-BCIAV-86T_RF','2026-TCSWWE-BCIAV-86T_RO','2026-TCSWWE-BCIAV-86T_SA','2026-TCSWWE-BCIAV-86T_SM','2026-TCSWWE-BCIAV-86T_SS','2026-TCSWWE-BCIAV-86T_TH','2026-TCSWWE-BCIAV-86T_TR','2026-TCSWWE-BCIAV-86T_TS','2026-TCSWWE-BCIAV-86T_UT') AND set_id='2026-topps-chrome-sapphire-wwe' AND subset_code IN ('BCIAV','86TA')) <> 30 THEN RAISE EXCEPTION 'Real card precondition failed'; END IF;
+ IF EXISTS (SELECT 1 FROM public.catalogue_cards WHERE id='2026-TCSWWE-BCIAV-1986' AND (set_id<>'2026-topps-chrome-sapphire-wwe' OR card_number<>'1986' OR display_name<>'TOPPS AUTOGRAPH VARIATION')) THEN RAISE EXCEPTION 'Heading precondition failed'; END IF;
+ IF EXISTS (SELECT 1 FROM public.collection_items WHERE card_id='2026-TCSWWE-BCIAV-1986') OR EXISTS (SELECT 1 FROM public.reference_images WHERE card_uid='2026-TCSWWE-BCIAV-1986') THEN RAISE EXCEPTION 'Heading has user references'; END IF;
+ IF EXISTS (SELECT 1 FROM public.catalogue_variants WHERE card_id='2026-TCSWWE-BCIAV-1986' AND (parallel IS DISTINCT FROM 'Checklist identity' OR serial_cap IS NOT NULL)) THEN RAISE EXCEPTION 'Heading has nonidentity variants'; END IF;
+END $$;
+INSERT INTO public.catalogue_subsets(set_id,subset_code,category,name,card_count,parallel_group,source_url)
+SELECT '2026-topps-chrome-sapphire-wwe','86TA','Autograph','1986 TOPPS AUTOGRAPH VARIATION',30,'86TA',source_url FROM public.catalogue_subsets WHERE set_id='2026-topps-chrome-sapphire-wwe' AND subset_code='BCIAV'
+ON CONFLICT(set_id,subset_code) DO UPDATE SET category=EXCLUDED.category,name=EXCLUDED.name,card_count=EXCLUDED.card_count,parallel_group=EXCLUDED.parallel_group;
+UPDATE public.catalogue_cards SET subset_code='86TA',parallel_group='86TA' WHERE id IN ('2026-TCSWWE-BCIAV-86T_AB','2026-TCSWWE-BCIAV-86T_BB','2026-TCSWWE-BCIAV-86T_BY','2026-TCSWWE-BCIAV-86T_CF','2026-TCSWWE-BCIAV-86T_CG','2026-TCSWWE-BCIAV-86T_CM','2026-TCSWWE-BCIAV-86T_CR','2026-TCSWWE-BCIAV-86T_DM','2026-TCSWWE-BCIAV-86T_DP','2026-TCSWWE-BCIAV-86T_FB','2026-TCSWWE-BCIAV-86T_GT','2026-TCSWWE-BCIAV-86T_IS','2026-TCSWWE-BCIAV-86T_JC','2026-TCSWWE-BCIAV-86T_JF','2026-TCSWWE-BCIAV-86T_JL','2026-TCSWWE-BCIAV-86T_JY','2026-TCSWWE-BCIAV-86T_KO','2026-TCSWWE-BCIAV-86T_LA','2026-TCSWWE-BCIAV-86T_LM','2026-TCSWWE-BCIAV-86T_NJ','2026-TCSWWE-BCIAV-86T_PT','2026-TCSWWE-BCIAV-86T_RF','2026-TCSWWE-BCIAV-86T_RO','2026-TCSWWE-BCIAV-86T_SA','2026-TCSWWE-BCIAV-86T_SM','2026-TCSWWE-BCIAV-86T_SS','2026-TCSWWE-BCIAV-86T_TH','2026-TCSWWE-BCIAV-86T_TR','2026-TCSWWE-BCIAV-86T_TS','2026-TCSWWE-BCIAV-86T_UT');
+UPDATE public.catalogue_variants SET subset='1986 TOPPS AUTOGRAPH VARIATION' WHERE card_id IN ('2026-TCSWWE-BCIAV-86T_AB','2026-TCSWWE-BCIAV-86T_BB','2026-TCSWWE-BCIAV-86T_BY','2026-TCSWWE-BCIAV-86T_CF','2026-TCSWWE-BCIAV-86T_CG','2026-TCSWWE-BCIAV-86T_CM','2026-TCSWWE-BCIAV-86T_CR','2026-TCSWWE-BCIAV-86T_DM','2026-TCSWWE-BCIAV-86T_DP','2026-TCSWWE-BCIAV-86T_FB','2026-TCSWWE-BCIAV-86T_GT','2026-TCSWWE-BCIAV-86T_IS','2026-TCSWWE-BCIAV-86T_JC','2026-TCSWWE-BCIAV-86T_JF','2026-TCSWWE-BCIAV-86T_JL','2026-TCSWWE-BCIAV-86T_JY','2026-TCSWWE-BCIAV-86T_KO','2026-TCSWWE-BCIAV-86T_LA','2026-TCSWWE-BCIAV-86T_LM','2026-TCSWWE-BCIAV-86T_NJ','2026-TCSWWE-BCIAV-86T_PT','2026-TCSWWE-BCIAV-86T_RF','2026-TCSWWE-BCIAV-86T_RO','2026-TCSWWE-BCIAV-86T_SA','2026-TCSWWE-BCIAV-86T_SM','2026-TCSWWE-BCIAV-86T_SS','2026-TCSWWE-BCIAV-86T_TH','2026-TCSWWE-BCIAV-86T_TR','2026-TCSWWE-BCIAV-86T_TS','2026-TCSWWE-BCIAV-86T_UT');
+INSERT INTO public.catalogue_parallel_rules(id,set_id,parallel_group,applies_to,parallel,serial_cap,serial_exact,exclusive_note,numbering_note,verification_status)
+SELECT 'rule-repair-86ta','2026-topps-chrome-sapphire-wwe','86TA','1986 TOPPS AUTOGRAPH VARIATION',parallel,serial_cap,serial_exact,exclusive_note,numbering_note,verification_status
+FROM public.catalogue_parallel_rules WHERE set_id='2026-topps-chrome-sapphire-wwe' AND parallel_group='BCIAV' AND parallel='Checklist identity' AND serial_cap IS NULL
+ON CONFLICT(id) DO NOTHING;
+DELETE FROM public.catalogue_cards WHERE id='2026-TCSWWE-BCIAV-1986';
+UPDATE public.catalogue_subsets s SET card_count=(SELECT count(*) FROM public.catalogue_cards c WHERE c.set_id=s.set_id AND c.subset_code=s.subset_code) WHERE s.set_id='2026-topps-chrome-sapphire-wwe';
+UPDATE public.catalogue_sets s SET card_count=(SELECT count(*) FROM public.catalogue_cards c WHERE c.set_id=s.id),subset_count=(SELECT count(*) FROM public.catalogue_subsets c WHERE c.set_id=s.id),variant_count=(SELECT count(*) FROM public.catalogue_variants c WHERE c.set_id=s.id),updated_at=now() WHERE s.id='2026-topps-chrome-sapphire-wwe';
+
+COMMIT;
