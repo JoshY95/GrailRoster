@@ -1,21 +1,23 @@
 # WWE Topps NOW release list — 2025 and 2026
 
-Checked 4 October 2026. Annual lists and the separately labelled crossover imported locally and in Sydney on 4 October 2026. Website publication verification is tracked in PROJECT_STATUS.md.
+Checked 12 October 2026. Annual lists and the separately labelled crossover imported locally and in Sydney on 4 October 2026. Website publication verification is tracked in PROJECT_STATUS.md.
 
 | Coverage | Entries |
 | --- | ---: |
 | 2025 annual WWE: regular #1–140 + 14 poster cards + HOF1–2 + THJB | 157 |
-| 2026 annual WWE: regular #1–104 + 13 poster cards + HOF1–6 | 123 |
+| 2026 annual WWE: regular #1–106 + 14 poster cards + HOF1–6 | 126 |
 | 2026 WBC crossover: John Cena/Shohei Ohtani, WBCO | 1 |
 | Separate 2026 WrestleMania Vegas: 14 base + 7 Legend SP + 12 base autos + 7 Legend SP autos | 40 |
 
-321 listed identities including the separately labelled WBC crossover; 320 WWE-branded identities. Numbered foil parallels are not additional base identities. The annual rows describe each product's published extras; they do not enumerate every physical variation or prove shipment. Topps NOW sold-to-order releases are included from the first sale date, including cards still on sale.
+324 listed identities including the separately labelled WBC crossover; 323 WWE-branded identities. Numbered foil parallels are not additional base identities. The annual rows describe each product's published extras; they do not enumerate every physical variation or prove shipment. Topps NOW sold-to-order releases are included from the first sale date, including cards still on sale.
 
-All 157 2025 archive products were retrieved. The 2026 archive has 122 products: 120 individual WWE cards, 1 WBC crossover and 1 Vegas set product. Three current individual cards (#102–104) bring annual WWE to 123. Regular card-number sequences have no gaps or duplicate year/number pairs. Print runs are base-order totals, not serial-number caps.
+All 157 2025 archive products were retrieved. The 2026 annual WWE list contains 126 individual card identities through regular #106 and the MITB poster. Regular card-number sequences have no gaps or duplicate year/number pairs. Print runs are base-order totals, not serial-number caps.
 
 The Vegas 15-card product contains 14 base cards plus one hit. Its manufacturer checklist lists 40 designs; it is already in GrailRoster. Its annual WMV1–4 poster releases are distinct.
 
 Sources: [Topps archive](https://www.topps.com/collections/wwe-topps-now-archive?stock_status=ALL_STOCK), [current releases](https://www.topps.com/collections/wwe-topps-now), and [Vegas manufacturer checklist](https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_WWE_Topps_Now_WrestleMania_Vegas_Checklist_1.pdf?v=1787965944). Row-level product links below.
+
+For the new releases, Topps explicitly confirms Gold Foil /50, Orange Foil /25, Black Foil /10, Red Foil /5 and FoilFractor /1 on #105–106. The MITB poster product confirms Rainbow Foil Short Print and Gold Super Short Print /26. These are documented product variants, not additional base identities; Chrome tier rules are conditional and have not been assigned to these cards.
 
 ## 2025 annual cards
 
@@ -287,6 +289,8 @@ Sources: [Topps archive](https://www.topps.com/collections/wwe-topps-now-archive
 | 102 | La Parka/Mr. Iguana/Adelicious/Mascarita Sagrada | Regular | 2026-10-01 | Pending | [Topps](https://www.topps.com/products/la-parka-mr-iguana-adelicious-mascarita-sagrada-2026-wwe-topps-now®-card-102) |
 | 103 | Lucha Brothers | Regular | 2026-10-01 | Pending | [Topps](https://www.topps.com/products/lucha-brothers-2026-wwe-topps-now®-card-103) |
 | 104 | CM Punk/Rey Mysterio/El Grande Americano | Regular | 2026-10-01 | Pending | [Topps](https://www.topps.com/products/cm-punk-rey-mysterio-el-grande-americano-2026-wwe-topps-now®-card-104) |
+| 105 | Blake Monroe | Regular | 2026-10-05 | 1626 | [Topps](https://www.topps.com/products/blake-monroe-2026-wwe-topps-now%C2%AE-card-105) |
+| 106 | Wren Sinclair | Regular | 2026-10-07 | Pending | [Topps](https://fr.topps.com/products/wren-sinclair-2026-wwe-topps-now%C2%AE-card-106) |
 | BLSH | Backlash | Event poster | 2026-05-08 | 1127 | [Topps](https://www.topps.com/products/backlash-2026-wwe-topps-now®-card-blsh) |
 | CITA | Clash in Italy | Event poster | 2026-05-29 | 1194 | [Topps](https://www.topps.com/products/clash-in-italy-2026-wwe-topps-now®-card-cita) |
 | EC26 | Elimination Chamber | Event poster | 2026-02-27 | 2068 | [Topps](https://www.topps.com/products/elimination-chamber-2026-wwe-topps-now®-card-ec26) |
@@ -296,6 +300,7 @@ Sources: [Topps archive](https://www.topps.com/collections/wwe-topps-now-archive
 | HOF4 | Dennis Rodman | Hall of Fame | 2026-04-18 | 2133 | [Topps](https://www.topps.com/products/dennis-rodman-2026-wwe-topps-now®-card-hof4) |
 | HOF5 | Sid | Hall of Fame | 2026-04-18 | 575 | [Topps](https://www.topps.com/products/sid-2026-wwe-topps-now®-card-hof5) |
 | HOF6 | Bad News Brown | Hall of Fame | 2026-04-18 | 373 | [Topps](https://www.topps.com/products/bad-news-brown-2026-wwe-topps-now®-card-hof6) |
+| MITB | Punk/Penta/Tiff/Trick/Sol | Event poster | 2026-10-09 | Pending | [Topps](https://www.topps.com/products/punk-penta-tiff-trick-sol-2026-wwe-topps-now%C2%AE-card-mitb) |
 | NOCH | Night of Champions | Event poster | 2026-06-26 | 993 | [Topps](https://www.topps.com/products/night-of-champions-2026-wwe-topps-now®-card-noch) |
 | RR26 | Royal Rumble | Event poster | 2026-01-30 | 2003 | [Topps](https://www.topps.com/products/royal-rumble-2026-wwe-topps-now®-card-rr26) |
 | SS01 | Oba Femi/Brock Lesnar | Event poster | 2026-07-31 | 1253 | [Topps](https://www.topps.com/products/oba-femi-brock-lesnar-2026-wwe-topps-now®-card-ss01) |
