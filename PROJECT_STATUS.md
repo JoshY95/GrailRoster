@@ -23,7 +23,7 @@ Read this first; inspect only files needed for the current task.
 
 ## Topps NOW catalogue addition — 12 October 2026
 
-Three newly confirmed identities were added to the existing 2026 annual WWE set: regular #105 Blake Monroe, #106 Wren Sinclair, and MITB event poster. The set now has 126 cards (106 regular, 6 Hall of Fame, 14 posters); global catalogue count is 10,362 across 23 sets. Topps reports #105 base print run 1,626. The release list records official links and explicit foil details; #106 and MITB print runs remain pending. Existing IDs and unrelated set files remain unchanged. Publication and production verification are tracked separately.
+Three newly confirmed identities were added to the existing 2026 annual WWE set: regular #105 Blake Monroe, #106 Wren Sinclair, and MITB event poster. The set now has 126 cards (106 regular, 6 Hall of Fame, 14 posters); global catalogue count is 10,362 across 23 sets. Topps reports #105 base print run 1,626. The release list records official links and explicit foil details; #106 and MITB print runs remain pending. Existing IDs and unrelated set files remain unchanged. Sydney catalogue tables now match: 126 cards and 126 identity variant rows for the set, 10,362 cards globally, with no orphan variants. The live guest card catalogue displayed all three identities and 10,362 cards. The applied one-time SQL is recorded in supabase/corrections/2026-10-12-topps-now-105-106-mitb.sql; authenticated collection sync was not retested.
 
 ## Next catalogue task — imports paused
 
