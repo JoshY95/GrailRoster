@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-04",
+  "asOf": "2026-10-12",
   "annualCards": [
     {
       "year": 2025,
@@ -2874,6 +2874,28 @@
     },
     {
       "year": 2026,
+      "number": "105",
+      "subject": "Blake Monroe",
+      "group": "Regular",
+      "releaseDate": "2026-10-05",
+      "printRun": 1626,
+      "extras": "Numbered editions",
+      "source": "https://www.topps.com/products/blake-monroe-2026-wwe-topps-now%C2%AE-card-105",
+      "publishedEditions": "Look for: Open-Edition Base Card Foil Parallels Numbered to /50 and lower Parallels: /50 Gold Foil /25 Orange Foil /10 Black Foil /5 Red Foil /1 FoilFractor"
+    },
+    {
+      "year": 2026,
+      "number": "106",
+      "subject": "Wren Sinclair",
+      "group": "Regular",
+      "releaseDate": "2026-10-07",
+      "printRun": null,
+      "extras": "Numbered editions",
+      "source": "https://fr.topps.com/products/wren-sinclair-2026-wwe-topps-now%C2%AE-card-106",
+      "publishedEditions": "Look for: Open-Edition Base Card Foil Parallels Numbered to /50 and lower Parallels: /50 Gold Foil /25 Orange Foil /10 Black Foil /5 Red Foil /1 FoilFractor"
+    },
+    {
+      "year": 2026,
       "number": "BLSH",
       "subject": "Backlash",
       "group": "Event poster",
@@ -2970,6 +2992,17 @@
       "extras": "Numbered editions",
       "source": "https://www.topps.com/products/bad-news-brown-2026-wwe-topps-now®-card-hof6",
       "publishedEditions": "Look for: Open-Edition Base Card Foil Parallels Numbered to /50 and lower Parallels: /50 Gold Foil /25 Orange Foil /10 Black Foil /5 Red Foil /1 FoilFractor"
+    },
+    {
+      "year": 2026,
+      "number": "MITB",
+      "subject": "Punk/Penta/Tiff/Trick/Sol",
+      "group": "Event poster",
+      "releaseDate": "2026-10-09",
+      "printRun": null,
+      "extras": "Short prints, Numbered editions",
+      "source": "https://www.topps.com/products/punk-penta-tiff-trick-sol-2026-wwe-topps-now%C2%AE-card-mitb",
+      "publishedEditions": "Look for: MITB Poster Card MITB Poster Card Rainbow Foil Short Print MITB Poster Card Gold Super Short Print /26"
     },
     {
       "year": 2026,
