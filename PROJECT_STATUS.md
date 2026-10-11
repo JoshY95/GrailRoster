@@ -21,6 +21,10 @@ Read this first; inspect only files needed for the current task.
 - All legitimate card identities remain unchanged; two false heading records were removed in the reviewed 4 October correction. The app still loads all sets for global search; lazy loading is not implemented.
 - GitHub CI run 37187099064 passed Chromium browser smoke, Collector Vault and real offline reload tests. Local Chromium remains unavailable; use the verified CI workflow rather than retrying local browser installation.
 
+## Topps NOW catalogue addition — 12 October 2026
+
+Three newly confirmed identities were added to the existing 2026 annual WWE set: regular #105 Blake Monroe, #106 Wren Sinclair, and MITB event poster. The set now has 126 cards (106 regular, 6 Hall of Fame, 14 posters); global catalogue count is 10,362 across 23 sets. Topps reports #105 base print run 1,626. The release list records official links and explicit foil details; #106 and MITB print runs remain pending. Existing IDs and unrelated set files remain unchanged. Publication and production verification are tracked separately.
+
 ## Next catalogue task — imports paused
 
 User paused new sets on 4 October 2026. Audit completed: see docs/WWE_2025_2026_COVERAGE_AUDIT.md for all 18 existing 2025/2026 lists, missing 2025 Royal Rumble/WrestleMania/SummerSlam event exclusives, annual 2025/2026 NOW coverage (including HOF/posters), now imported and published, and upcoming Stadium Club. No missing released main boxed product was identified in the sources checked. Royalty and 2026 Sapphire heading/subset errors are now corrected locally and in Sydney: 689 and 496 identities respectively. Two false headings and their identity placeholders were removed; 35 real cards moved to the correct subsets without changing IDs. Collections, unrelated card records and legitimate variant links have identical before/after digests; zero orphan variants. BAPE's four variation records still need card-image verification. Completed-list uploads were subsequently authorised and published. Further new-set research/imports remain paused; wait for user instruction before resuming.
