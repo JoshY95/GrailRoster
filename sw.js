@@ -1,4 +1,4 @@
-const CACHE = "grailroster-vault-v22";
+const CACHE = "grailroster-vault-v23";
 const ASSETS = ["./", "index.html", "theme.css", "styles.css", "vault.css?v=19", "ui.js", "vault.js?v=19", "config.js", "app.js?v=19", "manifest.json", "data/catalogue-index.json", "data/images.json"];
 
 self.addEventListener("install", (event) => event.waitUntil((async () => {

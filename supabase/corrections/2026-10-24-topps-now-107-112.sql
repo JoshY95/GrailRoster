@@ -1,4 +1,5 @@
--- Proposed, NOT applied. Official WWE NOW #107–112; baseline verified on 2026-10-24.
+-- SUPERSEDED. Do not execute: use 2026-10-24-now-stadium-club.sql instead.
+-- Retained as historical draft; combined transaction also includes confirmed foil variants.
 -- One-time guarded data-only addition. Preserve every existing card id, ownership row and variant.
 begin;
 do $$

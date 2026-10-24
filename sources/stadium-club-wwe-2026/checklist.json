@@ -1,0 +1,7585 @@
+{
+  "asOf": "2026-10-24",
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Stadium_Club_WWE_-_Checklist.pdf?v=1791221305",
+  "checklistSha256": "e7fc883049de24ced4f271f75d432f49a4c3ac17155ab0ac12c0116c2940144d",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_Topps_Stadium_Club_WWE_Odds.pdf?v=1791212522",
+  "oddsSha256": "714fdd3df3824ec6e2c175a6ab3ae867964e8d12d893a72369f59bb9fe8fb34f",
+  "guideUrl": "https://ripped.topps.com/2026-topps-stadium-club-wwe-cards-collector-guide/",
+  "rawRows": 938,
+  "uniqueIdentities": 930,
+  "subsets": [
+    {
+      "name": "BASE CARDS",
+      "rows": [
+        {
+          "number": "1",
+          "subject": "Seth Rollins",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "2",
+          "subject": "Jacob Fatu",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "3",
+          "subject": "Becky Lynch",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "4",
+          "subject": "Oba Femi",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "5",
+          "subject": "Naomi",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "6",
+          "subject": "Drew McIntyre",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "7",
+          "subject": "Ricky Saints",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "8",
+          "subject": "\"The American Nightmare\" Cody Rhodes",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "9",
+          "subject": "John Cena",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "10",
+          "subject": "AJ Lee",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "11",
+          "subject": "Nikki Cross",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "12",
+          "subject": "Channing \"Stacks\" Lorenzo",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "13",
+          "subject": "Paul Heyman",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "14",
+          "subject": "Tiffany Stratton",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "15",
+          "subject": "Asuka",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "16",
+          "subject": "\"Stone Cold\" Steve Austin",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "17",
+          "subject": "Blake Monroe",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "18",
+          "subject": "Bronson Reed",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "19",
+          "subject": "Alba Fyre",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "20",
+          "subject": "Jey Uso",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "21",
+          "subject": "Chris Sabin",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "22",
+          "subject": "Nikolai Volkoff",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "23",
+          "subject": "Elton Prince",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "24",
+          "subject": "Noam Dar",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "25",
+          "subject": "Bron Breakker",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "26",
+          "subject": "Solo Sikoa",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "27",
+          "subject": "Shawn Spears",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "28",
+          "subject": "\"Rowdy\" Roddy Piper",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "29",
+          "subject": "Niko Vance",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "30",
+          "subject": "Iyo Sky",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "31",
+          "subject": "Bret \"Hit Man\" Hart",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "32",
+          "subject": "Jasper Troy",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 1
+        },
+        {
+          "number": "33",
+          "subject": "Nikki Bella",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "34",
+          "subject": "Alex Shelley",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "35",
+          "subject": "Raquel Rodriguez",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "36",
+          "subject": "Cutler James",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 1
+        },
+        {
+          "number": "37",
+          "subject": "Undertaker",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "38",
+          "subject": "Kofi Kingston",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "39",
+          "subject": "Michin",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "40",
+          "subject": "Penta",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "41",
+          "subject": "Wendy Choo",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "42",
+          "subject": "Apollo Crews",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "43",
+          "subject": "Hulk Hogan™",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "44",
+          "subject": "Bronco Nima",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "45",
+          "subject": "Liv Morgan",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 1
+        },
+        {
+          "number": "46",
+          "subject": "Damian Priest",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "47",
+          "subject": "Lainey Reid",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 2
+        },
+        {
+          "number": "48",
+          "subject": "Ultimate Warrior",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "49",
+          "subject": "Bianca Belair",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "50",
+          "subject": "Dominik Mysterio",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "51",
+          "subject": "Kevin Owens",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "52",
+          "subject": "Nikkita Lyons",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "53",
+          "subject": "Lita",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "54",
+          "subject": "Nia Jax",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "55",
+          "subject": "Roxanne Perez",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "56",
+          "subject": "Ken Shamrock",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "57",
+          "subject": "Montez Ford",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "58",
+          "subject": "Saquon Shugars",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 2
+        },
+        {
+          "number": "59",
+          "subject": "Zelina",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "60",
+          "subject": "Kairi Sane",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "61",
+          "subject": "Tyra Mae Steele",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 2
+        },
+        {
+          "number": "62",
+          "subject": "Jimmy Uso",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "63",
+          "subject": "Brooks Jensen",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "64",
+          "subject": "Trish Stratus",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "65",
+          "subject": "Brutus Creed",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "66",
+          "subject": "Randy Orton",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "67",
+          "subject": "Jordynne Grace",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "68",
+          "subject": "JC Mateo",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "69",
+          "subject": "Osiris Griffin",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 2
+        },
+        {
+          "number": "70",
+          "subject": "Zoey Stark",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "71",
+          "subject": "Piper Niven",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "72",
+          "subject": "Batista",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "73",
+          "subject": "The Miz",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "74",
+          "subject": "Jaida Parker",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "75",
+          "subject": "Stephanie Vaquer",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "76",
+          "subject": "Tank Ledger",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "77",
+          "subject": "Uncle Howdy",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "78",
+          "subject": "Je'Von Evans",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "79",
+          "subject": "Giulia",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "80",
+          "subject": "Julius Creed",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "81",
+          "subject": "Hank Walker",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "82",
+          "subject": "Rey Fenix",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "83",
+          "subject": "Uriah Connors",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 2
+        },
+        {
+          "number": "84",
+          "subject": "Tonga Loa",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "85",
+          "subject": "Sheamus",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "86",
+          "subject": "Sol Ruca",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "87",
+          "subject": "Nattie",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "88",
+          "subject": "Skylar Raye",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 2
+        },
+        {
+          "number": "89",
+          "subject": "Fallon Henley",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "90",
+          "subject": "Finn Bálor",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "91",
+          "subject": "Nathan Frazer",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "92",
+          "subject": "Tavion Heights",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "93",
+          "subject": "Pete Dunne",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "94",
+          "subject": "Berto",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "95",
+          "subject": "Ivar",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "96",
+          "subject": "Malik Blade",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "97",
+          "subject": "Candice LeRae",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 2
+        },
+        {
+          "number": "98",
+          "subject": "Izzi Dame",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "99",
+          "subject": "Dexter Lumis",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "100",
+          "subject": "Rhea Ripley",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "101",
+          "subject": "Roman Reigns",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "102",
+          "subject": "CM Punk",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "103",
+          "subject": "Alexa Bliss",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "104",
+          "subject": "Lucien Price",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "105",
+          "subject": "JD McDonagh",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "106",
+          "subject": "Carmelo Hayes",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "107",
+          "subject": "Ethan Page",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "108",
+          "subject": "The Godfather",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "109",
+          "subject": "Chelsea Green",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "110",
+          "subject": "Tyler Bate",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "111",
+          "subject": "Myles Borne",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "112",
+          "subject": "The Rock",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "113",
+          "subject": "Johnny Gargano",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "114",
+          "subject": "Karmen Petrovic",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "115",
+          "subject": "Rey Mysterio",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "116",
+          "subject": "B-Fab",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "117",
+          "subject": "Wren Sinclair",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "118",
+          "subject": "El Grande Americano",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "119",
+          "subject": "Tama Tonga",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "120",
+          "subject": "Lyra Valkyria",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "121",
+          "subject": "Jacy Jayne",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "122",
+          "subject": "Joe Hendry",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 3
+        },
+        {
+          "number": "123",
+          "subject": "Big John Studd",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "124",
+          "subject": "Sami Zayn",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "125",
+          "subject": "LA Knight",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "126",
+          "subject": "Maryse",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "127",
+          "subject": "\"Ravishing\" Rick Rude",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "128",
+          "subject": "Dion Lennox",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "129",
+          "subject": "Erick Rowan",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "130",
+          "subject": "Xavier Woods",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "131",
+          "subject": "Arianna Grace",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "132",
+          "subject": "Booker T",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "133",
+          "subject": "Andre Chase",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "134",
+          "subject": "Big E",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "135",
+          "subject": "Ludwig Kaiser",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "136",
+          "subject": "Kale Dixon",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 3
+        },
+        {
+          "number": "137",
+          "subject": "Bray Wyatt",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "138",
+          "subject": "Adriana Rizzo",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "139",
+          "subject": "Rikishi",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "140",
+          "subject": "Grayson Waller",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "141",
+          "subject": "Lexis King",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "142",
+          "subject": "\"Sensational\" Sherri Martel",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "143",
+          "subject": "Zaria",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "144",
+          "subject": "Yokozuna",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "145",
+          "subject": "Ivy Nile",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "146",
+          "subject": "Dante Chen",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "147",
+          "subject": "Torrie Wilson",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "148",
+          "subject": "Luca Crusifino",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "149",
+          "subject": "Axiom",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 3
+        },
+        {
+          "number": "150",
+          "subject": "AJ Styles",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "151",
+          "subject": "Diesel",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "152",
+          "subject": "Lola Vice",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "153",
+          "subject": "Joaquin Wilde",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "154",
+          "subject": "Kiana James",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "155",
+          "subject": "Rusev",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "156",
+          "subject": "Aleister Black",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "157",
+          "subject": "Tyriek Igwe",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "158",
+          "subject": "Kane",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "159",
+          "subject": "Austin Theory",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "160",
+          "subject": "Angelo Dawkins",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "161",
+          "subject": "Razor Ramon",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "162",
+          "subject": "Chad Gable",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "163",
+          "subject": "Trick Williams",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "164",
+          "subject": "Paul Bearer",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "165",
+          "subject": "Ilja Dragunov",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "166",
+          "subject": "Talla Tonga",
+          "roster": "Smackdown",
+          "rookie": true,
+          "page": 4
+        },
+        {
+          "number": "167",
+          "subject": "Kendal Grey",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "168",
+          "subject": "Dragon Lee",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "169",
+          "subject": "Shawn Michaels",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "170",
+          "subject": "Akira Tozawa",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "171",
+          "subject": "Jade Cargill",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "172",
+          "subject": "Kelani Jordan",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "173",
+          "subject": "British Bulldog",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "174",
+          "subject": "Josh Briggs",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "175",
+          "subject": "Brock Lesnar",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "176",
+          "subject": "Charlotte Flair",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "177",
+          "subject": "Tatum Paxley",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "178",
+          "subject": "Shiloh Hill",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 4
+        },
+        {
+          "number": "179",
+          "subject": "Tyson Dupont",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "180",
+          "subject": "Otis",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "181",
+          "subject": "Chyna",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "182",
+          "subject": "R-Truth",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "183",
+          "subject": "Lash Legend",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "184",
+          "subject": "Triple H",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "185",
+          "subject": "Gunther",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "186",
+          "subject": "Shinsuke Nakamura",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "187",
+          "subject": "\"Mr. Perfect\" Curt Hennig",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "188",
+          "subject": "Thea Hail",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "189",
+          "subject": "The Iron Sheik",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "190",
+          "subject": "Maxxine Dupri",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "191",
+          "subject": "Stacy Keibler",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "192",
+          "subject": "Charlie Dempsey",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "193",
+          "subject": "Joe Gacy",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "194",
+          "subject": "Kurt Angle",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "195",
+          "subject": "Tony D'Angelo",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "196",
+          "subject": "Erik",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "197",
+          "subject": "Angel",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "198",
+          "subject": "Cruz Del Toro",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "199",
+          "subject": "Danhausen",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 4
+        },
+        {
+          "number": "200",
+          "subject": "Bayley",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 4
+        }
+      ]
+    },
+    {
+      "name": "CHROME BASE CARDS",
+      "rows": [
+        {
+          "number": "1",
+          "subject": "Seth Rollins",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "2",
+          "subject": "Jacob Fatu",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "3",
+          "subject": "Becky Lynch",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "4",
+          "subject": "Oba Femi",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "5",
+          "subject": "Naomi",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "6",
+          "subject": "Drew McIntyre",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "7",
+          "subject": "Ricky Saints",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "8",
+          "subject": "\"The American Nightmare\" Cody Rhodes",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "9",
+          "subject": "John Cena",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "10",
+          "subject": "AJ Lee",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "11",
+          "subject": "Nikki Cross",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "12",
+          "subject": "Channing \"Stacks\" Lorenzo",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "13",
+          "subject": "Paul Heyman",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "14",
+          "subject": "Tiffany Stratton",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "15",
+          "subject": "Asuka",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "16",
+          "subject": "\"Stone Cold\" Steve Austin",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "17",
+          "subject": "Blake Monroe",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "18",
+          "subject": "Bronson Reed",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "19",
+          "subject": "Alba Fyre",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "20",
+          "subject": "Jey Uso",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "21",
+          "subject": "Chris Sabin",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "22",
+          "subject": "Nikolai Volkoff",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "23",
+          "subject": "Elton Prince",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "24",
+          "subject": "Noam Dar",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "25",
+          "subject": "Bron Breakker",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "26",
+          "subject": "Solo Sikoa",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "27",
+          "subject": "Shawn Spears",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "28",
+          "subject": "\"Rowdy\" Roddy Piper",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "29",
+          "subject": "Niko Vance",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "30",
+          "subject": "Iyo Sky",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "31",
+          "subject": "Bret \"Hit Man\" Hart",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "32",
+          "subject": "Jasper Troy",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 5
+        },
+        {
+          "number": "33",
+          "subject": "Nikki Bella",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "34",
+          "subject": "Alex Shelley",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "35",
+          "subject": "Raquel Rodriguez",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "36",
+          "subject": "Cutler James",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 5
+        },
+        {
+          "number": "37",
+          "subject": "Undertaker",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "38",
+          "subject": "Kofi Kingston",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "39",
+          "subject": "Michin",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "40",
+          "subject": "Penta",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "41",
+          "subject": "Wendy Choo",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "42",
+          "subject": "Apollo Crews",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "43",
+          "subject": "Hulk Hogan™",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "44",
+          "subject": "Bronco Nima",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "45",
+          "subject": "Liv Morgan",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "46",
+          "subject": "Damian Priest",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 5
+        },
+        {
+          "number": "47",
+          "subject": "Lainey Reid",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 5
+        },
+        {
+          "number": "48",
+          "subject": "Ultimate Warrior",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "49",
+          "subject": "Bianca Belair",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "50",
+          "subject": "Dominik Mysterio",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "51",
+          "subject": "Kevin Owens",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "52",
+          "subject": "Nikkita Lyons",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "53",
+          "subject": "Lita",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "54",
+          "subject": "Nia Jax",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "55",
+          "subject": "Roxanne Perez",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "56",
+          "subject": "Ken Shamrock",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "57",
+          "subject": "Montez Ford",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "58",
+          "subject": "Saquon Shugars",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 6
+        },
+        {
+          "number": "59",
+          "subject": "Zelina",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "60",
+          "subject": "Kairi Sane",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "61",
+          "subject": "Tyra Mae Steele",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 6
+        },
+        {
+          "number": "62",
+          "subject": "Jimmy Uso",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "63",
+          "subject": "Brooks Jensen",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "64",
+          "subject": "Trish Stratus",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "65",
+          "subject": "Brutus Creed",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "66",
+          "subject": "Randy Orton",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "67",
+          "subject": "Jordynne Grace",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "68",
+          "subject": "JC Mateo",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "69",
+          "subject": "Osiris Griffin",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 6
+        },
+        {
+          "number": "70",
+          "subject": "Zoey Stark",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "71",
+          "subject": "Piper Niven",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "72",
+          "subject": "Batista",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "73",
+          "subject": "The Miz",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "74",
+          "subject": "Jaida Parker",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "75",
+          "subject": "Stephanie Vaquer",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "76",
+          "subject": "Tank Ledger",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "77",
+          "subject": "Uncle Howdy",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "78",
+          "subject": "Je'Von Evans",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "79",
+          "subject": "Giulia",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "80",
+          "subject": "Julius Creed",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "81",
+          "subject": "Hank Walker",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "82",
+          "subject": "Rey Fenix",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "83",
+          "subject": "Uriah Connors",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 6
+        },
+        {
+          "number": "84",
+          "subject": "Tonga Loa",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "85",
+          "subject": "Sheamus",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "86",
+          "subject": "Sol Ruca",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "87",
+          "subject": "Nattie",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "88",
+          "subject": "Skylar Raye",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 6
+        },
+        {
+          "number": "89",
+          "subject": "Fallon Henley",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "90",
+          "subject": "Finn Bálor",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "91",
+          "subject": "Nathan Frazer",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "92",
+          "subject": "Tavion Heights",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "93",
+          "subject": "Pete Dunne",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "94",
+          "subject": "Berto",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "95",
+          "subject": "Ivar",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "96",
+          "subject": "Malik Blade",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "97",
+          "subject": "Candice LeRae",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "98",
+          "subject": "Izzi Dame",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "99",
+          "subject": "Dexter Lumis",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 6
+        },
+        {
+          "number": "100",
+          "subject": "Rhea Ripley",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "101",
+          "subject": "Roman Reigns",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "102",
+          "subject": "CM Punk",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "103",
+          "subject": "Alexa Bliss",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "104",
+          "subject": "Lucien Price",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "105",
+          "subject": "JD McDonagh",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "106",
+          "subject": "Carmelo Hayes",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "107",
+          "subject": "Ethan Page",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "108",
+          "subject": "The Godfather",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "109",
+          "subject": "Chelsea Green",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "110",
+          "subject": "Tyler Bate",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "111",
+          "subject": "Myles Borne",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "112",
+          "subject": "The Rock",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "113",
+          "subject": "Johnny Gargano",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "114",
+          "subject": "Karmen Petrovic",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "115",
+          "subject": "Rey Mysterio",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "116",
+          "subject": "B-Fab",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "117",
+          "subject": "Wren Sinclair",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "118",
+          "subject": "El Grande Americano",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "119",
+          "subject": "Tama Tonga",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "120",
+          "subject": "Lyra Valkyria",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "121",
+          "subject": "Jacy Jayne",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "122",
+          "subject": "Joe Hendry",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 7
+        },
+        {
+          "number": "123",
+          "subject": "Big John Studd",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "124",
+          "subject": "Sami Zayn",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "125",
+          "subject": "LA Knight",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "126",
+          "subject": "Maryse",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "127",
+          "subject": "\"Ravishing\" Rick Rude",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "128",
+          "subject": "Dion Lennox",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "129",
+          "subject": "Erick Rowan",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "130",
+          "subject": "Xavier Woods",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "131",
+          "subject": "Arianna Grace",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "132",
+          "subject": "Booker T",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "133",
+          "subject": "Andre Chase",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "134",
+          "subject": "Big E",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "135",
+          "subject": "Ludwig Kaiser",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "136",
+          "subject": "Kale Dixon",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 7
+        },
+        {
+          "number": "137",
+          "subject": "Bray Wyatt",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "138",
+          "subject": "Adriana Rizzo",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "139",
+          "subject": "Rikishi",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "140",
+          "subject": "Grayson Waller",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "141",
+          "subject": "Lexis King",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "142",
+          "subject": "\"Sensational\" Sherri Martel",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "143",
+          "subject": "Zaria",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "144",
+          "subject": "Yokozuna",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "145",
+          "subject": "Ivy Nile",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "146",
+          "subject": "Dante Chen",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "147",
+          "subject": "Torrie Wilson",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "148",
+          "subject": "Luca Crusifino",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "149",
+          "subject": "Axiom",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "150",
+          "subject": "AJ Styles",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "151",
+          "subject": "Diesel",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 7
+        },
+        {
+          "number": "152",
+          "subject": "Lola Vice",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "153",
+          "subject": "Joaquin Wilde",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "154",
+          "subject": "Kiana James",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "155",
+          "subject": "Rusev",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "156",
+          "subject": "Aleister Black",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "157",
+          "subject": "Tyriek Igwe",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "158",
+          "subject": "Kane",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "159",
+          "subject": "Austin Theory",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "160",
+          "subject": "Angelo Dawkins",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "161",
+          "subject": "Razor Ramon",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "162",
+          "subject": "Chad Gable",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "163",
+          "subject": "Trick Williams",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "164",
+          "subject": "Paul Bearer",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "165",
+          "subject": "Ilja Dragunov",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "166",
+          "subject": "Talla Tonga",
+          "roster": "Smackdown",
+          "rookie": true,
+          "page": 8
+        },
+        {
+          "number": "167",
+          "subject": "Kendal Grey",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "168",
+          "subject": "Dragon Lee",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "169",
+          "subject": "Shawn Michaels",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "170",
+          "subject": "Akira Tozawa",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "171",
+          "subject": "Jade Cargill",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "172",
+          "subject": "Kelani Jordan",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "173",
+          "subject": "British Bulldog",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "174",
+          "subject": "Josh Briggs",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "175",
+          "subject": "Brock Lesnar",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "176",
+          "subject": "Charlotte Flair",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "177",
+          "subject": "Tatum Paxley",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "178",
+          "subject": "Shiloh Hill",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 8
+        },
+        {
+          "number": "179",
+          "subject": "Tyson Dupont",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "180",
+          "subject": "Otis",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "181",
+          "subject": "Chyna",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "182",
+          "subject": "R-Truth",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "183",
+          "subject": "Lash Legend",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "184",
+          "subject": "Triple H",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "185",
+          "subject": "Gunther",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "186",
+          "subject": "Shinsuke Nakamura",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "187",
+          "subject": "\"Mr. Perfect\" Curt Hennig",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "188",
+          "subject": "Thea Hail",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "189",
+          "subject": "The Iron Sheik",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "190",
+          "subject": "Maxxine Dupri",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "191",
+          "subject": "Stacy Keibler",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "192",
+          "subject": "Charlie Dempsey",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "193",
+          "subject": "Joe Gacy",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "194",
+          "subject": "Kurt Angle",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "195",
+          "subject": "Tony D'Angelo",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "196",
+          "subject": "Erik",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "197",
+          "subject": "Angel",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "198",
+          "subject": "Cruz Del Toro",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "199",
+          "subject": "Kit Wilson",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "200",
+          "subject": "Bayley",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 8
+        }
+      ]
+    },
+    {
+      "name": "BEAM TEAM",
+      "rows": [
+        {
+          "number": "BT-1",
+          "subject": "Roman Reigns",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 8
+        },
+        {
+          "number": "BT-2",
+          "subject": "Rhea Ripley",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "BT-3",
+          "subject": "Tiffany Stratton",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "BT-4",
+          "subject": "Dominik Mysterio",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "BT-5",
+          "subject": "\"The American Nightmare\" Cody Rhodes",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "BT-6",
+          "subject": "Becky Lynch",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "BT-7",
+          "subject": "Randy Orton",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "BT-8",
+          "subject": "Liv Morgan",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "BT-9",
+          "subject": "Bianca Belair",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "BT-10",
+          "subject": "CM Punk",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "BT-11",
+          "subject": "Giulia",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "BT-12",
+          "subject": "Jey Uso",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "BT-13",
+          "subject": "Jade Cargill",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "BT-14",
+          "subject": "Stephanie Vaquer",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "BT-15",
+          "subject": "Alexa Bliss",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "BT-16",
+          "subject": "Seth Rollins",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "BT-17",
+          "subject": "Charlotte Flair",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "BT-18",
+          "subject": "LA Knight",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "BT-19",
+          "subject": "Solo Sikoa",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "BT-20",
+          "subject": "Roxanne Perez",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 9
+        }
+      ]
+    },
+    {
+      "name": "INKED",
+      "rows": [
+        {
+          "number": "INK-1",
+          "subject": "Solo Sikoa",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "INK-2",
+          "subject": "Rhea Ripley",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "INK-3",
+          "subject": "Kevin Owens",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "INK-4",
+          "subject": "CM Punk",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "INK-5",
+          "subject": "Roman Reigns",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "INK-6",
+          "subject": "Rey Mysterio",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "INK-7",
+          "subject": "Aleister Black",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "INK-8",
+          "subject": "Finn Bálor",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "INK-9",
+          "subject": "Niko Vance",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "INK-10",
+          "subject": "Montez Ford",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "INK-11",
+          "subject": "AJ Styles",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "INK-12",
+          "subject": "Damian Priest",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "INK-13",
+          "subject": "Penta",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "INK-14",
+          "subject": "Jimmy Uso",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "INK-15",
+          "subject": "Dominik Mysterio",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "INK-16",
+          "subject": "Randy Orton",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "INK-17",
+          "subject": "Jey Uso",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "INK-18",
+          "subject": "Carmelo Hayes",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "INK-19",
+          "subject": "Bronson Reed",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "INK-20",
+          "subject": "Rey Fenix",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "INK-21",
+          "subject": "Myles Borne",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "INK-22",
+          "subject": "Zelina",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "INK-23",
+          "subject": "Erik",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "INK-24",
+          "subject": "Sol Ruca",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "INK-25",
+          "subject": "Ivar",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 9
+        }
+      ]
+    },
+    {
+      "name": "CONCENTRATION",
+      "rows": [
+        {
+          "number": "C-1",
+          "subject": "Drew McIntyre",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "C-2",
+          "subject": "Kane",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "C-3",
+          "subject": "Jacob Fatu",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "C-4",
+          "subject": "Becky Lynch",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 9
+        },
+        {
+          "number": "C-5",
+          "subject": "Lita",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "C-6",
+          "subject": "John Cena",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "C-7",
+          "subject": "Bret \"Hit Man\" Hart",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "C-8",
+          "subject": "Bianca Belair",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "C-9",
+          "subject": "Kurt Angle",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "C-10",
+          "subject": "Tiffany Stratton",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "C-11",
+          "subject": "\"The American Nightmare\" Cody Rhodes",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "C-12",
+          "subject": "Carmelo Hayes",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "C-13",
+          "subject": "Sheamus",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "C-14",
+          "subject": "Trish Stratus",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "C-15",
+          "subject": "LA Knight",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "C-16",
+          "subject": "Sami Zayn",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "C-17",
+          "subject": "Shawn Michaels",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "C-18",
+          "subject": "Bron Breakker",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "C-19",
+          "subject": "Undertaker",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "C-20",
+          "subject": "Roxanne Perez",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "C-21",
+          "subject": "Diesel",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "C-22",
+          "subject": "Talla Tonga",
+          "roster": "Smackdown",
+          "rookie": true,
+          "page": 10
+        },
+        {
+          "number": "C-23",
+          "subject": "\"Stone Cold\" Steve Austin",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "C-24",
+          "subject": "Liv Morgan",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "C-25",
+          "subject": "Alexa Bliss",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 10
+        }
+      ]
+    },
+    {
+      "name": "THE AFTERMATH",
+      "rows": [
+        {
+          "number": "AM-1",
+          "subject": "Jade Cargill",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "AM-2",
+          "subject": "Seth Rollins",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "AM-3",
+          "subject": "Solo Sikoa",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "AM-4",
+          "subject": "Ricky Saints",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "AM-5",
+          "subject": "Joe Gacy",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "AM-6",
+          "subject": "Iyo Sky",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "AM-7",
+          "subject": "Jacy Jayne",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "AM-8",
+          "subject": "Dexter Lumis",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "AM-9",
+          "subject": "Nattie",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "AM-10",
+          "subject": "Trick Williams",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "AM-11",
+          "subject": "Roxanne Perez",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "AM-12",
+          "subject": "Jordynne Grace",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "AM-13",
+          "subject": "CM Punk",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "AM-14",
+          "subject": "Stephanie Vaquer",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "AM-15",
+          "subject": "Brock Lesnar",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "AM-16",
+          "subject": "Rhea Ripley",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "AM-17",
+          "subject": "Bronson Reed",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "AM-18",
+          "subject": "Ethan Page",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "AM-19",
+          "subject": "Blake Monroe",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "AM-20",
+          "subject": "Jey Uso",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "AM-21",
+          "subject": "Oba Femi",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "AM-22",
+          "subject": "Maxxine Dupri",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "AM-23",
+          "subject": "Channing \"Stacks\" Lorenzo",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "AM-24",
+          "subject": "Candice LeRae",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "AM-25",
+          "subject": "Roman Reigns",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 10
+        }
+      ]
+    },
+    {
+      "name": "MAIN STAGE",
+      "rows": [
+        {
+          "number": "MS-1",
+          "subject": "Becky Lynch",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "MS-2",
+          "subject": "Oba Femi",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 10
+        },
+        {
+          "number": "MS-3",
+          "subject": "Bianca Belair",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "MS-4",
+          "subject": "AJ Lee",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "MS-5",
+          "subject": "\"The American Nightmare\" Cody Rhodes",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "MS-6",
+          "subject": "Asuka",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "MS-7",
+          "subject": "Giulia",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "MS-8",
+          "subject": "Liv Morgan",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "MS-9",
+          "subject": "Alexa Bliss",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "MS-10",
+          "subject": "Stephanie Vaquer",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "MS-11",
+          "subject": "Zaria",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "MS-12",
+          "subject": "Seth Rollins",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "MS-13",
+          "subject": "Charlotte Flair",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "MS-14",
+          "subject": "Gunther",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "MS-15",
+          "subject": "Nia Jax",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "MS-16",
+          "subject": "LA Knight",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "MS-17",
+          "subject": "Tiffany Stratton",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "MS-18",
+          "subject": "Brock Lesnar",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "MS-19",
+          "subject": "Naomi",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "MS-20",
+          "subject": "Blake Monroe",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "MS-21",
+          "subject": "Rusev",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "MS-22",
+          "subject": "Chelsea Green",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "MS-23",
+          "subject": "Lyra Valkyria",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "MS-24",
+          "subject": "Sami Zayn",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "MS-25",
+          "subject": "Bayley",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 11
+        }
+      ]
+    },
+    {
+      "name": "TRIUMVIRATES",
+      "rows": [
+        {
+          "number": "TV-1",
+          "subject": "John Cena",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-2",
+          "subject": "John Cena",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-3",
+          "subject": "John Cena",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-4",
+          "subject": "Shawn Michaels",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-5",
+          "subject": "Shawn Michaels",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-6",
+          "subject": "Shawn Michaels",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-7",
+          "subject": "Asuka",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-8",
+          "subject": "Asuka",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-9",
+          "subject": "Asuka",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-10",
+          "subject": "\"Stone Cold\" Steve Austin",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-11",
+          "subject": "\"Stone Cold\" Steve Austin",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-12",
+          "subject": "\"Stone Cold\" Steve Austin",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-13",
+          "subject": "Tiffany Stratton",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-14",
+          "subject": "Tiffany Stratton",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-15",
+          "subject": "Tiffany Stratton",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-16",
+          "subject": "Charlotte Flair",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-17",
+          "subject": "Charlotte Flair",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-18",
+          "subject": "Charlotte Flair",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-19",
+          "subject": "AJ Styles",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-20",
+          "subject": "AJ Styles",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-21",
+          "subject": "AJ Styles",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-22",
+          "subject": "Solo Sikoa",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-23",
+          "subject": "Solo Sikoa",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-24",
+          "subject": "Solo Sikoa",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-25",
+          "subject": "Rey Mysterio",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-26",
+          "subject": "Rey Mysterio",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-27",
+          "subject": "Rey Mysterio",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 11
+        },
+        {
+          "number": "TV-28",
+          "subject": "Bron Breakker",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-29",
+          "subject": "Bron Breakker",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-30",
+          "subject": "Bron Breakker",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-31",
+          "subject": "Seth Rollins",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-32",
+          "subject": "Seth Rollins",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-33",
+          "subject": "Seth Rollins",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-34",
+          "subject": "Dominik Mysterio",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-35",
+          "subject": "Dominik Mysterio",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-36",
+          "subject": "Dominik Mysterio",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-37",
+          "subject": "Trish Stratus",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-38",
+          "subject": "Trish Stratus",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-39",
+          "subject": "Trish Stratus",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-40",
+          "subject": "CM Punk",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-41",
+          "subject": "CM Punk",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-42",
+          "subject": "CM Punk",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-43",
+          "subject": "LA Knight",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-44",
+          "subject": "LA Knight",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-45",
+          "subject": "LA Knight",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-46",
+          "subject": "Bret \"Hit Man\" Hart",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-47",
+          "subject": "Bret \"Hit Man\" Hart",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-48",
+          "subject": "Bret \"Hit Man\" Hart",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-49",
+          "subject": "Finn Bálor",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-50",
+          "subject": "Finn Bálor",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-51",
+          "subject": "Finn Bálor",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-52",
+          "subject": "Iyo Sky",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-53",
+          "subject": "Iyo Sky",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-54",
+          "subject": "Iyo Sky",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-55",
+          "subject": "Alexa Bliss",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-56",
+          "subject": "Alexa Bliss",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-57",
+          "subject": "Alexa Bliss",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-58",
+          "subject": "Kane",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-59",
+          "subject": "Kane",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TV-60",
+          "subject": "Kane",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 12
+        }
+      ]
+    },
+    {
+      "name": "TRIUMVIRATES NICKNAME",
+      "rows": [
+        {
+          "number": "TVN-1",
+          "subject": "Roman Reigns",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TVN-2",
+          "subject": "Roman Reigns",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TVN-3",
+          "subject": "Roman Reigns",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TVN-4",
+          "subject": "Becky Lynch",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TVN-5",
+          "subject": "Becky Lynch",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TVN-6",
+          "subject": "Becky Lynch",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TVN-7",
+          "subject": "Randy Orton",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TVN-8",
+          "subject": "Randy Orton",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TVN-9",
+          "subject": "Randy Orton",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TVN-10",
+          "subject": "Triple H",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TVN-11",
+          "subject": "Triple H",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TVN-12",
+          "subject": "Triple H",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TVN-13",
+          "subject": "Undertaker",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TVN-14",
+          "subject": "Undertaker",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TVN-15",
+          "subject": "Undertaker",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TVN-16",
+          "subject": "The Rock",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TVN-17",
+          "subject": "The Rock",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 12
+        },
+        {
+          "number": "TVN-18",
+          "subject": "The Rock",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "TVN-19",
+          "subject": "Stephanie Vaquer",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "TVN-20",
+          "subject": "Stephanie Vaquer",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "TVN-21",
+          "subject": "Stephanie Vaquer",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "TVN-22",
+          "subject": "Jey Uso",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "TVN-23",
+          "subject": "Jey Uso",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "TVN-24",
+          "subject": "Jey Uso",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "TVN-25",
+          "subject": "Cody Rhodes",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "TVN-26",
+          "subject": "Cody Rhodes",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "TVN-27",
+          "subject": "Cody Rhodes",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "TVN-28",
+          "subject": "Rhea Ripley",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "TVN-29",
+          "subject": "Rhea Ripley",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "TVN-30",
+          "subject": "Rhea Ripley",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "TVN-31",
+          "subject": "Bianca Belair",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "TVN-32",
+          "subject": "Bianca Belair",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "TVN-33",
+          "subject": "Bianca Belair",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "TVN-34",
+          "subject": "Brock Lesnar",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "TVN-35",
+          "subject": "Brock Lesnar",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "TVN-36",
+          "subject": "Brock Lesnar",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "TVN-37",
+          "subject": "Jacob Fatu",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "TVN-38",
+          "subject": "Jacob Fatu",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "TVN-39",
+          "subject": "Jacob Fatu",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 13
+        }
+      ]
+    },
+    {
+      "name": "BASE CARDS AUTOGRAPH VARIATION",
+      "rows": [
+        {
+          "number": "SCA-AJS",
+          "subject": "AJ Styles",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "SCA-ALB",
+          "subject": "Albert",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "SCA-ALN",
+          "subject": "Alundra Blayze",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "SCA-APC",
+          "subject": "Apollo Crews",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "SCA-BAY",
+          "subject": "Bayley",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "SCA-BBB",
+          "subject": "Brutus \"The Barber\" Beefcake",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "SCA-BGE",
+          "subject": "Big E",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "SCA-BNK",
+          "subject": "Bull Nakano",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "SCA-BOO",
+          "subject": "Booker T",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "SCA-BRD",
+          "subject": "Bubba Ray Dudley",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "SCA-BRL",
+          "subject": "Brother Love",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "SCA-BWL",
+          "subject": "Bushwhacker Luke",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "SCA-CBO",
+          "subject": "\"Cowboy\" Bob Orton",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "SCA-CHG",
+          "subject": "Chelsea Green",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "SCA-CHY",
+          "subject": "Carmelo Hayes",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "SCA-DAX",
+          "subject": "Ax",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "SCA-DDP",
+          "subject": "Diamond Dallas Page",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "SCA-DLB",
+          "subject": "D'Lo Brown",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "SCA-DMI",
+          "subject": "Drew McIntyre",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "SCA-DOM",
+          "subject": "Dominik Mysterio",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "SCA-DPR",
+          "subject": "Damian Priest",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "SCA-DSM",
+          "subject": "Smash",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "SCA-DVD",
+          "subject": "D-Von Dudley",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "SCA-EBI",
+          "subject": "Eric Bischoff",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 13
+        },
+        {
+          "number": "SCA-ERO",
+          "subject": "Erick Rowan",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-EVE",
+          "subject": "Eve",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-FBL",
+          "subject": "Finn Bálor",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-FRQ",
+          "subject": "Faarooq",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-HBJ",
+          "subject": "Hillbilly Jim",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-HJD",
+          "subject": "\"Hacksaw\" Jim Duggan",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-HSW",
+          "subject": "Hornswoggle",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-HTM",
+          "subject": "Honky Tonk Man",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-HUR",
+          "subject": "The Hurricane",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-IDR",
+          "subject": "Ilja Dragunov",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-IRS",
+          "subject": "IRS",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-IVY",
+          "subject": "Ivy Nile",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-IYO",
+          "subject": "Iyo Sky",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-JAQ",
+          "subject": "Jacqueline",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-JBL",
+          "subject": "John \"Bradshaw\" Layfield",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-JCG",
+          "subject": "Jade Cargill",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-JFT",
+          "subject": "Jacob Fatu",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-JHN",
+          "subject": "Joe Hendry",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 14
+        },
+        {
+          "number": "SCA-JTK",
+          "subject": "Jerry \"The King\" Lawler",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-JTS",
+          "subject": "Jake \"The Snake\" Roberts",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-KBW",
+          "subject": "Koko B. Ware",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-KKY",
+          "subject": "Kelly Kelly",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-KNG",
+          "subject": "Kofi Kingston",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-KOW",
+          "subject": "Kevin Owens",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-KSH",
+          "subject": "Ken Shamrock",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-LAK",
+          "subject": "LA Knight",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-LDK",
+          "subject": "Ludwig Kaiser",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-LMO",
+          "subject": "Liv Morgan",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-LUG",
+          "subject": "Lex Luger",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-MDM",
+          "subject": "\"Million Dollar Man\" Ted DiBiase",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-MMC",
+          "subject": "Michelle McCool",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-MOL",
+          "subject": "Molly Holly",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-MOS",
+          "subject": "Jimmy Hart",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-MUR",
+          "subject": "Don Muraco",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-NAT",
+          "subject": "Nattie",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-NIA",
+          "subject": "Nia Jax",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-OTC",
+          "subject": "Roman Reigns",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-OTS",
+          "subject": "Otis",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-RBR",
+          "subject": "Rhea Ripley",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-RDJ",
+          "subject": "\"Road Dogg\" Jesse James",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-RKO",
+          "subject": "Randy Orton",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-RKS",
+          "subject": "Rikishi",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-RST",
+          "subject": "Rick Steiner",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-RSV",
+          "subject": "Rusev",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-RVD",
+          "subject": "Rob Van Dam",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-SBL",
+          "subject": "Steve Blackman",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-SKA",
+          "subject": "Solo Sikoa",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-SKB",
+          "subject": "Stacy Keibler",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-SMS",
+          "subject": "Sheamus",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-SPA",
+          "subject": "Angelo Dawkins",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-SZN",
+          "subject": "Sami Zayn",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-TAM",
+          "subject": "Tama Tonga",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 14
+        },
+        {
+          "number": "SCA-TAN",
+          "subject": "\"The American Nightmare\" Cody Rhodes",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCA-TBM",
+          "subject": "The Boogeyman",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCA-TDL",
+          "subject": "Teddy Long",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCA-TGF",
+          "subject": "The Godfather",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCA-THE",
+          "subject": "Austin Theory",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCA-TOR",
+          "subject": "Torrie Wilson",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCA-TOZ",
+          "subject": "Akira Tozawa",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCA-TRG",
+          "subject": "Gunther",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCA-TSA",
+          "subject": "Tito Santana",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCA-USO",
+          "subject": "Jey Uso",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCA-VAL",
+          "subject": "Greg \"The Hammer\" Valentine",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCA-WBA",
+          "subject": "Wade Barrett",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCA-WRE",
+          "subject": "William Regal",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCA-WRI",
+          "subject": "Wendi Richter",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCA-XPC",
+          "subject": "X-Pac",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 15
+        }
+      ]
+    },
+    {
+      "name": "BASE CARDS CHROME AUTOGRAPH VARIATION",
+      "rows": [
+        {
+          "number": "SCCA-AB",
+          "subject": "Aleister Black",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-AF",
+          "subject": "Alba Fyre",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-AG",
+          "subject": "Arianna Grace",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-AL",
+          "subject": "Angel",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-AR",
+          "subject": "Adriana Rizzo",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-AS",
+          "subject": "Alex Shelley",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-AX",
+          "subject": "Axiom",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-BC",
+          "subject": "Brutus Creed",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-BE",
+          "subject": "Berto",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-BF",
+          "subject": "B-Fab",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-BJ",
+          "subject": "Brooks Jensen",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-BL",
+          "subject": "Brock Lesnar",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-BM",
+          "subject": "Blake Monroe",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-BN",
+          "subject": "Bronco Nima",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-CD",
+          "subject": "Charlie Dempsey",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-CG",
+          "subject": "Chad Gable",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-CH",
+          "subject": "John Cena",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-CJ",
+          "subject": "Cutler James",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 15
+        },
+        {
+          "number": "SCCA-CL",
+          "subject": "Channing \"Stacks\" Lorenzo",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-CN",
+          "subject": "Candice LeRae",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-CS",
+          "subject": "Chris Sabin",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-CT",
+          "subject": "Cruz Del Toro",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-DH",
+          "subject": "Danhausen",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-DI",
+          "subject": "Dion Lennox",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-DL",
+          "subject": "Dragon Lee",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-EL",
+          "subject": "Elton Prince",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-EP",
+          "subject": "Ethan Page",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-FH",
+          "subject": "Fallon Henley",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-GI",
+          "subject": "Giulia",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-GM",
+          "subject": "Triple H",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-HW",
+          "subject": "Hank Walker",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-ID",
+          "subject": "Izzi Dame",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-JB",
+          "subject": "Josh Briggs",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-JC",
+          "subject": "Julius Creed",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-JD",
+          "subject": "Jordynne Grace",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 15
+        },
+        {
+          "number": "SCCA-JE",
+          "subject": "Je'Von Evans",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-JG",
+          "subject": "Johnny Gargano",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-JJ",
+          "subject": "Jacy Jayne",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-JM",
+          "subject": "JC Mateo",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-JP",
+          "subject": "Jaida Parker",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-JT",
+          "subject": "Jasper Troy",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 16
+        },
+        {
+          "number": "SCCA-JW",
+          "subject": "Joaquin Wilde",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-KD",
+          "subject": "Kale Dixon",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 16
+        },
+        {
+          "number": "SCCA-KE",
+          "subject": "Kelani Jordan",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-KG",
+          "subject": "Kendal Grey",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-KJ",
+          "subject": "Kiana James",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-KP",
+          "subject": "Karmen Petrovic",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-KW",
+          "subject": "Kit Wilson",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-LK",
+          "subject": "Lexis King",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-LL",
+          "subject": "Lash Legend",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-LP",
+          "subject": "Lucien Price",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-LR",
+          "subject": "Lainey Reid",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 16
+        },
+        {
+          "number": "SCCA-LV",
+          "subject": "Lola Vice",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-MC",
+          "subject": "JD McDonagh",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-MD",
+          "subject": "Maxxine Dupri",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-MI",
+          "subject": "Michin",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-MY",
+          "subject": "Myles Borne",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-ND",
+          "subject": "Noam Dar",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-NF",
+          "subject": "Nathan Frazer",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-NL",
+          "subject": "Nikkita Lyons",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-NV",
+          "subject": "Niko Vance",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-OF",
+          "subject": "Oba Femi",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-OG",
+          "subject": "Osiris Griffin",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 16
+        },
+        {
+          "number": "SCCA-PD",
+          "subject": "Pete Dunne",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-PE",
+          "subject": "Penta",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-RR",
+          "subject": "Raquel Rodriguez",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-RS",
+          "subject": "Ricky Saints",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-SH",
+          "subject": "Saquon Shugars",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 16
+        },
+        {
+          "number": "SCCA-SM",
+          "subject": "Stephanie McMahon",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-SR",
+          "subject": "Sol Ruca",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-SS",
+          "subject": "Shawn Spears",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-TB",
+          "subject": "Tyler Bate",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-TD",
+          "subject": "Tony D'Angelo",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-TH",
+          "subject": "Thea Hail",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-TI",
+          "subject": "Tyriek Igwe",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-TL",
+          "subject": "Tank Ledger",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-TM",
+          "subject": "Tyra Mae Steele",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 16
+        },
+        {
+          "number": "SCCA-TO",
+          "subject": "Tonga Loa",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-TP",
+          "subject": "Tatum Paxley",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-TR",
+          "subject": "The Rock",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-TS",
+          "subject": "Tiffany Stratton",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-TT",
+          "subject": "Talla Tonga",
+          "roster": "Smackdown",
+          "rookie": true,
+          "page": 16
+        },
+        {
+          "number": "SCCA-TV",
+          "subject": "Tavion Heights",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-TW",
+          "subject": "Trick Williams",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-UC",
+          "subject": "Uriah Connors",
+          "roster": "NXT",
+          "rookie": true,
+          "page": 16
+        },
+        {
+          "number": "SCCA-WC",
+          "subject": "Wendy Choo",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-WS",
+          "subject": "Wren Sinclair",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 16
+        },
+        {
+          "number": "SCCA-ZA",
+          "subject": "Zaria",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "SCCA-ZS",
+          "subject": "Zoey Stark",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 17
+        }
+      ]
+    },
+    {
+      "name": "INKED AUTOGRAPHS",
+      "rows": [
+        {
+          "number": "INK-CAR",
+          "subject": "Carmelo Hayes",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "INK-CMP",
+          "subject": "CM Punk",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "INK-DMP",
+          "subject": "Damian Priest",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "INK-DOM",
+          "subject": "Dominik Mysterio",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "INK-FOF",
+          "subject": "Kevin Owens",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "INK-MOF",
+          "subject": "Montez Ford",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "INK-MYS",
+          "subject": "Rey Mysterio",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "INK-NTC",
+          "subject": "Solo Sikoa",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "INK-OTC",
+          "subject": "Roman Reigns",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "INK-PNT",
+          "subject": "Penta",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "INK-RBR",
+          "subject": "Rhea Ripley",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "INK-REY",
+          "subject": "Rey Fenix",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "INK-RKO",
+          "subject": "Randy Orton",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "INK-SOL",
+          "subject": "Sol Ruca",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "INK-USO",
+          "subject": "Jimmy Uso",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "INK-WEI",
+          "subject": "Ivar",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "INK-WRE",
+          "subject": "Erik",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 17
+        }
+      ]
+    },
+    {
+      "name": "THE AFTERMATH AUTOGRAPHS",
+      "rows": [
+        {
+          "number": "AMA-BMO",
+          "subject": "Blake Monroe",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "AMA-CLR",
+          "subject": "Candice LeRae",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "AMA-CMP",
+          "subject": "CM Punk",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "AMA-CSL",
+          "subject": "Channing \"Stacks\" Lorenzo",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "AMA-DEX",
+          "subject": "Dexter Lumis",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "AMA-ETP",
+          "subject": "Ethan Page",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "AMA-IYO",
+          "subject": "Iyo Sky",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "AMA-JCJ",
+          "subject": "Jacy Jayne",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "AMA-JDC",
+          "subject": "Jade Cargill",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "AMA-JOE",
+          "subject": "Joe Gacy",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "AMA-JRD",
+          "subject": "Jordynne Grace",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "AMA-LNR",
+          "subject": "Brock Lesnar",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "AMA-MXD",
+          "subject": "Maxxine Dupri",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "AMA-NAT",
+          "subject": "Nattie",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "AMA-RKY",
+          "subject": "Ricky Saints",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "AMA-SKA",
+          "subject": "Solo Sikoa",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "AMA-SVQ",
+          "subject": "Stephanie Vaquer",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "AMA-TRW",
+          "subject": "Trick Williams",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 17
+        }
+      ]
+    },
+    {
+      "name": "DUAL AUTOGRAPHS",
+      "rows": [
+        {
+          "number": "DA-CA",
+          "subject": "Charlotte Flair",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "DA-CA",
+          "subject": "Alexa Bliss",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "DA-JN",
+          "subject": "Naomi",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "DA-JN",
+          "subject": "Jimmy Uso",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "DA-KW",
+          "subject": "Kairi Sane",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "DA-KW",
+          "subject": "Asuka",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "DA-RH",
+          "subject": "Triple H",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "DA-RH",
+          "subject": "The Rock",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "DA-SB",
+          "subject": "Becky Lynch",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 17
+        },
+        {
+          "number": "DA-SB",
+          "subject": "Seth Rollins",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "DA-TV",
+          "subject": "Bronson Reed",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "DA-TV",
+          "subject": "Bron Breakker",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "DA-WR",
+          "subject": "Ivar",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "DA-WR",
+          "subject": "Erik",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "DA-WS",
+          "subject": "Joe Gacy",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "DA-WS",
+          "subject": "Dexter Lumis",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 18
+        }
+      ]
+    },
+    {
+      "name": "MAIN STAGE AUTOGRAPHS",
+      "rows": [
+        {
+          "number": "MRA-RSV",
+          "subject": "Rusev",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "MSA-AJL",
+          "subject": "AJ Lee",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "MSA-BAY",
+          "subject": "Bayley",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "MSA-BKY",
+          "subject": "Becky Lynch",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "MSA-BMO",
+          "subject": "Blake Monroe",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "MSA-CFL",
+          "subject": "Charlotte Flair",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "MSA-CGR",
+          "subject": "Chelsea Green",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "MSA-EOT",
+          "subject": "Asuka",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "MSA-GLA",
+          "subject": "Giulia",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "MSA-JAX",
+          "subject": "Nia Jax",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "MSA-LAK",
+          "subject": "LA Knight",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "MSA-OBA",
+          "subject": "Oba Femi",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "MSA-SRO",
+          "subject": "Seth Rollins",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "MSA-TBI",
+          "subject": "Brock Lesnar",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "MSA-TRG",
+          "subject": "Gunther",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "MSA-ZAR",
+          "subject": "Zaria",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "MSA-ZYN",
+          "subject": "Sami Zayn",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 18
+        }
+      ]
+    },
+    {
+      "name": "ABSTRACT AUTOGRAPHS",
+      "rows": [
+        {
+          "number": "AA-AJS",
+          "subject": "AJ Styles",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "AA-ALX",
+          "subject": "Alexa Bliss",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "AA-CDR",
+          "subject": "\"The American Nightmare\" Cody Rhodes",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "AA-ITT",
+          "subject": "Tiffany Stratton",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "AA-IVY",
+          "subject": "Ivy Nile",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "AA-KIJ",
+          "subject": "Kiana James",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "AA-KIS",
+          "subject": "Kairi Sane",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "AA-LIV",
+          "subject": "Liv Morgan",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "AA-NIK",
+          "subject": "Nikki Bella",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "AA-NLY",
+          "subject": "Nikkita Lyons",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "AA-RNK",
+          "subject": "R-Truth",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "AA-SKN",
+          "subject": "Shinsuke Nakamura",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "AA-TPX",
+          "subject": "Tatum Paxley",
+          "roster": "NXT",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "AA-TWS",
+          "subject": "Nikki Cross",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "AA-VQR",
+          "subject": "Stephanie Vaquer",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 18
+        }
+      ]
+    },
+    {
+      "name": "CONCENTRATION AUTOGRAPHS",
+      "rows": [
+        {
+          "number": "CA-BDC",
+          "subject": "Diesel",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "CA-BRK",
+          "subject": "Bron Breakker",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "CA-BRM",
+          "subject": "Kane",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "CA-DMI",
+          "subject": "Drew McIntyre",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "CA-HBK",
+          "subject": "Shawn Michaels",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "CA-HMH",
+          "subject": "Bret \"Hit Man\" Hart",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "CA-LGC",
+          "subject": "John Cena",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 18
+        },
+        {
+          "number": "CA-LTA",
+          "subject": "Lita",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "CA-SCA",
+          "subject": "\"Stone Cold\" Steve Austin",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "CA-SMS",
+          "subject": "Sheamus",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "CA-STR",
+          "subject": "Trish Stratus",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "CA-SWW",
+          "subject": "Jacob Fatu",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "CA-TRU",
+          "subject": "Kurt Angle",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "CA-UTR",
+          "subject": "Undertaker",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 19
+        }
+      ]
+    },
+    {
+      "name": "BASE CARDS AUTOGRAPH VARIATION II",
+      "rows": [
+        {
+          "number": "SCA-ABU",
+          "subject": "Adrian Butler",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "SCA-ADP",
+          "subject": "Adam Pearce",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "SCA-CAK",
+          "subject": "Cathy Kelley",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "SCA-CGR",
+          "subject": "Corey Graves",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "SCA-CHD",
+          "subject": "Chip Danning",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "SCA-CHP",
+          "subject": "Chad Patton",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "SCA-CHR",
+          "subject": "Charles Robinson",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "SCA-DAN",
+          "subject": "Danilo Anfibio",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "SCA-DLI",
+          "subject": "Dallas Irvin",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "SCA-DLS",
+          "subject": "Daphanie LaShaunn",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "SCA-DNE",
+          "subject": "Dan Engler",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "SCA-DSA",
+          "subject": "Derek Sanders",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "SCA-EOR",
+          "subject": "Eddie Orengo",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "SCA-FLX",
+          "subject": "Felix Fernandez",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "SCA-GWI",
+          "subject": "Gary Wilson",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "SCA-JCO",
+          "subject": "John Cone",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "SCA-JCR",
+          "subject": "Jessika Carr",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "SCA-JGO",
+          "subject": "Joey Gonzalez",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "SCA-JMA",
+          "subject": "Jeremy Marcus",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "SCA-JSN",
+          "subject": "Jason Ayers",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "SCA-NAL",
+          "subject": "Nick Aldis",
+          "roster": "Smackdown",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "SCA-RTR",
+          "subject": "Ryan Tran",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "SCA-SBE",
+          "subject": "Shawn Bennett",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "SCA-VDE",
+          "subject": "Victoria D'Errico",
+          "roster": "WWE",
+          "rookie": false,
+          "page": 19
+        }
+      ]
+    },
+    {
+      "name": "STONE COLD STEVE AUSTIN 30TH ANNIVERSARY AUTOGRAPHS",
+      "rows": [
+        {
+          "number": "SCA-3",
+          "subject": "\"Stone Cold\" Steve Austin",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "SCA-4",
+          "subject": "\"Stone Cold\" Steve Austin",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 19
+        }
+      ]
+    },
+    {
+      "name": "DUDLEY BOYZ 30TH ANNIVERSARY AUTOGRAPHS",
+      "rows": [
+        {
+          "number": "DUD-BRD2",
+          "subject": "Bubba Ray Dudley",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "DUD-DV2",
+          "subject": "D-Von Dudley",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 19
+        }
+      ]
+    },
+    {
+      "name": "CM PUNK 20TH ANNIVERSARY AUTOGRAPHS",
+      "rows": [
+        {
+          "number": "CMP-3",
+          "subject": "CM Punk",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "CMP-4",
+          "subject": "CM Punk",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "CMP-5",
+          "subject": "CM Punk",
+          "roster": "Raw",
+          "rookie": false,
+          "page": 19
+        }
+      ]
+    },
+    {
+      "name": "THE ROCK 30TH ANNIVERSARY AUTOGRAPHS",
+      "rows": [
+        {
+          "number": "TRA-3",
+          "subject": "The Rock",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 19
+        },
+        {
+          "number": "TRA-4",
+          "subject": "The Rock",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 19
+        }
+      ]
+    },
+    {
+      "name": "NWO 30TH ANNIVERSARY AUTOGRAPHS",
+      "rows": [
+        {
+          "number": "NWO-RD",
+          "subject": "Dennis Rodman",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 20
+        },
+        {
+          "number": "NWO-SS",
+          "subject": "Scott Steiner",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 20
+        },
+        {
+          "number": "NWO-TD",
+          "subject": "Ted DiBiase",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 20
+        }
+      ]
+    },
+    {
+      "name": "LITA 25TH ANNIVERSARY AUTOGRAPHS",
+      "rows": [
+        {
+          "number": "LIT3",
+          "subject": "Lita",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 20
+        },
+        {
+          "number": "LIT4",
+          "subject": "Lita",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 20
+        },
+        {
+          "number": "LIT5",
+          "subject": "Lita",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 20
+        }
+      ]
+    },
+    {
+      "name": "TRISH STRATUS 25TH ANNIVERSARY AUTOGRAPHS",
+      "rows": [
+        {
+          "number": "TRS3",
+          "subject": "Trish Stratus",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 20
+        },
+        {
+          "number": "TRS4",
+          "subject": "Trish Stratus",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 20
+        },
+        {
+          "number": "TRS5",
+          "subject": "Trish Stratus",
+          "roster": "Legend",
+          "rookie": false,
+          "page": 20
+        }
+      ]
+    }
+  ],
+  "odds": [
+    {
+      "label": "Base",
+      "hobby": "5:1",
+      "value": "3:1",
+      "mega": "5:1",
+      "page": 1
+    },
+    {
+      "label": "Base Members Only",
+      "hobby": "1:192",
+      "value": "1:1280",
+      "mega": "1:1440",
+      "page": 1
+    },
+    {
+      "label": "Base Photographer's Proof",
+      "hobby": "1:512",
+      "value": "1:2560",
+      "mega": "1:2880",
+      "page": 1
+    },
+    {
+      "label": "Base Green",
+      "hobby": "1:36",
+      "value": "1:173",
+      "mega": "1:45",
+      "page": 1
+    },
+    {
+      "label": "Base Orange",
+      "hobby": "1:48",
+      "value": "1:230",
+      "mega": "1:59",
+      "page": 1
+    },
+    {
+      "label": "Base Turquoise",
+      "hobby": "1:73",
+      "value": "1:348",
+      "mega": "1:89",
+      "page": 1
+    },
+    {
+      "label": "Base Purple",
+      "hobby": "1:96",
+      "value": "1:459",
+      "mega": "1:117",
+      "page": 1
+    },
+    {
+      "label": "Base Blue",
+      "hobby": "1:143",
+      "value": "1:689",
+      "mega": "1:176",
+      "page": 1
+    },
+    {
+      "label": "Base Rainbow Foilboard",
+      "hobby": "1:286",
+      "value": "1:1377",
+      "mega": "1:351",
+      "page": 1
+    },
+    {
+      "label": "Base Sepia",
+      "hobby": "-",
+      "value": "1:6",
+      "mega": "1:3",
+      "page": 1
+    },
+    {
+      "label": "Base Red",
+      "hobby": "1:1",
+      "value": "-",
+      "mega": "-",
+      "page": 1
+    },
+    {
+      "label": "Base Bronze",
+      "hobby": "1:8",
+      "value": "-",
+      "mega": "-",
+      "page": 1
+    },
+    {
+      "label": "Base Gold",
+      "hobby": "1:16",
+      "value": "-",
+      "mega": "-",
+      "page": 1
+    },
+    {
+      "label": "Base Gold Rainbow Foilboard",
+      "hobby": "1:8005",
+      "value": "-",
+      "mega": "-",
+      "page": 1
+    },
+    {
+      "label": "Base Black and White",
+      "hobby": "1:48",
+      "value": "-",
+      "mega": "-",
+      "page": 1
+    },
+    {
+      "label": "Base Light Blue",
+      "hobby": "-",
+      "value": "-",
+      "mega": "1:1",
+      "page": 1
+    },
+    {
+      "label": "Base Lime Green",
+      "hobby": "-",
+      "value": "1:2",
+      "mega": "-",
+      "page": 1
+    },
+    {
+      "label": "Base Printing Plates (CMYK)",
+      "hobby": "1:2502",
+      "value": "-",
+      "mega": "-",
+      "page": 1
+    },
+    {
+      "label": "Chrome Base",
+      "hobby": "1:1",
+      "value": "1:2",
+      "mega": "1:1",
+      "page": 1
+    },
+    {
+      "label": "Chrome Base Refractor",
+      "hobby": "1:8",
+      "value": "1:8",
+      "mega": "1:6",
+      "page": 1
+    },
+    {
+      "label": "Chrome Base Orange",
+      "hobby": "1:16",
+      "value": "1:36",
+      "mega": "1:36",
+      "page": 1
+    },
+    {
+      "label": "Chrome Base Gold Minted",
+      "hobby": "1:192",
+      "value": "1:1280",
+      "mega": "1:155",
+      "page": 1
+    },
+    {
+      "label": "Chrome Base Blue",
+      "hobby": "1:55",
+      "value": "1:343",
+      "mega": "1:40",
+      "page": 1
+    },
+    {
+      "label": "Chrome Base Turquoise",
+      "hobby": "1:83",
+      "value": "1:519",
+      "mega": "1:61",
+      "page": 1
+    },
+    {
+      "label": "Chrome Base Gold",
+      "hobby": "1:163",
+      "value": "1:1028",
+      "mega": "1:120",
+      "page": 1
+    },
+    {
+      "label": "Chrome Base Pearl White",
+      "hobby": "1:271",
+      "value": "1:1712",
+      "mega": "1:200",
+      "page": 1
+    },
+    {
+      "label": "Chrome Base Black",
+      "hobby": "1:813",
+      "value": "1:5136",
+      "mega": "1:600",
+      "page": 1
+    },
+    {
+      "label": "Chrome Base Superfractor",
+      "hobby": "1:8126",
+      "value": "1:51352",
+      "mega": "1:5991",
+      "page": 1
+    },
+    {
+      "label": "Chrome Base Red White and Blue",
+      "hobby": "1:1280",
+      "value": "-",
+      "mega": "-",
+      "page": 1
+    },
+    {
+      "label": "Chrome Base Tie-Dye",
+      "hobby": "-",
+      "value": "1:3200",
+      "mega": "1:1800",
+      "page": 1
+    },
+    {
+      "label": "Beam Team",
+      "hobby": "1:192",
+      "value": "-",
+      "mega": "1:480",
+      "page": 1
+    },
+    {
+      "label": "Inked",
+      "hobby": "1:9",
+      "value": "1:13",
+      "mega": "1:3",
+      "page": 1
+    },
+    {
+      "label": "Inked Red",
+      "hobby": "-",
+      "value": "-",
+      "mega": "1:886",
+      "page": 1
+    },
+    {
+      "label": "Inked Turquoise",
+      "hobby": "1:809",
+      "value": "1:2295",
+      "mega": "1:487",
+      "page": 1
+    },
+    {
+      "label": "Inked Blue",
+      "hobby": "1:1601",
+      "value": "1:4543",
+      "mega": "1:964",
+      "page": 1
+    },
+    {
+      "label": "Inked Gold Rainbow Foilboard",
+      "hobby": "1:80044",
+      "value": "1:227118",
+      "mega": "1:48175",
+      "page": 1
+    },
+    {
+      "label": "Concentration",
+      "hobby": "1:9",
+      "value": "1:13",
+      "mega": "1:3",
+      "page": 1
+    },
+    {
+      "label": "Concentration Red",
+      "hobby": "-",
+      "value": "-",
+      "mega": "1:886",
+      "page": 1
+    },
+    {
+      "label": "Concentration Turquoise",
+      "hobby": "1:809",
+      "value": "1:2295",
+      "mega": "1:487",
+      "page": 1
+    },
+    {
+      "label": "Concentration Blue",
+      "hobby": "1:1601",
+      "value": "1:4543",
+      "mega": "1:964",
+      "page": 1
+    },
+    {
+      "label": "Concentration Gold Rainbow Foilboard",
+      "hobby": "1:80044",
+      "value": "1:227118",
+      "mega": "1:48175",
+      "page": 1
+    },
+    {
+      "label": "The Aftermath",
+      "hobby": "1:9",
+      "value": "1:13",
+      "mega": "1:3",
+      "page": 1
+    },
+    {
+      "label": "The Aftermath Red",
+      "hobby": "-",
+      "value": "-",
+      "mega": "1:886",
+      "page": 1
+    },
+    {
+      "label": "The Aftermath Turquoise",
+      "hobby": "1:809",
+      "value": "1:2295",
+      "mega": "1:487",
+      "page": 1
+    },
+    {
+      "label": "The Aftermath Blue",
+      "hobby": "1:1601",
+      "value": "1:4543",
+      "mega": "1:964",
+      "page": 1
+    },
+    {
+      "label": "The Aftermath Gold Rainbow Foilboard",
+      "hobby": "1:80044",
+      "value": "1:227118",
+      "mega": "1:48175",
+      "page": 1
+    },
+    {
+      "label": "Main Stage",
+      "hobby": "1:9",
+      "value": "1:13",
+      "mega": "1:3",
+      "page": 1
+    },
+    {
+      "label": "Main Stage Red",
+      "hobby": "-",
+      "value": "-",
+      "mega": "1:886",
+      "page": 1
+    },
+    {
+      "label": "Main Stage Turquoise",
+      "hobby": "1:809",
+      "value": "1:2295",
+      "mega": "1:487",
+      "page": 1
+    },
+    {
+      "label": "Main Stage Blue",
+      "hobby": "1:1601",
+      "value": "1:4543",
+      "mega": "1:964",
+      "page": 1
+    },
+    {
+      "label": "Main Stage Gold Rainbow Foilboard",
+      "hobby": "1:80044",
+      "value": "1:227118",
+      "mega": "1:48175",
+      "page": 1
+    },
+    {
+      "label": "Triumvirates",
+      "hobby": "1:27",
+      "value": "-",
+      "mega": "-",
+      "page": 1
+    },
+    {
+      "label": "Triumvirates Red",
+      "hobby": "1:307",
+      "value": "-",
+      "mega": "1:369",
+      "page": 1
+    },
+    {
+      "label": "Triumvirates Black",
+      "hobby": "1:337",
+      "value": "1:956",
+      "mega": "1:203",
+      "page": 1
+    },
+    {
+      "label": "Triumvirates Green",
+      "hobby": "1:668",
+      "value": "1:1893",
+      "mega": "1:402",
+      "page": 1
+    },
+    {
+      "label": "Triumvirates Superfractor",
+      "hobby": "1:33352",
+      "value": "1:94633",
+      "mega": "1:20073",
+      "page": 1
+    },
+    {
+      "label": "Triumvirates Nickname",
+      "hobby": "1:41",
+      "value": "-",
+      "mega": "-",
+      "page": 1
+    },
+    {
+      "label": "Triumvirates Nickname Red",
+      "hobby": "1:472",
+      "value": "-",
+      "mega": "1:568",
+      "page": 1
+    },
+    {
+      "label": "Triumvirates Nickname Black",
+      "hobby": "1:519",
+      "value": "1:1471",
+      "mega": "1:312",
+      "page": 1
+    },
+    {
+      "label": "Triumvirates Nickname Green",
+      "hobby": "1:1027",
+      "value": "1:2912",
+      "mega": "1:618",
+      "page": 2
+    },
+    {
+      "label": "Triumvirates Nickname Superfractor",
+      "hobby": "1:51310",
+      "value": "1:145588",
+      "mega": "1:30881",
+      "page": 2
+    },
+    {
+      "label": "Base Card Autographs",
+      "hobby": "1:34",
+      "value": "1:189",
+      "mega": "1:48",
+      "page": 2
+    },
+    {
+      "label": "Base Card Autographs Yellow",
+      "hobby": "1:70",
+      "value": "1:393",
+      "mega": "1:100",
+      "page": 2
+    },
+    {
+      "label": "Base Card Autographs Turquoise",
+      "hobby": "1:153",
+      "value": "1:866",
+      "mega": "1:221",
+      "page": 2
+    },
+    {
+      "label": "Base Card Autographs Gold",
+      "hobby": "1:301",
+      "value": "1:1705",
+      "mega": "1:434",
+      "page": 2
+    },
+    {
+      "label": "Base Card Autographs Rainbow Foilboard",
+      "hobby": "1:598",
+      "value": "1:3392",
+      "mega": "1:864",
+      "page": 2
+    },
+    {
+      "label": "Base Card Autographs Green",
+      "hobby": "1:3019",
+      "value": "1:17128",
+      "mega": "1:4360",
+      "page": 2
+    },
+    {
+      "label": "Base Card Autographs Gold Rainbow Foilboard",
+      "hobby": "1:15513",
+      "value": "1:88030",
+      "mega": "1:22407",
+      "page": 2
+    },
+    {
+      "label": "Base Chrome Autographs",
+      "hobby": "1:31",
+      "value": "1:171",
+      "mega": "1:44",
+      "page": 2
+    },
+    {
+      "label": "Base Chrome Autographs Turquoise",
+      "hobby": "1:165",
+      "value": "1:933",
+      "mega": "1:238",
+      "page": 2
+    },
+    {
+      "label": "Base Chrome Autographs Red",
+      "hobby": "1:319",
+      "value": "1:1806",
+      "mega": "1:460",
+      "page": 2
+    },
+    {
+      "label": "Base Chrome Autographs Orange",
+      "hobby": "1:625",
+      "value": "1:3546",
+      "mega": "1:903",
+      "page": 2
+    },
+    {
+      "label": "Base Chrome Autographs Superfractor",
+      "hobby": "1:15513",
+      "value": "1:88030",
+      "mega": "1:22407",
+      "page": 2
+    },
+    {
+      "label": "Inked Autographs",
+      "hobby": "1:237",
+      "value": "1:1344",
+      "mega": "1:343",
+      "page": 2
+    },
+    {
+      "label": "Inked Autographs Turquoise",
+      "hobby": "1:800",
+      "value": "1:4539",
+      "mega": "1:1156",
+      "page": 2
+    },
+    {
+      "label": "Inked Autographs Purple",
+      "hobby": "1:3139",
+      "value": "1:17814",
+      "mega": "1:4535",
+      "page": 2
+    },
+    {
+      "label": "Inked Autographs Green",
+      "hobby": "1:15882",
+      "value": "1:90126",
+      "mega": "1:22941",
+      "page": 2
+    },
+    {
+      "label": "Inked Autographs Gold Rainbow Foilboard",
+      "hobby": "1:78474",
+      "value": "1:445328",
+      "mega": "1:113351",
+      "page": 2
+    },
+    {
+      "label": "The Aftermath Autographs",
+      "hobby": "1:232",
+      "value": "1:1316",
+      "mega": "1:335",
+      "page": 2
+    },
+    {
+      "label": "The Aftermath Autographs Turquoise",
+      "hobby": "1:754",
+      "value": "1:4275",
+      "mega": "1:1089",
+      "page": 2
+    },
+    {
+      "label": "The Aftermath Autographs Purple",
+      "hobby": "1:2972",
+      "value": "1:16861",
+      "mega": "1:4292",
+      "page": 2
+    },
+    {
+      "label": "The Aftermath Autographs Green",
+      "hobby": "1:14823",
+      "value": "1:84118",
+      "mega": "1:21411",
+      "page": 2
+    },
+    {
+      "label": "The Aftermath Autographs Gold Rainbow Foilboard",
+      "hobby": "1:74114",
+      "value": "1:420588",
+      "mega": "1:107054",
+      "page": 2
+    },
+    {
+      "label": "Dual Autographs",
+      "hobby": "1:1951",
+      "value": "1:11069",
+      "mega": "1:2818",
+      "page": 2
+    },
+    {
+      "label": "Dual Autographs Turquoise",
+      "hobby": "1:3879",
+      "value": "1:22008",
+      "mega": "1:5602",
+      "page": 2
+    },
+    {
+      "label": "Dual Autographs Purple",
+      "hobby": "1:6877",
+      "value": "1:39024",
+      "mega": "1:9933",
+      "page": 2
+    },
+    {
+      "label": "Dual Autographs Green",
+      "hobby": "1:33352",
+      "value": "1:189265",
+      "mega": "1:48175",
+      "page": 2
+    },
+    {
+      "label": "Dual Autographs Gold Rainbow Foilboard",
+      "hobby": "1:190579",
+      "value": "1:1081510",
+      "mega": "1:275281",
+      "page": 2
+    },
+    {
+      "label": "Main Stage Autographs",
+      "hobby": "1:272",
+      "value": "1:1541",
+      "mega": "1:393",
+      "page": 2
+    },
+    {
+      "label": "Main Stage Autographs Turquoise",
+      "hobby": "1:796",
+      "value": "1:4518",
+      "mega": "1:1150",
+      "page": 2
+    },
+    {
+      "label": "Main Stage Autographs Purple",
+      "hobby": "1:3169",
+      "value": "1:17983",
+      "mega": "1:4578",
+      "page": 2
+    },
+    {
+      "label": "Main Stage Autographs Green",
+      "hobby": "1:15695",
+      "value": "1:89066",
+      "mega": "1:22671",
+      "page": 2
+    },
+    {
+      "label": "Main Stage Autographs Gold Rainbow Foilboard",
+      "hobby": "1:78474",
+      "value": "1:445328",
+      "mega": "1:113351",
+      "page": 2
+    },
+    {
+      "label": "Abstract Autographs",
+      "hobby": "1:229",
+      "value": "1:1297",
+      "mega": "1:330",
+      "page": 2
+    },
+    {
+      "label": "Abstract Autographs Turquoise",
+      "hobby": "1:910",
+      "value": "1:5161",
+      "mega": "1:1314",
+      "page": 2
+    },
+    {
+      "label": "Abstract Autographs Purple",
+      "hobby": "1:3596",
+      "value": "1:20406",
+      "mega": "1:5194",
+      "page": 2
+    },
+    {
+      "label": "Abstract Autographs Green",
+      "hobby": "1:17788",
+      "value": "1:100941",
+      "mega": "1:25693",
+      "page": 2
+    },
+    {
+      "label": "Abstract Autographs Gold Rainbow Foilboard",
+      "hobby": "1:88937",
+      "value": "1:504705",
+      "mega": "1:128465",
+      "page": 2
+    },
+    {
+      "label": "Concentration Autographs",
+      "hobby": "1:285",
+      "value": "1:1617",
+      "mega": "1:412",
+      "page": 2
+    },
+    {
+      "label": "Concentration Autographs Turquoise",
+      "hobby": "1:1012",
+      "value": "1:5740",
+      "mega": "1:1461",
+      "page": 2
+    },
+    {
+      "label": "Concentration Autographs Purple",
+      "hobby": "1:4156",
+      "value": "1:23585",
+      "mega": "1:6003",
+      "page": 2
+    },
+    {
+      "label": "Concentration Autographs Green",
+      "hobby": "1:20524",
+      "value": "1:116471",
+      "mega": "1:29646",
+      "page": 2
+    },
+    {
+      "label": "Concentration Autographs Gold Rainbow Foilboard",
+      "hobby": "1:102620",
+      "value": "1:582352",
+      "mega": "1:148228",
+      "page": 2
+    },
+    {
+      "label": "Base Card Autographs II",
+      "hobby": "1:373",
+      "value": "1:2116",
+      "mega": "1:539",
+      "page": 2
+    },
+    {
+      "label": "Base Card Autographs II Yellow",
+      "hobby": "1:798",
+      "value": "1:4526",
+      "mega": "1:1152",
+      "page": 2
+    },
+    {
+      "label": "Base Card Autographs II Turquoise",
+      "hobby": "1:567",
+      "value": "1:3217",
+      "mega": "1:819",
+      "page": 2
+    },
+    {
+      "label": "Base Card Autographs II Gold",
+      "hobby": "1:1120",
+      "value": "1:6352",
+      "mega": "1:1617",
+      "page": 2
+    },
+    {
+      "label": "Base Card Autographs II Rainbow Foilboard",
+      "hobby": "1:2243",
+      "value": "1:12724",
+      "mega": "1:3239",
+      "page": 2
+    },
+    {
+      "label": "Base Card Autographs II Green",
+      "hobby": "1:11118",
+      "value": "1:63089",
+      "mega": "1:16059",
+      "page": 2
+    },
+    {
+      "label": "Base Card Autographs II Gold Rainbow Foilboard",
+      "hobby": "1:55586",
+      "value": "1:315441",
+      "mega": "1:80291",
+      "page": 2
+    },
+    {
+      "label": "Base Chrome Autographs II",
+      "hobby": "1:3336",
+      "value": "1:18927",
+      "mega": "1:4818",
+      "page": 2
+    },
+    {
+      "label": "Base Chrome Autographs II Turquoise",
+      "hobby": "1:13476",
+      "value": "1:76471",
+      "mega": "1:19465",
+      "page": 2
+    },
+    {
+      "label": "Base Chrome Autographs II Red",
+      "hobby": "1:13341",
+      "value": "1:75706",
+      "mega": "1:19270",
+      "page": 2
+    },
+    {
+      "label": "Base Chrome Autographs Orange",
+      "hobby": "1:26682",
+      "value": "1:151412",
+      "mega": "1:38540",
+      "page": 2
+    },
+    {
+      "label": "Base Chrome Autographs Superfractor",
+      "hobby": "1:667026",
+      "value": "1:3785285",
+      "mega": "1:963482",
+      "page": 2
+    },
+    {
+      "label": "STONE COLD STEVE AUSTIN 30TH ANNIVERSARY AUTOGRAPHS",
+      "hobby": "1:66703",
+      "value": "1:378529",
+      "mega": "1:96349",
+      "page": 2
+    },
+    {
+      "label": "DUDLEY BOYZ 30TH ANNIVERSARY AUTOGRAPHS",
+      "hobby": "1:66703",
+      "value": "1:378529",
+      "mega": "1:96349",
+      "page": 2
+    },
+    {
+      "label": "CM PUNK 20TH ANNIVERSARY AUTOGRAPHS",
+      "hobby": "1:44469",
+      "value": "1:252353",
+      "mega": "1:64233",
+      "page": 2
+    },
+    {
+      "label": "THE ROCK 30TH ANNIVERSARY AUTOGRAPHS",
+      "hobby": "1:66703",
+      "value": "1:378529",
+      "mega": "1:96349",
+      "page": 2
+    },
+    {
+      "label": "NWO 30TH ANNIVERSARY AUTOGRAPHS",
+      "hobby": "1:44469",
+      "value": "1:252353",
+      "mega": "1:64233",
+      "page": 3
+    },
+    {
+      "label": "LITA 25TH ANNIVERSARY AUTOGRAPHS",
+      "hobby": "1:44469",
+      "value": "1:252353",
+      "mega": "1:64233",
+      "page": 3
+    },
+    {
+      "label": "TRISH STRATUS 25TH ANNIVERSARY AUTOGRAPHS",
+      "hobby": "1:44469",
+      "value": "1:252353",
+      "mega": "1:64233",
+      "page": 3
+    }
+  ],
+  "confirmedCardEditions": [
+    {
+      "subset": "BASE CARDS AUTOGRAPH VARIATION",
+      "number": "SCA-USO",
+      "parallel": "Gold Rainbow Foilboard",
+      "serialCap": 1
+    },
+    {
+      "subset": "INKED AUTOGRAPHS",
+      "number": "INK-RBR",
+      "parallel": "Gold Rainbow Foilboard",
+      "serialCap": 1
+    },
+    {
+      "subset": "ABSTRACT AUTOGRAPHS",
+      "number": "AA-LIV",
+      "parallel": "Gold Rainbow Foilboard",
+      "serialCap": 1
+    },
+    {
+      "subset": "DUAL AUTOGRAPHS",
+      "number": "DA-CA",
+      "parallel": "Purple",
+      "serialCap": 25
+    }
+  ]
+}

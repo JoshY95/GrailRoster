@@ -1,0 +1,83 @@
+{
+  "asOf": "2026-10-24",
+  "archiveUrl": "https://www.topps.com/collections/wwe-topps-now-archive?stock_status=ALL_STOCK",
+  "activeUrl": "https://www.topps.com/collections/wwe-topps-now",
+  "activeProducts": 0,
+  "latestRegularNumber": 112,
+  "newRegularCards": [
+    {
+      "year": 2026,
+      "number": "107",
+      "subject": "Alexa Bliss / Tatum Paxley",
+      "group": "Regular",
+      "releaseDate": "2026-10-12",
+      "printRun": 2179,
+      "extras": "Autographs, Numbered editions",
+      "source": "https://www.topps.com/products/alexa-bliss-and-tatum-paxley-2026-wwe-topps-now-r-card-107",
+      "publishedEditions": "Look for: Open-Edition Base Card Foil Parallels Numbered to /50 and lower. Parallels: /50 Gold Foil; /25 Orange Foil; /10 Black Foil; /5 Red Foil; /1 FoilFractor. Look for: /1 Dual Autograph Redemption Card",
+      "retrievedPageSha256": "2b5c306d689ffabc6c693a7f46a889389b9cdaa8af68fa21105502c50d7c142c"
+    },
+    {
+      "year": 2026,
+      "number": "108",
+      "subject": "Tiffany Stratton",
+      "group": "Regular",
+      "releaseDate": "2026-10-12",
+      "printRun": 2018,
+      "extras": "Autographs, Numbered editions",
+      "source": "https://www.topps.com/products/tiffany-stratton-2026-wwe-topps-now-r-card-108",
+      "publishedEditions": "Look for: Open-Edition Base Card Foil Parallels Numbered to /50 and lower. Parallels: /50 Gold Foil; /25 Orange Foil; /10 Black Foil; /5 Red Foil; /1 FoilFractor. Look for: /5 and /1 Autograph Redemption Cards",
+      "retrievedPageSha256": "484e16aa3fde8709edae32682e3087ca83a6adcd3abdd6f63f5f8063c08d696a"
+    },
+    {
+      "year": 2026,
+      "number": "109",
+      "subject": "Liv Morgan",
+      "group": "Regular",
+      "releaseDate": "2026-10-12",
+      "printRun": 1985,
+      "extras": "Autographs, Numbered editions",
+      "source": "https://www.topps.com/products/liv-morgan-2026-wwe-topps-now-r-card-109",
+      "publishedEditions": "Look for: Open-Edition Base Card Foil Parallels Numbered to /50 and lower. Parallels: /50 Gold Foil; /25 Orange Foil; /10 Black Foil; /5 Red Foil; /1 FoilFractor. Look for: /5 and /1 Autograph Redemption Cards",
+      "retrievedPageSha256": "64b0f1c8efa6d7a70bd29150b39992cff018bb79e87b5ab5340c8f48ddab8507"
+    },
+    {
+      "year": 2026,
+      "number": "110",
+      "subject": "Je'Von Evans",
+      "group": "Regular",
+      "releaseDate": "2026-10-12",
+      "printRun": 820,
+      "extras": "Numbered editions",
+      "source": "https://www.topps.com/products/je-von-evans-2026-wwe-topps-now-r-card-110",
+      "publishedEditions": "Look for: Open-Edition Base Card Foil Parallels Numbered to /50 and lower. Parallels: /50 Gold Foil; /25 Orange Foil; /10 Black Foil; /5 Red Foil; /1 FoilFractor.",
+      "retrievedPageSha256": "e75699e5df9cacb4a68d80529bf614aa251e8f43e38370dbb7f6297433e915b1"
+    },
+    {
+      "year": 2026,
+      "number": "111",
+      "subject": "Penta",
+      "group": "Regular",
+      "releaseDate": "2026-10-12",
+      "printRun": 4256,
+      "extras": "Autographs, Numbered editions",
+      "source": "https://www.topps.com/products/penta-2026-wwe-topps-now-r-card-111",
+      "publishedEditions": "Look for: Open-Edition Base Card Foil Parallels Numbered to /50 and lower. Parallels: /50 Gold Foil; /25 Orange Foil; /10 Black Foil; /5 Red Foil; /1 FoilFractor. Look for: /5 and /1 Autograph Redemption Cards",
+      "retrievedPageSha256": "d4b5ff73d7b358b7207b8abc0ced9a5d7ea87fe095a52306b6629f9636925611"
+    },
+    {
+      "year": 2026,
+      "number": "112",
+      "subject": "946",
+      "group": "Regular",
+      "releaseDate": "2026-10-13",
+      "printRun": 597,
+      "extras": "Numbered editions",
+      "source": "https://www.topps.com/products/946-2026-wwe-topps-now-r-card-112",
+      "publishedEditions": "Look for: Open-Edition Base Card Foil Parallels Numbered to /50 and lower. Parallels: /50 Gold Foil; /25 Orange Foil; /10 Black Foil; /5 Red Foil; /1 FoilFractor.",
+      "retrievedPageSha256": "3adb6ed34d819cfe946aa5cbee2149cb8dd19bb2815f1bc51378e4f3887cf60b"
+    }
+  ],
+  "archivePageSha256": "4fcdcdd02d613dc7ce38f53892f8b327e52c92e141da9c168d539650b2d6baf3",
+  "activePageSha256": "b066906a12cb2b51ca609220c27b0af5a9baf70312590a3bf180f43242ae66fd"
+}
