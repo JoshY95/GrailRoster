@@ -2,6 +2,13 @@
 
 Read this first; inspect only files needed for the current task.
 
+## Draft update — 24 October 2026 (NOT published)
+
+- Review branch `catalogue/topps-now-107-112-stadium-club-review` stages six verified Topps NOW regular identities #107–112; #107 dual-auto /1 and #108/#109/#111 autograph /5 and /1 are product-page notes. All six have official base print runs.
+- Staged local split count: 23 sets, 10,368 card identities; NOW 132 (112 regular + 6 HOF + 14 posters). Source, subset totals, unique IDs and contiguous order checked in JS. Production and Sydney remain at 23 sets, 10,362 cards/126 NOW; transaction `supabase/corrections/2026-10-24-topps-now-107-112.sql` is a DRAFT, unapplied.
+- 2026 Topps Stadium Club WWE released 23 October; official manufacturer PDF identified. Complete set NOT imported: external listings disagree 930/938/955; see `docs/STADIUM_CLUB_WWE_2026_IMPORT_AUDIT.md`. Reconcile source and perform regression tests before publishing.
+- Do not interpret this draft milestone as successful deployment, CI, or a synced database.
+
 ## Current state — 4 October 2026
 
 - Production: https://grailroster.com ; GitHub: JoshY95/GrailRoster, main.
