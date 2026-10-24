@@ -1,6 +1,6 @@
 # WWE Topps NOW release list — 2025 and 2026
 
-Research updated 24 October 2026; cards #107–112 and 30 confirmed foil variants are synchronized to Sydney; GitHub Pages publication is tracked in PROJECT_STATUS.md. Annual lists and the separately labelled crossover imported locally and in Sydney on 4 October 2026. Website publication verification is tracked in PROJECT_STATUS.md.
+Research updated 24 October 2026; cards #107–112 and 30 confirmed foil variants are synchronized to Sydney and published through PR #5. Production file parity and live guest #112 visibility passed; see PROJECT_STATUS.md. Annual lists and the separately labelled crossover imported locally and in Sydney on 4 October 2026. Website publication verification is tracked in PROJECT_STATUS.md.
 
 | Coverage | Entries |
 | --- | ---: |

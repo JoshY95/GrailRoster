@@ -1,0 +1,211 @@
+{
+  "asOf": "2026-10-24",
+  "commit": "1ec1a2ae643eb4caacb1124159407fec97bb15c6",
+  "sets": 24,
+  "cards": 11298,
+  "files": [
+    {
+      "file": "data/catalogue-index.json",
+      "sha256": "128d668d987a1a3874a8c619acee7b7e1e44ddb32189c2ff938220c8f365b04d",
+      "bytes": 39538
+    },
+    {
+      "file": "data/sets/2026-topps-stadium-club-wwe.json",
+      "sha256": "ea9993e715ca5838c0077532a7482947724135f31699da2407ffae3150a600ef",
+      "bytes": 241958
+    },
+    {
+      "file": "data/sets/2026-topps-universe-wwe.json",
+      "sha256": "15102994a75e77624a661d0cda908cd97fe7e803f5b686eef75d8f20485445cb",
+      "bytes": 227431
+    },
+    {
+      "file": "data/sets/2026-topps-decades-wwe-90s.json",
+      "sha256": "622564a7135d84976fc7c148518c455e113552ae30343b87e37915bfacd54de4",
+      "bytes": 70863
+    },
+    {
+      "file": "data/sets/2026-topps-cosmic-chrome-wwe.json",
+      "sha256": "a4063ea1306b59677e2472ad23bd04180c0ac841df5b6b12c8dd1da44cfe0340",
+      "bytes": 191454
+    },
+    {
+      "file": "data/sets/2026-topps-chrome-sapphire-wwe.json",
+      "sha256": "6d26aecb94d2d070ae7afbb2f1bb52c6716d404583c9370cb438071e95c7ecdd",
+      "bytes": 132764
+    },
+    {
+      "file": "data/sets/2025-topps-royalty-wwe.json",
+      "sha256": "f8bdc2ed842e3712dc550f6cf40a9a35bde7d6fda0a000ae7b783d02e0e6b952",
+      "bytes": 179625
+    },
+    {
+      "file": "data/sets/2026-topps-chrome-logofractor-wwe.json",
+      "sha256": "9e8bf5bce2a46fcca8948c058ace78a1b80c824a8eaddf989bd188e3a98bcba5",
+      "bytes": 97703
+    },
+    {
+      "file": "data/sets/2026-topps-now-wrestlemania-vegas.json",
+      "sha256": "3d0911a9c0c0cf94b492e365893b14e4849a002a7d9bd886d6babc773c799144",
+      "bytes": 10483
+    },
+    {
+      "file": "data/sets/2026-topps-chrome-wwe.json",
+      "sha256": "efee78c0fe4d0c3692601586b77aeb5c13cc08298343fab0f179354e818ec092",
+      "bytes": 293152
+    },
+    {
+      "file": "data/sets/2025-topps-exalted-wwe.json",
+      "sha256": "33b8c9e95176e17934b469b3a5664788738213e501b5227ee569f1dd2634b42f",
+      "bytes": 98800
+    },
+    {
+      "file": "data/sets/2026-topps-now-wwe-crossovers.json",
+      "sha256": "13b708d9b040e3b0435afe5c7e1a3e541f35d7b5770fdae896d1cfb81fc3b8d6",
+      "bytes": 320
+    },
+    {
+      "file": "data/sets/2025-topps-john-cena-commemorative-collection.json",
+      "sha256": "2bdbedf18a2db32890e86f584405517b61c85efc0f216033b34949e5329e9d30",
+      "bytes": 19928
+    },
+    {
+      "file": "data/sets/2025-topps-universe-wwe.json",
+      "sha256": "88ffbf2dd51e341e4ca9b120568731b4cdf346b7151bc566c406ecfd20fd761b",
+      "bytes": 210968
+    },
+    {
+      "file": "data/sets/2026-topps-now-wwe.json",
+      "sha256": "efb59628a822bb96d1304ad0dab639a90d3c10669b6ecdec7bd7803f87bb64ba",
+      "bytes": 30871
+    },
+    {
+      "file": "data/sets/2025-topps-wwe-x-bape.json",
+      "sha256": "06c674781c6ead9325251418e662511174bf527ff87daca561e89852b4d5f40e",
+      "bytes": 31508
+    },
+    {
+      "file": "data/sets/2025-topps-finest-wwe.json",
+      "sha256": "6a72005324d17c0d8c7a595f15bd423f24e72995a92c761cd89652ecbb96d66f",
+      "bytes": 132334
+    },
+    {
+      "file": "data/sets/2025-topps-chrome-wwe-x-cactus-jack.json",
+      "sha256": "d782d90a51b2eb01e2fb8e5ba409b7a3488b2dff2ad8b4ca966e6dae817e87fd",
+      "bytes": 138164
+    },
+    {
+      "file": "data/sets/2025-topps-chrome-cactus-jack-wrestlemania.json",
+      "sha256": "1b2fbd9ec596c317ea47ec5a3ab13532abda8e3b4b2a66fa3da6ecf4187727b0",
+      "bytes": 40559
+    },
+    {
+      "file": "data/sets/2025-topps-chrome-sapphire-wwe.json",
+      "sha256": "a70927f24c97e7224c8aea3f6a9fbff5033e533232bc229ff62d654ea044ab37",
+      "bytes": 90986
+    },
+    {
+      "file": "data/sets/2025-topps-chrome-wwe.json",
+      "sha256": "d8845d5f03f336a3a32585cc87c8b20654ebf6ce2a35e888cc533b3783a50bcf",
+      "bytes": 266367
+    },
+    {
+      "file": "data/sets/2025-topps-now-wwe.json",
+      "sha256": "e7d2e533cb7c9399de83b7f7bd4d3efb5ef3f924502137faf3aa91356c7919b3",
+      "bytes": 37305
+    },
+    {
+      "file": "data/sets/2024-panini-flawless-wwe.json",
+      "sha256": "f0e6af90db3e5639f0453b60b4631aa1674db945cc3b93092543a03b77729be2",
+      "bytes": 172370
+    },
+    {
+      "file": "data/sets/2024-panini-national-treasures-wwe.json",
+      "sha256": "c4be3cf253aa6a7222c27ea7298f0d8427027e6dbf5764117047f7d896b873d3",
+      "bytes": 186686
+    },
+    {
+      "file": "data/sets/2026-topps-nscc-collection-wwe.json",
+      "sha256": "e0c9fb5f565421e807e488c8f45a9efa075ee3f85cdcacb50e7f82302b56205c",
+      "bytes": 29796
+    },
+    {
+      "file": "sw.js",
+      "sha256": "058e39319a861c07c213d587a4d40e481e079003c607b17ddd0e3f2067e67693",
+      "bytes": 1376
+    }
+  ],
+  "pr": "https://github.com/JoshY95/GrailRoster/pull/5",
+  "deployment": "https://github.com/JoshY95/GrailRoster/actions/runs/40085538149",
+  "browserCI": [
+    "https://github.com/JoshY95/GrailRoster/actions/runs/40085112389",
+    "https://github.com/JoshY95/GrailRoster/actions/runs/40085394150"
+  ],
+  "database": [
+    {
+      "table_name": "catalogue_sets",
+      "rows": 24,
+      "digest": "ea012209b3bc3df04495606d23a5397f"
+    },
+    {
+      "table_name": "catalogue_subsets",
+      "rows": 414,
+      "digest": "a2e0d9a5c2f08bdfe642ee7b5d5c6006"
+    },
+    {
+      "table_name": "catalogue_cards",
+      "rows": 11298,
+      "digest": "60422f8bbcb294e058684d3696d73beb"
+    },
+    {
+      "table_name": "catalogue_variants",
+      "rows": 32568,
+      "digest": "f18c8128eb24ec6e045bd44adcff2143"
+    },
+    {
+      "table_name": "catalogue_parallel_rules",
+      "rows": 1122,
+      "digest": "be869ed1d5a9b5b1b511dda8f02806e2"
+    },
+    {
+      "table_name": "catalogue_sources",
+      "rows": 63,
+      "digest": "a09deda8972820f4dde6a26cb724576f"
+    },
+    {
+      "table_name": "collection_items",
+      "rows": 30,
+      "digest": "6648329147d88b88ed9e52eaac40cfa9"
+    },
+    {
+      "table_name": "reference_images",
+      "rows": 0,
+      "digest": "d41d8cd98f00b204e9800998ecf8427e"
+    }
+  ],
+  "databaseReapplication": "All eight table counts/digests unchanged",
+  "preImportCollectionDigest": "6648329147d88b88ed9e52eaac40cfa9",
+  "affectedRuntimeDatabaseParity": {
+    "toppsNow": 132,
+    "stadiumClub": 930
+  },
+  "orphanVariants": 0,
+  "focusedTests": 6,
+  "guestBrowser": [
+    "24 sets visible",
+    "Stadium Club checklist 930 cards",
+    "DA-RH yields one Triple H / The Rock card",
+    "All cards total 11,298 after reload",
+    "2026 NOW search 946 yields card #112"
+  ],
+  "notRetested": [
+    "Authenticated cloud ownership sync",
+    "Photo upload",
+    "Two-device sync"
+  ],
+  "deferred": [
+    "Base Chrome Autographs II: odds but no manufacturer checklist entries",
+    "Unconfirmed per-card serial caps/applicability",
+    "Chrome autograph Pearl White/Gold Minted guide/odds conflict"
+  ]
+}
