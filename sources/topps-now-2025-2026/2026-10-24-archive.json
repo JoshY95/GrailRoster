@@ -1,0 +1,714 @@
+{
+  "asOf": "2026-10-24",
+  "url": "https://www.topps.com/collections/wwe-topps-now-archive?stock_status=ALL_STOCK&filter.p.m.topps.product_year=2026",
+  "productCount": 135,
+  "pages": [
+    {
+      "page": 1,
+      "sha256": "40e65183dbdf26f7b11e7dd418c36d77bac062ede08cbaf5865794f7c9fe16fa",
+      "products": 24
+    },
+    {
+      "page": 2,
+      "sha256": "109d71b6e6026e31d6af50228a68119cf2b7e1cbb6283d5d44bce63721c11ba3",
+      "products": 24
+    },
+    {
+      "page": 3,
+      "sha256": "4e1c80069951962dbf7473e1cb32ada3d1806a05857f7cc5c84de6a0584a50d5",
+      "products": 24
+    },
+    {
+      "page": 4,
+      "sha256": "1a8c8af6184bd0f6e35835bf139ae2973ced5d8ed20d53d489e8fde75a60ea81",
+      "products": 24
+    },
+    {
+      "page": 5,
+      "sha256": "67e8fd97f88768a60115baddde07741878b5817fbe976cf1489d0c2454b517f7",
+      "products": 24
+    },
+    {
+      "page": 6,
+      "sha256": "db33fcce6d2a22bc6d6d4152a540e1168b343afb020fdc4bad631016fdef5dd2",
+      "products": 15
+    }
+  ],
+  "products": [
+    {
+      "title": "946 - 2026 WWE Topps NOW® - Card 112 - PR: 597",
+      "handle": "946-2026-wwe-topps-now-r-card-112",
+      "id": "gid://shopify/Product/9062661947549"
+    },
+    {
+      "title": "Penta - 2026 WWE Topps NOW® - Card 111 - PR: 4256",
+      "handle": "penta-2026-wwe-topps-now-r-card-111",
+      "id": "gid://shopify/Product/9062378995869"
+    },
+    {
+      "title": "Je'Von Evans - 2026 WWE Topps NOW® - Card 110 - PR: 820",
+      "handle": "je-von-evans-2026-wwe-topps-now-r-card-110",
+      "id": "gid://shopify/Product/9062377390237"
+    },
+    {
+      "title": "Liv Morgan - 2026 WWE Topps NOW® - Card 109 - PR: 1985",
+      "handle": "liv-morgan-2026-wwe-topps-now-r-card-109",
+      "id": "gid://shopify/Product/9062377193629"
+    },
+    {
+      "title": "Tiffany Stratton - 2026 WWE Topps NOW® - Card 108 - PR: 2018",
+      "handle": "tiffany-stratton-2026-wwe-topps-now-r-card-108",
+      "id": "gid://shopify/Product/9062376898717"
+    },
+    {
+      "title": "Alexa Bliss & Tatum Paxley - 2026 WWE Topps NOW® - Card 107 - PR: 2179",
+      "handle": "alexa-bliss-and-tatum-paxley-2026-wwe-topps-now-r-card-107",
+      "id": "gid://shopify/Product/9062376407197"
+    },
+    {
+      "title": "Wren Sinclair - 2026 WWE Topps NOW® - Card 106 - PR: 776",
+      "handle": "wren-sinclair-2026-wwe-topps-now-r-card-106-pr-776",
+      "id": "gid://shopify/Product/9062374506653"
+    },
+    {
+      "title": "Punk/Penta/Tiff/Trick/Sol - 2026 WWE Topps NOW® - Card MITB - PR: 1724",
+      "handle": "punk-penta-tiff-trick-sol-2026-wwe-topps-now®-card-mitb",
+      "id": "gid://shopify/Product/9061670092957"
+    },
+    {
+      "title": "Wren Sinclair - 2026 WWE Topps NOW® - Card 106",
+      "handle": "wren-sinclair-2026-wwe-topps-now®-card-106",
+      "id": "gid://shopify/Product/9061362827421"
+    },
+    {
+      "title": "Blake Monroe - 2026 WWE Topps NOW® - Card 105 - PR: 1626",
+      "handle": "blake-monroe-2026-wwe-topps-now®-card-105",
+      "id": "gid://shopify/Product/9060692820125"
+    },
+    {
+      "title": "La Parka/Mr. Iguana/Adelicious/Mascarita Sagrada - 2026 WWE Topps NOW® - Card 102 - PR: 776",
+      "handle": "la-parka-mr-iguana-adelicious-mascarita-sagrada-2026-wwe-topps-now®-card-102",
+      "id": "gid://shopify/Product/9058886647965"
+    },
+    {
+      "title": "CM Punk/Rey Mysterio/El Grande Americano - 2026 WWE Topps NOW® - Card 104 - PR: 1324",
+      "handle": "cm-punk-rey-mysterio-el-grande-americano-2026-wwe-topps-now®-card-104",
+      "id": "gid://shopify/Product/9058886615197"
+    },
+    {
+      "title": "Lucha Brothers - 2026 WWE Topps NOW® - Card 103 - PR: 1541",
+      "handle": "lucha-brothers-2026-wwe-topps-now®-card-103",
+      "id": "gid://shopify/Product/9058886582429"
+    },
+    {
+      "title": "Roman Reigns - 2026 WWE Topps NOW® - Card 101 - PR: 1021",
+      "handle": "roman-reigns-2026-wwe-topps-now®-card-101",
+      "id": "gid://shopify/Product/9044976271517"
+    },
+    {
+      "title": "Lola Vice - 2026 WWE Topps NOW® - Card 100 - PR: 1222",
+      "handle": "lola-vice-2026-wwe-topps-now®-card-100",
+      "id": "gid://shopify/Product/9044976238749"
+    },
+    {
+      "title": "El Grande Americano - 2026 WWE Topps NOW® - Card 99 - PR: 1770",
+      "handle": "el-grande-americano-2026-wwe-topps-now®-card-99",
+      "id": "gid://shopify/Product/9044126728349"
+    },
+    {
+      "title": "Stephanie Vaquer - 2026 WWE Topps NOW® - Card 97 - PR: 4609",
+      "handle": "stephanie-vaquer-2026-wwe-topps-now®-card-97",
+      "id": "gid://shopify/Product/9044126695581"
+    },
+    {
+      "title": "La Catalina - 2026 WWE Topps NOW® - Card 98 - PR: 1489",
+      "handle": "la-catalina-2026-wwe-topps-now®-card-98",
+      "id": "gid://shopify/Product/9044126662813"
+    },
+    {
+      "title": "Sami Zayn - 2026 WWE Topps NOW® - Card 96 - PR: 551",
+      "handle": "sami-zayn-2026-wwe-topps-now®-card-96",
+      "id": "gid://shopify/Product/9044126597277"
+    },
+    {
+      "title": "Lil Yachty - 2026 WWE Topps NOW® - Card 95 - PR: 1697",
+      "handle": "lil-yachty-2026-wwe-topps-now®-card-95",
+      "id": "gid://shopify/Product/9042390581405"
+    },
+    {
+      "title": "Bronson Reed - 2026 WWE Topps NOW® - Card 94 - PR: 534",
+      "handle": "bronson-reed-2026-wwe-topps-now®-card-94",
+      "id": "gid://shopify/Product/9041237180573"
+    },
+    {
+      "title": "Trick Williams - 2026 WWE Topps NOW® - Card 93 - PR: 451",
+      "handle": "trick-williams-2026-wwe-topps-now®-card-93",
+      "id": "gid://shopify/Product/9041237147805"
+    },
+    {
+      "title": "Grayson Waller - 2026 WWE Topps NOW® - Card 92 - PR: 526",
+      "handle": "grayson-waller-2026-wwe-topps-now®-card-92",
+      "id": "gid://shopify/Product/9035844124829"
+    },
+    {
+      "title": "Kelani Jordan - 2026 WWE Topps NOW® - Card 91 - PR: 806",
+      "handle": "kelani-jordan-2026-wwe-topps-now®-card-91",
+      "id": "gid://shopify/Product/9035843862685"
+    },
+    {
+      "title": "Zaria - 2026 WWE Topps NOW® - Card 90 - PR: 639",
+      "handle": "zaria-2026-wwe-topps-now®-card-90",
+      "id": "gid://shopify/Product/9035843797149"
+    },
+    {
+      "title": "Jacy Jayne - 2026 WWE Topps NOW® - Card 89 - PR: 974",
+      "handle": "jacy-jayne-2026-wwe-topps-now®-card-89",
+      "id": "gid://shopify/Product/9026310045853"
+    },
+    {
+      "title": "MFT - 2026 WWE Topps NOW® - Card 88 - PR: 457",
+      "handle": "mft-2026-wwe-topps-now®-card-88",
+      "id": "gid://shopify/Product/9026310013085"
+    },
+    {
+      "title": "Tatum Paxley - 2026 WWE Topps NOW® - Card 87 - PR: 1786",
+      "handle": "tatum-paxley-2026-wwe-topps-now®-card-87",
+      "id": "gid://shopify/Product/9021188931741"
+    },
+    {
+      "title": "Becky Lynch/Stephanie Vaquer - 2026 WWE Topps NOW® - Card 86 - PR: 1234",
+      "handle": "becky-lynch-stephanie-vaquer-2026-wwe-topps-now®-card-86",
+      "id": "gid://shopify/Product/9013129117853"
+    },
+    {
+      "title": "Big Cass - 2026 WWE Topps NOW® - Card 85 - PR: 370",
+      "handle": "big-cass-2026-wwe-topps-now®-card-85",
+      "id": "gid://shopify/Product/9013129085085"
+    },
+    {
+      "title": "Seth Rollins/Roman Reigns - 2026 WWE Topps NOW® - Card 84 - PR: 5974",
+      "handle": "seth-rollins-roman-reigns-2026-wwe-topps-now®-card-84",
+      "id": "gid://shopify/Product/9012295565469"
+    },
+    {
+      "title": "Chad Gable - 2026 WWE Topps NOW® - Card 83 - PR: 1223",
+      "handle": "chad-gable-2026-wwe-topps-now®-card-83",
+      "id": "gid://shopify/Product/9012295499933"
+    },
+    {
+      "title": "Kevin Owens - 2026 WWE Topps NOW® - Card 79 - PR: 1940",
+      "handle": "kevin-owens-2026-wwe-topps-now®-card-79",
+      "id": "gid://shopify/Product/9012295467165"
+    },
+    {
+      "title": "Chelsea Green - 2026 WWE Topps NOW® - Card 81 - PR: 5883",
+      "handle": "chelsea-green-2026-wwe-topps-now®-card-81",
+      "id": "gid://shopify/Product/9012295434397"
+    },
+    {
+      "title": "Baron Corbin - 2026 WWE Topps NOW® - Card 80 - PR: 743",
+      "handle": "baron-corbin-2026-wwe-topps-now®-card-80",
+      "id": "gid://shopify/Product/9012295401629"
+    },
+    {
+      "title": "Danhausen - 2026 WWE Topps NOW® - Card 82 - PR: 2456",
+      "handle": "danhausen-2026-wwe-topps-now®-card-82",
+      "id": "gid://shopify/Product/9012295368861"
+    },
+    {
+      "title": "Liv Morgan - 2026 WWE Topps NOW® - Card 75 - PR: 2034",
+      "handle": "liv-morgan-2026-wwe-topps-now®-card-75",
+      "id": "gid://shopify/Product/9011723534493"
+    },
+    {
+      "title": "Nick Aldis - 2026 WWE Topps NOW® - Card 76 - PR: 1149",
+      "handle": "nick-aldis-2026-wwe-topps-now®-card-76",
+      "id": "gid://shopify/Product/9011723501725"
+    },
+    {
+      "title": "Brock Lesnar / Oba Femi - 2026 WWE Topps NOW® - Card 78 - PR: 5340",
+      "handle": "brock-lesnar-oba-femi-2026-wwe-topps-now®-card-78",
+      "id": "gid://shopify/Product/9011723468957"
+    },
+    {
+      "title": "Oba Femi - 2026 WWE Topps NOW® - Card 77 - PR: 2759",
+      "handle": "oba-femi-2026-wwe-topps-now®-card-77",
+      "id": "gid://shopify/Product/9011723436189"
+    },
+    {
+      "title": "Liv Morgan/IYO SKY - 2026 WWE Topps NOW® - Card SS02 - PR: 785",
+      "handle": "liv-morgan-iyo-sky-2026-wwe-topps-now®-card-ss02",
+      "id": "gid://shopify/Product/9009569693853"
+    },
+    {
+      "title": "Oba Femi/Brock Lesnar - 2026 WWE Topps NOW® - Card SS01 - PR: 1253",
+      "handle": "oba-femi-brock-lesnar-2026-wwe-topps-now®-card-ss01",
+      "id": "gid://shopify/Product/9009569661085"
+    },
+    {
+      "title": "Roman Reigns/Seth Rollins - 2026 WWE Topps NOW® - Card SS04 - PR: 1173",
+      "handle": "roman-reigns-seth-rollins-2026-wwe-topps-now®-card-ss04",
+      "id": "gid://shopify/Product/9009569628317"
+    },
+    {
+      "title": "CM Punk/Cody Rhodes - 2026 WWE Topps NOW® - Card SS03 - PR: 950",
+      "handle": "cm-punk-cody-rhodes-2026-wwe-topps-now®-card-ss03",
+      "id": "gid://shopify/Product/9009569595549"
+    },
+    {
+      "title": "Raquel Rodriguez - 2026 WWE Topps NOW® - Card 74 - PR: 812",
+      "handle": "raquel-rodriguez-2026-wwe-topps-now®-card-74",
+      "id": "gid://shopify/Product/9007790719133"
+    },
+    {
+      "title": "Roman Reigns / Jalen Brunson - 2026 WWE Topps NOW® - Card 73 - PR: 5784",
+      "handle": "roman-reigns-jalen-brunson-2026-wwe-topps-now®-card-73",
+      "id": "gid://shopify/Product/8992159629469"
+    },
+    {
+      "title": "Fatal Influence - 2026 WWE Topps NOW® - Card 71 - PR: 1080",
+      "handle": "fatal-influence-2026-wwe-topps-now®-card-71",
+      "id": "gid://shopify/Product/8992159596701"
+    },
+    {
+      "title": "Danhausen/Karl-Anthony Towns - 2026 WWE Topps NOW® - Card 72 - PR: 3491",
+      "handle": "karl-anthony-towns-2026-wwe-topps-now®-card-72",
+      "id": "gid://shopify/Product/8992159563933"
+    },
+    {
+      "title": "CM Punk - 2026 WWE Topps NOW® - Card 70 - PR: 2495",
+      "handle": "cm-punk-2026-wwe-topps-now®-card-70",
+      "id": "gid://shopify/Product/8982517317789"
+    },
+    {
+      "title": "Kendal Grey - 2026 WWE Topps NOW® - Card 69 - PR: 2810",
+      "handle": "kendal-grey-2026-wwe-topps-now®-card-69",
+      "id": "gid://shopify/Product/8968669003933"
+    },
+    {
+      "title": "Sami Zayn - 2026 WWE Topps NOW® - Card 68 - PR: 1655",
+      "handle": "sami-zayn-2026-wwe-topps-now®-card-68",
+      "id": "gid://shopify/Product/8968668971165"
+    },
+    {
+      "title": "IYO SKY - 2026 WWE Topps NOW® - Card 67 - PR: 1659",
+      "handle": "iyo-sky-2026-wwe-topps-now®-card-67",
+      "id": "gid://shopify/Product/8968668938397"
+    },
+    {
+      "title": "Oba Femi - 2026 WWE Topps NOW® - Card 66 - PR: 1689",
+      "handle": "oba-femi-2026-wwe-topps-now®-card-66",
+      "id": "gid://shopify/Product/8968668905629"
+    },
+    {
+      "title": "Night of Champions - 2026 WWE Topps NOW® - Card NOCH - PR: 993",
+      "handle": "night-of-champions-2026-wwe-topps-now®-card-noch",
+      "id": "gid://shopify/Product/8966828392605"
+    },
+    {
+      "title": "The Street Profits - 2026 WWE Topps NOW® - Card 65 - PR: 440",
+      "handle": "the-street-profits-2026-wwe-topps-now®-card-65",
+      "id": "gid://shopify/Product/8964065296541"
+    },
+    {
+      "title": "Zaria - 2026 WWE Topps NOW® - Card 64 - PR: 763",
+      "handle": "zaria-2026-wwe-topps-now®-card-64",
+      "id": "gid://shopify/Product/8946272927901"
+    },
+    {
+      "title": "Chad Gable - 2026 WWE Topps NOW® - Card 63 - PR: 519",
+      "handle": "chad-gable-2026-wwe-topps-now®-card-63",
+      "id": "gid://shopify/Product/8945139450013"
+    },
+    {
+      "title": "El Grande Americano - 2026 WWE Topps NOW® - Card 61 - PR: 4598",
+      "handle": "el-grande-americano-2026-wwe-topps-now®-card-61",
+      "id": "gid://shopify/Product/8935125287069"
+    },
+    {
+      "title": "Sol Ruca - 2026 WWE Topps NOW® - Card 62 - PR: 2846",
+      "handle": "sol-ruca-2026-wwe-topps-now®-card-62",
+      "id": "gid://shopify/Product/8935125254301"
+    },
+    {
+      "title": "Clash in Italy - 2026 WWE Topps NOW® - Card CITA - PR: 1194",
+      "handle": "clash-in-italy-2026-wwe-topps-now®-card-cita",
+      "id": "gid://shopify/Product/8932901388445"
+    },
+    {
+      "title": "Brock Lesnar - 2026 WWE Topps NOW® - Card 60 - PR: 983",
+      "handle": "brock-lesnar-2026-wwe-topps-now®-card-60",
+      "id": "gid://shopify/Product/8924553085085"
+    },
+    {
+      "title": "Roman Reigns - 2026 WWE Topps NOW® - Card 59 - PR: 892",
+      "handle": "roman-reigns-2026-wwe-topps-now®-card-59",
+      "id": "gid://shopify/Product/8913837752477"
+    },
+    {
+      "title": "IYO SKY / Asuka - 2026 WWE Topps NOW® - Card 58 - PR: 1639",
+      "handle": "iyo-sky-asuka-2026-wwe-topps-now®-card-58",
+      "id": "gid://shopify/Product/8913837719709"
+    },
+    {
+      "title": "Danhausen - 2026 WWE Topps NOW® - Card 57 - PR: 2943",
+      "handle": "danhausen-2026-wwe-topps-now®-card-57",
+      "id": "gid://shopify/Product/8913837686941"
+    },
+    {
+      "title": "Bron Breakker - 2026 WWE Topps NOW® - Card 56 - PR: 600",
+      "handle": "bron-breakker-2026-wwe-topps-now®-card-56",
+      "id": "gid://shopify/Product/8913837654173"
+    },
+    {
+      "title": "Backlash - 2026 WWE Topps NOW® - Card BLSH - PR: 1127",
+      "handle": "backlash-2026-wwe-topps-now®-card-blsh",
+      "id": "gid://shopify/Product/8910357233821"
+    },
+    {
+      "title": "Sol Ruca - 2026 WWE Topps NOW® - Card 55 - PR: 1389",
+      "handle": "sol-ruca-2026-wwe-topps-now®-card-55",
+      "id": "gid://shopify/Product/8905334751389"
+    },
+    {
+      "title": "Joe Hendry - 2026 WWE Topps NOW® - Card 54 - PR: 1428",
+      "handle": "joe-hendry-2026-wwe-topps-now®-card-54",
+      "id": "gid://shopify/Product/8898894954653"
+    },
+    {
+      "title": "Tiffany Stratton - 2026 WWE Topps NOW® - Card 53 - PR: 1456",
+      "handle": "tiffany-stratton-2026-wwe-topps-now®-card-53",
+      "id": "gid://shopify/Product/8897952219293"
+    },
+    {
+      "title": "Tatum Paxley - 2026 WWE Topps NOW® - Card 52 - PR: 1253",
+      "handle": "tatum-paxley-2026-wwe-topps-now®-card-52",
+      "id": "gid://shopify/Product/8895628017821"
+    },
+    {
+      "title": "Roman Reigns - 2026 WWE Topps NOW® - Card 51 - PR: 6660",
+      "handle": "roman-reigns-2026-wwe-topps-now®-card-51",
+      "id": "gid://shopify/Product/8894502174877"
+    },
+    {
+      "title": "Danhausen - 2026 WWE Topps NOW® - Card 50 - PR: 3759",
+      "handle": "danhausen-2026-wwe-topps-now®-card-50",
+      "id": "gid://shopify/Product/8894502142109"
+    },
+    {
+      "title": "Finn Bálor - 2026 WWE Topps NOW® - Card 48 - PR: 2113",
+      "handle": "finn-balor-2026-wwe-topps-now®-card-48",
+      "id": "gid://shopify/Product/8894502109341"
+    },
+    {
+      "title": "Rhea Ripley - 2026 WWE Topps NOW® - Card 49 - PR: 4359",
+      "handle": "rhea-ripley-2026-wwe-topps-now®-card-49",
+      "id": "gid://shopify/Product/8894502076573"
+    },
+    {
+      "title": "Penta - 2026 WWE Topps NOW® - Card 46 - PR: 2557",
+      "handle": "penta-2026-wwe-topps-now®-card-46",
+      "id": "gid://shopify/Product/8894502043805"
+    },
+    {
+      "title": "Trick Williams - 2026 WWE Topps NOW® - Card 47 - PR: 1717",
+      "handle": "trick-williams-2026-wwe-topps-now®-card-47",
+      "id": "gid://shopify/Product/8894502011037"
+    },
+    {
+      "title": "Brock Lesnar - 2026 WWE Topps NOW® - Card 45 - PR: 4841",
+      "handle": "brock-lesnar-2026-wwe-topps-now®-card-45",
+      "id": "gid://shopify/Product/8894501978269"
+    },
+    {
+      "title": "Oba Femi - 2026 WWE Topps NOW® - Card 44 - PR: 5028",
+      "handle": "oba-femi-2026-wwe-topps-now®-card-44",
+      "id": "gid://shopify/Product/8894501945501"
+    },
+    {
+      "title": "Speed - 2026 WWE Topps NOW® - Card 43 - PR: 2256",
+      "handle": "speed-2026-wwe-topps-now®-card-43",
+      "id": "gid://shopify/Product/8894151131293"
+    },
+    {
+      "title": "\"The American Nightmare\" Cody Rhodes - 2026 WWE Topps NOW® - Card 42 - PR: 1953",
+      "handle": "the-american-nightmare-cody-rhodes-2026-wwe-topps-now®-card-42",
+      "id": "gid://shopify/Product/8894151098525"
+    },
+    {
+      "title": "Paige - 2026 WWE Topps NOW® - Card 38 - PR: 3756",
+      "handle": "paige-2026-wwe-topps-now®-card-38",
+      "id": "gid://shopify/Product/8894127833245"
+    },
+    {
+      "title": "Brie Bella/Paige - 2026 WWE Topps NOW® - Card 39 - PR: 1515",
+      "handle": "brie-bella-paige-2026-wwe-topps-now®-card-39",
+      "id": "gid://shopify/Product/8894127800477"
+    },
+    {
+      "title": "Liv Morgan - 2026 WWE Topps NOW® - Card 41 - PR: 3245",
+      "handle": "liv-morgan-2026-wwe-topps-now®-card-41",
+      "id": "gid://shopify/Product/8894127636637"
+    },
+    {
+      "title": "Becky Lynch - 2026 WWE Topps NOW® - Card 40 - PR: 1754",
+      "handle": "becky-lynch-2026-wwe-topps-now®-card-40",
+      "id": "gid://shopify/Product/8894127603869"
+    },
+    {
+      "title": "Bad News Brown - 2026 WWE Topps NOW® - Card HOF6 - PR: 373",
+      "handle": "bad-news-brown-2026-wwe-topps-now®-card-hof6",
+      "id": "gid://shopify/Product/8893847077021"
+    },
+    {
+      "title": "Sid - 2026 WWE Topps NOW® - Card HOF5 - PR: 575",
+      "handle": "sid-2026-wwe-topps-now®-card-hof5",
+      "id": "gid://shopify/Product/8893847044253"
+    },
+    {
+      "title": "Demolition - 2026 WWE Topps NOW® - Card HOF3 - PR: 500",
+      "handle": "demolition-2026-wwe-topps-now®-card-hof3",
+      "id": "gid://shopify/Product/8893847011485"
+    },
+    {
+      "title": "Stephanie McMahon - 2026 WWE Topps NOW® - Card HOF1 - PR: 916",
+      "handle": "stephanie-mcmahon-2026-wwe-topps-now®-card-hof1",
+      "id": "gid://shopify/Product/8893846978717"
+    },
+    {
+      "title": "Royce Keys - 2026 WWE Topps NOW® - Card 37 - PR: 603",
+      "handle": "royce-keys-2026-wwe-topps-now®-card-37",
+      "id": "gid://shopify/Product/8893846913181"
+    },
+    {
+      "title": "Dennis Rodman - 2026 WWE Topps NOW® - Card HOF4 - PR: 2133",
+      "handle": "dennis-rodman-2026-wwe-topps-now®-card-hof4",
+      "id": "gid://shopify/Product/8893846880413"
+    },
+    {
+      "title": "AJ Styles - 2026 WWE Topps NOW® - Card HOF2 - PR: 1480",
+      "handle": "aj-styles-2026-wwe-topps-now®-card-hof2",
+      "id": "gid://shopify/Product/8893846814877"
+    },
+    {
+      "title": "CM Punk / Roman Reigns - 2026 WWE Topps NOW® - Card WMV4 - PR: 2276",
+      "handle": "cm-punk-roman-reigns-2026-wwe-topps-now®-card-wmv4",
+      "id": "gid://shopify/Product/8892987113629"
+    },
+    {
+      "title": "Jade Cargill / Rhea Ripley - 2026 WWE Topps NOW® - Card WMV3 - PR: 1812",
+      "handle": "jade-cargill-rhea-ripley-2026-wwe-topps-now®-card-wmv3",
+      "id": "gid://shopify/Product/8892986982557"
+    },
+    {
+      "title": "Cody Rhodes / Randy Orton - 2026 WWE Topps NOW® - Card WMV2 - PR: 1674",
+      "handle": "cody-rhodes-randy-orton-2026-wwe-topps-now®-card-wmv2",
+      "id": "gid://shopify/Product/8892986949789"
+    },
+    {
+      "title": "Stephanie Vaquer / Liv Morgan - 2026 WWE Topps NOW® - Card WMV1 - PR: 2377",
+      "handle": "stephanie-vaquer-liv-morgan-2026-wwe-topps-now®-card-wmv1",
+      "id": "gid://shopify/Product/8892986917021"
+    },
+    {
+      "title": "Danhausen - 2026 WWE Topps NOW® - Card 36 - PR: 3071",
+      "handle": "danhausen-2026-wwe-topps-now®-card-36",
+      "id": "gid://shopify/Product/8890557530269"
+    },
+    {
+      "title": "2026 WrestleMania Vegas Set – WWE Topps NOW® - 15-Card Set - PR: 5847",
+      "handle": "2026-wrestlemania-vegas-set-wwe-topps-now®-15-card-set",
+      "id": "gid://shopify/Product/8886072410269"
+    },
+    {
+      "title": "Tony D'Angelo - 2026 WWE Topps NOW® - Card 35 - PR: 615",
+      "handle": "tony-dangelo-2026-wwe-topps-now®-card-35",
+      "id": "gid://shopify/Product/8883875807389"
+    },
+    {
+      "title": "Lola Vice - 2026 WWE Topps NOW® - Card 34 - PR: 1507",
+      "handle": "lola-vice-2026-wwe-topps-now®-card-34",
+      "id": "gid://shopify/Product/8883875774621"
+    },
+    {
+      "title": "Sami Zayn - 2026 WWE Topps NOW® - Card 33 - PR: 532",
+      "handle": "sami-zayn-2026-wwe-topps-now®-card-33",
+      "id": "gid://shopify/Product/8878013907101"
+    },
+    {
+      "title": "Damian Priest / R-Truth - 2026 WWE Topps NOW® - Card 32 - PR: 699",
+      "handle": "damian-priest-r-truth-2026-wwe-topps-now®-card-32",
+      "id": "gid://shopify/Product/8869119951005"
+    },
+    {
+      "title": "Oba Femi - 2026 WWE Topps NOW® - Card 31 - PR: 1951",
+      "handle": "oba-femi-2026-wwe-topps-now®-card-31",
+      "id": "gid://shopify/Product/8863422251165"
+    },
+    {
+      "title": "Tatum Paxley - 2026 WWE Topps NOW® - Card 30 - PR: 997",
+      "handle": "tatum-paxley-2026-wwe-topps-now®-card-30",
+      "id": "gid://shopify/Product/8854852042909"
+    },
+    {
+      "title": "\"The American Nightmare\" Cody Rhodes - 2026 WWE Topps NOW® - Card 29 - PR: 1776",
+      "handle": "the-american-nightmare-cody-rhodes-2026-wwe-topps-now®-card-29",
+      "id": "gid://shopify/Product/8853745827997"
+    },
+    {
+      "title": "John Cena/Shohei Ohtani - 2026 World Baseball Classic Topps NOW® - Card WBCO - PR: 55,002",
+      "handle": "john-cena-shohei-ohtani-2026-world-baseball-classic-topps-now®-card-co",
+      "id": "gid://shopify/Product/8853745696925"
+    },
+    {
+      "title": "Penta - 2026 WWE Topps NOW® - Card 28 - PR: 4509",
+      "handle": "penta-2026-wwe-topps-now®-card-28",
+      "id": "gid://shopify/Product/8852001095837"
+    },
+    {
+      "title": "AJ Lee - 2026 WWE Topps NOW® - Card 27 - PR: 2991",
+      "handle": "aj-lee-2026-wwe-topps-now®-card-27",
+      "id": "gid://shopify/Product/8852001030301"
+    },
+    {
+      "title": "Seth Rollins - 2026 WWE Topps NOW® - Card 26 - PR: 1115",
+      "handle": "seth-rollins-2026-wwe-topps-now®-card-26",
+      "id": "gid://shopify/Product/8851650871453"
+    },
+    {
+      "title": "Danhausen - 2026 WWE Topps NOW® - Card 24 - PR: 5229",
+      "handle": "danhausen-2026-wwe-topps-now®-card-24",
+      "id": "gid://shopify/Product/8851650838685"
+    },
+    {
+      "title": "Randy Orton - 2026 WWE Topps NOW® - Card 25 - PR: 2507",
+      "handle": "randy-orton-2026-wwe-topps-now®-card-25",
+      "id": "gid://shopify/Product/8851650805917"
+    },
+    {
+      "title": "CM Punk - 2026 WWE Topps NOW® - Card 23 - PR: 1426",
+      "handle": "cm-punk-2026-wwe-topps-now®-card-23",
+      "id": "gid://shopify/Product/8851650773149"
+    },
+    {
+      "title": "The Irresistible Forces - 2026 WWE Topps NOW® - Card 21 - PR: 735",
+      "handle": "the-irresistible-forces-2026-wwe-topps-now®-card-21",
+      "id": "gid://shopify/Product/8851650740381"
+    },
+    {
+      "title": "Rhea Ripley - 2026 WWE Topps NOW® - Card 22 - PR: 3702",
+      "handle": "rhea-ripley-2026-wwe-topps-now®-card-22",
+      "id": "gid://shopify/Product/8851650707613"
+    },
+    {
+      "title": "Elimination Chamber - 2026 WWE Topps NOW® - Card EC26 - PR: 2068",
+      "handle": "elimination-chamber-2026-wwe-topps-now®-card-ec26",
+      "id": "gid://shopify/Product/8850215927965"
+    },
+    {
+      "title": "Myles Borne - 2026 WWE Topps NOW® - Card 20 - PR: 622",
+      "handle": "myles-borne-2026-wwe-topps-now®-card-20",
+      "id": "gid://shopify/Product/8848862085277"
+    },
+    {
+      "title": "Sol Ruca / Zaria - 2026 WWE Topps NOW® - Card 19 - PR: 711",
+      "handle": "sol-ruca-zaria-2026-wwe-topps-now®-card-19",
+      "id": "gid://shopify/Product/8848861954205"
+    },
+    {
+      "title": "AJ Styles - 2026 WWE Topps NOW® - Card 18 - PR: 2245",
+      "handle": "aj-styles-2026-wwe-topps-now®-card-18",
+      "id": "gid://shopify/Product/8847940419741"
+    },
+    {
+      "title": "Liv Morgan - 2026 WWE Topps NOW® - Card 17 - PR: 1787",
+      "handle": "liv-morgan-2026-wwe-topps-now®-card-17",
+      "id": "gid://shopify/Product/8847940386973"
+    },
+    {
+      "title": "Joe Hendry - 2026 WWE Topps NOW® - Card 16 - PR: 1750",
+      "handle": "joe-hendry-2026-wwe-topps-now®-card-16",
+      "id": "gid://shopify/Product/8835934978205"
+    },
+    {
+      "title": "AJ Styles - 2026 WWE Topps NOW® - Card 13 - PR: 3231",
+      "handle": "aj-styles-2026-wwe-topps-now®-card-13",
+      "id": "gid://shopify/Product/8832982646941"
+    },
+    {
+      "title": "Roman Reigns - 2026 WWE Topps NOW® - Card 12 - PR: 3906",
+      "handle": "roman-reigns-2026-wwe-topps-now®-card-12",
+      "id": "gid://shopify/Product/8832982614173"
+    },
+    {
+      "title": "Brie Bella - 2026 WWE Topps NOW® - Card 15 - PR: 1328",
+      "handle": "brie-bella-2026-wwe-topps-now®-card-15",
+      "id": "gid://shopify/Product/8832982581405"
+    },
+    {
+      "title": "Royce Keys - 2026 WWE Topps NOW® - Card 14 - PR: 1097",
+      "handle": "royce-keys-2026-wwe-topps-now®-card-14",
+      "id": "gid://shopify/Product/8832982483101"
+    },
+    {
+      "title": "Liv Morgan - 2026 WWE Topps NOW® - Card 11 - PR: 4380",
+      "handle": "liv-morgan-2026-wwe-topps-now®-card-11",
+      "id": "gid://shopify/Product/8832982319261"
+    },
+    {
+      "title": "Royal Rumble - 2026 WWE Topps NOW® - Card RR26 - PR: 2003",
+      "handle": "royal-rumble-2026-wwe-topps-now®-card-rr26",
+      "id": "gid://shopify/Product/8831501959325"
+    },
+    {
+      "title": "AJ Styles / Shinsuke Nakamura - 2026 WWE Topps NOW® - Card 10 - PR: 1721",
+      "handle": "aj-styles-shinsuke-nakamura-2026-wwe-topps-now®-card-10",
+      "id": "gid://shopify/Product/8827316404381"
+    },
+    {
+      "title": "MFT - 2026 WWE Topps NOW® - Card 9 - PR: 577",
+      "handle": "mft-2026-wwe-topps-now®-card-9",
+      "id": "gid://shopify/Product/8827316306077"
+    },
+    {
+      "title": "Drew McIntyre - 2026 WWE Topps NOW® - Card 8 - PR: 1532",
+      "handle": "drew-mcintyre-2026-wwe-topps-now®-card-8",
+      "id": "gid://shopify/Product/8815373746333"
+    },
+    {
+      "title": "Trick Williams - 2026 WWE Topps NOW® - Card 7 - PR: 662",
+      "handle": "trick-williams-2026-wwe-topps-now®-card-7",
+      "id": "gid://shopify/Product/8815373713565"
+    },
+    {
+      "title": "CM Punk - 2026 WWE Topps NOW® - Card 6 - PR: 1767",
+      "handle": "cm-punk-2026-wwe-topps-now®-card-6",
+      "id": "gid://shopify/Product/8814058602653"
+    },
+    {
+      "title": "Liv Morgan - 2026 WWE Topps NOW® - Card 5 - PR: 3066",
+      "handle": "liv-morgan-2026-wwe-topps-now®-card-5",
+      "id": "gid://shopify/Product/8814058537117"
+    },
+    {
+      "title": "Becky Lynch - 2026 WWE Topps NOW® - Card 4 - PR: 1369",
+      "handle": "becky-lynch-2026-wwe-topps-now®-card-4",
+      "id": "gid://shopify/Product/8814058504349"
+    },
+    {
+      "title": "IYO SKY / Rhea Ripley - 2026 WWE Topps NOW® - Card 3 - PR: 5002",
+      "handle": "iyo-sky-rhea-ripley-2026-wwe-topps-now®-card-3",
+      "id": "gid://shopify/Product/8814058471581"
+    },
+    {
+      "title": "Giulia - 2026 WWE Topps NOW® - Card 2 - PR: 1610",
+      "handle": "giulia-2026-wwe-topps-now®-card-2",
+      "id": "gid://shopify/Product/8813484867741"
+    },
+    {
+      "title": "Matt Cardona - 2026 WWE Topps NOW® - Card 1 - PR: 2326",
+      "handle": "matt-cardona-2026-wwe-topps-now®-card-1",
+      "id": "gid://shopify/Product/8813484834973"
+    }
+  ]
+}

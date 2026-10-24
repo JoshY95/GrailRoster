@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
@@ -17,6 +19,8 @@ jobs:
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
       - name: Verify catalogue preservation
-        run: node tests/catalogue-split.cjs
+        run: |
+          python3 tests/stadium-club-2026.py
+          node tests/catalogue-split.cjs
       - name: Exercise guest, Vault and offline flows
         run: node tests/run.cjs tests/smoke.cjs tests/vault.cjs tests/offline.cjs
