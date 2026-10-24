@@ -1,17 +1,17 @@
 # WWE Topps NOW release list — 2025 and 2026
 
-Checked 12 October 2026. Annual lists and the separately labelled crossover imported locally and in Sydney on 4 October 2026. Website publication verification is tracked in PROJECT_STATUS.md.
+Research updated 24 October 2026; cards #107–112 are staged for review but have NOT been published to production or applied to Supabase. Annual lists and the separately labelled crossover imported locally and in Sydney on 4 October 2026. Website publication verification is tracked in PROJECT_STATUS.md.
 
 | Coverage | Entries |
 | --- | ---: |
 | 2025 annual WWE: regular #1–140 + 14 poster cards + HOF1–2 + THJB | 157 |
-| 2026 annual WWE: regular #1–106 + 14 poster cards + HOF1–6 | 126 |
+| 2026 annual WWE: regular #1–112 + 14 poster cards + HOF1–6 | 132 (staged) |
 | 2026 WBC crossover: John Cena/Shohei Ohtani, WBCO | 1 |
 | Separate 2026 WrestleMania Vegas: 14 base + 7 Legend SP + 12 base autos + 7 Legend SP autos | 40 |
 
-324 listed identities including the separately labelled WBC crossover; 323 WWE-branded identities. Numbered foil parallels are not additional base identities. The annual rows describe each product's published extras; they do not enumerate every physical variation or prove shipment. Topps NOW sold-to-order releases are included from the first sale date, including cards still on sale.
+330 listed identities including the separately labelled WBC crossover; 329 WWE-branded identities (six new entries staged only). Numbered foil parallels are not additional base identities. The annual rows describe each product's published extras; they do not enumerate every physical variation or prove shipment. Topps NOW sold-to-order releases are included from the first sale date, including cards still on sale.
 
-All 157 2025 archive products were retrieved. The 2026 annual WWE list contains 126 individual card identities through regular #106 and the MITB poster. Regular card-number sequences have no gaps or duplicate year/number pairs. Print runs are base-order totals, not serial-number caps.
+All 157 2025 archive products were retrieved. The 2026 annual WWE list now documents 132 individual card identities through regular #112 and the MITB poster. Regular card-number sequences have no gaps or duplicate year/number pairs. Print runs are base-order totals, not serial-number caps.
 
 The Vegas 15-card product contains 14 base cards plus one hit. Its manufacturer checklist lists 40 designs; it is already in GrailRoster. Its annual WMV1–4 poster releases are distinct.
 
@@ -291,6 +291,12 @@ For the new releases, Topps explicitly confirms Gold Foil /50, Orange Foil /25, 
 | 104 | CM Punk/Rey Mysterio/El Grande Americano | Regular | 2026-10-01 | Pending | [Topps](https://www.topps.com/products/cm-punk-rey-mysterio-el-grande-americano-2026-wwe-topps-now®-card-104) |
 | 105 | Blake Monroe | Regular | 2026-10-05 | 1626 | [Topps](https://www.topps.com/products/blake-monroe-2026-wwe-topps-now%C2%AE-card-105) |
 | 106 | Wren Sinclair | Regular | 2026-10-07 | Pending | [Topps](https://fr.topps.com/products/wren-sinclair-2026-wwe-topps-now%C2%AE-card-106) |
+| 107 | Alexa Bliss / Tatum Paxley | Regular | 2026-10-12 | 2179 | [Topps](https://www.topps.com/products/alexa-bliss-and-tatum-paxley-2026-wwe-topps-now-r-card-107) |
+| 108 | Tiffany Stratton | Regular | 2026-10-12 | 2018 | [Topps](https://www.topps.com/products/tiffany-stratton-2026-wwe-topps-now-r-card-108) |
+| 109 | Liv Morgan | Regular | 2026-10-12 | 1985 | [Topps](https://www.topps.com/products/liv-morgan-2026-wwe-topps-now-r-card-109) |
+| 110 | Je'Von Evans | Regular | 2026-10-12 | 820 | [Topps](https://www.topps.com/products/je-von-evans-2026-wwe-topps-now-r-card-110) |
+| 111 | Penta | Regular | 2026-10-12 | 4256 | [Topps](https://www.topps.com/products/penta-2026-wwe-topps-now-r-card-111) |
+| 112 | 946 | Regular | 2026-10-13 | 597 | [Topps](https://www.topps.com/products/946-2026-wwe-topps-now-r-card-112) |
 | BLSH | Backlash | Event poster | 2026-05-08 | 1127 | [Topps](https://www.topps.com/products/backlash-2026-wwe-topps-now®-card-blsh) |
 | CITA | Clash in Italy | Event poster | 2026-05-29 | 1194 | [Topps](https://www.topps.com/products/clash-in-italy-2026-wwe-topps-now®-card-cita) |
 | EC26 | Elimination Chamber | Event poster | 2026-02-27 | 2068 | [Topps](https://www.topps.com/products/elimination-chamber-2026-wwe-topps-now®-card-ec26) |
