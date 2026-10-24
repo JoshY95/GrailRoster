@@ -1,15 +1,15 @@
 # WWE Topps NOW release list — 2025 and 2026
 
-Research updated 24 October 2026; cards #107–112 are staged for review but have NOT been published to production or applied to Supabase. Annual lists and the separately labelled crossover imported locally and in Sydney on 4 October 2026. Website publication verification is tracked in PROJECT_STATUS.md.
+Research updated 24 October 2026; cards #107–112 and 30 confirmed foil variants are synchronized to Sydney; GitHub Pages publication is tracked in PROJECT_STATUS.md. Annual lists and the separately labelled crossover imported locally and in Sydney on 4 October 2026. Website publication verification is tracked in PROJECT_STATUS.md.
 
 | Coverage | Entries |
 | --- | ---: |
 | 2025 annual WWE: regular #1–140 + 14 poster cards + HOF1–2 + THJB | 157 |
-| 2026 annual WWE: regular #1–112 + 14 poster cards + HOF1–6 | 132 (staged) |
+| 2026 annual WWE: regular #1–112 + 14 poster cards + HOF1–6 | 132 |
 | 2026 WBC crossover: John Cena/Shohei Ohtani, WBCO | 1 |
 | Separate 2026 WrestleMania Vegas: 14 base + 7 Legend SP + 12 base autos + 7 Legend SP autos | 40 |
 
-330 listed identities including the separately labelled WBC crossover; 329 WWE-branded identities (six new entries staged only). Numbered foil parallels are not additional base identities. The annual rows describe each product's published extras; they do not enumerate every physical variation or prove shipment. Topps NOW sold-to-order releases are included from the first sale date, including cards still on sale.
+330 listed identities including the separately labelled WBC crossover; 329 WWE-branded identities. Numbered foil parallels are not additional base identities. The annual rows describe each product's published extras; they do not enumerate every physical variation or prove shipment. Topps NOW sold-to-order releases are included from the first sale date, including cards still on sale.
 
 All 157 2025 archive products were retrieved. The 2026 annual WWE list now documents 132 individual card identities through regular #112 and the MITB poster. Regular card-number sequences have no gaps or duplicate year/number pairs. Print runs are base-order totals, not serial-number caps.
 
@@ -18,6 +18,12 @@ The Vegas 15-card product contains 14 base cards plus one hit. Its manufacturer 
 Sources: [Topps archive](https://www.topps.com/collections/wwe-topps-now-archive?stock_status=ALL_STOCK), [current releases](https://www.topps.com/collections/wwe-topps-now), and [Vegas manufacturer checklist](https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2026_WWE_Topps_Now_WrestleMania_Vegas_Checklist_1.pdf?v=1787965944). Row-level product links below.
 
 For the new releases, Topps explicitly confirms Gold Foil /50, Orange Foil /25, Black Foil /10, Red Foil /5 and FoilFractor /1 on #105–106. The MITB poster product confirms Rainbow Foil Short Print and Gold Super Short Print /26. These are documented product variants, not additional base identities; Chrome tier rules are conditional and have not been assigned to these cards.
+
+## Complete archive recheck — 24 October 2026
+
+All six pages of the 2026-filtered official archive were retrieved: **135 distinct product listings** reconcile to **132 annual WWE identities**, one duplicate #106 product, the separately catalogued WBCO crossover and the existing boxed Vegas product. Every regular number 1–112, HOF1–6 and all 14 event posters is accounted for. The active WWE NOW page returned zero products. No new HOF/poster identity or regular #113+ was found. Row-level inventory and six page hashes are in `sources/topps-now-2025-2026/2026-10-24-archive.json`.
+
+All six #107–112 product pages were independently rechecked for subject/title, release date, print run and advertised extras. #112 is officially titled **946**; it is not a parser error. Confirmed foils are Gold /50, Orange /25, Black /10, Red /5 and FoilFractor /1 on each card (30 added numbered editions). #107 advertises a /1 dual-autograph redemption; #108/#109/#111 advertise /5 and /1 autograph redemptions. Those autograph extras are retained as notes without creating unsourced autograph checklist identifiers. No card reaches the 50,000-order Chrome threshold.
 
 ## 2025 annual cards
 

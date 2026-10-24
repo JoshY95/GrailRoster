@@ -2,6 +2,7 @@
 import copy
 import importlib.util
 import json
+import re
 import subprocess
 import sys
 import unittest
@@ -100,6 +101,29 @@ class CatalogueUpdate(unittest.TestCase):
         self.assertEqual(sql, (ROOT / 'supabase/corrections/2026-10-24-now-stadium-club.sql').read_text())
         self.assertNotRegex(sql.lower(), r'(insert into|update|delete from|truncate) public\.(collection_items|reference_images)')
         self.assertTrue(sql.rstrip().endswith('commit;'))
+
+    def test_complete_2026_now_archive(self):
+        audit = json.loads((ROOT / 'sources/topps-now-2025-2026/2026-10-24-archive.json').read_text())
+        self.assertEqual(len(audit['products']), 135)
+        self.assertEqual(len(audit['pages']), 6)
+        self.assertEqual(len({p['id'] for p in audit['products']}), 135)
+        numbers = []
+        other = []
+        for product in audit['products']:
+            match = re.search(r'2026 WWE Topps NOW. - Card ([A-Za-z0-9]+)', product['title'])
+            if match:
+                numbers.append(match[1])
+            else:
+                other.append(product['title'])
+        self.assertEqual(len(numbers), 133)  # 132 identities plus duplicate product #106
+        self.assertEqual(numbers.count('106'), 2)
+        self.assertEqual({int(n) for n in numbers if n.isdigit()}, set(range(1, 113)))
+        self.assertEqual({n for n in numbers if n.startswith('HOF')}, {f'HOF{i}' for i in range(1, 7)})
+        current = json.loads((ROOT / 'data/sets/2026-topps-now-wwe.json').read_text())['cards']
+        self.assertEqual(set(numbers), {c['number'] for c in current})
+        self.assertEqual(len(other), 2)
+        self.assertTrue(any('Vegas' in title for title in other))
+        self.assertTrue(any('WBCO' in title for title in other))
 
 
 if __name__ == '__main__':

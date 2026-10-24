@@ -1,6 +1,6 @@
 # 2026 Topps Stadium Club WWE — manufacturer reconciliation
 
-Checked 24 October 2026. Locally imported and validated; database dry run passed and rolled back. Publication status is tracked in PROJECT_STATUS.md.
+Checked 24 October 2026. Imported locally and synchronized to Sydney after validation. Publication status is tracked in PROJECT_STATUS.md.
 
 ## Authoritative evidence
 
@@ -63,7 +63,7 @@ Checked 24 October 2026. Locally imported and validated; database dry run passed
 ## Validation
 
 - All 938 normalized rows compared directly with extraction from the hash-verified manufacturer PDF. Visually inspected PDF pages 17–20 for dual-signer boundaries, MRA-RSV, autograph II and anniversary sections.
-- Five focused tests cover source reconciliation, complete number ranges, unique IDs/subset-number pairs, rookie/name preservation, rejected malformed input, stable existing records, byte-identical reruns, conflict refusal and variant linkage.
+- Six focused tests cover source reconciliation, complete number ranges, unique IDs/subset-number pairs, rookie/name preservation, rejected malformed input, stable existing records, byte-identical reruns, conflict refusal and variant linkage.
 - Catalogue-split regression passes at 24 sets / 11,298 identities, including loader failure handling and every-set offline cache inclusion.
-- Combined SQL dry run reached 11,298 cards / 32,568 variants with 30 collections; all preservation guards passed, then transaction rolled back. CI, committed database sync and deployment status are in PROJECT_STATUS.md.
+- Combined SQL dry run reached 11,298 cards / 32,568 variants with 30 collections; all preservation guards passed, then transaction rolled back. Committed apply then succeeded, and a second apply changed no table digest. Database/runtime row parity passed for both sets; collection digest stayed 6648329147d88b88ed9e52eaac40cfa9. GitHub CI run 40085112389 passed guest, Vault and real offline reload. Publication status is in PROJECT_STATUS.md.
 - `sw.js` cache version advanced to v23 so existing installations can refresh the new catalogue.

@@ -79,5 +79,7 @@
     }
   ],
   "archivePageSha256": "4fcdcdd02d613dc7ce38f53892f8b327e52c92e141da9c168d539650b2d6baf3",
-  "activePageSha256": "b066906a12cb2b51ca609220c27b0af5a9baf70312590a3bf180f43242ae66fd"
+  "activePageSha256": "b066906a12cb2b51ca609220c27b0af5a9baf70312590a3bf180f43242ae66fd",
+  "archiveAudit": "2026-10-24-archive.json",
+  "archiveAuditNote": "All six 2026-filtered archive pages: 135 distinct product listings = 132 WWE identities + duplicate #106 product + boxed Vegas product + separately catalogued WBCO crossover. All regular 1–112, HOF1–6 and 14 posters accounted for."
 }
