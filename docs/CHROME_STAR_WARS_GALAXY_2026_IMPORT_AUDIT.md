@@ -1,6 +1,6 @@
 # 2026 Topps Chrome Star Wars Galaxy — import audit
 
-Status: built and locally validated; browser CI, database application and publication pending.
+Status: imported and published via PR #8; browser CI 40194538371 and Pages 40194738478 succeeded.
 
 ## Reconciliation
 
@@ -46,6 +46,6 @@ The 36 Original Art Puzzle Cards keep their printed prefixes and numbers within 
 
 ## Validation and preservation
 
-The 25 existing set bundles, metadata, all 12,602 prior card identities and frozen data/catalogue.json are preserved byte-for-byte. Local source/import, old Chrome/Stadium Club regression, category metadata and real-page DOM checks passed. Browser CI will verify the two actual Star Wars #1 cards retain separate ownership, filtering shows 323 Galaxy cards, category isolation and offline reload. Guarded data-only SQL snapshots existing catalogue and collector/image rows; browser CI, rolled-back dry run, committed import and live verification are pending. Authenticated two-device/private-photo tests are not implied.
+The 25 existing set bundles, metadata, all 12,602 prior card identities and frozen data/catalogue.json are preserved byte-for-byte. Local source/import, old Chrome/Stadium Club regression, category metadata and real-page DOM checks passed. Browser CI passed: the actual Chrome and Galaxy #1 cards retain separate ownership, the Galaxy filter shows 323 cards, and category isolation/offline reload work. Guarded data-only SQL passed a rolled-back dry run, committed successfully, and a second committed run was a no-op across all eight complete-row table digests. All 30 collections retain digest 6648329147d88b88ed9e52eaac40cfa9; images remain empty. All 39 production assets match validated bytes. Live guest UI confirmed two Star Wars sets / 1,627 cards, Galaxy 323 / 14 subsets, and one Q-ANDOR identity containing four signers. An existing cached session received the new library after one normal reload. Authenticated two-device/private-photo flows were not rerun. Receipt: docs/CHROME_STAR_WARS_GALAXY_2026_RELEASE.json.
 
 Next set: 2025 Topps Star Wars Masterwork (2025 product label, released in 2026). Future 2026 Sapphire remains separate.
