@@ -2,6 +2,15 @@
 
 Read this first; inspect only files needed for the current task.
 
+## Star Wars Masterwork — 25 October 2026 (prepared)
+
+- Authorised next set: 2025 Topps Star Wars Masterwork. Official title year 2025, actual release 3 June 2026; generic product-year metadata differs and is not a second set.
+- Built 589 identities / 19 subsets: 100 base, 119 inserts, 120 autographs, 113 relics, 137 autograph relics. All 660 manufacturer rows independently matched Poppler. Multi-signer repeats combine into one card; four UBC cards each have ten signers.
+- 680 variant records: 589 identity placeholders and 91 explicitly verified non-autograph ROTJ film cel 1/1 editions, supported by the official Topps overview. No autograph-relic caps, guessed frames or subject/parallel grids. Ninety odds rows retained; 84 subset rules include one explicitly unresolved malformed pack rate (Skeleton Crew Auto Relic Black printed 1,249). Sketches and two buyback programmes remain unenumerated. Audit: docs/MASTERWORK_STAR_WARS_2025_IMPORT_AUDIT.md.
+- Local catalogue: 27 sets / 13,514 identities; Star Wars 3 / 2,216. All 26 prior metadata/set bundles and frozen snapshot remain byte-identical to baseline f16adeee60e5cab1d5c1f2934bfa6d4dd2378e21. Local focused and existing source/category/catalogue tests passed.
+- Browser CI, guarded SQL application and live publication pending. SQL: supabase/corrections/2026-10-25-star-wars-masterwork.sql, baseline 26 sets / 12,925 cards. Next set: 2025 Topps Star Wars Smugglers Outpost. One set per task.
+
+
 ## Star Wars Galaxy — 25 October 2026 (published)
 
 - Next authorised set: 2026 Topps Chrome Star Wars Galaxy, official release 12 August 2026. Built 323 identities / 14 subsets: 100 base, 137 inserts, 86 autographs. All 366 manufacturer rows independently matched Poppler; dual/triple/quad signer repeats combine into one identity per printed card. The 218 sketch artists remain a roster, not invented card identities.
