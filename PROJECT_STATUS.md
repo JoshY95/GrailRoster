@@ -2,6 +2,13 @@
 
 Read this first; inspect only files needed for the current task.
 
+## Star Wars Galaxy 2025 — 26 October 2026 (prepared)
+
+- Authorised next set: 2025 Topps Chrome Star Wars Galaxy, official release 10 December 2025. 293 identities / 15 subsets from 325 numbered rows: 100 base, 103 inserts, 20 McQuarrie buybacks, 70 autographs including two buybacks. Multi-signer repeats combine; 154 sketch and seven Blank Canvas artists remain rosters. All checklist and odds rows independently matched Poppler.
+- All 93 odds rows retained / 88 subset rules. Final duplicate Layers label has unresolved edition; sketch Black Foil rate prints a semicolon and remains uninterpreted. No guessed caps or subject/parallel grids. Artist credits and original buyback year/series/numbers retained. Audit: docs/CHROME_STAR_WARS_GALAXY_2025_IMPORT_AUDIT.md.
+- Local totals 29 sets / 14,613 identities; Star Wars 5 / 3,315. All 28 prior metadata/set bundles and frozen snapshot unchanged. Local focused and existing regressions passed; browser CI, guarded SQL and publication pending.
+- SQL: supabase/corrections/2026-10-26-star-wars-galaxy-2025.sql, baseline 28 / 14,320. Next: 2025 Topps Chrome Sapphire Star Wars. One set per task.
+
 ## Star Wars Smugglers Outpost — 26 October 2026 (published)
 
 - Authorised next set: 2025 Topps Star Wars Smugglers Outpost, actual release 18 March 2026. Official PDFs yield 806 identities / 23 subsets from 881 subject/signature rows. Three base brands remain distinct; trio/quad/twenty-signer repeats combine. Numbered Sketchagraphs and sketch designs are included, the 216 artists remain a roster.
