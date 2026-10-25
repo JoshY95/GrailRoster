@@ -1,7 +1,7 @@
 # Multiple collection categories
 
-Prepared 25 October 2026. User approved the preview and publication after browser
-checks. No new Star Wars or Marvel catalogue cards are included.
+Published 25 October 2026 after user approval and passing browser checks. No new
+Star Wars or Marvel catalogue cards are included.
 
 ## User experience
 
@@ -66,14 +66,20 @@ WWE importers now declare WWE membership so repeat imports remain supported.
 - Read-only connected database check: 30 collection rows; complete-row digest
   `820fb924a7559fe022be70620b24bcef` before/after. No database writes were performed.
 
-## Pending before publication
+## Published verification and remaining limits
 
-Chromium is unavailable in this environment. Browser layout, actual service worker
-offline reload, existing guest/Vault browser flows and authenticated two-device/photo
-checks have not run for this change. The existing CI workflow includes the new DOM and
-import checks; the browser category regression is included in its browser run.
+CI run 40179641739 passed all six Stadium Club checks, split catalogue regression,
+category DOM/import checks, Chromium guest smoke, Collector Vault, real offline reload
+and category browser regression at 320, 390, 768, 1024 and 1440px. Feature commit:
+`daa1e205da8ee3d00646afd13ee304be3ae4e707`.
 
-The user approved publication on 25 October 2026 after reviewing the preview. Submit
-through the connected GitHub account, run all browser checks, inspect responsive
-layouts, and publish only after they pass. Command-line Git lacks login credentials
-in this workspace; use the connected account rather than starting another login flow.
+PR #6 merged as `2256dcb4dc4811231ad099ac3c2420c7345ee9d5`. GitHub Pages deployment
+40179804636 succeeded. All 36 checked live assets, including every split set file,
+match validated source bytes. The live guest browser displayed 24 WWE sets / 11,298
+cards, isolated Star Wars and Marvel Coming soon screens, and returned to WWE. Visual
+inspection confirmed the existing Obsidian layout. No collector records were edited.
+
+See `docs/CATEGORY_RELEASE_2026_10_25.json` for asset hashes and release evidence.
+Authenticated two-device and private photo tests have not been rerun for this release.
+Command-line Git lacks login credentials here; publication used the connected GitHub
+account without changing permissions or authentication configuration.

@@ -2,10 +2,10 @@
 
 Read this first; inspect only files needed for the current task.
 
-## Multi-category preparation — 25 October 2026 (local, unpublished)
+## Multi-category release — 25 October 2026 (published)
 
-- User requested clean separation for WWE, Star Wars and Marvel and a design preview.
-  Implemented on local branch `feature/category-workspaces`; no new sets imported.
+- User approved clean separation for WWE, Star Wars and Marvel after reviewing the
+  design preview. Published through PR #6; no new sets imported.
 - Every existing set has explicit `categoryId: wwe` metadata. `categories.js` validates
   franchise membership and scopes every view/search/statistic/Vault summary. Unimported
   categories show Coming soon; selected category persists separately from collector data.
@@ -15,10 +15,14 @@ Read this first; inspect only files needed for the current task.
 - Focused catalogue, import, category contract and real-page DOM tests passed. Read-only
   database checks showed 30 unchanged collection rows with full-row digest
   `820fb924a7559fe022be70620b24bcef`. See docs/MULTI_CATEGORY.md for contract and limits.
-- User approved the preview and publication after browser checks on 25 October 2026.
-  Publishing uses the connected GitHub account; command-line Git has no login here.
-  Chromium remains unavailable locally. CI browser checks and deployment verification
-  are pending; do not report this interface as live until publication is verified.
+- Feature commit daa1e205da8ee3d00646afd13ee304be3ae4e707 passed CI run 40179641739:
+  six Stadium Club checks, split catalogue, category DOM/import contract, Chromium guest,
+  Vault, real offline reload, category switching and responsive widths 320–1440px.
+- Merged as 2256dcb4dc4811231ad099ac3c2420c7345ee9d5; Pages run 40179804636 succeeded.
+  All 36 checked live runtime/index/set assets match validated source byte-for-byte.
+  Live guest browser verified WWE 24 sets / 11,298 cards and separate Star Wars/Marvel
+  Coming soon screens, then returned to WWE. Authenticated two-device/photo tests were
+  not rerun. Receipt: docs/CATEGORY_RELEASE_2026_10_25.json. No database writes occurred.
 
 ## Published catalogue update — 24 October 2026
 
