@@ -59,7 +59,7 @@ class MasterworkImport(unittest.TestCase):
   base='f16adeee60e5cab1d5c1f2934bfa6d4dd2378e21'
   def old(path):return subprocess.check_output(['git','show',f'{base}:{path}'],cwd=ROOT)
   prior=json.loads(old('data/catalogue-index.json'));current=load_catalogue()
-  self.assertEqual((current['setCount'],current['cardCount']),(27,13514))
+  self.assertEqual(len([c for c in current['cards'] if c['setId']==mw.SET_ID]),589)
   for record in prior['sets']:
    self.assertEqual((ROOT/'data'/record['file']).read_bytes(),old('data/'+record['file']))
    self.assertEqual(next(s for s in current['sets'] if s['id']==record['id']),{k:v for k,v in record.items() if k!='file'})

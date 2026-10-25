@@ -64,6 +64,27 @@ const starWarsCount=starWarsSets.reduce((n,s)=>n+s.cardCount,0);
       assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth),true,`Ten-signer book card overflows at ${width}`);
     }
     await page.locator('#clearFilters').click();
+    await page.locator('#setFilter').selectOption('2025-topps-star-wars-smugglers-outpost');
+    assert.equal(await page.locator('#resultCount').innerText(),'806 cards');
+    await page.locator('#cardList .card-row').first().locator('.state-button.owned').click();
+    assert.equal(await page.evaluate(()=>counts().owned),4);
+    assert.equal(await page.evaluate(()=>state.collection['2025-TSWSO-F-F-1']?.status),'owned');
+    await page.locator('#categoryFilter').selectOption('Sketch');
+    assert.equal(await page.locator('#resultCount').innerText(),'125 cards');
+    await page.locator('#categoryFilter').selectOption('Insert');
+    await page.locator('#globalSearch').fill('ARS-25');
+    assert.equal(await page.locator('#cardList .card-row').count(),2);
+    assert.match(await page.locator('#cardList').innerText(),/Jar Jar Binks/);
+    assert.match(await page.locator('#cardList').innerText(),/Darth Vader/);
+    await page.locator('#categoryFilter').selectOption('Autograph');
+    await page.locator('#globalSearch').fill('LSU-BC');
+    assert.equal(await page.locator('#cardList .card-row').count(),1);
+    assert.match(await page.locator('#cardList').innerText(),/Carrie Fisher/);
+    for(const width of [320,390,768,1024,1440]) {
+      await page.setViewportSize({width,height:900});
+      assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth),true,`Twenty-signer book overflows at ${width}`);
+    }
+    await page.locator('#clearFilters').click();
     const both=await page.evaluate(()=>localStorage.getItem(GUEST_STORAGE_KEY));
     await page.locator('#categorySwitcher [data-franchise="marvel"]').click();
     for(const width of [320,390,768,1024,1440]) {
@@ -88,7 +109,7 @@ const starWarsCount=starWarsSets.reduce((n,s)=>n+s.cardCount,0);
     for(const [id,entry] of Object.entries(JSON.parse(before))) assert.deepEqual(JSON.parse(both)[id],entry);
     await page.locator('#categorySwitcher [data-franchise="star-wars"]').click();
     assert.equal(await page.locator('#allSets .set-card').count(),starWarsSets.length);
-    assert.equal(await page.evaluate(()=>counts().owned),3);
+    assert.equal(await page.evaluate(()=>counts().owned),4);
     assert.equal(await page.locator('#wantedList .card-row').count(),0);
     for(const width of [320,390,768,1024,1440]) {
       await page.setViewportSize({width,height:900});

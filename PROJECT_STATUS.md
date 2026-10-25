@@ -2,6 +2,13 @@
 
 Read this first; inspect only files needed for the current task.
 
+## Star Wars Smugglers Outpost — 26 October 2026 (prepared)
+
+- Authorised next set: 2025 Topps Star Wars Smugglers Outpost, actual release 18 March 2026. Official PDFs yield 806 identities / 23 subsets from 881 subject/signature rows. Three base brands remain distinct; trio/quad/twenty-signer repeats combine. Numbered Sketchagraphs and sketch designs are included, the 216 artists remain a roster.
+- Checklist page 6 prints ARS-25 twice for different subjects and omits ARS-23. Both subjects keep source numbers and distinct internal subject suffixes, with unresolved numbering notes. Never infer ARS-23. All 881 rows matched independent Poppler text. 127 odds rows retained / 124 subset rules; no guessed serial caps or parallel grids.
+- Local totals 28 sets / 14,320 identities, Star Wars 4 / 3,022; all prior 27 metadata/set files and frozen snapshot preserved. Focused local and existing regressions passed. Browser CI, guarded SQL and publication pending. Audit: docs/SMUGGLERS_OUTPOST_STAR_WARS_2025_IMPORT_AUDIT.md.
+- SQL: supabase/corrections/2026-10-26-star-wars-smugglers-outpost.sql, baseline 27 sets / 13,514 cards. Next: 2025 Topps Chrome Star Wars Galaxy. One set per task.
+
 ## Star Wars Masterwork — 25 October 2026 (published)
 
 - Authorised next set: 2025 Topps Star Wars Masterwork. Official title year 2025, actual release 3 June 2026; generic product-year metadata differs and is not a second set.
