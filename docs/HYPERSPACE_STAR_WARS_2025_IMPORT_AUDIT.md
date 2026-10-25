@@ -1,6 +1,6 @@
 # 2025 Topps Star Wars Hyperspace — import audit
 
-Status: imported; browser CI and publication pending.
+Status: imported and published via PR #15. Browser CI 40242044072 and Pages 40242176070 succeeded.
 
 ## Manufacturer reconciliation
 
@@ -35,7 +35,7 @@ Five unnumbered panoramic sketch planet themes and the two artist rosters do not
 
 All previous 31 metadata records, set bundles, stable IDs and frozen compatibility snapshot remain unchanged against baseline 286e5b1226833a41f5f727ea15517e599a1e5d3d. New totals: 32 sets /16,553 identities; Star Wars eight sets /5,255; WWE unchanged 24 /11,298. Importer reruns are byte-identical; conflicts are rejected.
 
-Five focused tests, all eight existing Star Wars source/import suites, Stadium Club, split catalogue, category import and category DOM tests passed locally. The previous Chrome test now permits additive future sets while retaining all prior-row and byte-preservation checks. Browser coverage adds Hyperspace base/BPV ownership isolation, 100 variation and 110 insert filters, WIDE-5 and R-16 searches, mixed-case AV-LJj signer search, offline persistence and existing responsive checks. Known unavailable local Chromium was not retried; CI pending.
+Five focused tests, all seven existing Star Wars source/import suites, Stadium Club, split catalogue, category import and category DOM tests passed locally. The previous Chrome test now permits additive future sets while retaining all prior-row and byte-preservation checks. Browser coverage adds Hyperspace base/BPV ownership isolation, 100 variation and 110 insert filters, WIDE-5 and R-16 searches, mixed-case AV-LJj signer search, offline persistence and existing responsive checks. Known unavailable local Chromium was not retried; browser CI passed.
 
 Guarded transaction `supabase/corrections/2026-10-26-star-wars-hyperspace-2025.sql` passed rolled-back dry run, committed import and a second committed application. The repeat was identical across all eight complete-row table digests. Database: 32 sets /16,553 cards /37,914 variants /549 subsets /1,855 parallel rules /88 sources. All 30 collection rows retain digest 6648329147d88b88ed9e52eaac40cfa9; images remain empty. No schema, auth, RLS, collection or image writes occurred. Authenticated private-photo/two-device flows have not been rerun.
 
@@ -44,3 +44,7 @@ Guarded transaction `supabase/corrections/2026-10-26-star-wars-hyperspace-2025.s
 - [Official product](https://www.topps.com/products/2025-star-wars-hyperspace-hobby-box).
 - [Official checklist](https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Star_Wars_Hyperpsace_Checklist.pdf?v=1787957644) — SHA-256 `9e31cb8d1889575264e05b67133da6de7e462fb3c92739799a987b60b9ea1cfb`.
 - [Official odds](https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Star_Wars_Hyperspace_Odds.pdf?v=1787957644) — SHA-256 `2c64da7972a2b8d9d3ec0056109b29605fa3a0c56bd58fadd7d9e7507d2862e1`.
+
+## Published verification
+
+Feature 2bd6b50dc8b866d7df8c6af944114683d2007acd passed CI 40242044072, including all source/catalogue/category checks, guest, Vault, real offline reload, eight-set plus base/BPV ownership isolation, filters and responsive widths. PR #15 merged as 441b323111ebc9f65a221180ab21366deb684861; Pages 40242176070 succeeded. All 45 live runtime/index/set assets exactly match validated source. The live guest UI shows eight Star Wars sets /5,255 cards, Hyperspace 347/12 and AV-LJj as one Jedi Master Sol (Lee Jung-jae) identity. Existing seven-set cache updated after service-worker activation and a normal reload. Receipt: docs/HYPERSPACE_STAR_WARS_2025_RELEASE.json.
