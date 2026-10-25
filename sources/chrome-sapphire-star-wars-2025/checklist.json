@@ -1,0 +1,4802 @@
+{
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Sapphire_Star_Wars_Checklist.pdf?v=1787949354",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Sapphire_Star_Wars_Odds.pdf?v=1787949354",
+  "productUrl": "https://www.topps.com/products/2025-topps-chrome%C2%AE-sapphire-star-wars-hobby-box",
+  "checklistSha256": "9ca2fe09ad5e04ad727233cd26b9b7f70ba127a0598f60904dfe3a96c5d2edf2",
+  "oddsSha256": "b68c3678c6db00824954aa63b2de852ca6623357172dead2312af9c860178b21",
+  "subsets": [
+    {
+      "name": "CHARACTERS",
+      "rows": [
+        {
+          "number": "1",
+          "page": 1,
+          "debut": false,
+          "subject": "Admiral Ackbar",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Admiral Ackbar"
+          ]
+        },
+        {
+          "number": "2",
+          "page": 1,
+          "debut": false,
+          "subject": "Ahsoka Tano",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Ahsoka Tano"
+          ]
+        },
+        {
+          "number": "3",
+          "page": 1,
+          "debut": false,
+          "subject": "Anakin Skywalker",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Anakin Skywalker"
+          ]
+        },
+        {
+          "number": "4",
+          "page": 1,
+          "debut": false,
+          "subject": "Arvel Skeen",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Arvel Skeen"
+          ]
+        },
+        {
+          "number": "5",
+          "page": 1,
+          "debut": false,
+          "subject": "Baylan Skoll",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Baylan Skoll"
+          ]
+        },
+        {
+          "number": "6",
+          "page": 1,
+          "debut": true,
+          "subject": "Bazil",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Bazil"
+          ]
+        },
+        {
+          "number": "7",
+          "page": 1,
+          "debut": false,
+          "subject": "Beru Lars",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Beru Lars"
+          ]
+        },
+        {
+          "number": "8",
+          "page": 1,
+          "debut": true,
+          "subject": "Birnok",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Birnok"
+          ]
+        },
+        {
+          "number": "9",
+          "page": 1,
+          "debut": false,
+          "subject": "Bix Caleen",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Bix Caleen"
+          ]
+        },
+        {
+          "number": "10",
+          "page": 1,
+          "debut": false,
+          "subject": "Bo-Katan Kryze",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Bo-Katan Kryze"
+          ]
+        },
+        {
+          "number": "11",
+          "page": 1,
+          "debut": false,
+          "subject": "Boba Fett",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Boba Fett"
+          ]
+        },
+        {
+          "number": "12",
+          "page": 1,
+          "debut": false,
+          "subject": "Bodhi Rook",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Bodhi Rook"
+          ]
+        },
+        {
+          "number": "13",
+          "page": 1,
+          "debut": false,
+          "subject": "C-3PO",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "C-3PO"
+          ]
+        },
+        {
+          "number": "14",
+          "page": 1,
+          "debut": true,
+          "subject": "C1-D1",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "C1-D1"
+          ]
+        },
+        {
+          "number": "15",
+          "page": 1,
+          "debut": true,
+          "subject": "Captain Blex",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Captain Blex"
+          ]
+        },
+        {
+          "number": "16",
+          "page": 1,
+          "debut": true,
+          "subject": "Captain Elk",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Captain Elk"
+          ]
+        },
+        {
+          "number": "17",
+          "page": 1,
+          "debut": true,
+          "subject": "Captain Girard",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Captain Girard"
+          ]
+        },
+        {
+          "number": "18",
+          "page": 1,
+          "debut": false,
+          "subject": "Captain Hayle",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Captain Hayle"
+          ]
+        },
+        {
+          "number": "19",
+          "page": 1,
+          "debut": false,
+          "subject": "Captain Phasma",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Captain Phasma"
+          ]
+        },
+        {
+          "number": "20",
+          "page": 1,
+          "debut": true,
+          "subject": "Captain Porter",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Captain Porter"
+          ]
+        },
+        {
+          "number": "21",
+          "page": 1,
+          "debut": true,
+          "subject": "Captain Silvo",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Captain Silvo"
+          ]
+        },
+        {
+          "number": "22",
+          "page": 1,
+          "debut": false,
+          "subject": "Cassian Andor",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Cassian Andor"
+          ]
+        },
+        {
+          "number": "23",
+          "page": 1,
+          "debut": false,
+          "subject": "Chewbacca",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Chewbacca"
+          ]
+        },
+        {
+          "number": "24",
+          "page": 1,
+          "debut": false,
+          "subject": "Chirrut Îmwe",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Chirrut Îmwe"
+          ]
+        },
+        {
+          "number": "25",
+          "page": 1,
+          "debut": false,
+          "subject": "Chopper",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Chopper"
+          ]
+        },
+        {
+          "number": "26",
+          "page": 1,
+          "debut": false,
+          "subject": "Clone Captain Rex",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Clone Captain Rex"
+          ]
+        },
+        {
+          "number": "27",
+          "page": 1,
+          "debut": false,
+          "subject": "Count Dooku",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Count Dooku"
+          ]
+        },
+        {
+          "number": "28",
+          "page": 1,
+          "debut": false,
+          "subject": "Darth Maul",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Darth Maul"
+          ]
+        },
+        {
+          "number": "29",
+          "page": 1,
+          "debut": false,
+          "subject": "Darth Vader",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Darth Vader"
+          ]
+        },
+        {
+          "number": "30",
+          "page": 1,
+          "debut": false,
+          "subject": "Dedra Meero",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Dedra Meero"
+          ]
+        },
+        {
+          "number": "31",
+          "page": 1,
+          "debut": false,
+          "subject": "Dengar",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Dengar"
+          ]
+        },
+        {
+          "number": "32",
+          "page": 1,
+          "debut": true,
+          "subject": "Dinghy Driver",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Dinghy Driver"
+          ]
+        },
+        {
+          "number": "33",
+          "page": 1,
+          "debut": false,
+          "subject": "DJ",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "DJ"
+          ]
+        },
+        {
+          "number": "34",
+          "page": 1,
+          "debut": true,
+          "subject": "Dr. Gorst",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Dr. Gorst"
+          ]
+        },
+        {
+          "number": "35",
+          "page": 1,
+          "debut": false,
+          "subject": "Dryden Vos",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Dryden Vos"
+          ]
+        },
+        {
+          "number": "36",
+          "page": 1,
+          "debut": true,
+          "subject": "Eedy Karn",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Eedy Karn"
+          ]
+        },
+        {
+          "number": "37",
+          "page": 1,
+          "debut": true,
+          "subject": "Elder Naasa",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Elder Naasa"
+          ]
+        },
+        {
+          "number": "38",
+          "page": 1,
+          "debut": false,
+          "subject": "Emperor Palpatine",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Emperor Palpatine"
+          ]
+        },
+        {
+          "number": "39",
+          "page": 1,
+          "debut": false,
+          "subject": "Ezra Bridger",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Ezra Bridger"
+          ]
+        },
+        {
+          "number": "40",
+          "page": 1,
+          "debut": true,
+          "subject": "Fara",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Fara"
+          ]
+        },
+        {
+          "number": "41",
+          "page": 1,
+          "debut": false,
+          "subject": "Fennec Shand",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Fennec Shand"
+          ]
+        },
+        {
+          "number": "42",
+          "page": 1,
+          "debut": true,
+          "subject": "Fern",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Fern"
+          ]
+        },
+        {
+          "number": "43",
+          "page": 1,
+          "debut": false,
+          "subject": "Fifth Brother Inquisitor",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Fifth Brother Inquisitor"
+          ]
+        },
+        {
+          "number": "44",
+          "page": 1,
+          "debut": true,
+          "subject": "Fillik",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Fillik"
+          ]
+        },
+        {
+          "number": "45",
+          "page": 1,
+          "debut": false,
+          "subject": "Finn",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Finn"
+          ]
+        },
+        {
+          "number": "46",
+          "page": 1,
+          "debut": true,
+          "subject": "First Officer Jensen Corbyt",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "First Officer Jensen Corbyt"
+          ]
+        },
+        {
+          "number": "47",
+          "page": 1,
+          "debut": false,
+          "subject": "Galen Erso",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Galen Erso"
+          ]
+        },
+        {
+          "number": "48",
+          "page": 1,
+          "debut": false,
+          "subject": "Garsa Fwip",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Garsa Fwip"
+          ]
+        },
+        {
+          "number": "49",
+          "page": 1,
+          "debut": false,
+          "subject": "General Grievous",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "General Grievous"
+          ]
+        },
+        {
+          "number": "50",
+          "page": 2,
+          "debut": false,
+          "subject": "General Hux",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "General Hux"
+          ]
+        },
+        {
+          "number": "51",
+          "page": 2,
+          "debut": false,
+          "subject": "General Pryde",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "General Pryde"
+          ]
+        },
+        {
+          "number": "52",
+          "page": 2,
+          "debut": false,
+          "subject": "Grand Admiral Thrawn",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Grand Admiral Thrawn"
+          ]
+        },
+        {
+          "number": "53",
+          "page": 2,
+          "debut": false,
+          "subject": "Grand Moff Tarkin",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Grand Moff Tarkin"
+          ]
+        },
+        {
+          "number": "54",
+          "page": 2,
+          "debut": false,
+          "subject": "Greedo",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Greedo"
+          ]
+        },
+        {
+          "number": "55",
+          "page": 2,
+          "debut": false,
+          "subject": "Greef Karga",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Greef Karga"
+          ]
+        },
+        {
+          "number": "56",
+          "page": 2,
+          "debut": false,
+          "subject": "Grogu",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Grogu"
+          ]
+        },
+        {
+          "number": "57",
+          "page": 2,
+          "debut": true,
+          "subject": "Gunter",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Gunter"
+          ]
+        },
+        {
+          "number": "58",
+          "page": 2,
+          "debut": false,
+          "subject": "Han Solo",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Han Solo"
+          ]
+        },
+        {
+          "number": "59",
+          "page": 2,
+          "debut": false,
+          "subject": "Hera Syndulla",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Hera Syndulla"
+          ]
+        },
+        {
+          "number": "60",
+          "page": 2,
+          "debut": false,
+          "subject": "IG-11",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "IG-11"
+          ]
+        },
+        {
+          "number": "61",
+          "page": 2,
+          "debut": true,
+          "subject": "Indara",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Indara"
+          ]
+        },
+        {
+          "number": "62",
+          "page": 2,
+          "debut": false,
+          "subject": "Jabba The Hutt",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Jabba The Hutt"
+          ]
+        },
+        {
+          "number": "63",
+          "page": 2,
+          "debut": false,
+          "subject": "Jar Jar Binks",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Jar Jar Binks"
+          ]
+        },
+        {
+          "number": "64",
+          "page": 2,
+          "debut": true,
+          "subject": "Jecki Lon",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Jecki Lon"
+          ]
+        },
+        {
+          "number": "65",
+          "page": 2,
+          "debut": true,
+          "subject": "Jod Na Nawood",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Jod Na Nawood"
+          ]
+        },
+        {
+          "number": "66",
+          "page": 2,
+          "debut": false,
+          "subject": "Jyn Erso",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Jyn Erso"
+          ]
+        },
+        {
+          "number": "67",
+          "page": 2,
+          "debut": false,
+          "subject": "K-2SO",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "K-2SO"
+          ]
+        },
+        {
+          "number": "68",
+          "page": 2,
+          "debut": false,
+          "subject": "Karis Nemik",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Karis Nemik"
+          ]
+        },
+        {
+          "number": "69",
+          "page": 2,
+          "debut": false,
+          "subject": "Kassa",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Kassa"
+          ]
+        },
+        {
+          "number": "70",
+          "page": 2,
+          "debut": false,
+          "subject": "Kawlan Roken",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Kawlan Roken"
+          ]
+        },
+        {
+          "number": "71",
+          "page": 2,
+          "debut": false,
+          "subject": "Kaydel Connix",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Kaydel Connix"
+          ]
+        },
+        {
+          "number": "72",
+          "page": 2,
+          "debut": false,
+          "subject": "Kelleran Beq",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Kelleran Beq"
+          ]
+        },
+        {
+          "number": "73",
+          "page": 2,
+          "debut": true,
+          "subject": "Kelnacca",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Kelnacca"
+          ]
+        },
+        {
+          "number": "74",
+          "page": 2,
+          "debut": true,
+          "subject": "Kh'ymm",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Kh'ymm"
+          ]
+        },
+        {
+          "number": "75",
+          "page": 2,
+          "debut": true,
+          "subject": "Klothow",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Klothow"
+          ]
+        },
+        {
+          "number": "76",
+          "page": 2,
+          "debut": false,
+          "subject": "Koska Reeves",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Koska Reeves"
+          ]
+        },
+        {
+          "number": "77",
+          "page": 2,
+          "debut": false,
+          "subject": "L3-37",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "L3-37"
+          ]
+        },
+        {
+          "number": "78",
+          "page": 2,
+          "debut": false,
+          "subject": "Lando Calrissian",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Lando Calrissian"
+          ]
+        },
+        {
+          "number": "79",
+          "page": 2,
+          "debut": false,
+          "subject": "Lando Calrissian",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Lando Calrissian"
+          ]
+        },
+        {
+          "number": "80",
+          "page": 2,
+          "debut": false,
+          "subject": "Leia Organa",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Leia Organa"
+          ]
+        },
+        {
+          "number": "81",
+          "page": 2,
+          "debut": false,
+          "subject": "Logray",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Logray"
+          ]
+        },
+        {
+          "number": "82",
+          "page": 2,
+          "debut": false,
+          "subject": "Lor San Tekka",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Lor San Tekka"
+          ]
+        },
+        {
+          "number": "83",
+          "page": 2,
+          "debut": false,
+          "subject": "Luke Skywalker",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Luke Skywalker"
+          ]
+        },
+        {
+          "number": "84",
+          "page": 2,
+          "debut": false,
+          "subject": "Luthen Rael",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Luthen Rael"
+          ]
+        },
+        {
+          "number": "85",
+          "page": 2,
+          "debut": false,
+          "subject": "Mace Windu",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Mace Windu"
+          ]
+        },
+        {
+          "number": "86",
+          "page": 2,
+          "debut": true,
+          "subject": "Mae Aniseya",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Mae Aniseya"
+          ]
+        },
+        {
+          "number": "87",
+          "page": 2,
+          "debut": true,
+          "subject": "Maree",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Maree"
+          ]
+        },
+        {
+          "number": "88",
+          "page": 2,
+          "debut": false,
+          "subject": "Master Codebreaker",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Master Codebreaker"
+          ]
+        },
+        {
+          "number": "89",
+          "page": 2,
+          "debut": false,
+          "subject": "Max Rebo",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Max Rebo"
+          ]
+        },
+        {
+          "number": "90",
+          "page": 2,
+          "debut": false,
+          "subject": "Maz Kanata",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Maz Kanata"
+          ]
+        },
+        {
+          "number": "91",
+          "page": 2,
+          "debut": false,
+          "subject": "Moff Gideon",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Moff Gideon"
+          ]
+        },
+        {
+          "number": "92",
+          "page": 2,
+          "debut": true,
+          "subject": "Mog Adana",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Mog Adana"
+          ]
+        },
+        {
+          "number": "93",
+          "page": 2,
+          "debut": false,
+          "subject": "Mon Mothma",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Mon Mothma"
+          ]
+        },
+        {
+          "number": "94",
+          "page": 2,
+          "debut": true,
+          "subject": "Mother Aniseya",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Mother Aniseya"
+          ]
+        },
+        {
+          "number": "95",
+          "page": 2,
+          "debut": true,
+          "subject": "Mother Koril",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Mother Koril"
+          ]
+        },
+        {
+          "number": "96",
+          "page": 2,
+          "debut": true,
+          "subject": "Nol",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Nol"
+          ]
+        },
+        {
+          "number": "97",
+          "page": 2,
+          "debut": true,
+          "subject": "Pokkit",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Pokkit"
+          ]
+        },
+        {
+          "number": "98",
+          "page": 2,
+          "debut": true,
+          "subject": "Skull Ridge Mountain Hotelier",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Skull Ridge Mountain Hotelier"
+          ]
+        },
+        {
+          "number": "99",
+          "page": 2,
+          "debut": true,
+          "subject": "SM-33",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "SM-33"
+          ]
+        },
+        {
+          "number": "100",
+          "page": 2,
+          "debut": true,
+          "subject": "Trash crab",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Trash crab"
+          ]
+        },
+        {
+          "number": "101",
+          "page": 2,
+          "debut": false,
+          "subject": "2-1B Droid",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "2-1B Droid"
+          ]
+        },
+        {
+          "number": "102",
+          "page": 3,
+          "debut": false,
+          "subject": "Adi Gallia",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Adi Gallia"
+          ]
+        },
+        {
+          "number": "103",
+          "page": 3,
+          "debut": false,
+          "subject": "Aemon Gremm",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Aemon Gremm"
+          ]
+        },
+        {
+          "number": "104",
+          "page": 3,
+          "debut": false,
+          "subject": "Bazine Netal",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Bazine Netal"
+          ]
+        },
+        {
+          "number": "105",
+          "page": 3,
+          "debut": false,
+          "subject": "BB-9E",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "BB-9E"
+          ]
+        },
+        {
+          "number": "106",
+          "page": 3,
+          "debut": false,
+          "subject": "Beaumont Kin",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Beaumont Kin"
+          ]
+        },
+        {
+          "number": "107",
+          "page": 3,
+          "debut": true,
+          "subject": "Benjar Pranic",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Benjar Pranic"
+          ]
+        },
+        {
+          "number": "108",
+          "page": 3,
+          "debut": false,
+          "subject": "Bossk",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Bossk"
+          ]
+        },
+        {
+          "number": "109",
+          "page": 3,
+          "debut": false,
+          "subject": "Brasso",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Brasso"
+          ]
+        },
+        {
+          "number": "110",
+          "page": 3,
+          "debut": true,
+          "subject": "Cabuck",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Cabuck"
+          ]
+        },
+        {
+          "number": "111",
+          "page": 3,
+          "debut": true,
+          "subject": "Chancellor Drellik",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Chancellor Drellik"
+          ]
+        },
+        {
+          "number": "112",
+          "page": 3,
+          "debut": false,
+          "subject": "Chief Chirpa",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Chief Chirpa"
+          ]
+        },
+        {
+          "number": "113",
+          "page": 3,
+          "debut": false,
+          "subject": "Darth Bane",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Darth Bane"
+          ]
+        },
+        {
+          "number": "114",
+          "page": 3,
+          "debut": false,
+          "subject": "Dokk Strassi",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Dokk Strassi"
+          ]
+        },
+        {
+          "number": "115",
+          "page": 3,
+          "debut": false,
+          "subject": "Enfys Nest",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Enfys Nest"
+          ]
+        },
+        {
+          "number": "116",
+          "page": 3,
+          "debut": false,
+          "subject": "Figrin D'an",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Figrin D'an"
+          ]
+        },
+        {
+          "number": "117",
+          "page": 3,
+          "debut": true,
+          "subject": "Fuzzball",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Fuzzball"
+          ]
+        },
+        {
+          "number": "118",
+          "page": 3,
+          "debut": false,
+          "subject": "Fyrnock",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Fyrnock"
+          ]
+        },
+        {
+          "number": "119",
+          "page": 3,
+          "debut": false,
+          "subject": "General Pong Krell",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "General Pong Krell"
+          ]
+        },
+        {
+          "number": "120",
+          "page": 3,
+          "debut": true,
+          "subject": "General Strix",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "General Strix"
+          ]
+        },
+        {
+          "number": "121",
+          "page": 3,
+          "debut": true,
+          "subject": "Glerb",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Glerb"
+          ]
+        },
+        {
+          "number": "122",
+          "page": 3,
+          "debut": true,
+          "subject": "Hayna",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Hayna"
+          ]
+        },
+        {
+          "number": "123",
+          "page": 3,
+          "debut": false,
+          "subject": "Hondo Ohnaka",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Hondo Ohnaka"
+          ]
+        },
+        {
+          "number": "124",
+          "page": 3,
+          "debut": false,
+          "subject": "IG-88",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "IG-88"
+          ]
+        },
+        {
+          "number": "125",
+          "page": 3,
+          "debut": false,
+          "subject": "Jawa",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Jawa"
+          ]
+        },
+        {
+          "number": "126",
+          "page": 3,
+          "debut": false,
+          "subject": "Jess Pava",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Jess Pava"
+          ]
+        },
+        {
+          "number": "127",
+          "page": 3,
+          "debut": false,
+          "subject": "Kayo Organa",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Kayo Organa"
+          ]
+        },
+        {
+          "number": "128",
+          "page": 3,
+          "debut": true,
+          "subject": "KB",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "KB"
+          ]
+        },
+        {
+          "number": "129",
+          "page": 3,
+          "debut": true,
+          "subject": "Kona",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Kona"
+          ]
+        },
+        {
+          "number": "130",
+          "page": 3,
+          "debut": false,
+          "subject": "Kragan Gorr",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Kragan Gorr"
+          ]
+        },
+        {
+          "number": "131",
+          "page": 3,
+          "debut": false,
+          "subject": "Lobot",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Lobot"
+          ]
+        },
+        {
+          "number": "132",
+          "page": 3,
+          "debut": false,
+          "subject": "Lortha Peel",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Lortha Peel"
+          ]
+        },
+        {
+          "number": "133",
+          "page": 3,
+          "debut": false,
+          "subject": "Mas Amedda",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Mas Amedda"
+          ]
+        },
+        {
+          "number": "134",
+          "page": 3,
+          "debut": false,
+          "subject": "Mayor Mok Shaiz",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Mayor Mok Shaiz"
+          ]
+        },
+        {
+          "number": "135",
+          "page": 3,
+          "debut": true,
+          "subject": "Melna",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Melna"
+          ]
+        },
+        {
+          "number": "136",
+          "page": 3,
+          "debut": false,
+          "subject": "Mother Talzin",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Mother Talzin"
+          ]
+        },
+        {
+          "number": "137",
+          "page": 3,
+          "debut": true,
+          "subject": "Neel",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Neel"
+          ]
+        },
+        {
+          "number": "138",
+          "page": 3,
+          "debut": false,
+          "subject": "Obi-Wan Kenobi",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "139",
+          "page": 3,
+          "debut": false,
+          "subject": "Obi-Wan Kenobi",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "140",
+          "page": 3,
+          "debut": true,
+          "subject": "Osha Aniseya",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Osha Aniseya"
+          ]
+        },
+        {
+          "number": "141",
+          "page": 3,
+          "debut": false,
+          "subject": "Padmé Amidala",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Padmé Amidala"
+          ]
+        },
+        {
+          "number": "142",
+          "page": 3,
+          "debut": true,
+          "subject": "Pegla",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Pegla"
+          ]
+        },
+        {
+          "number": "143",
+          "page": 3,
+          "debut": true,
+          "subject": "Pip",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Pip"
+          ]
+        },
+        {
+          "number": "144",
+          "page": 3,
+          "debut": true,
+          "subject": "Pirate Captain Brutus",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Pirate Captain Brutus"
+          ]
+        },
+        {
+          "number": "145",
+          "page": 3,
+          "debut": false,
+          "subject": "Poe Dameron",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Poe Dameron"
+          ]
+        },
+        {
+          "number": "146",
+          "page": 3,
+          "debut": false,
+          "subject": "Poggle the Lesser",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Poggle the Lesser"
+          ]
+        },
+        {
+          "number": "147",
+          "page": 3,
+          "debut": false,
+          "subject": "Porg",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Porg"
+          ]
+        },
+        {
+          "number": "148",
+          "page": 3,
+          "debut": false,
+          "subject": "Professor Huyang",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Professor Huyang"
+          ]
+        },
+        {
+          "number": "149",
+          "page": 3,
+          "debut": false,
+          "subject": "Pyke Boss",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Pyke Boss"
+          ]
+        },
+        {
+          "number": "150",
+          "page": 3,
+          "debut": false,
+          "subject": "Qi'ra",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Qi'ra"
+          ]
+        },
+        {
+          "number": "151",
+          "page": 3,
+          "debut": false,
+          "subject": "Queen Apailana",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Queen Apailana"
+          ]
+        },
+        {
+          "number": "152",
+          "page": 3,
+          "debut": false,
+          "subject": "Qui-Gon Jinn",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Qui-Gon Jinn"
+          ]
+        },
+        {
+          "number": "153",
+          "page": 3,
+          "debut": false,
+          "subject": "R2-D2",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "R2-D2"
+          ]
+        },
+        {
+          "number": "154",
+          "page": 4,
+          "debut": true,
+          "subject": "Ragnar Vizsla",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Ragnar Vizsla"
+          ]
+        },
+        {
+          "number": "155",
+          "page": 4,
+          "debut": false,
+          "subject": "Rey",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Rey"
+          ]
+        },
+        {
+          "number": "156",
+          "page": 4,
+          "debut": false,
+          "subject": "Rio Durant",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Rio Durant"
+          ]
+        },
+        {
+          "number": "157",
+          "page": 4,
+          "debut": true,
+          "subject": "Roona",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Roona"
+          ]
+        },
+        {
+          "number": "158",
+          "page": 4,
+          "debut": false,
+          "subject": "Rose Tico",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Rose Tico"
+          ]
+        },
+        {
+          "number": "159",
+          "page": 4,
+          "debut": false,
+          "subject": "Sabé",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Sabé"
+          ]
+        },
+        {
+          "number": "160",
+          "page": 4,
+          "debut": false,
+          "subject": "Sabine Wren",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Sabine Wren"
+          ]
+        },
+        {
+          "number": "161",
+          "page": 4,
+          "debut": true,
+          "subject": "Safety Droid",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Safety Droid"
+          ]
+        },
+        {
+          "number": "162",
+          "page": 4,
+          "debut": false,
+          "subject": "Savage Opress",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Savage Opress"
+          ]
+        },
+        {
+          "number": "163",
+          "page": 4,
+          "debut": true,
+          "subject": "Senator Rayencourt",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Senator Rayencourt"
+          ]
+        },
+        {
+          "number": "164",
+          "page": 4,
+          "debut": false,
+          "subject": "Sergeant Linus Mosk",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Sergeant Linus Mosk"
+          ]
+        },
+        {
+          "number": "165",
+          "page": 4,
+          "debut": false,
+          "subject": "Shaak Ti",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Shaak Ti"
+          ]
+        },
+        {
+          "number": "166",
+          "page": 4,
+          "debut": false,
+          "subject": "Shin Hati",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Shin Hati"
+          ]
+        },
+        {
+          "number": "167",
+          "page": 4,
+          "debut": true,
+          "subject": "Skura",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Skura"
+          ]
+        },
+        {
+          "number": "168",
+          "page": 4,
+          "debut": false,
+          "subject": "Slowen Lo",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Slowen Lo"
+          ]
+        },
+        {
+          "number": "169",
+          "page": 4,
+          "debut": false,
+          "subject": "Sly Moore",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Sly Moore"
+          ]
+        },
+        {
+          "number": "170",
+          "page": 4,
+          "debut": true,
+          "subject": "Snowball",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Snowball"
+          ]
+        },
+        {
+          "number": "171",
+          "page": 4,
+          "debut": true,
+          "subject": "Sol",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Sol"
+          ]
+        },
+        {
+          "number": "172",
+          "page": 4,
+          "debut": false,
+          "subject": "Sully Stark",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Sully Stark"
+          ]
+        },
+        {
+          "number": "173",
+          "page": 4,
+          "debut": false,
+          "subject": "Supreme Leader Kylo Ren",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Supreme Leader Kylo Ren"
+          ]
+        },
+        {
+          "number": "174",
+          "page": 4,
+          "debut": false,
+          "subject": "Supreme Leader Snoke",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Supreme Leader Snoke"
+          ]
+        },
+        {
+          "number": "175",
+          "page": 4,
+          "debut": true,
+          "subject": "Tasi Lowa",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Tasi Lowa"
+          ]
+        },
+        {
+          "number": "176",
+          "page": 4,
+          "debut": true,
+          "subject": "Teacher Droid",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Teacher Droid"
+          ]
+        },
+        {
+          "number": "177",
+          "page": 4,
+          "debut": false,
+          "subject": "Tera Sinube",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Tera Sinube"
+          ]
+        },
+        {
+          "number": "178",
+          "page": 4,
+          "debut": false,
+          "subject": "The Armorer",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "The Armorer"
+          ]
+        },
+        {
+          "number": "179",
+          "page": 4,
+          "debut": false,
+          "subject": "The Client",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "The Client"
+          ]
+        },
+        {
+          "number": "180",
+          "page": 4,
+          "debut": false,
+          "subject": "The Grand Inquisitor",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "The Grand Inquisitor"
+          ]
+        },
+        {
+          "number": "181",
+          "page": 4,
+          "debut": false,
+          "subject": "The Mandalorian",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "182",
+          "page": 4,
+          "debut": true,
+          "subject": "The Stranger",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "The Stranger"
+          ]
+        },
+        {
+          "number": "183",
+          "page": 4,
+          "debut": false,
+          "subject": "Tion Medon",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Tion Medon"
+          ]
+        },
+        {
+          "number": "184",
+          "page": 4,
+          "debut": false,
+          "subject": "Tobias Beckett",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Tobias Beckett"
+          ]
+        },
+        {
+          "number": "185",
+          "page": 4,
+          "debut": true,
+          "subject": "Torbin",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Torbin"
+          ]
+        },
+        {
+          "number": "186",
+          "page": 4,
+          "debut": false,
+          "subject": "Unkar Plutt",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Unkar Plutt"
+          ]
+        },
+        {
+          "number": "187",
+          "page": 4,
+          "debut": false,
+          "subject": "Val",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Val"
+          ]
+        },
+        {
+          "number": "188",
+          "page": 4,
+          "debut": true,
+          "subject": "Vernestra Rwoh",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Vernestra Rwoh"
+          ]
+        },
+        {
+          "number": "189",
+          "page": 4,
+          "debut": false,
+          "subject": "Vetch",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Vetch"
+          ]
+        },
+        {
+          "number": "190",
+          "page": 4,
+          "debut": false,
+          "subject": "Watto",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Watto"
+          ]
+        },
+        {
+          "number": "191",
+          "page": 4,
+          "debut": true,
+          "subject": "Wendle",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Wendle"
+          ]
+        },
+        {
+          "number": "192",
+          "page": 4,
+          "debut": true,
+          "subject": "Wilmon Paak",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Wilmon Paak"
+          ]
+        },
+        {
+          "number": "193",
+          "page": 4,
+          "debut": true,
+          "subject": "Wim",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Wim"
+          ]
+        },
+        {
+          "number": "194",
+          "page": 4,
+          "debut": false,
+          "subject": "Wullf Yularen",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Wullf Yularen"
+          ]
+        },
+        {
+          "number": "195",
+          "page": 4,
+          "debut": true,
+          "subject": "Xanwan",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Xanwan"
+          ]
+        },
+        {
+          "number": "196",
+          "page": 4,
+          "debut": false,
+          "subject": "Yarael Poof",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Yarael Poof"
+          ]
+        },
+        {
+          "number": "197",
+          "page": 4,
+          "debut": false,
+          "subject": "Yoda",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Yoda"
+          ]
+        },
+        {
+          "number": "198",
+          "page": 4,
+          "debut": true,
+          "subject": "Yord Fandar",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Yord Fandar"
+          ]
+        },
+        {
+          "number": "199",
+          "page": 4,
+          "debut": false,
+          "subject": "Zam Wesell",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Zam Wesell"
+          ]
+        },
+        {
+          "number": "200",
+          "page": 4,
+          "debut": false,
+          "subject": "Zorii Bliss",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Zorii Bliss"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SAPPHIRE SELECTIONS",
+      "rows": [
+        {
+          "number": "SS-1",
+          "page": 4,
+          "debut": false,
+          "subject": "Boba Fett",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Boba Fett"
+          ]
+        },
+        {
+          "number": "SS-2",
+          "page": 4,
+          "debut": false,
+          "subject": "Bo-Katan Kryze",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Bo-Katan Kryze"
+          ]
+        },
+        {
+          "number": "SS-3",
+          "page": 5,
+          "debut": false,
+          "subject": "C-3PO",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "C-3PO"
+          ]
+        },
+        {
+          "number": "SS-4",
+          "page": 5,
+          "debut": false,
+          "subject": "Cassian Andor",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Cassian Andor"
+          ]
+        },
+        {
+          "number": "SS-5",
+          "page": 5,
+          "debut": false,
+          "subject": "Chewbacca",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Chewbacca"
+          ]
+        },
+        {
+          "number": "SS-6",
+          "page": 5,
+          "debut": false,
+          "subject": "Grogu",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Grogu"
+          ]
+        },
+        {
+          "number": "SS-7",
+          "page": 5,
+          "debut": false,
+          "subject": "Lando Calrissian",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Lando Calrissian"
+          ]
+        },
+        {
+          "number": "SS-8",
+          "page": 5,
+          "debut": false,
+          "subject": "Poe Dameron",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Poe Dameron"
+          ]
+        },
+        {
+          "number": "SS-9",
+          "page": 5,
+          "debut": false,
+          "subject": "Qi'ra",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Qi'ra"
+          ]
+        },
+        {
+          "number": "SS-10",
+          "page": 5,
+          "debut": false,
+          "subject": "Rey",
+          "signer": null,
+          "artist": null,
+          "sourceFields": [
+            "Rey"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AUTOGRAPH CARDS",
+      "rows": [
+        {
+          "number": "A-SLKR",
+          "page": 5,
+          "debut": false,
+          "subject": "Supreme Leader Kylo Ren",
+          "signer": "Adam Driver",
+          "artist": null,
+          "sourceFields": [
+            "Adam Driver",
+            "Supreme Leader Kylo Ren"
+          ]
+        },
+        {
+          "number": "A-AA",
+          "page": 5,
+          "debut": false,
+          "subject": "Bix Caleen",
+          "signer": "Adria Arjona",
+          "artist": null,
+          "sourceFields": [
+            "Adria Arjona",
+            "Bix Caleen"
+          ]
+        },
+        {
+          "number": "A-AW",
+          "page": 5,
+          "debut": false,
+          "subject": "Mortis Daughter",
+          "signer": "Adrienne Wilkinson",
+          "artist": null,
+          "sourceFields": [
+            "Adrienne Wilkinson",
+            "Mortis Daughter"
+          ]
+        },
+        {
+          "number": "A-AB",
+          "page": 5,
+          "debut": false,
+          "subject": "Kelleran Beq",
+          "signer": "Ahmed Best",
+          "artist": null,
+          "sourceFields": [
+            "Ahmed Best",
+            "Kelleran Beq"
+          ]
+        },
+        {
+          "number": "A-ABE",
+          "page": 5,
+          "debut": false,
+          "subject": "Jar Jar Binks",
+          "signer": "Ahmed Best",
+          "artist": null,
+          "sourceFields": [
+            "Ahmed Best",
+            "Jar Jar Binks"
+          ]
+        },
+        {
+          "number": "A-AF",
+          "page": 5,
+          "debut": false,
+          "subject": "Sergeant Linus Mosk",
+          "signer": "Alex Ferns",
+          "artist": null,
+          "sourceFields": [
+            "Alex Ferns",
+            "Sergeant Linus Mosk"
+          ]
+        },
+        {
+          "number": "A-AL",
+          "page": 5,
+          "debut": false,
+          "subject": "Karis Nemik",
+          "signer": "Alex Lawther",
+          "artist": null,
+          "sourceFields": [
+            "Alex Lawther",
+            "Karis Nemik"
+          ]
+        },
+        {
+          "number": "A-AP",
+          "page": 5,
+          "debut": false,
+          "subject": "General Draven",
+          "signer": "Alistair Petrie",
+          "artist": null,
+          "sourceFields": [
+            "Alistair Petrie",
+            "General Draven"
+          ]
+        },
+        {
+          "number": "A-AM",
+          "page": 5,
+          "debut": false,
+          "subject": "Aayla Secura",
+          "signer": "Amy Allen",
+          "artist": null,
+          "sourceFields": [
+            "Amy Allen",
+            "Aayla Secura"
+          ]
+        },
+        {
+          "number": "A-SE",
+          "page": 5,
+          "debut": false,
+          "subject": "Peli Motto",
+          "signer": "Amy Sedaris",
+          "artist": null,
+          "sourceFields": [
+            "Amy Sedaris",
+            "Peli Motto"
+          ]
+        },
+        {
+          "number": "A-ASE",
+          "page": 5,
+          "debut": false,
+          "subject": "Kino Loy",
+          "signer": "Andy Serkis",
+          "artist": null,
+          "sourceFields": [
+            "Andy Serkis",
+            "Kino Loy"
+          ]
+        },
+        {
+          "number": "A-SLS",
+          "page": 5,
+          "debut": false,
+          "subject": "Supreme Leader Snoke",
+          "signer": "Andy Serkis",
+          "artist": null,
+          "sourceFields": [
+            "Andy Serkis",
+            "Supreme Leader Snoke"
+          ]
+        },
+        {
+          "number": "A-AN",
+          "page": 5,
+          "debut": false,
+          "subject": "Bazine Netal",
+          "signer": "Anna Brewster",
+          "artist": null,
+          "sourceFields": [
+            "Anna Brewster",
+            "Bazine Netal"
+          ]
+        },
+        {
+          "number": "A-AD",
+          "page": 5,
+          "debut": false,
+          "subject": "C-3PO",
+          "signer": "Anthony Daniels",
+          "artist": null,
+          "sourceFields": [
+            "Anthony Daniels",
+            "C-3PO"
+          ]
+        },
+        {
+          "number": "A-LE",
+          "page": 5,
+          "debut": false,
+          "subject": "Major Partagaz",
+          "signer": "Anton Lesser",
+          "artist": null,
+          "sourceFields": [
+            "Anton Lesser",
+            "Major Partagaz"
+          ]
+        },
+        {
+          "number": "A-AV",
+          "page": 5,
+          "debut": false,
+          "subject": "Kassa",
+          "signer": "Antonio Viña",
+          "artist": null,
+          "sourceFields": [
+            "Antonio Viña",
+            "Kassa"
+          ]
+        },
+        {
+          "number": "A-BL",
+          "page": 5,
+          "debut": false,
+          "subject": "Kaydel Connix",
+          "signer": "Billie Lourd",
+          "artist": null,
+          "sourceFields": [
+            "Billie Lourd",
+            "Kaydel Connix"
+          ]
+        },
+        {
+          "number": "A-BDW",
+          "page": 5,
+          "debut": false,
+          "subject": "Lando Calrissian",
+          "signer": "Billy Dee Williams",
+          "artist": null,
+          "sourceFields": [
+            "Billy Dee Williams",
+            "Lando Calrissian"
+          ]
+        },
+        {
+          "number": "A-BLA",
+          "page": 5,
+          "debut": false,
+          "subject": "Beru Lars",
+          "signer": "Bonnie Piesse",
+          "artist": null,
+          "sourceFields": [
+            "Bonnie Piesse",
+            "Beru Lars"
+          ]
+        },
+        {
+          "number": "A-CJ",
+          "page": 5,
+          "debut": false,
+          "subject": "Gorian Shard",
+          "signer": "Carey Jones",
+          "artist": null,
+          "sourceFields": [
+            "Carey Jones",
+            "Gorian Shard"
+          ]
+        },
+        {
+          "number": "A-CAM",
+          "page": 5,
+          "debut": false,
+          "subject": "Indara",
+          "signer": "Carrie-Anne Moss",
+          "artist": null,
+          "sourceFields": [
+            "Carrie-Anne Moss",
+            "Indara"
+          ]
+        },
+        {
+          "number": "A-CH",
+          "page": 5,
+          "debut": false,
+          "subject": "Yord Fandar",
+          "signer": "Charlie Barnett",
+          "artist": null,
+          "sourceFields": [
+            "Charlie Barnett",
+            "Yord Fandar"
+          ]
+        },
+        {
+          "number": "A-CBA",
+          "page": 5,
+          "debut": false,
+          "subject": "C1-D1",
+          "signer": "Chris Bartlett",
+          "artist": null,
+          "sourceFields": [
+            "Chris Bartlett",
+            "C1-D1"
+          ]
+        },
+        {
+          "number": "A-CB",
+          "page": 5,
+          "debut": false,
+          "subject": "Klothow",
+          "signer": "Claudia Black",
+          "artist": null,
+          "sourceFields": [
+            "Claudia Black",
+            "Klothow"
+          ]
+        },
+        {
+          "number": "A-DK",
+          "page": 5,
+          "debut": false,
+          "subject": "Jecki Lon",
+          "signer": "Dafne Keen",
+          "artist": null,
+          "sourceFields": [
+            "Dafne Keen",
+            "Jecki Lon"
+          ]
+        },
+        {
+          "number": "A-DR",
+          "page": 5,
+          "debut": false,
+          "subject": "Rey",
+          "signer": "Daisy Ridley",
+          "artist": null,
+          "sourceFields": [
+            "Daisy Ridley",
+            "Rey"
+          ]
+        },
+        {
+          "number": "A-DCA",
+          "page": 5,
+          "debut": false,
+          "subject": "B2EMO",
+          "signer": "Dave Chapman",
+          "artist": null,
+          "sourceFields": [
+            "Dave Chapman",
+            "B2EMO"
+          ]
+        },
+        {
+          "number": "A-DB",
+          "page": 5,
+          "debut": false,
+          "subject": "Jabba The Hutt",
+          "signer": "David Barclay",
+          "artist": null,
+          "sourceFields": [
+            "David Barclay",
+            "Jabba The Hutt"
+          ]
+        },
+        {
+          "number": "A-DCC",
+          "page": 5,
+          "debut": false,
+          "subject": "Torbin",
+          "signer": "Dean Charles-Chapman",
+          "artist": null,
+          "sourceFields": [
+            "Dean Charles-Chapman",
+            "Torbin"
+          ]
+        },
+        {
+          "number": "A-DER",
+          "page": 5,
+          "debut": false,
+          "subject": "Droopy McCool",
+          "signer": "Deep Roy",
+          "artist": null,
+          "sourceFields": [
+            "Deep Roy",
+            "Droopy McCool"
+          ]
+        },
+        {
+          "number": "A-DGO",
+          "page": 5,
+          "debut": false,
+          "subject": "Dedra Meero",
+          "signer": "Denise Gough",
+          "artist": null,
+          "sourceFields": [
+            "Denise Gough",
+            "Dedra Meero"
+          ]
+        },
+        {
+          "number": "A-DLR",
+          "page": 5,
+          "debut": false,
+          "subject": "Morgan Elsbeth",
+          "signer": "Diana Lee Inosanto",
+          "artist": null,
+          "sourceFields": [
+            "Diana Lee Inosanto",
+            "Morgan Elsbeth"
+          ]
+        },
+        {
+          "number": "A-DL",
+          "page": 5,
+          "debut": false,
+          "subject": "Cassian Andor",
+          "signer": "Diego Luna",
+          "artist": null,
+          "sourceFields": [
+            "Diego Luna",
+            "Cassian Andor"
+          ]
+        },
+        {
+          "number": "A-DGR",
+          "page": 5,
+          "debut": false,
+          "subject": "General Hux",
+          "signer": "Domhnall Gleeson",
+          "artist": null,
+          "sourceFields": [
+            "Domhnall Gleeson",
+            "General Hux"
+          ]
+        },
+        {
+          "number": "A-EE",
+          "page": 5,
+          "debut": false,
+          "subject": "Ezra Bridger",
+          "signer": "Eman Esfandi",
+          "artist": null,
+          "sourceFields": [
+            "Eman Esfandi",
+            "Ezra Bridger"
+          ]
+        },
+        {
+          "number": "A-ES",
+          "page": 5,
+          "debut": false,
+          "subject": "The Armorer",
+          "signer": "Emily Swallow",
+          "artist": null,
+          "sourceFields": [
+            "Emily Swallow",
+            "The Armorer"
+          ]
+        },
+        {
+          "number": "A-EK",
+          "page": 5,
+          "debut": false,
+          "subject": "Enfys Nest",
+          "signer": "Erin Kellyman",
+          "artist": null,
+          "sourceFields": [
+            "Erin Kellyman",
+            "Enfys Nest"
+          ]
+        },
+        {
+          "number": "A-EM",
+          "page": 5,
+          "debut": false,
+          "subject": "Obi-Wan Kenobi",
+          "signer": "Ewan McGregor",
+          "artist": null,
+          "sourceFields": [
+            "Ewan McGregor",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "A-FM",
+          "page": 5,
+          "debut": false,
+          "subject": "Vel Sartha",
+          "signer": "Faye Marsay",
+          "artist": null,
+          "sourceFields": [
+            "Faye Marsay",
+            "Vel Sartha"
+          ]
+        },
+        {
+          "number": "A-FJ",
+          "page": 5,
+          "debut": false,
+          "subject": "Jyn Erso",
+          "signer": "Felicity Jones",
+          "artist": null,
+          "sourceFields": [
+            "Felicity Jones",
+            "Jyn Erso"
+          ]
+        },
+        {
+          "number": "A-FS",
+          "page": 6,
+          "debut": false,
+          "subject": "Maarva Andor",
+          "signer": "Fiona Shaw",
+          "artist": null,
+          "sourceFields": [
+            "Fiona Shaw",
+            "Maarva Andor"
+          ]
+        },
+        {
+          "number": "A-FW",
+          "page": 6,
+          "debut": false,
+          "subject": "Saw Gerrera",
+          "signer": "Forest  Whitaker",
+          "artist": null,
+          "sourceFields": [
+            "Forest  Whitaker",
+            "Saw Gerrera"
+          ]
+        },
+        {
+          "number": "A-FT",
+          "page": 6,
+          "debut": false,
+          "subject": "Captain Brutus",
+          "signer": "Fred Tatasciore",
+          "artist": null,
+          "sourceFields": [
+            "Fred Tatasciore",
+            "Captain Brutus"
+          ]
+        },
+        {
+          "number": "A-GB",
+          "page": 6,
+          "debut": false,
+          "subject": "Clem Andor",
+          "signer": "Gary Beadle",
+          "artist": null,
+          "sourceFields": [
+            "Gary Beadle",
+            "Clem Andor"
+          ]
+        },
+        {
+          "number": "A-GOR",
+          "page": 6,
+          "debut": false,
+          "subject": "Mon Mothma",
+          "signer": "Genevieve O'Reilly",
+          "artist": null,
+          "sourceFields": [
+            "Genevieve O'Reilly",
+            "Mon Mothma"
+          ]
+        },
+        {
+          "number": "A-GE",
+          "page": 6,
+          "debut": false,
+          "subject": "Moff Gideon",
+          "signer": "Giancarlo Esposito",
+          "artist": null,
+          "sourceFields": [
+            "Giancarlo Esposito",
+            "Moff Gideon"
+          ]
+        },
+        {
+          "number": "A-GH",
+          "page": 6,
+          "debut": false,
+          "subject": "Grand Moff Tarkin",
+          "signer": "Guy Henry",
+          "artist": null,
+          "sourceFields": [
+            "Guy Henry",
+            "Grand Moff Tarkin"
+          ]
+        },
+        {
+          "number": "A-GC",
+          "page": 6,
+          "debut": false,
+          "subject": "Captain Phasma",
+          "signer": "Gwendoline Christie",
+          "artist": null,
+          "sourceFields": [
+            "Gwendoline Christie",
+            "Captain Phasma"
+          ]
+        },
+        {
+          "number": "A-HF",
+          "page": 6,
+          "debut": false,
+          "subject": "Han Solo",
+          "signer": "Harrison Ford",
+          "artist": null,
+          "sourceFields": [
+            "Harrison Ford",
+            "Han Solo"
+          ]
+        },
+        {
+          "number": "A-HC",
+          "page": 6,
+          "debut": false,
+          "subject": "Anakin Skywalker",
+          "signer": "Hayden Christensen",
+          "artist": null,
+          "sourceFields": [
+            "Hayden Christensen",
+            "Anakin Skywalker"
+          ]
+        },
+        {
+          "number": "A-IM",
+          "page": 6,
+          "debut": false,
+          "subject": "Emperor Palpatine",
+          "signer": "Ian McDiarmid",
+          "artist": null,
+          "sourceFields": [
+            "Ian McDiarmid",
+            "Emperor Palpatine"
+          ]
+        },
+        {
+          "number": "A-IW",
+          "page": 6,
+          "debut": false,
+          "subject": "Vetch",
+          "signer": "Ian Whyte",
+          "artist": null,
+          "sourceFields": [
+            "Ian Whyte",
+            "Vetch"
+          ]
+        },
+        {
+          "number": "A-IS",
+          "page": 6,
+          "debut": false,
+          "subject": "Shin Hati",
+          "signer": "Ivanna Sakhno",
+          "artist": null,
+          "sourceFields": [
+            "Ivanna Sakhno",
+            "Shin Hati"
+          ]
+        },
+        {
+          "number": "A-JC",
+          "page": 6,
+          "debut": false,
+          "subject": "Toro Calican",
+          "signer": "Jake Cannavale",
+          "artist": null,
+          "sourceFields": [
+            "Jake Cannavale",
+            "Toro Calican"
+          ]
+        },
+        {
+          "number": "A-JAL",
+          "page": 6,
+          "debut": false,
+          "subject": "Gunter",
+          "signer": "Jaleel White",
+          "artist": null,
+          "sourceFields": [
+            "Jaleel White",
+            "Gunter"
+          ]
+        },
+        {
+          "number": "A-JE",
+          "page": 6,
+          "debut": false,
+          "subject": "Owen Lars",
+          "signer": "Joel Edgerton",
+          "artist": null,
+          "sourceFields": [
+            "Joel Edgerton",
+            "Owen Lars"
+          ]
+        },
+        {
+          "number": "A-JR",
+          "page": 6,
+          "debut": false,
+          "subject": "Major Bren Derlin",
+          "signer": "John Ratzenberger",
+          "artist": null,
+          "sourceFields": [
+            "John Ratzenberger",
+            "Major Bren Derlin"
+          ]
+        },
+        {
+          "number": "A-JS",
+          "page": 6,
+          "debut": false,
+          "subject": "Kelnacca",
+          "signer": "Joonas Suotamo",
+          "artist": null,
+          "sourceFields": [
+            "Joonas Suotamo",
+            "Kelnacca"
+          ]
+        },
+        {
+          "number": "A-LAW",
+          "page": 6,
+          "debut": false,
+          "subject": "Jod Na Nawood",
+          "signer": "Jude Law",
+          "artist": null,
+          "sourceFields": [
+            "Jude Law",
+            "Jod Na Nawood"
+          ]
+        },
+        {
+          "number": "A-KCS",
+          "page": 6,
+          "debut": false,
+          "subject": "Rabé",
+          "signer": "Karol Sìlva",
+          "artist": null,
+          "sourceFields": [
+            "Karol Sìlva",
+            "Rabé"
+          ]
+        },
+        {
+          "number": "A-KS",
+          "page": 6,
+          "debut": false,
+          "subject": "Bo-Katan Kryze",
+          "signer": "Katee Sackhoff",
+          "artist": null,
+          "sourceFields": [
+            "Katee Sackhoff",
+            "Bo-Katan Kryze"
+          ]
+        },
+        {
+          "number": "A-KCH",
+          "page": 6,
+          "debut": false,
+          "subject": "Queen Apailana",
+          "signer": "Keisha Castle-Hughes",
+          "artist": null,
+          "sourceFields": [
+            "Keisha Castle-Hughes",
+            "Queen Apailana"
+          ]
+        },
+        {
+          "number": "A-K",
+          "page": 6,
+          "debut": false,
+          "subject": "Pokkit",
+          "signer": "Kelly Macdonald",
+          "artist": null,
+          "sourceFields": [
+            "Kelly Macdonald",
+            "Pokkit"
+          ]
+        },
+        {
+          "number": "A-KMT",
+          "page": 6,
+          "debut": false,
+          "subject": "Rose Tico",
+          "signer": "Kelly Marie Tran",
+          "artist": null,
+          "sourceFields": [
+            "Kelly Marie Tran",
+            "Rose Tico"
+          ]
+        },
+        {
+          "number": "A-KC",
+          "page": 6,
+          "debut": false,
+          "subject": "Admiral Piett",
+          "signer": "Kenneth Colley",
+          "artist": null,
+          "sourceFields": [
+            "Kenneth Colley",
+            "Admiral Piett"
+          ]
+        },
+        {
+          "number": "A-KR",
+          "page": 6,
+          "debut": false,
+          "subject": "Zorii Bliss",
+          "signer": "Keri Russell",
+          "artist": null,
+          "sourceFields": [
+            "Keri Russell",
+            "Zorii Bliss"
+          ]
+        },
+        {
+          "number": "A-KOB",
+          "page": 6,
+          "debut": false,
+          "subject": "Pegla",
+          "signer": "Kieran O'Brien",
+          "artist": null,
+          "sourceFields": [
+            "Kieran O'Brien",
+            "Pegla"
+          ]
+        },
+        {
+          "number": "A-LM",
+          "page": 6,
+          "debut": false,
+          "subject": "Grand Admiral Thrawn",
+          "signer": "Lars Mikkelsen",
+          "artist": null,
+          "sourceFields": [
+            "Lars Mikkelsen",
+            "Grand Admiral Thrawn"
+          ]
+        },
+        {
+          "number": "A-LD",
+          "page": 6,
+          "debut": false,
+          "subject": "Vice Admiral Holdo",
+          "signer": "Laura Dern",
+          "artist": null,
+          "sourceFields": [
+            "Laura Dern",
+            "Vice Admiral Holdo"
+          ]
+        },
+        {
+          "number": "A-LJJ",
+          "page": 6,
+          "debut": false,
+          "subject": "Sol",
+          "signer": "Lee Jung-jae",
+          "artist": null,
+          "sourceFields": [
+            "Lee Jung-jae",
+            "Sol"
+          ]
+        },
+        {
+          "number": "A-LL",
+          "page": 6,
+          "debut": false,
+          "subject": "Major Vonreg",
+          "signer": "Lex Lang",
+          "artist": null,
+          "sourceFields": [
+            "Lex Lang",
+            "Major Vonreg"
+          ]
+        },
+        {
+          "number": "A-LN",
+          "page": 6,
+          "debut": false,
+          "subject": "Maz Kanata",
+          "signer": "Lupita Nyong'o",
+          "artist": null,
+          "sourceFields": [
+            "Lupita Nyong'o",
+            "Maz Kanata"
+          ]
+        },
+        {
+          "number": "A-MJ",
+          "page": 6,
+          "debut": false,
+          "subject": "The Stranger",
+          "signer": "Manny Jacinto",
+          "artist": null,
+          "sourceFields": [
+            "Manny Jacinto",
+            "The Stranger"
+          ]
+        },
+        {
+          "number": "A-MVE",
+          "page": 6,
+          "debut": false,
+          "subject": "Vult Skerris",
+          "signer": "Mario Vernazza",
+          "artist": null,
+          "sourceFields": [
+            "Mario Vernazza",
+            "Vult Skerris"
+          ]
+        },
+        {
+          "number": "A-MH",
+          "page": 6,
+          "debut": false,
+          "subject": "Luke Skywalker",
+          "signer": "Mark Hamill",
+          "artist": null,
+          "sourceFields": [
+            "Mark Hamill",
+            "Luke Skywalker"
+          ]
+        },
+        {
+          "number": "A-MR",
+          "page": 6,
+          "debut": false,
+          "subject": "Captain Hayle",
+          "signer": "Mark Rolston",
+          "artist": null,
+          "sourceFields": [
+            "Mark Rolston",
+            "Captain Hayle"
+          ]
+        },
+        {
+          "number": "A-M",
+          "page": 6,
+          "debut": false,
+          "subject": "Poggle the Lesser",
+          "signer": "Marton Csokas",
+          "artist": null,
+          "sourceFields": [
+            "Marton Csokas",
+            "Poggle the Lesser"
+          ]
+        },
+        {
+          "number": "A-MEW",
+          "page": 6,
+          "debut": false,
+          "subject": "Hera Syndulla",
+          "signer": "Mary Elizabeth Winstead",
+          "artist": null,
+          "sourceFields": [
+            "Mary Elizabeth Winstead",
+            "Hera Syndulla"
+          ]
+        },
+        {
+          "number": "A-MO",
+          "page": 6,
+          "debut": false,
+          "subject": "Luminara Unduli",
+          "signer": "Mary Oyaya",
+          "artist": null,
+          "sourceFields": [
+            "Mary Oyaya",
+            "Luminara Unduli"
+          ]
+        },
+        {
+          "number": "A-MW",
+          "page": 6,
+          "debut": false,
+          "subject": "General Grievous",
+          "signer": "Matthew Wood",
+          "artist": null,
+          "sourceFields": [
+            "Matthew Wood",
+            "General Grievous"
+          ]
+        },
+        {
+          "number": "A-MA",
+          "page": 6,
+          "debut": false,
+          "subject": "Sully Stark",
+          "signer": "Maya Erskine",
+          "artist": null,
+          "sourceFields": [
+            "Maya Erskine",
+            "Sully Stark"
+          ]
+        },
+        {
+          "number": "A-MSA",
+          "page": 6,
+          "debut": false,
+          "subject": "Barriss Offee",
+          "signer": "Meredith Salenger",
+          "artist": null,
+          "sourceFields": [
+            "Meredith Salenger",
+            "Barriss Offee"
+          ]
+        },
+        {
+          "number": "A-MC",
+          "page": 6,
+          "debut": false,
+          "subject": "Even Piell",
+          "signer": "Michaela Cottrell",
+          "artist": null,
+          "sourceFields": [
+            "Michaela Cottrell",
+            "Even Piell"
+          ]
+        },
+        {
+          "number": "A-MAG",
+          "page": 6,
+          "debut": false,
+          "subject": "Omega",
+          "signer": "Michelle Ang",
+          "artist": null,
+          "sourceFields": [
+            "Michelle Ang",
+            "Omega"
+          ]
+        },
+        {
+          "number": "A-MQ",
+          "page": 6,
+          "debut": false,
+          "subject": "Nien Nunb",
+          "signer": "Mike Quinn",
+          "artist": null,
+          "sourceFields": [
+            "Mike Quinn",
+            "Nien Nunb"
+          ]
+        },
+        {
+          "number": "A-MNW",
+          "page": 6,
+          "debut": false,
+          "subject": "Fennec Shand",
+          "signer": "Ming-Na Wen",
+          "artist": null,
+          "sourceFields": [
+            "Ming-Na Wen",
+            "Fennec Shand"
+          ]
+        },
+        {
+          "number": "A-MI",
+          "page": 6,
+          "debut": false,
+          "subject": "Reva",
+          "signer": "Moses Ingram",
+          "artist": null,
+          "sourceFields": [
+            "Moses Ingram",
+            "Reva"
+          ]
+        },
+        {
+          "number": "A-MB",
+          "page": 6,
+          "debut": false,
+          "subject": "Wilmon Paak",
+          "signer": "Muhannad  Bhaier",
+          "artist": null,
+          "sourceFields": [
+            "Muhannad  Bhaier",
+            "Wilmon Paak"
+          ]
+        },
+        {
+          "number": "A-NP",
+          "page": 6,
+          "debut": false,
+          "subject": "Padmé Amidala",
+          "signer": "Natalie Portman",
+          "artist": null,
+          "sourceFields": [
+            "Natalie Portman",
+            "Padmé Amidala"
+          ]
+        },
+        {
+          "number": "A-NLB",
+          "page": 6,
+          "debut": false,
+          "subject": "Sabine Wren",
+          "signer": "Natasha Liu Bordizzo",
+          "artist": null,
+          "sourceFields": [
+            "Natasha Liu Bordizzo",
+            "Sabine Wren"
+          ]
+        },
+        {
+          "number": "A-FRO",
+          "page": 6,
+          "debut": false,
+          "subject": "SM-33",
+          "signer": "Nick Frost",
+          "artist": null,
+          "sourceFields": [
+            "Nick Frost",
+            "SM-33"
+          ]
+        },
+        {
+          "number": "A-AJ",
+          "page": 6,
+          "debut": false,
+          "subject": "Asajj Ventress",
+          "signer": "Nika Futterman",
+          "artist": null,
+          "sourceFields": [
+            "Nika Futterman",
+            "Asajj Ventress"
+          ]
+        },
+        {
+          "number": "A-OSJ",
+          "page": 7,
+          "debut": false,
+          "subject": "Kawlan Roken",
+          "signer": "O'Shea Jackson",
+          "artist": null,
+          "sourceFields": [
+            "O'Shea Jackson",
+            "Kawlan Roken"
+          ]
+        },
+        {
+          "number": "A-OS",
+          "page": 7,
+          "debut": false,
+          "subject": "Shaak Ti",
+          "signer": "Orli Shoshan",
+          "artist": null,
+          "sourceFields": [
+            "Orli Shoshan",
+            "Shaak Ti"
+          ]
+        },
+        {
+          "number": "A-OI",
+          "page": 7,
+          "debut": false,
+          "subject": "Poe Dameron",
+          "signer": "Oscar Isaac",
+          "artist": null,
+          "sourceFields": [
+            "Oscar Isaac",
+            "Poe Dameron"
+          ]
+        },
+        {
+          "number": "A-PB",
+          "page": 7,
+          "debut": false,
+          "subject": "Greedo",
+          "signer": "Paul Blake",
+          "artist": null,
+          "sourceFields": [
+            "Paul Blake",
+            "Greedo"
+          ]
+        },
+        {
+          "number": "A-PD",
+          "page": 7,
+          "debut": false,
+          "subject": "Marrok",
+          "signer": "Paul Darnell",
+          "artist": null,
+          "sourceFields": [
+            "Paul Darnell",
+            "Marrok"
+          ]
+        },
+        {
+          "number": "A-PP",
+          "page": 7,
+          "debut": false,
+          "subject": "The Mandalorian",
+          "signer": "Pedro Pascal",
+          "artist": null,
+          "sourceFields": [
+            "Pedro Pascal",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "A-MWE",
+          "page": 7,
+          "debut": false,
+          "subject": "Myn Weaver",
+          "signer": "Peter Jacobson",
+          "artist": null,
+          "sourceFields": [
+            "Peter Jacobson",
+            "Myn Weaver"
+          ]
+        },
+        {
+          "number": "A-PL",
+          "page": 7,
+          "debut": false,
+          "subject": "Kit Fisto",
+          "signer": "Phil LaMarr",
+          "artist": null,
+          "sourceFields": [
+            "Phil LaMarr",
+            "Kit Fisto"
+          ]
+        },
+        {
+          "number": "A-RAB",
+          "page": 7,
+          "debut": false,
+          "subject": "Queen Miraj Scintel",
+          "signer": "Rajia Baroudi",
+          "artist": null,
+          "sourceFields": [
+            "Rajia Baroudi",
+            "Queen Miraj Scintel"
+          ]
+        },
+        {
+          "number": "A-RCC",
+          "page": 7,
+          "debut": false,
+          "subject": "Wim",
+          "signer": "Ravi Cabot-Conyers",
+          "artist": null,
+          "sourceFields": [
+            "Ravi Cabot-Conyers",
+            "Wim"
+          ]
+        },
+        {
+          "number": "A-RP",
+          "page": 7,
+          "debut": false,
+          "subject": "Darth Maul",
+          "signer": "Ray Park",
+          "artist": null,
+          "sourceFields": [
+            "Ray Park",
+            "Darth Maul"
+          ]
+        },
+        {
+          "number": "A-RH",
+          "page": 7,
+          "debut": false,
+          "subject": "Vernestra Rwoh",
+          "signer": "Rebecca Henderson",
+          "artist": null,
+          "sourceFields": [
+            "Rebecca Henderson",
+            "Vernestra Rwoh"
+          ]
+        },
+        {
+          "number": "A-RA",
+          "page": 7,
+          "debut": false,
+          "subject": "Bodhi Rook",
+          "signer": "Riz Ahmed",
+          "artist": null,
+          "sourceFields": [
+            "Riz Ahmed",
+            "Bodhi Rook"
+          ]
+        },
+        {
+          "number": "A-RTS",
+          "page": 7,
+          "debut": false,
+          "subject": "Neel",
+          "signer": "Robert Timothy Smith",
+          "artist": null,
+          "sourceFields": [
+            "Robert Timothy Smith",
+            "Neel"
+          ]
+        },
+        {
+          "number": "A-RD",
+          "page": 7,
+          "debut": false,
+          "subject": "Ahsoka Tano",
+          "signer": "Rosario Dawson",
+          "artist": null,
+          "sourceFields": [
+            "Rosario Dawson",
+            "Ahsoka Tano"
+          ]
+        },
+        {
+          "number": "A-RF",
+          "page": 7,
+          "debut": false,
+          "subject": "The Grand Inquisitor",
+          "signer": "Rupert Friend",
+          "artist": null,
+          "sourceFields": [
+            "Rupert Friend",
+            "The Grand Inquisitor"
+          ]
+        },
+        {
+          "number": "A-RK",
+          "page": 7,
+          "debut": false,
+          "subject": "Fourth Sister Inquisitor",
+          "signer": "Rya Kihlstedt",
+          "artist": null,
+          "sourceFields": [
+            "Rya Kihlstedt",
+            "Fourth Sister Inquisitor"
+          ]
+        },
+        {
+          "number": "A-SWIT",
+          "page": 7,
+          "debut": false,
+          "subject": "Dinghy Driver",
+          "signer": "Sam Witwer",
+          "artist": null,
+          "sourceFields": [
+            "Sam Witwer",
+            "Dinghy Driver"
+          ]
+        },
+        {
+          "number": "A-SLJ",
+          "page": 7,
+          "debut": false,
+          "subject": "Mace Windu",
+          "signer": "Samuel L. Jackson",
+          "artist": null,
+          "sourceFields": [
+            "Samuel L. Jackson",
+            "Mace Windu"
+          ]
+        },
+        {
+          "number": "A-SP",
+          "page": 7,
+          "debut": false,
+          "subject": "Unkar Plutt",
+          "signer": "Simon Pegg",
+          "artist": null,
+          "sourceFields": [
+            "Simon Pegg",
+            "Unkar Plutt"
+          ]
+        },
+        {
+          "number": "A-SW",
+          "page": 7,
+          "debut": false,
+          "subject": "Max Rebo",
+          "signer": "Simon Williamson",
+          "artist": null,
+          "sourceFields": [
+            "Simon Williamson",
+            "Max Rebo"
+          ]
+        },
+        {
+          "number": "A-SI",
+          "page": 7,
+          "debut": false,
+          "subject": "Breha Organa",
+          "signer": "Simone Kessell",
+          "artist": null,
+          "sourceFields": [
+            "Simone Kessell",
+            "Breha Organa"
+          ]
+        },
+        {
+          "number": "A-SS",
+          "page": 7,
+          "debut": false,
+          "subject": "Luthen Rael",
+          "signer": "Stellan Skarsgård",
+          "artist": null,
+          "sourceFields": [
+            "Stellan Skarsgård",
+            "Luthen Rael"
+          ]
+        },
+        {
+          "number": "A-TW",
+          "page": 7,
+          "debut": false,
+          "subject": "IG-11",
+          "signer": "Taika Waititi",
+          "artist": null,
+          "sourceFields": [
+            "Taika Waititi",
+            "IG-11"
+          ]
+        },
+        {
+          "number": "A-TM",
+          "page": 7,
+          "debut": false,
+          "subject": "Boba Fett",
+          "signer": "Temuera Morrison",
+          "artist": null,
+          "sourceFields": [
+            "Temuera Morrison",
+            "Boba Fett"
+          ]
+        },
+        {
+          "number": "A-TO",
+          "page": 7,
+          "debut": false,
+          "subject": "Cobb Vanth",
+          "signer": "Timothy Olyphant",
+          "artist": null,
+          "sourceFields": [
+            "Timothy Olyphant",
+            "Cobb Vanth"
+          ]
+        },
+        {
+          "number": "A-TAD",
+          "page": 7,
+          "debut": false,
+          "subject": "Wendle",
+          "signer": "Tunde Adebimpe",
+          "artist": null,
+          "sourceFields": [
+            "Tunde Adebimpe",
+            "Wendle"
+          ]
+        },
+        {
+          "number": "A-WD",
+          "page": 7,
+          "debut": false,
+          "subject": "Wicket W. Warrick",
+          "signer": "Warwick Davis",
+          "artist": null,
+          "sourceFields": [
+            "Warwick Davis",
+            "Wicket W. Warrick"
+          ]
+        },
+        {
+          "number": "A-WE",
+          "page": 7,
+          "debut": false,
+          "subject": "The Client",
+          "signer": "Werner Herzog",
+          "artist": null,
+          "sourceFields": [
+            "Werner Herzog",
+            "The Client"
+          ]
+        },
+        {
+          "number": "A-ZV",
+          "page": 7,
+          "debut": false,
+          "subject": "Xanwan",
+          "signer": "Zubin Varla",
+          "artist": null,
+          "sourceFields": [
+            "Zubin Varla",
+            "Xanwan"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DUO AUTOGRAPHS",
+      "rows": [
+        {
+          "number": "DA-AD",
+          "page": 7,
+          "debut": false,
+          "subject": "General Hux",
+          "signer": "Domhnall Gleeson",
+          "artist": null,
+          "sourceFields": [
+            "Domhnall Gleeson",
+            "General Hux"
+          ]
+        },
+        {
+          "number": "DA-AD",
+          "page": 7,
+          "debut": false,
+          "subject": "Supreme Leader Snoke",
+          "signer": "Andy Serkis",
+          "artist": null,
+          "sourceFields": [
+            "Andy Serkis",
+            "Supreme Leader Snoke"
+          ]
+        },
+        {
+          "number": "DA-BD",
+          "page": 7,
+          "debut": false,
+          "subject": "Kaydel Connix",
+          "signer": "Billie Lourd",
+          "artist": null,
+          "sourceFields": [
+            "Billie Lourd",
+            "Kaydel Connix"
+          ]
+        },
+        {
+          "number": "DA-BD",
+          "page": 7,
+          "debut": false,
+          "subject": "Beaumont Kin",
+          "signer": "Dominic Monaghan",
+          "artist": null,
+          "sourceFields": [
+            "Dominic Monaghan",
+            "Beaumont Kin"
+          ]
+        },
+        {
+          "number": "DA-CB",
+          "page": 7,
+          "debut": false,
+          "subject": "Jecki Lon",
+          "signer": "Dafne Keen",
+          "artist": null,
+          "sourceFields": [
+            "Dafne Keen",
+            "Jecki Lon"
+          ]
+        },
+        {
+          "number": "DA-CB",
+          "page": 7,
+          "debut": false,
+          "subject": "Yord Fandar",
+          "signer": "Charlie Barnett",
+          "artist": null,
+          "sourceFields": [
+            "Charlie Barnett",
+            "Yord Fandar"
+          ]
+        },
+        {
+          "number": "DA-CL",
+          "page": 7,
+          "debut": false,
+          "subject": "Indara",
+          "signer": "Carrie-Anne Moss",
+          "artist": null,
+          "sourceFields": [
+            "Carrie-Anne Moss",
+            "Indara"
+          ]
+        },
+        {
+          "number": "DA-CL",
+          "page": 7,
+          "debut": false,
+          "subject": "Sol",
+          "signer": "Lee Jung-jae",
+          "artist": null,
+          "sourceFields": [
+            "Lee Jung-jae",
+            "Sol"
+          ]
+        },
+        {
+          "number": "DA-DSK",
+          "page": 7,
+          "debut": false,
+          "subject": "Luthen Rael",
+          "signer": "Stellan Skarsgård",
+          "artist": null,
+          "sourceFields": [
+            "Stellan Skarsgård",
+            "Luthen Rael"
+          ]
+        },
+        {
+          "number": "DA-DSK",
+          "page": 7,
+          "debut": false,
+          "subject": "Cassian Andor",
+          "signer": "Diego Luna",
+          "artist": null,
+          "sourceFields": [
+            "Diego Luna",
+            "Cassian Andor"
+          ]
+        },
+        {
+          "number": "DA-EP",
+          "page": 7,
+          "debut": false,
+          "subject": "The Mandalorian",
+          "signer": "Pedro Pascal",
+          "artist": null,
+          "sourceFields": [
+            "Pedro Pascal",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "DA-EP",
+          "page": 7,
+          "debut": false,
+          "subject": "The Armorer",
+          "signer": "Emily Swallow",
+          "artist": null,
+          "sourceFields": [
+            "Emily Swallow",
+            "The Armorer"
+          ]
+        },
+        {
+          "number": "DA-FM",
+          "page": 7,
+          "debut": false,
+          "subject": "Saw Gerrera",
+          "signer": "Forest  Whitaker",
+          "artist": null,
+          "sourceFields": [
+            "Forest  Whitaker",
+            "Saw Gerrera"
+          ]
+        },
+        {
+          "number": "DA-FM",
+          "page": 7,
+          "debut": false,
+          "subject": "Galen Erso",
+          "signer": "Mads Mikkelsen",
+          "artist": null,
+          "sourceFields": [
+            "Mads Mikkelsen",
+            "Galen Erso"
+          ]
+        },
+        {
+          "number": "DA-ID",
+          "page": 7,
+          "debut": false,
+          "subject": "Shin Hati",
+          "signer": "Ivanna Sakhno",
+          "artist": null,
+          "sourceFields": [
+            "Ivanna Sakhno",
+            "Shin Hati"
+          ]
+        },
+        {
+          "number": "DA-ID",
+          "page": 7,
+          "debut": false,
+          "subject": "Morgan Elsbeth",
+          "signer": "Diana Lee Inosanto",
+          "artist": null,
+          "sourceFields": [
+            "Diana Lee Inosanto",
+            "Morgan Elsbeth"
+          ]
+        },
+        {
+          "number": "DA-JA",
+          "page": 7,
+          "debut": false,
+          "subject": "Peli Motto",
+          "signer": "Amy Sedaris",
+          "artist": null,
+          "sourceFields": [
+            "Amy Sedaris",
+            "Peli Motto"
+          ]
+        },
+        {
+          "number": "DA-JA",
+          "page": 7,
+          "debut": false,
+          "subject": "Toro Calican",
+          "signer": "Jake Cannavale",
+          "artist": null,
+          "sourceFields": [
+            "Jake Cannavale",
+            "Toro Calican"
+          ]
+        },
+        {
+          "number": "DA-KB",
+          "page": 7,
+          "debut": false,
+          "subject": "Rose Tico",
+          "signer": "Kelly Marie Tran",
+          "artist": null,
+          "sourceFields": [
+            "Kelly Marie Tran",
+            "Rose Tico"
+          ]
+        },
+        {
+          "number": "DA-KB",
+          "page": 7,
+          "debut": false,
+          "subject": "DJ",
+          "signer": "Benicio Del Toro",
+          "artist": null,
+          "sourceFields": [
+            "Benicio Del Toro",
+            "DJ"
+          ]
+        },
+        {
+          "number": "DA-MJj",
+          "page": 8,
+          "debut": false,
+          "subject": "Sol",
+          "signer": "Lee Jung-jae",
+          "artist": null,
+          "sourceFields": [
+            "Lee Jung-jae",
+            "Sol"
+          ]
+        },
+        {
+          "number": "DA-MJj",
+          "page": 8,
+          "debut": false,
+          "subject": "The Stranger",
+          "signer": "Manny Jacinto",
+          "artist": null,
+          "sourceFields": [
+            "Manny Jacinto",
+            "The Stranger"
+          ]
+        },
+        {
+          "number": "DA-NJ",
+          "page": 8,
+          "debut": false,
+          "subject": "SM-33",
+          "signer": "Nick Frost",
+          "artist": null,
+          "sourceFields": [
+            "Nick Frost",
+            "SM-33"
+          ]
+        },
+        {
+          "number": "DA-NJ",
+          "page": 8,
+          "debut": false,
+          "subject": "Jod Na Nawood",
+          "signer": "Jude Law",
+          "artist": null,
+          "sourceFields": [
+            "Jude Law",
+            "Jod Na Nawood"
+          ]
+        },
+        {
+          "number": "DA-RM",
+          "page": 8,
+          "debut": false,
+          "subject": "The Stranger",
+          "signer": "Manny Jacinto",
+          "artist": null,
+          "sourceFields": [
+            "Manny Jacinto",
+            "The Stranger"
+          ]
+        },
+        {
+          "number": "DA-RM",
+          "page": 8,
+          "debut": false,
+          "subject": "Vernestra Rwoh",
+          "signer": "Rebecca Henderson",
+          "artist": null,
+          "sourceFields": [
+            "Rebecca Henderson",
+            "Vernestra Rwoh"
+          ]
+        },
+        {
+          "number": "DA-SD",
+          "page": 8,
+          "debut": false,
+          "subject": "Unkar Plutt",
+          "signer": "Simon Pegg",
+          "artist": null,
+          "sourceFields": [
+            "Simon Pegg",
+            "Unkar Plutt"
+          ]
+        },
+        {
+          "number": "DA-SD",
+          "page": 8,
+          "debut": false,
+          "subject": "Rey",
+          "signer": "Daisy Ridley",
+          "artist": null,
+          "sourceFields": [
+            "Daisy Ridley",
+            "Rey"
+          ]
+        },
+        {
+          "number": "DA-WG",
+          "page": 8,
+          "debut": false,
+          "subject": "Moff Gideon",
+          "signer": "Giancarlo Esposito",
+          "artist": null,
+          "sourceFields": [
+            "Giancarlo Esposito",
+            "Moff Gideon"
+          ]
+        },
+        {
+          "number": "DA-WG",
+          "page": 8,
+          "debut": false,
+          "subject": "The Client",
+          "signer": "Werner Herzog",
+          "artist": null,
+          "sourceFields": [
+            "Werner Herzog",
+            "The Client"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TRIO AUTOGRAPHS",
+      "rows": [
+        {
+          "number": "TA-CJD",
+          "page": 8,
+          "debut": false,
+          "subject": "Krrsantan",
+          "signer": "Carey Jones",
+          "artist": null,
+          "sourceFields": [
+            "Carey Jones",
+            "Krrsantan"
+          ]
+        },
+        {
+          "number": "TA-CJD",
+          "page": 8,
+          "debut": false,
+          "subject": "Garsa Fwip",
+          "signer": "Jennifer Beals",
+          "artist": null,
+          "sourceFields": [
+            "Jennifer Beals",
+            "Garsa Fwip"
+          ]
+        },
+        {
+          "number": "TA-CJD",
+          "page": 8,
+          "debut": false,
+          "subject": "Twi'lek Majordomo",
+          "signer": "David Pasquesi",
+          "artist": null,
+          "sourceFields": [
+            "David Pasquesi",
+            "Twi'lek Majordomo"
+          ]
+        },
+        {
+          "number": "TA-EMR",
+          "page": 8,
+          "debut": false,
+          "subject": "Obi-Wan Kenobi",
+          "signer": "Ewan McGregor",
+          "artist": null,
+          "sourceFields": [
+            "Ewan McGregor",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "TA-EMR",
+          "page": 8,
+          "debut": false,
+          "subject": "Reva",
+          "signer": "Moses Ingram",
+          "artist": null,
+          "sourceFields": [
+            "Moses Ingram",
+            "Reva"
+          ]
+        },
+        {
+          "number": "TA-EMR",
+          "page": 8,
+          "debut": false,
+          "subject": "The Grand Inquisitor",
+          "signer": "Rupert Friend",
+          "artist": null,
+          "sourceFields": [
+            "Rupert Friend",
+            "The Grand Inquisitor"
+          ]
+        },
+        {
+          "number": "TA-ENM",
+          "page": 8,
+          "debut": false,
+          "subject": "Hera Syndulla",
+          "signer": "Mary Elizabeth Winstead",
+          "artist": null,
+          "sourceFields": [
+            "Mary Elizabeth Winstead",
+            "Hera Syndulla"
+          ]
+        },
+        {
+          "number": "TA-ENM",
+          "page": 8,
+          "debut": false,
+          "subject": "Ezra Bridger",
+          "signer": "Eman Esfandi",
+          "artist": null,
+          "sourceFields": [
+            "Eman Esfandi",
+            "Ezra Bridger"
+          ]
+        },
+        {
+          "number": "TA-ENM",
+          "page": 8,
+          "debut": false,
+          "subject": "Sabine Wren",
+          "signer": "Natasha Liu Bordizzo",
+          "artist": null,
+          "sourceFields": [
+            "Natasha Liu Bordizzo",
+            "Sabine Wren"
+          ]
+        },
+        {
+          "number": "TA-FVG",
+          "page": 8,
+          "debut": false,
+          "subject": "Mon Mothma",
+          "signer": "Genevieve O'Reilly",
+          "artist": null,
+          "sourceFields": [
+            "Genevieve O'Reilly",
+            "Mon Mothma"
+          ]
+        },
+        {
+          "number": "TA-FVG",
+          "page": 8,
+          "debut": false,
+          "subject": "Vel Sartha",
+          "signer": "Faye Marsay",
+          "artist": null,
+          "sourceFields": [
+            "Faye Marsay",
+            "Vel Sartha"
+          ]
+        },
+        {
+          "number": "TA-FVG",
+          "page": 8,
+          "debut": false,
+          "subject": "Cinta Kaz",
+          "signer": "Varada Sethu",
+          "artist": null,
+          "sourceFields": [
+            "Varada Sethu",
+            "Cinta Kaz"
+          ]
+        },
+        {
+          "number": "TA-FZI",
+          "page": 8,
+          "debut": false,
+          "subject": "Vetch",
+          "signer": "Ian Whyte",
+          "artist": null,
+          "sourceFields": [
+            "Ian Whyte",
+            "Vetch"
+          ]
+        },
+        {
+          "number": "TA-FZI",
+          "page": 8,
+          "debut": false,
+          "subject": "Xanwan",
+          "signer": "Zubin Varla",
+          "artist": null,
+          "sourceFields": [
+            "Zubin Varla",
+            "Xanwan"
+          ]
+        },
+        {
+          "number": "TA-FZI",
+          "page": 8,
+          "debut": false,
+          "subject": "Maarva Andor",
+          "signer": "Fiona Shaw",
+          "artist": null,
+          "sourceFields": [
+            "Fiona Shaw",
+            "Maarva Andor"
+          ]
+        },
+        {
+          "number": "TA-HES",
+          "page": 8,
+          "debut": false,
+          "subject": "Anakin Skywalker",
+          "signer": "Hayden Christensen",
+          "artist": null,
+          "sourceFields": [
+            "Hayden Christensen",
+            "Anakin Skywalker"
+          ]
+        },
+        {
+          "number": "TA-HES",
+          "page": 8,
+          "debut": false,
+          "subject": "Mace Windu",
+          "signer": "Samuel L. Jackson",
+          "artist": null,
+          "sourceFields": [
+            "Samuel L. Jackson",
+            "Mace Windu"
+          ]
+        },
+        {
+          "number": "TA-HES",
+          "page": 8,
+          "debut": false,
+          "subject": "Obi-Wan Kenobi",
+          "signer": "Ewan McGregor",
+          "artist": null,
+          "sourceFields": [
+            "Ewan McGregor",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "TA-JRN",
+          "page": 8,
+          "debut": false,
+          "subject": "Neel",
+          "signer": "Robert Timothy Smith",
+          "artist": null,
+          "sourceFields": [
+            "Robert Timothy Smith",
+            "Neel"
+          ]
+        },
+        {
+          "number": "TA-JRN",
+          "page": 8,
+          "debut": false,
+          "subject": "Jod Na Nawood",
+          "signer": "Jude Law",
+          "artist": null,
+          "sourceFields": [
+            "Jude Law",
+            "Jod Na Nawood"
+          ]
+        },
+        {
+          "number": "TA-JRN",
+          "page": 8,
+          "debut": false,
+          "subject": "SM-33",
+          "signer": "Nick Frost",
+          "artist": null,
+          "sourceFields": [
+            "Nick Frost",
+            "SM-33"
+          ]
+        },
+        {
+          "number": "TA-JSM",
+          "page": 8,
+          "debut": false,
+          "subject": "The Modifier",
+          "signer": "Thundercat",
+          "artist": null,
+          "sourceFields": [
+            "Thundercat",
+            "The Modifier"
+          ]
+        },
+        {
+          "number": "TA-JSM",
+          "page": 8,
+          "debut": false,
+          "subject": "Fennec Shand",
+          "signer": "Ming-Na Wen",
+          "artist": null,
+          "sourceFields": [
+            "Ming-Na Wen",
+            "Fennec Shand"
+          ]
+        },
+        {
+          "number": "TA-JSM",
+          "page": 8,
+          "debut": false,
+          "subject": "Skad",
+          "signer": "Jordan Bolger",
+          "artist": null,
+          "sourceFields": [
+            "Jordan Bolger",
+            "Skad"
+          ]
+        },
+        {
+          "number": "TA-KDA",
+          "page": 8,
+          "debut": false,
+          "subject": "Sergeant Linus Mosk",
+          "signer": "Alex Ferns",
+          "artist": null,
+          "sourceFields": [
+            "Alex Ferns",
+            "Sergeant Linus Mosk"
+          ]
+        },
+        {
+          "number": "TA-KDA",
+          "page": 8,
+          "debut": false,
+          "subject": "Syril Karn",
+          "signer": "Kyle Soller",
+          "artist": null,
+          "sourceFields": [
+            "Kyle Soller",
+            "Syril Karn"
+          ]
+        },
+        {
+          "number": "TA-KDA",
+          "page": 8,
+          "debut": false,
+          "subject": "Dedra Meero",
+          "signer": "Denise Gough",
+          "artist": null,
+          "sourceFields": [
+            "Denise Gough",
+            "Dedra Meero"
+          ]
+        },
+        {
+          "number": "TA-MDN",
+          "page": 8,
+          "debut": false,
+          "subject": "Asajj Ventress",
+          "signer": "Nika Futterman",
+          "artist": null,
+          "sourceFields": [
+            "Nika Futterman",
+            "Asajj Ventress"
+          ]
+        },
+        {
+          "number": "TA-MDN",
+          "page": 8,
+          "debut": false,
+          "subject": "Omega",
+          "signer": "Michelle Ang",
+          "artist": null,
+          "sourceFields": [
+            "Michelle Ang",
+            "Omega"
+          ]
+        },
+        {
+          "number": "TA-MDN",
+          "page": 8,
+          "debut": false,
+          "subject": "Hunter",
+          "signer": "Dee Bradley Baker",
+          "artist": null,
+          "sourceFields": [
+            "Dee Bradley Baker",
+            "Hunter"
+          ]
+        },
+        {
+          "number": "TA-WTN",
+          "page": 8,
+          "debut": false,
+          "subject": "Kuill",
+          "signer": "Nick Nolte",
+          "artist": null,
+          "sourceFields": [
+            "Nick Nolte",
+            "Kuill"
+          ]
+        },
+        {
+          "number": "TA-WTN",
+          "page": 8,
+          "debut": false,
+          "subject": "IG-11",
+          "signer": "Taika Waititi",
+          "artist": null,
+          "sourceFields": [
+            "Taika Waititi",
+            "IG-11"
+          ]
+        },
+        {
+          "number": "TA-WTN",
+          "page": 8,
+          "debut": false,
+          "subject": "The Client",
+          "signer": "Werner Herzog",
+          "artist": null,
+          "sourceFields": [
+            "Werner Herzog",
+            "The Client"
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceArtifacts": [
+    {
+      "text": "DEBUT",
+      "page": 13,
+      "x": 52.8,
+      "reason": "Unattached trailing DEBUT glyph; no numbered source row on page."
+    },
+    {
+      "text": "DEBUT",
+      "page": 13,
+      "x": 52.8,
+      "reason": "Unattached trailing DEBUT glyph; no numbered source row on page."
+    },
+    {
+      "text": "DEBUT",
+      "page": 13,
+      "x": 52.8,
+      "reason": "Unattached trailing DEBUT glyph; no numbered source row on page."
+    },
+    {
+      "text": "DEBUT",
+      "page": 13,
+      "x": 52.8,
+      "reason": "Unattached trailing DEBUT glyph; no numbered source row on page."
+    },
+    {
+      "text": "DEBUT",
+      "page": 13,
+      "x": 52.8,
+      "reason": "Unattached trailing DEBUT glyph; no numbered source row on page."
+    },
+    {
+      "text": "DEBUT",
+      "page": 13,
+      "x": 52.8,
+      "reason": "Unattached trailing DEBUT glyph; no numbered source row on page."
+    },
+    {
+      "text": "DEBUT",
+      "page": 14,
+      "x": 52.8,
+      "reason": "Unattached trailing DEBUT glyph; no numbered source row on page."
+    },
+    {
+      "text": "DEBUT",
+      "page": 14,
+      "x": 52.8,
+      "reason": "Unattached trailing DEBUT glyph; no numbered source row on page."
+    },
+    {
+      "text": "DEBUT",
+      "page": 14,
+      "x": 52.8,
+      "reason": "Unattached trailing DEBUT glyph; no numbered source row on page."
+    },
+    {
+      "text": "DEBUT",
+      "page": 14,
+      "x": 52.8,
+      "reason": "Unattached trailing DEBUT glyph; no numbered source row on page."
+    },
+    {
+      "text": "DEBUT",
+      "page": 14,
+      "x": 52.8,
+      "reason": "Unattached trailing DEBUT glyph; no numbered source row on page."
+    },
+    {
+      "text": "DEBUT",
+      "page": 14,
+      "x": 52.8,
+      "reason": "Unattached trailing DEBUT glyph; no numbered source row on page."
+    },
+    {
+      "text": "DEBUT",
+      "page": 14,
+      "x": 52.8,
+      "reason": "Unattached trailing DEBUT glyph; no numbered source row on page."
+    },
+    {
+      "text": "DEBUT",
+      "page": 14,
+      "x": 52.8,
+      "reason": "Unattached trailing DEBUT glyph; no numbered source row on page."
+    },
+    {
+      "text": "DEBUT",
+      "page": 14,
+      "x": 52.8,
+      "reason": "Unattached trailing DEBUT glyph; no numbered source row on page."
+    },
+    {
+      "text": "DEBUT",
+      "page": 15,
+      "x": 52.8,
+      "reason": "Unattached trailing DEBUT glyph; no numbered source row on page."
+    },
+    {
+      "text": "DEBUT",
+      "page": 15,
+      "x": 52.8,
+      "reason": "Unattached trailing DEBUT glyph; no numbered source row on page."
+    },
+    {
+      "text": "DEBUT",
+      "page": 15,
+      "x": 52.8,
+      "reason": "Unattached trailing DEBUT glyph; no numbered source row on page."
+    },
+    {
+      "text": "DEBUT",
+      "page": 15,
+      "x": 52.8,
+      "reason": "Unattached trailing DEBUT glyph; no numbered source row on page."
+    },
+    {
+      "text": "DEBUT",
+      "page": 15,
+      "x": 52.8,
+      "reason": "Unattached trailing DEBUT glyph; no numbered source row on page."
+    },
+    {
+      "text": "DEBUT",
+      "page": 15,
+      "x": 52.8,
+      "reason": "Unattached trailing DEBUT glyph; no numbered source row on page."
+    }
+  ],
+  "blankPages": [
+    9,
+    10,
+    11,
+    12
+  ],
+  "odds": [
+    {
+      "label": "Characters-Green Sapphire",
+      "sapphire": "1:4",
+      "page": 1,
+      "rawLine": "Characters-Green Sapphire 1:4"
+    },
+    {
+      "label": "Characters-Gold Sapphire",
+      "sapphire": "1:8",
+      "page": 1,
+      "rawLine": "Characters-Gold Sapphire 1:8"
+    },
+    {
+      "label": "Characters-Orange Sapphire",
+      "sapphire": "1:17",
+      "page": 1,
+      "rawLine": "Characters-Orange Sapphire 1:17"
+    },
+    {
+      "label": "Characters-Black Sapphire",
+      "sapphire": "1:42",
+      "page": 1,
+      "rawLine": "Characters-Black Sapphire 1:42"
+    },
+    {
+      "label": "Characters-Red Sapphire",
+      "sapphire": "1:83",
+      "page": 1,
+      "rawLine": "Characters-Red Sapphire 1:83"
+    },
+    {
+      "label": "Characters-Padpradascha Sapphire",
+      "sapphire": "1:416",
+      "page": 1,
+      "rawLine": "Characters-Padpradascha Sapphire 1:416"
+    },
+    {
+      "label": "Sapphire Selections",
+      "sapphire": "1:170",
+      "page": 1,
+      "rawLine": "Sapphire Selections 1:170"
+    },
+    {
+      "label": "Sapphire Selections-Orange Sapphire",
+      "sapphire": "1:335",
+      "page": 1,
+      "rawLine": "Sapphire Selections-Orange Sapphire 1:335"
+    },
+    {
+      "label": "Sapphire Selections-Black Sapphire",
+      "sapphire": "1:837",
+      "page": 1,
+      "rawLine": "Sapphire Selections-Black Sapphire 1:837"
+    },
+    {
+      "label": "Sapphire Selections-Red Sapphire",
+      "sapphire": "1:1,709",
+      "page": 1,
+      "rawLine": "Sapphire Selections-Red Sapphire 1:1,709"
+    },
+    {
+      "label": "Sapphire Selections-Padpradascha Sapphire",
+      "sapphire": "1:11,474",
+      "page": 1,
+      "rawLine": "Sapphire Selections-Padpradascha Sapphire 1:11,474"
+    },
+    {
+      "label": "Single Autographs - Blue Sapphire",
+      "sapphire": "1:137",
+      "page": 1,
+      "rawLine": "Single Autographs - Blue Sapphire 1:137"
+    },
+    {
+      "label": "Single Autographs - Padpradascha Sapphire",
+      "sapphire": "1:658",
+      "page": 1,
+      "rawLine": "Single Autographs - Padpradascha Sapphire 1:658"
+    },
+    {
+      "label": "Dual Autographs- Blue Sapphire",
+      "sapphire": "1:1,359",
+      "page": 1,
+      "rawLine": "Dual Autographs- Blue Sapphire 1:1,359"
+    },
+    {
+      "label": "Dual Autographs- Padpradascha Sapphire",
+      "sapphire": "1:5,436",
+      "page": 1,
+      "rawLine": "Dual Autographs- Padpradascha Sapphire 1:5,436"
+    },
+    {
+      "label": "Triple Autographs -Blue Sapphire",
+      "sapphire": "1:1,631",
+      "page": 1,
+      "rawLine": "Triple Autographs -Blue Sapphire 1:1,631"
+    },
+    {
+      "label": "Triple Autographs- Padpradascha Sapphire",
+      "sapphire": "1:7,413",
+      "page": 1,
+      "rawLine": "Triple Autographs- Padpradascha Sapphire 1:7,413"
+    }
+  ]
+}
