@@ -290,7 +290,7 @@ function cardRow(card) {
     </button>
     <div class="card-number">#${escapeHtml(card.number)}</div>
     <button class="card-name card-name-button" data-open-card="${escapeHtml(card.id)}">${escapeHtml(card.name)}<small>${escapeHtml(card.subset)}${card.rookie === "Yes" ? " · Rookie" : ""}</small></button>
-    <div class="card-set">${escapeHtml(set.shortName)}<small>${escapeHtml(card.roster || "WWE")}</small></div>
+    <div class="card-set">${escapeHtml(set.shortName)}<small>${escapeHtml(card.roster || GrailCategories.get(set.categoryId).name)}</small></div>
     <span class="category-pill">${escapeHtml(card.category)}</span>
     <div class="card-actions">
       <button class="state-button owned ${status === "owned" ? "active" : ""}" aria-pressed="${status === "owned"}" data-card-id="${card.id}" data-status="owned">${status === "owned" ? "✓ " : ""}Owned</button>

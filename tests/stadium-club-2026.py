@@ -59,7 +59,9 @@ class CatalogueUpdate(unittest.TestCase):
             return subprocess.check_output(['git', 'show', f'{base}:{path}'], cwd=ROOT)
         index = json.loads(old('data/catalogue-index.json'))
         current = load_catalogue()
-        self.assertEqual((current['setCount'], current['cardCount']), (24, 11298))
+        wwe_sets = [s for s in current['sets'] if s['categoryId'] == 'wwe']
+        wwe_ids = {s['id'] for s in wwe_sets}
+        self.assertEqual((len(wwe_sets), len([c for c in current['cards'] if c['setId'] in wwe_ids])), (24, 11298))
         now_main = None
         for record in index['sets']:
             path = 'data/' + record['file']

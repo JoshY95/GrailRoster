@@ -1,6 +1,6 @@
 const assert = require('node:assert/strict');
 const { chromium } = require('playwright');
-const expectedSetCount = require('../data/catalogue-index.json').setCount;
+const expectedSetCount = require('../data/catalogue-index.json').sets.filter(s=>s.categoryId==='wwe').length;
 
 (async () => {
   const browser = await chromium.launch({ headless: true, ...(process.env.CHROMIUM_EXECUTABLE_PATH ? {executablePath:process.env.CHROMIUM_EXECUTABLE_PATH, args:['--no-sandbox']} : {}) });

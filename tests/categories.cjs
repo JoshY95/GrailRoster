@@ -63,9 +63,13 @@ async function harness(storage = new Map()) {
   assert.equal(run('state.franchise'),'star-wars');
   assert.equal(run('state.query'),'');
   assert.equal(run('state.setId'),'all');
-  assert.equal(document.querySelector('#categoryWorkspace').hidden,true);
-  assert.equal(document.querySelector('#categoryEmpty').hidden,false);
-  assert.match(document.querySelector('#categoryEmptyTitle').textContent,/Star Wars/);
+  assert.equal(document.querySelector('#categoryWorkspace').hidden,false);
+  assert.equal(document.querySelector('#categoryEmpty').hidden,true);
+  assert.equal(run('categoryCatalogue().cardCount'),1304);
+  assert.equal(document.querySelectorAll('#allSets .set-card').length,1);
+  run("changeView('cards')");
+  assert(!document.querySelector('#cardList').textContent.includes('WWE'));
+  document.querySelector('[data-franchise="marvel"]').click();
   for(const view of ['dashboard','sets','cards','collection','wanted']) {
     run(`changeView('${view}')`);
     assert.equal(document.querySelectorAll('#allSets .set-card, #cardList .card-row, #collectionList .card-row, #wantedList .card-row, #dashboardRecent .recent-card').length,0,view);
@@ -99,15 +103,16 @@ async function harness(storage = new Map()) {
   }`);
   for(const [id,cost] of [['star-wars',25],['marvel',500]]) {
     run(`changeCategory('${id}');changeView('cards')`);
-    assert.equal(run('categoryCatalogue().cardCount'),1);
+    const imported=id==='star-wars'?1304:0;
+    assert.equal(run('categoryCatalogue().cardCount'),imported+1);
     assert.equal(run('counts().owned'),1);
-    assert.equal(document.querySelectorAll('#allSets .set-card').length,1);
-    assert.equal(document.querySelectorAll('#cardList .card-row').length,1);
+    assert.equal(document.querySelectorAll('#allSets .set-card').length,imported?2:1);
+    assert(document.querySelectorAll('#cardList .card-row').length>=1);
     assert.equal(document.querySelectorAll('#collectionList .card-row').length,1);
     assert.equal(document.querySelectorAll('#wantedList .card-row').length,0);
     assert.match(document.querySelector('#vaultOverview').textContent,new RegExp('\\$'+cost.toFixed(2)));
     assert(!document.querySelector('#vaultOverview').textContent.includes(cost===25?'$500.00':'$25.00'));
-    assert.equal(document.querySelector('#setFilter').options.length,2);
+    assert.equal(document.querySelector('#setFilter').options.length,imported?3:2);
     assert.equal(document.querySelector('#categoryWorkspace').hidden,false);
   }
   run('backupCollection()');
@@ -129,7 +134,7 @@ async function harness(storage = new Map()) {
   cloud.run('state.supabase={};fetchAllRows=async table=>cloudRows[table]');
   assert.equal((await cloud.run('loadCatalogue()')).sets[0].categoryId,'wwe');
   cloud.context.cloudRows.catalogue_sets.push({...cloud.context.cloudRows.catalogue_sets[0],id:'unreviewed-cloud-set'});
-  assert.equal((await cloud.run('loadCatalogue()')).setCount,24,'Unclassified remote sets must fall back to the reviewed bundle');
+  assert.equal((await cloud.run('loadCatalogue()')).setCount,source.setCount,'Unclassified remote sets must fall back to the reviewed bundle');
   cloud.context.cloudRows.catalogue_sets.pop();
   cloud.context.cloudRows.catalogue_cards[0].id='unexpected-replacement';
   assert.equal((await cloud.run('loadCatalogue()')).cards[0].id,source.cards[0].id,'Missing bundled IDs must trigger fallback');

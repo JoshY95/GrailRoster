@@ -2,6 +2,16 @@
 
 Read this first; inspect only files needed for the current task.
 
+## First Star Wars set — 25 October 2026 (prepared)
+
+- User authorised starting with the newest Star Wars set and working backwards. One set per task remains the workflow.
+- 2026 Topps Chrome Star Wars: 1,304 identities / 27 subsets, explicit star-wars category. All 1,369 source rows independently matched Poppler; 44 duo + 57 triple signature rows combine into 41 cards. Five Sapphire-only Hidden Gems identities deferred.
+- Retained all 186 combined odds rows; 151 Chrome subset rules imported. No invented Superbox design subjects, sketch identities, card-specific parallel grids or serial caps. Only the Topps guide supports a subset Logofractor /77 rule. Audit: docs/CHROME_STAR_WARS_2026_IMPORT_AUDIT.md.
+- Local catalogue now 25 sets / 12,602 identities: WWE remains 24 / 11,298; Star Wars 1 / 1,304; Marvel empty. All pre-existing set files, metadata, card IDs and frozen snapshot are byte-identical to the published main baseline b579bc05bf19229b87ab9437a2394ee19d5bf10f.
+- Local focused import/source tests and existing catalogue/category regressions passed. Browser CI, guarded database dry-run/commit, publication and live parity remain pending. Prepared SQL is supabase/corrections/2026-10-25-chrome-star-wars.sql; do not claim it applied until verified.
+- Next set: 2026 Topps Chrome Star Wars Galaxy. 2026 Sapphire is announced for 28 October UTC / 29 October Melbourne, and is not part of this import.
+
+
 ## Multi-category release — 25 October 2026 (published)
 
 - User approved clean separation for WWE, Star Wars and Marvel after reviewing the
