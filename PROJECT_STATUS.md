@@ -2,6 +2,14 @@
 
 Read this first; inspect only files needed for the current task.
 
+## Star Wars Hyperspace 2025 — 26 October 2026 (imported, publication pending)
+
+- Resumed next authorised set SW-006: 2025 Topps Star Wars Hyperspace, official release 30 December 2025. 347 numbered designs /12 subsets: 100 base, 100 separately numbered BPV variations, 110 inserts and 37 autographs. All source rows, five unnumbered panoramic themes, 18 panoramic/144 regular sketch artists and 77 odds independently matched Poppler. Japanese artist ジェイソン (Jason) is one split-text line, not two artists.
+- 71 subset odds rules; six sketch rates source-only. No inferred serial caps, sketch IDs or subject/parallel grids. Planet metadata retained/searchable. Audit: docs/HYPERSPACE_STAR_WARS_2025_IMPORT_AUDIT.md.
+- Local/database totals 32 sets /16,553 identities; Star Wars 8 /5,255. All prior 31 metadata/set bundles and frozen snapshot unchanged. Five focused tests and all existing source/catalogue/category regressions passed locally. Browser CI pending; known unavailable local Chromium not retried.
+- Guarded SQL supabase/corrections/2026-10-26-star-wars-hyperspace-2025.sql passed rolled-back dry run, commit and repeat with all eight full-row digests identical. All 30 collections retain 6648329147d88b88ed9e52eaac40cfa9; images remain empty. No collector writes. Publication and live parity pending. Authenticated private-photo/two-device flows not rerun.
+- Next after publication: SW-008 — 2025 Topps Star Wars Meiyo. One set per task.
+
 ## Star Wars Chrome 2025 — 26 October 2026 (published)
 
 - Next authorised set: regular 2025 Topps Chrome Star Wars, release 20 August 2025. 1,235 identities /20 subsets from 1,272 rows: 200 base, 840 inserts and 195 autographs. Duo/trio repeats combine; 188 sketch artists remain a roster. All rows, 281 attached DEBUT flags and 95 odds rows independently matched Poppler. Audit: docs/CHROME_STAR_WARS_2025_IMPORT_AUDIT.md.

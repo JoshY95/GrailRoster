@@ -28,6 +28,7 @@ jobs:
           python3 tests/chrome-star-wars-galaxy-2025.py
           python3 tests/chrome-sapphire-star-wars-2025.py
           python3 tests/chrome-star-wars-2025.py
+          python3 tests/hyperspace-star-wars-2025.py
           node tests/catalogue-split.cjs
           node tests/categories.cjs
           python3 tests/category-imports.py

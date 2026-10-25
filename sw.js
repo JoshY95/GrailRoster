@@ -1,4 +1,4 @@
-const CACHE = "grailroster-star-wars-chrome-2025-v31";
+const CACHE = "grailroster-star-wars-hyperspace-2025-v32";
 const ASSETS = ["./", "index.html", "theme.css", "styles.css", "vault.css?v=19", "categories.js", "ui.js", "vault.js?v=24", "config.js", "app.js?v=25", "manifest.json", "data/catalogue-index.json", "data/images.json"];
 
 self.addEventListener("install", (event) => event.waitUntil((async () => {
