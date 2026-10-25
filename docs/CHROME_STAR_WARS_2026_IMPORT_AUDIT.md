@@ -1,6 +1,6 @@
 # 2026 Topps Chrome Star Wars — import audit
 
-Status: built and locally validated; browser CI and production publication pending.
+Status: imported and published through PR #7. Browser CI 40192755992 and Pages 40192984799 passed.
 
 ## Reconciliation
 
@@ -66,4 +66,4 @@ Release date: 30 September 2026, explicitly stated by Topps. Hobby, Breaker Deli
 
 All 24 existing WWE metadata records, per-set JSON bytes, 11,298 card identities and the frozen compatibility snapshot remain unchanged. One local renderer fallback now uses the parent franchise name instead of labelling a card with no roster as WWE. The new cache version refreshes the category index offline.
 
-Local checks passed: four source/import/SQL tests, six existing Stadium Club tests, catalogue loader/preservation/offline asset-list regression, real-page category DOM tests and import-category contract. Failed intermediate assertions were corrected before this milestone. Full browser CI, database dry-run/commit and live checks are pending. No private collector/photo changes are part of the import.
+Local checks passed: four source/import/SQL tests, six existing Stadium Club tests, catalogue loader/preservation/offline asset-list regression, real-page category DOM tests and import-category contract. Failed intermediate assertions were corrected before this milestone. Browser CI also passed guest, Vault, real offline reload and category isolation/ownership at widths 320–1440px. The guarded transaction passed a rolled-back dry run, committed successfully, and a second committed application was a no-op across complete-row digests of all eight catalogue/collector/image tables. All 38 production assets match local source. Live guest UI showed the isolated 1,304-card Star Wars set and two Ewan McGregor autograph search results; WWE remains 24 sets / 11,298 cards. All 30 collector entries retain digest 6648329147d88b88ed9e52eaac40cfa9; reference images remain empty. Authenticated two-device/private-photo flows were not retested. Release receipt: docs/CHROME_STAR_WARS_2026_RELEASE.json.
