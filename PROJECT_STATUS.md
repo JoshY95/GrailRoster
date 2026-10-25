@@ -2,13 +2,15 @@
 
 Read this first; inspect only files needed for the current task.
 
-## Star Wars Masterwork — 25 October 2026 (prepared)
+## Star Wars Masterwork — 25 October 2026 (published)
 
 - Authorised next set: 2025 Topps Star Wars Masterwork. Official title year 2025, actual release 3 June 2026; generic product-year metadata differs and is not a second set.
 - Built 589 identities / 19 subsets: 100 base, 119 inserts, 120 autographs, 113 relics, 137 autograph relics. All 660 manufacturer rows independently matched Poppler. Multi-signer repeats combine into one card; four UBC cards each have ten signers.
 - 680 variant records: 589 identity placeholders and 91 explicitly verified non-autograph ROTJ film cel 1/1 editions, supported by the official Topps overview. No autograph-relic caps, guessed frames or subject/parallel grids. Ninety odds rows retained; 84 subset rules include one explicitly unresolved malformed pack rate (Skeleton Crew Auto Relic Black printed 1,249). Sketches and two buyback programmes remain unenumerated. Audit: docs/MASTERWORK_STAR_WARS_2025_IMPORT_AUDIT.md.
 - Local catalogue: 27 sets / 13,514 identities; Star Wars 3 / 2,216. All 26 prior metadata/set bundles and frozen snapshot remain byte-identical to baseline f16adeee60e5cab1d5c1f2934bfa6d4dd2378e21. Local focused and existing source/category/catalogue tests passed.
-- Browser CI, guarded SQL application and live publication pending. SQL: supabase/corrections/2026-10-25-star-wars-masterwork.sql, baseline 26 sets / 12,925 cards. Next set: 2025 Topps Star Wars Smugglers Outpost. One set per task.
+- Browser CI 40196453340 passed guest, Vault, offline reload, three-set ownership isolation, autograph-relic filtering and ten-signer book layout at 320–1440px. Guarded SQL passed a rolled-back dry run, committed successfully and a second committed run left complete-row digests unchanged across all eight tables. Collections remain 30, digest 6648329147d88b88ed9e52eaac40cfa9; images remain empty. No collector writes occurred.
+- Published via PR #9, feature 30c8519b272588531385dbbb125c3744a6a198d5, merge d887ab592a768dfe550777e46854117fa00cf569. Pages 40196643494 succeeded. All 40 runtime/index/set assets match validated source bytes. Live guest UI showed three Star Wars sets / 2,216 cards, Masterwork 589 / 19 subsets, and UBC-456 as one ten-signer card. Existing cache refreshed after one normal reload. Receipt: docs/MASTERWORK_STAR_WARS_2025_RELEASE.json. Authenticated two-device/private-photo checks were not rerun.
+- SQL: supabase/corrections/2026-10-25-star-wars-masterwork.sql, baseline 26 sets / 12,925 cards. Next set: 2025 Topps Star Wars Smugglers Outpost. One set per task.
 
 
 ## Star Wars Galaxy — 25 October 2026 (published)

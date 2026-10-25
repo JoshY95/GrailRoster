@@ -1,6 +1,6 @@
 # 2025 Topps Star Wars Masterwork — import audit
 
-Status: built and locally validated; browser CI, database application and publication pending.
+Status: imported and published via PR #9. Browser CI 40196453340 and Pages 40196643494 succeeded.
 
 ## Manufacturer reconciliation
 
@@ -58,6 +58,6 @@ The official product title is 2025 Star Wars Masterwork. The product page states
 
 ## Preservation and verification
 
-All 26 prior metadata records, per-set bundle bytes, 12,925 card identities and frozen data/catalogue.json remain unchanged against baseline f16adeee60e5cab1d5c1f2934bfa6d4dd2378e21. Focused source/import and existing category/catalogue regressions passed locally. Browser CI will check Masterwork ownership, autograph-relic filtering, repeated actor-name designs, ten-signer book rendering at 320–1440px and offline/category isolation. Guarded database dry run, commit and production checks are pending. Authenticated two-device/private-photo flows are not implied.
+All 26 prior metadata records, per-set bundle bytes, 12,925 card identities and frozen data/catalogue.json remain unchanged against baseline f16adeee60e5cab1d5c1f2934bfa6d4dd2378e21. Focused source/import and existing category/catalogue regressions passed locally. Browser CI passed Masterwork ownership, autograph-relic filtering, repeated actor-name designs, ten-signer book rendering at 320–1440px and offline/category isolation. Guarded SQL passed a rolled-back dry run, committed successfully and a second committed run left all eight complete-row digests unchanged. All 30 collections retain digest 6648329147d88b88ed9e52eaac40cfa9; images remain empty. All 40 production assets match validated source. Live guest UI confirmed three Star Wars sets / 2,216 cards, Masterwork 589 / 19 subsets and one UBC-456 identity with ten signers, after one normal reload of the old cached session. Authenticated two-device/private-photo flows were not rerun. Receipt: docs/MASTERWORK_STAR_WARS_2025_RELEASE.json.
 
 Next set: 2025 Topps Star Wars Smugglers Outpost.
