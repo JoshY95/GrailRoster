@@ -2,6 +2,13 @@
 
 Read this first; inspect only files needed for the current task.
 
+## Star Wars Sapphire 2025 — 26 October 2026 (prepared)
+
+- Authorised next set: 2025 Topps Chrome Sapphire Star Wars, official release 17 September 2025. 358 identities /5 subsets from 395 numbered rows: 200 base, 10 Sapphire Selections, 148 autographs. Duo/trio signer repeats combine. All numbered rows, 65 attached DEBUT flags and 17 odds rows independently matched Poppler.
+- PDF has four blank pages and 21 unattached trailing DEBUT glyphs, retained only as artifacts. No fake identities/flags. Repeated character names with distinct printed numbers and mixed-case DA-MJj are preserved. All 17 odds subset rules retained; no inferred serial caps or subject/parallel grids. Audit: docs/CHROME_SAPPHIRE_STAR_WARS_2025_IMPORT_AUDIT.md.
+- Local totals 30 sets /14,971 identities; Star Wars 6 /3,673. All prior 29 metadata/set files and frozen snapshot unchanged. Focused and existing local regressions passed; browser CI, guarded SQL and publication pending.
+- SQL: supabase/corrections/2026-10-26-star-wars-sapphire-2025.sql, baseline 29 /14,613. Next: 2025 Topps Chrome Star Wars. One set per task.
+
 ## Star Wars Galaxy 2025 — 26 October 2026 (published)
 
 - Authorised next set: 2025 Topps Chrome Star Wars Galaxy, official release 10 December 2025. 293 identities / 15 subsets from 325 numbered rows: 100 base, 103 inserts, 20 McQuarrie buybacks, 70 autographs including two buybacks. Multi-signer repeats combine; 154 sketch and seven Blank Canvas artists remain rosters. All checklist and odds rows independently matched Poppler.
