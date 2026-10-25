@@ -42,7 +42,7 @@ class Chrome2025(unittest.TestCase):
   base='fd8235e'
   def old(p):return subprocess.check_output(['git','show',f'{base}:{p}'],cwd=ROOT)
   prior=json.loads(old('data/catalogue-index.json'));current=load_catalogue()
-  self.assertEqual(len(current['sets']),31);self.assertEqual(len(current['cards']),16206)
+  self.assertGreaterEqual(len(current['sets']),31);self.assertGreaterEqual(len(current['cards']),16206)
   for r in prior['sets']:
    self.assertEqual((ROOT/'data'/r['file']).read_bytes(),old('data/'+r['file']))
    self.assertEqual(next(x for x in current['sets'] if x['id']==r['id']),{k:v for k,v in r.items() if k!='file'})

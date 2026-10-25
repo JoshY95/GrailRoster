@@ -1,0 +1,5353 @@
+{
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Star_Wars_Hyperpsace_Checklist.pdf?v=1787957644",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Star_Wars_Hyperspace_Odds.pdf?v=1787957644",
+  "productUrl": "https://www.topps.com/products/2025-star-wars-hyperspace-hobby-box",
+  "checklistSha256": "9e31cb8d1889575264e05b67133da6de7e462fb3c92739799a987b60b9ea1cfb",
+  "oddsSha256": "2c64da7972a2b8d9d3ec0056109b29605fa3a0c56bd58fadd7d9e7507d2862e1",
+  "subsets": [
+    {
+      "name": "BASE CARDS",
+      "rows": [
+        {
+          "number": "1",
+          "page": 1,
+          "subject": "Ahsoka Tano",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Ahsoka Tano",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "2",
+          "page": 1,
+          "subject": "Alderaan Royal Guard",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Alderaan Royal Guard",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "3",
+          "page": 1,
+          "subject": "Aurra Sing",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Aurra Sing",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "4",
+          "page": 1,
+          "subject": "Bail Organa",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Bail Organa",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "5",
+          "page": 1,
+          "subject": "Breha Organa",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Breha Organa",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "6",
+          "page": 1,
+          "subject": "Captain Typho",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Captain Typho",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "7",
+          "page": 1,
+          "subject": "Celly Organa",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Celly Organa",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "8",
+          "page": 1,
+          "subject": "Kayo Organa",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Kayo Organa",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "9",
+          "page": 1,
+          "subject": "L0-LA59",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "L0-LA59",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "10",
+          "page": 1,
+          "subject": "Leia Organa",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Leia Organa",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "11",
+          "page": 1,
+          "subject": "Mon Mothma",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Mon Mothma",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "12",
+          "page": 1,
+          "subject": "Naboo Royal Cruiser",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Naboo Royal Cruiser",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "13",
+          "page": 1,
+          "subject": "Niano Organa",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Niano Organa",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "14",
+          "page": 1,
+          "subject": "Tantive IV",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Tantive IV",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "15",
+          "page": 1,
+          "subject": "Vect Nokru",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Vect Nokru",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "16",
+          "page": 1,
+          "subject": "Ahsoka Tano",
+          "signer": null,
+          "artist": null,
+          "planet": "Corellia",
+          "sourceFields": [
+            "Ahsoka Tano",
+            "Corellia"
+          ]
+        },
+        {
+          "number": "17",
+          "page": 1,
+          "subject": "Chopper",
+          "signer": null,
+          "artist": null,
+          "planet": "Corellia",
+          "sourceFields": [
+            "Chopper",
+            "Corellia"
+          ]
+        },
+        {
+          "number": "18",
+          "page": 1,
+          "subject": "Han Solo",
+          "signer": null,
+          "artist": null,
+          "planet": "Corellia",
+          "sourceFields": [
+            "Han Solo",
+            "Corellia"
+          ]
+        },
+        {
+          "number": "19",
+          "page": 1,
+          "subject": "Han Solo's landspeeder",
+          "signer": null,
+          "artist": null,
+          "planet": "Corellia",
+          "sourceFields": [
+            "Han Solo's landspeeder",
+            "Corellia"
+          ]
+        },
+        {
+          "number": "20",
+          "page": 1,
+          "subject": "Hera Syndulla",
+          "signer": null,
+          "artist": null,
+          "planet": "Corellia",
+          "sourceFields": [
+            "Hera Syndulla",
+            "Corellia"
+          ]
+        },
+        {
+          "number": "21",
+          "page": 1,
+          "subject": "HK-87 Assassin Droid",
+          "signer": null,
+          "artist": null,
+          "planet": "Corellia",
+          "sourceFields": [
+            "HK-87 Assassin Droid",
+            "Corellia"
+          ]
+        },
+        {
+          "number": "22",
+          "page": 1,
+          "subject": "Marrok",
+          "signer": null,
+          "artist": null,
+          "planet": "Corellia",
+          "sourceFields": [
+            "Marrok",
+            "Corellia"
+          ]
+        },
+        {
+          "number": "23",
+          "page": 1,
+          "subject": "Qi'ra",
+          "signer": null,
+          "artist": null,
+          "planet": "Corellia",
+          "sourceFields": [
+            "Qi'ra",
+            "Corellia"
+          ]
+        },
+        {
+          "number": "24",
+          "page": 1,
+          "subject": "Stormtrooper",
+          "signer": null,
+          "artist": null,
+          "planet": "Corellia",
+          "sourceFields": [
+            "Stormtrooper",
+            "Corellia"
+          ]
+        },
+        {
+          "number": "25",
+          "page": 1,
+          "subject": "Agent Kallus",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Agent Kallus",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "26",
+          "page": 1,
+          "subject": "Darth Vader",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Darth Vader",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "27",
+          "page": 1,
+          "subject": "Ezra Bridger",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Ezra Bridger",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "28",
+          "page": 1,
+          "subject": "Fifth Brother",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Fifth Brother",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "29",
+          "page": 1,
+          "subject": "Garazeb Orrelios",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Garazeb Orrelios",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "30",
+          "page": 1,
+          "subject": "Governor Pryce",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Governor Pryce",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "31",
+          "page": 1,
+          "subject": "Grand Admiral Thrawn",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Grand Admiral Thrawn",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "32",
+          "page": 1,
+          "subject": "Huyang",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Huyang",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "33",
+          "page": 1,
+          "subject": "Kanan Jarrus",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Kanan Jarrus",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "34",
+          "page": 1,
+          "subject": "Loth-cat",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Loth-cat",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "35",
+          "page": 1,
+          "subject": "Loth-wolf",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Loth-wolf",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "36",
+          "page": 1,
+          "subject": "Rukh",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Rukh",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "37",
+          "page": 1,
+          "subject": "Ryder Azadi",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Ryder Azadi",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "38",
+          "page": 1,
+          "subject": "Sabine Wren",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Sabine Wren",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "39",
+          "page": 1,
+          "subject": "Seventh Sister",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Seventh Sister",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "40",
+          "page": 2,
+          "subject": "Shin Hati",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Shin Hati",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "41",
+          "page": 2,
+          "subject": "The Grand Inquisitor",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "The Grand Inquisitor",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "42",
+          "page": 2,
+          "subject": "Tie Fighter",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Tie Fighter",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "43",
+          "page": 2,
+          "subject": "Almec",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Almec",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "44",
+          "page": 2,
+          "subject": "Amis",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Amis",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "45",
+          "page": 2,
+          "subject": "Anakin Skywalker",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Anakin Skywalker",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "46",
+          "page": 2,
+          "subject": "Bo-Katan Kryze",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Bo-Katan Kryze",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "47",
+          "page": 2,
+          "subject": "Bo-Katan Kryze's Gauntlet starfighter",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Bo-Katan Kryze's Gauntlet starfighter",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "48",
+          "page": 2,
+          "subject": "Duchess Satine Kryze",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Duchess Satine Kryze",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "49",
+          "page": 2,
+          "subject": "Imperial Armored Commando",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Imperial Armored Commando",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "50",
+          "page": 2,
+          "subject": "Korkie Kryze",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Korkie Kryze",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "51",
+          "page": 2,
+          "subject": "Koska Reeves",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Koska Reeves",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "52",
+          "page": 2,
+          "subject": "Moff Gideon",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Moff Gideon",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "53",
+          "page": 2,
+          "subject": "Paz Vizsla",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Paz Vizsla",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "54",
+          "page": 2,
+          "subject": "Pre Vizsla",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Pre Vizsla",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "55",
+          "page": 2,
+          "subject": "R5-D4",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "R5-D4",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "56",
+          "page": 2,
+          "subject": "Soniee",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Soniee",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "57",
+          "page": 2,
+          "subject": "The Armorer",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "The Armorer",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "58",
+          "page": 2,
+          "subject": "The Coronet",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "The Coronet",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "59",
+          "page": 2,
+          "subject": "The Mandalorian",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "The Mandalorian",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "60",
+          "page": 2,
+          "subject": "Ursa Wren",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Ursa Wren",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "61",
+          "page": 2,
+          "subject": "Anakin Skywalker's Podracer",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Anakin Skywalker's Podracer",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "62",
+          "page": 2,
+          "subject": "Bib Fortuna",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Bib Fortuna",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "63",
+          "page": 2,
+          "subject": "Boba Fett",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Boba Fett",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "64",
+          "page": 2,
+          "subject": "Boba Fett's Starship",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Boba Fett's Starship",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "65",
+          "page": 2,
+          "subject": "C-3PO",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "C-3PO",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "66",
+          "page": 2,
+          "subject": "Cad Bane",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Cad Bane",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "67",
+          "page": 2,
+          "subject": "Chef Droid",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Chef Droid",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "68",
+          "page": 2,
+          "subject": "Cobb Vanth",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Cobb Vanth",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "69",
+          "page": 2,
+          "subject": "Darth Maul",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Darth Maul",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "70",
+          "page": 2,
+          "subject": "Desert Skiff",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Desert Skiff",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "71",
+          "page": 2,
+          "subject": "Fennec Shand",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Fennec Shand",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "72",
+          "page": 2,
+          "subject": "Figrin D'an",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Figrin D'an",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "73",
+          "page": 2,
+          "subject": "Gamorrean Guard",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Gamorrean Guard",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "74",
+          "page": 2,
+          "subject": "Garsa Fwip",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Garsa Fwip",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "75",
+          "page": 2,
+          "subject": "Grogu",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Grogu",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "76",
+          "page": 2,
+          "subject": "Jabba The Hutt",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Jabba The Hutt",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "77",
+          "page": 2,
+          "subject": "Jar Jar Binks",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Jar Jar Binks",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "78",
+          "page": 2,
+          "subject": "Jawa",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Jawa",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "79",
+          "page": 2,
+          "subject": "Krrsantan",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Krrsantan",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "80",
+          "page": 2,
+          "subject": "Luke Skywalker",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Luke Skywalker",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "81",
+          "page": 3,
+          "subject": "Max Rebo",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Max Rebo",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "82",
+          "page": 3,
+          "subject": "Millennium Falcon",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Millennium Falcon",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "83",
+          "page": 3,
+          "subject": "Naboo N-1 Starfighter",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Naboo N-1 Starfighter",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "84",
+          "page": 3,
+          "subject": "Obi-Wan Kenobi",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Obi-Wan Kenobi",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "85",
+          "page": 3,
+          "subject": "Owen Lars",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Owen Lars",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "86",
+          "page": 3,
+          "subject": "Padmé  Amidala",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Padmé  Amidala",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "87",
+          "page": 3,
+          "subject": "Peli Motto",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Peli Motto",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "88",
+          "page": 3,
+          "subject": "Qui-Gon Jinn",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Qui-Gon Jinn",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "89",
+          "page": 3,
+          "subject": "R2-D2",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "R2-D2",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "90",
+          "page": 3,
+          "subject": "Rancor",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Rancor",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "91",
+          "page": 3,
+          "subject": "Rancor Keeper",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Rancor Keeper",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "92",
+          "page": 3,
+          "subject": "Razor Crest",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Razor Crest",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "93",
+          "page": 3,
+          "subject": "Rey Skywalker",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Rey Skywalker",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "94",
+          "page": 3,
+          "subject": "Salacious B. Crumb",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Salacious B. Crumb",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "95",
+          "page": 3,
+          "subject": "Sandcrawler",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Sandcrawler",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "96",
+          "page": 3,
+          "subject": "Sebulba",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Sebulba",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "97",
+          "page": 3,
+          "subject": "Skad",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Skad",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "98",
+          "page": 3,
+          "subject": "Tusken Raider",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Tusken Raider",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "99",
+          "page": 3,
+          "subject": "Watto",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Watto",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "100",
+          "page": 3,
+          "subject": "X-34 Landspeeder",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "X-34 Landspeeder",
+            "Tatooine"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BASE CARDS PLANETARY VARIATIONS",
+      "rows": [
+        {
+          "number": "BPV-1",
+          "page": 3,
+          "subject": "Ahsoka Tano",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Ahsoka Tano",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "BPV-2",
+          "page": 3,
+          "subject": "Alderaan Royal Guard",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Alderaan Royal Guard",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "BPV-3",
+          "page": 3,
+          "subject": "Aurra Sing",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Aurra Sing",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "BPV-4",
+          "page": 3,
+          "subject": "Bail Organa",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Bail Organa",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "BPV-5",
+          "page": 3,
+          "subject": "Breha Organa",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Breha Organa",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "BPV-6",
+          "page": 3,
+          "subject": "Captain Typho",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Captain Typho",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "BPV-7",
+          "page": 3,
+          "subject": "Celly Organa",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Celly Organa",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "BPV-8",
+          "page": 3,
+          "subject": "Kayo Organa",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Kayo Organa",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "BPV-9",
+          "page": 3,
+          "subject": "L0-LA59",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "L0-LA59",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "BPV-10",
+          "page": 3,
+          "subject": "Leia Organa",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Leia Organa",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "BPV-11",
+          "page": 3,
+          "subject": "Mon Mothma",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Mon Mothma",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "BPV-12",
+          "page": 3,
+          "subject": "Naboo Royal Cruiser",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Naboo Royal Cruiser",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "BPV-13",
+          "page": 3,
+          "subject": "Niano Organa",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Niano Organa",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "BPV-14",
+          "page": 3,
+          "subject": "Tantive IV",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Tantive IV",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "BPV-15",
+          "page": 3,
+          "subject": "Vect Nokru",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Vect Nokru",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "BPV-16",
+          "page": 3,
+          "subject": "Ahsoka Tano",
+          "signer": null,
+          "artist": null,
+          "planet": "Corellia",
+          "sourceFields": [
+            "Ahsoka Tano",
+            "Corellia"
+          ]
+        },
+        {
+          "number": "BPV-17",
+          "page": 3,
+          "subject": "Chopper",
+          "signer": null,
+          "artist": null,
+          "planet": "Corellia",
+          "sourceFields": [
+            "Chopper",
+            "Corellia"
+          ]
+        },
+        {
+          "number": "BPV-18",
+          "page": 3,
+          "subject": "Han Solo",
+          "signer": null,
+          "artist": null,
+          "planet": "Corellia",
+          "sourceFields": [
+            "Han Solo",
+            "Corellia"
+          ]
+        },
+        {
+          "number": "BPV-19",
+          "page": 3,
+          "subject": "Han Solo's landspeeder",
+          "signer": null,
+          "artist": null,
+          "planet": "Corellia",
+          "sourceFields": [
+            "Han Solo's landspeeder",
+            "Corellia"
+          ]
+        },
+        {
+          "number": "BPV-20",
+          "page": 4,
+          "subject": "Hera Syndulla",
+          "signer": null,
+          "artist": null,
+          "planet": "Corellia",
+          "sourceFields": [
+            "Hera Syndulla",
+            "Corellia"
+          ]
+        },
+        {
+          "number": "BPV-21",
+          "page": 4,
+          "subject": "HK-87 Assassin Droid",
+          "signer": null,
+          "artist": null,
+          "planet": "Corellia",
+          "sourceFields": [
+            "HK-87 Assassin Droid",
+            "Corellia"
+          ]
+        },
+        {
+          "number": "BPV-22",
+          "page": 4,
+          "subject": "Marrok",
+          "signer": null,
+          "artist": null,
+          "planet": "Corellia",
+          "sourceFields": [
+            "Marrok",
+            "Corellia"
+          ]
+        },
+        {
+          "number": "BPV-23",
+          "page": 4,
+          "subject": "Qi'ra",
+          "signer": null,
+          "artist": null,
+          "planet": "Corellia",
+          "sourceFields": [
+            "Qi'ra",
+            "Corellia"
+          ]
+        },
+        {
+          "number": "BPV-24",
+          "page": 4,
+          "subject": "Stormtrooper",
+          "signer": null,
+          "artist": null,
+          "planet": "Corellia",
+          "sourceFields": [
+            "Stormtrooper",
+            "Corellia"
+          ]
+        },
+        {
+          "number": "BPV-25",
+          "page": 4,
+          "subject": "Agent Kallus",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Agent Kallus",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "BPV-26",
+          "page": 4,
+          "subject": "Darth Vader",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Darth Vader",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "BPV-27",
+          "page": 4,
+          "subject": "Ezra Bridger",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Ezra Bridger",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "BPV-28",
+          "page": 4,
+          "subject": "Fifth Brother",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Fifth Brother",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "BPV-29",
+          "page": 4,
+          "subject": "Garazeb Orrelios",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Garazeb Orrelios",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "BPV-30",
+          "page": 4,
+          "subject": "Governor Pryce",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Governor Pryce",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "BPV-31",
+          "page": 4,
+          "subject": "Grand Admiral Thrawn",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Grand Admiral Thrawn",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "BPV-32",
+          "page": 4,
+          "subject": "Huyang",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Huyang",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "BPV-33",
+          "page": 4,
+          "subject": "Kanan Jarrus",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Kanan Jarrus",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "BPV-34",
+          "page": 4,
+          "subject": "Loth-cat",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Loth-cat",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "BPV-35",
+          "page": 4,
+          "subject": "Loth-wolf",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Loth-wolf",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "BPV-36",
+          "page": 4,
+          "subject": "Rukh",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Rukh",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "BPV-37",
+          "page": 4,
+          "subject": "Ryder Azadi",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Ryder Azadi",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "BPV-38",
+          "page": 4,
+          "subject": "Sabine Wren",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Sabine Wren",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "BPV-39",
+          "page": 4,
+          "subject": "Seventh Sister",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Seventh Sister",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "BPV-40",
+          "page": 4,
+          "subject": "Shin Hati",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Shin Hati",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "BPV-41",
+          "page": 4,
+          "subject": "The Grand Inquisitor",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "The Grand Inquisitor",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "BPV-42",
+          "page": 4,
+          "subject": "Tie Fighter",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Tie Fighter",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "BPV-43",
+          "page": 4,
+          "subject": "Almec",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Almec",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "BPV-44",
+          "page": 4,
+          "subject": "Amis",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Amis",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "BPV-45",
+          "page": 4,
+          "subject": "Anakin Skywalker",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Anakin Skywalker",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "BPV-46",
+          "page": 4,
+          "subject": "Bo-Katan Kryze",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Bo-Katan Kryze",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "BPV-47",
+          "page": 4,
+          "subject": "Bo-Katan Kryze's Gauntlet starfighter",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Bo-Katan Kryze's Gauntlet starfighter",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "BPV-48",
+          "page": 4,
+          "subject": "Duchess Satine Kryze",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Duchess Satine Kryze",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "BPV-49",
+          "page": 4,
+          "subject": "Imperial Armored Commando",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Imperial Armored Commando",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "BPV-50",
+          "page": 4,
+          "subject": "Korkie Kryze",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Korkie Kryze",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "BPV-51",
+          "page": 4,
+          "subject": "Koska Reeves",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Koska Reeves",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "BPV-52",
+          "page": 4,
+          "subject": "Moff Gideon",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Moff Gideon",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "BPV-53",
+          "page": 4,
+          "subject": "Paz Vizsla",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Paz Vizsla",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "BPV-54",
+          "page": 4,
+          "subject": "Pre Vizsla",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Pre Vizsla",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "BPV-55",
+          "page": 4,
+          "subject": "R5-D4",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "R5-D4",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "BPV-56",
+          "page": 4,
+          "subject": "Soniee",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Soniee",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "BPV-57",
+          "page": 4,
+          "subject": "The Armorer",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "The Armorer",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "BPV-58",
+          "page": 4,
+          "subject": "The Coronet",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "The Coronet",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "BPV-59",
+          "page": 4,
+          "subject": "The Mandalorian",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "The Mandalorian",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "BPV-60",
+          "page": 4,
+          "subject": "Ursa Wren",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Ursa Wren",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "BPV-61",
+          "page": 5,
+          "subject": "Anakin Skywalker's Podracer",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Anakin Skywalker's Podracer",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-62",
+          "page": 5,
+          "subject": "Bib Fortuna",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Bib Fortuna",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-63",
+          "page": 5,
+          "subject": "Boba Fett",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Boba Fett",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-64",
+          "page": 5,
+          "subject": "Boba Fett's Starship",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Boba Fett's Starship",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-65",
+          "page": 5,
+          "subject": "C-3PO",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "C-3PO",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-66",
+          "page": 5,
+          "subject": "Cad Bane",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Cad Bane",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-67",
+          "page": 5,
+          "subject": "Chef Droid",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Chef Droid",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-68",
+          "page": 5,
+          "subject": "Cobb Vanth",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Cobb Vanth",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-69",
+          "page": 5,
+          "subject": "Darth Maul",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Darth Maul",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-70",
+          "page": 5,
+          "subject": "Desert Skiff",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Desert Skiff",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-71",
+          "page": 5,
+          "subject": "Fennec Shand",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Fennec Shand",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-72",
+          "page": 5,
+          "subject": "Figrin D'an",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Figrin D'an",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-73",
+          "page": 5,
+          "subject": "Gamorrean Guard",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Gamorrean Guard",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-74",
+          "page": 5,
+          "subject": "Garsa Fwip",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Garsa Fwip",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-75",
+          "page": 5,
+          "subject": "Grogu",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Grogu",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-76",
+          "page": 5,
+          "subject": "Jabba The Hutt",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Jabba The Hutt",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-77",
+          "page": 5,
+          "subject": "Jar Jar Binks",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Jar Jar Binks",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-78",
+          "page": 5,
+          "subject": "Jawa",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Jawa",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-79",
+          "page": 5,
+          "subject": "Krrsantan",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Krrsantan",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-80",
+          "page": 5,
+          "subject": "Luke Skywalker",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Luke Skywalker",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-81",
+          "page": 5,
+          "subject": "Max Rebo",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Max Rebo",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-82",
+          "page": 5,
+          "subject": "Millennium Falcon",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Millennium Falcon",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-83",
+          "page": 5,
+          "subject": "Naboo N-1 Starfighter",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Naboo N-1 Starfighter",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-84",
+          "page": 5,
+          "subject": "Obi-Wan Kenobi",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Obi-Wan Kenobi",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-85",
+          "page": 5,
+          "subject": "Owen Lars",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Owen Lars",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-86",
+          "page": 5,
+          "subject": "Padmé  Amidala",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Padmé  Amidala",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-87",
+          "page": 5,
+          "subject": "Peli Motto",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Peli Motto",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-88",
+          "page": 5,
+          "subject": "Qui-Gon Jinn",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Qui-Gon Jinn",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-89",
+          "page": 5,
+          "subject": "R2-D2",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "R2-D2",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-90",
+          "page": 5,
+          "subject": "Rancor",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Rancor",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-91",
+          "page": 5,
+          "subject": "Rancor Keeper",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Rancor Keeper",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-92",
+          "page": 5,
+          "subject": "Razor Crest",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Razor Crest",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-93",
+          "page": 5,
+          "subject": "Rey Skywalker",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Rey Skywalker",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-94",
+          "page": 5,
+          "subject": "Salacious B. Crumb",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Salacious B. Crumb",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-95",
+          "page": 5,
+          "subject": "Sandcrawler",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Sandcrawler",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-96",
+          "page": 5,
+          "subject": "Sebulba",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Sebulba",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-97",
+          "page": 5,
+          "subject": "Skad",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Skad",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-98",
+          "page": 5,
+          "subject": "Tusken Raider",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Tusken Raider",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-99",
+          "page": 5,
+          "subject": "Watto",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Watto",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BPV-100",
+          "page": 5,
+          "subject": "X-34 Landspeeder",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "X-34 Landspeeder",
+            "Tatooine"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MOON OF MANDALORE",
+      "rows": [
+        {
+          "number": "MOM-1",
+          "page": 6,
+          "subject": "Obi-Wan Kenobi",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "MOM-2",
+          "page": 6,
+          "subject": "Duchess Satine Kryze",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Duchess Satine Kryze"
+          ]
+        },
+        {
+          "number": "MOM-3",
+          "page": 6,
+          "subject": "Pre Vizsla",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Pre Vizsla"
+          ]
+        },
+        {
+          "number": "MOM-4",
+          "page": 6,
+          "subject": "Mandalorian Guard",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Mandalorian Guard"
+          ]
+        },
+        {
+          "number": "MOM-5",
+          "page": 6,
+          "subject": "Death Watch Warrior",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Death Watch Warrior"
+          ]
+        },
+        {
+          "number": "MOM-6",
+          "page": 6,
+          "subject": "Gauntlet Fighter",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Gauntlet Fighter"
+          ]
+        },
+        {
+          "number": "MOM-7",
+          "page": 6,
+          "subject": "Bo-Katan Kryze",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Bo-Katan Kryze"
+          ]
+        },
+        {
+          "number": "MOM-8",
+          "page": 6,
+          "subject": "Prime Minister Almec",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Prime Minister Almec"
+          ]
+        },
+        {
+          "number": "MOM-9",
+          "page": 6,
+          "subject": "Count Dooku",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Count Dooku"
+          ]
+        },
+        {
+          "number": "MOM-10",
+          "page": 6,
+          "subject": "Obi-Wan's Delta-7 Jedi Starfighter",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Obi-Wan's Delta-7 Jedi Starfighter"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "THERES ALWAYS A BIGGER FISH",
+      "rows": [
+        {
+          "number": "BIG-1",
+          "page": 6,
+          "subject": "Loth-cat",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Loth-cat",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "BIG-2",
+          "page": 6,
+          "subject": "Bantha",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Bantha",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BIG-3",
+          "page": 6,
+          "subject": "Purrgil",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Purrgil",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "BIG-4",
+          "page": 6,
+          "subject": "Sarlacc",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Sarlacc",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BIG-5",
+          "page": 6,
+          "subject": "Krayt Dragon",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Krayt Dragon",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BIG-6",
+          "page": 6,
+          "subject": "Corellian hound",
+          "signer": null,
+          "artist": null,
+          "planet": "Corellia",
+          "sourceFields": [
+            "Corellian hound",
+            "Corellia"
+          ]
+        },
+        {
+          "number": "BIG-7",
+          "page": 6,
+          "subject": "Mythosaur",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Mythosaur",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "BIG-8",
+          "page": 6,
+          "subject": "Rancor",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Rancor",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BIG-9",
+          "page": 6,
+          "subject": "Puffer Pig",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Puffer Pig",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "BIG-10",
+          "page": 6,
+          "subject": "Loth-wolf",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Loth-wolf",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "BIG-11",
+          "page": 6,
+          "subject": "Dewback",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Dewback",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BIG-12",
+          "page": 6,
+          "subject": "Alamite",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Alamite",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "BIG-13",
+          "page": 6,
+          "subject": "Sand Beast",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Sand Beast",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BIG-14",
+          "page": 6,
+          "subject": "B'omarr monk spider",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "B'omarr monk spider",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "BIG-15",
+          "page": 6,
+          "subject": "Worrt",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Worrt",
+            "Tatooine"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GALACTIC ERAS",
+      "rows": [
+        {
+          "number": "ERA-1",
+          "page": 6,
+          "subject": "Leia Organa Is Kidnapped By Vect Nokru",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Leia Organa Is Kidnapped By Vect Nokru",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "ERA-2",
+          "page": 6,
+          "subject": "Han Solo Is Rescued",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Han Solo Is Rescued",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "ERA-3",
+          "page": 6,
+          "subject": "A More Civilized Weapon",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "A More Civilized Weapon",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "ERA-4",
+          "page": 6,
+          "subject": "\"These Aren't The Droids You're Looking For\"",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "\"These Aren't The Droids You're Looking For\"",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "ERA-5",
+          "page": 6,
+          "subject": "The Purrgil Rescue Ezra Bridger",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "The Purrgil Rescue Ezra Bridger",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "ERA-6",
+          "page": 6,
+          "subject": "Bo-Katan Kryze Unites Mandalore",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Bo-Katan Kryze Unites Mandalore",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "ERA-7",
+          "page": 6,
+          "subject": "Battle Over The Sarlacc Pit",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Battle Over The Sarlacc Pit",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "ERA-8",
+          "page": 6,
+          "subject": "Boba Fett Rides His New Rancor",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Boba Fett Rides His New Rancor",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "ERA-9",
+          "page": 6,
+          "subject": "The Mandalorian, The Marshal, and The Krayt Dragon",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "The Mandalorian, The Marshal, and The Krayt Dragon",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "ERA-10",
+          "page": 7,
+          "subject": "Duchess Satine Kryze's Demise",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Duchess Satine Kryze's Demise",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "ERA-11",
+          "page": 7,
+          "subject": "Ahsoka Duels Maul At The Siege Of Mandalore",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Ahsoka Duels Maul At The Siege Of Mandalore",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "ERA-12",
+          "page": 7,
+          "subject": "Ezra Bridger Rides The Loth-wolf",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Ezra Bridger Rides The Loth-wolf",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "ERA-13",
+          "page": 7,
+          "subject": "Sabine Wren Skips Ryder Azadi's Speech",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Sabine Wren Skips Ryder Azadi's Speech",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "ERA-14",
+          "page": 7,
+          "subject": "Shin Hati Attacks Sabine Wren",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Shin Hati Attacks Sabine Wren",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "ERA-15",
+          "page": 7,
+          "subject": "Ahsoka Tano's Apprentice, Again",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Ahsoka Tano's Apprentice, Again",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "ERA-16",
+          "page": 7,
+          "subject": "Ahsoka vs Marrok",
+          "signer": null,
+          "artist": null,
+          "planet": "Corellia",
+          "sourceFields": [
+            "Ahsoka vs Marrok",
+            "Corellia"
+          ]
+        },
+        {
+          "number": "ERA-17",
+          "page": 7,
+          "subject": "Han Solo And Qi'ra, Separated!",
+          "signer": null,
+          "artist": null,
+          "planet": "Corellia",
+          "sourceFields": [
+            "Han Solo And Qi'ra, Separated!",
+            "Corellia"
+          ]
+        },
+        {
+          "number": "ERA-18",
+          "page": 7,
+          "subject": "Qui-Gon Jinn vs Darth Maul",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Qui-Gon Jinn vs Darth Maul",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "ERA-19",
+          "page": 7,
+          "subject": "The Chase For Han Solo",
+          "signer": null,
+          "artist": null,
+          "planet": "Corellia",
+          "sourceFields": [
+            "The Chase For Han Solo",
+            "Corellia"
+          ]
+        },
+        {
+          "number": "ERA-20",
+          "page": 7,
+          "subject": "The Mandalorian vs Moff Gideon",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "The Mandalorian vs Moff Gideon",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "ERA-21",
+          "page": 7,
+          "subject": "Destroyed By The Death Star!",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Destroyed By The Death Star!",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "ERA-22",
+          "page": 7,
+          "subject": "Obi-Wan Kenobi vs Maul",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Obi-Wan Kenobi vs Maul",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "ERA-23",
+          "page": 7,
+          "subject": "Anakin Skywalker Wins the Boonta Eve Classic",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Anakin Skywalker Wins the Boonta Eve Classic",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "ERA-24",
+          "page": 7,
+          "subject": "Obi-Wan Kenobi Brings Leia Organa Home",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Obi-Wan Kenobi Brings Leia Organa Home",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "ERA-25",
+          "page": 7,
+          "subject": "The Great Purge of Mandalore",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "The Great Purge of Mandalore",
+            "Mandalore"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ART OF TATOOINE",
+      "rows": [
+        {
+          "number": "AOT-1",
+          "page": 7,
+          "subject": "Mos Eisley",
+          "signer": null,
+          "artist": "Steve Hamilton",
+          "planet": null,
+          "sourceFields": [
+            "Mos Eisley",
+            "Steve Hamilton"
+          ]
+        },
+        {
+          "number": "AOT-2",
+          "page": 7,
+          "subject": "Ben Kenobi's Hut",
+          "signer": null,
+          "artist": "Steve Hamilton",
+          "planet": null,
+          "sourceFields": [
+            "Ben Kenobi's Hut",
+            "Steve Hamilton"
+          ]
+        },
+        {
+          "number": "AOT-3",
+          "page": 7,
+          "subject": "Dune Sea",
+          "signer": null,
+          "artist": "Steve Hamilton",
+          "planet": null,
+          "sourceFields": [
+            "Dune Sea",
+            "Steve Hamilton"
+          ]
+        },
+        {
+          "number": "AOT-4",
+          "page": 7,
+          "subject": "Beggar's Canyon",
+          "signer": null,
+          "artist": "Steve Hamilton",
+          "planet": null,
+          "sourceFields": [
+            "Beggar's Canyon",
+            "Steve Hamilton"
+          ]
+        },
+        {
+          "number": "AOT-5",
+          "page": 7,
+          "subject": "Mos Espa",
+          "signer": null,
+          "artist": "Steve Hamilton",
+          "planet": null,
+          "sourceFields": [
+            "Mos Espa",
+            "Steve Hamilton"
+          ]
+        },
+        {
+          "number": "AOT-6",
+          "page": 7,
+          "subject": "Mos Espa Grand Arena",
+          "signer": null,
+          "artist": "Steve Hamilton",
+          "planet": null,
+          "sourceFields": [
+            "Mos Espa Grand Arena",
+            "Steve Hamilton"
+          ]
+        },
+        {
+          "number": "AOT-7",
+          "page": 7,
+          "subject": "Tibidon Carving Station",
+          "signer": null,
+          "artist": "Steve Hamilton",
+          "planet": null,
+          "sourceFields": [
+            "Tibidon Carving Station",
+            "Steve Hamilton"
+          ]
+        },
+        {
+          "number": "AOT-8",
+          "page": 7,
+          "subject": "Freetown",
+          "signer": null,
+          "artist": "Steve Hamilton",
+          "planet": null,
+          "sourceFields": [
+            "Freetown",
+            "Steve Hamilton"
+          ]
+        },
+        {
+          "number": "AOT-9",
+          "page": 7,
+          "subject": "The Jundland Wastes",
+          "signer": null,
+          "artist": "Steve Hamilton",
+          "planet": null,
+          "sourceFields": [
+            "The Jundland Wastes",
+            "Steve Hamilton"
+          ]
+        },
+        {
+          "number": "AOT-10",
+          "page": 7,
+          "subject": "Jabba's Palace",
+          "signer": null,
+          "artist": "Steve Hamilton",
+          "planet": null,
+          "sourceFields": [
+            "Jabba's Palace",
+            "Steve Hamilton"
+          ]
+        },
+        {
+          "number": "AOT-11",
+          "page": 7,
+          "subject": "The Lars Homestead",
+          "signer": null,
+          "artist": "Steve Hamilton",
+          "planet": null,
+          "sourceFields": [
+            "The Lars Homestead",
+            "Steve Hamilton"
+          ]
+        },
+        {
+          "number": "AOT-12",
+          "page": 7,
+          "subject": "Sarlacc Pit",
+          "signer": null,
+          "artist": "Steve Hamilton",
+          "planet": null,
+          "sourceFields": [
+            "Sarlacc Pit",
+            "Steve Hamilton"
+          ]
+        },
+        {
+          "number": "AOT-13",
+          "page": 7,
+          "subject": "Pyke Base",
+          "signer": null,
+          "artist": "Steve Hamilton",
+          "planet": null,
+          "sourceFields": [
+            "Pyke Base",
+            "Steve Hamilton"
+          ]
+        },
+        {
+          "number": "AOT-14",
+          "page": 7,
+          "subject": "Garsa's Sanctuary",
+          "signer": null,
+          "artist": "Steve Hamilton",
+          "planet": null,
+          "sourceFields": [
+            "Garsa's Sanctuary",
+            "Steve Hamilton"
+          ]
+        },
+        {
+          "number": "AOT-15",
+          "page": 7,
+          "subject": "Mos Eisley Cantina",
+          "signer": null,
+          "artist": "Steve Hamilton",
+          "planet": null,
+          "sourceFields": [
+            "Mos Eisley Cantina",
+            "Steve Hamilton"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "STAR WARS REFLECTIONS",
+      "rows": [
+        {
+          "number": "R-16",
+          "page": 7,
+          "subject": "The Empire",
+          "signer": null,
+          "artist": "Christian Waggoner",
+          "planet": null,
+          "sourceFields": [
+            "The Empire",
+            "Christian Waggoner"
+          ]
+        },
+        {
+          "number": "R-17",
+          "page": 7,
+          "subject": "The Armorer's Guidance",
+          "signer": null,
+          "artist": "Christian Waggoner",
+          "planet": null,
+          "sourceFields": [
+            "The Armorer's Guidance",
+            "Christian Waggoner"
+          ]
+        },
+        {
+          "number": "R-18",
+          "page": 7,
+          "subject": "Protecting Someone?",
+          "signer": null,
+          "artist": "Christian Waggoner",
+          "planet": null,
+          "sourceFields": [
+            "Protecting Someone?",
+            "Christian Waggoner"
+          ]
+        },
+        {
+          "number": "R-19",
+          "page": 7,
+          "subject": "I Thought You Were Dead",
+          "signer": null,
+          "artist": "Christian Waggoner",
+          "planet": null,
+          "sourceFields": [
+            "I Thought You Were Dead",
+            "Christian Waggoner"
+          ]
+        },
+        {
+          "number": "R-20",
+          "page": 7,
+          "subject": "Darth Vader",
+          "signer": null,
+          "artist": "Christian Waggoner",
+          "planet": null,
+          "sourceFields": [
+            "Darth Vader",
+            "Christian Waggoner"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PLANETARY VIEWS",
+      "rows": [
+        {
+          "number": "PV-6",
+          "page": 7,
+          "subject": "Alderaan",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "PV-7",
+          "page": 7,
+          "subject": "Lothal",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Lothal"
+          ]
+        },
+        {
+          "number": "PV-8",
+          "page": 8,
+          "subject": "Mandalore",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "PV-9",
+          "page": 8,
+          "subject": "Corellia",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Corellia"
+          ]
+        },
+        {
+          "number": "PV-10",
+          "page": 8,
+          "subject": "Tatooine",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Tatooine"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GALACTIC ORIGINS",
+      "rows": [
+        {
+          "number": "GO-1",
+          "page": 8,
+          "subject": "Leia Organa",
+          "signer": null,
+          "artist": "Traci Easterday",
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Leia Organa               Alderaan",
+            "Traci Easterday"
+          ]
+        },
+        {
+          "number": "GO-2",
+          "page": 8,
+          "subject": "Han Solo",
+          "signer": null,
+          "artist": "Traci Easterday",
+          "planet": "Corellia",
+          "sourceFields": [
+            "Han Solo                     Corellia",
+            "Traci Easterday"
+          ]
+        },
+        {
+          "number": "GO-3",
+          "page": 8,
+          "subject": "Ahsoka Tano",
+          "signer": null,
+          "artist": "Traci Easterday",
+          "planet": "Corellia",
+          "sourceFields": [
+            "Ahsoka Tano              Corellia",
+            "Traci Easterday"
+          ]
+        },
+        {
+          "number": "GO-4",
+          "page": 8,
+          "subject": "Shin Hati",
+          "signer": null,
+          "artist": "Traci Easterday",
+          "planet": "Lothal",
+          "sourceFields": [
+            "Shin Hati                      Lothal",
+            "Traci Easterday"
+          ]
+        },
+        {
+          "number": "GO-5",
+          "page": 8,
+          "subject": "Sabine Wren",
+          "signer": null,
+          "artist": "Traci Easterday",
+          "planet": "Lothal",
+          "sourceFields": [
+            "Sabine Wren             Lothal",
+            "Traci Easterday"
+          ]
+        },
+        {
+          "number": "GO-6",
+          "page": 8,
+          "subject": "The Mandalorian",
+          "signer": null,
+          "artist": "Traci Easterday",
+          "planet": "Mandalore",
+          "sourceFields": [
+            "The Mandalorian    Mandalore",
+            "Traci Easterday"
+          ]
+        },
+        {
+          "number": "GO-7",
+          "page": 8,
+          "subject": "Moff Gideon",
+          "signer": null,
+          "artist": "Traci Easterday",
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Moff Gideon            Mandalore",
+            "Traci Easterday"
+          ]
+        },
+        {
+          "number": "GO-8",
+          "page": 8,
+          "subject": "Qui-Gon Jinn",
+          "signer": null,
+          "artist": "Traci Easterday",
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Qui-Gon Jinn       Tatooine",
+            "Traci Easterday"
+          ]
+        },
+        {
+          "number": "GO-9",
+          "page": 8,
+          "subject": "Luke Skywalker",
+          "signer": null,
+          "artist": "Traci Easterday",
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Luke Skywalker   Tatooine",
+            "Traci Easterday"
+          ]
+        },
+        {
+          "number": "GO-10",
+          "page": 8,
+          "subject": "Boba Fett",
+          "signer": null,
+          "artist": "Traci Easterday",
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Boba Fett               Tatooine",
+            "Traci Easterday"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HYPERSPACE SHADOWBOX",
+      "rows": [
+        {
+          "number": "HYP-1",
+          "page": 8,
+          "subject": "C-3PO",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "C-3PO",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "HYP-2",
+          "page": 8,
+          "subject": "R2-D2",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "R2-D2",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "HYP-3",
+          "page": 8,
+          "subject": "Boba Fett",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Boba Fett",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "HYP-4",
+          "page": 8,
+          "subject": "Cad Bane",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Cad Bane",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "HYP-5",
+          "page": 8,
+          "subject": "Bail Organa",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Bail Organa",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "HYP-6",
+          "page": 8,
+          "subject": "Grogu",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Grogu",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "HYP-7",
+          "page": 8,
+          "subject": "Ahsoka Tano",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Ahsoka Tano",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "HYP-8",
+          "page": 8,
+          "subject": "Qi'ra",
+          "signer": null,
+          "artist": null,
+          "planet": "Corellia",
+          "sourceFields": [
+            "Qi'ra",
+            "Corellia"
+          ]
+        },
+        {
+          "number": "HYP-9",
+          "page": 8,
+          "subject": "Salacious B. Crumb",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Salacious B. Crumb",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "HYP-10",
+          "page": 8,
+          "subject": "Stormtrooper",
+          "signer": null,
+          "artist": null,
+          "planet": "Corellia",
+          "sourceFields": [
+            "Stormtrooper",
+            "Corellia"
+          ]
+        },
+        {
+          "number": "HYP-11",
+          "page": 8,
+          "subject": "Lady Proxima",
+          "signer": null,
+          "artist": null,
+          "planet": "Corellia",
+          "sourceFields": [
+            "Lady Proxima",
+            "Corellia"
+          ]
+        },
+        {
+          "number": "HYP-12",
+          "page": 8,
+          "subject": "Bo-Katan Kryze",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Bo-Katan Kryze",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "HYP-13",
+          "page": 8,
+          "subject": "Paz Vizsla",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "Paz Vizsla",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "HYP-14",
+          "page": 8,
+          "subject": "The Armorer",
+          "signer": null,
+          "artist": null,
+          "planet": "Mandalore",
+          "sourceFields": [
+            "The Armorer",
+            "Mandalore"
+          ]
+        },
+        {
+          "number": "HYP-15",
+          "page": 8,
+          "subject": "The Mandalorian",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "The Mandalorian",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "HYP-16",
+          "page": 8,
+          "subject": "Breha Organa",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Breha Organa",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "HYP-17",
+          "page": 8,
+          "subject": "Leia Organa",
+          "signer": null,
+          "artist": null,
+          "planet": "Alderaan",
+          "sourceFields": [
+            "Leia Organa",
+            "Alderaan"
+          ]
+        },
+        {
+          "number": "HYP-18",
+          "page": 8,
+          "subject": "Huyang",
+          "signer": null,
+          "artist": null,
+          "planet": "Lothal",
+          "sourceFields": [
+            "Huyang",
+            "Lothal"
+          ]
+        },
+        {
+          "number": "HYP-19",
+          "page": 8,
+          "subject": "Luke Skywalker",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Luke Skywalker",
+            "Tatooine"
+          ]
+        },
+        {
+          "number": "HYP-20",
+          "page": 8,
+          "subject": "Darth Maul",
+          "signer": null,
+          "artist": null,
+          "planet": "Tatooine",
+          "sourceFields": [
+            "Darth Maul",
+            "Tatooine"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OVERSIZED WIDEVISION CHROME CARDS",
+      "rows": [
+        {
+          "number": "WIDE-1",
+          "page": 9,
+          "subject": "Alderaan Sector",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Alderaan Sector"
+          ]
+        },
+        {
+          "number": "WIDE-2",
+          "page": 9,
+          "subject": "Lothal Sector",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Lothal Sector"
+          ]
+        },
+        {
+          "number": "WIDE-3",
+          "page": 9,
+          "subject": "Mandalore Sector",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Mandalore Sector"
+          ]
+        },
+        {
+          "number": "WIDE-4",
+          "page": 9,
+          "subject": "Corellian Sector",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Corellian Sector"
+          ]
+        },
+        {
+          "number": "WIDE-5",
+          "page": 9,
+          "subject": "Arkanis Sector",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Arkanis Sector"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "STAR WARS AUTOGRAPH VARIATION",
+      "rows": [
+        {
+          "number": "AV-AHM",
+          "page": 9,
+          "subject": "Jar Jar Binks",
+          "signer": "Ahmed Best",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Ahmed Best",
+            "Jar Jar Binks"
+          ]
+        },
+        {
+          "number": "AV-ALD",
+          "page": 9,
+          "subject": "Han Solo",
+          "signer": "Alden Ehrenreich",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Alden Ehrenreich",
+            "Han Solo"
+          ]
+        },
+        {
+          "number": "AV-ANT",
+          "page": 10,
+          "subject": "C-3PO",
+          "signer": "Anthony Daniels",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Anthony Daniels",
+            "C-3PO"
+          ]
+        },
+        {
+          "number": "AV-ASH",
+          "page": 10,
+          "subject": "Ahsoka Tano",
+          "signer": "Ashley Eckstein",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Ashley Eckstein",
+            "Ahsoka Tano"
+          ]
+        },
+        {
+          "number": "AV-BDEE",
+          "page": 10,
+          "subject": "Lando Calrissian",
+          "signer": "Billy Dee Williams",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Billy Dee Williams",
+            "Lando Calrissian"
+          ]
+        },
+        {
+          "number": "AV-CAM",
+          "page": 10,
+          "subject": "Jedi Master Indara",
+          "signer": "Carrie-Anne Moss",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Carrie-Anne Moss",
+            "Jedi Master Indara"
+          ]
+        },
+        {
+          "number": "AV-DAI",
+          "page": 10,
+          "subject": "Rey",
+          "signer": "Daisy Ridley",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Daisy Ridley",
+            "Rey"
+          ]
+        },
+        {
+          "number": "AV-DAW",
+          "page": 10,
+          "subject": "Ahsoka Tano",
+          "signer": "Rosario Dawson",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Rosario Dawson",
+            "Ahsoka Tano"
+          ]
+        },
+        {
+          "number": "AV-EDG",
+          "page": 10,
+          "subject": "Owen Lars",
+          "signer": "Joel Edgerton",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Joel Edgerton",
+            "Owen Lars"
+          ]
+        },
+        {
+          "number": "AV-EMC",
+          "page": 10,
+          "subject": "Qi'ra",
+          "signer": "Emilia Clarke",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Emilia Clarke",
+            "Qi'ra"
+          ]
+        },
+        {
+          "number": "AV-EMG",
+          "page": 10,
+          "subject": "Obi-Wan Kenobi",
+          "signer": "Ewan McGregor",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Ewan McGregor",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "AV-EMS",
+          "page": 10,
+          "subject": "The Armorer",
+          "signer": "Emily Swallow",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Emily Swallow",
+            "The Armorer"
+          ]
+        },
+        {
+          "number": "AV-FOR",
+          "page": 10,
+          "subject": "Han Solo",
+          "signer": "Harrison Ford",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Harrison Ford",
+            "Han Solo"
+          ]
+        },
+        {
+          "number": "AV-GIA",
+          "page": 10,
+          "subject": "Moff Gideon",
+          "signer": "Giancarlo Esposito",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Giancarlo Esposito",
+            "Moff Gideon"
+          ]
+        },
+        {
+          "number": "AV-HAM",
+          "page": 10,
+          "subject": "Luke Skywalker",
+          "signer": "Mark Hamill",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Mark Hamill",
+            "Luke Skywalker"
+          ]
+        },
+        {
+          "number": "AV-HC",
+          "page": 10,
+          "subject": "Anakin Skywalker",
+          "signer": "Hayden Christensen",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Hayden Christensen",
+            "Anakin Skywalker"
+          ]
+        },
+        {
+          "number": "AV-IVA",
+          "page": 10,
+          "subject": "Shin Hati",
+          "signer": "Ivanna Sakhno",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Ivanna Sakhno",
+            "Shin Hati"
+          ]
+        },
+        {
+          "number": "AV-JEN",
+          "page": 10,
+          "subject": "Garsa Fwip",
+          "signer": "Jennifer Beals",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Jennifer Beals",
+            "Garsa Fwip"
+          ]
+        },
+        {
+          "number": "AV-KAT",
+          "page": 10,
+          "subject": "Bo-Katan Kryze",
+          "signer": "Katee Sackhoff",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Katee Sackhoff",
+            "Bo-Katan Kryze"
+          ]
+        },
+        {
+          "number": "AV-KK",
+          "page": 10,
+          "subject": "Sabé",
+          "signer": "Keira Knightley",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Keira Knightley",
+            "Sabé"
+          ]
+        },
+        {
+          "number": "AV-KYK",
+          "page": 10,
+          "subject": "KB",
+          "signer": "Kyriana Kratter",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Kyriana Kratter",
+            "KB"
+          ]
+        },
+        {
+          "number": "AV-LAW",
+          "page": 10,
+          "subject": "Jod Na Nawood",
+          "signer": "Jude Law",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Jude Law",
+            "Jod Na Nawood"
+          ]
+        },
+        {
+          "number": "AV-LIU",
+          "page": 10,
+          "subject": "Sabine Wren",
+          "signer": "Natasha Liu Bordizzo",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Natasha Liu Bordizzo",
+            "Sabine Wren"
+          ]
+        },
+        {
+          "number": "AV-LJj",
+          "page": 10,
+          "subject": "Jedi Master Sol",
+          "signer": "Lee Jung-jae",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Lee Jung-jae",
+            "Jedi Master Sol"
+          ]
+        },
+        {
+          "number": "AV-MEW",
+          "page": 10,
+          "subject": "Hera Syndulla",
+          "signer": "Mary Elizabeth Winstead",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Mary Elizabeth Winstead",
+            "Hera Syndulla"
+          ]
+        },
+        {
+          "number": "AV-MIN",
+          "page": 10,
+          "subject": "Fennec Shand",
+          "signer": "Ming-Na Wen",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Ming-Na Wen",
+            "Fennec Shand"
+          ]
+        },
+        {
+          "number": "AV-MOS",
+          "page": 10,
+          "subject": "Reva",
+          "signer": "Moses Ingram",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Moses Ingram",
+            "Reva"
+          ]
+        },
+        {
+          "number": "AV-NAT",
+          "page": 10,
+          "subject": "Padmé Amidala",
+          "signer": "Natalie Portman",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Natalie Portman",
+            "Padmé Amidala"
+          ]
+        },
+        {
+          "number": "AV-OLY",
+          "page": 10,
+          "subject": "Cobb Vanth",
+          "signer": "Timothy Olyphant",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Timothy Olyphant",
+            "Cobb Vanth"
+          ]
+        },
+        {
+          "number": "AV-OSJ",
+          "page": 10,
+          "subject": "Kawlan Roken",
+          "signer": "O'Shea Jackson Jr.",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "O'Shea Jackson Jr.",
+            "Kawlan Roken"
+          ]
+        },
+        {
+          "number": "AV-PAS",
+          "page": 10,
+          "subject": "The Mandalorian",
+          "signer": "Pedro Pascal",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Pedro Pascal",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "AV-RAY",
+          "page": 10,
+          "subject": "Darth Maul",
+          "signer": "Ray Park",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Ray Park",
+            "Darth Maul"
+          ]
+        },
+        {
+          "number": "AV-RTS",
+          "page": 10,
+          "subject": "Neel",
+          "signer": "Robert Timothy Smith",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Robert Timothy Smith",
+            "Neel"
+          ]
+        },
+        {
+          "number": "AV-TEM",
+          "page": 10,
+          "subject": "Boba Fett",
+          "signer": "Temuera Morrison",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Temuera Morrison",
+            "Boba Fett"
+          ]
+        },
+        {
+          "number": "AV-THU",
+          "page": 10,
+          "subject": "The Modifier",
+          "signer": "Thundercat",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Thundercat",
+            "The Modifier"
+          ]
+        },
+        {
+          "number": "AV-WAI",
+          "page": 10,
+          "subject": "IG-11",
+          "signer": "Taika Waititi",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Taika Waititi",
+            "IG-11"
+          ]
+        },
+        {
+          "number": "AV-WIT",
+          "page": 10,
+          "subject": "Maul",
+          "signer": "Sam Witwer",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Sam Witwer",
+            "Maul"
+          ]
+        }
+      ]
+    }
+  ],
+  "rosters": {
+    "OVERSIZED PANORAMIC SKETCH CARDS": [
+      {
+        "name": "Tatooine",
+        "page": 8
+      },
+      {
+        "name": "Corellia",
+        "page": 9
+      },
+      {
+        "name": "Mandalore",
+        "page": 9
+      },
+      {
+        "name": "Lothal",
+        "page": 9
+      },
+      {
+        "name": "Alderaan",
+        "page": 9
+      }
+    ],
+    "OVERSIZED PANORAMIC SKETCH CARDS ARTIST": [
+      {
+        "name": "Ash Gonzales",
+        "page": 9
+      },
+      {
+        "name": "Charlie Cody",
+        "page": 9
+      },
+      {
+        "name": "Cyrus Sherkat",
+        "page": 9
+      },
+      {
+        "name": "Dan Bergren",
+        "page": 9
+      },
+      {
+        "name": "Daniel Chavez",
+        "page": 9
+      },
+      {
+        "name": "Dawn Murphy",
+        "page": 9
+      },
+      {
+        "name": "Eric Lehtonen",
+        "page": 9
+      },
+      {
+        "name": "Jason Davies",
+        "page": 9
+      },
+      {
+        "name": "Jay Manchand",
+        "page": 9
+      },
+      {
+        "name": "Lindsey Greyling",
+        "page": 9
+      },
+      {
+        "name": "Marcia Dye",
+        "page": 9
+      },
+      {
+        "name": "Marlo Martos",
+        "page": 9
+      },
+      {
+        "name": "Michael Mastermaker",
+        "page": 9
+      },
+      {
+        "name": "Nick Gribbon",
+        "page": 9
+      },
+      {
+        "name": "Rich Hennemann",
+        "page": 9
+      },
+      {
+        "name": "Semra Bulut",
+        "page": 9
+      },
+      {
+        "name": "Steve Alce",
+        "page": 9
+      },
+      {
+        "name": "Yves Van Berlo",
+        "page": 9
+      }
+    ],
+    "SKETCH ARTIST": [
+      {
+        "name": "Aleksandr Gigov",
+        "page": 10
+      },
+      {
+        "name": "Allen Geneta",
+        "page": 10
+      },
+      {
+        "name": "Andrew Fry",
+        "page": 10
+      },
+      {
+        "name": "Angel Aviles",
+        "page": 10
+      },
+      {
+        "name": "Angelina Benedetti",
+        "page": 11
+      },
+      {
+        "name": "Ash Gonzales",
+        "page": 11
+      },
+      {
+        "name": "Basak Kahraman",
+        "page": 11
+      },
+      {
+        "name": "Ben AbuSaada",
+        "page": 11
+      },
+      {
+        "name": "Bistek Javier",
+        "page": 11
+      },
+      {
+        "name": "Bobby Blakey",
+        "page": 11
+      },
+      {
+        "name": "Brandon Klein",
+        "page": 11
+      },
+      {
+        "name": "Candice Clemmons",
+        "page": 11
+      },
+      {
+        "name": "Charlie Cody",
+        "page": 11
+      },
+      {
+        "name": "Chenduz",
+        "page": 11
+      },
+      {
+        "name": "Court",
+        "page": 11
+      },
+      {
+        "name": "Cyrus Sherkat",
+        "page": 11
+      },
+      {
+        "name": "Dan Bergren",
+        "page": 11
+      },
+      {
+        "name": "Dan Cooney",
+        "page": 11
+      },
+      {
+        "name": "Dan Curto",
+        "page": 11
+      },
+      {
+        "name": "Dan Lawler",
+        "page": 11
+      },
+      {
+        "name": "Daniel M Chavez",
+        "page": 11
+      },
+      {
+        "name": "Daniel Riveron",
+        "page": 11
+      },
+      {
+        "name": "Darrin Pepe",
+        "page": 11
+      },
+      {
+        "name": "David Willingham",
+        "page": 11
+      },
+      {
+        "name": "Dawn Murphy",
+        "page": 11
+      },
+      {
+        "name": "Dove McHargue",
+        "page": 11
+      },
+      {
+        "name": "Dwayne Carpenter",
+        "page": 11
+      },
+      {
+        "name": "DYJ",
+        "page": 11
+      },
+      {
+        "name": "Dylan Riley",
+        "page": 11
+      },
+      {
+        "name": "El Smetchö",
+        "page": 11
+      },
+      {
+        "name": "Elson Jr. Art",
+        "page": 11
+      },
+      {
+        "name": "Elvin A Hernandez",
+        "page": 11
+      },
+      {
+        "name": "Emrah Cildir",
+        "page": 11
+      },
+      {
+        "name": "Emre Varlibas",
+        "page": 11
+      },
+      {
+        "name": "Eric Lehtonen",
+        "page": 11
+      },
+      {
+        "name": "Erik Muller",
+        "page": 11
+      },
+      {
+        "name": "Evgheni \"REBL\" Batu",
+        "page": 11
+      },
+      {
+        "name": "Frank A. Kadar",
+        "page": 11
+      },
+      {
+        "name": "Frank Sansone",
+        "page": 11
+      },
+      {
+        "name": "Franklim Teixeira",
+        "page": 11
+      },
+      {
+        "name": "Gabe Rogue",
+        "page": 11
+      },
+      {
+        "name": "Garrett Dix",
+        "page": 11
+      },
+      {
+        "name": "Gary Shipman",
+        "page": 11
+      },
+      {
+        "name": "Gerry Garcia Jr",
+        "page": 11
+      },
+      {
+        "name": "Getatom",
+        "page": 11
+      },
+      {
+        "name": "Greg Treize",
+        "page": 12
+      },
+      {
+        "name": "Guilherme Rocha",
+        "page": 12
+      },
+      {
+        "name": "Ian McKesson",
+        "page": 12
+      },
+      {
+        "name": "Ian Yoshio Roberts",
+        "page": 12
+      },
+      {
+        "name": "Ink Nerd",
+        "page": 12
+      },
+      {
+        "name": "Isiah Xavier Bradley",
+        "page": 12
+      },
+      {
+        "name": "Jackson \"JackArts\" Ong",
+        "page": 12
+      },
+      {
+        "name": "Jaime Lopez",
+        "page": 12
+      },
+      {
+        "name": "Jake Minor",
+        "page": 12
+      },
+      {
+        "name": "James Boyd",
+        "page": 12
+      },
+      {
+        "name": "James Harris",
+        "page": 12
+      },
+      {
+        "name": "Jane Rushton",
+        "page": 12
+      },
+      {
+        "name": "Jason Christner",
+        "page": 12
+      },
+      {
+        "name": "Jason Davies",
+        "page": 12
+      },
+      {
+        "name": "Jason Pearce",
+        "page": 12
+      },
+      {
+        "name": "Jason Queen",
+        "page": 12
+      },
+      {
+        "name": "Jason Sobol",
+        "page": 12
+      },
+      {
+        "name": "Jay Manchand",
+        "page": 12
+      },
+      {
+        "name": "Jeffrey C. Benitez",
+        "page": 12
+      },
+      {
+        "name": "Jenny Kim",
+        "page": 12
+      },
+      {
+        "name": "Jessica Hickman",
+        "page": 12
+      },
+      {
+        "name": "Jessica Van Dusen",
+        "page": 12
+      },
+      {
+        "name": "Jiaxin \"YinShan\" Sun",
+        "page": 12
+      },
+      {
+        "name": "Jim O'Riley",
+        "page": 12
+      },
+      {
+        "name": "John \"JAR\" Rodriguez",
+        "page": 12
+      },
+      {
+        "name": "John Boren",
+        "page": 12
+      },
+      {
+        "name": "John Still",
+        "page": 12
+      },
+      {
+        "name": "Jojo Hilario",
+        "page": 12
+      },
+      {
+        "name": "Jonathan Beistline",
+        "page": 12
+      },
+      {
+        "name": "Josh Trout",
+        "page": 12
+      },
+      {
+        "name": "Julia McKenzie",
+        "page": 12
+      },
+      {
+        "name": "K Bass",
+        "page": 12
+      },
+      {
+        "name": "Kang Jing",
+        "page": 12
+      },
+      {
+        "name": "Karl Jones",
+        "page": 12
+      },
+      {
+        "name": "Kevin Cleveland",
+        "page": 12
+      },
+      {
+        "name": "Kevin Scott Jacobs",
+        "page": 12
+      },
+      {
+        "name": "Khloe Delnick",
+        "page": 12
+      },
+      {
+        "name": "Khushi Mahajan",
+        "page": 12
+      },
+      {
+        "name": "Kirk Chavarria",
+        "page": 12
+      },
+      {
+        "name": "Kris Penix",
+        "page": 12
+      },
+      {
+        "name": "Kyle Babbitt",
+        "page": 12
+      },
+      {
+        "name": "Laura Inglis",
+        "page": 13
+      },
+      {
+        "name": "Lee Lightfoot",
+        "page": 13
+      },
+      {
+        "name": "Lily Zapata Mercado",
+        "page": 13
+      },
+      {
+        "name": "Limuel Pinzon",
+        "page": 13
+      },
+      {
+        "name": "Lindsey Greyling",
+        "page": 13
+      },
+      {
+        "name": "Loc Nguyen",
+        "page": 13
+      },
+      {
+        "name": "Lowell Isaac",
+        "page": 13
+      },
+      {
+        "name": "Luke Rushton LR",
+        "page": 13
+      },
+      {
+        "name": "Marcia Dye",
+        "page": 13
+      },
+      {
+        "name": "Marlo Martos",
+        "page": 13
+      },
+      {
+        "name": "Matt Steffens",
+        "page": 13
+      },
+      {
+        "name": "Matthew Maldonado",
+        "page": 13
+      },
+      {
+        "name": "Matthew Skillern",
+        "page": 13
+      },
+      {
+        "name": "Michael Mastermaker",
+        "page": 13
+      },
+      {
+        "name": "Mike Dalzell",
+        "page": 13
+      },
+      {
+        "name": "Mike Davidson",
+        "page": 13
+      },
+      {
+        "name": "Mike J Sealie",
+        "page": 13
+      },
+      {
+        "name": "Neil Camera",
+        "page": 13
+      },
+      {
+        "name": "Nick Gribbon",
+        "page": 13
+      },
+      {
+        "name": "Niño John Benitez",
+        "page": 13
+      },
+      {
+        "name": "Oscar Chavez",
+        "page": 13
+      },
+      {
+        "name": "Patricio Carrasco",
+        "page": 13
+      },
+      {
+        "name": "Phillip Trujillo",
+        "page": 13
+      },
+      {
+        "name": "Quinton Baker",
+        "page": 13
+      },
+      {
+        "name": "Rachel Jane Art",
+        "page": 13
+      },
+      {
+        "name": "Rees Chua-Finlay",
+        "page": 13
+      },
+      {
+        "name": "Rich Hennemann",
+        "page": 13
+      },
+      {
+        "name": "Rico Dela Rosa",
+        "page": 13
+      },
+      {
+        "name": "Robert Hendrickson",
+        "page": 13
+      },
+      {
+        "name": "Rugved Bhuskute",
+        "page": 13
+      },
+      {
+        "name": "Rustico Limosinero",
+        "page": 13
+      },
+      {
+        "name": "Rusty!",
+        "page": 13
+      },
+      {
+        "name": "Rutvig Vaid",
+        "page": 13
+      },
+      {
+        "name": "Ryan Finley",
+        "page": 13
+      },
+      {
+        "name": "Ryan Johnston",
+        "page": 13
+      },
+      {
+        "name": "Ryan Olsen",
+        "page": 13
+      },
+      {
+        "name": "Ryan Thompson",
+        "page": 13
+      },
+      {
+        "name": "Scott Zambelli",
+        "page": 13
+      },
+      {
+        "name": "Scribbling Joe",
+        "page": 13
+      },
+      {
+        "name": "Semra Bulut",
+        "page": 13
+      },
+      {
+        "name": "Shaow Siong",
+        "page": 13
+      },
+      {
+        "name": "Sir Edmund Duke",
+        "page": 14
+      },
+      {
+        "name": "Snorpixel",
+        "page": 14
+      },
+      {
+        "name": "Stephane Leonardi",
+        "page": 14
+      },
+      {
+        "name": "Steve Alce",
+        "page": 14
+      },
+      {
+        "name": "Tim Shinn",
+        "page": 14
+      },
+      {
+        "name": "Tom Amici",
+        "page": 14
+      },
+      {
+        "name": "TOMA",
+        "page": 14
+      },
+      {
+        "name": "Tomoko Taniguchi",
+        "page": 14
+      },
+      {
+        "name": "Tony Riley",
+        "page": 14
+      },
+      {
+        "name": "Trent Westbrook",
+        "page": 14
+      },
+      {
+        "name": "Veronica Louro",
+        "page": 14
+      },
+      {
+        "name": "Vini Pirani",
+        "page": 14
+      },
+      {
+        "name": "Ward Silverman",
+        "page": 14
+      },
+      {
+        "name": "Will Pleydon",
+        "page": 14
+      },
+      {
+        "name": "Yves Van Berlo",
+        "page": 14
+      },
+      {
+        "name": "Zach Woolsey",
+        "page": 14
+      },
+      {
+        "name": "ジェイソン (Jason)",
+        "page": 14
+      }
+    ]
+  },
+  "odds": [
+    {
+      "label": "Base Refractor",
+      "hobby": "1:2",
+      "page": 1,
+      "rawLine": "Base Refractor 1:2"
+    },
+    {
+      "label": "Base Nebulae Refractor",
+      "hobby": "1:8",
+      "page": 1,
+      "rawLine": "Base Nebulae Refractor 1:8"
+    },
+    {
+      "label": "Base-Blue Lazer Refractor",
+      "hobby": "1:9",
+      "page": 1,
+      "rawLine": "Base-Blue Lazer Refractor 1:9"
+    },
+    {
+      "label": "Base-Pulsar Refractor",
+      "hobby": "1:14",
+      "page": 1,
+      "rawLine": "Base-Pulsar Refractor 1:14"
+    },
+    {
+      "label": "Base-Galactic Dust Refractor",
+      "hobby": "1:18",
+      "page": 1,
+      "rawLine": "Base-Galactic Dust Refractor 1:18"
+    },
+    {
+      "label": "Base-Gold Galactic Dust Refractor",
+      "hobby": "1:27",
+      "page": 1,
+      "rawLine": "Base-Gold Galactic Dust Refractor 1:27"
+    },
+    {
+      "label": "Base-Hyperlanes Refractor",
+      "hobby": "1:54",
+      "page": 1,
+      "rawLine": "Base-Hyperlanes Refractor 1:54"
+    },
+    {
+      "label": "Base-Black Hyperlanes Refractor",
+      "hobby": "1:135",
+      "page": 1,
+      "rawLine": "Base-Black Hyperlanes Refractor 1:135"
+    },
+    {
+      "label": "Base-Red Hyperlanes Refractor",
+      "hobby": "1:270",
+      "page": 1,
+      "rawLine": "Base-Red Hyperlanes Refractor 1:270"
+    },
+    {
+      "label": "Base-Superfractor",
+      "hobby": "1:1,353",
+      "page": 1,
+      "rawLine": "Base-Superfractor 1:1,353"
+    },
+    {
+      "label": "Base Planetary Variations-Tatooine",
+      "hobby": "1:33",
+      "page": 1,
+      "rawLine": "Base Planetary Variations-Tatooine 1:33"
+    },
+    {
+      "label": "Base Planetary Variations-Lothal",
+      "hobby": "1:76",
+      "page": 1,
+      "rawLine": "Base Planetary Variations-Lothal 1:76"
+    },
+    {
+      "label": "Base Planetary Variations-Mandalore",
+      "hobby": "1:76",
+      "page": 1,
+      "rawLine": "Base Planetary Variations-Mandalore 1:76"
+    },
+    {
+      "label": "Base Planetary Variations-Alderaan",
+      "hobby": "1:97",
+      "page": 1,
+      "rawLine": "Base Planetary Variations-Alderaan 1:97"
+    },
+    {
+      "label": "Base Planetary Variations-Corellia",
+      "hobby": "1:151",
+      "page": 1,
+      "rawLine": "Base Planetary Variations-Corellia 1:151"
+    },
+    {
+      "label": "Moon of Mandalore",
+      "hobby": "1:8",
+      "page": 1,
+      "rawLine": "Moon of Mandalore 1:8"
+    },
+    {
+      "label": "Moon of Mandalore-Pulsar Refractor",
+      "hobby": "1:136",
+      "page": 1,
+      "rawLine": "Moon of Mandalore-Pulsar Refractor 1:136"
+    },
+    {
+      "label": "Moon of Mandalore-Galactic Dust Refractor",
+      "hobby": "1:180",
+      "page": 1,
+      "rawLine": "Moon of Mandalore-Galactic Dust Refractor 1:180"
+    },
+    {
+      "label": "Moon of Mandalore-Gold Galactic Dust Refractor",
+      "hobby": "1:270",
+      "page": 1,
+      "rawLine": "Moon of Mandalore-Gold Galactic Dust Refractor 1:270"
+    },
+    {
+      "label": "Moon of Mandalore-Hyperlanes Refractor",
+      "hobby": "1:538",
+      "page": 1,
+      "rawLine": "Moon of Mandalore-Hyperlanes Refractor 1:538"
+    },
+    {
+      "label": "Moon of Mandalore-Hyperlanes Black Refractor",
+      "hobby": "1:1,153",
+      "page": 1,
+      "rawLine": "Moon of Mandalore-Hyperlanes Black Refractor 1:1,153"
+    },
+    {
+      "label": "Moon of Mandalore- Hyperlanes Red Refractor",
+      "hobby": "1:2,679",
+      "page": 1,
+      "rawLine": "Moon of Mandalore- Hyperlanes Red Refractor 1:2,679"
+    },
+    {
+      "label": "Moon of Mandalore-Superfractor",
+      "hobby": "1:12,858",
+      "page": 1,
+      "rawLine": "Moon of Mandalore-Superfractor 1:12,858"
+    },
+    {
+      "label": "There's Always a Bigger Fish",
+      "hobby": "1:4",
+      "page": 1,
+      "rawLine": "There's Always a Bigger Fish 1:4"
+    },
+    {
+      "label": "There's Always a Bigger Fish-Pulsar Refractor",
+      "hobby": "1:91",
+      "page": 1,
+      "rawLine": "There's Always a Bigger Fish-Pulsar Refractor 1:91"
+    },
+    {
+      "label": "There's Always a Bigger Fish-Galactic Dust Refractor",
+      "hobby": "1:120",
+      "page": 1,
+      "rawLine": "There's Always a Bigger Fish-Galactic Dust Refractor 1:120"
+    },
+    {
+      "label": "There's Always a Bigger Fish-Gold Galactic Dust Refractor",
+      "hobby": "1:180",
+      "page": 1,
+      "rawLine": "There's Always a Bigger Fish-Gold Galactic Dust Refractor 1:180"
+    },
+    {
+      "label": "There's Always a Bigger a Bigger Fish-Hyperlanes Refractor",
+      "hobby": "1:359",
+      "page": 1,
+      "rawLine": "There's Always a Bigger a Bigger Fish-Hyperlanes Refractor 1:359"
+    },
+    {
+      "label": "There's Always a Bigger a Bigger Fish-Black Hyperlanes Refractor",
+      "hobby": "1:899",
+      "page": 1,
+      "rawLine": "There's Always a Bigger a Bigger Fish-Black Hyperlanes Refractor 1:899"
+    },
+    {
+      "label": "There's Always a Bigger Fish-Red Hyperlanes Refractor",
+      "hobby": "1:1,786",
+      "page": 1,
+      "rawLine": "There's Always a Bigger Fish-Red Hyperlanes Refractor 1:1,786"
+    },
+    {
+      "label": "There's Always a Bigger Fish-Superfractor",
+      "hobby": "1:8,573",
+      "page": 1,
+      "rawLine": "There's Always a Bigger Fish-Superfractor 1:8,573"
+    },
+    {
+      "label": "Art of Tatooine",
+      "hobby": "1:64",
+      "page": 1,
+      "rawLine": "Art of Tatooine 1:64"
+    },
+    {
+      "label": "Art of Tatooine-Hyperlanes Refractor",
+      "hobby": "1:359",
+      "page": 1,
+      "rawLine": "Art of Tatooine-Hyperlanes Refractor 1:359"
+    },
+    {
+      "label": "Art of Tatooine-Shimmer Refractor",
+      "hobby": "1:899",
+      "page": 1,
+      "rawLine": "Art of Tatooine-Shimmer Refractor 1:899"
+    },
+    {
+      "label": "Art of Tatooine-Ray Wave Refractor",
+      "hobby": "1:1,786",
+      "page": 1,
+      "rawLine": "Art of Tatooine-Ray Wave Refractor 1:1,786"
+    },
+    {
+      "label": "Art of Tatooine-Superfractor",
+      "hobby": "1:8,572",
+      "page": 1,
+      "rawLine": "Art of Tatooine-Superfractor 1:8,572"
+    },
+    {
+      "label": "Galactic Eras",
+      "hobby": "1:4",
+      "page": 1,
+      "rawLine": "Galactic Eras 1:4"
+    },
+    {
+      "label": "Galactic Eras-Pulsar Refractor",
+      "hobby": "1:54",
+      "page": 1,
+      "rawLine": "Galactic Eras-Pulsar Refractor 1:54"
+    },
+    {
+      "label": "Galactic Eras- Galactic Dust Refractor",
+      "hobby": "1:72",
+      "page": 1,
+      "rawLine": "Galactic Eras- Galactic Dust Refractor 1:72"
+    },
+    {
+      "label": "Galactic Eras-Gold Galactic Dust Refractor",
+      "hobby": "1:108",
+      "page": 1,
+      "rawLine": "Galactic Eras-Gold Galactic Dust Refractor 1:108"
+    },
+    {
+      "label": "Galactic Eras-Hyperlanes Refractor",
+      "hobby": "1:215",
+      "page": 1,
+      "rawLine": "Galactic Eras-Hyperlanes Refractor 1:215"
+    },
+    {
+      "label": "Galactic Eras-Black Hyperlanes Refractor",
+      "hobby": "1:538",
+      "page": 1,
+      "rawLine": "Galactic Eras-Black Hyperlanes Refractor 1:538"
+    },
+    {
+      "label": "Galactic Eras-Red Hyperlanes Refractor",
+      "hobby": "1:1,080",
+      "page": 1,
+      "rawLine": "Galactic Eras-Red Hyperlanes Refractor 1:1,080"
+    },
+    {
+      "label": "Galactic Eras-Superfractor Refractor",
+      "hobby": "1:5,357",
+      "page": 1,
+      "rawLine": "Galactic Eras-Superfractor Refractor 1:5,357"
+    },
+    {
+      "label": "Reflections",
+      "hobby": "1:1000",
+      "page": 1,
+      "rawLine": "Reflections 1:1000"
+    },
+    {
+      "label": "Reflections-Kaleidoscope Refractor Parallel",
+      "hobby": "1:1,080",
+      "page": 1,
+      "rawLine": "Reflections-Kaleidoscope Refractor Parallel 1:1,080"
+    },
+    {
+      "label": "Reflections-Shimmer Refractor Parallel",
+      "hobby": "1:2,679",
+      "page": 2,
+      "rawLine": "Reflections-Shimmer Refractor Parallel 1:2,679"
+    },
+    {
+      "label": "Reflections-RayWave Refractor",
+      "hobby": "1:5,357",
+      "page": 2,
+      "rawLine": "Reflections-RayWave Refractor 1:5,357"
+    },
+    {
+      "label": "Reflections-Superfractor",
+      "hobby": "1:25,715",
+      "page": 2,
+      "rawLine": "Reflections-Superfractor 1:25,715"
+    },
+    {
+      "label": "Planetary Views",
+      "hobby": "1:272",
+      "page": 2,
+      "rawLine": "Planetary Views 1:272"
+    },
+    {
+      "label": "Planetary Views-Galactic Dust Refractor",
+      "hobby": "1:359",
+      "page": 2,
+      "rawLine": "Planetary Views-Galactic Dust Refractor 1:359"
+    },
+    {
+      "label": "Planetary Views-Gold Galactic Dust Refractor",
+      "hobby": "1:538",
+      "page": 2,
+      "rawLine": "Planetary Views-Gold Galactic Dust Refractor 1:538"
+    },
+    {
+      "label": "Planetary Views Hyperlanes Refractor",
+      "hobby": "1:1,080",
+      "page": 2,
+      "rawLine": "Planetary Views Hyperlanes Refractor 1:1,080"
+    },
+    {
+      "label": "Planetary Views Shimmer Refractor",
+      "hobby": "1:2,679",
+      "page": 2,
+      "rawLine": "Planetary Views Shimmer Refractor 1:2,679"
+    },
+    {
+      "label": "Planetary Views-Ray Wave Refractor",
+      "hobby": "1:5,357",
+      "page": 2,
+      "rawLine": "Planetary Views-Ray Wave Refractor 1:5,357"
+    },
+    {
+      "label": "Planetary Views-Superfractor",
+      "hobby": "1:25,715",
+      "page": 2,
+      "rawLine": "Planetary Views-Superfractor 1:25,715"
+    },
+    {
+      "label": "Galactic Origins",
+      "hobby": "1:900",
+      "page": 2,
+      "rawLine": "Galactic Origins 1:900"
+    },
+    {
+      "label": "Galactic Origins-Hyperlanes Refractor",
+      "hobby": "1:1,353",
+      "page": 2,
+      "rawLine": "Galactic Origins-Hyperlanes Refractor 1:1,353"
+    },
+    {
+      "label": "Galactic Origins-Ray Wave Refractor",
+      "hobby": "1:2,679",
+      "page": 2,
+      "rawLine": "Galactic Origins-Ray Wave Refractor 1:2,679"
+    },
+    {
+      "label": "Galactic Origins-Superfractor",
+      "hobby": "1:12,858",
+      "page": 2,
+      "rawLine": "Galactic Origins-Superfractor 1:12,858"
+    },
+    {
+      "label": "Hyperspace Shadowbox",
+      "hobby": "1:128",
+      "page": 2,
+      "rawLine": "Hyperspace Shadowbox 1:128"
+    },
+    {
+      "label": "Hyperspace Shadowbox-Hyperlanes Black Refractor",
+      "hobby": "1:673",
+      "page": 2,
+      "rawLine": "Hyperspace Shadowbox-Hyperlanes Black Refractor 1:673"
+    },
+    {
+      "label": "Hyperspace Shadowbox-Hyperlanes Red Refractor",
+      "hobby": "1:1,353",
+      "page": 2,
+      "rawLine": "Hyperspace Shadowbox-Hyperlanes Red Refractor 1:1,353"
+    },
+    {
+      "label": "Hyperspace Shadowbox-Superfractor",
+      "hobby": "1:6,767",
+      "page": 2,
+      "rawLine": "Hyperspace Shadowbox-Superfractor 1:6,767"
+    },
+    {
+      "label": "Sketch Cards-Silver Foil",
+      "hobby": "1:25",
+      "page": 2,
+      "rawLine": "Sketch Cards-Silver Foil 1:25"
+    },
+    {
+      "label": "Sketch Cards-Purple Foil",
+      "hobby": "1:155",
+      "page": 2,
+      "rawLine": "Sketch Cards-Purple Foil 1:155"
+    },
+    {
+      "label": "Sketch Cards-Gold Foil",
+      "hobby": "1:726",
+      "page": 2,
+      "rawLine": "Sketch Cards-Gold Foil 1:726"
+    },
+    {
+      "label": "Sketch Cards-Blue Foil",
+      "hobby": "1:4,434",
+      "page": 2,
+      "rawLine": "Sketch Cards-Blue Foil 1:4,434"
+    },
+    {
+      "label": "Sketch Cards-Black Foil",
+      "hobby": "1:25,715",
+      "page": 2,
+      "rawLine": "Sketch Cards-Black Foil 1:25,715"
+    },
+    {
+      "label": "Oversized Panaromic Sketch Cards",
+      "hobby": "1:2,990",
+      "page": 2,
+      "rawLine": "Oversized Panaromic Sketch Cards 1:2,990"
+    },
+    {
+      "label": "Oversized Widevision Chrome Cards",
+      "hobby": "1:8",
+      "page": 2,
+      "rawLine": "Oversized Widevision Chrome Cards 1:8"
+    },
+    {
+      "label": "Autograph Variation",
+      "hobby": "1:64",
+      "page": 2,
+      "rawLine": "Autograph Variation 1:64"
+    },
+    {
+      "label": "Autograph Variation-Pulsar Refractor",
+      "hobby": "1:167",
+      "page": 2,
+      "rawLine": "Autograph Variation-Pulsar Refractor 1:167"
+    },
+    {
+      "label": "Autograph-Gold Galactic Dust Refractor",
+      "hobby": "1:263",
+      "page": 2,
+      "rawLine": "Autograph-Gold Galactic Dust Refractor 1:263"
+    },
+    {
+      "label": "Autograph-Hyperlanes Refractor",
+      "hobby": "1:220",
+      "page": 2,
+      "rawLine": "Autograph-Hyperlanes Refractor 1:220"
+    },
+    {
+      "label": "Autograph-Red Hyperlanes Refractor",
+      "hobby": "1:710",
+      "page": 2,
+      "rawLine": "Autograph-Red Hyperlanes Refractor 1:710"
+    },
+    {
+      "label": "Autograph-Superfractor",
+      "hobby": "1:3,572",
+      "page": 2,
+      "rawLine": "Autograph-Superfractor 1:3,572"
+    }
+  ]
+}
