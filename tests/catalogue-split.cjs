@@ -34,6 +34,7 @@ const root = path.resolve(__dirname, '..');
   const source = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
   const loader = source.slice(source.indexOf('async function loadCatalogue()'), source.indexOf('\nfunction remoteRowToEntry'));
   const context = vm.createContext({fetch: fetchFile, state: {supabase: null}});
+  vm.runInContext(fs.readFileSync(path.join(root, 'categories.js'), 'utf8'), context);
   vm.runInContext(loader, context);
   const loaded = await context.loadCatalogue();
   assert.deepEqual(JSON.parse(JSON.stringify(loaded.cards)), assembled.cards);

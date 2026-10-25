@@ -1,10 +1,1 @@
-{
-  "name": "GrailRoster WWE Card Tracker",
-  "short_name": "GrailRoster",
-  "description": "Track WWE trading card sets, owned cards and wanted cards.",
-  "start_url": "./",
-  "display": "standalone",
-  "background_color": "#0b0e10",
-  "theme_color": "#0b0e10",
-  "icons": []
-}
+{"name":"GrailRoster WWE Card Tracker","short_name":"GrailRoster","description":"Track your trading card collections with GrailRoster","start_url":"./","display":"standalone","background_color":"#0b0e10","theme_color":"#0b0e10","icons":[]}

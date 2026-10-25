@@ -54,6 +54,7 @@ const cards = groups.flatMap(g => g.rows.map(row => ({
   roster: row.roster, rookie: 'No', parallelGroup: g.code,
 })));
 const set = {
+  categoryId: 'wwe',
   id: SET_ID, name: '2026 Topps NSCC Collection - WWE', shortName: 'NSCC Collection WWE',
   accent: '#ef4444', year: 2026, manufacturer: 'Topps', releaseDate: null,
   cardCount: cards.length, subsetCount: groups.length,

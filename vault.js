@@ -66,6 +66,7 @@ const Vault = (() => {
   }
 
   function open(cardId, editId = null) {
+    if (!cardInCategory(cardId)) return;
     if (document.querySelector('#vaultForm')?.dataset.dirty === 'true' && !confirm('Discard your unsaved copy changes?')) return;
     const card = state.catalogue.cards.find(c => c.id === cardId);
     if (!card) return;
@@ -171,7 +172,8 @@ const Vault = (() => {
   function overview() {
     const target = document.querySelector('#vaultOverview');
     if (!target || !state.catalogue) return;
-    const entries = Object.entries(state.collection).filter(([,e])=>managed(e));
+    const ids = new Set(categoryCatalogue().cards.map(card => card.id));
+    const entries = Object.entries(state.collection).filter(([id,e])=>ids.has(id) && managed(e));
     const copies = entries.flatMap(([,e])=>e.copies);
     const totals = {};
     for (const copy of copies.filter(c=>c.status==='owned')) {

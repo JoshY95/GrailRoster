@@ -28,10 +28,10 @@ window.GrailUI = (() => {
     return 'default';
   }
   function setCover(set) {
-    return `<div class="set-cover-placeholder" data-cover="${coverStyle(set)}"><div class="cover-top"><span>GRAILROSTER</span><span>${escape(set.year)}</span></div><strong>${escape(set.shortName)}</strong><small>WWE · SET CHECKLIST</small></div>`;
+    return `<div class="set-cover-placeholder" data-cover="${coverStyle(set)}"><div class="cover-top"><span>GRAILROSTER</span><span>${escape(set.year)}</span></div><strong>${escape(set.shortName)}</strong><small>${escape(GrailCategories.get(set.categoryId)?.name || '')} · SET CHECKLIST</small></div>`;
   }
   function cardPlaceholder(card, set) {
-    return `<div class="card-placeholder" data-cover="${coverStyle(set)}"><div class="cover-top"><span>${escape(set?.year || '')} · WWE</span><span>#${escape(card.number)}</span></div><div class="card-placeholder-name">${escape(card.name)}</div><div class="placeholder-bottom"><span>${escape(card.subset)}</span><small>Image pending</small></div></div>`;
+    return `<div class="card-placeholder" data-cover="${coverStyle(set)}"><div class="cover-top"><span>${escape(set?.year || '')} · ${escape(GrailCategories.get(set?.categoryId)?.name || '')}</span><span>#${escape(card.number)}</span></div><div class="card-placeholder-name">${escape(card.name)}</div><div class="placeholder-bottom"><span>${escape(card.subset)}</span><small>Image pending</small></div></div>`;
   }
   function mountIcons() {
     document.querySelectorAll('[data-icon]').forEach(el => { el.innerHTML = icon(el.dataset.icon); });

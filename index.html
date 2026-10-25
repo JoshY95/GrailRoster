@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#0b0e10" />
-    <meta name="description" content="Track WWE trading card sets, collection progress and wanted cards." />
+    <meta name="description" content="Track trading card sets, collection progress and wanted cards across your collecting interests." />
     <meta name="application-name" content="GrailRoster" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="GrailRoster" />
-    <meta property="og:title" content="GrailRoster — WWE Card Collection Tracker" />
-    <meta property="og:description" content="Track WWE trading card sets, collection progress and wanted cards." />
+    <meta property="og:title" content="GrailRoster — Card Collection Tracker" />
+    <meta property="og:description" content="Track trading card sets, collection progress and wanted cards across your collecting interests." />
     <meta property="og:url" content="https://grailroster.com/" />
     <meta name="twitter:card" content="summary" />
     <link rel="canonical" href="https://grailroster.com/" />
@@ -25,7 +25,7 @@
         <button class="sidebar-close" data-close-menu aria-label="Close navigation">×</button>
         <a class="brand" href="#dashboard" aria-label="GrailRoster dashboard">
           <span class="brand-mark" data-icon="crown"></span>
-          <span><strong>GrailRoster</strong><small>WWE card collection</small></span>
+          <span><strong>GrailRoster</strong><small>Your collecting world</small></span>
         </a>
         <nav aria-label="Main navigation">
           <a class="nav-link active" href="#dashboard" data-view="dashboard"><span data-icon="collection"></span><span>Overview</span></a>
@@ -64,6 +64,15 @@
         </header>
 
         <div class="content">
+          <section class="category-header" aria-label="Collection category">
+            <div class="category-heading"><div><p class="eyebrow">YOUR COLLECTING WORLD</p><h2 id="categoryTitle">WWE collection</h2><p id="categoryDescription" class="muted"></p></div></div>
+            <div class="category-switcher" id="categorySwitcher" role="group" aria-label="Choose collection category"></div>
+          </section>
+          <section id="categoryEmpty" class="category-empty" hidden aria-live="polite">
+            <span class="category-empty-label">COMING SOON</span><h2 id="categoryEmptyTitle"></h2><p id="categoryEmptyCopy"></p>
+            <button type="button" class="primary-button" data-franchise="wwe">Explore WWE</button>
+          </section>
+          <div id="categoryWorkspace">
           <nav class="collection-tabs" id="collectionTabs" aria-label="Collection views">
             <a class="nav-link active" href="#dashboard" data-view="dashboard">Overview</a>
             <a class="nav-link" href="#collection" data-view="collection">Owned cards</a>
@@ -73,7 +82,7 @@
             <div class="hero-panel">
               <div class="hero-copy">
                 <h2>Catalogue progress</h2>
-                <p>Across all WWE sets</p>
+                <p id="heroScope">Across all WWE sets</p>
               </div>
               <div class="hero-progress" id="heroProgress" aria-label="Collection progress"></div>
             </div>
@@ -106,7 +115,7 @@
             <div id="setContext" class="set-context" hidden></div>
             <div class="filter-bar">
               <select id="setFilter" aria-label="Filter by set"><option value="all">All sets</option></select>
-              <select id="categoryFilter" aria-label="Filter by category"><option value="all">All categories</option></select>
+              <select id="categoryFilter" aria-label="Filter by card type"><option value="all">All card types</option></select>
               <select id="statusFilter" aria-label="Filter by collection status">
                 <option value="all">All cards</option><option value="owned">Owned</option><option value="wanted">Wanted</option><option value="missing">Missing</option>
               </select>
@@ -128,6 +137,7 @@
             <div class="list-toolbar"><input id="wantedSearch" type="search" placeholder="Search your wanted list" aria-label="Search wanted cards" /><div class="view-toggle" aria-label="Wanted layout"><button data-layout-target="wantedList" data-layout="grid" aria-label="Wanted grid" aria-pressed="false"><span data-icon="grid"></span></button><button data-layout-target="wantedList" data-layout="list" aria-label="Wanted list" aria-pressed="true"><span data-icon="list"></span></button></div></div>
             <div class="card-list" id="wantedList" data-layout="list"></div>
           </section>
+          </div>
         </div>
       </main>
     </div>
@@ -221,8 +231,9 @@
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
     <script src="config.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.112.0/dist/umd/supabase.min.js" integrity="sha384-De+l/Df7qym5QBDVocD3+gW1S7IjR3epf+6KbRDjB3FCCzM/LqVTwqckT6FhFar8" crossorigin="anonymous"></script>
+    <script src="categories.js"></script>
     <script src="ui.js" defer></script>
-    <script src="vault.js?v=19" defer></script>
-    <script src="app.js?v=19" defer></script>
+    <script src="vault.js?v=24" defer></script>
+    <script src="app.js?v=24" defer></script>
   </body>
 </html>

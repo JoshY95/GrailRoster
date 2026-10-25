@@ -259,3 +259,27 @@ dialog::backdrop { background:var(--overlay); backdrop-filter:blur(6px) }
  [data-layout=grid] .card-placeholder-name { font-size:var(--text-base) } .state-button { padding:var(--space-2) }
 }
 @media(prefers-reduced-motion:reduce) { *,*:before,*:after { transition:none!important; animation:none!important } }
+/* The franchise selector stays visible in every collection view. */
+.category-header { margin-bottom: 28px; }
+.category-heading { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom:18px; }
+.category-heading h2 { margin:4px 0 6px; font-size:var(--text-xl); }
+.category-heading p { margin:0; }
+.category-switcher { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); padding:5px; gap:5px; background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); }
+.category-choice { min-width:0; min-height:64px; display:flex; flex-direction:column; justify-content:center; align-items:flex-start; gap:4px; padding:12px 18px; border:1px solid transparent; border-radius:8px; background:transparent; color:var(--text-secondary); text-align:left; }
+.category-choice strong { font-size:var(--text-base); color:inherit; }
+.category-choice small { font-size:var(--text-xs); color:var(--text-muted); }
+.category-choice:hover { background:var(--surface-hover); }
+.category-choice[aria-pressed="true"] { border-color:var(--accent); background:var(--accent-soft); color:var(--accent); }
+.category-choice[aria-pressed="true"] small { color:var(--text-secondary); }
+.category-empty { padding:64px 24px; border:1px solid var(--line); border-radius:var(--radius-lg); background:var(--surface); text-align:center; }
+.category-empty-label { display:inline-block; color:var(--accent); font-size:var(--text-xs); letter-spacing:.14em; margin-bottom:16px; }
+.category-empty h2 { margin:0 0 14px; font-size:var(--text-title); }
+.category-empty p { max-width:480px; margin:0 auto 26px; color:var(--text-secondary); line-height:1.7; }
+#categoryWorkspace[hidden], #categoryEmpty[hidden] { display:none; }
+@media(max-width:600px) {
+  .category-heading { align-items:flex-start; }
+  .category-choice { align-items:center; padding:12px 4px; text-align:center; }
+  .category-choice strong { font-size:var(--text-sm); }
+  .category-choice small { font-size:.6875rem; }
+  .category-empty { padding:40px 20px; }
+}
