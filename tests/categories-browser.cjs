@@ -17,16 +17,25 @@ const {chromium} = require('playwright');
       saveCollection();renderAll();return localStorage.getItem(GUEST_STORAGE_KEY);
     });
     await page.locator('#categorySwitcher [data-franchise="star-wars"]').click();
-    assert.equal(await page.locator('#categoryWorkspace').isVisible(),false);
-    assert.match(await page.locator('#categoryEmptyTitle').innerText(),/Star Wars/);
+    assert.equal(await page.locator('#categoryWorkspace').isVisible(),true);
+    assert.equal(await page.evaluate(()=>categoryCatalogue().cardCount),1304);
     assert.equal(await page.locator('#categorySwitcher [data-franchise="star-wars"]').getAttribute('aria-pressed'),'true');
-    assert.equal(await page.locator('#allSets .set-card').count(),0);
+    assert.equal(await page.locator('#allSets .set-card').count(),1);
     for(const view of ['dashboard','sets','cards','collection','wanted']) {
       await page.evaluate(view=>changeView(view),view);
-      assert.equal(await page.locator('#categoryEmpty').isVisible(),true);
+      assert.equal(await page.locator('#categoryEmpty').isVisible(),false);
       assert.equal(await page.locator('#collectionList .card-row').count(),0);
       assert.equal(await page.locator('#wantedList .card-row').count(),0);
     }
+    await page.evaluate(()=>changeView('cards'));
+    await page.locator('#globalSearch').fill('Ewan McGregor');
+    assert((await page.locator('#cardList .card-row').count())>0,'Autographs searchable by signer');
+    assert(!(await page.locator('#cardList').innerText()).includes('WWE'));
+    await page.locator('#clearFilters').click();
+    const starWarsId=await page.evaluate(()=>categoryCatalogue().cards[0].id);
+    await page.locator('#cardList .card-row').first().locator('.state-button.owned').click();
+    assert.equal(await page.evaluate(()=>counts().owned),1);
+    const both=await page.evaluate(()=>localStorage.getItem(GUEST_STORAGE_KEY));
     await page.locator('#categorySwitcher [data-franchise="marvel"]').click();
     for(const width of [320,390,768,1024,1440]) {
       await page.setViewportSize({width,height:900});
@@ -41,11 +50,24 @@ const {chromium} = require('playwright');
     await page.locator('#categorySwitcher [data-franchise="marvel"]').waitFor();
     assert.equal(await page.locator('#categorySwitcher [data-franchise="marvel"]').getAttribute('aria-pressed'),'true');
     assert.match(await page.locator('#categoryEmptyTitle').innerText(),/Marvel/);
-    assert.equal(await page.evaluate(()=>localStorage.getItem(GUEST_STORAGE_KEY)),before);
+    assert.equal(await page.evaluate(()=>localStorage.getItem(GUEST_STORAGE_KEY)),both);
     await page.locator('#categorySwitcher [data-franchise="wwe"]').click();
     assert.equal(await page.locator('#collectionList .card-row').count(),1);
     assert.equal(await page.locator('#wantedList .card-row').count(),1);
-    assert.equal(await page.evaluate(()=>localStorage.getItem(GUEST_STORAGE_KEY)),before);
+    assert.equal(await page.evaluate(()=>localStorage.getItem(GUEST_STORAGE_KEY)),both);
+    assert.equal(JSON.parse(both)[starWarsId].status,'owned');
+    for(const [id,entry] of Object.entries(JSON.parse(before))) assert.deepEqual(JSON.parse(both)[id],entry);
+    await page.locator('#categorySwitcher [data-franchise="star-wars"]').click();
+    assert.equal(await page.locator('#allSets .set-card').count(),1);
+    assert.equal(await page.evaluate(()=>counts().owned),1);
+    assert.equal(await page.locator('#wantedList .card-row').count(),0);
+    for(const width of [320,390,768,1024,1440]) {
+      await page.setViewportSize({width,height:900});
+      for(const view of ['dashboard','sets','cards','collection','wanted']) {
+        await page.evaluate(view=>changeView(view),view);
+        assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth),true,`Star Wars ${view} overflows at ${width}`);
+      }
+    }
     assert.deepEqual(errors,[]);
     console.log('PASS: browser category switching, responsive widths, persistent category/offline reload and unchanged saved entries.');
   } finally {await browser.close();}
