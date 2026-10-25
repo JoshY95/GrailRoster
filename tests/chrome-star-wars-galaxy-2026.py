@@ -50,7 +50,7 @@ class GalaxyImport(unittest.TestCase):
         def previous(path):return subprocess.check_output(['git','show',f'{base}:{path}'],cwd=ROOT)
         old_index=json.loads(previous('data/catalogue-index.json'))
         catalogue=load_catalogue()
-        self.assertEqual((catalogue['setCount'],catalogue['cardCount']),(26,12925))
+        self.assertEqual(len([c for c in catalogue['cards'] if c['setId']==galaxy.SET_ID]),323)
         for record in old_index['sets']:
             self.assertEqual((ROOT/'data'/record['file']).read_bytes(),previous('data/'+record['file']))
             self.assertEqual(next(s for s in catalogue['sets'] if s['id']==record['id']),{k:v for k,v in record.items() if k!='file'})
