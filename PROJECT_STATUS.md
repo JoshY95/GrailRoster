@@ -2,11 +2,12 @@
 
 Read this first; inspect only files needed for the current task.
 
-## Star Wars Chrome 2025 — 26 October 2026 (validated; publishing)
+## Star Wars Chrome 2025 — 26 October 2026 (published)
 
 - Next authorised set: regular 2025 Topps Chrome Star Wars, release 20 August 2025. 1,235 identities /20 subsets from 1,272 rows: 200 base, 840 inserts and 195 autographs. Duo/trio repeats combine; 188 sketch artists remain a roster. All rows, 281 attached DEBUT flags and 95 odds rows independently matched Poppler. Audit: docs/CHROME_STAR_WARS_2025_IMPORT_AUDIT.md.
 - 91 subset odds rules; four sketch rates source-only. Malformed rates retained without interpretation. Source aliases and non-starting R-11/VC-6/OF-6 numbers documented. No inferred caps/grids or sketch identities.
-- Local totals 31 sets /16,206 identities; Star Wars 7 /4,908. All previous 30 metadata/set bundles and frozen snapshot unchanged. Focused and existing source/catalogue regressions passed. Browser CI and publication pending. SQL supabase/corrections/2026-10-26-star-wars-chrome-2025.sql passed rolled-back dry run. No collector writes.
+- Local totals 31 sets /16,206 identities; Star Wars 7 /4,908. All previous 30 metadata/set bundles and frozen snapshot unchanged. Focused and existing source/catalogue/category regressions passed. Browser CI 40240834274 passed guest, Vault, offline, seven-set ownership and responsive checks. SQL supabase/corrections/2026-10-26-star-wars-chrome-2025.sql passed rolled-back dry run, commit and an identical second application across all eight full-row digests. All 30 collections retain 6648329147d88b88ed9e52eaac40cfa9; images remain empty. No collector writes.
+- Published PR #14, feature 58cc19994d96ebef0d17f3e4c18fc6d25ccb33eb, merge 428e662978c9c7e6c56f2befa99aaa5a1eb0dfe6. Pages 40240987507 succeeded. All 44 live assets match source. Live guest confirmed seven sets /4,908 cards, Chrome 1,235/20 and one DA-MJj duo. Cache refreshed after activation/reload. Authenticated private-photo/two-device flows not rerun. Receipt: docs/CHROME_STAR_WARS_2025_RELEASE.json.
 - Next: 2025 Topps Star Wars Hyperspace. One set per task.
 
 ## Star Wars Sapphire 2025 — 26 October 2026 (published)
