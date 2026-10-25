@@ -2,11 +2,12 @@
 
 Read this first; inspect only files needed for the current task.
 
-## Star Wars Smugglers Outpost — 26 October 2026 (prepared)
+## Star Wars Smugglers Outpost — 26 October 2026 (published)
 
 - Authorised next set: 2025 Topps Star Wars Smugglers Outpost, actual release 18 March 2026. Official PDFs yield 806 identities / 23 subsets from 881 subject/signature rows. Three base brands remain distinct; trio/quad/twenty-signer repeats combine. Numbered Sketchagraphs and sketch designs are included, the 216 artists remain a roster.
 - Checklist page 6 prints ARS-25 twice for different subjects and omits ARS-23. Both subjects keep source numbers and distinct internal subject suffixes, with unresolved numbering notes. Never infer ARS-23. All 881 rows matched independent Poppler text. 127 odds rows retained / 124 subset rules; no guessed serial caps or parallel grids.
-- Local totals 28 sets / 14,320 identities, Star Wars 4 / 3,022; all prior 27 metadata/set files and frozen snapshot preserved. Focused local and existing regressions passed. Browser CI, guarded SQL and publication pending. Audit: docs/SMUGGLERS_OUTPOST_STAR_WARS_2025_IMPORT_AUDIT.md.
+- Local totals 28 sets / 14,320 identities, Star Wars 4 / 3,022; all prior 27 metadata/set files and frozen snapshot preserved. Focused local and existing regressions passed. Browser CI 40200759468 passed guest, Vault, offline, duplicate-number and twenty-signer responsive checks. Guarded SQL passed rolled-back dry run, committed and repeated with unchanged full-row digests. All 30 collections retain digest 6648329147d88b88ed9e52eaac40cfa9; images remain empty. Audit: docs/SMUGGLERS_OUTPOST_STAR_WARS_2025_IMPORT_AUDIT.md.
+- Published PR #10, feature 3aaf86fd2ca3b754de92e41bfb70e34817fe312e, merge 58eac31f42b8f2a3666479514b45ced1a75cf3b8; Pages 40200929665 succeeded. All 41 live assets match validated source bytes. Live guest UI confirmed four Star Wars sets / 3,022 cards, 806 / 23 for this set, both ARS-25 subjects and one twenty-signer LSU-BC. Existing cache refreshed after activation and a normal reload. Authenticated two-device/private-photo tests were not rerun. Receipt: docs/SMUGGLERS_OUTPOST_STAR_WARS_2025_RELEASE.json.
 - SQL: supabase/corrections/2026-10-26-star-wars-smugglers-outpost.sql, baseline 27 sets / 13,514 cards. Next: 2025 Topps Chrome Star Wars Galaxy. One set per task.
 
 ## Star Wars Masterwork — 25 October 2026 (published)
