@@ -2,11 +2,12 @@
 
 Read this first; inspect only files needed for the current task.
 
-## Star Wars Sapphire 2025 — 26 October 2026 (prepared)
+## Star Wars Sapphire 2025 — 26 October 2026 (published)
 
 - Authorised next set: 2025 Topps Chrome Sapphire Star Wars, official release 17 September 2025. 358 identities /5 subsets from 395 numbered rows: 200 base, 10 Sapphire Selections, 148 autographs. Duo/trio signer repeats combine. All numbered rows, 65 attached DEBUT flags and 17 odds rows independently matched Poppler.
 - PDF has four blank pages and 21 unattached trailing DEBUT glyphs, retained only as artifacts. No fake identities/flags. Repeated character names with distinct printed numbers and mixed-case DA-MJj are preserved. All 17 odds subset rules retained; no inferred serial caps or subject/parallel grids. Audit: docs/CHROME_SAPPHIRE_STAR_WARS_2025_IMPORT_AUDIT.md.
-- Local totals 30 sets /14,971 identities; Star Wars 6 /3,673. All prior 29 metadata/set files and frozen snapshot unchanged. Focused and existing local regressions passed; browser CI, guarded SQL and publication pending.
+- Local totals 30 sets /14,971 identities; Star Wars 6 /3,673. All prior 29 metadata/set files and frozen snapshot unchanged. Focused and existing local regressions passed. Browser CI 40237700074 passed guest/Vault/offline, six-set ownership, Sapphire Selections and duo/trio checks. Guarded SQL passed rolled-back dry run, commit and byte-identical second application across all eight table digests. All 30 collections retain 6648329147d88b88ed9e52eaac40cfa9; images empty, no collector writes.
+- Published PR #12, feature 964aad6d5996b0a5fa21b5f7b9d68e0c88e7bd4d, merge 1f1ea977a4a814bb2eec3de21ab15bc7f7776a6e; Pages 40237875862 succeeded. All 43 live assets match validated source. Live guest UI shows six Star Wars sets /3,673 cards, Sapphire 358/5 and DA-MJj one dual-signer identity. Cache refreshed after activation and normal reload. Authenticated private-photo/two-device flows not rerun. Receipt: docs/CHROME_SAPPHIRE_STAR_WARS_2025_RELEASE.json.
 - SQL: supabase/corrections/2026-10-26-star-wars-sapphire-2025.sql, baseline 29 /14,613. Next: 2025 Topps Chrome Star Wars. One set per task.
 
 ## Star Wars Galaxy 2025 — 26 October 2026 (published)

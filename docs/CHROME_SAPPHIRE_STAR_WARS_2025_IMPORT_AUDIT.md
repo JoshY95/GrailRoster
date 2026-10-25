@@ -1,6 +1,6 @@
 # 2025 Topps Chrome Sapphire Star Wars — import audit
 
-Status: prepared; local checks passed. Browser CI, database application and publication pending.
+Status: imported and published via PR #12. Browser CI 40237700074 and Pages 40237875862 succeeded.
 
 ## Manufacturer reconciliation
 
@@ -35,3 +35,7 @@ Focused source, DEBUT/artifact, odds and preservation tests and all existing sou
 - [Official product](https://www.topps.com/products/2025-topps-chrome%C2%AE-sapphire-star-wars-hobby-box).
 - [Official checklist](https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Sapphire_Star_Wars_Checklist.pdf?v=1787949354) — SHA-256 `9ca2fe09ad5e04ad727233cd26b9b7f70ba127a0598f60904dfe3a96c5d2edf2`.
 - [Official odds](https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Topps_Chrome_Sapphire_Star_Wars_Odds.pdf?v=1787949354) — SHA-256 `b68c3678c6db00824954aa63b2de852ca6623357172dead2312af9c860178b21`.
+
+## Published verification
+
+Guarded SQL passed a rolled-back dry run and committed successfully. A second committed import left complete-row digests identical across all eight tables. Collections remain 30 with digest `6648329147d88b88ed9e52eaac40cfa9`; images remain empty. Browser CI passed source/category, guest, Vault, offline, six-set ownership and responsive checks. Feature `964aad6d5996b0a5fa21b5f7b9d68e0c88e7bd4d` merged via PR #12 as `1f1ea977a4a814bb2eec3de21ab15bc7f7776a6e`. All 43 live runtime/index/set files match validated source. Live guest UI confirmed six sets /3,673 cards, Sapphire 358/5 and DA-MJj as one card with Lee Jung-jae and Manny Jacinto. Previous cache refreshed after activation and normal reload. Receipt: `docs/CHROME_SAPPHIRE_STAR_WARS_2025_RELEASE.json`.

@@ -1,0 +1,327 @@
+{
+  "setId": "2025-topps-chrome-sapphire-star-wars",
+  "verifiedOn": "2026-10-26",
+  "feature": "964aad6d5996b0a5fa21b5f7b9d68e0c88e7bd4d",
+  "pullRequest": 12,
+  "counts": {
+    "sets": 30,
+    "cards": 14971,
+    "starWarsSets": 6,
+    "starWarsCards": 3673,
+    "addedCards": 358,
+    "addedSubsets": 5,
+    "sourceRows": 395,
+    "attachedDebutFlags": 65,
+    "unattachedPdfArtifacts": 21,
+    "blankPdfPages": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "oddsRows": 17,
+    "subsetRules": 17,
+    "variants": 358
+  },
+  "limits": [
+    "No serial caps or card-specific parallel grids inferred from odds.",
+    "DEBUT is preserved as source metadata, not silently converted to an athlete rookie flag.",
+    "Trailing unattached PDF glyphs are not card identities or flags.",
+    "No licensed card images added.",
+    "Authenticated private-photo/two-device flows not rerun."
+  ],
+  "next": "2025 Topps Chrome Star Wars",
+  "status": "published",
+  "merge": "1f1ea977a4a814bb2eec3de21ab15bc7f7776a6e",
+  "ci": {
+    "run": 40237700074,
+    "job": 121302698064,
+    "conclusion": "success",
+    "coverage": [
+      "source/catalogue/category regressions",
+      "guest",
+      "Vault",
+      "offline reload",
+      "six-set ownership isolation",
+      "ten Sapphire Selections",
+      "mixed-case duo",
+      "single trio identity",
+      "responsive widths 320\u20131440"
+    ]
+  },
+  "pages": {
+    "run": 40237875862,
+    "conclusion": "success"
+  },
+  "database": {
+    "dryRun": "verified then rolled back; 29/14613 baseline unchanged",
+    "commit": "verified count/linkage and complete old-row preservation guards",
+    "repeat": "second committed import was identical across all eight complete-row digests",
+    "tables": [
+      {
+        "table_name": "catalogue_sets",
+        "count": 30,
+        "digest": "33629fadf90900611b1b58cf4ac018d1"
+      },
+      {
+        "table_name": "catalogue_cards",
+        "count": 14971,
+        "digest": "43e7ee247d32396552a98c72df870dbc"
+      },
+      {
+        "table_name": "catalogue_sources",
+        "count": 82,
+        "digest": "50826d001130043f165fd6111f3b8c24"
+      },
+      {
+        "table_name": "catalogue_subsets",
+        "count": 517,
+        "digest": "8d552f0cb8db7940e968076488b36624"
+      },
+      {
+        "table_name": "catalogue_variants",
+        "count": 36332,
+        "digest": "6e12b1df95d36be120592e293344f9df"
+      },
+      {
+        "table_name": "catalogue_parallel_rules",
+        "count": 1693,
+        "digest": "709d979d80f9b29db8005c15db17d51f"
+      },
+      {
+        "table_name": "collection_items",
+        "count": 30,
+        "digest": "6648329147d88b88ed9e52eaac40cfa9"
+      },
+      {
+        "table_name": "reference_images",
+        "count": 0,
+        "digest": "d41d8cd98f00b204e9800998ecf8427e"
+      }
+    ]
+  },
+  "live": {
+    "url": "https://grailroster.com/#sets",
+    "guest": "Six Star Wars sets /3673 cards; Sapphire 358/5; DA-MJj one card with Lee Jung-jae and Manny Jacinto",
+    "cache": "After activation a further normal reload refreshed the previous five-set cache to six.",
+    "runtime": "43 assets byte-identical to validated source"
+  },
+  "preservation": "All previous 29 set metadata records, bundles and frozen snapshot unchanged; all 30 collector rows and zero image rows preserved.",
+  "assets": [
+    {
+      "path": "index.html",
+      "bytes": 17106,
+      "sha256": "28a16f93983ff7c7937af177d8813b2e3d2bc7962747d3fefb2b827d67704469"
+    },
+    {
+      "path": "theme.css",
+      "bytes": 1220,
+      "sha256": "719dd67067880ac0419845e2c903bb8dca6f9e09ece83d07f3f4fb8c5393e8f0"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 26919,
+      "sha256": "218fad84a69973080c74268955f3dc70c5ef290340e58f1a9a63315d9d60da35"
+    },
+    {
+      "path": "vault.css",
+      "bytes": 1808,
+      "sha256": "44db6a546ebc1917d2af2a76a74e4c05b24b591692df2a8bb9aaed109eeffd42"
+    },
+    {
+      "path": "categories.js",
+      "bytes": 1837,
+      "sha256": "d2f06940130016b559e940b088173a5bd0f077bdc864bc9106ad45a4f30b5443"
+    },
+    {
+      "path": "ui.js",
+      "bytes": 2809,
+      "sha256": "7e0bd706ea8bc72aa7156a562c5d383b2c821678e21b28da2c81421282104964"
+    },
+    {
+      "path": "vault.js",
+      "bytes": 22941,
+      "sha256": "a1ae9bf48f656aaaff66d6e5522b696e42ce33ab9d7ae2d7c6ec0b3f8eadd231"
+    },
+    {
+      "path": "config.js",
+      "bytes": 183,
+      "sha256": "040a47f72115d631d9d21cf8f69043296733b8b43216b7a626818a7cf8bc9894"
+    },
+    {
+      "path": "app.js",
+      "bytes": 58912,
+      "sha256": "a448caece5fea1211e338ea21311c341216e199927ea7b13e3f3246a80252b19"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 1411,
+      "sha256": "1ba91210df7698b7dc29457621716cc589791f643fc8ed584148d36a55ee164f"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 240,
+      "sha256": "1c211cb5f11f69b296dcb1a1d741be4e322b4482936ee80ce481b63044b2bc9d"
+    },
+    {
+      "path": "data/catalogue-index.json",
+      "bytes": 49925,
+      "sha256": "7aa15db8057ebeb187a1bc4ec73d19970d824ecfae0f538ee5f36ff33a888d89"
+    },
+    {
+      "path": "data/images.json",
+      "bytes": 77,
+      "sha256": "df0055e66d00cc4592621a7956e0e3f1d191e520cd47d0420c434b35285c805e"
+    },
+    {
+      "path": "data/sets/2026-topps-stadium-club-wwe.json",
+      "bytes": 241958,
+      "sha256": "ea9993e715ca5838c0077532a7482947724135f31699da2407ffae3150a600ef"
+    },
+    {
+      "path": "data/sets/2026-topps-universe-wwe.json",
+      "bytes": 227431,
+      "sha256": "15102994a75e77624a661d0cda908cd97fe7e803f5b686eef75d8f20485445cb"
+    },
+    {
+      "path": "data/sets/2026-topps-decades-wwe-90s.json",
+      "bytes": 70863,
+      "sha256": "622564a7135d84976fc7c148518c455e113552ae30343b87e37915bfacd54de4"
+    },
+    {
+      "path": "data/sets/2026-topps-cosmic-chrome-wwe.json",
+      "bytes": 191454,
+      "sha256": "a4063ea1306b59677e2472ad23bd04180c0ac841df5b6b12c8dd1da44cfe0340"
+    },
+    {
+      "path": "data/sets/2026-topps-chrome-sapphire-wwe.json",
+      "bytes": 132764,
+      "sha256": "6d26aecb94d2d070ae7afbb2f1bb52c6716d404583c9370cb438071e95c7ecdd"
+    },
+    {
+      "path": "data/sets/2025-topps-royalty-wwe.json",
+      "bytes": 179625,
+      "sha256": "f8bdc2ed842e3712dc550f6cf40a9a35bde7d6fda0a000ae7b783d02e0e6b952"
+    },
+    {
+      "path": "data/sets/2026-topps-chrome-logofractor-wwe.json",
+      "bytes": 97703,
+      "sha256": "9e8bf5bce2a46fcca8948c058ace78a1b80c824a8eaddf989bd188e3a98bcba5"
+    },
+    {
+      "path": "data/sets/2026-topps-now-wrestlemania-vegas.json",
+      "bytes": 10483,
+      "sha256": "3d0911a9c0c0cf94b492e365893b14e4849a002a7d9bd886d6babc773c799144"
+    },
+    {
+      "path": "data/sets/2026-topps-chrome-wwe.json",
+      "bytes": 293152,
+      "sha256": "efee78c0fe4d0c3692601586b77aeb5c13cc08298343fab0f179354e818ec092"
+    },
+    {
+      "path": "data/sets/2025-topps-exalted-wwe.json",
+      "bytes": 98800,
+      "sha256": "33b8c9e95176e17934b469b3a5664788738213e501b5227ee569f1dd2634b42f"
+    },
+    {
+      "path": "data/sets/2026-topps-now-wwe-crossovers.json",
+      "bytes": 320,
+      "sha256": "13b708d9b040e3b0435afe5c7e1a3e541f35d7b5770fdae896d1cfb81fc3b8d6"
+    },
+    {
+      "path": "data/sets/2025-topps-john-cena-commemorative-collection.json",
+      "bytes": 19928,
+      "sha256": "2bdbedf18a2db32890e86f584405517b61c85efc0f216033b34949e5329e9d30"
+    },
+    {
+      "path": "data/sets/2025-topps-universe-wwe.json",
+      "bytes": 210968,
+      "sha256": "88ffbf2dd51e341e4ca9b120568731b4cdf346b7151bc566c406ecfd20fd761b"
+    },
+    {
+      "path": "data/sets/2026-topps-now-wwe.json",
+      "bytes": 30871,
+      "sha256": "efb59628a822bb96d1304ad0dab639a90d3c10669b6ecdec7bd7803f87bb64ba"
+    },
+    {
+      "path": "data/sets/2025-topps-wwe-x-bape.json",
+      "bytes": 31508,
+      "sha256": "06c674781c6ead9325251418e662511174bf527ff87daca561e89852b4d5f40e"
+    },
+    {
+      "path": "data/sets/2025-topps-finest-wwe.json",
+      "bytes": 132334,
+      "sha256": "6a72005324d17c0d8c7a595f15bd423f24e72995a92c761cd89652ecbb96d66f"
+    },
+    {
+      "path": "data/sets/2025-topps-chrome-wwe-x-cactus-jack.json",
+      "bytes": 138164,
+      "sha256": "d782d90a51b2eb01e2fb8e5ba409b7a3488b2dff2ad8b4ca966e6dae817e87fd"
+    },
+    {
+      "path": "data/sets/2025-topps-chrome-cactus-jack-wrestlemania.json",
+      "bytes": 40559,
+      "sha256": "1b2fbd9ec596c317ea47ec5a3ab13532abda8e3b4b2a66fa3da6ecf4187727b0"
+    },
+    {
+      "path": "data/sets/2025-topps-chrome-sapphire-wwe.json",
+      "bytes": 90986,
+      "sha256": "a70927f24c97e7224c8aea3f6a9fbff5033e533232bc229ff62d654ea044ab37"
+    },
+    {
+      "path": "data/sets/2025-topps-chrome-wwe.json",
+      "bytes": 266367,
+      "sha256": "d8845d5f03f336a3a32585cc87c8b20654ebf6ce2a35e888cc533b3783a50bcf"
+    },
+    {
+      "path": "data/sets/2025-topps-now-wwe.json",
+      "bytes": 37305,
+      "sha256": "e7d2e533cb7c9399de83b7f7bd4d3efb5ef3f924502137faf3aa91356c7919b3"
+    },
+    {
+      "path": "data/sets/2024-panini-flawless-wwe.json",
+      "bytes": 172370,
+      "sha256": "f0e6af90db3e5639f0453b60b4631aa1674db945cc3b93092543a03b77729be2"
+    },
+    {
+      "path": "data/sets/2024-panini-national-treasures-wwe.json",
+      "bytes": 186686,
+      "sha256": "c4be3cf253aa6a7222c27ea7298f0d8427027e6dbf5764117047f7d896b873d3"
+    },
+    {
+      "path": "data/sets/2026-topps-nscc-collection-wwe.json",
+      "bytes": 29796,
+      "sha256": "e0c9fb5f565421e807e488c8f45a9efa075ee3f85cdcacb50e7f82302b56205c"
+    },
+    {
+      "path": "data/sets/2026-topps-chrome-star-wars.json",
+      "bytes": 345664,
+      "sha256": "39575e61ba2c30652b8e6ea50b52cb7391c0996708491af1ce9e71ba2a8dfcc7"
+    },
+    {
+      "path": "data/sets/2026-topps-chrome-star-wars-galaxy.json",
+      "bytes": 88907,
+      "sha256": "61a423b12c1972d31fdd5d771ade4b684e3f132b1a98f6f0f3bd2d5644f9edd7"
+    },
+    {
+      "path": "data/sets/2025-topps-star-wars-masterwork.json",
+      "bytes": 162320,
+      "sha256": "436aacdbebb5f1cc2cc78ca56ab58648a5352e4e7d52fa74688235acbf73664e"
+    },
+    {
+      "path": "data/sets/2025-topps-star-wars-smugglers-outpost.json",
+      "bytes": 225159,
+      "sha256": "4b2d671634acdf2669e13feecc73ee9d5a91d5cfd73195dbe534bc367a168a7c"
+    },
+    {
+      "path": "data/sets/2025-topps-chrome-star-wars-galaxy.json",
+      "bytes": 80897,
+      "sha256": "8ee57badd56d6ecc6e83a875024c7c9fdaca81e1f844ebca41c29e0032644771"
+    },
+    {
+      "path": "data/sets/2025-topps-chrome-sapphire-star-wars.json",
+      "bytes": 95937,
+      "sha256": "35fa3b8361ea030646170d30d50b2610624bac9f0d1981594427c232cb4dcb2c"
+    }
+  ]
+}
