@@ -52,7 +52,7 @@ class ChromeStarWars(unittest.TestCase):
         def old(path):return subprocess.check_output(['git','show',f'{base}:{path}'],cwd=ROOT)
         old_index=json.loads(old('data/catalogue-index.json'))
         current=load_catalogue()
-        self.assertEqual((current['setCount'],current['cardCount']),(25,12602))
+        self.assertEqual(len([c for c in current['cards'] if c['setId']==sw.SET_ID]),1304)
         for record in old_index['sets']:
             self.assertEqual((ROOT/'data'/record['file']).read_bytes(),old('data/'+record['file']))
             self.assertEqual(next(s for s in current['sets'] if s['id']==record['id']),{k:v for k,v in record.items() if k!='file'})

@@ -1,5 +1,7 @@
 const assert = require('node:assert/strict');
 const {chromium} = require('playwright');
+const starWarsSets=require('../data/catalogue-index.json').sets.filter(s=>s.categoryId==='star-wars');
+const starWarsCount=starWarsSets.reduce((n,s)=>n+s.cardCount,0);
 
 (async()=>{
   const browser=await chromium.launch({headless:true});
@@ -18,9 +20,9 @@ const {chromium} = require('playwright');
     });
     await page.locator('#categorySwitcher [data-franchise="star-wars"]').click();
     assert.equal(await page.locator('#categoryWorkspace').isVisible(),true);
-    assert.equal(await page.evaluate(()=>categoryCatalogue().cardCount),1304);
+    assert.equal(await page.evaluate(()=>categoryCatalogue().cardCount),starWarsCount);
     assert.equal(await page.locator('#categorySwitcher [data-franchise="star-wars"]').getAttribute('aria-pressed'),'true');
-    assert.equal(await page.locator('#allSets .set-card').count(),1);
+    assert.equal(await page.locator('#allSets .set-card').count(),starWarsSets.length);
     for(const view of ['dashboard','sets','cards','collection','wanted']) {
       await page.evaluate(view=>changeView(view),view);
       assert.equal(await page.locator('#categoryEmpty').isVisible(),false);
@@ -35,6 +37,14 @@ const {chromium} = require('playwright');
     const starWarsId=await page.evaluate(()=>categoryCatalogue().cards[0].id);
     await page.locator('#cardList .card-row').first().locator('.state-button.owned').click();
     assert.equal(await page.evaluate(()=>counts().owned),1);
+    // Real imported Chrome/Galaxy cards share #1 but never share ownership keys.
+    await page.locator('#setFilter').selectOption('2026-topps-chrome-star-wars-galaxy');
+    assert.equal(await page.locator('#resultCount').innerText(),'323 cards');
+    await page.locator('#cardList .card-row').first().locator('.state-button.owned').click();
+    assert.equal(await page.evaluate(()=>counts().owned),2);
+    assert.equal(await page.evaluate(()=>state.collection['2026-TCSW-BASE-1']?.status),'owned');
+    assert.equal(await page.evaluate(()=>state.collection['2026-TCSWG-BASE-1']?.status),'owned');
+    await page.locator('#clearFilters').click();
     const both=await page.evaluate(()=>localStorage.getItem(GUEST_STORAGE_KEY));
     await page.locator('#categorySwitcher [data-franchise="marvel"]').click();
     for(const width of [320,390,768,1024,1440]) {
@@ -58,8 +68,8 @@ const {chromium} = require('playwright');
     assert.equal(JSON.parse(both)[starWarsId].status,'owned');
     for(const [id,entry] of Object.entries(JSON.parse(before))) assert.deepEqual(JSON.parse(both)[id],entry);
     await page.locator('#categorySwitcher [data-franchise="star-wars"]').click();
-    assert.equal(await page.locator('#allSets .set-card').count(),1);
-    assert.equal(await page.evaluate(()=>counts().owned),1);
+    assert.equal(await page.locator('#allSets .set-card').count(),starWarsSets.length);
+    assert.equal(await page.evaluate(()=>counts().owned),2);
     assert.equal(await page.locator('#wantedList .card-row').count(),0);
     for(const width of [320,390,768,1024,1440]) {
       await page.setViewportSize({width,height:900});

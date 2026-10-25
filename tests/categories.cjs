@@ -8,6 +8,10 @@ const {parseHTML} = require('linkedom');
 const {loadCatalogue} = require('../scripts/catalogue_io');
 const root = path.resolve(__dirname, '..');
 const read = name => fs.readFileSync(path.join(root,name),'utf8');
+const shipped=loadCatalogue();
+const starWarsSets=shipped.sets.filter(s=>s.categoryId==='star-wars');
+const starWarsIds=new Set(starWarsSets.map(s=>s.id));
+const starWarsCount=shipped.cards.filter(c=>starWarsIds.has(c.setId)).length;
 
 async function harness(storage = new Map()) {
   const {window} = parseHTML(read('index.html'));
@@ -65,8 +69,8 @@ async function harness(storage = new Map()) {
   assert.equal(run('state.setId'),'all');
   assert.equal(document.querySelector('#categoryWorkspace').hidden,false);
   assert.equal(document.querySelector('#categoryEmpty').hidden,true);
-  assert.equal(run('categoryCatalogue().cardCount'),1304);
-  assert.equal(document.querySelectorAll('#allSets .set-card').length,1);
+  assert.equal(run('categoryCatalogue().cardCount'),starWarsCount);
+  assert.equal(document.querySelectorAll('#allSets .set-card').length,starWarsSets.length);
   run("changeView('cards')");
   assert(!document.querySelector('#cardList').textContent.includes('WWE'));
   document.querySelector('[data-franchise="marvel"]').click();
@@ -103,16 +107,16 @@ async function harness(storage = new Map()) {
   }`);
   for(const [id,cost] of [['star-wars',25],['marvel',500]]) {
     run(`changeCategory('${id}');changeView('cards')`);
-    const imported=id==='star-wars'?1304:0;
+    const imported=id==='star-wars'?starWarsCount:0;
     assert.equal(run('categoryCatalogue().cardCount'),imported+1);
     assert.equal(run('counts().owned'),1);
-    assert.equal(document.querySelectorAll('#allSets .set-card').length,imported?2:1);
+    assert.equal(document.querySelectorAll('#allSets .set-card').length,imported?starWarsSets.length+1:1);
     assert(document.querySelectorAll('#cardList .card-row').length>=1);
     assert.equal(document.querySelectorAll('#collectionList .card-row').length,1);
     assert.equal(document.querySelectorAll('#wantedList .card-row').length,0);
     assert.match(document.querySelector('#vaultOverview').textContent,new RegExp('\\$'+cost.toFixed(2)));
     assert(!document.querySelector('#vaultOverview').textContent.includes(cost===25?'$500.00':'$25.00'));
-    assert.equal(document.querySelector('#setFilter').options.length,imported?3:2);
+    assert.equal(document.querySelector('#setFilter').options.length,imported?starWarsSets.length+2:2);
     assert.equal(document.querySelector('#categoryWorkspace').hidden,false);
   }
   run('backupCollection()');
