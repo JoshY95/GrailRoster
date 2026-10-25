@@ -1,6 +1,6 @@
 # 2025 Topps Chrome Star Wars Galaxy — import audit
 
-Status: prepared; local checks passed. Browser CI, database application and publication pending.
+Status: imported and published via PR #11. Browser CI 40201920499 and Pages 40202136681 succeeded.
 
 ## Manufacturer reconciliation
 
@@ -49,3 +49,7 @@ Focused source/identity/odds/preservation tests and all existing source/catalogu
 - [Official product](https://www.topps.com/products/2025-star-wars-chrome%C2%AE-galaxy-hobby-box).
 - [Official checklist](https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Star_Wars_Chrome_Galaxy_Checklist.pdf?v=1787955654) — SHA-256 `d1e6218b693137bfd7ecff80278b7af5d713786eff7bff7d7336f47106a130a4`.
 - [Official odds](https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2025_Star_Wars_Chrome_Galaxy_Odds.pdf?v=1787955654) — SHA-256 `337cee9d893df3768b263a001af37fc9f99d1f9eb5d8b48695f793c0c10cd1b2`.
+
+## Published verification
+
+Guarded SQL passed a rolled-back dry run and committed successfully. A second committed import left complete-row digests identical across all eight catalogue/collection/image tables. Collections remain 30 with digest `6648329147d88b88ed9e52eaac40cfa9`; images remain empty. Browser CI passed all source/category, guest, Vault, offline, five-set ownership and responsive checks. PR #11 feature `fa2134a1e55b58dac2e2497886c7403bbbbdd80f` merged as `fcaba490bcbcf3de3e373829c69cf556f1551617`. All 42 live runtime/index/set files match validated source bytes. Live guest UI confirmed five sets / 3,315 cards, 2025 Galaxy 293 / 15, Q-JNJF as one four-signer card and AB-15 preserving the 1993 Series 1 #15 reference. Existing cache refreshed after activation and a normal reload. Receipt: `docs/CHROME_STAR_WARS_GALAXY_2025_RELEASE.json`.

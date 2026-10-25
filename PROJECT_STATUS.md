@@ -2,11 +2,12 @@
 
 Read this first; inspect only files needed for the current task.
 
-## Star Wars Galaxy 2025 — 26 October 2026 (prepared)
+## Star Wars Galaxy 2025 — 26 October 2026 (published)
 
 - Authorised next set: 2025 Topps Chrome Star Wars Galaxy, official release 10 December 2025. 293 identities / 15 subsets from 325 numbered rows: 100 base, 103 inserts, 20 McQuarrie buybacks, 70 autographs including two buybacks. Multi-signer repeats combine; 154 sketch and seven Blank Canvas artists remain rosters. All checklist and odds rows independently matched Poppler.
 - All 93 odds rows retained / 88 subset rules. Final duplicate Layers label has unresolved edition; sketch Black Foil rate prints a semicolon and remains uninterpreted. No guessed caps or subject/parallel grids. Artist credits and original buyback year/series/numbers retained. Audit: docs/CHROME_STAR_WARS_GALAXY_2025_IMPORT_AUDIT.md.
-- Local totals 29 sets / 14,613 identities; Star Wars 5 / 3,315. All 28 prior metadata/set bundles and frozen snapshot unchanged. Local focused and existing regressions passed; browser CI, guarded SQL and publication pending.
+- Local totals 29 sets / 14,613 identities; Star Wars 5 / 3,315. All 28 prior metadata/set bundles and frozen snapshot unchanged. Local focused and existing regressions passed. Browser CI 40201920499 passed all guest/Vault/offline, five-set ownership, buyback filter and responsive checks. Guarded SQL passed rolled-back dry run, commit and second identical application across all eight table digests. Collections remain 30 /6648329147d88b88ed9e52eaac40cfa9; images empty, no collector writes.
+- Published PR #11, feature fa2134a1e55b58dac2e2497886c7403bbbbdd80f, merge fcaba490bcbcf3de3e373829c69cf556f1551617; Pages 40202136681 succeeded. All 42 live assets match validated source. Live guest UI shows five Star Wars sets /3,315 cards, 2025 Galaxy 293 /15, Q-JNJF one four-signer card and AB-15 original reference. Cache refreshed after activation and normal reload. Authenticated private-photo/two-device flows not rerun. Receipt: docs/CHROME_STAR_WARS_GALAXY_2025_RELEASE.json.
 - SQL: supabase/corrections/2026-10-26-star-wars-galaxy-2025.sql, baseline 28 / 14,320. Next: 2025 Topps Chrome Sapphire Star Wars. One set per task.
 
 ## Star Wars Smugglers Outpost — 26 October 2026 (published)
