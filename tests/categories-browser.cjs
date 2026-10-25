@@ -118,7 +118,7 @@ const starWarsCount=starWarsSets.reduce((n,s)=>n+s.cardCount,0);
     assert.match(await page.locator('#cardList').innerText(),/Thundercat/);
     await page.locator('#clearFilters').click();
     await page.locator('#setFilter').selectOption('2025-topps-chrome-star-wars');
-    assert.equal(await page.locator('#resultCount').innerText(),'1235 cards');
+    assert.equal(await page.locator('#resultCount').innerText(),'1,235 cards');
     await page.locator('#cardList .card-row').first().locator('.state-button.owned').click();
     assert.equal(await page.evaluate(()=>counts().owned),7);
     assert.equal(await page.evaluate(()=>state.collection['2025-TCSW-BASE-1']?.status),'owned');
