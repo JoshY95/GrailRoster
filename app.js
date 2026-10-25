@@ -8,6 +8,7 @@ let authMode = "sign-in";
 
 const state = {
   catalogue: null,
+  franchise: GrailCategories.initial(),
   images: { cards: {}, sets: {} },
   collection: loadCollection(),
   supabase: null,
@@ -83,6 +84,7 @@ function entryFor(cardId) { return state.collection[cardId] || null; }
 function statusFor(cardId) { return Vault.effectiveStatus(entryFor(cardId)); }
 
 async function setStatus(cardId, nextStatus) {
+  if (!cardInCategory(cardId)) return;
   if (Vault.managed(entryFor(cardId))) { Vault.open(cardId); return; }
   const current = statusFor(cardId);
   state.collection[cardId] = {
@@ -106,11 +108,55 @@ async function setStatus(cardId, nextStatus) {
 }
 
 function counts() {
-  const cards = state.catalogue?.cards || [];
+  const cards = categoryCatalogue().cards;
   return {
     owned: cards.filter((card) => statusFor(card.id) === "owned").length,
     wanted: cards.filter((card) => statusFor(card.id) === "wanted").length,
   };
+}
+
+function activeCategory() { return GrailCategories.get(state.franchise); }
+function categoryCatalogue() {
+  return state.catalogue ? GrailCategories.scope(state.catalogue, state.franchise) : {sets:[], cards:[], setCount:0, cardCount:0};
+}
+function cardInCategory(cardId) { return categoryCatalogue().cards.some(card => card.id === cardId); }
+
+function changeCategory(id) {
+  if (!GrailCategories.get(id) || id === state.franchise) return;
+  if ($('#cardDialog').open || $('#vaultDialog')?.open) return;
+  state.franchise = id;
+  GrailCategories.remember(id);
+  state.setId = state.category = state.status = 'all';
+  state.query = '';
+  state.visibleCards = PAGE_SIZE;
+  for (const selector of ['#globalSearch','#setSearch','#ownedSearch','#wantedSearch']) $(selector).value = '';
+  $('#setOwnership').value = 'all';
+  $('#ownedSort').value = 'recent';
+  $('#statusFilter').value = 'all';
+  populateFilters();
+  renderAll();
+  changeView(state.view);
+  $(`#categorySwitcher [data-franchise="${id}"]`).focus();
+}
+
+function renderCategory() {
+  const category = activeCategory();
+  const scoped = categoryCatalogue();
+  $('#categorySwitcher').innerHTML = GrailCategories.all.map(item => {
+    const available = state.catalogue.sets.some(set => set.categoryId === item.id);
+    return `<button type="button" class="category-choice" data-franchise="${item.id}" aria-pressed="${item.id === category.id}"><strong>${item.name}</strong><small>${available ? 'Collection' : 'Coming soon'}</small></button>`;
+  }).join('');
+  $('#categoryTitle').textContent = `${category.name} collection`;
+  $('#categoryDescription').textContent = scoped.setCount ? `${scoped.setCount} sets · ${scoped.cardCount.toLocaleString()} checklist cards` : category.description;
+  $('#categoryWorkspace').hidden = !scoped.setCount;
+  $('#categoryEmpty').hidden = !!scoped.setCount;
+  $('#categoryEmptyTitle').textContent = `${category.name} is coming to your roster`;
+  $('#categoryEmptyCopy').textContent = `Verified ${category.name} checklists will appear here when they are ready. Your collection, wanted list and progress will have their own space.`;
+  $('#heroScope').textContent = `Across all ${category.name} sets`;
+  $('#globalSearch').placeholder = `Search ${category.subject.toLowerCase()} or card number`;
+  $('#globalSearch').setAttribute('aria-label', `Search ${category.name} cards`);
+  $('#ownedSort option[value="name"]').textContent = `${category.subject} A–Z`;
+  $('#backupButton').textContent = 'Back up all categories';
 }
 
 function setOwnedCount(setId) {
@@ -171,28 +217,28 @@ function setCard(set) {
 
 function renderStats() {
   const { owned, wanted } = counts();
-  const completion = formatPercentage(owned, state.catalogue.cardCount);
+  const completion = formatPercentage(owned, categoryCatalogue().cardCount);
   $("#heroProgress").innerHTML = `<strong>${completion}</strong><span>of the catalogue collected</span>`;
   $("#stats").innerHTML = [
     ["Cards owned", owned.toLocaleString(), `${completion} of catalogued cards`],
     ["Wanted cards", wanted.toLocaleString(), "Your active chase list"],
-    ["Completed sets", state.catalogue.sets.filter((set) => setOwnedCount(set.id) === set.cardCount).length, `of ${state.catalogue.setCount} available`],
-    ["Cards catalogued", state.catalogue.cardCount.toLocaleString(), "Verified master identities"],
+    ["Completed sets", categoryCatalogue().sets.filter((set) => set.cardCount > 0 && setOwnedCount(set.id) === set.cardCount).length, `of ${categoryCatalogue().setCount} available`],
+    ["Cards catalogued", categoryCatalogue().cardCount.toLocaleString(), "Verified master identities"],
   ].map(([label, value, note]) => `<div class="stat-card"><p>${label}</p><strong>${value}</strong><small>${note}</small></div>`).join("");
 }
 
 function renderSets() {
-  const cards = state.catalogue.sets.map(setCard).join("");
+  const cards = categoryCatalogue().sets.map(setCard).join("");
   $("#dashboardSets").innerHTML = cards;
   const query = $("#setSearch").value.trim().toLocaleLowerCase();
   const collecting = $("#setOwnership").value === "collecting";
-  const sets = state.catalogue.sets.filter(set => (!query || `${set.name} ${set.year}`.toLocaleLowerCase().includes(query)) && (!collecting || setOwnedCount(set.id) > 0));
-  $("#setLibraryCount").textContent = `${sets.length} of ${state.catalogue.sets.length} WWE sets`;
+  const sets = categoryCatalogue().sets.filter(set => (!query || `${set.name} ${set.year}`.toLocaleLowerCase().includes(query)) && (!collecting || setOwnedCount(set.id) > 0));
+  $("#setLibraryCount").textContent = `${sets.length} of ${categoryCatalogue().setCount} ${activeCategory().name} sets`;
   $("#allSets").innerHTML = sets.length ? sets.map(setCard).join("") : emptyState("No sets found", collecting ? "Mark a card as Owned to start collecting a set." : "Try another set name or year.");
 }
 
 function renderRecent() {
-  const recent = state.catalogue.cards.filter((card) => statusFor(card.id) === "owned")
+  const recent = categoryCatalogue().cards.filter((card) => statusFor(card.id) === "owned")
     .sort((a, b) => new Date(entryFor(b.id)?.updatedAt || 0) - new Date(entryFor(a.id)?.updatedAt || 0))
     .slice(0, 8);
   const groups = [];
@@ -225,7 +271,7 @@ function renderRecent() {
 
 function filteredCards(collectionOnly = false) {
   const query = state.query.trim().toLocaleLowerCase();
-  return state.catalogue.cards.filter((card) => {
+  return categoryCatalogue().cards.filter((card) => {
     if (collectionOnly && statusFor(card.id) !== "owned") return false;
     if (state.setId !== "all" && card.setId !== state.setId) return false;
     if (state.category !== "all" && card.category !== state.category) return false;
@@ -254,6 +300,7 @@ function cardRow(card) {
 }
 
 function openCard(cardId) {
+  if (!cardInCategory(cardId)) return;
   const card = state.catalogue.cards.find((item) => item.id === cardId);
   if (!card) return;
   const set = state.catalogue.sets.find((item) => item.id === card.setId);
@@ -348,15 +395,15 @@ function renderCards() {
   const context = $("#setContext");
   context.hidden = !selectedSet;
   context.innerHTML = selectedSet ? `<button class="text-button" data-go="sets">← Set library</button><h2>${escapeHtml(selectedSet.shortName)}</h2><p>${selectedSet.year} · ${setOwnedCount(selectedSet.id)} / ${selectedSet.cardCount.toLocaleString()} checklist cards · ${formatPercentage(setOwnedCount(selectedSet.id), selectedSet.cardCount)}</p><div class="progress-track"><div class="progress-fill" style="--progress:${selectedSet.cardCount ? setOwnedCount(selectedSet.id) / selectedSet.cardCount * 100 : 0}%"></div></div>` : "";
-  $("#activeSetLabel").textContent = selectedSet ? selectedSet.name : "Across all sets";
+  $("#activeSetLabel").textContent = selectedSet ? selectedSet.name : `Across ${activeCategory().name} sets`;
   $("#cardList").innerHTML = shown.length ? shown.map(cardRow).join("") : emptyState("No cards match these filters", "Try changing the set, category, status or search.");
   $("#loadMore").hidden = shown.length >= matches.length;
 }
 
 function renderCollection() {
   Vault.overview();
-  const ownedCards = state.catalogue.cards.filter((card) => statusFor(card.id) === "owned");
-  const wanted = state.catalogue.cards.filter((card) => statusFor(card.id) === "wanted").length;
+  const ownedCards = categoryCatalogue().cards.filter((card) => statusFor(card.id) === "owned");
+  const wanted = categoryCatalogue().cards.filter((card) => statusFor(card.id) === "wanted").length;
   const representedSets = new Set(ownedCards.map((card) => card.setId)).size;
   $("#collectionSummary").innerHTML = [
     ["Unique cards", ownedCards.length.toLocaleString()], ["Physical copies", ownedCards.reduce((sum,card)=>sum+(Vault.managed(entryFor(card.id)) ? Vault.active(entryFor(card.id)).length : entryFor(card.id)?.quantity || 1),0).toLocaleString()], ["Sets represented", representedSets], ["Wanted cards", wanted.toLocaleString()],
@@ -364,8 +411,8 @@ function renderCollection() {
   const query = $("#ownedSearch").value.trim().toLocaleLowerCase();
   const sort = $("#ownedSort").value;
   const shown = ownedCards.filter(card => matchesPersonalSearch(card, query)).sort((a,b) => sort === "name" ? a.name.localeCompare(b.name) : sort === "set" ? a.setId.localeCompare(b.setId) || String(a.number).localeCompare(String(b.number), undefined, {numeric:true}) : new Date(entryFor(b.id)?.updatedAt || 0) - new Date(entryFor(a.id)?.updatedAt || 0));
-  $("#collectionList").innerHTML = shown.length ? shown.map(cardRow).join("") : emptyState(ownedCards.length ? "No matching cards" : "Your collection starts here", ownedCards.length ? "Try another wrestler, set or card number." : "Browse the set library and mark your first card as Owned.");
-  const wantedCards = state.catalogue.cards.filter(card => statusFor(card.id) === "wanted");
+  $("#collectionList").innerHTML = shown.length ? shown.map(cardRow).join("") : emptyState(ownedCards.length ? "No matching cards" : "Your collection starts here", ownedCards.length ? `Try another ${activeCategory().subject.toLowerCase()}, set or card number.` : "Browse the set library and mark your first card as Owned.");
+  const wantedCards = categoryCatalogue().cards.filter(card => statusFor(card.id) === "wanted");
   const wantedQuery = $("#wantedSearch").value.trim().toLocaleLowerCase();
   const wantedShown = wantedCards.filter(card => matchesPersonalSearch(card, wantedQuery));
   $("#wantedCount").textContent = `${wantedCards.length} card${wantedCards.length === 1 ? "" : "s"} on your wanted list`;
@@ -378,12 +425,12 @@ function matchesPersonalSearch(card, query) {
 }
 
 function emptyState(title, message) { return `<div class="empty-state"><strong>${title}</strong><span>${message}</span></div>`; }
-function renderAll() { renderStats(); renderSets(); renderRecent(); renderCards(); renderCollection(); }
+function renderAll() { renderCategory(); renderStats(); renderSets(); renderRecent(); renderCards(); renderCollection(); }
 
 function populateFilters() {
-  $("#setFilter").innerHTML = `<option value="all">All sets</option>${state.catalogue.sets.map((set) => `<option value="${set.id}">${escapeHtml(set.shortName)}</option>`).join("")}`;
-  const categories = [...new Set(state.catalogue.cards.map((card) => card.category))].sort();
-  $("#categoryFilter").innerHTML = `<option value="all">All categories</option>${categories.map((category) => `<option value="${escapeHtml(category)}">${escapeHtml(category)}</option>`).join("")}`;
+  $("#setFilter").innerHTML = `<option value="all">All sets</option>${categoryCatalogue().sets.map((set) => `<option value="${set.id}">${escapeHtml(set.shortName)}</option>`).join("")}`;
+  const categories = [...new Set(categoryCatalogue().cards.map((card) => card.category))].sort();
+  $("#categoryFilter").innerHTML = `<option value="all">All card types</option>${categories.map((category) => `<option value="${escapeHtml(category)}">${escapeHtml(category)}</option>`).join("")}`;
 }
 
 function changeView(view) {
@@ -396,7 +443,7 @@ function changeView(view) {
     if (active) element.setAttribute("aria-current", "page"); else element.removeAttribute("aria-current");
   });
   $("#collectionTabs").hidden = !["dashboard", "collection", "cards"].includes(view);
-  $(".global-search").hidden = view !== "cards";
+  $(".global-search").hidden = view !== "cards" || !categoryCatalogue().setCount;
   $("#pageTitle").textContent = { dashboard: "My collection", sets: "Set library", cards: "Card catalogue", collection: "Owned cards", wanted: "Wanted" }[view];
   toggleMenu(false);
   history.replaceState(null, "", `#${view}`);
@@ -490,7 +537,7 @@ async function loadCatalogue() {
     if (chunk.setId !== set.id || chunk.cards.length !== set.cardCount) throw new Error(`Catalogue set mismatch: ${set.id}`);
     return chunk.cards;
   }));
-  const offlineCatalogue = {...index, cards: chunks.flat()};
+  const offlineCatalogue = GrailCategories.validate({...index, cards: chunks.flat()});
   if (offlineCatalogue.cards.length !== index.cardCount) throw new Error("Catalogue total mismatch");
   if (state.supabase) {
     try {
@@ -505,7 +552,7 @@ async function loadCatalogue() {
         setCount: sets.length,
         cardCount: cards.length,
         sets: sets.map((set) => ({
-          id: set.id, name: set.name, shortName: set.short_name, year: set.year, manufacturer: set.manufacturer,
+          id: set.id, categoryId: index.sets.find(item => item.id === set.id)?.categoryId, name: set.name, shortName: set.short_name, year: set.year, manufacturer: set.manufacturer,
           releaseDate: set.release_date, accent: set.accent, cardCount: set.card_count, subsetCount: set.subset_count,
           subsets: subsets.filter((subset) => subset.set_id === set.id).map((subset) => ({ category: subset.category, name: subset.name, code: subset.subset_code, count: subset.card_count })),
         })),
@@ -515,8 +562,11 @@ async function loadCatalogue() {
           subsetCode: card.subset_code, roster: card.roster, rookie: card.rookie ? "Yes" : "No", parallelGroup: card.parallel_group,
         })),
       };
-      if (remoteCatalogue.cardCount >= offlineCatalogue.cardCount) return remoteCatalogue;
-      console.warn(`Supabase catalogue has ${remoteCatalogue.cardCount} cards; using the newer ${offlineCatalogue.cardCount}-card bundled catalogue.`);
+      GrailCategories.validate(remoteCatalogue);
+      const remoteIds = new Set(remoteCatalogue.cards.map(card => card.id));
+      const remoteSets = new Map(remoteCatalogue.sets.map(set => [set.id, set]));
+      if (offlineCatalogue.cards.every(card => remoteIds.has(card.id)) && offlineCatalogue.sets.every(set => remoteSets.get(set.id)?.categoryId === set.categoryId)) return remoteCatalogue;
+      console.warn('Cloud catalogue differs from the reviewed bundle; using the complete bundled catalogue.');
     } catch (error) {
       console.warn("Supabase catalogue unavailable; using offline catalogue.", error);
     }
@@ -810,6 +860,8 @@ function setAuthMode(mode) {
 
 function attachEvents() {
   document.addEventListener("click", (event) => {
+    const franchise = event.target.closest('[data-franchise]');
+    if (franchise) { changeCategory(franchise.dataset.franchise); return; }
     if (event.target.closest("[data-profile]")) { toggleMenu(true); return; }
     if (event.target.closest("[data-close-menu]")) { toggleMenu(false); $("#menuButton").focus(); return; }
     const layout = event.target.closest("[data-layout-target]");
@@ -831,6 +883,7 @@ function attachEvents() {
     if (go) { changeView(go.dataset.go); return; }
     const set = event.target.closest("[data-set-id]");
     if (set) {
+      if (!categoryCatalogue().sets.some(item => item.id === set.dataset.setId)) return;
       state.setId = set.dataset.setId; state.category = state.status = "all"; state.query = "";
       $("#globalSearch").value = ""; $("#categoryFilter").value = $("#statusFilter").value = "all";
       $("#setFilter").value = state.setId; state.visibleCards = PAGE_SIZE;

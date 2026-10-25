@@ -208,6 +208,7 @@ def main() -> None:
         })
 
     set_record = {
+        "categoryId": "wwe",
         "id": SET_ID,
         "name": "2024 Panini National Treasures WWE",
         "shortName": "National Treasures WWE 2024",

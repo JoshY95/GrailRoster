@@ -177,6 +177,7 @@ const variants = [...frozenOne, ...frozenTwo].map((row, index) => {
 });
 
 const set = {
+  categoryId: 'wwe',
   id: SET_ID, name: '2025 Topps Chrome WWE', shortName: 'Chrome WWE 2025',
   accent: '#f97316', year: 2025, manufacturer: 'Topps', releaseDate: '2025-01-31',
   cardCount: cards.length, subsetCount: groups.length,

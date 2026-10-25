@@ -27,7 +27,7 @@ def build():
         for group, (code, category) in GROUPS.items():
             count = sum(r['group'] == group for r in selected)
             if count: subsets.append({'category': category, 'name': group, 'code': code, 'count': count})
-        record = {'id': sid, 'name': f'{year} Topps NOW WWE' + (' Crossovers' if crossover else ''),
+        record = {'categoryId': 'wwe', 'id': sid, 'name': f'{year} Topps NOW WWE' + (' Crossovers' if crossover else ''),
                   'shortName': 'NOW Crossovers' if crossover else 'Topps NOW', 'accent': '#f59e0b',
                   'year': year, 'manufacturer': 'Topps', 'releaseDate': min(r['releaseDate'] for r in selected),
                   'cardCount': len(selected), 'subsetCount': len(subsets), 'subsets': subsets}

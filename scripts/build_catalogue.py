@@ -175,6 +175,7 @@ def main():
             sources.append({"id": source_id, "set_id": set_id, "source": source_name, "purpose": purpose, "url": url, "notes": row.get("Notes")})
 
         static_sets.append({
+            "categoryId": "wwe",
             "id": set_id, "name": set_name, "shortName": short_name, "accent": accent, "year": sets[-1]["year"],
             "manufacturer": manufacturer, "releaseDate": release_date, "cardCount": len(master), "subsetCount": len(subset_rows),
             "subsets": static_subsets,

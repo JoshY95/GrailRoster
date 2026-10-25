@@ -118,7 +118,7 @@ def build(source=None):
                              serial_cap=edition['serialCap'], serial_exact='1/1' if edition['serialCap'] == 1 else '/25',
                              exclusive_note=None, numbering_note='This card and edition explicitly illustrated/described in the Topps collector guide.',
                              verification_status='Official Topps collector guide verified'))
-    record = dict(id=SET_ID, name='2026 Topps Stadium Club WWE', shortName='Stadium Club WWE',
+    record = dict(id=SET_ID, categoryId='wwe', name='2026 Topps Stadium Club WWE', shortName='Stadium Club WWE',
                   accent='#f97316', year=2026, manufacturer='Topps', releaseDate='2026-10-23',
                   cardCount=len(cards), subsetCount=len(SUBSETS),
                   subsets=[dict(category=v[1], name=k, code=v[0], count=v[2]) for k, v in SUBSETS.items()])

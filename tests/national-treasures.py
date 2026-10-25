@@ -30,7 +30,7 @@ with tempfile.TemporaryDirectory() as directory:
     original = old_file.read_bytes()
     (root / "data" / "catalogue-index.json").write_text(json.dumps({
         "setCount": 1, "cardCount": 1,
-        "sets": [{"id": "existing-set", "name": "Existing set", "cardCount": 1,
+        "sets": [{"id": "existing-set", "categoryId": "wwe", "name": "Existing set", "cardCount": 1,
                   "releaseDate": "2024-01-01", "file": "sets/existing-set.json"}],
     }))
     command = [sys.executable, str(root / "scripts" / "add_2024_panini_national_treasures_wwe.py"),

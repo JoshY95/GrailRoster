@@ -2,6 +2,24 @@
 
 Read this first; inspect only files needed for the current task.
 
+## Multi-category preparation — 25 October 2026 (local, unpublished)
+
+- User requested clean separation for WWE, Star Wars and Marvel and a design preview.
+  Implemented on local branch `feature/category-workspaces`; no new sets imported.
+- Every existing set has explicit `categoryId: wwe` metadata. `categories.js` validates
+  franchise membership and scopes every view/search/statistic/Vault summary. Unimported
+  categories show Coming soon; selected category persists separately from collector data.
+- Full collection sync and backup retain all categories together; IDs/storage/auth and
+  all 24 per-set bundles/frozen compatibility snapshot are preserved. Cloud classification
+  uses the reviewed index mapping; no schema or database writes are needed.
+- Focused catalogue, import, category contract and real-page DOM tests passed. Read-only
+  database checks showed 30 unchanged collection rows with full-row digest
+  `820fb924a7559fe022be70620b24bcef`. See docs/MULTI_CATEGORY.md for contract and limits.
+- User approved the preview and publication after browser checks on 25 October 2026.
+  Publishing uses the connected GitHub account; command-line Git has no login here.
+  Chromium remains unavailable locally. CI browser checks and deployment verification
+  are pending; do not report this interface as live until publication is verified.
+
 ## Published catalogue update — 24 October 2026
 
 - NOW #107–112 reverified against all six official pages: 132 annual identities (112 regular, 6 HOF, 14 posters). Archive newest is #112; active WWE NOW page has no releases. #112 is officially titled “946”; preserved. Six new cards have 30 explicitly listed numbered foil variants; autograph redemption extras remain notes without invented checklist IDs.

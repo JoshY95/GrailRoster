@@ -28,6 +28,15 @@ def write_if_changed(path, payload):
 
 def save_catalogue(catalogue):
     sets, cards = catalogue["sets"], catalogue["cards"]
+    # Existing importers may omit presentation metadata; retain reviewed mapping.
+    previous = {s["id"]: s for s in json.loads(INDEX.read_text())["sets"]} if INDEX.exists() else {}
+    sets = [{**item, "categoryId": item.get("categoryId", previous.get(item["id"], {}).get("categoryId"))} for item in sets]
+    if any(s.get("categoryId") not in ("wwe", "star-wars", "marvel") for s in sets):
+        raise ValueError("Every new set requires an explicit franchise categoryId")
+    if any(previous.get(s["id"], {}).get("categoryId", s["categoryId"]) != s["categoryId"] for s in sets):
+        raise ValueError("Existing sets cannot silently change franchise category")
+    # Retaining metadata must also preserve the existing serialized field order.
+    sets = [{**{k: s[k] for k in previous.get(s["id"], {}) if k in s and k != "file"}, **s} for s in sets]
     ids = {s["id"] for s in sets}
     if len(ids) != len(sets) or len({c["id"] for c in cards}) != len(cards):
         raise ValueError("Duplicate set/card IDs")

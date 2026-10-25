@@ -211,6 +211,7 @@ def main() -> None:
         })
 
     set_record = {
+        "categoryId": "wwe",
         "id": SET_ID,
         "name": "2024 Panini Flawless WWE",
         "shortName": "Flawless WWE 2024",
