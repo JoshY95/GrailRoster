@@ -2,6 +2,14 @@
 
 Read this first; inspect only files needed for the current task.
 
+## Star Wars 2024 three-set batch — 26 October 2026 (built)
+
+- User authorised three sets per batch, superseding one-set-per-task. SW-011 Chrome Black (19 March 2025), SW-015 High-Tek (8 January 2025), SW-012 Chrome Galaxy (1 November 2024). Chrome Black corrects the earlier pending-queue omission.
+- Built 424 /11, 882 /16 and 265 /13 identities/subsets: total 1,571 cards /40 subsets. All six manufacturer PDFs reconcile independently to Poppler. Black ALS-KK occurs for two distinct signers; both retained with distinct internal suffixes. High-Tek has seven separately listed 100-card base patterns. Galaxy has 123 sketch /six animator roster names; no sketch IDs invented.
+- 215 subset rules, 65 explicit caps from manufacturer numbering/guides; no per-card grids. High-Tek generic pattern rate and nine sketch/Blank Canvas rates source-only. Audit: docs/STAR_WARS_2024_BATCH_IMPORT_AUDIT.md.
+- Local totals 39 sets /19,219 cards; Star Wars 15 /7,921. All prior 36 metadata/set bundles and frozen snapshot unchanged. All seven focused batch and twelve existing Star Wars suites plus split/category/Stadium Club regressions pass. Atomic SQL dry run, commit and repeat pass across all eight full-row digests; all 30 collections retain 6648329147d88b88ed9e52eaac40cfa9, images empty. Browser/publication verification pending. Known unavailable local Chromium not retried.
+- Next: SW-010 — 2024 Topps Chrome Star Wars, official Available From 14 August 2024.
+
 ## Star Wars Galactic Antiquities 2024 — 26 October 2026 (published)
 
 - Authorised SW-017: 165 identities /10 subsets from all 177 official subject/signer rows. 60 regular and 30 metal base designs have independent numbering; two books combine seven signers each. All rows, 47 artist names and 47 ordered odds pairs independently matched Poppler. Unexpected trilogy headings retained without reassignment.

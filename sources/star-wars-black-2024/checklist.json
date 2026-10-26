@@ -1,0 +1,3965 @@
+{
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/STW2448-CheckList_24SWCB_VERSION1.pdf?v=1787938579",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2024StarWarsChromeBlackOdds.pdf?v=1787938579",
+  "productUrl": "https://www.topps.com/products/2024-topps-chrome-r-black-star-wars-hobby-box",
+  "checklistSha256": "3923ff2fe51dc581adae1436713e65cfb43c1dd8b395f2a4ddf93945f12caa84",
+  "oddsSha256": "e98f6bd3aeeb8d8ef709c9e5bfd275f03728a8a245e1b343bdfa67a78939d4f9",
+  "subsets": [
+    {
+      "name": "BASE CARDS",
+      "rows": [
+        {
+          "number": "1",
+          "page": 1,
+          "fields": [
+            "Ahsoka Tano",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "2",
+          "page": 1,
+          "fields": [
+            "Rey",
+            "Star Wars: The Rise of Skywalker"
+          ]
+        },
+        {
+          "number": "3",
+          "page": 1,
+          "fields": [
+            "Luke Skywalker",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "4",
+          "page": 1,
+          "fields": [
+            "Commissioner Helgait",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "5",
+          "page": 1,
+          "fields": [
+            "Grogu",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "6",
+          "page": 1,
+          "fields": [
+            "Obi-Wan Kenobi",
+            "Star Wars: Revenge of the Sith"
+          ]
+        },
+        {
+          "number": "7",
+          "page": 1,
+          "fields": [
+            "Padmé Amidala",
+            "Star Wars: Revenge of the Sith"
+          ]
+        },
+        {
+          "number": "8",
+          "page": 1,
+          "fields": [
+            "Sabine Wren",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "9",
+          "page": 1,
+          "fields": [
+            "Ezra Bridger",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "10",
+          "page": 1,
+          "fields": [
+            "Leia Organa",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "11",
+          "page": 1,
+          "fields": [
+            "Han Solo",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "12",
+          "page": 1,
+          "fields": [
+            "Hera Syndulla",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "13",
+          "page": 1,
+          "fields": [
+            "Chewbacca",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "14",
+          "page": 1,
+          "fields": [
+            "Cassian Andor",
+            "Andor"
+          ]
+        },
+        {
+          "number": "15",
+          "page": 1,
+          "fields": [
+            "Luthen Rael",
+            "Andor"
+          ]
+        },
+        {
+          "number": "16",
+          "page": 1,
+          "fields": [
+            "Mon Mothma",
+            "Andor"
+          ]
+        },
+        {
+          "number": "17",
+          "page": 1,
+          "fields": [
+            "Captain Rex",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "18",
+          "page": 1,
+          "fields": [
+            "Saw Gerrera",
+            "Andor"
+          ]
+        },
+        {
+          "number": "19",
+          "page": 1,
+          "fields": [
+            "Tarfful",
+            "Star Wars: Revenge of the Sith"
+          ]
+        },
+        {
+          "number": "20",
+          "page": 1,
+          "fields": [
+            "IG-11",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "21",
+          "page": 1,
+          "fields": [
+            "The Mandalorian",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "22",
+          "page": 1,
+          "fields": [
+            "Supreme Chancellor Palpatine",
+            "Star Wars: Revenge of the Sith"
+          ]
+        },
+        {
+          "number": "23",
+          "page": 1,
+          "fields": [
+            "The Armorer",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "24",
+          "page": 1,
+          "fields": [
+            "Carson Teva",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "25",
+          "page": 1,
+          "fields": [
+            "Bo-Katan Kryze",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "26",
+          "page": 1,
+          "fields": [
+            "Huyang",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "27",
+          "page": 1,
+          "fields": [
+            "K-2SO",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "28",
+          "page": 1,
+          "fields": [
+            "Owen Lars",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "29",
+          "page": 1,
+          "fields": [
+            "Anakin Skywalker",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "30",
+          "page": 1,
+          "fields": [
+            "BB-8",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "31",
+          "page": 1,
+          "fields": [
+            "Yoda",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "32",
+          "page": 1,
+          "fields": [
+            "Qui-Gon Jinn",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "33",
+          "page": 1,
+          "fields": [
+            "Cobb Vanth",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "34",
+          "page": 1,
+          "fields": [
+            "Kelleran Beq",
+            "The Mandolorian"
+          ]
+        },
+        {
+          "number": "35",
+          "page": 1,
+          "fields": [
+            "Poe Dameron",
+            "Star Wars: The Rise of Skywalker"
+          ]
+        },
+        {
+          "number": "36",
+          "page": 1,
+          "fields": [
+            "Wedge Antilles",
+            "Star Wars: The Rise of Skywalker"
+          ]
+        },
+        {
+          "number": "37",
+          "page": 1,
+          "fields": [
+            "Beru Lars",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "38",
+          "page": 1,
+          "fields": [
+            "Ki-Adi-Mundi",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "39",
+          "page": 1,
+          "fields": [
+            "C-3PO",
+            "Star Wars: The Rise of Skywalker"
+          ]
+        },
+        {
+          "number": "40",
+          "page": 1,
+          "fields": [
+            "Kit Fisto",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "41",
+          "page": 1,
+          "fields": [
+            "Jar Jar Binks",
+            "Star Wars: Revenge of the Sith"
+          ]
+        },
+        {
+          "number": "42",
+          "page": 1,
+          "fields": [
+            "Minas Velti",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "43",
+          "page": 1,
+          "fields": [
+            "R2-D2",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "44",
+          "page": 1,
+          "fields": [
+            "Mace Windu",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "45",
+          "page": 1,
+          "fields": [
+            "Chirrut Îmwe",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "46",
+          "page": 1,
+          "fields": [
+            "Lando Calrissian",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "47",
+          "page": 1,
+          "fields": [
+            "Captain Enoch",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "48",
+          "page": 1,
+          "fields": [
+            "Maz Kanata",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "49",
+          "page": 1,
+          "fields": [
+            "Finn",
+            "Star Wars: The Rise of Skywalker"
+          ]
+        },
+        {
+          "number": "50",
+          "page": 1,
+          "fields": [
+            "General Maximilian Veers",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "51",
+          "page": 1,
+          "fields": [
+            "Jyn Erso",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "52",
+          "page": 1,
+          "fields": [
+            "Kylo Ren",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "53",
+          "page": 1,
+          "fields": [
+            "Vel Sartha",
+            "Andor"
+          ]
+        },
+        {
+          "number": "54",
+          "page": 2,
+          "fields": [
+            "Darth Vader",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "55",
+          "page": 2,
+          "fields": [
+            "Count Dooku",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "56",
+          "page": 2,
+          "fields": [
+            "General Hux",
+            "Star Wars: The Rise of Skywalker"
+          ]
+        },
+        {
+          "number": "57",
+          "page": 2,
+          "fields": [
+            "Moff Gideon",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "58",
+          "page": 2,
+          "fields": [
+            "Marrok",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "59",
+          "page": 2,
+          "fields": [
+            "Supreme Leader Snoke",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "60",
+          "page": 2,
+          "fields": [
+            "Grand Moff Tarkin",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "61",
+          "page": 2,
+          "fields": [
+            "Baylan Skoll",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "62",
+          "page": 2,
+          "fields": [
+            "Shin Hati",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "63",
+          "page": 2,
+          "fields": [
+            "Morgan Elsbeth",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "64",
+          "page": 2,
+          "fields": [
+            "General Grievous",
+            "Star Wars: Revenge of the Sith"
+          ]
+        },
+        {
+          "number": "65",
+          "page": 2,
+          "fields": [
+            "Jango Fett",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "66",
+          "page": 2,
+          "fields": [
+            "Dryden Vos",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "67",
+          "page": 2,
+          "fields": [
+            "Plo Koon",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "68",
+          "page": 2,
+          "fields": [
+            "Stormtrooper",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "69",
+          "page": 2,
+          "fields": [
+            "Director Krennic",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "70",
+          "page": 2,
+          "fields": [
+            "The Grand Inquisitor",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "71",
+          "page": 2,
+          "fields": [
+            "Dark Trooper",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "72",
+          "page": 2,
+          "fields": [
+            "Fifth Brother",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "73",
+          "page": 2,
+          "fields": [
+            "Young Ahsoka Tano",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "74",
+          "page": 2,
+          "fields": [
+            "First Order Stormtrooper",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "75",
+          "page": 2,
+          "fields": [
+            "B1 Battle Droid",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "76",
+          "page": 2,
+          "fields": [
+            "Super Battle Droid",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "77",
+          "page": 2,
+          "fields": [
+            "Maarva Andor",
+            "Andor"
+          ]
+        },
+        {
+          "number": "78",
+          "page": 2,
+          "fields": [
+            "Sith Trooper",
+            "Star Wars: The Rise of Skywalker"
+          ]
+        },
+        {
+          "number": "79",
+          "page": 2,
+          "fields": [
+            "Moloch",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "80",
+          "page": 2,
+          "fields": [
+            "Reva",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "81",
+          "page": 2,
+          "fields": [
+            "Praetorian Guard",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "82",
+          "page": 2,
+          "fields": [
+            "Death Trooper",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "83",
+          "page": 2,
+          "fields": [
+            "Imperial Royal Guard",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "84",
+          "page": 2,
+          "fields": [
+            "Allegiant General Pryde",
+            "Star Wars: The Rise of Skywalker"
+          ]
+        },
+        {
+          "number": "85",
+          "page": 2,
+          "fields": [
+            "Boba Fett",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "86",
+          "page": 2,
+          "fields": [
+            "Nute Gunray",
+            "Star Wars: Revenge of the Sith"
+          ]
+        },
+        {
+          "number": "87",
+          "page": 2,
+          "fields": [
+            "Cad Bane",
+            "The Book of Boba Fett"
+          ]
+        },
+        {
+          "number": "88",
+          "page": 2,
+          "fields": [
+            "Captain Phasma",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "89",
+          "page": 2,
+          "fields": [
+            "Senator Bail Organa",
+            "Star Wars: Revenge of the Sith"
+          ]
+        },
+        {
+          "number": "90",
+          "page": 2,
+          "fields": [
+            "Elia Kane",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "91",
+          "page": 2,
+          "fields": [
+            "The Client",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "92",
+          "page": 2,
+          "fields": [
+            "Valin Hess",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "93",
+          "page": 2,
+          "fields": [
+            "Lang",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "94",
+          "page": 2,
+          "fields": [
+            "Dedra Meero",
+            "Andor"
+          ]
+        },
+        {
+          "number": "95",
+          "page": 2,
+          "fields": [
+            "Syril Karn",
+            "Andor"
+          ]
+        },
+        {
+          "number": "96",
+          "page": 2,
+          "fields": [
+            "Shoretrooper",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "97",
+          "page": 2,
+          "fields": [
+            "Droideka",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "98",
+          "page": 2,
+          "fields": [
+            "Darth Maul",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "99",
+          "page": 2,
+          "fields": [
+            "Poggle The Lesser",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "100",
+          "page": 2,
+          "fields": [
+            "Grand Admiral Thrawn",
+            "Ahsoka"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ANIMATED SHORT PRINTS",
+      "rows": [
+        {
+          "number": "SP-1",
+          "page": 2,
+          "fields": [
+            "Ahsoka Tano",
+            "Star Wars: The Clone Wars"
+          ]
+        },
+        {
+          "number": "SP-2",
+          "page": 2,
+          "fields": [
+            "Asajj Ventress",
+            "Star Wars: The Clone Wars"
+          ]
+        },
+        {
+          "number": "SP-3",
+          "page": 2,
+          "fields": [
+            "Bo-Katan Kryze",
+            "Star Wars: The Clone Wars"
+          ]
+        },
+        {
+          "number": "SP-4",
+          "page": 3,
+          "fields": [
+            "Hera Syndulla",
+            "Star Wars: Rebels"
+          ]
+        },
+        {
+          "number": "SP-5",
+          "page": 3,
+          "fields": [
+            "Kanan Jarrus",
+            "Star Wars: Rebels"
+          ]
+        },
+        {
+          "number": "SP-6",
+          "page": 3,
+          "fields": [
+            "The Grand Inquisitor",
+            "Star Wars: Rebels"
+          ]
+        },
+        {
+          "number": "SP-7",
+          "page": 3,
+          "fields": [
+            "Obi-Wan Kenobi",
+            "Star Wars: The Clone Wars"
+          ]
+        },
+        {
+          "number": "SP-8",
+          "page": 3,
+          "fields": [
+            "Captain Rex",
+            "Star Wars: The Clone Wars"
+          ]
+        },
+        {
+          "number": "SP-9",
+          "page": 3,
+          "fields": [
+            "Darth Maul",
+            "Star Wars: The Clone Wars"
+          ]
+        },
+        {
+          "number": "SP-10",
+          "page": 3,
+          "fields": [
+            "Grand Admiral Thrawn",
+            "Star Wars: Rebels"
+          ]
+        },
+        {
+          "number": "SP-11",
+          "page": 3,
+          "fields": [
+            "Sabine Wren",
+            "Star Wars: Rebels"
+          ]
+        },
+        {
+          "number": "SP-12",
+          "page": 3,
+          "fields": [
+            "Savage Opress",
+            "Star Wars: The Clone Wars"
+          ]
+        },
+        {
+          "number": "SP-13",
+          "page": 3,
+          "fields": [
+            "Fifth Brother",
+            "Star Wars: Rebels"
+          ]
+        },
+        {
+          "number": "SP-14",
+          "page": 3,
+          "fields": [
+            "Saw Gerrera",
+            "Star Wars: The Clone Wars"
+          ]
+        },
+        {
+          "number": "SP-15",
+          "page": 3,
+          "fields": [
+            "Ezra Bridger",
+            "Star Wars: Rebels"
+          ]
+        },
+        {
+          "number": "SP-16",
+          "page": 3,
+          "fields": [
+            "Emperor Palpatine",
+            "Star Wars: Rebels"
+          ]
+        },
+        {
+          "number": "SP-17",
+          "page": 3,
+          "fields": [
+            "Yoda",
+            "Star Wars: The Clone Wars"
+          ]
+        },
+        {
+          "number": "SP-18",
+          "page": 3,
+          "fields": [
+            "General Grievous",
+            "Star Wars: The Clone Wars"
+          ]
+        },
+        {
+          "number": "SP-19",
+          "page": 3,
+          "fields": [
+            "Darth Bane",
+            "Star Wars: The Clone Wars"
+          ]
+        },
+        {
+          "number": "SP-20",
+          "page": 3,
+          "fields": [
+            "Darth Vader",
+            "Star Wars Rebels"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "25 YEARS OF DARTH MAUL",
+      "rows": [
+        {
+          "number": "DM-1",
+          "page": 3,
+          "fields": [
+            "Darth Maul",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "DM-2",
+          "page": 3,
+          "fields": [
+            "Darth Maul",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "DM-3",
+          "page": 3,
+          "fields": [
+            "Darth Maul",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "DM-4",
+          "page": 3,
+          "fields": [
+            "Darth Maul",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "DM-5",
+          "page": 3,
+          "fields": [
+            "Maul",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "DM-6",
+          "page": 3,
+          "fields": [
+            "Maul",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "DM-7",
+          "page": 3,
+          "fields": [
+            "Maul",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "DM-8",
+          "page": 3,
+          "fields": [
+            "Maul",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "DM-9",
+          "page": 3,
+          "fields": [
+            "Darth Maul",
+            "Star Wars: The Clone Wars"
+          ]
+        },
+        {
+          "number": "DM-10",
+          "page": 3,
+          "fields": [
+            "Darth Maul",
+            "Star Wars: The Clone Wars"
+          ]
+        },
+        {
+          "number": "DM-11",
+          "page": 3,
+          "fields": [
+            "Darth Maul",
+            "Star Wars: The Clone Wars"
+          ]
+        },
+        {
+          "number": "DM-12",
+          "page": 3,
+          "fields": [
+            "Darth Maul",
+            "Star Wars Rebels"
+          ]
+        },
+        {
+          "number": "DM-13",
+          "page": 3,
+          "fields": [
+            "Darth Maul",
+            "Star Wars Rebels"
+          ]
+        },
+        {
+          "number": "DM-14",
+          "page": 3,
+          "fields": [
+            "Darth Maul",
+            "Star Wars Rebels"
+          ]
+        },
+        {
+          "number": "DM-15",
+          "page": 3,
+          "fields": [
+            "Darth Maul",
+            "Star Wars Rebels"
+          ]
+        },
+        {
+          "number": "DM-16",
+          "page": 3,
+          "fields": [
+            "Darth Maul",
+            "Star Wars: The Clone Wars"
+          ]
+        },
+        {
+          "number": "DM-17",
+          "page": 3,
+          "fields": [
+            "Maul",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "DM-18",
+          "page": 3,
+          "fields": [
+            "Darth Maul",
+            "Star Wars: The Clone Wars"
+          ]
+        },
+        {
+          "number": "DM-19",
+          "page": 3,
+          "fields": [
+            "Darth Maul",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "DM-20",
+          "page": 3,
+          "fields": [
+            "Darth Maul",
+            "Star Wars Rebels"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EMBRACE THE DARKSIDE",
+      "rows": [
+        {
+          "number": "ED-1",
+          "page": 3,
+          "fields": [
+            "Darth Vader",
+            "Star Wars: Revenge of the Sith"
+          ]
+        },
+        {
+          "number": "ED-2",
+          "page": 3,
+          "fields": [
+            "Grand Admiral Thrawn",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "ED-3",
+          "page": 3,
+          "fields": [
+            "Captain Enoch",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "ED-4",
+          "page": 3,
+          "fields": [
+            "Baylan Skoll",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "ED-5",
+          "page": 3,
+          "fields": [
+            "Shin Hati",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "ED-6",
+          "page": 3,
+          "fields": [
+            "Darth Maul",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "ED-7",
+          "page": 3,
+          "fields": [
+            "Fifth Brother",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "ED-8",
+          "page": 3,
+          "fields": [
+            "The Grand Inquisitor",
+            "Star Wars Rebels"
+          ]
+        },
+        {
+          "number": "ED-9",
+          "page": 3,
+          "fields": [
+            "Count Dooku",
+            "Star Wars: Revenge of the Sith"
+          ]
+        },
+        {
+          "number": "ED-10",
+          "page": 3,
+          "fields": [
+            "Kylo Ren",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "ED-11",
+          "page": 3,
+          "fields": [
+            "Death Troopers",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "ED-12",
+          "page": 3,
+          "fields": [
+            "Grand Moff Tarkin",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "ED-13",
+          "page": 3,
+          "fields": [
+            "Moff Gideon",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "ED-14",
+          "page": 3,
+          "fields": [
+            "General Grievous",
+            "Star Wars: Revenge of the Sith"
+          ]
+        },
+        {
+          "number": "ED-15",
+          "page": 3,
+          "fields": [
+            "Darth Sidious",
+            "Star Wars: Revenge of the Sith"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DEPTHS OF THE DARKSIDE",
+      "rows": [
+        {
+          "number": "DD-1",
+          "page": 4,
+          "fields": [
+            "Grand Admiral Thrawn"
+          ]
+        },
+        {
+          "number": "DD-2",
+          "page": 4,
+          "fields": [
+            "Darth Revan"
+          ]
+        },
+        {
+          "number": "DD-3",
+          "page": 4,
+          "fields": [
+            "Emperor Palpatine"
+          ]
+        },
+        {
+          "number": "DD-4",
+          "page": 4,
+          "fields": [
+            "Darth Maul"
+          ]
+        },
+        {
+          "number": "DD-5",
+          "page": 4,
+          "fields": [
+            "Count Dooku"
+          ]
+        },
+        {
+          "number": "DD-6",
+          "page": 4,
+          "fields": [
+            "Captain Enoch"
+          ]
+        },
+        {
+          "number": "DD-7",
+          "page": 4,
+          "fields": [
+            "Death Trooper"
+          ]
+        },
+        {
+          "number": "DD-8",
+          "page": 4,
+          "fields": [
+            "Darth Maul's lightsaber"
+          ]
+        },
+        {
+          "number": "DD-9",
+          "page": 4,
+          "fields": [
+            "Kylo Ren's Lightsaber"
+          ]
+        },
+        {
+          "number": "DD-10",
+          "page": 4,
+          "fields": [
+            "Sith Wayfinder"
+          ]
+        },
+        {
+          "number": "DD-11",
+          "page": 4,
+          "fields": [
+            "Sith Infiltrator"
+          ]
+        },
+        {
+          "number": "DD-12",
+          "page": 4,
+          "fields": [
+            "Count Dooku's Lightsaber"
+          ]
+        },
+        {
+          "number": "DD-13",
+          "page": 4,
+          "fields": [
+            "Blade of Ochi of Bestoon"
+          ]
+        },
+        {
+          "number": "DD-14",
+          "page": 4,
+          "fields": [
+            "Sith Holocron"
+          ]
+        },
+        {
+          "number": "DD-15",
+          "page": 4,
+          "fields": [
+            "Sith Speeder"
+          ]
+        },
+        {
+          "number": "DD-16",
+          "page": 4,
+          "fields": [
+            "Darth Vader's TIE Fighter"
+          ]
+        },
+        {
+          "number": "DD-17",
+          "page": 4,
+          "fields": [
+            "Darth Vader's Lightsaber"
+          ]
+        },
+        {
+          "number": "DD-18",
+          "page": 4,
+          "fields": [
+            "The Grand Inquisitor"
+          ]
+        },
+        {
+          "number": "DD-19",
+          "page": 4,
+          "fields": [
+            "Kylo Ren"
+          ]
+        },
+        {
+          "number": "DD-20",
+          "page": 4,
+          "fields": [
+            "Darth Vader"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GALACTIC FACTIONS",
+      "rows": [
+        {
+          "number": "GL-1",
+          "page": 4,
+          "fields": [
+            "Sith"
+          ]
+        },
+        {
+          "number": "GL-2",
+          "page": 4,
+          "fields": [
+            "Bounty Hunters"
+          ]
+        },
+        {
+          "number": "GL-3",
+          "page": 4,
+          "fields": [
+            "Rebel Alliance"
+          ]
+        },
+        {
+          "number": "GL-4",
+          "page": 4,
+          "fields": [
+            "New Republic"
+          ]
+        },
+        {
+          "number": "GL-5",
+          "page": 4,
+          "fields": [
+            "Jedi Order"
+          ]
+        },
+        {
+          "number": "GL-6",
+          "page": 4,
+          "fields": [
+            "First Order"
+          ]
+        },
+        {
+          "number": "GL-7",
+          "page": 4,
+          "fields": [
+            "Galactic Empire"
+          ]
+        },
+        {
+          "number": "GL-8",
+          "page": 4,
+          "fields": [
+            "Galactic Republic"
+          ]
+        },
+        {
+          "number": "GL-9",
+          "page": 4,
+          "fields": [
+            "Fulcrum"
+          ]
+        },
+        {
+          "number": "GL-10",
+          "page": 4,
+          "fields": [
+            "Early Rebellion"
+          ]
+        },
+        {
+          "number": "GL-11",
+          "page": 4,
+          "fields": [
+            "General Grievous"
+          ]
+        },
+        {
+          "number": "GL-12",
+          "page": 4,
+          "fields": [
+            "Inquisitorius"
+          ]
+        },
+        {
+          "number": "GL-13",
+          "page": 4,
+          "fields": [
+            "The Naboo"
+          ]
+        },
+        {
+          "number": "GL-14",
+          "page": 4,
+          "fields": [
+            "Mudhorn"
+          ]
+        },
+        {
+          "number": "GL-15",
+          "page": 4,
+          "fields": [
+            "Phoenix"
+          ]
+        },
+        {
+          "number": "GL-16",
+          "page": 4,
+          "fields": [
+            "Gungan"
+          ]
+        },
+        {
+          "number": "GL-17",
+          "page": 4,
+          "fields": [
+            "Rebel Fighters"
+          ]
+        },
+        {
+          "number": "GL-18",
+          "page": 4,
+          "fields": [
+            "Galactic Senate"
+          ]
+        },
+        {
+          "number": "GL-19",
+          "page": 4,
+          "fields": [
+            "Desilijic"
+          ]
+        },
+        {
+          "number": "GL-20",
+          "page": 4,
+          "fields": [
+            "Confederacy of Independent Systems"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AUTOGRAPH LIGHT SIDE",
+      "rows": [
+        {
+          "number": "ALS-AA",
+          "page": 4,
+          "fields": [
+            "Adria Arjona",
+            "Bix Caleen"
+          ]
+        },
+        {
+          "number": "ALS-AB",
+          "page": 4,
+          "fields": [
+            "Ahmed Best",
+            "Kelleran Beq"
+          ]
+        },
+        {
+          "number": "ALS-AD",
+          "page": 4,
+          "fields": [
+            "Anthony Daniels",
+            "C-3PO"
+          ]
+        },
+        {
+          "number": "ALS-AE",
+          "page": 4,
+          "fields": [
+            "Ashley Eckstein",
+            "Ahsoka Tano"
+          ]
+        },
+        {
+          "number": "ALS-AG",
+          "page": 4,
+          "fields": [
+            "Ariana Greenblatt",
+            "Young Ahsoka Tano"
+          ]
+        },
+        {
+          "number": "ALS-AM",
+          "page": 4,
+          "fields": [
+            "Alastair McKenzie",
+            "Perrin Fertha"
+          ]
+        },
+        {
+          "number": "ALS-AP",
+          "page": 5,
+          "fields": [
+            "Angelique Perrin",
+            "Adi Gallia"
+          ]
+        },
+        {
+          "number": "ALS-AV",
+          "page": 5,
+          "fields": [
+            "Antonio Viña",
+            "Kassa"
+          ]
+        },
+        {
+          "number": "ALS-BC",
+          "page": 5,
+          "fields": [
+            "Bronte Carmichael",
+            "Leida Mothma"
+          ]
+        },
+        {
+          "number": "ALS-BE",
+          "page": 5,
+          "fields": [
+            "Blair Bess",
+            "Even Piell"
+          ]
+        },
+        {
+          "number": "ALS-BL",
+          "page": 5,
+          "fields": [
+            "Billie Lourd",
+            "Kaydel Ko Connix"
+          ]
+        },
+        {
+          "number": "ALS-BM",
+          "page": 5,
+          "fields": [
+            "Bobby Moynihan",
+            "Orka"
+          ]
+        },
+        {
+          "number": "ALS-BR",
+          "page": 5,
+          "fields": [
+            "Ralph Brown",
+            "Ric OliÉ"
+          ]
+        },
+        {
+          "number": "ALS-BS",
+          "page": 5,
+          "fields": [
+            "Brian Blessed",
+            "Boss Nass"
+          ]
+        },
+        {
+          "number": "ALS-BW",
+          "page": 5,
+          "fields": [
+            "Billy Dee Williams",
+            "Lando Calrissian"
+          ]
+        },
+        {
+          "number": "ALS-CE",
+          "page": 5,
+          "fields": [
+            "Chris Edgerly",
+            "Eeth Koth"
+          ]
+        },
+        {
+          "number": "ALS-CH",
+          "page": 5,
+          "fields": [
+            "Hayden Christensen",
+            "Anakin Skywalker"
+          ]
+        },
+        {
+          "number": "ALS-DI",
+          "page": 5,
+          "fields": [
+            "Ben Diskin",
+            "AZI-3"
+          ]
+        },
+        {
+          "number": "ALS-DL",
+          "page": 5,
+          "fields": [
+            "Diego Luna",
+            "Cassian Andor"
+          ]
+        },
+        {
+          "number": "ALS-DO",
+          "page": 5,
+          "fields": [
+            "Robin Atkin Downes",
+            "Cham Syndulla"
+          ]
+        },
+        {
+          "number": "ALS-DR",
+          "page": 5,
+          "fields": [
+            "Daisy Ridley",
+            "Rey"
+          ]
+        },
+        {
+          "number": "ALS-DY",
+          "page": 5,
+          "fields": [
+            "Donnie Yen",
+            "Chirrut Îmwe"
+          ]
+        },
+        {
+          "number": "ALS-EE",
+          "page": 5,
+          "fields": [
+            "Eman Esfandi",
+            "Ezra Bridger"
+          ]
+        },
+        {
+          "number": "ALS-EH",
+          "page": 5,
+          "fields": [
+            "Alden Ehrenreich",
+            "Han Solo"
+          ]
+        },
+        {
+          "number": "ALS-EM",
+          "page": 5,
+          "fields": [
+            "Ewan McGregor",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "ALS-ES",
+          "page": 5,
+          "fields": [
+            "Emily Swallow",
+            "The Armorer"
+          ]
+        },
+        {
+          "number": "ALS-EW",
+          "page": 5,
+          "fields": [
+            "Evan Whitten",
+            "Jacen Syndulla"
+          ]
+        },
+        {
+          "number": "ALS-FJ",
+          "page": 5,
+          "fields": [
+            "Felicity Jones",
+            "Jyn Erso"
+          ]
+        },
+        {
+          "number": "ALS-FM",
+          "page": 5,
+          "fields": [
+            "Faye Marsay",
+            "Vel Sartha"
+          ]
+        },
+        {
+          "number": "ALS-FP",
+          "page": 5,
+          "fields": [
+            "Freddie Prinze, Jr.",
+            "Kanan Jarrus"
+          ]
+        },
+        {
+          "number": "ALS-FS",
+          "page": 5,
+          "fields": [
+            "Fiona Shaw",
+            "Maarva Andor"
+          ]
+        },
+        {
+          "number": "ALS-GB",
+          "page": 5,
+          "fields": [
+            "Gary Beadle",
+            "Clem Andor"
+          ]
+        },
+        {
+          "number": "ALS-GO",
+          "page": 5,
+          "fields": [
+            "Genevieve O'Reilly",
+            "Mon Mothma"
+          ]
+        },
+        {
+          "number": "ALS-HC",
+          "page": 5,
+          "fields": [
+            "Hermione Corfield",
+            "Tallie Lintra"
+          ]
+        },
+        {
+          "number": "ALS-HF",
+          "page": 5,
+          "fields": [
+            "Harrison Ford",
+            "Han Solo"
+          ]
+        },
+        {
+          "number": "ALS-HQ",
+          "page": 5,
+          "fields": [
+            "Hugh Quarshie",
+            "Captain Panaka"
+          ]
+        },
+        {
+          "number": "ALS-IV",
+          "page": 5,
+          "fields": [
+            "Indira Varma",
+            "Tala Durith"
+          ]
+        },
+        {
+          "number": "ALS-JD",
+          "page": 5,
+          "fields": [
+            "Julie Dolan",
+            "Princess Leia Organa"
+          ]
+        },
+        {
+          "number": "ALS-JE",
+          "page": 5,
+          "fields": [
+            "Joel Edgerton",
+            "Owen Lars"
+          ]
+        },
+        {
+          "number": "ALS-JG",
+          "page": 5,
+          "fields": [
+            "Jason Spisak",
+            "Lux Bonteri"
+          ]
+        },
+        {
+          "number": "ALS-JH",
+          "page": 5,
+          "fields": [
+            "Jessica Henwick",
+            "Jess Pava"
+          ]
+        },
+        {
+          "number": "ALS-KC",
+          "page": 5,
+          "fields": [
+            "Keisha Castle-Hughes",
+            "Queen Apailana"
+          ]
+        },
+        {
+          "number": "ALS-KF",
+          "page": 5,
+          "fields": [
+            "Karen Fukuhara",
+            "F"
+          ]
+        },
+        {
+          "number": "ALS-KK",
+          "page": 5,
+          "fields": [
+            "Keira Knightley",
+            "Sabé"
+          ]
+        },
+        {
+          "number": "ALS-KK",
+          "page": 5,
+          "fields": [
+            "Katy Kartwheel",
+            "Rio Durant"
+          ]
+        },
+        {
+          "number": "ALS-KR",
+          "page": 5,
+          "fields": [
+            "Keri Russell",
+            "Zorii Bliss"
+          ]
+        },
+        {
+          "number": "ALS-KS",
+          "page": 5,
+          "fields": [
+            "Katee Sackhoff",
+            "Bo-Katan Kryze"
+          ]
+        },
+        {
+          "number": "ALS-LD",
+          "page": 5,
+          "fields": [
+            "Laura Dern",
+            "Vice Admiral Holdo"
+          ]
+        },
+        {
+          "number": "ALS-MA",
+          "page": 5,
+          "fields": [
+            "Michelle Ang",
+            "Omega"
+          ]
+        },
+        {
+          "number": "ALS-ME",
+          "page": 5,
+          "fields": [
+            "Maya Erskine",
+            "Sully Stark"
+          ]
+        },
+        {
+          "number": "ALS-MH",
+          "page": 5,
+          "fields": [
+            "Mark Hamill",
+            "Luke Skywalker"
+          ]
+        },
+        {
+          "number": "ALS-MQ",
+          "page": 5,
+          "fields": [
+            "Mike Quinn",
+            "Nien Nunb"
+          ]
+        },
+        {
+          "number": "ALS-MS",
+          "page": 5,
+          "fields": [
+            "Meredith Salenger",
+            "Bariss Offee"
+          ]
+        },
+        {
+          "number": "ALS-MW",
+          "page": 5,
+          "fields": [
+            "Mary Elizabeth Winstead",
+            "Hera Syndulla"
+          ]
+        },
+        {
+          "number": "ALS-NA",
+          "page": 5,
+          "fields": [
+            "Naomi Ackie",
+            "Jannah"
+          ]
+        },
+        {
+          "number": "ALS-NB",
+          "page": 5,
+          "fields": [
+            "Natasha Liu Bordizzo",
+            "Sabine Wren"
+          ]
+        },
+        {
+          "number": "ALS-NC",
+          "page": 5,
+          "fields": [
+            "Nazneen Contractor",
+            "Synara San"
+          ]
+        },
+        {
+          "number": "ALS-NN",
+          "page": 5,
+          "fields": [
+            "Nick Nolte",
+            "Kuiil"
+          ]
+        },
+        {
+          "number": "ALS-NP",
+          "page": 5,
+          "fields": [
+            "Natalie Portman",
+            "Padmé Amidala"
+          ]
+        },
+        {
+          "number": "ALS-OF",
+          "page": 5,
+          "fields": [
+            "Oliver Ford-Davies",
+            "Sio Bibble"
+          ]
+        },
+        {
+          "number": "ALS-OI",
+          "page": 5,
+          "fields": [
+            "Oscar Isaac",
+            "Poe Dameron"
+          ]
+        },
+        {
+          "number": "ALS-PP",
+          "page": 5,
+          "fields": [
+            "Pedro Pascal",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "ALS-PR",
+          "page": 6,
+          "fields": [
+            "Paul Reubens",
+            "RX-24"
+          ]
+        },
+        {
+          "number": "ALS-RA",
+          "page": 6,
+          "fields": [
+            "Riz Ahmed",
+            "Bodhi Rook"
+          ]
+        },
+        {
+          "number": "ALS-RD",
+          "page": 6,
+          "fields": [
+            "Rosario Dawson",
+            "Ahsoka Tano"
+          ]
+        },
+        {
+          "number": "ALS-SD",
+          "page": 6,
+          "fields": [
+            "Sharon Duncan-Brewster",
+            "Senator Tynnra Pamlo"
+          ]
+        },
+        {
+          "number": "ALS-SE",
+          "page": 6,
+          "fields": [
+            "Amy Sedaris",
+            "Peli Motto"
+          ]
+        },
+        {
+          "number": "ALS-SJ",
+          "page": 6,
+          "fields": [
+            "Samuel L. Jackson",
+            "Mace Windu"
+          ]
+        },
+        {
+          "number": "ALS-SK",
+          "page": 6,
+          "fields": [
+            "Simone Kessell",
+            "Breha Organa"
+          ]
+        },
+        {
+          "number": "ALS-SL",
+          "page": 6,
+          "fields": [
+            "Scott Lawrence",
+            "Jarek Yeager"
+          ]
+        },
+        {
+          "number": "ALS-SS",
+          "page": 6,
+          "fields": [
+            "Stellan Skarsgård",
+            "Luthen Rael"
+          ]
+        },
+        {
+          "number": "ALS-TO",
+          "page": 6,
+          "fields": [
+            "Timothy Olyphant",
+            "Cobb Vanth"
+          ]
+        },
+        {
+          "number": "ALS-TR",
+          "page": 6,
+          "fields": [
+            "Tim Rose",
+            "Admiral Ackbar"
+          ]
+        },
+        {
+          "number": "ALS-TW",
+          "page": 6,
+          "fields": [
+            "Taika Waititi",
+            "IG-11"
+          ]
+        },
+        {
+          "number": "ALS-VM",
+          "page": 6,
+          "fields": [
+            "Vanessa Marshall",
+            "Hera Syndulla"
+          ]
+        },
+        {
+          "number": "ALS-VS",
+          "page": 6,
+          "fields": [
+            "Varada Sethu",
+            "Cinta Kaz"
+          ]
+        },
+        {
+          "number": "ALS-WD",
+          "page": 6,
+          "fields": [
+            "Warwick Davis",
+            "Wicket W. Warrick"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AUTOGRAPH DARK SIDE",
+      "rows": [
+        {
+          "number": "ADS-AB",
+          "page": 6,
+          "fields": [
+            "Anna Brewster",
+            "Bazine Netal"
+          ]
+        },
+        {
+          "number": "ADS-AD",
+          "page": 6,
+          "fields": [
+            "Adam Driver",
+            "Kylo Ren"
+          ]
+        },
+        {
+          "number": "ADS-AF",
+          "page": 6,
+          "fields": [
+            "Alex Ferns",
+            "Sergeant Linus Mosk"
+          ]
+        },
+        {
+          "number": "ADS-AL",
+          "page": 6,
+          "fields": [
+            "Anton Lesser",
+            "Major Partagaz"
+          ]
+        },
+        {
+          "number": "ADS-AR",
+          "page": 6,
+          "fields": [
+            "Alan Ruscoe",
+            "Daultay Dofine"
+          ]
+        },
+        {
+          "number": "ADS-AS",
+          "page": 6,
+          "fields": [
+            "Andy Serkis",
+            "Supreme Leader Snoke"
+          ]
+        },
+        {
+          "number": "ADS-BD",
+          "page": 6,
+          "fields": [
+            "Benicio Del Toro",
+            "DJ"
+          ]
+        },
+        {
+          "number": "ADS-BG",
+          "page": 6,
+          "fields": [
+            "Barbara Goodson",
+            "Mother Talzin"
+          ]
+        },
+        {
+          "number": "ADS-BM",
+          "page": 6,
+          "fields": [
+            "Ben Mendelsohn",
+            "Director Krennic"
+          ]
+        },
+        {
+          "number": "ADS-CB",
+          "page": 6,
+          "fields": [
+            "Claudia Black",
+            "Klothow"
+          ]
+        },
+        {
+          "number": "ADS-CM",
+          "page": 6,
+          "fields": [
+            "Cathy Munroe",
+            "Zuckuss"
+          ]
+        },
+        {
+          "number": "ADS-CO",
+          "page": 6,
+          "fields": [
+            "Liam Cook",
+            "Ochi of Bestoon"
+          ]
+        },
+        {
+          "number": "ADS-DG",
+          "page": 6,
+          "fields": [
+            "Denise Gough",
+            "Dedra Meero"
+          ]
+        },
+        {
+          "number": "ADS-DI",
+          "page": 6,
+          "fields": [
+            "Diana Lee Inosanto",
+            "Morgan Elsbeth"
+          ]
+        },
+        {
+          "number": "ADS-DK",
+          "page": 6,
+          "fields": [
+            "Dorian Kingi",
+            "Cad Bane"
+          ]
+        },
+        {
+          "number": "ADS-DO",
+          "page": 6,
+          "fields": [
+            "David Oyelowo",
+            "Agent Kallus"
+          ]
+        },
+        {
+          "number": "ADS-DS",
+          "page": 6,
+          "fields": [
+            "David Shaughnessy",
+            "Myles Grint"
+          ]
+        },
+        {
+          "number": "ADS-EC",
+          "page": 6,
+          "fields": [
+            "Emilia Clarke",
+            "Qi'ra"
+          ]
+        },
+        {
+          "number": "ADS-EK",
+          "page": 6,
+          "fields": [
+            "Erin Kellyman",
+            "Enfys Nest"
+          ]
+        },
+        {
+          "number": "ADS-GC",
+          "page": 6,
+          "fields": [
+            "Gwendoline Christie",
+            "Captain Phasma"
+          ]
+        },
+        {
+          "number": "ADS-GE",
+          "page": 6,
+          "fields": [
+            "Giancarlo Esposito",
+            "Moff Gideon"
+          ]
+        },
+        {
+          "number": "ADS-GH",
+          "page": 6,
+          "fields": [
+            "Guy Henry",
+            "Governor Tarkin"
+          ]
+        },
+        {
+          "number": "ADS-GL",
+          "page": 6,
+          "fields": [
+            "Domhnall Gleeson",
+            "General Hux"
+          ]
+        },
+        {
+          "number": "ADS-GT",
+          "page": 6,
+          "fields": [
+            "George Takei",
+            "Lok Durd"
+          ]
+        },
+        {
+          "number": "ADS-GW",
+          "page": 6,
+          "fields": [
+            "Gary Anthony Williams",
+            "Kragan Gorr"
+          ]
+        },
+        {
+          "number": "ADS-HC",
+          "page": 6,
+          "fields": [
+            "Hayden Christensen",
+            "Darth Vader"
+          ]
+        },
+        {
+          "number": "ADS-HD",
+          "page": 6,
+          "fields": [
+            "Harley Durst",
+            "Moloch"
+          ]
+        },
+        {
+          "number": "ADS-IM",
+          "page": 6,
+          "fields": [
+            "Ian McDiarmid",
+            "Emperor Palpatine"
+          ]
+        },
+        {
+          "number": "ADS-IS",
+          "page": 6,
+          "fields": [
+            "Ivanna Sakhno",
+            "Shin Hati"
+          ]
+        },
+        {
+          "number": "ADS-JC",
+          "page": 6,
+          "fields": [
+            "Jake Cannavale",
+            "Toro Calican"
+          ]
+        },
+        {
+          "number": "ADS-JG",
+          "page": 6,
+          "fields": [
+            "Julian Glover",
+            "General Veers"
+          ]
+        },
+        {
+          "number": "ADS-JI",
+          "page": 6,
+          "fields": [
+            "Jason Isaacs",
+            "The Grand Inquisitor"
+          ]
+        },
+        {
+          "number": "ADS-JK",
+          "page": 6,
+          "fields": [
+            "Jamie King",
+            "Aurra Sing"
+          ]
+        },
+        {
+          "number": "ADS-KO",
+          "page": 6,
+          "fields": [
+            "Katy O'Brian",
+            "Elia Kane"
+          ]
+        },
+        {
+          "number": "ADS-KS",
+          "page": 6,
+          "fields": [
+            "Kyle Soller",
+            "Syril Karn"
+          ]
+        },
+        {
+          "number": "ADS-LC",
+          "page": 6,
+          "fields": [
+            "Lily Cole",
+            "Lovey"
+          ]
+        },
+        {
+          "number": "ADS-LE",
+          "page": 6,
+          "fields": [
+            "Lewis Macleod",
+            "Sebulba"
+          ]
+        },
+        {
+          "number": "ADS-LL",
+          "page": 6,
+          "fields": [
+            "Lex Lang",
+            "Major Vonreg"
+          ]
+        },
+        {
+          "number": "ADS-LM",
+          "page": 6,
+          "fields": [
+            "Lars Mikkelsen",
+            "Grand Admiral Thrawn"
+          ]
+        },
+        {
+          "number": "ADS-MB",
+          "page": 7,
+          "fields": [
+            "Mark Boone Jr.",
+            "Ranzar Malk"
+          ]
+        },
+        {
+          "number": "ADS-MI",
+          "page": 7,
+          "fields": [
+            "Moses Ingram",
+            "Reva"
+          ]
+        },
+        {
+          "number": "ADS-MM",
+          "page": 7,
+          "fields": [
+            "Mary Elizabeth McGlynn",
+            "Governor Pryce"
+          ]
+        },
+        {
+          "number": "ADS-MP",
+          "page": 7,
+          "fields": [
+            "Michael Pennington",
+            "Moff Jerjerrod"
+          ]
+        },
+        {
+          "number": "ADS-MV",
+          "page": 7,
+          "fields": [
+            "Mario Vernazza",
+            "Vult Skerris"
+          ]
+        },
+        {
+          "number": "ADS-MW",
+          "page": 7,
+          "fields": [
+            "Matthew Wood",
+            "General Grievous"
+          ]
+        },
+        {
+          "number": "ADS-NF",
+          "page": 7,
+          "fields": [
+            "Nika Futterman",
+            "Asajj Ventress"
+          ]
+        },
+        {
+          "number": "ADS-PA",
+          "page": 7,
+          "fields": [
+            "Philip Anthony-Rodriguez",
+            "Fifth Brother"
+          ]
+        },
+        {
+          "number": "ADS-PD",
+          "page": 7,
+          "fields": [
+            "Paul Darnell",
+            "Marrok"
+          ]
+        },
+        {
+          "number": "ADS-PJ",
+          "page": 7,
+          "fields": [
+            "Peter Jacobson",
+            "Myn Weaver"
+          ]
+        },
+        {
+          "number": "ADS-RA",
+          "page": 7,
+          "fields": [
+            "Rajia Baroudi",
+            "Queen Miraj Scintel"
+          ]
+        },
+        {
+          "number": "ADS-RB",
+          "page": 7,
+          "fields": [
+            "Richard Brake",
+            "Valin Hess"
+          ]
+        },
+        {
+          "number": "ADS-RF",
+          "page": 7,
+          "fields": [
+            "Rupert Friend",
+            "The Grand Inquisitor"
+          ]
+        },
+        {
+          "number": "ADS-RG",
+          "page": 7,
+          "fields": [
+            "Richard E. Grant",
+            "Allegiant General Pryde"
+          ]
+        },
+        {
+          "number": "ADS-RK",
+          "page": 7,
+          "fields": [
+            "Rya Kihlstedt",
+            "Fourth Sister"
+          ]
+        },
+        {
+          "number": "ADS-RP",
+          "page": 7,
+          "fields": [
+            "Ray Park",
+            "Darth Maul"
+          ]
+        },
+        {
+          "number": "ADS-SE",
+          "page": 7,
+          "fields": [
+            "Andy Secombe",
+            "Watto"
+          ]
+        },
+        {
+          "number": "ADS-SG",
+          "page": 7,
+          "fields": [
+            "Sarah Michelle Gellar",
+            "Seventh Sister"
+          ]
+        },
+        {
+          "number": "ADS-SW",
+          "page": 7,
+          "fields": [
+            "Sam Witwer",
+            "Maul"
+          ]
+        },
+        {
+          "number": "ADS-TB",
+          "page": 7,
+          "fields": [
+            "Tom Baker",
+            "Bendu"
+          ]
+        },
+        {
+          "number": "ADS-TC",
+          "page": 7,
+          "fields": [
+            "Tim Curry",
+            "Chancellor Palpatine"
+          ]
+        },
+        {
+          "number": "ADS-TM",
+          "page": 7,
+          "fields": [
+            "Temuera Morrison",
+            "Jango Fett"
+          ]
+        },
+        {
+          "number": "ADS-WC",
+          "page": 7,
+          "fields": [
+            "Wes Chatham",
+            "Captain Enoch"
+          ]
+        },
+        {
+          "number": "ADS-WH",
+          "page": 7,
+          "fields": [
+            "Werner Herzog",
+            "The Client"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DUALITY OF THE GALAXY AUTOGRAPHS",
+      "rows": [
+        {
+          "number": "BFA-AA",
+          "page": 7,
+          "fields": [
+            "Adria Arjona",
+            "Bix Caleen"
+          ]
+        },
+        {
+          "number": "BFA-AB",
+          "page": 7,
+          "fields": [
+            "Ahmed Best",
+            "Kelleran Beq"
+          ]
+        },
+        {
+          "number": "BFA-AD",
+          "page": 7,
+          "fields": [
+            "Adam Driver",
+            "Kylo Ren"
+          ]
+        },
+        {
+          "number": "BFA-AE",
+          "page": 7,
+          "fields": [
+            "Alden Ehrenreich",
+            "Han Solo"
+          ]
+        },
+        {
+          "number": "BFA-AF",
+          "page": 7,
+          "fields": [
+            "Alex Ferns",
+            "Sergeant Linus Mosk"
+          ]
+        },
+        {
+          "number": "BFA-AG",
+          "page": 7,
+          "fields": [
+            "Ariana Greenblatt",
+            "Young Ahsoka Tano"
+          ]
+        },
+        {
+          "number": "BFA-AL",
+          "page": 7,
+          "fields": [
+            "Anton Lesser",
+            "Major Partagaz"
+          ]
+        },
+        {
+          "number": "BFA-AM",
+          "page": 7,
+          "fields": [
+            "Alastair McKenzie",
+            "Perrin Fertha"
+          ]
+        },
+        {
+          "number": "BFA-AR",
+          "page": 7,
+          "fields": [
+            "Alan Ruscoe",
+            "Daultay Dofine"
+          ]
+        },
+        {
+          "number": "BFA-AS",
+          "page": 7,
+          "fields": [
+            "Andy Serkis",
+            "Supreme Leader Snoke"
+          ]
+        },
+        {
+          "number": "BFA-BD",
+          "page": 7,
+          "fields": [
+            "Benicio Del Toro",
+            "DJ"
+          ]
+        },
+        {
+          "number": "BFA-BE",
+          "page": 7,
+          "fields": [
+            "Ben Mendelsohn",
+            "Director Krennic"
+          ]
+        },
+        {
+          "number": "BFA-BL",
+          "page": 7,
+          "fields": [
+            "Billie Lourd",
+            "Kaydel Ko Connix"
+          ]
+        },
+        {
+          "number": "BFA-BM",
+          "page": 7,
+          "fields": [
+            "Bobby Moynihan",
+            "Orka"
+          ]
+        },
+        {
+          "number": "BFA-BS",
+          "page": 7,
+          "fields": [
+            "Bruce Spence",
+            "Tion Medon"
+          ]
+        },
+        {
+          "number": "BFA-CH",
+          "page": 7,
+          "fields": [
+            "Hayden Christensen",
+            "Darth Vader"
+          ]
+        },
+        {
+          "number": "BFA-DE",
+          "page": 7,
+          "fields": [
+            "Denise Gough",
+            "Dedra Meero"
+          ]
+        },
+        {
+          "number": "BFA-DI",
+          "page": 7,
+          "fields": [
+            "Diana Lee Inosanto",
+            "Morgan Elsbeth"
+          ]
+        },
+        {
+          "number": "BFA-DK",
+          "page": 7,
+          "fields": [
+            "Dorian Kingi",
+            "Cad Bane"
+          ]
+        },
+        {
+          "number": "BFA-DL",
+          "page": 7,
+          "fields": [
+            "Diego Luna",
+            "Cassian Andor"
+          ]
+        },
+        {
+          "number": "BFA-DP",
+          "page": 7,
+          "fields": [
+            "David Pasquesi",
+            "Twi'lek Majordomo"
+          ]
+        },
+        {
+          "number": "BFA-DR",
+          "page": 7,
+          "fields": [
+            "Daisy Ridley",
+            "Rey"
+          ]
+        },
+        {
+          "number": "BFA-EE",
+          "page": 7,
+          "fields": [
+            "Eman Esfandi",
+            "Ezra Bridger"
+          ]
+        },
+        {
+          "number": "BFA-EW",
+          "page": 7,
+          "fields": [
+            "Evan Whitten",
+            "Jacen Syndulla"
+          ]
+        },
+        {
+          "number": "BFA-FJ",
+          "page": 7,
+          "fields": [
+            "Felicity Jones",
+            "Jyn Erso"
+          ]
+        },
+        {
+          "number": "BFA-FM",
+          "page": 7,
+          "fields": [
+            "Faye Marsay",
+            "Vel Sartha"
+          ]
+        },
+        {
+          "number": "BFA-FS",
+          "page": 7,
+          "fields": [
+            "Fiona Shaw",
+            "Maarva Andor"
+          ]
+        },
+        {
+          "number": "BFA-GB",
+          "page": 7,
+          "fields": [
+            "Gary Beadle",
+            "Clem Andor"
+          ]
+        },
+        {
+          "number": "BFA-GC",
+          "page": 7,
+          "fields": [
+            "Gwendoline Christie",
+            "Captain Phasma"
+          ]
+        },
+        {
+          "number": "BFA-GE",
+          "page": 7,
+          "fields": [
+            "Giancarlo Esposito",
+            "Moff Gideon"
+          ]
+        },
+        {
+          "number": "BFA-GL",
+          "page": 8,
+          "fields": [
+            "Domhnall Gleeson",
+            "General Hux"
+          ]
+        },
+        {
+          "number": "BFA-GO",
+          "page": 8,
+          "fields": [
+            "Genevieve O'Reilly",
+            "Mon Mothma"
+          ]
+        },
+        {
+          "number": "BFA-HC",
+          "page": 8,
+          "fields": [
+            "Hayden Christensen",
+            "Anakin Skywalker"
+          ]
+        },
+        {
+          "number": "BFA-HF",
+          "page": 8,
+          "fields": [
+            "Harrison Ford",
+            "Han Solo"
+          ]
+        },
+        {
+          "number": "BFA-IM",
+          "page": 8,
+          "fields": [
+            "Ian McDiarmid",
+            "Emperor Palpatine"
+          ]
+        },
+        {
+          "number": "BFA-IS",
+          "page": 8,
+          "fields": [
+            "Ivanna Sakhno",
+            "Shin Hati"
+          ]
+        },
+        {
+          "number": "BFA-JC",
+          "page": 8,
+          "fields": [
+            "Jake Cannavale",
+            "Toro Calican"
+          ]
+        },
+        {
+          "number": "BFA-JE",
+          "page": 8,
+          "fields": [
+            "Joel Edgerton",
+            "Owen Lars"
+          ]
+        },
+        {
+          "number": "BFA-KK",
+          "page": 8,
+          "fields": [
+            "Keira Knightley",
+            "Sabé"
+          ]
+        },
+        {
+          "number": "BFA-KR",
+          "page": 8,
+          "fields": [
+            "Keri Russell",
+            "Zorii Bliss"
+          ]
+        },
+        {
+          "number": "BFA-KS",
+          "page": 8,
+          "fields": [
+            "Katee Sackhoff",
+            "Bo-Katan Kryze"
+          ]
+        },
+        {
+          "number": "BFA-KY",
+          "page": 8,
+          "fields": [
+            "Kyle Soller",
+            "Syril Karn"
+          ]
+        },
+        {
+          "number": "BFA-LA",
+          "page": 8,
+          "fields": [
+            "Lars Mikkelsen",
+            "Grand Admiral Thrawn"
+          ]
+        },
+        {
+          "number": "BFA-LC",
+          "page": 8,
+          "fields": [
+            "Lily Cole",
+            "Lovey"
+          ]
+        },
+        {
+          "number": "BFA-LD",
+          "page": 8,
+          "fields": [
+            "Laura Dern",
+            "Vice Admiral Holdo"
+          ]
+        },
+        {
+          "number": "BFA-LM",
+          "page": 8,
+          "fields": [
+            "Lewis Macleod",
+            "Sebulba"
+          ]
+        },
+        {
+          "number": "BFA-MB",
+          "page": 8,
+          "fields": [
+            "Mark Boone Jr.",
+            "Ranzar Malk"
+          ]
+        },
+        {
+          "number": "BFA-ME",
+          "page": 8,
+          "fields": [
+            "Maya Erskine",
+            "Sully Stark"
+          ]
+        },
+        {
+          "number": "BFA-MH",
+          "page": 8,
+          "fields": [
+            "Mark Hamill",
+            "Luke Skywalker"
+          ]
+        },
+        {
+          "number": "BFA-MM",
+          "page": 8,
+          "fields": [
+            "Mary Elizabeth McGlynn",
+            "Governor Pryce"
+          ]
+        },
+        {
+          "number": "BFA-MO",
+          "page": 8,
+          "fields": [
+            "Moses Ingram",
+            "Reva"
+          ]
+        },
+        {
+          "number": "BFA-MR",
+          "page": 8,
+          "fields": [
+            "Mark Rolston",
+            "Captain Hayle"
+          ]
+        },
+        {
+          "number": "BFA-MW",
+          "page": 8,
+          "fields": [
+            "MARY Elizabeth Winstead",
+            "Hera Syndulla"
+          ]
+        },
+        {
+          "number": "BFA-NB",
+          "page": 8,
+          "fields": [
+            "Natasha Liu Bordizzo",
+            "Sabine Wren"
+          ]
+        },
+        {
+          "number": "BFA-NN",
+          "page": 8,
+          "fields": [
+            "Nick Nolte",
+            "Kuiil"
+          ]
+        },
+        {
+          "number": "BFA-NP",
+          "page": 8,
+          "fields": [
+            "Natalie Portman",
+            "Padmé Amidala"
+          ]
+        },
+        {
+          "number": "BFA-PP",
+          "page": 8,
+          "fields": [
+            "Pedro Pascal",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "BFA-RA",
+          "page": 8,
+          "fields": [
+            "Riz Ahmed",
+            "Bodhi Rook"
+          ]
+        },
+        {
+          "number": "BFA-RB",
+          "page": 8,
+          "fields": [
+            "Richard Brake",
+            "Valin Hess"
+          ]
+        },
+        {
+          "number": "BFA-RD",
+          "page": 8,
+          "fields": [
+            "Rosario Dawson",
+            "Ahsoka Tano"
+          ]
+        },
+        {
+          "number": "BFA-RF",
+          "page": 8,
+          "fields": [
+            "Rupert Friend",
+            "The Grand Inquisitor"
+          ]
+        },
+        {
+          "number": "BFA-RG",
+          "page": 8,
+          "fields": [
+            "Richard E. Grant",
+            "Allegiant General Pryde"
+          ]
+        },
+        {
+          "number": "BFA-RP",
+          "page": 8,
+          "fields": [
+            "Ray Park",
+            "Darth Maul"
+          ]
+        },
+        {
+          "number": "BFA-SE",
+          "page": 8,
+          "fields": [
+            "Andy Secombe",
+            "Watto"
+          ]
+        },
+        {
+          "number": "BFA-SJ",
+          "page": 8,
+          "fields": [
+            "Samuel L. Jackson",
+            "Mace Windu"
+          ]
+        },
+        {
+          "number": "BFA-SS",
+          "page": 8,
+          "fields": [
+            "Stellan Skarsgård",
+            "Luthen Rael"
+          ]
+        },
+        {
+          "number": "BFA-TE",
+          "page": 8,
+          "fields": [
+            "Temuera Morrison",
+            "Jango Fett"
+          ]
+        },
+        {
+          "number": "BFA-TM",
+          "page": 8,
+          "fields": [
+            "Temuera Morrison",
+            "Boba Fett"
+          ]
+        },
+        {
+          "number": "BFA-TW",
+          "page": 8,
+          "fields": [
+            "Taika Waititi",
+            "IG-11"
+          ]
+        },
+        {
+          "number": "BFA-VS",
+          "page": 8,
+          "fields": [
+            "Varada Sethu",
+            "Cinta Kaz"
+          ]
+        },
+        {
+          "number": "BFA-WC",
+          "page": 8,
+          "fields": [
+            "Wes Chatham",
+            "Captain Enoch"
+          ]
+        },
+        {
+          "number": "BFA-WH",
+          "page": 8,
+          "fields": [
+            "Werner Herzog",
+            "The Client"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DUAL AUTOGRAPHS",
+      "rows": [
+        {
+          "number": "DA-AE",
+          "page": 8,
+          "fields": [
+            "Emilia Clarke",
+            "Qi'ra"
+          ]
+        },
+        {
+          "number": "DA-AE",
+          "page": 8,
+          "fields": [
+            "Alden Ehrenreich",
+            "Han Solo"
+          ]
+        },
+        {
+          "number": "DA-DF",
+          "page": 8,
+          "fields": [
+            "Diego Luna",
+            "Cassian Andor"
+          ]
+        },
+        {
+          "number": "DA-DF",
+          "page": 8,
+          "fields": [
+            "Felicity Jones",
+            "Jyn erso"
+          ]
+        },
+        {
+          "number": "DA-DO",
+          "page": 8,
+          "fields": [
+            "Daisy Ridley",
+            "Rey"
+          ]
+        },
+        {
+          "number": "DA-DO",
+          "page": 8,
+          "fields": [
+            "Oscar Isaac",
+            "Poe Dameron"
+          ]
+        },
+        {
+          "number": "DA-EH",
+          "page": 8,
+          "fields": [
+            "Ewan McGregor",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "DA-EH",
+          "page": 8,
+          "fields": [
+            "Hayden Christensen",
+            "Anakin Skywalker"
+          ]
+        },
+        {
+          "number": "DA-HB",
+          "page": 8,
+          "fields": [
+            "Harrison Ford",
+            "Han Solo"
+          ]
+        },
+        {
+          "number": "DA-HB",
+          "page": 8,
+          "fields": [
+            "Billy Dee Williams",
+            "Lando Calrissian"
+          ]
+        },
+        {
+          "number": "DA-HI",
+          "page": 8,
+          "fields": [
+            "Ian McDiarmid",
+            "Emperor Palpatine"
+          ]
+        },
+        {
+          "number": "DA-HI",
+          "page": 8,
+          "fields": [
+            "Hayden Christensen",
+            "Darth Vader"
+          ]
+        },
+        {
+          "number": "DA-HS",
+          "page": 9,
+          "fields": [
+            "Samuel L. Jackson",
+            "Mace Windu"
+          ]
+        },
+        {
+          "number": "DA-HS",
+          "page": 9,
+          "fields": [
+            "Hayden Christensen",
+            "Darth Vader"
+          ]
+        },
+        {
+          "number": "DA-KG",
+          "page": 9,
+          "fields": [
+            "Giancarlo Esposito",
+            "Moff Gideon"
+          ]
+        },
+        {
+          "number": "DA-KG",
+          "page": 9,
+          "fields": [
+            "Katee Sackhoff",
+            "Bo-Katan Kryze"
+          ]
+        },
+        {
+          "number": "DA-NI",
+          "page": 9,
+          "fields": [
+            "Natasha Liu Bordizzo",
+            "Sabine Wren"
+          ]
+        },
+        {
+          "number": "DA-NI",
+          "page": 9,
+          "fields": [
+            "Ivanna Sakhno",
+            "Shin Hati"
+          ]
+        },
+        {
+          "number": "DA-RN",
+          "page": 9,
+          "fields": [
+            "Natasha Liu Bordizzo",
+            "Sabine Wren"
+          ]
+        },
+        {
+          "number": "DA-RN",
+          "page": 9,
+          "fields": [
+            "Rosario Dawson",
+            "Ahsoka Tano"
+          ]
+        },
+        {
+          "number": "DA-TM",
+          "page": 9,
+          "fields": [
+            "Temuera Morrison",
+            "Boba Fett"
+          ]
+        },
+        {
+          "number": "DA-TM",
+          "page": 9,
+          "fields": [
+            "Ming-Na Wen",
+            "Fennec Shand"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TRIPLE AUTOGRAPHS",
+      "rows": [
+        {
+          "number": "TA-ADI",
+          "page": 9,
+          "fields": [
+            "Daisy Ridley",
+            "Rey"
+          ]
+        },
+        {
+          "number": "TA-ADI",
+          "page": 9,
+          "fields": [
+            "Adam Driver",
+            "Kylo Ren"
+          ]
+        },
+        {
+          "number": "TA-ADI",
+          "page": 9,
+          "fields": [
+            "Ian McDiarmid",
+            "Emperor Palpatine"
+          ]
+        },
+        {
+          "number": "TA-ADO",
+          "page": 9,
+          "fields": [
+            "Adam Driver",
+            "Kylo Ren"
+          ]
+        },
+        {
+          "number": "TA-ADO",
+          "page": 9,
+          "fields": [
+            "Oscar Isaac",
+            "Poe Dameron"
+          ]
+        },
+        {
+          "number": "TA-ADO",
+          "page": 9,
+          "fields": [
+            "Daisy Ridley",
+            "Rey"
+          ]
+        },
+        {
+          "number": "TA-DFD",
+          "page": 9,
+          "fields": [
+            "Felicity Jones",
+            "Jyn Erso"
+          ]
+        },
+        {
+          "number": "TA-DFD",
+          "page": 9,
+          "fields": [
+            "Donnie Yen",
+            "Chirrut Îmwe"
+          ]
+        },
+        {
+          "number": "TA-DFD",
+          "page": 9,
+          "fields": [
+            "Diego Luna",
+            "Cassian Andor"
+          ]
+        },
+        {
+          "number": "TA-LWD",
+          "page": 9,
+          "fields": [
+            "Diana Lee Inosanto",
+            "Morgan Elsbeth"
+          ]
+        },
+        {
+          "number": "TA-LWD",
+          "page": 9,
+          "fields": [
+            "Lars Mikkelsen",
+            "Grand Admiral Thrawn"
+          ]
+        },
+        {
+          "number": "TA-LWD",
+          "page": 9,
+          "fields": [
+            "Wes Chatham",
+            "Captain Enoch"
+          ]
+        },
+        {
+          "number": "TA-OKD",
+          "page": 9,
+          "fields": [
+            "Daisy Ridley",
+            "Rey"
+          ]
+        },
+        {
+          "number": "TA-OKD",
+          "page": 9,
+          "fields": [
+            "Keri Russell",
+            "Zorii Bliss"
+          ]
+        },
+        {
+          "number": "TA-OKD",
+          "page": 9,
+          "fields": [
+            "Oscar Isaac",
+            "Poe Dameron"
+          ]
+        },
+        {
+          "number": "TA-RNL",
+          "page": 9,
+          "fields": [
+            "Natasha Liu Bordizzo",
+            "Sabine Wren"
+          ]
+        },
+        {
+          "number": "TA-RNL",
+          "page": 9,
+          "fields": [
+            "Lars Mikkelsen",
+            "Grand Admiral Thrawn"
+          ]
+        },
+        {
+          "number": "TA-RNL",
+          "page": 9,
+          "fields": [
+            "Rosario Dawson",
+            "Ahsoka Tano"
+          ]
+        }
+      ]
+    }
+  ],
+  "rosters": {},
+  "odds": [
+    {
+      "label": "BASE CARDS RAINBOW REFRACTOR",
+      "hobby": "1:2",
+      "page": 1,
+      "rawLine": "BASE CARDS RAINBOW REFRACTOR 1:2"
+    },
+    {
+      "label": "BASE CARDS BLUE RED LAVA REFRACTOR",
+      "hobby": "1:5",
+      "page": 1,
+      "rawLine": "BASE CARDS BLUE RED LAVA REFRACTOR 1:5"
+    },
+    {
+      "label": "BASE CARDS YELLOW LAZER REFRACTOR",
+      "hobby": "1:6",
+      "page": 1,
+      "rawLine": "BASE CARDS YELLOW LAZER REFRACTOR 1:6"
+    },
+    {
+      "label": "BASE CARDS GOLD REFRACTOR",
+      "hobby": "1:9",
+      "page": 1,
+      "rawLine": "BASE CARDS GOLD REFRACTOR 1:9"
+    },
+    {
+      "label": "BASE CARDS ORANGE REFRACTOR",
+      "hobby": "1:18",
+      "page": 1,
+      "rawLine": "BASE CARDS ORANGE REFRACTOR 1:18"
+    },
+    {
+      "label": "BASE CARDS MAGENTA RAY WAVE REFRACTOR",
+      "hobby": "1:45",
+      "page": 1,
+      "rawLine": "BASE CARDS MAGENTA RAY WAVE REFRACTOR 1:45"
+    },
+    {
+      "label": "BASE CARDS RED REFRACTOR",
+      "hobby": "1:91",
+      "page": 1,
+      "rawLine": "BASE CARDS RED REFRACTOR 1:91"
+    },
+    {
+      "label": "BASE CARDS SUPERFRACTOR",
+      "hobby": "1:457",
+      "page": 1,
+      "rawLine": "BASE CARDS SUPERFRACTOR 1:457"
+    },
+    {
+      "label": "ANIMATED SHORT PRINTS",
+      "hobby": "1:12",
+      "page": 1,
+      "rawLine": "ANIMATED SHORT PRINTS 1:12"
+    },
+    {
+      "label": "ANIMATED SHORT PRINTS ORANGE REFRACTOR",
+      "hobby": "1:91",
+      "page": 1,
+      "rawLine": "ANIMATED SHORT PRINTS ORANGE REFRACTOR 1:91"
+    },
+    {
+      "label": "ANIMATED SHORT PRINTS MAGENTA RAY WAVE REFRACTOR",
+      "hobby": "1:227",
+      "page": 1,
+      "rawLine": "ANIMATED SHORT PRINTS MAGENTA RAY WAVE REFRACTOR 1:227"
+    },
+    {
+      "label": "ANIMATED SHORT PRINTS GOLD REFRACTOR",
+      "hobby": "1:45",
+      "page": 1,
+      "rawLine": "ANIMATED SHORT PRINTS GOLD REFRACTOR 1:45"
+    },
+    {
+      "label": "ANIMATED SHORT PRINTS RED REFRACTOR",
+      "hobby": "1:91",
+      "page": 1,
+      "rawLine": "ANIMATED SHORT PRINTS RED REFRACTOR 1:91"
+    },
+    {
+      "label": "ANIMATED SHORT PRINTS SUPERFRACTOR",
+      "hobby": "1:2,286",
+      "page": 1,
+      "rawLine": "ANIMATED SHORT PRINTS SUPERFRACTOR 1:2,286"
+    },
+    {
+      "label": "25 YEARS OF DARTH MAUL",
+      "hobby": "1:2",
+      "page": 1,
+      "rawLine": "25 YEARS OF DARTH MAUL 1:2"
+    },
+    {
+      "label": "25 YEARS OF DARTH MAUL GOLD REFRACTOR",
+      "hobby": "1:45",
+      "page": 1,
+      "rawLine": "25 YEARS OF DARTH MAUL GOLD REFRACTOR 1:45"
+    },
+    {
+      "label": "25 YEARS OF DARTH MAUL ORANGE REFRACTOR",
+      "hobby": "1:91",
+      "page": 1,
+      "rawLine": "25 YEARS OF DARTH MAUL ORANGE REFRACTOR 1:91"
+    },
+    {
+      "label": "25 YEARS OF DARTH MAUL RED REFRACTOR",
+      "hobby": "1:457",
+      "page": 1,
+      "rawLine": "25 YEARS OF DARTH MAUL RED REFRACTOR 1:457"
+    },
+    {
+      "label": "25 YEARS OF DARTH MAUL SUPERFRACTOR",
+      "hobby": "1:2,286",
+      "page": 1,
+      "rawLine": "25 YEARS OF DARTH MAUL SUPERFRACTOR 1:2,286"
+    },
+    {
+      "label": "EMBRACE THE DARKSIDE",
+      "hobby": "1:3",
+      "page": 1,
+      "rawLine": "EMBRACE THE DARKSIDE 1:3"
+    },
+    {
+      "label": "EMBRACE THE DARKSIDE GOLD REFRACTOR",
+      "hobby": "1:61",
+      "page": 1,
+      "rawLine": "EMBRACE THE DARKSIDE GOLD REFRACTOR 1:61"
+    },
+    {
+      "label": "EMBRACE THE DARKSIDE ORANGE REFRACTOR",
+      "hobby": "1:121",
+      "page": 1,
+      "rawLine": "EMBRACE THE DARKSIDE ORANGE REFRACTOR 1:121"
+    },
+    {
+      "label": "EMBRACE THE DARKSIDE RED REFRACTOR",
+      "hobby": "1:603",
+      "page": 1,
+      "rawLine": "EMBRACE THE DARKSIDE RED REFRACTOR 1:603"
+    },
+    {
+      "label": "EMBRACE THE DARKSIDE SUPERFRACTOR",
+      "hobby": "1:2,895",
+      "page": 1,
+      "rawLine": "EMBRACE THE DARKSIDE SUPERFRACTOR 1:2,895"
+    },
+    {
+      "label": "DEPTHS OF THE DARKSIDE",
+      "hobby": "1:12",
+      "page": 1,
+      "rawLine": "DEPTHS OF THE DARKSIDE 1:12"
+    },
+    {
+      "label": "DEPTHS OF THE DARKSIDE GOLD REFRACTOR",
+      "hobby": "1:45",
+      "page": 1,
+      "rawLine": "DEPTHS OF THE DARKSIDE GOLD REFRACTOR 1:45"
+    },
+    {
+      "label": "DEPTHS OF THE DARKSIDE ORANGE REFRACTOR",
+      "hobby": "1:91",
+      "page": 1,
+      "rawLine": "DEPTHS OF THE DARKSIDE ORANGE REFRACTOR 1:91"
+    },
+    {
+      "label": "DEPTHS OF THE DARKSIDE RED REFRACTOR",
+      "hobby": "1:457",
+      "page": 1,
+      "rawLine": "DEPTHS OF THE DARKSIDE RED REFRACTOR 1:457"
+    },
+    {
+      "label": "DEPTHS OF THE DARKSIDE SUPERFRACTOR",
+      "hobby": "1:2,286",
+      "page": 1,
+      "rawLine": "DEPTHS OF THE DARKSIDE SUPERFRACTOR 1:2,286"
+    },
+    {
+      "label": "GALACTIC FACTIONS",
+      "hobby": "#'d to 99",
+      "page": 1,
+      "rawLine": "GALACTIC FACTIONS #'d to 99"
+    },
+    {
+      "label": "GALACTIC FACTIONS GOLD REFRACTOR",
+      "hobby": "1:61",
+      "page": 1,
+      "rawLine": "GALACTIC FACTIONS GOLD REFRACTOR 1:61"
+    },
+    {
+      "label": "GALACTIC FACTIONS ORANGE REFRACTOR",
+      "hobby": "1:121",
+      "page": 1,
+      "rawLine": "GALACTIC FACTIONS ORANGE REFRACTOR 1:121"
+    },
+    {
+      "label": "GALACTIC FACTIONS RED REFRACTOR",
+      "hobby": "1:603",
+      "page": 1,
+      "rawLine": "GALACTIC FACTIONS RED REFRACTOR 1:603"
+    },
+    {
+      "label": "GALACTIC FACTIONS SUPERFRACTOR",
+      "hobby": "1:2,895",
+      "page": 1,
+      "rawLine": "GALACTIC FACTIONS SUPERFRACTOR 1:2,895"
+    },
+    {
+      "label": "AUTOGRAPH LIGHT SIDE",
+      "hobby": "1:5",
+      "page": 1,
+      "rawLine": "AUTOGRAPH LIGHT SIDE 1:5"
+    },
+    {
+      "label": "AUTOGRAPH LIGHT SIDE BLUE RED LAVA",
+      "hobby": "1:13",
+      "page": 1,
+      "rawLine": "AUTOGRAPH LIGHT SIDE BLUE RED LAVA 1:13"
+    },
+    {
+      "label": "AUTOGRAPH LIGHT SIDE GOLD REFRACTOR",
+      "hobby": "1:20",
+      "page": 1,
+      "rawLine": "AUTOGRAPH LIGHT SIDE GOLD REFRACTOR 1:20"
+    },
+    {
+      "label": "AUTOGRAPH LIGHT SIDE ORANGE REFRACTOR",
+      "hobby": "1:30",
+      "page": 1,
+      "rawLine": "AUTOGRAPH LIGHT SIDE ORANGE REFRACTOR 1:30"
+    },
+    {
+      "label": "AUTOGRAPH LIGHT SIDE MAGENTA RAY WAVE REFRACTOR",
+      "hobby": "1:64",
+      "page": 1,
+      "rawLine": "AUTOGRAPH LIGHT SIDE MAGENTA RAY WAVE REFRACTOR 1:64"
+    },
+    {
+      "label": "AUTOGRAPH LIGHT SIDE RED REFRACTOR",
+      "hobby": "1:121",
+      "page": 1,
+      "rawLine": "AUTOGRAPH LIGHT SIDE RED REFRACTOR 1:121"
+    },
+    {
+      "label": "AUTOGRAPH LIGHT SIDE SUPERFRACTOR",
+      "hobby": "1:587",
+      "page": 1,
+      "rawLine": "AUTOGRAPH LIGHT SIDE SUPERFRACTOR 1:587"
+    },
+    {
+      "label": "AUTOGRAPH LIGHT SIDE PRINTING PLATES",
+      "hobby": "1:148",
+      "page": 1,
+      "rawLine": "AUTOGRAPH LIGHT SIDE PRINTING PLATES 1:148"
+    },
+    {
+      "label": "AUTOGRAPH DARK SIDE",
+      "hobby": "1:4",
+      "page": 1,
+      "rawLine": "AUTOGRAPH DARK SIDE 1:4"
+    },
+    {
+      "label": "AUTOGRAPH DARK SIDE BLUE RED LAVA",
+      "hobby": "1:11",
+      "page": 1,
+      "rawLine": "AUTOGRAPH DARK SIDE BLUE RED LAVA 1:11"
+    },
+    {
+      "label": "AUTOGRAPH DARK SIDE GOLD REFRACTOR",
+      "hobby": "1:17",
+      "page": 1,
+      "rawLine": "AUTOGRAPH DARK SIDE GOLD REFRACTOR 1:17"
+    },
+    {
+      "label": "AUTOGRAPH DARK SIDE ORANGE REFRACTOR",
+      "hobby": "1:30",
+      "page": 1,
+      "rawLine": "AUTOGRAPH DARK SIDE ORANGE REFRACTOR 1:30"
+    },
+    {
+      "label": "AUTOGRAPH DARK SIDE MAGENTA RAY WAVE REFRACTOR",
+      "hobby": "1:72",
+      "page": 1,
+      "rawLine": "AUTOGRAPH DARK SIDE MAGENTA RAY WAVE REFRACTOR 1:72"
+    },
+    {
+      "label": "AUTOGRAPH DARK SIDE RED REFRACTOR",
+      "hobby": "1:142",
+      "page": 1,
+      "rawLine": "AUTOGRAPH DARK SIDE RED REFRACTOR 1:142"
+    },
+    {
+      "label": "AUTOGRAPH DARK SIDE SUPERFRACTOR",
+      "hobby": "1:700",
+      "page": 1,
+      "rawLine": "AUTOGRAPH DARK SIDE SUPERFRACTOR 1:700"
+    },
+    {
+      "label": "AUTOGRAPH DARK SIDE PRINTING PLATES",
+      "hobby": "1:178",
+      "page": 1,
+      "rawLine": "AUTOGRAPH DARK SIDE PRINTING PLATES 1:178"
+    },
+    {
+      "label": "DUALITY OF THE GALAXY AUTOGRAPHS",
+      "hobby": "1:26",
+      "page": 1,
+      "rawLine": "DUALITY OF THE GALAXY AUTOGRAPHS 1:26"
+    },
+    {
+      "label": "DUALITY OF THE GALAXY AUTOGRAPHS BLUE RED LAVA REFRACTOR",
+      "hobby": "1:28",
+      "page": 1,
+      "rawLine": "DUALITY OF THE GALAXY AUTOGRAPHS BLUE RED LAVA REFRACTOR 1:28"
+    },
+    {
+      "label": "DUALITY OF THE GALAXY AUTOGRAPHS GOLD REFRACTOR",
+      "hobby": "1:41",
+      "page": 1,
+      "rawLine": "DUALITY OF THE GALAXY AUTOGRAPHS GOLD REFRACTOR 1:41"
+    },
+    {
+      "label": "DUALITY OF THE GALAXY AUTOGRAPHS ORANGE REFRACTOR",
+      "hobby": "1:56",
+      "page": 1,
+      "rawLine": "DUALITY OF THE GALAXY AUTOGRAPHS ORANGE REFRACTOR 1:56"
+    },
+    {
+      "label": "DUALITY OF THE GALAXY AUTOGRAPHS RED REFRACTOR",
+      "hobby": "1:130",
+      "page": 1,
+      "rawLine": "DUALITY OF THE GALAXY AUTOGRAPHS RED REFRACTOR 1:130"
+    },
+    {
+      "label": "DUALITY OF THE GALAXY AUTOGRAPHS SUPERFRACTOR",
+      "hobby": "1:612",
+      "page": 1,
+      "rawLine": "DUALITY OF THE GALAXY AUTOGRAPHS SUPERFRACTOR 1:612"
+    },
+    {
+      "label": "DUAL AUTOGRAPHS",
+      "hobby": "1:1,277",
+      "page": 1,
+      "rawLine": "DUAL AUTOGRAPHS 1:1,277"
+    },
+    {
+      "label": "DUAL AUTOGRAPHS SUPERFRACTOR",
+      "hobby": "1:4,343",
+      "page": 1,
+      "rawLine": "DUAL AUTOGRAPHS SUPERFRACTOR 1:4,343"
+    },
+    {
+      "label": "TRIPLE AUTOGRAPHS",
+      "hobby": "1:2,171",
+      "page": 2,
+      "rawLine": "TRIPLE AUTOGRAPHS 1:2,171"
+    },
+    {
+      "label": "TRIPLE AUTOGRAPHS SUPERFRACTOR",
+      "hobby": "1:7,238",
+      "page": 2,
+      "rawLine": "TRIPLE AUTOGRAPHS SUPERFRACTOR 1:7,238"
+    }
+  ],
+  "guideUrl": null,
+  "guideCaps": []
+}
