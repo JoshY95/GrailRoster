@@ -34,7 +34,7 @@ class PrizmWWE2024(unittest.TestCase):
   self.assertEqual(len(base),200);self.assertTrue(all(x['serial_cap'] is None and x['serial_exact'] is None for x in base));self.assertEqual(len(autos),174);self.assertTrue(all(x['serial_cap']==1 for x in autos));self.assertEqual(len(p.tables()['catalogue_parallel_rules']),169)
  def test_prior_bytes_metadata_repeat_and_conflict(self):
   def old(path):return subprocess.check_output(['git','show',p.BASELINE+':'+path],cwd=ROOT)
-  index=json.loads(old('data/catalogue-index.json'));cat=load_catalogue();self.assertEqual((len(cat['sets']),len(cat['cards'])),(46,22731));self.assertEqual(sum(x['cardCount'] for x in cat['sets'] if x['categoryId']=='wwe'),13413)
+  index=json.loads(old('data/catalogue-index.json'));cat=load_catalogue();self.assertGreaterEqual(len(cat['sets']),46);self.assertGreaterEqual(len(cat['cards']),22731);self.assertGreaterEqual(sum(x['cardCount'] for x in cat['sets'] if x['categoryId']=='wwe'),13413)
   for s in index['sets']:
    self.assertEqual((ROOT/'data'/s['file']).read_bytes(),old('data/'+s['file']));self.assertEqual(next(x for x in cat['sets'] if x['id']==s['id']),{k:v for k,v in s.items() if k!='file'})
   self.assertEqual((ROOT/'data/catalogue.json').read_bytes(),old('data/catalogue.json'))

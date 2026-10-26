@@ -1,0 +1,689 @@
+{
+  "immaculate": {
+    "id": "2023-panini-immaculate-wwe",
+    "prefix": "2023-PIMMWWE",
+    "name": "2023 Panini Immaculate Collection WWE",
+    "short": "Immaculate Collection WWE 2023",
+    "date": "2024-06-19",
+    "accent": "#c7ac78",
+    "rows": 3362,
+    "source": "https://xcdn.checklistinsider.com/public/2024/06/2023-Panini-Immaculate-Collection-WWE-Wrestling-Checklist-Downloads-Excel-spreadsheet-new.xlsx",
+    "note": "Older GTS export covers 2516 of 3362 editions. Additional 846 memorabilia editions independently reconcile to four published WrestlingTradingCards lists. Numeric source checklist numbers retained; physical codes not inferred. The old comparison workbook duplicates Rob Van Dam instead of The Sandman in Quad #3; original GTS confirms The Sandman.",
+    "families": [
+      [
+        "All-Time Greats Signatures",
+        "ATGS",
+        "Autograph",
+        18
+      ],
+      [
+        "Base",
+        "BASE",
+        "Base",
+        100
+      ],
+      [
+        "Catchphrase Calligraphy",
+        "CC",
+        "Autograph",
+        5
+      ],
+      [
+        "Championship Glory",
+        "CG",
+        "Autograph",
+        3
+      ],
+      [
+        "Championship Lineage Triple Autographs",
+        "CLTA",
+        "Autograph",
+        4
+      ],
+      [
+        "Dual Autographed Memorabilia",
+        "DAM",
+        "Autograph Relic",
+        30
+      ],
+      [
+        "Dual Autographs",
+        "DA",
+        "Autograph",
+        27
+      ],
+      [
+        "Footwear Spotlight Signatures",
+        "FSS",
+        "Autograph",
+        7
+      ],
+      [
+        "Heralded Signatures",
+        "HS",
+        "Autograph",
+        38
+      ],
+      [
+        "Immaculate Championship Runs",
+        "ICR",
+        "Autograph",
+        17
+      ],
+      [
+        "Immaculate Ink",
+        "II",
+        "Autograph",
+        30
+      ],
+      [
+        "Immaculate Legends",
+        "IL",
+        "Autograph",
+        14
+      ],
+      [
+        "Immaculate Milestones",
+        "IMI",
+        "Autograph",
+        5
+      ],
+      [
+        "Immaculate Moments",
+        "IMO",
+        "Autograph",
+        18
+      ],
+      [
+        "Immaculate Nicknames",
+        "IN",
+        "Autograph",
+        14
+      ],
+      [
+        "Immaculate Signature Moves",
+        "ISM",
+        "Autograph",
+        17
+      ],
+      [
+        "Jumbo Memorabilia - Shirt",
+        "JMS",
+        "Relic",
+        100
+      ],
+      [
+        "Jumbo Memorabilia - Specialty",
+        "JMSP",
+        "Relic",
+        11
+      ],
+      [
+        "Jumbo Ring Canvas",
+        "JRC",
+        "Relic",
+        50
+      ],
+      [
+        "Main Event Dual Mat Autographs",
+        "MEDMA",
+        "Autograph Relic",
+        7
+      ],
+      [
+        "Marks of Greatness",
+        "MG",
+        "Autograph",
+        36
+      ],
+      [
+        "Memorabilia Autographs",
+        "MA",
+        "Autograph Relic",
+        50
+      ],
+      [
+        "Modern Marks",
+        "MM",
+        "Autograph",
+        19
+      ],
+      [
+        "Past and Present Signatures",
+        "PPS",
+        "Autograph",
+        39
+      ],
+      [
+        "Patch Autographs Booklets",
+        "PAB",
+        "Autograph Relic",
+        42
+      ],
+      [
+        "Premium Memorabilia Autographs",
+        "PMA",
+        "Autograph Relic",
+        50
+      ],
+      [
+        "Quad Autographs",
+        "QA",
+        "Autograph",
+        5
+      ],
+      [
+        "Remarkable Memorabilia",
+        "RM",
+        "Relic",
+        99
+      ],
+      [
+        "Specialty Swatch Signatures",
+        "SSS",
+        "Autograph Relic",
+        25
+      ],
+      [
+        "Spotlight Logos Signatures",
+        "SLS",
+        "Autograph",
+        6
+      ],
+      [
+        "Standout Memorabilia",
+        "STM",
+        "Relic",
+        40
+      ],
+      [
+        "Superstar Swatches",
+        "SSW",
+        "Relic",
+        60
+      ],
+      [
+        "The Attitude Era",
+        "TAE",
+        "Autograph",
+        1
+      ],
+      [
+        "The Immaculate Standard",
+        "TIS",
+        "Relic",
+        50
+      ],
+      [
+        "Triple Autographs",
+        "TRA",
+        "Autograph",
+        10
+      ]
+    ],
+    "sources": [
+      {
+        "id": "checklist",
+        "source": "Panini-format checklist / Checklist Insider mirror",
+        "purpose": "Checklist",
+        "url": "https://xcdn.checklistinsider.com/public/2024/06/2023-Panini-Immaculate-Collection-WWE-Wrestling-Checklist-Downloads-Excel-spreadsheet-new.xlsx",
+        "notes": "Older GTS export covers 2516 of 3362 editions. Additional 846 memorabilia editions independently reconcile to four published WrestlingTradingCards lists. Numeric source checklist numbers retained; physical codes not inferred."
+      },
+      {
+        "id": "release",
+        "source": "Checklist Insider",
+        "purpose": "Release date",
+        "url": "https://www.checklistinsider.com/2023-panini-immaculate-collection-wwe",
+        "notes": "2023 product label; actual hobby release in 2024."
+      },
+      {
+        "id": "distributor",
+        "source": "GTS Distribution / Panini",
+        "purpose": "Original distributor checklist",
+        "url": "https://gogts.net/wp-content/uploads/2024/06/2023-Panini-Immaculate-WWE-Trading-Cards-Checklist.xls",
+        "notes": "Older GTS export covers 2516 of 3362 editions. Additional 846 memorabilia editions independently reconcile to four published WrestlingTradingCards lists. Numeric source checklist numbers retained; physical codes not inferred."
+      },
+      {
+        "id": "comparison",
+        "source": "Checklist Center",
+        "purpose": "Independent checklist workbook",
+        "url": "https://www.checklistcenter.com/2023-panini-immaculate-wwe-wrestling-card-checklist/",
+        "notes": "Chronicles all rows; Immaculate old export after combining separate signer rows and quote formatting."
+      },
+      {
+        "id": "supplement",
+        "source": "WrestlingTradingCards",
+        "purpose": "Independent updated memorabilia identities and editions",
+        "url": "https://wrestlingtradingcards.com/2023-wwe-panini-immaculate-collection-panini/",
+        "notes": "All four additional numbered lists and their declared caps/parallel statements reconcile to 846 exact rows."
+      }
+    ]
+  },
+  "chronicles": {
+    "id": "2023-panini-chronicles-wwe",
+    "prefix": "2023-PCHWWE",
+    "name": "2023 Panini Chronicles WWE",
+    "short": "Chronicles WWE 2023",
+    "date": "2024-05-24",
+    "accent": "#73b3cc",
+    "rows": 5862,
+    "source": "https://xcdn.checklistinsider.com/public/2024/05/2023-Panini-Chronicles-WWE-Wrestling-Checklist-Downloads-Excel-Spreadsheet.xlsx",
+    "note": "Both full workbook mirrors reconcile after three nickname quote differences. Original GTS updated workbook download did not complete; no origin-byte verification claimed. Missing source numbers remain missing.",
+    "families": [
+      [
+        "Action Packed",
+        "AP",
+        "Insert",
+        24
+      ],
+      [
+        "Base Certified",
+        "BCERT",
+        "Base",
+        24
+      ],
+      [
+        "Base Chronicles",
+        "BCHR",
+        "Base",
+        99
+      ],
+      [
+        "Base Classics",
+        "BCLA",
+        "Base",
+        15
+      ],
+      [
+        "Base Contenders Season Ticket",
+        "BCST",
+        "Base",
+        15
+      ],
+      [
+        "Base Donruss Optic",
+        "BDO",
+        "Base",
+        24
+      ],
+      [
+        "Base Golden Age",
+        "BGA",
+        "Base",
+        15
+      ],
+      [
+        "Base Honors",
+        "BHON",
+        "Base",
+        25
+      ],
+      [
+        "Base Illusions",
+        "BILL",
+        "Base",
+        24
+      ],
+      [
+        "Base Limited",
+        "BLIM",
+        "Base",
+        25
+      ],
+      [
+        "Base Luminance",
+        "BLUM",
+        "Base",
+        15
+      ],
+      [
+        "Base Origins",
+        "BORI",
+        "Base",
+        14
+      ],
+      [
+        "Base Phoenix",
+        "BPHX",
+        "Base",
+        24
+      ],
+      [
+        "Base Ring Royalty",
+        "BRR",
+        "Base",
+        15
+      ],
+      [
+        "Base Spectra",
+        "BSPE",
+        "Base",
+        25
+      ],
+      [
+        "Base Voices of the Ring",
+        "BVOR",
+        "Base",
+        10
+      ],
+      [
+        "Base XR",
+        "BXR",
+        "Base",
+        25
+      ],
+      [
+        "Chronicles Signatures",
+        "CS",
+        "Autograph",
+        40
+      ],
+      [
+        "Contenders Optic Season Ticket Signatures",
+        "COSTS",
+        "Autograph",
+        9
+      ],
+      [
+        "Donruss Optic Signature Series",
+        "DOSS",
+        "Autograph",
+        30
+      ],
+      [
+        "Gala Rookies",
+        "GALA",
+        "Base",
+        10
+      ],
+      [
+        "Hall of Fame Autographs",
+        "HOF",
+        "Autograph",
+        10
+      ],
+      [
+        "Main Event",
+        "ME",
+        "Insert",
+        5
+      ],
+      [
+        "National Pride Signatures",
+        "NPS",
+        "Autograph",
+        15
+      ],
+      [
+        "National Treasures",
+        "NT",
+        "Base",
+        29
+      ],
+      [
+        "National Treasures Memorabilia Autographs",
+        "NTMA",
+        "Autograph Relic",
+        19
+      ],
+      [
+        "Noir",
+        "NOIR",
+        "Base",
+        30
+      ],
+      [
+        "Origins Autographs",
+        "OA",
+        "Autograph",
+        40
+      ],
+      [
+        "Phoenix Autographs",
+        "PA",
+        "Autograph",
+        40
+      ],
+      [
+        "Silhouettes",
+        "SIL",
+        "Autograph Relic",
+        32
+      ],
+      [
+        "The Biggest Little Man",
+        "TBLM",
+        "Insert",
+        44
+      ],
+      [
+        "Timeless Treasures",
+        "TT",
+        "Base",
+        30
+      ],
+      [
+        "Tools of the Trade Signatures",
+        "TOTS",
+        "Autograph Relic",
+        32
+      ],
+      [
+        "Voices of the Ring Signatures",
+        "VORS",
+        "Autograph",
+        10
+      ]
+    ],
+    "sources": [
+      {
+        "id": "checklist",
+        "source": "Panini-format checklist / Checklist Insider mirror",
+        "purpose": "Checklist",
+        "url": "https://xcdn.checklistinsider.com/public/2024/05/2023-Panini-Chronicles-WWE-Wrestling-Checklist-Downloads-Excel-Spreadsheet.xlsx",
+        "notes": "Both full workbook mirrors reconcile after three nickname quote differences. Original GTS updated workbook download did not complete; no origin-byte verification claimed. Missing source numbers remain missing."
+      },
+      {
+        "id": "release",
+        "source": "Checklist Insider",
+        "purpose": "Release date",
+        "url": "https://www.checklistinsider.com/2023-panini-chronicles-wwe-wrestling",
+        "notes": "2023 product label; actual hobby release in 2024."
+      },
+      {
+        "id": "comparison",
+        "source": "Checklist Center",
+        "purpose": "Independent checklist workbook",
+        "url": "https://www.checklistcenter.com/2023-panini-chronicles-wwe-wrestling-card-checklist/",
+        "notes": "Chronicles all rows; Immaculate old export after combining separate signer rows and quote formatting."
+      }
+    ]
+  },
+  "impeccable": {
+    "id": "2023-panini-impeccable-wwe",
+    "prefix": "2023-PIMPWWE",
+    "name": "2023 Panini Impeccable WWE",
+    "short": "Impeccable WWE 2023",
+    "date": "2024-04-03",
+    "accent": "#ae9cca",
+    "rows": 2335,
+    "source": "https://xcdn.checklistinsider.com/public/2024/03/2023-Panini-Impeccable-WWE-Wrestling-Checklist-Downloads-Excel-spreadsheet-checklist.xlsx",
+    "note": "All 2335 original GTS rows match mirror after 19 occurrences of one Seth nickname encoding repair. Source base #36 absent. Parallel-only Indelible Ink Jerry Sags and Nova variants remain source-specific. April 3 final release calendar supersedes preliminary March 29.",
+    "families": [
+      [
+        "Base",
+        "BASE",
+        "Base",
+        99
+      ],
+      [
+        "Canvas Creations Signatures",
+        "CCS",
+        "Autograph",
+        26
+      ],
+      [
+        "Elegance Jumbo Memorabilia Autographs",
+        "EJMA",
+        "Autograph Relic",
+        16
+      ],
+      [
+        "Elegance Memorabilia Autographs",
+        "EMA",
+        "Autograph Relic",
+        60
+      ],
+      [
+        "Extravagance Autographs",
+        "EA",
+        "Autograph",
+        23
+      ],
+      [
+        "Gold WWE Legends Logo",
+        "GWLL",
+        "Insert",
+        40
+      ],
+      [
+        "Gold WWE Logo",
+        "GWL",
+        "Insert",
+        39
+      ],
+      [
+        "Illustrious Ink",
+        "II",
+        "Autograph",
+        30
+      ],
+      [
+        "Immortal Ink",
+        "IMI",
+        "Autograph",
+        29
+      ],
+      [
+        "Impeccable Championship Debuts Signatures",
+        "ICDS",
+        "Autograph",
+        12
+      ],
+      [
+        "Impeccable Championships Signatures",
+        "ICS",
+        "Autograph",
+        8
+      ],
+      [
+        "Impeccable Factions Triple Signatures",
+        "IFTS",
+        "Autograph",
+        2
+      ],
+      [
+        "Impeccable Hall of Fame Signatures",
+        "IHFS",
+        "Autograph",
+        15
+      ],
+      [
+        "Impeccable IC Championship Debuts Signatures",
+        "IICDS",
+        "Autograph",
+        13
+      ],
+      [
+        "Impeccable Jumbo Memorabilia",
+        "IJM",
+        "Relic",
+        19
+      ],
+      [
+        "Impeccable Returns Signatures",
+        "IRS",
+        "Autograph",
+        7
+      ],
+      [
+        "Impeccable SummerSlam Signatures",
+        "ISSS",
+        "Autograph",
+        19
+      ],
+      [
+        "Impeccable Tag Teams Dual Signatures",
+        "ITTDS",
+        "Autograph",
+        7
+      ],
+      [
+        "Indelible Ink",
+        "IN",
+        "Autograph",
+        39
+      ],
+      [
+        "Silver WWE Legends Logo",
+        "SWLL",
+        "Insert",
+        40
+      ],
+      [
+        "Silver WWE Logo",
+        "SWL",
+        "Insert",
+        39
+      ],
+      [
+        "Stainless Stars",
+        "SS",
+        "Insert",
+        24
+      ],
+      [
+        "Stainless Stars Autographs",
+        "SSA",
+        "Autograph",
+        24
+      ],
+      [
+        "Watercolor Signatures",
+        "WS",
+        "Autograph",
+        34
+      ]
+    ],
+    "sources": [
+      {
+        "id": "checklist",
+        "source": "Panini-format checklist / Checklist Insider mirror",
+        "purpose": "Checklist",
+        "url": "https://xcdn.checklistinsider.com/public/2024/03/2023-Panini-Impeccable-WWE-Wrestling-Checklist-Downloads-Excel-spreadsheet-checklist.xlsx",
+        "notes": "All 2335 original GTS rows match mirror after 19 occurrences of one Seth nickname encoding repair. Source base #36 absent. Parallel-only Indelible Ink Jerry Sags and Nova variants remain source-specific. April 3 final release calendar supersedes preliminary March 29."
+      },
+      {
+        "id": "release",
+        "source": "Checklist Insider",
+        "purpose": "Release date",
+        "url": "https://www.checklistinsider.com/2023-panini-impeccable-wwe",
+        "notes": "2023 product label; actual hobby release in 2024."
+      },
+      {
+        "id": "distributor",
+        "source": "GTS Distribution / Panini",
+        "purpose": "Original distributor checklist",
+        "url": "https://gogts.net/wp-content/uploads/2024/03/2023-Panini-Impeccable-WWE-Trading-Cards-Checklist.xls",
+        "notes": "All 2335 original GTS rows match mirror after 19 occurrences of one Seth nickname encoding repair. Source base #36 absent. Parallel-only Indelible Ink Jerry Sags and Nova variants remain source-specific. April 3 final release calendar supersedes preliminary March 29."
+      },
+      {
+        "id": "release-final",
+        "source": "GTS Distribution",
+        "purpose": "Final release calendar",
+        "url": "https://gogts.net/hot-in-the-shop-week-of-april-1-2024-phenomenal-multi-sport-week/",
+        "notes": "April 3, 2024 supersedes the preliminary March 29 checklist page schedule."
+      }
+    ]
+  }
+}

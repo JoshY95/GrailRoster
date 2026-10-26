@@ -2,6 +2,13 @@
 
 Read this first; inspect only files needed for the current task.
 
+## WWE 2023 three-set batch — 27 October 2026 (local validation complete)
+
+- User authorised 2023 Immaculate Collection, Chronicles and Impeccable. Added 1,047/35, 843/34 and 664/24 identities/subsets: 2,554 identities /93 subsets; 11,559 source-listed editions, 10,215 with printed caps. Catalogue 49 /25,285; WWE 31 /15,967; Star Wars 18 /9,318 unchanged.
+- Originals/mirrors reconciled as documented in docs/WWE_2023_BATCH_IMPORT_AUDIT.md. Immaculate old GTS export lacks 846 additional memorabilia editions, all independently matched to four published factual lists. Older comparison duplicates Rob Van Dam instead of The Sandman in Quad #3; original GTS and updated workbook agree. Chronicles two full mirrors reconcile; original updated GTS download did not complete. Impeccable all 2,335 original rows reconcile after 19 Seth nickname encoding repairs and quote normalization; missing Base #36 and parallel-only Nova retained correctly. No card/edition numbers or applicability guessed.
+- All prior 46 metadata/bundles and frozen snapshot unchanged; five focused source/edition/preservation tests pass. Existing Prizm, previous WWE batch, split and category-import checks pass. The local category DOM test lacks linkedom and is deferred to CI, which installs the pinned dependency. Guarded additive SQL prepared at supabase/corrections/2026-10-27-wwe-2023-batch.sql. Database baseline 46 /22,731; all 30 collectors retain 6648329147d88b88ed9e52eaac40cfa9, images empty. Database dry run, browser CI, commit and publication remain pending until verified.
+- Browser coverage added for three-set ownership/category separation, unchanged prior entries, numbering gaps, Nova, the corrected quad, eight-signer book, persistence and responsive widths. Known unavailable local Chromium not retried. Authenticated/private-photo/two-device flows not rerun.
+
 ## Star Wars PRs #9–#14 verification audit — 27 October 2026
 
 - Checked main d365251d4f63d1730b7d6bdef3718b75c7c32cb6, the actual Actions jobs, each release receipt, production assets and Sydney using read-only SQL. PR descriptions retained pre-publication wording after later publication receipts were committed. All five merged PRs passed catalogue preservation and guest/Vault/offline browser steps before merge; their Pages runs succeeded against their merge SHAs.
