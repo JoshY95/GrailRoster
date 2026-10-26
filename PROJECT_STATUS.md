@@ -2,11 +2,12 @@
 
 Read this first; inspect only files needed for the current task.
 
-## WWE 2024 three-set batch — 26 October 2026 (built; publication in progress)
+## WWE 2024 three-set batch — 26 October 2026 (published)
 
 - Authorised auditing 2024 WWE gaps and importing the next three: Three Count (415 identities /13 subsets), Select (789 /21), PhotoGenic (395 /12). Total 1,599 new identities /46 subsets and 17,491 explicitly listed versions; 13,097 have printed caps. Local catalogue 45 /22,215; WWE 27 /12,897.
 - Two retained workbook mirrors fully reconcile after documented numeric, signer-order, dual-row and repeated Progressions subject normalization. Original GTS workbooks for Three Count/Select fully reconcile after 35/63 occurrences of one Seth nickname encoding repair; original rows/hashes retained. PhotoGenic direct-origin workbook unavailable; two mirrors reconcile. PhotoGenic #175 base Triple H versus parallel Beth Phoenix retained with distinct IDs; physical numbering unresolved. Select Red and Blue labels remain source-distinct pending physical alias verification. No inferred variants or caps. Audit: docs/WWE_2024_BATCH_IMPORT_AUDIT.md.
-- All 42 earlier metadata/bundles and frozen snapshot unchanged. Focused source/edition/preservation checks pass; guarded SQL rolled-back dry run passes, collections remain 30 with digest 6648329147d88b88ed9e52eaac40cfa9. Browser CI, committed import, repeat/no-op and publication verification pending. No collector writes.
+- All 42 earlier metadata/bundles and frozen snapshot unchanged. Focused source/edition/preservation checks pass; guarded SQL rolled-back dry run passes, collections remain 30 with digest 6648329147d88b88ed9e52eaac40cfa9. Browser CI 40317317513 passed source/catalogue preservation, guest, Vault, offline, new-set ownership/#175 isolation, signer search and responsive checks. Committed import matches all six generated tables; identical repeat leaves all eight full-row digests unchanged. No collector writes.
+- Published PR #22: feature 9d0a8d5f7550855fc03ea1635937ed65b84a3975, merge 65e54811920ba9bb18f266b85e7c80e1dea82691. Pages 40317675403 succeeded; all 58 live assets match tested bytes. Live public index shows 45 /22,215 and all three counts. Live guest UI not separately rerun; identical assets exercised in CI. Authenticated cloud/private-photo/two-device flows not rerun. Receipt: docs/WWE_2024_BATCH_RELEASE.json.
 - Remaining 2024 main target: Prizm including Premium Factory Set edition review. Instant and regional Adrenalyn XL remain separate open coverage areas. Star Wars next remains 2023 Finest after this WWE batch.
 
 ## Chrome / Sapphire 2024 and Masterwork 2022 batch — 26 October 2026 (published)

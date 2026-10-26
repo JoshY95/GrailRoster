@@ -1,0 +1,528 @@
+{
+  "date": "2026-10-26",
+  "timezone": "Australia/Melbourne",
+  "status": "published",
+  "url": "https://grailroster.com",
+  "pr": "https://github.com/JoshY95/GrailRoster/pull/22",
+  "baseline": "181191c8139e31b7c5913cf7ec1dafae8aebd4e5",
+  "featureCommit": "9d0a8d5f7550855fc03ea1635937ed65b84a3975",
+  "mergeCommit": "65e54811920ba9bb18f266b85e7c80e1dea82691",
+  "browserCI": {
+    "runId": 40317317513,
+    "conclusion": "success"
+  },
+  "pages": {
+    "runId": 40317675403,
+    "conclusion": "success"
+  },
+  "totals": {
+    "sets": 45,
+    "cards": 22215,
+    "wweSets": 27,
+    "wweCards": 12897,
+    "starWarsSets": 18,
+    "starWarsCards": 9318,
+    "newCards": 1599,
+    "newSubsets": 46,
+    "newVersions": 17491
+  },
+  "database": {
+    "dryRun": "passed; rolled back",
+    "committed": "passed",
+    "repeat": "complete-row digest no-op across eight tables",
+    "generatedTableParity": [
+      {
+        "t": "catalogue_sets",
+        "n": 3,
+        "digest": "7cb942b96f51548595674929d43bca3c"
+      },
+      {
+        "t": "catalogue_subsets",
+        "n": 46,
+        "digest": "440d07a0eca23fd3c853b4169167b2ca"
+      },
+      {
+        "t": "catalogue_cards",
+        "n": 1599,
+        "digest": "507dced165558415be6d95b2feca7bdc"
+      },
+      {
+        "t": "catalogue_variants",
+        "n": 17491,
+        "digest": "a39fe08ee981fc45620b9098f98fa090"
+      },
+      {
+        "t": "catalogue_parallel_rules",
+        "n": 409,
+        "digest": "755520d58078a69eeda353fb08442e49"
+      },
+      {
+        "t": "catalogue_sources",
+        "n": 14,
+        "digest": "bf03be0a25be5775dc2ff95e9163a886"
+      }
+    ],
+    "completeRowsAfterCommitAndRepeat": [
+      {
+        "t": "catalogue_sets",
+        "n": 45,
+        "digest": "fb62d702d61d6cb5940743bbbb651799"
+      },
+      {
+        "t": "catalogue_cards",
+        "n": 22215,
+        "digest": "1f59c60241d22a61b35ae44dcd83f47b"
+      },
+      {
+        "t": "catalogue_subsets",
+        "n": 737,
+        "digest": "2300dfd6c3da6a619fec28d366cd00eb"
+      },
+      {
+        "t": "catalogue_variants",
+        "n": 59468,
+        "digest": "82ff14b0712ff65900e1c6974500a2d9"
+      },
+      {
+        "t": "catalogue_parallel_rules",
+        "n": 2841,
+        "digest": "9a29c202a8ae3eec31b54527406d5f69"
+      },
+      {
+        "t": "catalogue_sources",
+        "n": 134,
+        "digest": "ee238f317b7b08140618a94017acd363"
+      },
+      {
+        "t": "collection_items",
+        "n": 30,
+        "digest": "6648329147d88b88ed9e52eaac40cfa9"
+      },
+      {
+        "t": "reference_images",
+        "n": 0,
+        "digest": null
+      }
+    ],
+    "collectionsUnchanged": true,
+    "imagesUnchanged": true
+  },
+  "sourceLimits": [
+    "PhotoGenic original manufacturer/distributor workbook unavailable; two workbook mirrors reconciled.",
+    "PhotoGenic source #175 assigns base Triple H and parallels Beth Phoenix; separate IDs preserve both source subjects, physical numbering unresolved.",
+    "Select Red and Blue versus Red and Blue Prizms source labels remain distinct, physical alias unresolved.",
+    "Three Count/Select original GTS workbooks reconcile after documented Seth nickname mojibake repair."
+  ],
+  "verificationLimits": [
+    "Authenticated cloud/private-photo/two-device flows not rerun.",
+    "Live guest UI not separately rerun; CI exercised identical published runtime assets."
+  ],
+  "liveAssets": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "28a16f93983ff7c7937af177d8813b2e3d2bc7962747d3fefb2b827d67704469",
+      "liveSha256": "28a16f93983ff7c7937af177d8813b2e3d2bc7962747d3fefb2b827d67704469"
+    },
+    {
+      "path": "app.js",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "a448caece5fea1211e338ea21311c341216e199927ea7b13e3f3246a80252b19",
+      "liveSha256": "a448caece5fea1211e338ea21311c341216e199927ea7b13e3f3246a80252b19"
+    },
+    {
+      "path": "ui.js",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "7e0bd706ea8bc72aa7156a562c5d383b2c821678e21b28da2c81421282104964",
+      "liveSha256": "7e0bd706ea8bc72aa7156a562c5d383b2c821678e21b28da2c81421282104964"
+    },
+    {
+      "path": "categories.js",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "d2f06940130016b559e940b088173a5bd0f077bdc864bc9106ad45a4f30b5443",
+      "liveSha256": "d2f06940130016b559e940b088173a5bd0f077bdc864bc9106ad45a4f30b5443"
+    },
+    {
+      "path": "vault.js",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "a1ae9bf48f656aaaff66d6e5522b696e42ce33ab9d7ae2d7c6ec0b3f8eadd231",
+      "liveSha256": "a1ae9bf48f656aaaff66d6e5522b696e42ce33ab9d7ae2d7c6ec0b3f8eadd231"
+    },
+    {
+      "path": "config.js",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "040a47f72115d631d9d21cf8f69043296733b8b43216b7a626818a7cf8bc9894",
+      "liveSha256": "040a47f72115d631d9d21cf8f69043296733b8b43216b7a626818a7cf8bc9894"
+    },
+    {
+      "path": "sw.js",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "0250413c49b952f97147934dd2780d9cc9e2fba46ed3c2aa0cdd73b042cd7370",
+      "liveSha256": "0250413c49b952f97147934dd2780d9cc9e2fba46ed3c2aa0cdd73b042cd7370"
+    },
+    {
+      "path": "styles.css",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "218fad84a69973080c74268955f3dc70c5ef290340e58f1a9a63315d9d60da35",
+      "liveSha256": "218fad84a69973080c74268955f3dc70c5ef290340e58f1a9a63315d9d60da35"
+    },
+    {
+      "path": "theme.css",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "719dd67067880ac0419845e2c903bb8dca6f9e09ece83d07f3f4fb8c5393e8f0",
+      "liveSha256": "719dd67067880ac0419845e2c903bb8dca6f9e09ece83d07f3f4fb8c5393e8f0"
+    },
+    {
+      "path": "vault.css",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "44db6a546ebc1917d2af2a76a74e4c05b24b591692df2a8bb9aaed109eeffd42",
+      "liveSha256": "44db6a546ebc1917d2af2a76a74e4c05b24b591692df2a8bb9aaed109eeffd42"
+    },
+    {
+      "path": "manifest.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "1c211cb5f11f69b296dcb1a1d741be4e322b4482936ee80ce481b63044b2bc9d",
+      "liveSha256": "1c211cb5f11f69b296dcb1a1d741be4e322b4482936ee80ce481b63044b2bc9d"
+    },
+    {
+      "path": "data/catalogue-index.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "047af3f280981cc252a23c28d1a1a9bb1f2c55c9db0cd095214d6f8e9f3e3a70",
+      "liveSha256": "047af3f280981cc252a23c28d1a1a9bb1f2c55c9db0cd095214d6f8e9f3e3a70"
+    },
+    {
+      "path": "data/images.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "df0055e66d00cc4592621a7956e0e3f1d191e520cd47d0420c434b35285c805e",
+      "liveSha256": "df0055e66d00cc4592621a7956e0e3f1d191e520cd47d0420c434b35285c805e"
+    },
+    {
+      "path": "data/sets/2026-topps-stadium-club-wwe.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "ea9993e715ca5838c0077532a7482947724135f31699da2407ffae3150a600ef",
+      "liveSha256": "ea9993e715ca5838c0077532a7482947724135f31699da2407ffae3150a600ef"
+    },
+    {
+      "path": "data/sets/2026-topps-universe-wwe.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "15102994a75e77624a661d0cda908cd97fe7e803f5b686eef75d8f20485445cb",
+      "liveSha256": "15102994a75e77624a661d0cda908cd97fe7e803f5b686eef75d8f20485445cb"
+    },
+    {
+      "path": "data/sets/2026-topps-decades-wwe-90s.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "622564a7135d84976fc7c148518c455e113552ae30343b87e37915bfacd54de4",
+      "liveSha256": "622564a7135d84976fc7c148518c455e113552ae30343b87e37915bfacd54de4"
+    },
+    {
+      "path": "data/sets/2026-topps-cosmic-chrome-wwe.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "a4063ea1306b59677e2472ad23bd04180c0ac841df5b6b12c8dd1da44cfe0340",
+      "liveSha256": "a4063ea1306b59677e2472ad23bd04180c0ac841df5b6b12c8dd1da44cfe0340"
+    },
+    {
+      "path": "data/sets/2026-topps-chrome-sapphire-wwe.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "6d26aecb94d2d070ae7afbb2f1bb52c6716d404583c9370cb438071e95c7ecdd",
+      "liveSha256": "6d26aecb94d2d070ae7afbb2f1bb52c6716d404583c9370cb438071e95c7ecdd"
+    },
+    {
+      "path": "data/sets/2025-topps-royalty-wwe.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "f8bdc2ed842e3712dc550f6cf40a9a35bde7d6fda0a000ae7b783d02e0e6b952",
+      "liveSha256": "f8bdc2ed842e3712dc550f6cf40a9a35bde7d6fda0a000ae7b783d02e0e6b952"
+    },
+    {
+      "path": "data/sets/2026-topps-chrome-logofractor-wwe.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "9e8bf5bce2a46fcca8948c058ace78a1b80c824a8eaddf989bd188e3a98bcba5",
+      "liveSha256": "9e8bf5bce2a46fcca8948c058ace78a1b80c824a8eaddf989bd188e3a98bcba5"
+    },
+    {
+      "path": "data/sets/2026-topps-now-wrestlemania-vegas.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "3d0911a9c0c0cf94b492e365893b14e4849a002a7d9bd886d6babc773c799144",
+      "liveSha256": "3d0911a9c0c0cf94b492e365893b14e4849a002a7d9bd886d6babc773c799144"
+    },
+    {
+      "path": "data/sets/2026-topps-chrome-wwe.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "efee78c0fe4d0c3692601586b77aeb5c13cc08298343fab0f179354e818ec092",
+      "liveSha256": "efee78c0fe4d0c3692601586b77aeb5c13cc08298343fab0f179354e818ec092"
+    },
+    {
+      "path": "data/sets/2025-topps-exalted-wwe.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "33b8c9e95176e17934b469b3a5664788738213e501b5227ee569f1dd2634b42f",
+      "liveSha256": "33b8c9e95176e17934b469b3a5664788738213e501b5227ee569f1dd2634b42f"
+    },
+    {
+      "path": "data/sets/2026-topps-now-wwe-crossovers.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "13b708d9b040e3b0435afe5c7e1a3e541f35d7b5770fdae896d1cfb81fc3b8d6",
+      "liveSha256": "13b708d9b040e3b0435afe5c7e1a3e541f35d7b5770fdae896d1cfb81fc3b8d6"
+    },
+    {
+      "path": "data/sets/2025-topps-john-cena-commemorative-collection.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "2bdbedf18a2db32890e86f584405517b61c85efc0f216033b34949e5329e9d30",
+      "liveSha256": "2bdbedf18a2db32890e86f584405517b61c85efc0f216033b34949e5329e9d30"
+    },
+    {
+      "path": "data/sets/2025-topps-universe-wwe.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "88ffbf2dd51e341e4ca9b120568731b4cdf346b7151bc566c406ecfd20fd761b",
+      "liveSha256": "88ffbf2dd51e341e4ca9b120568731b4cdf346b7151bc566c406ecfd20fd761b"
+    },
+    {
+      "path": "data/sets/2026-topps-now-wwe.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "efb59628a822bb96d1304ad0dab639a90d3c10669b6ecdec7bd7803f87bb64ba",
+      "liveSha256": "efb59628a822bb96d1304ad0dab639a90d3c10669b6ecdec7bd7803f87bb64ba"
+    },
+    {
+      "path": "data/sets/2025-topps-wwe-x-bape.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "06c674781c6ead9325251418e662511174bf527ff87daca561e89852b4d5f40e",
+      "liveSha256": "06c674781c6ead9325251418e662511174bf527ff87daca561e89852b4d5f40e"
+    },
+    {
+      "path": "data/sets/2025-topps-finest-wwe.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "6a72005324d17c0d8c7a595f15bd423f24e72995a92c761cd89652ecbb96d66f",
+      "liveSha256": "6a72005324d17c0d8c7a595f15bd423f24e72995a92c761cd89652ecbb96d66f"
+    },
+    {
+      "path": "data/sets/2025-topps-chrome-wwe-x-cactus-jack.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "d782d90a51b2eb01e2fb8e5ba409b7a3488b2dff2ad8b4ca966e6dae817e87fd",
+      "liveSha256": "d782d90a51b2eb01e2fb8e5ba409b7a3488b2dff2ad8b4ca966e6dae817e87fd"
+    },
+    {
+      "path": "data/sets/2025-topps-chrome-cactus-jack-wrestlemania.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "1b2fbd9ec596c317ea47ec5a3ab13532abda8e3b4b2a66fa3da6ecf4187727b0",
+      "liveSha256": "1b2fbd9ec596c317ea47ec5a3ab13532abda8e3b4b2a66fa3da6ecf4187727b0"
+    },
+    {
+      "path": "data/sets/2025-topps-chrome-sapphire-wwe.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "a70927f24c97e7224c8aea3f6a9fbff5033e533232bc229ff62d654ea044ab37",
+      "liveSha256": "a70927f24c97e7224c8aea3f6a9fbff5033e533232bc229ff62d654ea044ab37"
+    },
+    {
+      "path": "data/sets/2025-topps-chrome-wwe.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "d8845d5f03f336a3a32585cc87c8b20654ebf6ce2a35e888cc533b3783a50bcf",
+      "liveSha256": "d8845d5f03f336a3a32585cc87c8b20654ebf6ce2a35e888cc533b3783a50bcf"
+    },
+    {
+      "path": "data/sets/2025-topps-now-wwe.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "e7d2e533cb7c9399de83b7f7bd4d3efb5ef3f924502137faf3aa91356c7919b3",
+      "liveSha256": "e7d2e533cb7c9399de83b7f7bd4d3efb5ef3f924502137faf3aa91356c7919b3"
+    },
+    {
+      "path": "data/sets/2024-panini-flawless-wwe.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "f0e6af90db3e5639f0453b60b4631aa1674db945cc3b93092543a03b77729be2",
+      "liveSha256": "f0e6af90db3e5639f0453b60b4631aa1674db945cc3b93092543a03b77729be2"
+    },
+    {
+      "path": "data/sets/2024-panini-national-treasures-wwe.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "c4be3cf253aa6a7222c27ea7298f0d8427027e6dbf5764117047f7d896b873d3",
+      "liveSha256": "c4be3cf253aa6a7222c27ea7298f0d8427027e6dbf5764117047f7d896b873d3"
+    },
+    {
+      "path": "data/sets/2026-topps-nscc-collection-wwe.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "e0c9fb5f565421e807e488c8f45a9efa075ee3f85cdcacb50e7f82302b56205c",
+      "liveSha256": "e0c9fb5f565421e807e488c8f45a9efa075ee3f85cdcacb50e7f82302b56205c"
+    },
+    {
+      "path": "data/sets/2026-topps-chrome-star-wars.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "39575e61ba2c30652b8e6ea50b52cb7391c0996708491af1ce9e71ba2a8dfcc7",
+      "liveSha256": "39575e61ba2c30652b8e6ea50b52cb7391c0996708491af1ce9e71ba2a8dfcc7"
+    },
+    {
+      "path": "data/sets/2026-topps-chrome-star-wars-galaxy.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "61a423b12c1972d31fdd5d771ade4b684e3f132b1a98f6f0f3bd2d5644f9edd7",
+      "liveSha256": "61a423b12c1972d31fdd5d771ade4b684e3f132b1a98f6f0f3bd2d5644f9edd7"
+    },
+    {
+      "path": "data/sets/2025-topps-star-wars-masterwork.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "436aacdbebb5f1cc2cc78ca56ab58648a5352e4e7d52fa74688235acbf73664e",
+      "liveSha256": "436aacdbebb5f1cc2cc78ca56ab58648a5352e4e7d52fa74688235acbf73664e"
+    },
+    {
+      "path": "data/sets/2025-topps-star-wars-smugglers-outpost.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "4b2d671634acdf2669e13feecc73ee9d5a91d5cfd73195dbe534bc367a168a7c",
+      "liveSha256": "4b2d671634acdf2669e13feecc73ee9d5a91d5cfd73195dbe534bc367a168a7c"
+    },
+    {
+      "path": "data/sets/2025-topps-chrome-star-wars-galaxy.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "8ee57badd56d6ecc6e83a875024c7c9fdaca81e1f844ebca41c29e0032644771",
+      "liveSha256": "8ee57badd56d6ecc6e83a875024c7c9fdaca81e1f844ebca41c29e0032644771"
+    },
+    {
+      "path": "data/sets/2025-topps-chrome-sapphire-star-wars.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "35fa3b8361ea030646170d30d50b2610624bac9f0d1981594427c232cb4dcb2c",
+      "liveSha256": "35fa3b8361ea030646170d30d50b2610624bac9f0d1981594427c232cb4dcb2c"
+    },
+    {
+      "path": "data/sets/2025-topps-chrome-star-wars.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "e3552e29290e4d2dd4e473e4a60a93fd25026aab1b146c1033b071f9adb0cf4e",
+      "liveSha256": "e3552e29290e4d2dd4e473e4a60a93fd25026aab1b146c1033b071f9adb0cf4e"
+    },
+    {
+      "path": "data/sets/2025-topps-star-wars-hyperspace.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "fa1dc9f331689702b53aa51e58346db20b667635d61feaef62845cbf6420a26d",
+      "liveSha256": "fa1dc9f331689702b53aa51e58346db20b667635d61feaef62845cbf6420a26d"
+    },
+    {
+      "path": "data/sets/2025-topps-star-wars-meiyo.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "836a17b6eb7a1a21e207031ab44acf6f6e915f41809b260dd7f63a0e395ea899",
+      "liveSha256": "836a17b6eb7a1a21e207031ab44acf6f6e915f41809b260dd7f63a0e395ea899"
+    },
+    {
+      "path": "data/sets/2024-topps-star-wars-masterwork.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "c8aa78ade0c775c8a3d444f423bb15bcbed2bfce2af3c5e76ff585a51ea7b402",
+      "liveSha256": "c8aa78ade0c775c8a3d444f423bb15bcbed2bfce2af3c5e76ff585a51ea7b402"
+    },
+    {
+      "path": "data/sets/2024-topps-star-wars-hyperspace.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "5e4f92ce70f91ec15942c19d0041e829c65aa08a5724171c040da376df45b2f3",
+      "liveSha256": "5e4f92ce70f91ec15942c19d0041e829c65aa08a5724171c040da376df45b2f3"
+    },
+    {
+      "path": "data/sets/2024-topps-star-wars-galactic-antiquities.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "5df01a390765b8dea5b0014ea506f324d5e516b310f65729a168dbd6d8c20cf6",
+      "liveSha256": "5df01a390765b8dea5b0014ea506f324d5e516b310f65729a168dbd6d8c20cf6"
+    },
+    {
+      "path": "data/sets/2024-topps-chrome-black-star-wars.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "4829af886d7b38a836a18b9932fc54c8ac4fe0577a6d9bae283781f91ed0a69a",
+      "liveSha256": "4829af886d7b38a836a18b9932fc54c8ac4fe0577a6d9bae283781f91ed0a69a"
+    },
+    {
+      "path": "data/sets/2024-topps-star-wars-high-tek.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "72fee2bdfade411d65d2d63a30b74dd98d73a8d1b9fd77fd90da217ff9e363cd",
+      "liveSha256": "72fee2bdfade411d65d2d63a30b74dd98d73a8d1b9fd77fd90da217ff9e363cd"
+    },
+    {
+      "path": "data/sets/2024-topps-chrome-star-wars-galaxy.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "4e920b6942c64625141e0716258535a0a1db2d807638be403c892ce81e957d17",
+      "liveSha256": "4e920b6942c64625141e0716258535a0a1db2d807638be403c892ce81e957d17"
+    },
+    {
+      "path": "data/sets/2024-topps-chrome-star-wars.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "758f790a1ff4b34224169da35fdaf256b8a0a4f13e197d435326d11040cbc903",
+      "liveSha256": "758f790a1ff4b34224169da35fdaf256b8a0a4f13e197d435326d11040cbc903"
+    },
+    {
+      "path": "data/sets/2024-topps-star-wars-chrome-sapphire.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "b06df5ef8b738558698235b9e2ab52d00bb38259b16830b4eece52c9d6a3e264",
+      "liveSha256": "b06df5ef8b738558698235b9e2ab52d00bb38259b16830b4eece52c9d6a3e264"
+    },
+    {
+      "path": "data/sets/2022-topps-star-wars-masterwork.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "fa8c2826afd750598ec5af79b0ba097b423dd74c47c9153c52c96f9e5fdc68c3",
+      "liveSha256": "fa8c2826afd750598ec5af79b0ba097b423dd74c47c9153c52c96f9e5fdc68c3"
+    },
+    {
+      "path": "data/sets/2024-panini-three-count-wwe.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "0fd8bbf330bc7853836910e54917bf9300eba8693af327f9fa2f00efeb24bde3",
+      "liveSha256": "0fd8bbf330bc7853836910e54917bf9300eba8693af327f9fa2f00efeb24bde3"
+    },
+    {
+      "path": "data/sets/2024-panini-select-wwe.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "4663008be128f70f2faf5bf47322e2df55e5b89a1145f519e254163673fc9d53",
+      "liveSha256": "4663008be128f70f2faf5bf47322e2df55e5b89a1145f519e254163673fc9d53"
+    },
+    {
+      "path": "data/sets/2024-panini-photogenic-wwe.json",
+      "status": 200,
+      "matches": true,
+      "expectedSha256": "4c0562c8b79c319e0d4590fc02ae32946ddcc0272f742f672fcf4bf3a68ffcee",
+      "liveSha256": "4c0562c8b79c319e0d4590fc02ae32946ddcc0272f742f672fcf4bf3a68ffcee"
+    }
+  ]
+}
