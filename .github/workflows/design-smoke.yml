@@ -31,6 +31,7 @@ jobs:
           python3 tests/hyperspace-star-wars-2025.py
           python3 tests/meiyo-star-wars-2025.py
           python3 tests/masterwork-star-wars-2024.py
+          python3 tests/hyperspace-star-wars-2024.py
           node tests/catalogue-split.cjs
           node tests/categories.cjs
           python3 tests/category-imports.py

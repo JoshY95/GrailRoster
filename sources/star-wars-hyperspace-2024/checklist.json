@@ -1,0 +1,4779 @@
+{
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/STW2488-CheckList_24SWRS.pdf?v=1787937372",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2024_Star_Wars_Hyperspace_Odds.pdf?v=1787937372",
+  "productUrl": "https://www.topps.com/products/2024-star-wars-hyperspace-hobby-box",
+  "checklistSha256": "ed5dd0d7031e826e683a72f27d2c9c4bad2ed09081ffb63a0f18550f78fd8ac5",
+  "oddsSha256": "22cc1620c185ce7c18db3c22ed9438836d3cd880382f4ad242441c07e10098d4",
+  "subsets": [
+    {
+      "name": "BASE CARDS",
+      "rows": [
+        {
+          "number": "1",
+          "page": 1,
+          "subject": "Padmé Amidala",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Padmé Amidala",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "2",
+          "page": 1,
+          "subject": "Chief Tarfful",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Chief Tarfful",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "3",
+          "page": 1,
+          "subject": "Opee Sea Killer",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Opee Sea Killer",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "4",
+          "page": 1,
+          "subject": "HMP Droid Gunship",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "HMP Droid Gunship",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "5",
+          "page": 1,
+          "subject": "Republic Attack Gunship",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Republic Attack Gunship",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "6",
+          "page": 1,
+          "subject": "Eirtaé",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Eirtaé",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "7",
+          "page": 1,
+          "subject": "Cloud Car",
+          "signer": null,
+          "artist": null,
+          "planet": "Bespin",
+          "sourceFields": [
+            "Cloud Car",
+            "Bespin"
+          ]
+        },
+        {
+          "number": "8",
+          "page": 1,
+          "subject": "Mylaya",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Mylaya",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "9",
+          "page": 1,
+          "subject": "Rep Teers",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Rep Teers",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "10",
+          "page": 1,
+          "subject": "Captain Panaka",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Captain Panaka",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "11",
+          "page": 1,
+          "subject": "Theta-Class T-2c Shuttle",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Theta-Class T-2c Shuttle",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "12",
+          "page": 1,
+          "subject": "ISP Speeder",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "ISP Speeder",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "13",
+          "page": 1,
+          "subject": "Queen Apailana",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Queen Apailana",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "14",
+          "page": 1,
+          "subject": "Gungi",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Gungi",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "15",
+          "page": 1,
+          "subject": "Wampa",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Wampa",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "16",
+          "page": 1,
+          "subject": "General Tarpals",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "General Tarpals",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "17",
+          "page": 1,
+          "subject": "Naboo Royal Guard",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Naboo Royal Guard",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "18",
+          "page": 1,
+          "subject": "Northern Mustafarian",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Northern Mustafarian",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "19",
+          "page": 1,
+          "subject": "Wookiee Catamaran",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Wookiee Catamaran",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "20",
+          "page": 1,
+          "subject": "Jar Jar Binks",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Jar Jar Binks",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "21",
+          "page": 1,
+          "subject": "Corporate Alliance Tank Droid",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Corporate Alliance Tank Droid",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "22",
+          "page": 1,
+          "subject": "R2-D2",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "R2-D2",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "23",
+          "page": 1,
+          "subject": "Droideka",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Droideka",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "24",
+          "page": 1,
+          "subject": "Captain Typho",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Captain Typho",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "25",
+          "page": 1,
+          "subject": "Krrsantan",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Krrsantan",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "26",
+          "page": 1,
+          "subject": "X-Wings",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "X-Wings",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "27",
+          "page": 1,
+          "subject": "Dormé",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Dormé",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "28",
+          "page": 1,
+          "subject": "K-3PO",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "K-3PO",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "29",
+          "page": 1,
+          "subject": "STAP",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "STAP",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "30",
+          "page": 1,
+          "subject": "Queen Jamillia",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Queen Jamillia",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "31",
+          "page": 1,
+          "subject": "Snowspeeder",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Snowspeeder",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "32",
+          "page": 1,
+          "subject": "Trade Federation Battleship",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Trade Federation Battleship",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "33",
+          "page": 1,
+          "subject": "Wookiee Gunship",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Wookiee Gunship",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "34",
+          "page": 1,
+          "subject": "Boss Nass",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Boss Nass",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "35",
+          "page": 1,
+          "subject": "Hoth Rebel Trooper",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Hoth Rebel Trooper",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "36",
+          "page": 1,
+          "subject": "Droid Starfighters",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Droid Starfighters",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "37",
+          "page": 1,
+          "subject": "Kybuck",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Kybuck",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "38",
+          "page": 1,
+          "subject": "Southern Mustafarian",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Southern Mustafarian",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "39",
+          "page": 1,
+          "subject": "Can-Cell",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Can-Cell",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "40",
+          "page": 1,
+          "subject": "Sio Bibble",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Sio Bibble",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "41",
+          "page": 1,
+          "subject": "Kaadu",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Kaadu",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "42",
+          "page": 1,
+          "subject": "Millennium Falcon",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Millennium Falcon",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "43",
+          "page": 1,
+          "subject": "Alazmec",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Alazmec",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "44",
+          "page": 1,
+          "subject": "Naboo star skiff",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Naboo star skiff",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "45",
+          "page": 1,
+          "subject": "Lobot",
+          "signer": null,
+          "artist": null,
+          "planet": "Bespin",
+          "sourceFields": [
+            "Lobot",
+            "Bespin"
+          ]
+        },
+        {
+          "number": "46",
+          "page": 1,
+          "subject": "Republic Frigate",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Republic Frigate",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "47",
+          "page": 1,
+          "subject": "Mustafar Panning Droid",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Mustafar Panning Droid",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "48",
+          "page": 1,
+          "subject": "Multi-Troop Transport",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Multi-Troop Transport",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "49",
+          "page": 1,
+          "subject": "Rish Loo",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Rish Loo",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "50",
+          "page": 2,
+          "subject": "Darth Vader",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Darth Vader",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "51",
+          "page": 2,
+          "subject": "Boss Lyonie",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Boss Lyonie",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "52",
+          "page": 2,
+          "subject": "Falumpaset",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Falumpaset",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "53",
+          "page": 2,
+          "subject": "Tauntauns",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Tauntauns",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "54",
+          "page": 2,
+          "subject": "Security S-5 blaster",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Security S-5 blaster",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "55",
+          "page": 2,
+          "subject": "Battle Droid",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Battle Droid",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "56",
+          "page": 2,
+          "subject": "Ugnaught",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Ugnaught",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "57",
+          "page": 2,
+          "subject": "Obi-Wan Kenobi",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Obi-Wan Kenobi",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "58",
+          "page": 2,
+          "subject": "Gungan Bongo Submarine",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Gungan Bongo Submarine",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "59",
+          "page": 2,
+          "subject": "Han Solo",
+          "signer": null,
+          "artist": null,
+          "planet": "Bespin",
+          "sourceFields": [
+            "Han Solo",
+            "Bespin"
+          ]
+        },
+        {
+          "number": "60",
+          "page": 2,
+          "subject": "AT-AT",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "AT-AT",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "61",
+          "page": 2,
+          "subject": "Roggwart",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Roggwart",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "62",
+          "page": 2,
+          "subject": "Wookiee Long-Gun",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Wookiee Long-Gun",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "63",
+          "page": 2,
+          "subject": "Kylo Ren",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Kylo Ren",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "64",
+          "page": 2,
+          "subject": "2-1B",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "2-1B",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "65",
+          "page": 2,
+          "subject": "Trandoshan",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Trandoshan",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "66",
+          "page": 2,
+          "subject": "Gondola Speeder",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Gondola Speeder",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "67",
+          "page": 2,
+          "subject": "Sando Aqua Monster",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Sando Aqua Monster",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "68",
+          "page": 2,
+          "subject": "Boba Fett's Starship",
+          "signer": null,
+          "artist": null,
+          "planet": "Bespin",
+          "sourceFields": [
+            "Boba Fett's Starship",
+            "Bespin"
+          ]
+        },
+        {
+          "number": "69",
+          "page": 2,
+          "subject": "Helder Spinoza",
+          "signer": null,
+          "artist": null,
+          "planet": "Bespin",
+          "sourceFields": [
+            "Helder Spinoza",
+            "Bespin"
+          ]
+        },
+        {
+          "number": "70",
+          "page": 2,
+          "subject": "Senator Palpatine",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Senator Palpatine",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "71",
+          "page": 2,
+          "subject": "Nute Gunray",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Nute Gunray",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "72",
+          "page": 2,
+          "subject": "Imperial Probe Droid",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Imperial Probe Droid",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "73",
+          "page": 2,
+          "subject": "Fambaas",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Fambaas",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "74",
+          "page": 2,
+          "subject": "C-3PO",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "C-3PO",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "75",
+          "page": 2,
+          "subject": "Lando Calrissian",
+          "signer": null,
+          "artist": null,
+          "planet": "Bespin",
+          "sourceFields": [
+            "Lando Calrissian",
+            "Bespin"
+          ]
+        },
+        {
+          "number": "76",
+          "page": 2,
+          "subject": "AT-AT Driver",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "AT-AT Driver",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "77",
+          "page": 2,
+          "subject": "Nuna",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Nuna",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "78",
+          "page": 2,
+          "subject": "Naboo Starfighter",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Naboo Starfighter",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "79",
+          "page": 2,
+          "subject": "Mustafar Lava Flea",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Mustafar Lava Flea",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "80",
+          "page": 2,
+          "subject": "Ric Olié",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Ric Olié",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "81",
+          "page": 2,
+          "subject": "Booma",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Booma",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "82",
+          "page": 2,
+          "subject": "Jedi Interceptor",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Jedi Interceptor",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "83",
+          "page": 2,
+          "subject": "Luke Skywalker",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Luke Skywalker",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "84",
+          "page": 2,
+          "subject": "Naboo Royal Starship",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Naboo Royal Starship",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "85",
+          "page": 2,
+          "subject": "San Hill",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "San Hill",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "86",
+          "page": 2,
+          "subject": "Maximillian Veers",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Maximillian Veers",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "87",
+          "page": 2,
+          "subject": "Colo Claw Fish",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Colo Claw Fish",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "88",
+          "page": 2,
+          "subject": "Anti-Infantry Turret",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Anti-Infantry Turret",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "89",
+          "page": 2,
+          "subject": "Pedar Solardo",
+          "signer": null,
+          "artist": null,
+          "planet": "Bespin",
+          "sourceFields": [
+            "Pedar Solardo",
+            "Bespin"
+          ]
+        },
+        {
+          "number": "90",
+          "page": 2,
+          "subject": "Sabé",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Sabé",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "91",
+          "page": 2,
+          "subject": "Leia Organa",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Leia Organa",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "92",
+          "page": 2,
+          "subject": "C-9979 Landing Ships",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "C-9979 Landing Ships",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "93",
+          "page": 2,
+          "subject": "Planetary Ion Cannon",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Planetary Ion Cannon",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "94",
+          "page": 2,
+          "subject": "Wedge Antilles",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Wedge Antilles",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "95",
+          "page": 2,
+          "subject": "Chewbacca",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Chewbacca",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "96",
+          "page": 2,
+          "subject": "AAT Battle Tank",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "AAT Battle Tank",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "97",
+          "page": 2,
+          "subject": "Boba Fett",
+          "signer": null,
+          "artist": null,
+          "planet": "Bespin",
+          "sourceFields": [
+            "Boba Fett",
+            "Bespin"
+          ]
+        },
+        {
+          "number": "98",
+          "page": 2,
+          "subject": "Rune Haako",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Rune Haako",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "99",
+          "page": 2,
+          "subject": "Yoda",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Yoda",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "100",
+          "page": 2,
+          "subject": "Darth Sidious",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Darth Sidious",
+            "Mustafar"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BASE CARDS PLANETARY VARIATIONS I",
+      "rows": [
+        {
+          "number": "BPV-1",
+          "page": 3,
+          "subject": "Padmé Amidala",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Padmé Amidala",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-2",
+          "page": 3,
+          "subject": "Chief Tarfful",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Chief Tarfful",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "BPV-3",
+          "page": 3,
+          "subject": "Opee Sea Killer",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Opee Sea Killer",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-4",
+          "page": 3,
+          "subject": "HMP Droid Gunship",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "HMP Droid Gunship",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "BPV-5",
+          "page": 3,
+          "subject": "Republic Attack Gunship",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Republic Attack Gunship",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "BPV-6",
+          "page": 3,
+          "subject": "Eirtaé",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Eirtaé",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-7",
+          "page": 3,
+          "subject": "Cloud Car",
+          "signer": null,
+          "artist": null,
+          "planet": "Bespin",
+          "sourceFields": [
+            "Cloud Car",
+            "Bespin"
+          ]
+        },
+        {
+          "number": "BPV-8",
+          "page": 3,
+          "subject": "Mylayas",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Mylayas",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "BPV-9",
+          "page": 3,
+          "subject": "Rep Teers",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Rep Teers",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-10",
+          "page": 3,
+          "subject": "Captain Panaka",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Captain Panaka",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-11",
+          "page": 3,
+          "subject": "Theta-Class T-2c Shuttle",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Theta-Class T-2c Shuttle",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "BPV-12",
+          "page": 3,
+          "subject": "ISP Speeder",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "ISP Speeder",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "BPV-13",
+          "page": 3,
+          "subject": "Queen Apailana",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Queen Apailana",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-14",
+          "page": 3,
+          "subject": "Gungi",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Gungi",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "BPV-15",
+          "page": 3,
+          "subject": "Wampa",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Wampa",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "BPV-16",
+          "page": 3,
+          "subject": "General Tarpals",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "General Tarpals",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-17",
+          "page": 3,
+          "subject": "Naboo Royal Guard",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Naboo Royal Guard",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-18",
+          "page": 3,
+          "subject": "Northern Mustafarian",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Northern Mustafarian",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "BPV-19",
+          "page": 3,
+          "subject": "Wookiee Catamaran",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Wookiee Catamaran",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "BPV-20",
+          "page": 3,
+          "subject": "Jar Jar Binks",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Jar Jar Binks",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-21",
+          "page": 3,
+          "subject": "Corporate Alliance Tank Droid",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Corporate Alliance Tank Droid",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "BPV-22",
+          "page": 3,
+          "subject": "R2-D2",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "R2-D2",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "BPV-23",
+          "page": 3,
+          "subject": "Droideka",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Droideka",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-24",
+          "page": 3,
+          "subject": "Captain Typho",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Captain Typho",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-25",
+          "page": 3,
+          "subject": "Krrsantan",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Krrsantan",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "BPV-26",
+          "page": 3,
+          "subject": "X-Wings",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "X-Wings",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "BPV-27",
+          "page": 3,
+          "subject": "Dormé",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Dormé",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-28",
+          "page": 3,
+          "subject": "K-3PO",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "K-3PO",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "BPV-29",
+          "page": 3,
+          "subject": "STAP",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "STAP",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-30",
+          "page": 3,
+          "subject": "Queen Jamillia",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Queen Jamillia",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-31",
+          "page": 3,
+          "subject": "Snowspeeder",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Snowspeeder",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "BPV-32",
+          "page": 3,
+          "subject": "Trade Federation Battleship",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Trade Federation Battleship",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-33",
+          "page": 3,
+          "subject": "Wookiee Gunship",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Wookiee Gunship",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "BPV-34",
+          "page": 3,
+          "subject": "Boss Nass",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Boss Nass",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-35",
+          "page": 3,
+          "subject": "Hoth Rebel Trooper",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Hoth Rebel Trooper",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "BPV-36",
+          "page": 3,
+          "subject": "Droid Starfighters",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Droid Starfighters",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-37",
+          "page": 3,
+          "subject": "Kybuck",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Kybuck",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "BPV-38",
+          "page": 3,
+          "subject": "Southern Mustafarian",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Southern Mustafarian",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "BPV-39",
+          "page": 3,
+          "subject": "Can-Cell",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Can-Cell",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "BPV-40",
+          "page": 3,
+          "subject": "Sio Bibble",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Sio Bibble",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-41",
+          "page": 3,
+          "subject": "Kaadu",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Kaadu",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-42",
+          "page": 3,
+          "subject": "Millennium Falcon",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Millennium Falcon",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "BPV-43",
+          "page": 3,
+          "subject": "Alazmec",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Alazmec",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "BPV-44",
+          "page": 3,
+          "subject": "Naboo star skiff",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Naboo star skiff",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "BPV-45",
+          "page": 3,
+          "subject": "Lobot",
+          "signer": null,
+          "artist": null,
+          "planet": "Bespin",
+          "sourceFields": [
+            "Lobot",
+            "Bespin"
+          ]
+        },
+        {
+          "number": "BPV-46",
+          "page": 4,
+          "subject": "Republic Frigate",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Republic Frigate",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-47",
+          "page": 4,
+          "subject": "Mustafar Panning Droid",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Mustafar Panning Droid",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "BPV-48",
+          "page": 4,
+          "subject": "Multi-Troop Transport",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Multi-Troop Transport",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-49",
+          "page": 4,
+          "subject": "Rish Loo",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Rish Loo",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-50",
+          "page": 4,
+          "subject": "Darth Vader",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Darth Vader",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "BPV-51",
+          "page": 4,
+          "subject": "Boss Lyonie",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Boss Lyonie",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-52",
+          "page": 4,
+          "subject": "Falumpaset",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Falumpaset",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-53",
+          "page": 4,
+          "subject": "Tauntauns",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Tauntauns",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "BPV-54",
+          "page": 4,
+          "subject": "Security S-5 blaster",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Security S-5 blaster",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-55",
+          "page": 4,
+          "subject": "Battle Droid",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Battle Droid",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-56",
+          "page": 4,
+          "subject": "Ugnaught",
+          "signer": null,
+          "artist": null,
+          "planet": "Bespin",
+          "sourceFields": [
+            "Ugnaught",
+            "Bespin"
+          ]
+        },
+        {
+          "number": "BPV-57",
+          "page": 4,
+          "subject": "Obi-Wan Kenobi",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Obi-Wan Kenobi",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "BPV-58",
+          "page": 4,
+          "subject": "Gungan Bongo Submarine",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Gungan Bongo Submarine",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-59",
+          "page": 4,
+          "subject": "Han Solo",
+          "signer": null,
+          "artist": null,
+          "planet": "Bespin",
+          "sourceFields": [
+            "Han Solo",
+            "Bespin"
+          ]
+        },
+        {
+          "number": "BPV-60",
+          "page": 4,
+          "subject": "AT-AT",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "AT-AT",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "BPV-61",
+          "page": 4,
+          "subject": "Roggwart",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Roggwart",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "BPV-62",
+          "page": 4,
+          "subject": "Wookiee Long-Gun",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Wookiee Long-Gun",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "BPV-63",
+          "page": 4,
+          "subject": "Kylo Ren",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Kylo Ren",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "BPV-64",
+          "page": 4,
+          "subject": "2-1B",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "2-1B",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "BPV-65",
+          "page": 4,
+          "subject": "Trandoshan",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Trandoshan",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "BPV-66",
+          "page": 4,
+          "subject": "Gondola Speeder",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Gondola Speeder",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-67",
+          "page": 4,
+          "subject": "Sando Aqua Monster",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Sando Aqua Monster",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-68",
+          "page": 4,
+          "subject": "Boba Fett's Starship",
+          "signer": null,
+          "artist": null,
+          "planet": "Bespin",
+          "sourceFields": [
+            "Boba Fett's Starship",
+            "Bespin"
+          ]
+        },
+        {
+          "number": "BPV-69",
+          "page": 4,
+          "subject": "Helder Spinoza",
+          "signer": null,
+          "artist": null,
+          "planet": "Bespin",
+          "sourceFields": [
+            "Helder Spinoza",
+            "Bespin"
+          ]
+        },
+        {
+          "number": "BPV-70",
+          "page": 4,
+          "subject": "Senator Palpatine",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Senator Palpatine",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-71",
+          "page": 4,
+          "subject": "Nute Gunray",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Nute Gunray",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-72",
+          "page": 4,
+          "subject": "Imperial Probe Droid",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Imperial Probe Droid",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "BPV-73",
+          "page": 4,
+          "subject": "Fambaas",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Fambaas",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-74",
+          "page": 4,
+          "subject": "C-3PO",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "C-3PO",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "BPV-75",
+          "page": 4,
+          "subject": "Lando Calrissian",
+          "signer": null,
+          "artist": null,
+          "planet": "Bespin",
+          "sourceFields": [
+            "Lando Calrissian",
+            "Bespin"
+          ]
+        },
+        {
+          "number": "BPV-76",
+          "page": 4,
+          "subject": "AT-AT Driver",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "AT-AT Driver",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "BPV-77",
+          "page": 4,
+          "subject": "Nuna",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Nuna",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-78",
+          "page": 4,
+          "subject": "Naboo Starfighter",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Naboo Starfighter",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-79",
+          "page": 4,
+          "subject": "Mustafar Lava Flea",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Mustafar Lava Flea",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "BPV-80",
+          "page": 4,
+          "subject": "Ric Olié",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Ric Olié",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-81",
+          "page": 4,
+          "subject": "Booma",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Booma",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-82",
+          "page": 4,
+          "subject": "Jedi Interceptor",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Jedi Interceptor",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "BPV-83",
+          "page": 4,
+          "subject": "Luke Skywalker",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Luke Skywalker",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "BPV-84",
+          "page": 4,
+          "subject": "Naboo Royal Starship",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Naboo Royal Starship",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-85",
+          "page": 4,
+          "subject": "San Hill",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "San Hill",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "BPV-86",
+          "page": 4,
+          "subject": "Maximilian Veers",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Maximilian Veers",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "BPV-87",
+          "page": 4,
+          "subject": "Colo Claw Fish",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Colo Claw Fish",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-88",
+          "page": 4,
+          "subject": "Anti-Infantry Turret",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Anti-Infantry Turret",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "BPV-89",
+          "page": 4,
+          "subject": "Pedar Solardo",
+          "signer": null,
+          "artist": null,
+          "planet": "Bespin",
+          "sourceFields": [
+            "Pedar Solardo",
+            "Bespin"
+          ]
+        },
+        {
+          "number": "BPV-90",
+          "page": 4,
+          "subject": "Sabé",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Sabé",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-91",
+          "page": 4,
+          "subject": "Leia Organa",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Leia Organa",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "BPV-92",
+          "page": 4,
+          "subject": "C-9979 Landing Ships",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "C-9979 Landing Ships",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-93",
+          "page": 4,
+          "subject": "Planetary Ion Cannon",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Planetary Ion Cannon",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "BPV-94",
+          "page": 4,
+          "subject": "Wedge Antilles",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Wedge Antilles",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "BPV-95",
+          "page": 4,
+          "subject": "Chewbacca",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Chewbacca",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "BPV-96",
+          "page": 4,
+          "subject": "AAT Battle Tank",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "AAT Battle Tank",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-97",
+          "page": 4,
+          "subject": "Boba Fett",
+          "signer": null,
+          "artist": null,
+          "planet": "Bespin",
+          "sourceFields": [
+            "Boba Fett",
+            "Bespin"
+          ]
+        },
+        {
+          "number": "BPV-98",
+          "page": 5,
+          "subject": "Rune Haako",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Rune Haako",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BPV-99",
+          "page": 5,
+          "subject": "Yoda",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Yoda",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "BPV-100",
+          "page": 5,
+          "subject": "Darth Sidious",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Darth Sidious",
+            "Mustafar"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JUMP TO HYPERSPACE",
+      "rows": [
+        {
+          "number": "JH-1",
+          "page": 5,
+          "subject": "Millennium Falcon",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Millennium Falcon",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "JH-2",
+          "page": 5,
+          "subject": "Naboo Starfighter",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Naboo Starfighter",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "JH-3",
+          "page": 5,
+          "subject": "Republic Frigate",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Republic Frigate",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "JH-4",
+          "page": 5,
+          "subject": "Boba Fett's Starship",
+          "signer": null,
+          "artist": null,
+          "planet": "Bespin",
+          "sourceFields": [
+            "Boba Fett's Starship",
+            "Bespin"
+          ]
+        },
+        {
+          "number": "JH-5",
+          "page": 5,
+          "subject": "The Ghost",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "The Ghost",
+            "Mustafar"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "THERES ALWAYS A BIGGER FISH",
+      "rows": [
+        {
+          "number": "BF-1",
+          "page": 5,
+          "subject": "Tauntauns",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Tauntauns",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "BF-2",
+          "page": 5,
+          "subject": "Wampa",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Wampa",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "BF-3",
+          "page": 5,
+          "subject": "Fambaa",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Fambaa",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BF-4",
+          "page": 5,
+          "subject": "Falumpaset",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Falumpaset",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BF-5",
+          "page": 5,
+          "subject": "Mylaya",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Mylaya",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "BF-6",
+          "page": 5,
+          "subject": "Roggwart",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Roggwart",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "BF-7",
+          "page": 5,
+          "subject": "Mustafar Lava Flea",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Mustafar Lava Flea",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "BF-8",
+          "page": 5,
+          "subject": "Shaak",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Shaak",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BF-9",
+          "page": 5,
+          "subject": "Opee Sea Killer",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Opee Sea Killer",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BF-10",
+          "page": 5,
+          "subject": "Sando Aqua Monster",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Sando Aqua Monster",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BF-11",
+          "page": 5,
+          "subject": "Kaadu",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Kaadu",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BF-12",
+          "page": 5,
+          "subject": "Nuna",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Nuna",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BF-13",
+          "page": 5,
+          "subject": "Colo Claw Fish",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Colo Claw Fish",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "BF-14",
+          "page": 5,
+          "subject": "Can-Cell",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Can-Cell",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "BF-15",
+          "page": 5,
+          "subject": "Kybuck",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Kybuck",
+            "Kashyyyk"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FIRST ARRIVAL",
+      "rows": [
+        {
+          "number": "FA-1",
+          "page": 5,
+          "subject": "Padmé Amidala",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Padmé Amidala",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "FA-2",
+          "page": 5,
+          "subject": "Chief Tarfful",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Chief Tarfful",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "FA-3",
+          "page": 5,
+          "subject": "Sabé",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Sabé",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "FA-4",
+          "page": 5,
+          "subject": "Lobot",
+          "signer": null,
+          "artist": null,
+          "planet": "Bespin",
+          "sourceFields": [
+            "Lobot",
+            "Bespin"
+          ]
+        },
+        {
+          "number": "FA-5",
+          "page": 5,
+          "subject": "Boss Nass",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Boss Nass",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "FA-6",
+          "page": 5,
+          "subject": "Captain Panaka",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Captain Panaka",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "FA-7",
+          "page": 5,
+          "subject": "Senator Palpatine",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Senator Palpatine",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "FA-8",
+          "page": 5,
+          "subject": "Sio Bibble",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Sio Bibble",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "FA-9",
+          "page": 5,
+          "subject": "Ric Olié",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Ric Olié",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "FA-10",
+          "page": 5,
+          "subject": "Chewbacca",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Chewbacca",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "FA-11",
+          "page": 5,
+          "subject": "Boss Lyonie",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Boss Lyonie",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "FA-12",
+          "page": 5,
+          "subject": "Jar Jar Binks",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Jar Jar Binks",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "FA-13",
+          "page": 5,
+          "subject": "Queen Jamillia",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Queen Jamillia",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "FA-14",
+          "page": 5,
+          "subject": "General Tarpals",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "General Tarpals",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "FA-15",
+          "page": 5,
+          "subject": "Darth Vader",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Darth Vader",
+            "Mustafar"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GALACTIC ERAS",
+      "rows": [
+        {
+          "number": "GE-1",
+          "page": 5,
+          "subject": "Battle of Hoth",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Battle of Hoth",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "GE-2",
+          "page": 5,
+          "subject": "Battle of Kachirho",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Battle of Kachirho",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "GE-3",
+          "page": 5,
+          "subject": "Battle of Naboo",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Battle of Naboo",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "GE-4",
+          "page": 5,
+          "subject": "Obi-Wan Kenobi vs Anakin Skywalker",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Obi-Wan Kenobi vs Anakin Skywalker",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "GE-5",
+          "page": 5,
+          "subject": "Qui-Gon Jinn and Obi-Wan Kenobi vs Darth Maul",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Qui-Gon Jinn and Obi-Wan Kenobi vs Darth Maul",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "GE-6",
+          "page": 5,
+          "subject": "Yoda, Chief Tarfful, and Chewbacca meet with Jedi Council",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Yoda, Chief Tarfful, and Chewbacca meet with Jedi Council",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "GE-7",
+          "page": 6,
+          "subject": "Padmé Amidala and Anakin Skywalker",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Padmé Amidala and Anakin Skywalker",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "GE-8",
+          "page": 6,
+          "subject": "Anakin Skywalker attacks SEPARATIST",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Anakin Skywalker attacks SEPARATIST",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "GE-9",
+          "page": 6,
+          "subject": "Anakin Skywalker becomes Darth Vader",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Anakin Skywalker becomes Darth Vader",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "GE-10",
+          "page": 6,
+          "subject": "Han Solo, Chewbacca, and Princess Leia Organa seek refuge",
+          "signer": null,
+          "artist": null,
+          "planet": "Bespin",
+          "sourceFields": [
+            "Han Solo, Chewbacca, and Princess Leia Organa seek refuge",
+            "Bespin"
+          ]
+        },
+        {
+          "number": "GE-11",
+          "page": 6,
+          "subject": "Wedge Antilles trips up an AT-AT",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Wedge Antilles trips up an AT-AT",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "GE-12",
+          "page": 6,
+          "subject": "Luke Skywalker plants an explosive in an AT-AT",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Luke Skywalker plants an explosive in an AT-AT",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "GE-13",
+          "page": 6,
+          "subject": "Lando Calrissian double crosses Han Solo",
+          "signer": null,
+          "artist": null,
+          "planet": "Bespin",
+          "sourceFields": [
+            "Lando Calrissian double crosses Han Solo",
+            "Bespin"
+          ]
+        },
+        {
+          "number": "GE-14",
+          "page": 6,
+          "subject": "Duel on Cloud City",
+          "signer": null,
+          "artist": null,
+          "planet": "Bespin",
+          "sourceFields": [
+            "Duel on Cloud City",
+            "Bespin"
+          ]
+        },
+        {
+          "number": "GE-15",
+          "page": 6,
+          "subject": "Leia, Chewbacca, and Lando Calrissian escaping Bespin",
+          "signer": null,
+          "artist": null,
+          "planet": "Bespin",
+          "sourceFields": [
+            "Leia, Chewbacca, and Lando Calrissian escaping Bespin",
+            "Bespin"
+          ]
+        },
+        {
+          "number": "GE-16",
+          "page": 6,
+          "subject": "Qui-Gon Jinn and Obi-Wan Kenobi Meet Jar Jar Binks",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Qui-Gon Jinn and Obi-Wan Kenobi Meet Jar Jar Binks",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "GE-17",
+          "page": 6,
+          "subject": "Qui-Gon Jinn and Obi-Wan Kenobi meet with the Gungan Rep Council",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Qui-Gon Jinn and Obi-Wan Kenobi meet with the Gungan Rep Council",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "GE-18",
+          "page": 6,
+          "subject": "Naboo Celebration",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Naboo Celebration",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "GE-19",
+          "page": 6,
+          "subject": "Anakin Skywalker and Padmé Amidala Kiss",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Anakin Skywalker and Padmé Amidala Kiss",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "GE-20",
+          "page": 6,
+          "subject": "Anakin Skywalker and Padmé Amidala's Secret Wedding",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Anakin Skywalker and Padmé Amidala's Secret Wedding",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "GE-21",
+          "page": 6,
+          "subject": "Yoda departs Kashyyyk",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Yoda departs Kashyyyk",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "GE-22",
+          "page": 6,
+          "subject": "Kylo Ren finds Sith Wayfinder",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Kylo Ren finds Sith Wayfinder",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "GE-23",
+          "page": 6,
+          "subject": "Boba Fett captures Han Solo",
+          "signer": null,
+          "artist": null,
+          "planet": "Bespin",
+          "sourceFields": [
+            "Boba Fett captures Han Solo",
+            "Bespin"
+          ]
+        },
+        {
+          "number": "GE-24",
+          "page": 6,
+          "subject": "Nute Gunray and Rune Haako captured",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Nute Gunray and Rune Haako captured",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "GE-25",
+          "page": 6,
+          "subject": "Han Solo rescues Luke Skywalker",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "Han Solo rescues Luke Skywalker",
+            "Hoth"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "STAR WARS REFLECTIONS",
+      "rows": [
+        {
+          "number": "R-6",
+          "page": 6,
+          "subject": "Lord Vader",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Lord Vader"
+          ]
+        },
+        {
+          "number": "R-7",
+          "page": 6,
+          "subject": "Ahsoka's Remorse",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Ahsoka's Remorse"
+          ]
+        },
+        {
+          "number": "R-8",
+          "page": 6,
+          "subject": "Dangerous Negotiations",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Dangerous Negotiations"
+          ]
+        },
+        {
+          "number": "R-9",
+          "page": 6,
+          "subject": "No Love for the Empire",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "No Love for the Empire"
+          ]
+        },
+        {
+          "number": "R-10",
+          "page": 6,
+          "subject": "AT-AT Driver",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "AT-AT Driver"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PLANETARY VIEWS",
+      "rows": [
+        {
+          "number": "PV-1",
+          "page": 6,
+          "subject": "Naboo",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Naboo"
+          ]
+        },
+        {
+          "number": "PV-2",
+          "page": 6,
+          "subject": "Kashyyyk",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "PV-3",
+          "page": 6,
+          "subject": "Mustafar",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "PV-4",
+          "page": 6,
+          "subject": "Bespin",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Bespin"
+          ]
+        },
+        {
+          "number": "PV-5",
+          "page": 6,
+          "subject": "Hoth",
+          "signer": null,
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Hoth"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GALACTIC ORIGINS",
+      "rows": [
+        {
+          "number": "GO-1",
+          "page": 6,
+          "subject": "Padmé Amidala",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Padmé Amidala",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "GO-2",
+          "page": 6,
+          "subject": "Jar Jar Binks",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Jar Jar Binks",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "GO-3",
+          "page": 6,
+          "subject": "Chewbacca",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Chewbacca",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "GO-4",
+          "page": 6,
+          "subject": "Chief Tarfful",
+          "signer": null,
+          "artist": null,
+          "planet": "Kashyyyk",
+          "sourceFields": [
+            "Chief Tarfful",
+            "Kashyyyk"
+          ]
+        },
+        {
+          "number": "GO-5",
+          "page": 6,
+          "subject": "Senator Palpatine",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Senator Palpatine",
+            "Naboo"
+          ]
+        },
+        {
+          "number": "GO-6",
+          "page": 6,
+          "subject": "Darth Vader",
+          "signer": null,
+          "artist": null,
+          "planet": "Mustafar",
+          "sourceFields": [
+            "Darth Vader",
+            "Mustafar"
+          ]
+        },
+        {
+          "number": "GO-7",
+          "page": 6,
+          "subject": "Lando Calrissian",
+          "signer": null,
+          "artist": null,
+          "planet": "Bespin",
+          "sourceFields": [
+            "Lando Calrissian",
+            "Bespin"
+          ]
+        },
+        {
+          "number": "GO-8",
+          "page": 6,
+          "subject": "Lobot",
+          "signer": null,
+          "artist": null,
+          "planet": "Bespin",
+          "sourceFields": [
+            "Lobot",
+            "Bespin"
+          ]
+        },
+        {
+          "number": "GO-9",
+          "page": 6,
+          "subject": "K-3PO",
+          "signer": null,
+          "artist": null,
+          "planet": "Hoth",
+          "sourceFields": [
+            "K-3PO",
+            "Hoth"
+          ]
+        },
+        {
+          "number": "GO-10",
+          "page": 6,
+          "subject": "Captain Panaka",
+          "signer": null,
+          "artist": null,
+          "planet": "Naboo",
+          "sourceFields": [
+            "Captain Panaka",
+            "Naboo"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "STAR WARS AUTOGRAPH VARIATION",
+      "rows": [
+        {
+          "number": "A-AA",
+          "page": 7,
+          "subject": "Bix Caleen",
+          "signer": "Adria Arjona",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Adria Arjona",
+            "Bix Caleen"
+          ]
+        },
+        {
+          "number": "A-AD",
+          "page": 7,
+          "subject": "Kylo Ren",
+          "signer": "Adam Driver",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Adam Driver",
+            "Kylo Ren"
+          ]
+        },
+        {
+          "number": "A-AS",
+          "page": 7,
+          "subject": "Kino Loy",
+          "signer": "Andy Serkis",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Andy Serkis",
+            "Kino Loy"
+          ]
+        },
+        {
+          "number": "A-BD",
+          "page": 7,
+          "subject": "DJ",
+          "signer": "Benicio del Toro",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Benicio del Toro",
+            "DJ"
+          ]
+        },
+        {
+          "number": "A-BL",
+          "page": 7,
+          "subject": "Lieutenant Connix",
+          "signer": "Billie Lourd",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Billie Lourd",
+            "Lieutenant Connix"
+          ]
+        },
+        {
+          "number": "A-BM",
+          "page": 7,
+          "subject": "Orson Krennic",
+          "signer": "Ben Mendelsohn",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Ben Mendelsohn",
+            "Orson Krennic"
+          ]
+        },
+        {
+          "number": "A-BW",
+          "page": 7,
+          "subject": "Lando Calrissian",
+          "signer": "Billy Dee Williams",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Billy Dee Williams",
+            "Lando Calrissian"
+          ]
+        },
+        {
+          "number": "A-DE",
+          "page": 7,
+          "subject": "Dedra Meero",
+          "signer": "Denise Gough",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Denise Gough",
+            "Dedra Meero"
+          ]
+        },
+        {
+          "number": "A-DL",
+          "page": 7,
+          "subject": "Cassian Andor",
+          "signer": "Diego Luna",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Diego Luna",
+            "Cassian Andor"
+          ]
+        },
+        {
+          "number": "A-DR",
+          "page": 7,
+          "subject": "Rey",
+          "signer": "Daisy Ridley",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Daisy Ridley",
+            "Rey"
+          ]
+        },
+        {
+          "number": "A-EC",
+          "page": 7,
+          "subject": "Qi'ra",
+          "signer": "Emilia Clarke",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Emilia Clarke",
+            "Qi'ra"
+          ]
+        },
+        {
+          "number": "A-EM",
+          "page": 7,
+          "subject": "Obi-Wan Kenobi",
+          "signer": "Ewan McGregor",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Ewan McGregor",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "A-FJ",
+          "page": 7,
+          "subject": "Jyn erso",
+          "signer": "Felicity Jones",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Felicity Jones",
+            "Jyn erso"
+          ]
+        },
+        {
+          "number": "A-FS",
+          "page": 7,
+          "subject": "Maarva Andor",
+          "signer": "Fiona Shaw",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Fiona Shaw",
+            "Maarva Andor"
+          ]
+        },
+        {
+          "number": "A-FW",
+          "page": 7,
+          "subject": "Saw Gerrera",
+          "signer": "Forest Whitaker",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Forest Whitaker",
+            "Saw Gerrera"
+          ]
+        },
+        {
+          "number": "A-GL",
+          "page": 7,
+          "subject": "General Hux",
+          "signer": "Domhnall Gleeson",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Domhnall Gleeson",
+            "General Hux"
+          ]
+        },
+        {
+          "number": "A-GO",
+          "page": 7,
+          "subject": "Mon Mothma",
+          "signer": "Genevieve O'Reilly",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Genevieve O'Reilly",
+            "Mon Mothma"
+          ]
+        },
+        {
+          "number": "A-HC",
+          "page": 7,
+          "subject": "Darth Vader",
+          "signer": "Hayden Christensen",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Hayden Christensen",
+            "Darth Vader"
+          ]
+        },
+        {
+          "number": "A-HF",
+          "page": 7,
+          "subject": "Han Solo",
+          "signer": "Harrison Ford",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Harrison Ford",
+            "Han Solo"
+          ]
+        },
+        {
+          "number": "A-IM",
+          "page": 7,
+          "subject": "Darth Sidious",
+          "signer": "Ian McDiarmid",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Ian McDiarmid",
+            "Darth Sidious"
+          ]
+        },
+        {
+          "number": "A-IS",
+          "page": 7,
+          "subject": "Shin Hati",
+          "signer": "Ivanna Sakhno",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Ivanna Sakhno",
+            "Shin Hati"
+          ]
+        },
+        {
+          "number": "A-JB",
+          "page": 7,
+          "subject": "Garsa Fwip",
+          "signer": "Jennifer Beals",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Jennifer Beals",
+            "Garsa Fwip"
+          ]
+        },
+        {
+          "number": "A-JE",
+          "page": 7,
+          "subject": "Owen Lars",
+          "signer": "Joel Edgerton",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Joel Edgerton",
+            "Owen Lars"
+          ]
+        },
+        {
+          "number": "A-JL",
+          "page": 7,
+          "subject": "Gor Koresh",
+          "signer": "John Leguizamo",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "John Leguizamo",
+            "Gor Koresh"
+          ]
+        },
+        {
+          "number": "A-KK",
+          "page": 7,
+          "subject": "Sabé",
+          "signer": "Keira Knightley",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Keira Knightley",
+            "Sabé"
+          ]
+        },
+        {
+          "number": "A-KR",
+          "page": 7,
+          "subject": "Zorii Bliss",
+          "signer": "Keri Russell",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Keri Russell",
+            "Zorii Bliss"
+          ]
+        },
+        {
+          "number": "A-KS",
+          "page": 7,
+          "subject": "Bo-Katan Kryze",
+          "signer": "Katee Sackhoff",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Katee Sackhoff",
+            "Bo-Katan Kryze"
+          ]
+        },
+        {
+          "number": "A-LM",
+          "page": 7,
+          "subject": "Grand Admiral Thrawn",
+          "signer": "Lars Mikkelsen",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Lars Mikkelsen",
+            "Grand Admiral Thrawn"
+          ]
+        },
+        {
+          "number": "A-MH",
+          "page": 7,
+          "subject": "Luke Skywalker",
+          "signer": "Mark Hamill",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Mark Hamill",
+            "Luke Skywalker"
+          ]
+        },
+        {
+          "number": "A-MM",
+          "page": 7,
+          "subject": "Galen Erso",
+          "signer": "Mads Mikkelsen",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Mads Mikkelsen",
+            "Galen Erso"
+          ]
+        },
+        {
+          "number": "A-MN",
+          "page": 7,
+          "subject": "Fennec Shand",
+          "signer": "Ming-Na Wen",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Ming-Na Wen",
+            "Fennec Shand"
+          ]
+        },
+        {
+          "number": "A-MW",
+          "page": 7,
+          "subject": "Hera Syndulla",
+          "signer": "Mary Elizabeth Winstead",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Mary Elizabeth Winstead",
+            "Hera Syndulla"
+          ]
+        },
+        {
+          "number": "A-NN",
+          "page": 7,
+          "subject": "Kuiil",
+          "signer": "Nick Nolte",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Nick Nolte",
+            "Kuiil"
+          ]
+        },
+        {
+          "number": "A-NP",
+          "page": 7,
+          "subject": "Queen Amidala",
+          "signer": "Natalie Portman",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Natalie Portman",
+            "Queen Amidala"
+          ]
+        },
+        {
+          "number": "A-NY",
+          "page": 7,
+          "subject": "Maz Kanata",
+          "signer": "Lupita Nyong'o",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Lupita Nyong'o",
+            "Maz Kanata"
+          ]
+        },
+        {
+          "number": "A-OI",
+          "page": 7,
+          "subject": "Poe Dameron",
+          "signer": "Oscar isaac",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Oscar isaac",
+            "Poe Dameron"
+          ]
+        },
+        {
+          "number": "A-PP",
+          "page": 7,
+          "subject": "The Mandalorian",
+          "signer": "Pedro Pascal",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Pedro Pascal",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "A-RA",
+          "page": 7,
+          "subject": "Bodhi Rook",
+          "signer": "Riz Ahmed",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Riz Ahmed",
+            "Bodhi Rook"
+          ]
+        },
+        {
+          "number": "A-RP",
+          "page": 7,
+          "subject": "Darth Maul",
+          "signer": "Ray Park",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Ray Park",
+            "Darth Maul"
+          ]
+        },
+        {
+          "number": "A-SJ",
+          "page": 7,
+          "subject": "Mace Windu",
+          "signer": "Samuel L. Jackson",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Samuel L. Jackson",
+            "Mace Windu"
+          ]
+        },
+        {
+          "number": "A-SO",
+          "page": 7,
+          "subject": "Syril Karn",
+          "signer": "Kyle Soller",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Kyle Soller",
+            "Syril Karn"
+          ]
+        },
+        {
+          "number": "A-SS",
+          "page": 7,
+          "subject": "Luthen Rael",
+          "signer": "Stellan Skarsgård",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Stellan Skarsgård",
+            "Luthen Rael"
+          ]
+        },
+        {
+          "number": "A-TM",
+          "page": 7,
+          "subject": "Boba Fett",
+          "signer": "Temuera Morrison",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Temuera Morrison",
+            "Boba Fett"
+          ]
+        },
+        {
+          "number": "A-TO",
+          "page": 7,
+          "subject": "Cobb Vanth",
+          "signer": "Timothy Olyphant",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Timothy Olyphant",
+            "Cobb Vanth"
+          ]
+        },
+        {
+          "number": "A-TW",
+          "page": 7,
+          "subject": "IG-11",
+          "signer": "Taiki Waititi",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Taiki Waititi",
+            "IG-11"
+          ]
+        },
+        {
+          "number": "A-WH",
+          "page": 7,
+          "subject": "The Client",
+          "signer": "Werner Herzog",
+          "artist": null,
+          "planet": null,
+          "sourceFields": [
+            "Werner Herzog",
+            "The Client"
+          ]
+        }
+      ]
+    }
+  ],
+  "rosters": {
+    "Planets": [
+      {
+        "name": "Naboo",
+        "page": 7
+      },
+      {
+        "name": "Kashyyyk",
+        "page": 7
+      },
+      {
+        "name": "Hoth",
+        "page": 8
+      },
+      {
+        "name": "Bespin",
+        "page": 8
+      },
+      {
+        "name": "Mustafar",
+        "page": 8
+      }
+    ],
+    "Artists": [
+      {
+        "name": "Andrew Fry",
+        "page": 8
+      },
+      {
+        "name": "Albino Ryno",
+        "page": 8
+      },
+      {
+        "name": "Alex Mines",
+        "page": 8
+      },
+      {
+        "name": "Ashley Marsh",
+        "page": 8
+      },
+      {
+        "name": "Brent Scotchmer",
+        "page": 8
+      },
+      {
+        "name": "Cisco Rivera",
+        "page": 8
+      },
+      {
+        "name": "Adam Beck",
+        "page": 8
+      },
+      {
+        "name": "Allen Grimes",
+        "page": 8
+      },
+      {
+        "name": "Andrew Perkins",
+        "page": 8
+      },
+      {
+        "name": "Anthony Pietszak",
+        "page": 8
+      },
+      {
+        "name": "Basak Kahraman",
+        "page": 8
+      },
+      {
+        "name": "Bobby Blakey",
+        "page": 8
+      },
+      {
+        "name": "Brandon Klein",
+        "page": 8
+      },
+      {
+        "name": "Brent Scotchmer",
+        "page": 8
+      },
+      {
+        "name": "Chris Thorne",
+        "page": 8
+      },
+      {
+        "name": "Chris Thornley",
+        "page": 8
+      },
+      {
+        "name": "Clinton Yeager",
+        "page": 8
+      },
+      {
+        "name": "Daniel Chavez",
+        "page": 8
+      },
+      {
+        "name": "Dan Cooney",
+        "page": 8
+      },
+      {
+        "name": "Dan Lawler",
+        "page": 8
+      },
+      {
+        "name": "Dan Gorman",
+        "page": 8
+      },
+      {
+        "name": "Darrin Pepe",
+        "page": 8
+      },
+      {
+        "name": "David \"Dove\" McHargue",
+        "page": 8
+      },
+      {
+        "name": "David Willingham",
+        "page": 8
+      },
+      {
+        "name": "Dawn Murphy",
+        "page": 8
+      },
+      {
+        "name": "El Smetchö",
+        "page": 8
+      },
+      {
+        "name": "Elvin A Hernandez",
+        "page": 8
+      },
+      {
+        "name": "Emma Douglas",
+        "page": 8
+      },
+      {
+        "name": "Emrah Cildir",
+        "page": 8
+      },
+      {
+        "name": "Emre VARLIBAŞ",
+        "page": 8
+      },
+      {
+        "name": "Eric Lehtonen",
+        "page": 8
+      },
+      {
+        "name": "Eric Medina",
+        "page": 8
+      },
+      {
+        "name": "Evgheni Batu",
+        "page": 8
+      },
+      {
+        "name": "Frank A. Kadar",
+        "page": 8
+      },
+      {
+        "name": "Gabe Farber",
+        "page": 8
+      },
+      {
+        "name": "Gerry Garcia Jr",
+        "page": 8
+      },
+      {
+        "name": "Ian McKesson",
+        "page": 8
+      },
+      {
+        "name": "James Harris",
+        "page": 8
+      },
+      {
+        "name": "Jamie Richards",
+        "page": 8
+      },
+      {
+        "name": "Frank Sansone",
+        "page": 8
+      },
+      {
+        "name": "James Boyd",
+        "page": 8
+      },
+      {
+        "name": "Jane Rushton",
+        "page": 8
+      },
+      {
+        "name": "Jason Christner",
+        "page": 8
+      },
+      {
+        "name": "Jason Montoya",
+        "page": 8
+      },
+      {
+        "name": "Jason Saldajeno",
+        "page": 8
+      },
+      {
+        "name": "Jason Sobol",
+        "page": 8
+      },
+      {
+        "name": "Jay Manchand",
+        "page": 8
+      },
+      {
+        "name": "Jeffrey C. Benitez",
+        "page": 9
+      },
+      {
+        "name": "Jessica Hickman",
+        "page": 9
+      },
+      {
+        "name": "Jim O'Riley",
+        "page": 9
+      },
+      {
+        "name": "Joe Ortiz",
+        "page": 9
+      },
+      {
+        "name": "Joey Mason",
+        "page": 9
+      },
+      {
+        "name": "John Bruce",
+        "page": 9
+      },
+      {
+        "name": "John Pleak",
+        "page": 9
+      },
+      {
+        "name": "John Still",
+        "page": 9
+      },
+      {
+        "name": "Kang Jing",
+        "page": 9
+      },
+      {
+        "name": "Karl Jones",
+        "page": 9
+      },
+      {
+        "name": "Kevin P. West",
+        "page": 9
+      },
+      {
+        "name": "Kevin Scott Jacobs",
+        "page": 9
+      },
+      {
+        "name": "Kirk Chavarria",
+        "page": 9
+      },
+      {
+        "name": "Krishna Sharma",
+        "page": 9
+      },
+      {
+        "name": "Kris Penix",
+        "page": 9
+      },
+      {
+        "name": "Limuel Pinzon",
+        "page": 9
+      },
+      {
+        "name": "Lindsey Greyling",
+        "page": 9
+      },
+      {
+        "name": "Marcia Dye",
+        "page": 9
+      },
+      {
+        "name": "Matt Steffens",
+        "page": 9
+      },
+      {
+        "name": "Matt Stewart",
+        "page": 9
+      },
+      {
+        "name": "Matt Maldonado",
+        "page": 9
+      },
+      {
+        "name": "Michael Mastermaker",
+        "page": 9
+      },
+      {
+        "name": "Michael Munshaw",
+        "page": 9
+      },
+      {
+        "name": "Mike LaPeruta",
+        "page": 9
+      },
+      {
+        "name": "Mike Dalzell",
+        "page": 9
+      },
+      {
+        "name": "Mike Davidson",
+        "page": 9
+      },
+      {
+        "name": "Mongola Das",
+        "page": 9
+      },
+      {
+        "name": "Neil A Brady",
+        "page": 9
+      },
+      {
+        "name": "Neil Camera",
+        "page": 9
+      },
+      {
+        "name": "Nick Gribbon",
+        "page": 9
+      },
+      {
+        "name": "Oscar Chavez",
+        "page": 9
+      },
+      {
+        "name": "Patricio Carrasco",
+        "page": 9
+      },
+      {
+        "name": "Patrick Giles",
+        "page": 9
+      },
+      {
+        "name": "Phillip Trujillo",
+        "page": 9
+      },
+      {
+        "name": "Quinton Baker",
+        "page": 9
+      },
+      {
+        "name": "Rachel Jane Hetherington",
+        "page": 9
+      },
+      {
+        "name": "Rebeca  Louro",
+        "page": 9
+      },
+      {
+        "name": "Rich Hennemann",
+        "page": 9
+      },
+      {
+        "name": "Rich \"RAM\" Molinelli",
+        "page": 9
+      },
+      {
+        "name": "Rico Dela Rosa",
+        "page": 9
+      },
+      {
+        "name": "Robert Hendrickson",
+        "page": 9
+      },
+      {
+        "name": "Robin Jeanes",
+        "page": 9
+      },
+      {
+        "name": "Roy Cover",
+        "page": 9
+      },
+      {
+        "name": "Rugved Bhuskute",
+        "page": 9
+      },
+      {
+        "name": "Ryan Johnston",
+        "page": 9
+      },
+      {
+        "name": "Ryan Thompson",
+        "page": 9
+      },
+      {
+        "name": "Semra Bulut",
+        "page": 9
+      },
+      {
+        "name": "Shaow Siong",
+        "page": 9
+      },
+      {
+        "name": "Shyla Lee",
+        "page": 9
+      },
+      {
+        "name": "Stephane Leonardi",
+        "page": 9
+      },
+      {
+        "name": "Sean Mathews",
+        "page": 9
+      },
+      {
+        "name": "Steve Alce",
+        "page": 9
+      },
+      {
+        "name": "Tim Shinn",
+        "page": 10
+      },
+      {
+        "name": "Tom Amici",
+        "page": 10
+      },
+      {
+        "name": "Veronica Smith",
+        "page": 10
+      },
+      {
+        "name": "Veronica Louro",
+        "page": 10
+      },
+      {
+        "name": "Vincenzo \"Chenduz\" D'Ippolito",
+        "page": 10
+      },
+      {
+        "name": "Vini Pirani",
+        "page": 10
+      },
+      {
+        "name": "Yves Van Berlo",
+        "page": 10
+      }
+    ]
+  },
+  "odds": [
+    {
+      "label": "Base Refractor",
+      "hobby": "1:2",
+      "page": 1,
+      "rawLine": "Base Refractor 1:2"
+    },
+    {
+      "label": "Base Nebulae Refractor",
+      "hobby": "1:8",
+      "page": 1,
+      "rawLine": "Base Nebulae Refractor 1:8"
+    },
+    {
+      "label": "Base Aqua Refractor",
+      "hobby": "1:9",
+      "page": 1,
+      "rawLine": "Base Aqua Refractor 1:9"
+    },
+    {
+      "label": "Base Aqua Sonar Refractor",
+      "hobby": "1:9",
+      "page": 1,
+      "rawLine": "Base Aqua Sonar Refractor 1:9"
+    },
+    {
+      "label": "Base Pulsar Refractor",
+      "hobby": "1:17",
+      "page": 1,
+      "rawLine": "Base Pulsar Refractor 1:17"
+    },
+    {
+      "label": "Base Galactic Dust Refractor",
+      "hobby": "1:23",
+      "page": 1,
+      "rawLine": "Base Galactic Dust Refractor 1:23"
+    },
+    {
+      "label": "Base Gold Galactic Dust Refractor",
+      "hobby": "1:35",
+      "page": 1,
+      "rawLine": "Base Gold Galactic Dust Refractor 1:35"
+    },
+    {
+      "label": "Base Hyperlanes Refractor",
+      "hobby": "1:69",
+      "page": 1,
+      "rawLine": "Base Hyperlanes Refractor 1:69"
+    },
+    {
+      "label": "Base Black Hyperlanes Refractor",
+      "hobby": "1:172",
+      "page": 1,
+      "rawLine": "Base Black Hyperlanes Refractor 1:172"
+    },
+    {
+      "label": "Base Red Hyperlanes Refractor",
+      "hobby": "1:346",
+      "page": 1,
+      "rawLine": "Base Red Hyperlanes Refractor 1:346"
+    },
+    {
+      "label": "Base Superfractor",
+      "hobby": "1:1,737",
+      "page": 1,
+      "rawLine": "Base Superfractor 1:1,737"
+    },
+    {
+      "label": "Base Planetary Variations-Naboo",
+      "hobby": "1:43",
+      "page": 1,
+      "rawLine": "Base Planetary Variations-Naboo 1:43"
+    },
+    {
+      "label": "Base Planetary Variations-Mustafar",
+      "hobby": "1:125",
+      "page": 1,
+      "rawLine": "Base Planetary Variations-Mustafar 1:125"
+    },
+    {
+      "label": "Base Planetary Variations-Hoth",
+      "hobby": "1:87",
+      "page": 1,
+      "rawLine": "Base Planetary Variations-Hoth 1:87"
+    },
+    {
+      "label": "Base Planetary Variations-Bespin",
+      "hobby": "1:218",
+      "page": 1,
+      "rawLine": "Base Planetary Variations-Bespin 1:218"
+    },
+    {
+      "label": "Base Planetary Variations-Kashyyyk",
+      "hobby": "1:103",
+      "page": 1,
+      "rawLine": "Base Planetary Variations-Kashyyyk 1:103"
+    },
+    {
+      "label": "Jump to Hyperspace",
+      "hobby": "1:96",
+      "page": 1,
+      "rawLine": "Jump to Hyperspace 1:96"
+    },
+    {
+      "label": "Jump to Hyperspace Pulsar Refractor",
+      "hobby": "1:349",
+      "page": 1,
+      "rawLine": "Jump to Hyperspace Pulsar Refractor 1:349"
+    },
+    {
+      "label": "Jump to Hyperspace Gold Galactic Dust Refractor",
+      "hobby": "1:690",
+      "page": 1,
+      "rawLine": "Jump to Hyperspace Gold Galactic Dust Refractor 1:690"
+    },
+    {
+      "label": "Jump to Hyperspace Red Hyperlanes Refractor",
+      "hobby": "1:6,876",
+      "page": 1,
+      "rawLine": "Jump to Hyperspace Red Hyperlanes Refractor 1:6,876"
+    },
+    {
+      "label": "Jump to Hyperspace Superfractor",
+      "hobby": "1:33,005",
+      "page": 1,
+      "rawLine": "Jump to Hyperspace Superfractor 1:33,005"
+    },
+    {
+      "label": "There's Always a Bigger Fish",
+      "hobby": "1:4",
+      "page": 1,
+      "rawLine": "There's Always a Bigger Fish 1:4"
+    },
+    {
+      "label": "There's Always a Bigger Fish Pulsar Refractor",
+      "hobby": "1:116",
+      "page": 1,
+      "rawLine": "There's Always a Bigger Fish Pulsar Refractor 1:116"
+    },
+    {
+      "label": "There's Always a Bigger Fish Gold Galactic Dust Refractor",
+      "hobby": "1:230",
+      "page": 1,
+      "rawLine": "There's Always a Bigger Fish Gold Galactic Dust Refractor 1:230"
+    },
+    {
+      "label": "There's Always a Bigger a Bigger Fish Hyperlanes Refractor",
+      "hobby": "1:461",
+      "page": 1,
+      "rawLine": "There's Always a Bigger a Bigger Fish Hyperlanes Refractor 1:461"
+    },
+    {
+      "label": "There's Always a Bigger Fish Red Hyperlanes Refractor",
+      "hobby": "1:2,292",
+      "page": 1,
+      "rawLine": "There's Always a Bigger Fish Red Hyperlanes Refractor 1:2,292"
+    },
+    {
+      "label": "There's Always a Bigger Fish Superfractor",
+      "hobby": "1:11,002",
+      "page": 1,
+      "rawLine": "There's Always a Bigger Fish Superfractor 1:11,002"
+    },
+    {
+      "label": "First Arrival",
+      "hobby": "1:48",
+      "page": 1,
+      "rawLine": "First Arrival 1:48"
+    },
+    {
+      "label": "First Arrival Pulsar Refractor",
+      "hobby": "1:116",
+      "page": 1,
+      "rawLine": "First Arrival Pulsar Refractor 1:116"
+    },
+    {
+      "label": "First Arrival Gold Galactic Dust Refractor",
+      "hobby": "1:230",
+      "page": 1,
+      "rawLine": "First Arrival Gold Galactic Dust Refractor 1:230"
+    },
+    {
+      "label": "First Arrival Hyperlanes Refractor",
+      "hobby": "1:461",
+      "page": 1,
+      "rawLine": "First Arrival Hyperlanes Refractor 1:461"
+    },
+    {
+      "label": "First Arrival Red Hyperlanes Refractor",
+      "hobby": "1:2,292",
+      "page": 1,
+      "rawLine": "First Arrival Red Hyperlanes Refractor 1:2,292"
+    },
+    {
+      "label": "First Arrival Superfractor",
+      "hobby": "1:11,002",
+      "page": 1,
+      "rawLine": "First Arrival Superfractor 1:11,002"
+    },
+    {
+      "label": "Galactic Eras",
+      "hobby": "1:4",
+      "page": 1,
+      "rawLine": "Galactic Eras 1:4"
+    },
+    {
+      "label": "Galactic Eras Pulsar Refractor",
+      "hobby": "1:70",
+      "page": 1,
+      "rawLine": "Galactic Eras Pulsar Refractor 1:70"
+    },
+    {
+      "label": "Galactic Eras Gold Galactic Dust Refractor",
+      "hobby": "1:138",
+      "page": 1,
+      "rawLine": "Galactic Eras Gold Galactic Dust Refractor 1:138"
+    },
+    {
+      "label": "Galactic Eras Hyperlanes Refractor",
+      "hobby": "1:276",
+      "page": 1,
+      "rawLine": "Galactic Eras Hyperlanes Refractor 1:276"
+    },
+    {
+      "label": "Galactic Eras Red Hyperlanes Refractor",
+      "hobby": "1:1,387",
+      "page": 1,
+      "rawLine": "Galactic Eras Red Hyperlanes Refractor 1:1,387"
+    },
+    {
+      "label": "Galactic Eras Superfractor Refractor",
+      "hobby": "1:6,876",
+      "page": 1,
+      "rawLine": "Galactic Eras Superfractor Refractor 1:6,876"
+    },
+    {
+      "label": "Reflections",
+      "hobby": "1:1,000",
+      "page": 1,
+      "rawLine": "Reflections 1:1,000"
+    },
+    {
+      "label": "Star Wars Reflections Red Hyperlanes Refractor",
+      "hobby": "1:6,876",
+      "page": 1,
+      "rawLine": "Star Wars Reflections Red Hyperlanes Refractor 1:6,876"
+    },
+    {
+      "label": "Star Wars Reflections Superfractor",
+      "hobby": "1:33,005",
+      "page": 1,
+      "rawLine": "Star Wars Reflections Superfractor 1:33,005"
+    },
+    {
+      "label": "Planetary Views",
+      "hobby": "1:349",
+      "page": 1,
+      "rawLine": "Planetary Views 1:349"
+    },
+    {
+      "label": "Planetary Views Galactic Dust Refractor",
+      "hobby": "1:690",
+      "page": 1,
+      "rawLine": "Planetary Views Galactic Dust Refractor 1:690"
+    },
+    {
+      "label": "Planetary Views Nebulae Refractor",
+      "hobby": "1:6,876",
+      "page": 1,
+      "rawLine": "Planetary Views Nebulae Refractor 1:6,876"
+    },
+    {
+      "label": "Planetary Views Superfractor",
+      "hobby": "1:33,005",
+      "page": 1,
+      "rawLine": "Planetary Views Superfractor 1:33,005"
+    },
+    {
+      "label": "Galactic Origins",
+      "hobby": "1:900",
+      "page": 1,
+      "rawLine": "Galactic Origins 1:900"
+    },
+    {
+      "label": "Galactic Origins Hyperlanes Refractor",
+      "hobby": "1:1,737",
+      "page": 1,
+      "rawLine": "Galactic Origins Hyperlanes Refractor 1:1,737"
+    },
+    {
+      "label": "Galactic Origins Red Hyperlanes Refractor",
+      "hobby": "1:3,438",
+      "page": 1,
+      "rawLine": "Galactic Origins Red Hyperlanes Refractor 1:3,438"
+    },
+    {
+      "label": "Galactic Origins Superfractor",
+      "hobby": "1:16,502",
+      "page": 1,
+      "rawLine": "Galactic Origins Superfractor 1:16,502"
+    },
+    {
+      "label": "Autographs",
+      "hobby": "1:325",
+      "page": 1,
+      "rawLine": "Autographs 1:325"
+    },
+    {
+      "label": "Autograph Pulsar Refractor",
+      "hobby": "1:244",
+      "page": 1,
+      "rawLine": "Autograph Pulsar Refractor 1:244"
+    },
+    {
+      "label": "Autograph Gold Galactic Dust Refractor",
+      "hobby": "1:161",
+      "page": 1,
+      "rawLine": "Autograph Gold Galactic Dust Refractor 1:161"
+    },
+    {
+      "label": "Autograph Hyperlanes Refractor",
+      "hobby": "1:165",
+      "page": 1,
+      "rawLine": "Autograph Hyperlanes Refractor 1:165"
+    },
+    {
+      "label": "Autograph Red Hyperlanes Refractor",
+      "hobby": "1:740",
+      "page": 1,
+      "rawLine": "Autograph Red Hyperlanes Refractor 1:740"
+    },
+    {
+      "label": "Autograph Superfractor",
+      "hobby": "1:3,667",
+      "page": 1,
+      "rawLine": "Autograph Superfractor 1:3,667"
+    },
+    {
+      "label": "Sketch Cards Silver Foil",
+      "hobby": "1:30",
+      "page": 1,
+      "rawLine": "Sketch Cards Silver Foil 1:30"
+    },
+    {
+      "label": "Sketch Cards Purple Foil",
+      "hobby": "1:328",
+      "page": 1,
+      "rawLine": "Sketch Cards Purple Foil 1:328"
+    },
+    {
+      "label": "Sketch Cards Gold Foil",
+      "hobby": "1:1,154",
+      "page": 2,
+      "rawLine": "Sketch Cards Gold Foil 1:1,154"
+    },
+    {
+      "label": "Sketch Cards Blue Foil",
+      "hobby": "1:7,501",
+      "page": 2,
+      "rawLine": "Sketch Cards Blue Foil 1:7,501"
+    },
+    {
+      "label": "Sketch Cards Black Foil",
+      "hobby": "1:33,005",
+      "page": 2,
+      "rawLine": "Sketch Cards Black Foil 1:33,005"
+    }
+  ]
+}
