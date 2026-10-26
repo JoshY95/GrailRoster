@@ -9,6 +9,8 @@ const {loadCatalogue} = require('../scripts/catalogue_io');
 const root = path.resolve(__dirname, '..');
 const read = name => fs.readFileSync(path.join(root,name),'utf8');
 const shipped=loadCatalogue();
+const wweSets=shipped.sets.filter(s=>s.categoryId==='wwe');
+const wweCount=wweSets.reduce((n,s)=>n+s.cardCount,0);
 const starWarsSets=shipped.sets.filter(s=>s.categoryId==='star-wars');
 const starWarsIds=new Set(starWarsSets.map(s=>s.id));
 const starWarsCount=shipped.cards.filter(c=>starWarsIds.has(c.setId)).length;
@@ -53,8 +55,8 @@ async function harness(storage = new Map()) {
 (async()=>{
   const page=await harness();
   const {run,document,storage}=page;
-  assert.equal(document.querySelectorAll('#allSets .set-card').length,24);
-  assert.equal(run('categoryCatalogue().cardCount'),11298);
+  assert.equal(document.querySelectorAll('#allSets .set-card').length,wweSets.length);
+  assert.equal(run('categoryCatalogue().cardCount'),wweCount);
   const original=JSON.stringify(loadCatalogue().cards);
   // Seed only this isolated DOM. No external writes or real collection fixtures.
   const owned=run('state.catalogue.cards[0].id');

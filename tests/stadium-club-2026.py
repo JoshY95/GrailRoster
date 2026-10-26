@@ -61,7 +61,8 @@ class CatalogueUpdate(unittest.TestCase):
         current = load_catalogue()
         wwe_sets = [s for s in current['sets'] if s['categoryId'] == 'wwe']
         wwe_ids = {s['id'] for s in wwe_sets}
-        self.assertEqual((len(wwe_sets), len([c for c in current['cards'] if c['setId'] in wwe_ids])), (24, 11298))
+        self.assertGreaterEqual(len(wwe_sets), 24)
+        self.assertGreaterEqual(len([c for c in current['cards'] if c['setId'] in wwe_ids]), 11298)
         now_main = None
         for record in index['sets']:
             path = 'data/' + record['file']

@@ -15,11 +15,14 @@ jobs:
         with:
           node-version: '22'
       - name: Install browser test dependency
-        run: npm install --no-save playwright@1.62.1 linkedom@0.18.12
+        run: |
+          npm install --no-save playwright@1.62.1 linkedom@0.18.12
+          python3 -m pip install openpyxl==3.1.5 xlrd==2.0.1
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
       - name: Verify catalogue preservation
         run: |
+          python3 tests/wwe-2024-batch.py
           python3 tests/stadium-club-2026.py
           python3 tests/chrome-star-wars-2026.py
           python3 tests/chrome-star-wars-galaxy-2026.py
@@ -39,4 +42,4 @@ jobs:
           node tests/categories.cjs
           python3 tests/category-imports.py
       - name: Exercise guest, Vault and offline flows
-        run: node tests/run.cjs tests/smoke.cjs tests/vault.cjs tests/offline.cjs tests/categories-browser.cjs
+        run: node tests/run.cjs tests/smoke.cjs tests/vault.cjs tests/offline.cjs tests/categories-browser.cjs tests/wwe-2024-browser.cjs
