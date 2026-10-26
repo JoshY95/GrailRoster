@@ -1,0 +1,5606 @@
+{
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/STW2456-2024StarWarsMasterworkChecklistv2.pdf?v=1787909664",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0739/2015/1805/files/2024StarWarsMasterworkOdds.pdf?v=1787909664",
+  "productUrl": "https://uk.topps.com/products/2024-topps%C2%AE-masterwork-star-wars-master-box",
+  "checklistSha256": "932dcd6b76c33386cea162c7b79ad49749e301435210b941c26d7e16c55e14d2",
+  "oddsSha256": "14398995d3175045f2323d8383122a74ef9b54b7c635e67f03affb34ec88f832",
+  "subsets": [
+    {
+      "name": "BASE CARDS",
+      "rows": [
+        {
+          "number": "1",
+          "page": 1,
+          "subject": "Han Solo",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Han Solo"
+          ]
+        },
+        {
+          "number": "2",
+          "page": 1,
+          "subject": "Darth Maul",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Darth Maul"
+          ]
+        },
+        {
+          "number": "3",
+          "page": 1,
+          "subject": "Count Dooku",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Count Dooku"
+          ]
+        },
+        {
+          "number": "4",
+          "page": 1,
+          "subject": "General Grievous",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "General Grievous"
+          ]
+        },
+        {
+          "number": "5",
+          "page": 1,
+          "subject": "Baylan Skoll",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Baylan Skoll"
+          ]
+        },
+        {
+          "number": "6",
+          "page": 1,
+          "subject": "Shin Hati",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Shin Hati"
+          ]
+        },
+        {
+          "number": "7",
+          "page": 1,
+          "subject": "Marrok",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Marrok"
+          ]
+        },
+        {
+          "number": "8",
+          "page": 1,
+          "subject": "Asajj Ventress",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Asajj Ventress"
+          ]
+        },
+        {
+          "number": "9",
+          "page": 1,
+          "subject": "Jyn Erso",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Jyn Erso"
+          ]
+        },
+        {
+          "number": "10",
+          "page": 1,
+          "subject": "Ahsoka Tano",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Ahsoka Tano"
+          ]
+        },
+        {
+          "number": "11",
+          "page": 1,
+          "subject": "Lando Calrissian",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Lando Calrissian"
+          ]
+        },
+        {
+          "number": "12",
+          "page": 1,
+          "subject": "Nien Nunb",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Nien Nunb"
+          ]
+        },
+        {
+          "number": "13",
+          "page": 1,
+          "subject": "Admiral Ackbar",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Admiral Ackbar"
+          ]
+        },
+        {
+          "number": "14",
+          "page": 1,
+          "subject": "Carson Teva",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Carson Teva"
+          ]
+        },
+        {
+          "number": "15",
+          "page": 1,
+          "subject": "Captain Phasma",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Captain Phasma"
+          ]
+        },
+        {
+          "number": "16",
+          "page": 1,
+          "subject": "Stormtrooper",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Stormtrooper"
+          ]
+        },
+        {
+          "number": "17",
+          "page": 1,
+          "subject": "Bo-Katan Kryze",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Bo-Katan Kryze"
+          ]
+        },
+        {
+          "number": "18",
+          "page": 1,
+          "subject": "Koska Reeves",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Koska Reeves"
+          ]
+        },
+        {
+          "number": "19",
+          "page": 1,
+          "subject": "Boba Fett",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Boba Fett"
+          ]
+        },
+        {
+          "number": "20",
+          "page": 1,
+          "subject": "Darth Vader",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Darth Vader"
+          ]
+        },
+        {
+          "number": "21",
+          "page": 1,
+          "subject": "General Draven",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "General Draven"
+          ]
+        },
+        {
+          "number": "22",
+          "page": 1,
+          "subject": "Baze Malbus",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Baze Malbus"
+          ]
+        },
+        {
+          "number": "23",
+          "page": 1,
+          "subject": "Porg",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Porg"
+          ]
+        },
+        {
+          "number": "24",
+          "page": 1,
+          "subject": "Figrin D'an",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Figrin D'an"
+          ]
+        },
+        {
+          "number": "25",
+          "page": 1,
+          "subject": "Krrsantan",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Krrsantan"
+          ]
+        },
+        {
+          "number": "26",
+          "page": 1,
+          "subject": "Greedo",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Greedo"
+          ]
+        },
+        {
+          "number": "27",
+          "page": 1,
+          "subject": "Enfys Nest",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Enfys Nest"
+          ]
+        },
+        {
+          "number": "28",
+          "page": 1,
+          "subject": "Poe Dameron",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Poe Dameron"
+          ]
+        },
+        {
+          "number": "29",
+          "page": 1,
+          "subject": "Rey",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Rey"
+          ]
+        },
+        {
+          "number": "30",
+          "page": 1,
+          "subject": "Kylo Ren",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Kylo Ren"
+          ]
+        },
+        {
+          "number": "31",
+          "page": 1,
+          "subject": "Tallie Lintra",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Tallie Lintra"
+          ]
+        },
+        {
+          "number": "32",
+          "page": 1,
+          "subject": "Salacious B. Crumb",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Salacious B. Crumb"
+          ]
+        },
+        {
+          "number": "33",
+          "page": 1,
+          "subject": "Bib Fortuna",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Bib Fortuna"
+          ]
+        },
+        {
+          "number": "34",
+          "page": 1,
+          "subject": "Beezer Fortuna",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Beezer Fortuna"
+          ]
+        },
+        {
+          "number": "35",
+          "page": 1,
+          "subject": "Jabba the Hutt",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Jabba the Hutt"
+          ]
+        },
+        {
+          "number": "36",
+          "page": 1,
+          "subject": "Garsa Fwip",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Garsa Fwip"
+          ]
+        },
+        {
+          "number": "37",
+          "page": 1,
+          "subject": "Droideka",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Droideka"
+          ]
+        },
+        {
+          "number": "38",
+          "page": 1,
+          "subject": "Jannah",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Jannah"
+          ]
+        },
+        {
+          "number": "39",
+          "page": 1,
+          "subject": "Max Rebo",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Max Rebo"
+          ]
+        },
+        {
+          "number": "40",
+          "page": 1,
+          "subject": "Chancellor Palpatine",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Chancellor Palpatine"
+          ]
+        },
+        {
+          "number": "41",
+          "page": 1,
+          "subject": "Mace Windu",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Mace Windu"
+          ]
+        },
+        {
+          "number": "42",
+          "page": 1,
+          "subject": "Jango Fett",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Jango Fett"
+          ]
+        },
+        {
+          "number": "43",
+          "page": 1,
+          "subject": "Lok Durd",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Lok Durd"
+          ]
+        },
+        {
+          "number": "44",
+          "page": 1,
+          "subject": "Vice Admiral Holdo",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Vice Admiral Holdo"
+          ]
+        },
+        {
+          "number": "45",
+          "page": 1,
+          "subject": "The Modifier",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "The Modifier"
+          ]
+        },
+        {
+          "number": "46",
+          "page": 1,
+          "subject": "Ponda Baba",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Ponda Baba"
+          ]
+        },
+        {
+          "number": "47",
+          "page": 1,
+          "subject": "Doctor Cornelius Evazan",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Doctor Cornelius Evazan"
+          ]
+        },
+        {
+          "number": "48",
+          "page": 1,
+          "subject": "Ric Olié",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Ric Olié"
+          ]
+        },
+        {
+          "number": "49",
+          "page": 2,
+          "subject": "Chewbacca",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Chewbacca"
+          ]
+        },
+        {
+          "number": "50",
+          "page": 2,
+          "subject": "Luke Skywalker",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Luke Skywalker"
+          ]
+        },
+        {
+          "number": "51",
+          "page": 2,
+          "subject": "Ezra Bridger",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Ezra Bridger"
+          ]
+        },
+        {
+          "number": "52",
+          "page": 2,
+          "subject": "Sabine Wren",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Sabine Wren"
+          ]
+        },
+        {
+          "number": "53",
+          "page": 2,
+          "subject": "Hera Syndulla",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Hera Syndulla"
+          ]
+        },
+        {
+          "number": "54",
+          "page": 2,
+          "subject": "Kanan Jarrus",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Kanan Jarrus"
+          ]
+        },
+        {
+          "number": "55",
+          "page": 2,
+          "subject": "Chopper",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Chopper"
+          ]
+        },
+        {
+          "number": "56",
+          "page": 2,
+          "subject": "Garazeb Orrelios",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Garazeb Orrelios"
+          ]
+        },
+        {
+          "number": "57",
+          "page": 2,
+          "subject": "Jek Porkins",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Jek Porkins"
+          ]
+        },
+        {
+          "number": "58",
+          "page": 2,
+          "subject": "Captain Panaka",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Captain Panaka"
+          ]
+        },
+        {
+          "number": "59",
+          "page": 2,
+          "subject": "Oma Tres",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Oma Tres"
+          ]
+        },
+        {
+          "number": "60",
+          "page": 2,
+          "subject": "Obi-Wan Kenobi",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "61",
+          "page": 2,
+          "subject": "Nute Gunray",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Nute Gunray"
+          ]
+        },
+        {
+          "number": "62",
+          "page": 2,
+          "subject": "Dedra Meero",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Dedra Meero"
+          ]
+        },
+        {
+          "number": "63",
+          "page": 2,
+          "subject": "Syril Karn",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Syril Karn"
+          ]
+        },
+        {
+          "number": "64",
+          "page": 2,
+          "subject": "Admiral Motti",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Admiral Motti"
+          ]
+        },
+        {
+          "number": "65",
+          "page": 2,
+          "subject": "Padmé Amidala",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Padmé Amidala"
+          ]
+        },
+        {
+          "number": "66",
+          "page": 2,
+          "subject": "Anakin Skywalker",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Anakin Skywalker"
+          ]
+        },
+        {
+          "number": "67",
+          "page": 2,
+          "subject": "R5-D4",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "R5-D4"
+          ]
+        },
+        {
+          "number": "68",
+          "page": 2,
+          "subject": "Sy Snootles",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Sy Snootles"
+          ]
+        },
+        {
+          "number": "69",
+          "page": 2,
+          "subject": "The Dutchess",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "The Dutchess"
+          ]
+        },
+        {
+          "number": "70",
+          "page": 2,
+          "subject": "R2-D2",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "R2-D2"
+          ]
+        },
+        {
+          "number": "71",
+          "page": 2,
+          "subject": "C-3PO",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "C-3PO"
+          ]
+        },
+        {
+          "number": "72",
+          "page": 2,
+          "subject": "Supreme Leader Snoke",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Supreme Leader Snoke"
+          ]
+        },
+        {
+          "number": "73",
+          "page": 2,
+          "subject": "Tala Durith",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Tala Durith"
+          ]
+        },
+        {
+          "number": "74",
+          "page": 2,
+          "subject": "Sebulba",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Sebulba"
+          ]
+        },
+        {
+          "number": "75",
+          "page": 2,
+          "subject": "Reva",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Reva"
+          ]
+        },
+        {
+          "number": "76",
+          "page": 2,
+          "subject": "Major Bren Derlin",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Major Bren Derlin"
+          ]
+        },
+        {
+          "number": "77",
+          "page": 2,
+          "subject": "Huyang",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Huyang"
+          ]
+        },
+        {
+          "number": "78",
+          "page": 2,
+          "subject": "Luthen Rael",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Luthen Rael"
+          ]
+        },
+        {
+          "number": "79",
+          "page": 2,
+          "subject": "Captain Bombardier",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Captain Bombardier"
+          ]
+        },
+        {
+          "number": "80",
+          "page": 2,
+          "subject": "Leia Organa",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Leia Organa"
+          ]
+        },
+        {
+          "number": "81",
+          "page": 2,
+          "subject": "Wicket W. Warrick",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Wicket W. Warrick"
+          ]
+        },
+        {
+          "number": "82",
+          "page": 2,
+          "subject": "Zorii Bliss",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Zorii Bliss"
+          ]
+        },
+        {
+          "number": "83",
+          "page": 2,
+          "subject": "Tobias Beckett",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Tobias Beckett"
+          ]
+        },
+        {
+          "number": "84",
+          "page": 2,
+          "subject": "Master Codebreaker",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Master Codebreaker"
+          ]
+        },
+        {
+          "number": "85",
+          "page": 2,
+          "subject": "The Rancor",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "The Rancor"
+          ]
+        },
+        {
+          "number": "86",
+          "page": 2,
+          "subject": "The Rancor Keeper",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "The Rancor Keeper"
+          ]
+        },
+        {
+          "number": "87",
+          "page": 2,
+          "subject": "Malakili",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Malakili"
+          ]
+        },
+        {
+          "number": "88",
+          "page": 2,
+          "subject": "Unkar Plutt",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Unkar Plutt"
+          ]
+        },
+        {
+          "number": "89",
+          "page": 2,
+          "subject": "Yaddle",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Yaddle"
+          ]
+        },
+        {
+          "number": "90",
+          "page": 2,
+          "subject": "Yoda",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Yoda"
+          ]
+        },
+        {
+          "number": "91",
+          "page": 2,
+          "subject": "Grogu",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Grogu"
+          ]
+        },
+        {
+          "number": "92",
+          "page": 2,
+          "subject": "Even Piell",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Even Piell"
+          ]
+        },
+        {
+          "number": "93",
+          "page": 2,
+          "subject": "Plo Koon",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Plo Koon"
+          ]
+        },
+        {
+          "number": "94",
+          "page": 2,
+          "subject": "Jacen Syndulla",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Jacen Syndulla"
+          ]
+        },
+        {
+          "number": "95",
+          "page": 2,
+          "subject": "Kelleran Beq",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Kelleran Beq"
+          ]
+        },
+        {
+          "number": "96",
+          "page": 2,
+          "subject": "Tasu Leech",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Tasu Leech"
+          ]
+        },
+        {
+          "number": "97",
+          "page": 2,
+          "subject": "Poggle the Lesser",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Poggle the Lesser"
+          ]
+        },
+        {
+          "number": "98",
+          "page": 2,
+          "subject": "Admiral Piett",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Admiral Piett"
+          ]
+        },
+        {
+          "number": "99",
+          "page": 2,
+          "subject": "The Mandalorian",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "100",
+          "page": 3,
+          "subject": "Grand Admiral Thrawn",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Grand Admiral Thrawn"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BEHIND THE NEW SCENES",
+      "rows": [
+        {
+          "number": "BTS-1",
+          "page": 3,
+          "subject": "J.J. Abrams And Daisy Ridley",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "J.J. Abrams And Daisy Ridley"
+          ]
+        },
+        {
+          "number": "BTS-2",
+          "page": 3,
+          "subject": "Stormtoopers Of The First Order",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Stormtoopers Of The First Order"
+          ]
+        },
+        {
+          "number": "BTS-3",
+          "page": 3,
+          "subject": "The Scavenger And The Droid",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "The Scavenger And The Droid"
+          ]
+        },
+        {
+          "number": "BTS-4",
+          "page": 3,
+          "subject": "J.J. Abrams With John Boyega And Oscar Isaac",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "J.J. Abrams With John Boyega And Oscar Isaac"
+          ]
+        },
+        {
+          "number": "BTS-5",
+          "page": 3,
+          "subject": "The Journey Begins",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "The Journey Begins"
+          ]
+        },
+        {
+          "number": "BTS-6",
+          "page": 3,
+          "subject": "Rian Johnson and Mark Hamill in the Falcon",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Rian Johnson and Mark Hamill in the Falcon"
+          ]
+        },
+        {
+          "number": "BTS-7",
+          "page": 3,
+          "subject": "Rian Johnson With Oscar Isaac",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Rian Johnson With Oscar Isaac"
+          ]
+        },
+        {
+          "number": "BTS-8",
+          "page": 3,
+          "subject": "At The Mirror Cave",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "At The Mirror Cave"
+          ]
+        },
+        {
+          "number": "BTS-9",
+          "page": 3,
+          "subject": "Rian Johnson With Benicio Del Toro",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Rian Johnson With Benicio Del Toro"
+          ]
+        },
+        {
+          "number": "BTS-10",
+          "page": 3,
+          "subject": "Mark Hamill With The Droid",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Mark Hamill With The Droid"
+          ]
+        },
+        {
+          "number": "BTS-11",
+          "page": 3,
+          "subject": "Rian Johnson Frames The Shot",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Rian Johnson Frames The Shot"
+          ]
+        },
+        {
+          "number": "BTS-12",
+          "page": 3,
+          "subject": "Captain Phasma With Her Army",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Captain Phasma With Her Army"
+          ]
+        },
+        {
+          "number": "BTS-13",
+          "page": 3,
+          "subject": "A Moment Of Joy For Mark Hamill",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "A Moment Of Joy For Mark Hamill"
+          ]
+        },
+        {
+          "number": "BTS-14",
+          "page": 3,
+          "subject": "The Resistance Celebrates",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "The Resistance Celebrates"
+          ]
+        },
+        {
+          "number": "BTS-15",
+          "page": 3,
+          "subject": "The Droids On Kef Bir",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "The Droids On Kef Bir"
+          ]
+        },
+        {
+          "number": "BTS-16",
+          "page": 3,
+          "subject": "R2-D2 Plus Two",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "R2-D2 Plus Two"
+          ]
+        },
+        {
+          "number": "BTS-17",
+          "page": 3,
+          "subject": "J.J. Abrams And The Wookiee Collaborate",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "J.J. Abrams And The Wookiee Collaborate"
+          ]
+        },
+        {
+          "number": "BTS-18",
+          "page": 3,
+          "subject": "The Resistance At The Festival Of The Ancestors",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "The Resistance At The Festival Of The Ancestors"
+          ]
+        },
+        {
+          "number": "BTS-19",
+          "page": 3,
+          "subject": "J.J. Abrams And Adam Driver Discuss A Dark Moment",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "J.J. Abrams And Adam Driver Discuss A Dark Moment"
+          ]
+        },
+        {
+          "number": "BTS-20",
+          "page": 3,
+          "subject": "An Embrace On Pasaana",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "An Embrace On Pasaana"
+          ]
+        },
+        {
+          "number": "BTS-21",
+          "page": 3,
+          "subject": "Daisy Ridley Channels The Force For The Camera",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Daisy Ridley Channels The Force For The Camera"
+          ]
+        },
+        {
+          "number": "BTS-22",
+          "page": 3,
+          "subject": "Chewbacca's Close-up",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Chewbacca's Close-up"
+          ]
+        },
+        {
+          "number": "BTS-23",
+          "page": 3,
+          "subject": "The Resistance Co-Generals Share A Laugh",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "The Resistance Co-Generals Share A Laugh"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JOURNEY OF AHSOKA TANO",
+      "rows": [
+        {
+          "number": "JA-1",
+          "page": 3,
+          "subject": "The Child & The Force",
+          "signer": null,
+          "material": "Star Wars: Tales of the Jedi",
+          "sourceFields": [
+            "The Child & The Force",
+            "Star Wars: Tales of the Jedi"
+          ]
+        },
+        {
+          "number": "JA-2",
+          "page": 3,
+          "subject": "Discovered By Plo Koon",
+          "signer": null,
+          "material": "Star Wars: The Clone Wars",
+          "sourceFields": [
+            "Discovered By Plo Koon",
+            "Star Wars: The Clone Wars"
+          ]
+        },
+        {
+          "number": "JA-3",
+          "page": 3,
+          "subject": "Enter \"Snips\"",
+          "signer": null,
+          "material": "Star Wars: The Clone Wars",
+          "sourceFields": [
+            "Enter \"Snips\"",
+            "Star Wars: The Clone Wars"
+          ]
+        },
+        {
+          "number": "JA-4",
+          "page": 3,
+          "subject": "Infected",
+          "signer": null,
+          "material": "Star Wars: The Clone Wars",
+          "sourceFields": [
+            "Infected",
+            "Star Wars: The Clone Wars"
+          ]
+        },
+        {
+          "number": "JA-5",
+          "page": 3,
+          "subject": "Strange Occurrences On Mortis",
+          "signer": null,
+          "material": "Star Wars: The Clone Wars",
+          "sourceFields": [
+            "Strange Occurrences On Mortis",
+            "Star Wars: The Clone Wars"
+          ]
+        },
+        {
+          "number": "JA-6",
+          "page": 3,
+          "subject": "Wookiee Hunt",
+          "signer": null,
+          "material": "Star Wars: The Clone Wars",
+          "sourceFields": [
+            "Wookiee Hunt",
+            "Star Wars: The Clone Wars"
+          ]
+        },
+        {
+          "number": "JA-7",
+          "page": 3,
+          "subject": "A Jedi No More",
+          "signer": null,
+          "material": "Star Wars: The Clone Wars",
+          "sourceFields": [
+            "A Jedi No More",
+            "Star Wars: The Clone Wars"
+          ]
+        },
+        {
+          "number": "JA-8",
+          "page": 3,
+          "subject": "Under Siege",
+          "signer": null,
+          "material": "Star Wars: The Clone Wars",
+          "sourceFields": [
+            "Under Siege",
+            "Star Wars: The Clone Wars"
+          ]
+        },
+        {
+          "number": "JA-9",
+          "page": 3,
+          "subject": "Hunted By An Inquisitor",
+          "signer": null,
+          "material": "Star Wars: Tales of the Jedi",
+          "sourceFields": [
+            "Hunted By An Inquisitor",
+            "Star Wars: Tales of the Jedi"
+          ]
+        },
+        {
+          "number": "JA-10",
+          "page": 3,
+          "subject": "Twilight of the Apprentice",
+          "signer": null,
+          "material": "Star Wars Rebels",
+          "sourceFields": [
+            "Twilight of the Apprentice",
+            "Star Wars Rebels"
+          ]
+        },
+        {
+          "number": "JA-11",
+          "page": 3,
+          "subject": "A Long Awaited Meeting",
+          "signer": null,
+          "material": "Star Wars Rebels",
+          "sourceFields": [
+            "A Long Awaited Meeting",
+            "Star Wars Rebels"
+          ]
+        },
+        {
+          "number": "JA-12",
+          "page": 3,
+          "subject": "The Search for Ezra And Thrawn",
+          "signer": null,
+          "material": "Star Wars Rebels",
+          "sourceFields": [
+            "The Search for Ezra And Thrawn",
+            "Star Wars Rebels"
+          ]
+        },
+        {
+          "number": "JA-13",
+          "page": 3,
+          "subject": "A Mandalorian and A Former Jedi",
+          "signer": null,
+          "material": "Star Wars: The Mandalorian",
+          "sourceFields": [
+            "A Mandalorian and A Former Jedi",
+            "Star Wars: The Mandalorian"
+          ]
+        },
+        {
+          "number": "JA-14",
+          "page": 3,
+          "subject": "Defeating The Magistrate",
+          "signer": null,
+          "material": "Star Wars: The Mandalorian",
+          "sourceFields": [
+            "Defeating The Magistrate",
+            "Star Wars: The Mandalorian"
+          ]
+        },
+        {
+          "number": "JA-15",
+          "page": 3,
+          "subject": "Clash In Corellia",
+          "signer": null,
+          "material": "Ahsoka",
+          "sourceFields": [
+            "Clash In Corellia",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "JA-16",
+          "page": 3,
+          "subject": "Space Duel",
+          "signer": null,
+          "material": "Ahsoka",
+          "sourceFields": [
+            "Space Duel",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "JA-17",
+          "page": 3,
+          "subject": "Fallen Jedi",
+          "signer": null,
+          "material": "Ahsoka",
+          "sourceFields": [
+            "Fallen Jedi",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "JA-18",
+          "page": 3,
+          "subject": "Far, Far Away",
+          "signer": null,
+          "material": "Ahsoka",
+          "sourceFields": [
+            "Far, Far Away",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "JA-19",
+          "page": 3,
+          "subject": "Heroes Move In",
+          "signer": null,
+          "material": "Ahsoka",
+          "sourceFields": [
+            "Heroes Move In",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "JA-20",
+          "page": 3,
+          "subject": "Rematch with the Nightsister Witch",
+          "signer": null,
+          "material": "Ahsoka",
+          "sourceFields": [
+            "Rematch with the Nightsister Witch",
+            "Ahsoka"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "THE GRAND ADMIRAL",
+      "rows": [
+        {
+          "number": "HG-1",
+          "page": 4,
+          "subject": "Steps Into Shadows",
+          "signer": null,
+          "material": "Star Wars Rebels",
+          "sourceFields": [
+            "Steps Into Shadows",
+            "Star Wars Rebels"
+          ]
+        },
+        {
+          "number": "HG-2",
+          "page": 4,
+          "subject": "Appreciating The Kalikori",
+          "signer": null,
+          "material": "Star Wars Rebels",
+          "sourceFields": [
+            "Appreciating The Kalikori",
+            "Star Wars Rebels"
+          ]
+        },
+        {
+          "number": "HG-3",
+          "page": 4,
+          "subject": "Recruiting the Magistrate",
+          "signer": null,
+          "material": "Star Wars: Tales of The Empire",
+          "sourceFields": [
+            "Recruiting the Magistrate",
+            "Star Wars: Tales of The Empire"
+          ]
+        },
+        {
+          "number": "HG-4",
+          "page": 4,
+          "subject": "The Admiral And The Spy",
+          "signer": null,
+          "material": "Star Wars Rebels",
+          "sourceFields": [
+            "The Admiral And The Spy",
+            "Star Wars Rebels"
+          ]
+        },
+        {
+          "number": "HG-5",
+          "page": 4,
+          "subject": "Narrowing The Search",
+          "signer": null,
+          "material": "Star Wars Rebels",
+          "sourceFields": [
+            "Narrowing The Search",
+            "Star Wars Rebels"
+          ]
+        },
+        {
+          "number": "HG-6",
+          "page": 4,
+          "subject": "Sparring With Droids",
+          "signer": null,
+          "material": "Star Wars Rebels",
+          "sourceFields": [
+            "Sparring With Droids",
+            "Star Wars Rebels"
+          ]
+        },
+        {
+          "number": "HG-7",
+          "page": 4,
+          "subject": "Ready For Anything",
+          "signer": null,
+          "material": "Star Wars Rebels",
+          "sourceFields": [
+            "Ready For Anything",
+            "Star Wars Rebels"
+          ]
+        },
+        {
+          "number": "HG-8",
+          "page": 4,
+          "subject": "The Pursuit Of Mon Mothma",
+          "signer": null,
+          "material": "Star Wars Rebels",
+          "sourceFields": [
+            "The Pursuit Of Mon Mothma",
+            "Star Wars Rebels"
+          ]
+        },
+        {
+          "number": "HG-9",
+          "page": 4,
+          "subject": "Fighting Kallus",
+          "signer": null,
+          "material": "Star Wars Rebels",
+          "sourceFields": [
+            "Fighting Kallus",
+            "Star Wars Rebels"
+          ]
+        },
+        {
+          "number": "HG-10",
+          "page": 4,
+          "subject": "Sending The Fleet To Atollon",
+          "signer": null,
+          "material": "Star Wars Rebels",
+          "sourceFields": [
+            "Sending The Fleet To Atollon",
+            "Star Wars Rebels"
+          ]
+        },
+        {
+          "number": "HG-11",
+          "page": 4,
+          "subject": "Confronting Rebel Leaders",
+          "signer": null,
+          "material": "Star Wars Rebels",
+          "sourceFields": [
+            "Confronting Rebel Leaders",
+            "Star Wars Rebels"
+          ]
+        },
+        {
+          "number": "HG-12",
+          "page": 4,
+          "subject": "Face To Face With Bendu",
+          "signer": null,
+          "material": "Star Wars Rebels",
+          "sourceFields": [
+            "Face To Face With Bendu",
+            "Star Wars Rebels"
+          ]
+        },
+        {
+          "number": "HG-13",
+          "page": 4,
+          "subject": "A Perfect Oppurtinity",
+          "signer": null,
+          "material": "Star Wars Rebels",
+          "sourceFields": [
+            "A Perfect Oppurtinity",
+            "Star Wars Rebels"
+          ]
+        },
+        {
+          "number": "HG-14",
+          "page": 4,
+          "subject": "Dispatching Agent Rukh",
+          "signer": null,
+          "material": "Star Wars Rebels",
+          "sourceFields": [
+            "Dispatching Agent Rukh",
+            "Star Wars Rebels"
+          ]
+        },
+        {
+          "number": "HG-15",
+          "page": 4,
+          "subject": "Hera Syndulla Captured",
+          "signer": null,
+          "material": "Star Wars Rebels",
+          "sourceFields": [
+            "Hera Syndulla Captured",
+            "Star Wars Rebels"
+          ]
+        },
+        {
+          "number": "HG-16",
+          "page": 4,
+          "subject": "The Admiral And The Jedi",
+          "signer": null,
+          "material": "Star Wars Rebels",
+          "sourceFields": [
+            "The Admiral And The Jedi",
+            "Star Wars Rebels"
+          ]
+        },
+        {
+          "number": "HG-17",
+          "page": 4,
+          "subject": "Hijacked By Purrgil",
+          "signer": null,
+          "material": "Star Wars Rebels",
+          "sourceFields": [
+            "Hijacked By Purrgil",
+            "Star Wars Rebels"
+          ]
+        },
+        {
+          "number": "HG-18",
+          "page": 4,
+          "subject": "Reunion On Another Galaxy",
+          "signer": null,
+          "material": "Ahsoka",
+          "sourceFields": [
+            "Reunion On Another Galaxy",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "HG-19",
+          "page": 4,
+          "subject": "Ahsoka Lives, Prepare Accordingly",
+          "signer": null,
+          "material": "Ahsoka",
+          "sourceFields": [
+            "Ahsoka Lives, Prepare Accordingly",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "HG-20",
+          "page": 4,
+          "subject": "Long Live The Empire",
+          "signer": null,
+          "material": "Ahsoka",
+          "sourceFields": [
+            "Long Live The Empire",
+            "Ahsoka"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MARVEL COMIC COVERS",
+      "rows": [
+        {
+          "number": "MC-1",
+          "page": 4,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#1, July 1977",
+          "sourceFields": [
+            "Star Wars",
+            "#1, July 1977"
+          ]
+        },
+        {
+          "number": "MC-2",
+          "page": 4,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#7, January 1978",
+          "sourceFields": [
+            "Star Wars",
+            "#7, January 1978"
+          ]
+        },
+        {
+          "number": "MC-3",
+          "page": 4,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#11, May 1978",
+          "sourceFields": [
+            "Star Wars",
+            "#11, May 1978"
+          ]
+        },
+        {
+          "number": "MC-4",
+          "page": 4,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#18, December 1978",
+          "sourceFields": [
+            "Star Wars",
+            "#18, December 1978"
+          ]
+        },
+        {
+          "number": "MC-5",
+          "page": 4,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#13, July 1978",
+          "sourceFields": [
+            "Star Wars",
+            "#13, July 1978"
+          ]
+        },
+        {
+          "number": "MC-6",
+          "page": 4,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#21, March 1979",
+          "sourceFields": [
+            "Star Wars",
+            "#21, March 1979"
+          ]
+        },
+        {
+          "number": "MC-7",
+          "page": 4,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#24, June 1979",
+          "sourceFields": [
+            "Star Wars",
+            "#24, June 1979"
+          ]
+        },
+        {
+          "number": "MC-8",
+          "page": 4,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#30, December 1979",
+          "sourceFields": [
+            "Star Wars",
+            "#30, December 1979"
+          ]
+        },
+        {
+          "number": "MC-9",
+          "page": 4,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#31, January 1980",
+          "sourceFields": [
+            "Star Wars",
+            "#31, January 1980"
+          ]
+        },
+        {
+          "number": "MC-10",
+          "page": 4,
+          "subject": "Star Wars #35, May 1980",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Star Wars #35, May 1980"
+          ]
+        },
+        {
+          "number": "MC-11",
+          "page": 4,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#38, August 1980",
+          "sourceFields": [
+            "Star Wars",
+            "#38, August 1980"
+          ]
+        },
+        {
+          "number": "MC-12",
+          "page": 4,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#39, September 1980",
+          "sourceFields": [
+            "Star Wars",
+            "#39, September 1980"
+          ]
+        },
+        {
+          "number": "MC-13",
+          "page": 4,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#52, October 1981",
+          "sourceFields": [
+            "Star Wars",
+            "#52, October 1981"
+          ]
+        },
+        {
+          "number": "MC-14",
+          "page": 4,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#63, September 1982",
+          "sourceFields": [
+            "Star Wars",
+            "#63, September 1982"
+          ]
+        },
+        {
+          "number": "MC-15",
+          "page": 4,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#64, October 1982",
+          "sourceFields": [
+            "Star Wars",
+            "#64, October 1982"
+          ]
+        },
+        {
+          "number": "MC-16",
+          "page": 4,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#65, November 1982",
+          "sourceFields": [
+            "Star Wars",
+            "#65, November 1982"
+          ]
+        },
+        {
+          "number": "MC-17",
+          "page": 4,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#68, February 1983",
+          "sourceFields": [
+            "Star Wars",
+            "#68, February 1983"
+          ]
+        },
+        {
+          "number": "MC-18",
+          "page": 4,
+          "subject": "Star Wars #69, March 1983",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Star Wars #69, March 1983"
+          ]
+        },
+        {
+          "number": "MC-19",
+          "page": 4,
+          "subject": "Star Wars #70, April 1983",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Star Wars #70, April 1983"
+          ]
+        },
+        {
+          "number": "MC-20",
+          "page": 4,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#71, May 1983",
+          "sourceFields": [
+            "Star Wars",
+            "#71, May 1983"
+          ]
+        },
+        {
+          "number": "MC-21",
+          "page": 4,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#73, July 1983",
+          "sourceFields": [
+            "Star Wars",
+            "#73, July 1983"
+          ]
+        },
+        {
+          "number": "MC-22",
+          "page": 4,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#80, February 1984",
+          "sourceFields": [
+            "Star Wars",
+            "#80, February 1984"
+          ]
+        },
+        {
+          "number": "MC-23",
+          "page": 4,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#81, March 1984",
+          "sourceFields": [
+            "Star Wars",
+            "#81, March 1984"
+          ]
+        },
+        {
+          "number": "MC-24",
+          "page": 4,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#86, August 1984",
+          "sourceFields": [
+            "Star Wars",
+            "#86, August 1984"
+          ]
+        },
+        {
+          "number": "MC-25",
+          "page": 4,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#90, December 1984",
+          "sourceFields": [
+            "Star Wars",
+            "#90, December 1984"
+          ]
+        },
+        {
+          "number": "MC-26",
+          "page": 4,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#91, January 1985",
+          "sourceFields": [
+            "Star Wars",
+            "#91, January 1985"
+          ]
+        },
+        {
+          "number": "MC-27",
+          "page": 4,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#92, February 1985",
+          "sourceFields": [
+            "Star Wars",
+            "#92, February 1985"
+          ]
+        },
+        {
+          "number": "MC-28",
+          "page": 5,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#94, April 1985",
+          "sourceFields": [
+            "Star Wars",
+            "#94, April 1985"
+          ]
+        },
+        {
+          "number": "MC-29",
+          "page": 5,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#95, May 1985",
+          "sourceFields": [
+            "Star Wars",
+            "#95, May 1985"
+          ]
+        },
+        {
+          "number": "MC-30",
+          "page": 5,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#98, August 1985",
+          "sourceFields": [
+            "Star Wars",
+            "#98, August 1985"
+          ]
+        },
+        {
+          "number": "MC-31",
+          "page": 5,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#100, October 1985",
+          "sourceFields": [
+            "Star Wars",
+            "#100, October 1985"
+          ]
+        },
+        {
+          "number": "MC-32",
+          "page": 5,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#101, November 1985",
+          "sourceFields": [
+            "Star Wars",
+            "#101, November 1985"
+          ]
+        },
+        {
+          "number": "MC-33",
+          "page": 5,
+          "subject": "Star Wars",
+          "signer": null,
+          "material": "#107, September 1986",
+          "sourceFields": [
+            "Star Wars",
+            "#107, September 1986"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FORCE SPIRITS",
+      "rows": [
+        {
+          "number": "FS-1",
+          "page": 5,
+          "subject": "Anakin Skywalker",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Anakin Skywalker"
+          ]
+        },
+        {
+          "number": "FS-2",
+          "page": 5,
+          "subject": "Obi-Wan Kenobi",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "FS-3",
+          "page": 5,
+          "subject": "Yoda",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Yoda"
+          ]
+        },
+        {
+          "number": "FS-4",
+          "page": 5,
+          "subject": "Qui-Gon Jinn",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Qui-Gon Jinn"
+          ]
+        },
+        {
+          "number": "FS-5",
+          "page": 5,
+          "subject": "Leia Organa",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Leia Organa"
+          ]
+        },
+        {
+          "number": "FS-6",
+          "page": 5,
+          "subject": "Luke Skywalker",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Luke Skywalker"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ARTOO-DETOO",
+      "rows": [
+        {
+          "number": "AR-1",
+          "page": 5,
+          "subject": "Protecting The Queen",
+          "signer": null,
+          "material": "Star Wars: The Phantom Menace",
+          "sourceFields": [
+            "Protecting The Queen",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "AR-2",
+          "page": 5,
+          "subject": "R2's Droid Factory Frolic",
+          "signer": null,
+          "material": "Star Wars: Attack of the Clones",
+          "sourceFields": [
+            "R2's Droid Factory Frolic",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "AR-3",
+          "page": 5,
+          "subject": "Buzz Droid Zapped!",
+          "signer": null,
+          "material": "Star Wars: Revenge of The Sith",
+          "sourceFields": [
+            "Buzz Droid Zapped!",
+            "Star Wars: Revenge of The Sith"
+          ]
+        },
+        {
+          "number": "AR-4",
+          "page": 5,
+          "subject": "Oil And Fire",
+          "signer": null,
+          "material": "Star Wars: Revenge of The Sith",
+          "sourceFields": [
+            "Oil And Fire",
+            "Star Wars: Revenge of The Sith"
+          ]
+        },
+        {
+          "number": "AR-5",
+          "page": 5,
+          "subject": "\"Help Me Obi-Wan Kenobi\"",
+          "signer": null,
+          "material": "Star Wars: A New Hope",
+          "sourceFields": [
+            "\"Help Me Obi-Wan Kenobi\"",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "AR-6",
+          "page": 5,
+          "subject": "R2-D2's Heroic Salvage",
+          "signer": null,
+          "material": "Star Wars: A New Hope",
+          "sourceFields": [
+            "R2-D2's Heroic Salvage",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "AR-7",
+          "page": 5,
+          "subject": "Hit By Darth Vader",
+          "signer": null,
+          "material": "Star Wars: A New Hope",
+          "sourceFields": [
+            "Hit By Darth Vader",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "AR-8",
+          "page": 5,
+          "subject": "Master Luke Lost",
+          "signer": null,
+          "material": "Star Wars: The Empire Strikes Back",
+          "sourceFields": [
+            "Master Luke Lost",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "AR-9",
+          "page": 5,
+          "subject": "Return Of The Jedi's Lightsaber",
+          "signer": null,
+          "material": "Star Wars: Return of The Jedi",
+          "sourceFields": [
+            "Return Of The Jedi's Lightsaber",
+            "Star Wars: Return of The Jedi"
+          ]
+        },
+        {
+          "number": "AR-10",
+          "page": 5,
+          "subject": "R2's Bunker Breakdown",
+          "signer": null,
+          "material": "Star Wars: Return of The Jedi",
+          "sourceFields": [
+            "R2's Bunker Breakdown",
+            "Star Wars: Return of The Jedi"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SEE-THREEPIO",
+      "rows": [
+        {
+          "number": "CP-1",
+          "page": 5,
+          "subject": "Reunited",
+          "signer": null,
+          "material": "Star Wars: Attack of the Clones",
+          "sourceFields": [
+            "Reunited",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "CP-2",
+          "page": 5,
+          "subject": "Into The Clone Wars Head First",
+          "signer": null,
+          "material": "Star Wars: Attack of the Clones",
+          "sourceFields": [
+            "Into The Clone Wars Head First",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "CP-3",
+          "page": 5,
+          "subject": "Witness To A Secret Wedding",
+          "signer": null,
+          "material": "Star Wars: Attack of the Clones",
+          "sourceFields": [
+            "Witness To A Secret Wedding",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "CP-4",
+          "page": 5,
+          "subject": "Feeling So Helpless",
+          "signer": null,
+          "material": "Star Wars: Revenge of The Sith",
+          "sourceFields": [
+            "Feeling So Helpless",
+            "Star Wars: Revenge of The Sith"
+          ]
+        },
+        {
+          "number": "CP-5",
+          "page": 5,
+          "subject": "Organa Orders A Mind Wipe",
+          "signer": null,
+          "material": "Star Wars: Revenge of The Sith",
+          "sourceFields": [
+            "Organa Orders A Mind Wipe",
+            "Star Wars: Revenge of The Sith"
+          ]
+        },
+        {
+          "number": "CP-6",
+          "page": 5,
+          "subject": "Lost On Tatooine",
+          "signer": null,
+          "material": "Star Wars: A New Hope",
+          "sourceFields": [
+            "Lost On Tatooine",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "CP-7",
+          "page": 5,
+          "subject": "Telling Han The Odds",
+          "signer": null,
+          "material": "Star Wars: The Empire Strikes Back",
+          "sourceFields": [
+            "Telling Han The Odds",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "CP-8",
+          "page": 5,
+          "subject": "A Wookiee's Chatty Backpack",
+          "signer": null,
+          "material": "Star Wars: The Empire Strikes Back",
+          "sourceFields": [
+            "A Wookiee's Chatty Backpack",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "CP-9",
+          "page": 5,
+          "subject": "Knock Knock Knocking On Jabba's door",
+          "signer": null,
+          "material": "Star Wars: Return of The Jedi",
+          "sourceFields": [
+            "Knock Knock Knocking On Jabba's door",
+            "Star Wars: Return of The Jedi"
+          ]
+        },
+        {
+          "number": "CP-10",
+          "page": 5,
+          "subject": "In Defense Of Hera Syndulla",
+          "signer": null,
+          "material": "Ahsoka",
+          "sourceFields": [
+            "In Defense Of Hera Syndulla",
+            "Ahsoka"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ON CARD AUTOGRAPHS",
+      "rows": [
+        {
+          "number": "A-AA",
+          "page": 5,
+          "subject": "Bix Caleen",
+          "signer": "Adria Arjona",
+          "material": null,
+          "sourceFields": [
+            "Adria Arjona",
+            "Bix Caleen"
+          ]
+        },
+        {
+          "number": "A-AB",
+          "page": 5,
+          "subject": "Kelleran Beq",
+          "signer": "Ahmed Best",
+          "material": null,
+          "sourceFields": [
+            "Ahmed Best",
+            "Kelleran Beq"
+          ]
+        },
+        {
+          "number": "A-AD",
+          "page": 5,
+          "subject": "C-3PO",
+          "signer": "Anthony Daniels",
+          "material": null,
+          "sourceFields": [
+            "Anthony Daniels",
+            "C-3PO"
+          ]
+        },
+        {
+          "number": "A-AM",
+          "page": 5,
+          "subject": "Aayla Secura",
+          "signer": "Amy Allen",
+          "material": null,
+          "sourceFields": [
+            "Amy Allen",
+            "Aayla Secura"
+          ]
+        },
+        {
+          "number": "A-AS",
+          "page": 5,
+          "subject": "Supreme Leader Snoke",
+          "signer": "Andy Serkis",
+          "material": null,
+          "sourceFields": [
+            "Andy Serkis",
+            "Supreme Leader Snoke"
+          ]
+        },
+        {
+          "number": "A-B",
+          "page": 5,
+          "subject": "Boss Nass",
+          "signer": "Brian Blessed",
+          "material": null,
+          "sourceFields": [
+            "Brian Blessed",
+            "Boss Nass"
+          ]
+        },
+        {
+          "number": "A-BDW",
+          "page": 5,
+          "subject": "Lando Calrissian",
+          "signer": "Billy Dee Williams",
+          "material": null,
+          "sourceFields": [
+            "Billy Dee Williams",
+            "Lando Calrissian"
+          ]
+        },
+        {
+          "number": "A-CL",
+          "page": 5,
+          "subject": "Commissioner Helgait",
+          "signer": "Christopher Lloyd",
+          "material": null,
+          "sourceFields": [
+            "Christopher Lloyd",
+            "Commissioner Helgait"
+          ]
+        },
+        {
+          "number": "A-DM",
+          "page": 6,
+          "subject": "Beaumont Kin",
+          "signer": "Dominic Monaghan",
+          "material": null,
+          "sourceFields": [
+            "Dominic Monaghan",
+            "Beaumont Kin"
+          ]
+        },
+        {
+          "number": "A-DN",
+          "page": 6,
+          "subject": "Dedra Meero",
+          "signer": "Denise Gough",
+          "material": null,
+          "sourceFields": [
+            "Denise Gough",
+            "Dedra Meero"
+          ]
+        },
+        {
+          "number": "A-EC",
+          "page": 6,
+          "subject": "Qi'ra",
+          "signer": "Emilia Clarke",
+          "material": null,
+          "sourceFields": [
+            "Emilia Clarke",
+            "Qi'ra"
+          ]
+        },
+        {
+          "number": "A-EE",
+          "page": 6,
+          "subject": "Ezra Bridger",
+          "signer": "Eman Esfandi",
+          "material": null,
+          "sourceFields": [
+            "Eman Esfandi",
+            "Ezra Bridger"
+          ]
+        },
+        {
+          "number": "A-EK",
+          "page": 6,
+          "subject": "Enfys Nest",
+          "signer": "Erin Kellyman",
+          "material": null,
+          "sourceFields": [
+            "Erin Kellyman",
+            "Enfys Nest"
+          ]
+        },
+        {
+          "number": "A-ES",
+          "page": 6,
+          "subject": "The Armorer",
+          "signer": "Emily Swallow",
+          "material": null,
+          "sourceFields": [
+            "Emily Swallow",
+            "The Armorer"
+          ]
+        },
+        {
+          "number": "A-FPJ",
+          "page": 6,
+          "subject": "Kanan Jarrus",
+          "signer": "Freddie Prinze Jr.",
+          "material": null,
+          "sourceFields": [
+            "Freddie Prinze Jr.",
+            "Kanan Jarrus"
+          ]
+        },
+        {
+          "number": "A-GC",
+          "page": 6,
+          "subject": "Captain Phasma",
+          "signer": "Gwendoline Christie",
+          "material": null,
+          "sourceFields": [
+            "Gwendoline Christie",
+            "Captain Phasma"
+          ]
+        },
+        {
+          "number": "A-GO",
+          "page": 6,
+          "subject": "Mon Mothma",
+          "signer": "Genevieve O'Reilly",
+          "material": null,
+          "sourceFields": [
+            "Genevieve O'Reilly",
+            "Mon Mothma"
+          ]
+        },
+        {
+          "number": "A-GT",
+          "page": 6,
+          "subject": "Lok Durd",
+          "signer": "George Takei",
+          "material": null,
+          "sourceFields": [
+            "George Takei",
+            "Lok Durd"
+          ]
+        },
+        {
+          "number": "A-IM",
+          "page": 6,
+          "subject": "Darth Sidious",
+          "signer": "Ian McDiarmid",
+          "material": null,
+          "sourceFields": [
+            "Ian McDiarmid",
+            "Darth Sidious"
+          ]
+        },
+        {
+          "number": "A-IS",
+          "page": 6,
+          "subject": "Shin Hati",
+          "signer": "Ivanna Sakhno",
+          "material": null,
+          "sourceFields": [
+            "Ivanna Sakhno",
+            "Shin Hati"
+          ]
+        },
+        {
+          "number": "A-JE",
+          "page": 6,
+          "subject": "Owen Lars",
+          "signer": "Joel Edgerton",
+          "material": null,
+          "sourceFields": [
+            "Joel Edgerton",
+            "Owen Lars"
+          ]
+        },
+        {
+          "number": "A-JN",
+          "page": 6,
+          "subject": "Garsa Fwip",
+          "signer": "Jennifer Beals",
+          "material": null,
+          "sourceFields": [
+            "Jennifer Beals",
+            "Garsa Fwip"
+          ]
+        },
+        {
+          "number": "A-JR",
+          "page": 6,
+          "subject": "Major Bren Derlin",
+          "signer": "John Ratzenberger",
+          "material": null,
+          "sourceFields": [
+            "John Ratzenberger",
+            "Major Bren Derlin"
+          ]
+        },
+        {
+          "number": "A-KCH",
+          "page": 6,
+          "subject": "Queen Apailana",
+          "signer": "Keisha Castle-Hughes",
+          "material": null,
+          "sourceFields": [
+            "Keisha Castle-Hughes",
+            "Queen Apailana"
+          ]
+        },
+        {
+          "number": "A-KK",
+          "page": 6,
+          "subject": "Sabé",
+          "signer": "Keira Knightley",
+          "material": null,
+          "sourceFields": [
+            "Keira Knightley",
+            "Sabé"
+          ]
+        },
+        {
+          "number": "A-KMT",
+          "page": 6,
+          "subject": "Rose Tico",
+          "signer": "Kelly Marie Tran",
+          "material": null,
+          "sourceFields": [
+            "Kelly Marie Tran",
+            "Rose Tico"
+          ]
+        },
+        {
+          "number": "A-KR",
+          "page": 6,
+          "subject": "Zorii Bliss",
+          "signer": "Keri Russell",
+          "material": null,
+          "sourceFields": [
+            "Keri Russell",
+            "Zorii Bliss"
+          ]
+        },
+        {
+          "number": "A-KS",
+          "page": 6,
+          "subject": "Bo-Katan Kryze",
+          "signer": "Katee Sackhoff",
+          "material": null,
+          "sourceFields": [
+            "Katee Sackhoff",
+            "Bo-Katan Kryze"
+          ]
+        },
+        {
+          "number": "A-LM",
+          "page": 6,
+          "subject": "Grand Admiral Thrawn",
+          "signer": "Lars Mikkelsen",
+          "material": null,
+          "sourceFields": [
+            "Lars Mikkelsen",
+            "Grand Admiral Thrawn"
+          ]
+        },
+        {
+          "number": "A-MA",
+          "page": 6,
+          "subject": "Omega",
+          "signer": "Michelle Ang",
+          "material": null,
+          "sourceFields": [
+            "Michelle Ang",
+            "Omega"
+          ]
+        },
+        {
+          "number": "A-ME",
+          "page": 6,
+          "subject": "Sully Stark",
+          "signer": "Maya Erskine",
+          "material": null,
+          "sourceFields": [
+            "Maya Erskine",
+            "Sully Stark"
+          ]
+        },
+        {
+          "number": "A-MEW",
+          "page": 6,
+          "subject": "Hera Syndulla",
+          "signer": "Mary Elizabeth Winstead",
+          "material": null,
+          "sourceFields": [
+            "Mary Elizabeth Winstead",
+            "Hera Syndulla"
+          ]
+        },
+        {
+          "number": "A-MI",
+          "page": 6,
+          "subject": "Reva",
+          "signer": "Moses Ingram",
+          "material": null,
+          "sourceFields": [
+            "Moses Ingram",
+            "Reva"
+          ]
+        },
+        {
+          "number": "A-MNW",
+          "page": 6,
+          "subject": "Fennec Shand",
+          "signer": "Ming-Na Wen",
+          "material": null,
+          "sourceFields": [
+            "Ming-Na Wen",
+            "Fennec Shand"
+          ]
+        },
+        {
+          "number": "A-MW",
+          "page": 6,
+          "subject": "General Grievous",
+          "signer": "Matthew Wood",
+          "material": null,
+          "sourceFields": [
+            "Matthew Wood",
+            "General Grievous"
+          ]
+        },
+        {
+          "number": "A-NB",
+          "page": 6,
+          "subject": "Sabine Wren",
+          "signer": "Natasha Liu Bordizzo",
+          "material": null,
+          "sourceFields": [
+            "Natasha Liu Bordizzo",
+            "Sabine Wren"
+          ]
+        },
+        {
+          "number": "A-NP",
+          "page": 6,
+          "subject": "Padmé Amidala",
+          "signer": "Natalie Portman",
+          "material": null,
+          "sourceFields": [
+            "Natalie Portman",
+            "Padmé Amidala"
+          ]
+        },
+        {
+          "number": "A-PP",
+          "page": 6,
+          "subject": "The Mandalorian",
+          "signer": "Pedro Pascal",
+          "material": null,
+          "sourceFields": [
+            "Pedro Pascal",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "A-RA",
+          "page": 6,
+          "subject": "Bodhi Rook",
+          "signer": "Riz Ahmed",
+          "material": null,
+          "sourceFields": [
+            "Riz Ahmed",
+            "Bodhi Rook"
+          ]
+        },
+        {
+          "number": "A-RF",
+          "page": 6,
+          "subject": "The Grand Inquisitor",
+          "signer": "Rupert Friend",
+          "material": null,
+          "sourceFields": [
+            "Rupert Friend",
+            "The Grand Inquisitor"
+          ]
+        },
+        {
+          "number": "A-RP",
+          "page": 6,
+          "subject": "Darth Maul",
+          "signer": "Ray Park",
+          "material": null,
+          "sourceFields": [
+            "Ray Park",
+            "Darth Maul"
+          ]
+        },
+        {
+          "number": "A-SL",
+          "page": 6,
+          "subject": "Syril Karn",
+          "signer": "Kyle Soller",
+          "material": null,
+          "sourceFields": [
+            "Kyle Soller",
+            "Syril Karn"
+          ]
+        },
+        {
+          "number": "A-SLJ",
+          "page": 6,
+          "subject": "Mace Windu",
+          "signer": "Samuel L. Jackson",
+          "material": null,
+          "sourceFields": [
+            "Samuel L. Jackson",
+            "Mace Windu"
+          ]
+        },
+        {
+          "number": "A-SP",
+          "page": 6,
+          "subject": "Unkar Plutt",
+          "signer": "Simon Pegg",
+          "material": null,
+          "sourceFields": [
+            "Simon Pegg",
+            "Unkar Plutt"
+          ]
+        },
+        {
+          "number": "A-SS",
+          "page": 6,
+          "subject": "Luthen Rael",
+          "signer": "Stellan Skarsgård",
+          "material": null,
+          "sourceFields": [
+            "Stellan Skarsgård",
+            "Luthen Rael"
+          ]
+        },
+        {
+          "number": "A-T",
+          "page": 6,
+          "subject": "The Modifier",
+          "signer": "Stephen Bruner",
+          "material": null,
+          "sourceFields": [
+            "Stephen Bruner",
+            "The Modifier"
+          ]
+        },
+        {
+          "number": "A-TB",
+          "page": 6,
+          "subject": "Bendu",
+          "signer": "Tom Baker",
+          "material": null,
+          "sourceFields": [
+            "Tom Baker",
+            "Bendu"
+          ]
+        },
+        {
+          "number": "A-TC",
+          "page": 6,
+          "subject": "Chancellor Palpatine",
+          "signer": "Tim Curry",
+          "material": null,
+          "sourceFields": [
+            "Tim Curry",
+            "Chancellor Palpatine"
+          ]
+        },
+        {
+          "number": "A-TN",
+          "page": 6,
+          "subject": "Val",
+          "signer": "Thandiwe Newton",
+          "material": null,
+          "sourceFields": [
+            "Thandiwe Newton",
+            "Val"
+          ]
+        },
+        {
+          "number": "A-WH",
+          "page": 6,
+          "subject": "The Client",
+          "signer": "Werner Herzog",
+          "material": null,
+          "sourceFields": [
+            "Werner Herzog",
+            "The Client"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DUAL AUTOGRAPHS",
+      "rows": [
+        {
+          "number": "DA-CB",
+          "page": 6,
+          "y": 140.78,
+          "subject": "Leia Organa",
+          "signer": "Carrie Fisher",
+          "material": null,
+          "sourceFields": [
+            "Carrie Fisher",
+            "Leia Organa"
+          ]
+        },
+        {
+          "number": "DA-CB",
+          "page": 6,
+          "y": 127.46,
+          "subject": "Lando Calrissian",
+          "signer": "Billy Dee Williams",
+          "material": null,
+          "sourceFields": [
+            "Billy Dee Williams",
+            "Lando Calrissian"
+          ]
+        },
+        {
+          "number": "DA-DF",
+          "page": 6,
+          "y": 114.14,
+          "subject": "Jyn Erso",
+          "signer": "Felicity Jones",
+          "material": null,
+          "sourceFields": [
+            "Felicity Jones",
+            "Jyn Erso"
+          ]
+        },
+        {
+          "number": "DA-DF",
+          "page": 6,
+          "y": 100.82,
+          "subject": "Cassian Andor",
+          "signer": "Diego Luna",
+          "material": null,
+          "sourceFields": [
+            "Diego Luna",
+            "Cassian Andor"
+          ]
+        },
+        {
+          "number": "DA-EN",
+          "page": 6,
+          "y": 87.504,
+          "subject": "Ezra Bridger",
+          "signer": "Eman Esfandi",
+          "material": null,
+          "sourceFields": [
+            "Eman Esfandi",
+            "Ezra Bridger"
+          ]
+        },
+        {
+          "number": "DA-EN",
+          "page": 6,
+          "y": 74.184,
+          "subject": "Sabine Wren",
+          "signer": "Natasha Liu Bordizzo",
+          "material": null,
+          "sourceFields": [
+            "Natasha Liu Bordizzo",
+            "Sabine Wren"
+          ]
+        },
+        {
+          "number": "DA-HR",
+          "page": 6,
+          "y": 60.864,
+          "subject": "Ahsoka Tano",
+          "signer": "Rosario Dawson",
+          "material": null,
+          "sourceFields": [
+            "Rosario Dawson",
+            "Ahsoka Tano"
+          ]
+        },
+        {
+          "number": "DA-HR",
+          "page": 7,
+          "y": 726.96,
+          "subject": "Anakin Skywalker",
+          "signer": "Hayden Christensen",
+          "material": null,
+          "sourceFields": [
+            "Hayden Christensen",
+            "Anakin Skywalker"
+          ]
+        },
+        {
+          "number": "DA-ID",
+          "page": 7,
+          "y": 713.62,
+          "subject": "Dark Rey",
+          "signer": "Daisy Ridley",
+          "material": null,
+          "sourceFields": [
+            "Daisy Ridley",
+            "Dark Rey"
+          ]
+        },
+        {
+          "number": "DA-ID",
+          "page": 7,
+          "y": 700.3,
+          "subject": "Emperor Palpatine",
+          "signer": "Ian McDiarmid",
+          "material": null,
+          "sourceFields": [
+            "Ian McDiarmid",
+            "Emperor Palpatine"
+          ]
+        },
+        {
+          "number": "DA-KG",
+          "page": 7,
+          "y": 686.98,
+          "subject": "Moff Gideon",
+          "signer": "Giancarlo Esposito",
+          "material": null,
+          "sourceFields": [
+            "Giancarlo Esposito",
+            "Moff Gideon"
+          ]
+        },
+        {
+          "number": "DA-KG",
+          "page": 7,
+          "y": 673.66,
+          "subject": "Bo-Katan Kryze",
+          "signer": "Katee Sackhoff",
+          "material": null,
+          "sourceFields": [
+            "Katee Sackhoff",
+            "Bo-Katan Kryze"
+          ]
+        },
+        {
+          "number": "DA-RE",
+          "page": 7,
+          "y": 660.34,
+          "subject": "Darth Maul",
+          "signer": "Ray Park",
+          "material": null,
+          "sourceFields": [
+            "Ray Park",
+            "Darth Maul"
+          ]
+        },
+        {
+          "number": "DA-RE",
+          "page": 7,
+          "y": 647.02,
+          "subject": "Obi-Wan Kenobi",
+          "signer": "Ewan McGregor",
+          "material": null,
+          "sourceFields": [
+            "Ewan McGregor",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "DA-SF",
+          "page": 7,
+          "y": 633.7,
+          "subject": "Kanan Jarrus",
+          "signer": "Freddie Prinze Jr.",
+          "material": null,
+          "sourceFields": [
+            "Freddie Prinze Jr.",
+            "Kanan Jarrus"
+          ]
+        },
+        {
+          "number": "DA-SF",
+          "page": 7,
+          "y": 620.38,
+          "subject": "Seventh Sister",
+          "signer": "Sarah Michelle Gellar",
+          "material": null,
+          "sourceFields": [
+            "Sarah Michelle Gellar",
+            "Seventh Sister"
+          ]
+        },
+        {
+          "number": "DA-TT",
+          "page": 7,
+          "y": 607.06,
+          "subject": "Aftab Ackbar",
+          "signer": "Tom Wilton",
+          "material": null,
+          "sourceFields": [
+            "Tom Wilton",
+            "Aftab Ackbar"
+          ]
+        },
+        {
+          "number": "DA-TT",
+          "page": 7,
+          "y": 593.74,
+          "subject": "Admiral Ackbar",
+          "signer": "Tim Rose",
+          "material": null,
+          "sourceFields": [
+            "Tim Rose",
+            "Admiral Ackbar"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TRIPLE AUTOGRAPHS",
+      "rows": [
+        {
+          "number": "TA-AT",
+          "page": 7,
+          "y": 553.78,
+          "subject": "Ahsoka Tano",
+          "signer": "Rosario Dawson",
+          "material": null,
+          "sourceFields": [
+            "Rosario Dawson",
+            "Ahsoka Tano"
+          ]
+        },
+        {
+          "number": "TA-AT",
+          "page": 7,
+          "y": 540.43,
+          "subject": "Hera Syndulla",
+          "signer": "Mary Elizabeth Winstead",
+          "material": null,
+          "sourceFields": [
+            "Mary Elizabeth Winstead",
+            "Hera Syndulla"
+          ]
+        },
+        {
+          "number": "TA-AT",
+          "page": 7,
+          "y": 527.11,
+          "subject": "Sabine Wren",
+          "signer": "Natasha Liu Bordizzo",
+          "material": null,
+          "sourceFields": [
+            "Natasha Liu Bordizzo",
+            "Sabine Wren"
+          ]
+        },
+        {
+          "number": "TA-EMP",
+          "page": 7,
+          "y": 513.79,
+          "subject": "Lando Calrissian",
+          "signer": "Billy Dee Williams",
+          "material": null,
+          "sourceFields": [
+            "Billy Dee Williams",
+            "Lando Calrissian"
+          ]
+        },
+        {
+          "number": "TA-EMP",
+          "page": 7,
+          "y": 500.47,
+          "subject": "Darth Vader",
+          "signer": "David Prowse",
+          "material": null,
+          "sourceFields": [
+            "David Prowse",
+            "Darth Vader"
+          ]
+        },
+        {
+          "number": "TA-EMP",
+          "page": 7,
+          "y": 487.15,
+          "subject": "Boba Fett",
+          "signer": "Jeremy Bulloch",
+          "material": null,
+          "sourceFields": [
+            "Jeremy Bulloch",
+            "Boba Fett"
+          ]
+        },
+        {
+          "number": "TA-GP",
+          "page": 7,
+          "y": 473.83,
+          "subject": "Rey",
+          "signer": "Daisy Ridley",
+          "material": null,
+          "sourceFields": [
+            "Daisy Ridley",
+            "Rey"
+          ]
+        },
+        {
+          "number": "TA-GP",
+          "page": 7,
+          "y": 460.51,
+          "subject": "Queen Amidala",
+          "signer": "Natalie Portman",
+          "material": null,
+          "sourceFields": [
+            "Natalie Portman",
+            "Queen Amidala"
+          ]
+        },
+        {
+          "number": "TA-GP",
+          "page": 7,
+          "y": 447.19,
+          "subject": "Princess Leia",
+          "signer": "Carrie Fisher",
+          "material": null,
+          "sourceFields": [
+            "Carrie Fisher",
+            "Princess Leia"
+          ]
+        },
+        {
+          "number": "TA-ROJ",
+          "page": 7,
+          "y": 433.87,
+          "subject": "Chewbacca",
+          "signer": "Peter Mayhew",
+          "material": null,
+          "sourceFields": [
+            "Peter Mayhew",
+            "Chewbacca"
+          ]
+        },
+        {
+          "number": "TA-ROJ",
+          "page": 7,
+          "y": 420.55,
+          "subject": "Luke Skywalker",
+          "signer": "Mark Hamill",
+          "material": null,
+          "sourceFields": [
+            "Mark Hamill",
+            "Luke Skywalker"
+          ]
+        },
+        {
+          "number": "TA-ROJ",
+          "page": 7,
+          "y": 407.23,
+          "subject": "Han Solo",
+          "signer": "Harrison Ford",
+          "material": null,
+          "sourceFields": [
+            "Harrison Ford",
+            "Han Solo"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "QUAD AUTOGRAPH BOOK CARD",
+      "rows": [
+        {
+          "number": "QAB-DSGG",
+          "page": 7,
+          "y": 367.25,
+          "subject": "General Hux",
+          "signer": "Domnall Gleeson",
+          "material": null,
+          "sourceFields": [
+            "Domnall Gleeson",
+            "General Hux"
+          ]
+        },
+        {
+          "number": "QAB-DSGG",
+          "page": 7,
+          "y": 353.93,
+          "subject": "Supreme Leader Snoke",
+          "signer": "Andy Serkis",
+          "material": null,
+          "sourceFields": [
+            "Andy Serkis",
+            "Supreme Leader Snoke"
+          ]
+        },
+        {
+          "number": "QAB-DSGG",
+          "page": 7,
+          "y": 340.61,
+          "subject": "Supreme Leader Kylo Ren",
+          "signer": "Adam Driver",
+          "material": null,
+          "sourceFields": [
+            "Adam Driver",
+            "Supreme Leader Kylo Ren"
+          ]
+        },
+        {
+          "number": "QAB-DSGG",
+          "page": 7,
+          "y": 327.29,
+          "subject": "General Pryde",
+          "signer": "Richard Grant",
+          "material": null,
+          "sourceFields": [
+            "Richard Grant",
+            "General Pryde"
+          ]
+        },
+        {
+          "number": "QAB-DWBE",
+          "page": 7,
+          "y": 313.97,
+          "subject": "Hera Syndulla",
+          "signer": "Mary Elizabeth Winstead",
+          "material": null,
+          "sourceFields": [
+            "Mary Elizabeth Winstead",
+            "Hera Syndulla"
+          ]
+        },
+        {
+          "number": "QAB-DWBE",
+          "page": 7,
+          "y": 300.65,
+          "subject": "Sabine Wren",
+          "signer": "Natasha Liu Bordizzo",
+          "material": null,
+          "sourceFields": [
+            "Natasha Liu Bordizzo",
+            "Sabine Wren"
+          ]
+        },
+        {
+          "number": "QAB-DWBE",
+          "page": 7,
+          "y": 287.33,
+          "subject": "Ezra Bridger",
+          "signer": "Eman Esfandi",
+          "material": null,
+          "sourceFields": [
+            "Eman Esfandi",
+            "Ezra Bridger"
+          ]
+        },
+        {
+          "number": "QAB-DWBE",
+          "page": 7,
+          "y": 274.01,
+          "subject": "Ahsoka Tano",
+          "signer": "Rosario Dawson",
+          "material": null,
+          "sourceFields": [
+            "Rosario Dawson",
+            "Ahsoka Tano"
+          ]
+        },
+        {
+          "number": "QAB-MPPH",
+          "page": 7,
+          "y": 260.69,
+          "subject": "Luke Skywalker",
+          "signer": "Mark Hamill",
+          "material": null,
+          "sourceFields": [
+            "Mark Hamill",
+            "Luke Skywalker"
+          ]
+        },
+        {
+          "number": "QAB-MPPH",
+          "page": 7,
+          "y": 247.37,
+          "subject": "Ahsoka Tano",
+          "signer": "Rosario Dawson",
+          "material": null,
+          "sourceFields": [
+            "Rosario Dawson",
+            "Ahsoka Tano"
+          ]
+        },
+        {
+          "number": "QAB-MPPH",
+          "page": 7,
+          "y": 234.05,
+          "subject": "Boba Fett",
+          "signer": "Temuera Morrison",
+          "material": null,
+          "sourceFields": [
+            "Temuera Morrison",
+            "Boba Fett"
+          ]
+        },
+        {
+          "number": "QAB-MPPH",
+          "page": 7,
+          "y": 220.73,
+          "subject": "The Mandalorian",
+          "signer": "Pedro Pascal",
+          "material": null,
+          "sourceFields": [
+            "Pedro Pascal",
+            "The Mandalorian"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PEN AUTOGRAPH RELICS",
+      "rows": [
+        {
+          "number": "AP-AA",
+          "page": 7,
+          "subject": "Bix Caleen",
+          "signer": "Adria Arjona",
+          "material": null,
+          "sourceFields": [
+            "Adria Arjona",
+            "Bix Caleen"
+          ]
+        },
+        {
+          "number": "AP-AB",
+          "page": 7,
+          "subject": "Kelleran Beq",
+          "signer": "Ahmed Best",
+          "material": null,
+          "sourceFields": [
+            "Ahmed Best",
+            "Kelleran Beq"
+          ]
+        },
+        {
+          "number": "AP-AD",
+          "page": 7,
+          "subject": "C-3PO",
+          "signer": "Anthony Daniels",
+          "material": null,
+          "sourceFields": [
+            "Anthony Daniels",
+            "C-3PO"
+          ]
+        },
+        {
+          "number": "AP-AM",
+          "page": 7,
+          "subject": "Aayla Secura",
+          "signer": "Amy Allen",
+          "material": null,
+          "sourceFields": [
+            "Amy Allen",
+            "Aayla Secura"
+          ]
+        },
+        {
+          "number": "AP-AS",
+          "page": 7,
+          "subject": "Supreme Leader Snoke",
+          "signer": "Andy Serkis",
+          "material": null,
+          "sourceFields": [
+            "Andy Serkis",
+            "Supreme Leader Snoke"
+          ]
+        },
+        {
+          "number": "AP-B",
+          "page": 7,
+          "subject": "Boss Nass",
+          "signer": "Brian Blessed",
+          "material": null,
+          "sourceFields": [
+            "Brian Blessed",
+            "Boss Nass"
+          ]
+        },
+        {
+          "number": "AP-DM",
+          "page": 7,
+          "subject": "Beaumont Kin",
+          "signer": "Dominic Monaghan",
+          "material": null,
+          "sourceFields": [
+            "Dominic Monaghan",
+            "Beaumont Kin"
+          ]
+        },
+        {
+          "number": "AP-DN",
+          "page": 8,
+          "subject": "Dedra Meero",
+          "signer": "Denise Gough",
+          "material": null,
+          "sourceFields": [
+            "Denise Gough",
+            "Dedra Meero"
+          ]
+        },
+        {
+          "number": "AP-EC",
+          "page": 8,
+          "subject": "Qi'ra",
+          "signer": "Emilia Clarke",
+          "material": null,
+          "sourceFields": [
+            "Emilia Clarke",
+            "Qi'ra"
+          ]
+        },
+        {
+          "number": "AP-EK",
+          "page": 8,
+          "subject": "Enfys Nest",
+          "signer": "Erin Kellyman",
+          "material": null,
+          "sourceFields": [
+            "Erin Kellyman",
+            "Enfys Nest"
+          ]
+        },
+        {
+          "number": "AP-ES",
+          "page": 8,
+          "subject": "The Armorer",
+          "signer": "Emily Swallow",
+          "material": null,
+          "sourceFields": [
+            "Emily Swallow",
+            "The Armorer"
+          ]
+        },
+        {
+          "number": "AP-FPJ",
+          "page": 8,
+          "subject": "Kanan Jarrus",
+          "signer": "Freddie Prinze Jr.",
+          "material": null,
+          "sourceFields": [
+            "Freddie Prinze Jr.",
+            "Kanan Jarrus"
+          ]
+        },
+        {
+          "number": "AP-GC",
+          "page": 8,
+          "subject": "Captain Phasma",
+          "signer": "Gwendoline Christie",
+          "material": null,
+          "sourceFields": [
+            "Gwendoline Christie",
+            "Captain Phasma"
+          ]
+        },
+        {
+          "number": "AP-GO",
+          "page": 8,
+          "subject": "Mon Mothma",
+          "signer": "Genevieve O'Reilly",
+          "material": null,
+          "sourceFields": [
+            "Genevieve O'Reilly",
+            "Mon Mothma"
+          ]
+        },
+        {
+          "number": "AP-IS",
+          "page": 8,
+          "subject": "Shin Hati",
+          "signer": "Ivanna Sakhno",
+          "material": null,
+          "sourceFields": [
+            "Ivanna Sakhno",
+            "Shin Hati"
+          ]
+        },
+        {
+          "number": "AP-JE",
+          "page": 8,
+          "subject": "Owen Lars",
+          "signer": "Joel Edgerton",
+          "material": null,
+          "sourceFields": [
+            "Joel Edgerton",
+            "Owen Lars"
+          ]
+        },
+        {
+          "number": "AP-JN",
+          "page": 8,
+          "subject": "Garsa Fwip",
+          "signer": "Jennifer Beals",
+          "material": null,
+          "sourceFields": [
+            "Jennifer Beals",
+            "Garsa Fwip"
+          ]
+        },
+        {
+          "number": "AP-KK",
+          "page": 8,
+          "subject": "Sabé",
+          "signer": "Keira Knightley",
+          "material": null,
+          "sourceFields": [
+            "Keira Knightley",
+            "Sabé"
+          ]
+        },
+        {
+          "number": "AP-KR",
+          "page": 8,
+          "subject": "Zorii Bliss",
+          "signer": "Keri Russell",
+          "material": null,
+          "sourceFields": [
+            "Keri Russell",
+            "Zorii Bliss"
+          ]
+        },
+        {
+          "number": "AP-KS",
+          "page": 8,
+          "subject": "Bo-Katan Kryze",
+          "signer": "Katee Sackhoff",
+          "material": null,
+          "sourceFields": [
+            "Katee Sackhoff",
+            "Bo-Katan Kryze"
+          ]
+        },
+        {
+          "number": "AP-LM",
+          "page": 8,
+          "subject": "Grand Admiral Thrawn",
+          "signer": "Lars Mikkelsen",
+          "material": null,
+          "sourceFields": [
+            "Lars Mikkelsen",
+            "Grand Admiral Thrawn"
+          ]
+        },
+        {
+          "number": "AP-MEW",
+          "page": 8,
+          "subject": "Hera Syndulla",
+          "signer": "Mary Elizabeth Winstead",
+          "material": null,
+          "sourceFields": [
+            "Mary Elizabeth Winstead",
+            "Hera Syndulla"
+          ]
+        },
+        {
+          "number": "AP-MI",
+          "page": 8,
+          "subject": "Reva",
+          "signer": "Moses Ingram",
+          "material": null,
+          "sourceFields": [
+            "Moses Ingram",
+            "Reva"
+          ]
+        },
+        {
+          "number": "AP-MM",
+          "page": 8,
+          "subject": "Galen Erso",
+          "signer": "Mads Mikkelsen",
+          "material": null,
+          "sourceFields": [
+            "Mads Mikkelsen",
+            "Galen Erso"
+          ]
+        },
+        {
+          "number": "AP-MNW",
+          "page": 8,
+          "subject": "Fennec Shand",
+          "signer": "Ming-Na Wen",
+          "material": null,
+          "sourceFields": [
+            "Ming-Na Wen",
+            "Fennec Shand"
+          ]
+        },
+        {
+          "number": "AP-MW",
+          "page": 8,
+          "subject": "General Grievous",
+          "signer": "Matthew Wood",
+          "material": null,
+          "sourceFields": [
+            "Matthew Wood",
+            "General Grievous"
+          ]
+        },
+        {
+          "number": "AP-NB",
+          "page": 8,
+          "subject": "Sabine Wren",
+          "signer": "Natasha Liu Bordizzo",
+          "material": null,
+          "sourceFields": [
+            "Natasha Liu Bordizzo",
+            "Sabine Wren"
+          ]
+        },
+        {
+          "number": "AP-RA",
+          "page": 8,
+          "subject": "Bodhi Rook",
+          "signer": "Riz Ahmed",
+          "material": null,
+          "sourceFields": [
+            "Riz Ahmed",
+            "Bodhi Rook"
+          ]
+        },
+        {
+          "number": "AP-RP",
+          "page": 8,
+          "subject": "Darth Maul",
+          "signer": "Ray Park",
+          "material": null,
+          "sourceFields": [
+            "Ray Park",
+            "Darth Maul"
+          ]
+        },
+        {
+          "number": "AP-SS",
+          "page": 8,
+          "subject": "Luthen Rael",
+          "signer": "Stellan Skarsgård",
+          "material": null,
+          "sourceFields": [
+            "Stellan Skarsgård",
+            "Luthen Rael"
+          ]
+        },
+        {
+          "number": "AP-T",
+          "page": 8,
+          "subject": "The Modifier",
+          "signer": "Stephen Bruner",
+          "material": null,
+          "sourceFields": [
+            "Stephen Bruner",
+            "The Modifier"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "STORMTROOPER ARMOR AUTOGRAPH VARIATION",
+      "rows": [
+        {
+          "number": "SA-D",
+          "page": 8,
+          "subject": "Stormtrooper",
+          "signer": "Dante Briggins",
+          "material": null,
+          "sourceFields": [
+            "Dante Briggins",
+            "Stormtrooper"
+          ]
+        },
+        {
+          "number": "SA-S",
+          "page": 8,
+          "subject": "Stormtrooper",
+          "signer": "Sam Witwer",
+          "material": null,
+          "sourceFields": [
+            "Sam Witwer",
+            "Stormtrooper"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "STORMTROOPER ARMOR",
+      "rows": [
+        {
+          "number": "S-1",
+          "page": 8,
+          "subject": "Dante Briggins",
+          "signer": null,
+          "material": "Stormtrooper",
+          "sourceFields": [
+            "Dante Briggins",
+            "Stormtrooper"
+          ]
+        },
+        {
+          "number": "S-2",
+          "page": 8,
+          "subject": "Dante Briggins",
+          "signer": null,
+          "material": "Stormtrooper",
+          "sourceFields": [
+            "Dante Briggins",
+            "Stormtrooper"
+          ]
+        },
+        {
+          "number": "S-3",
+          "page": 8,
+          "subject": "Pip Andersen",
+          "signer": null,
+          "material": "Stormtrooper",
+          "sourceFields": [
+            "Pip Andersen",
+            "Stormtrooper"
+          ]
+        },
+        {
+          "number": "S-4",
+          "page": 8,
+          "subject": "Pip Andersen",
+          "signer": null,
+          "material": "Stormtrooper",
+          "sourceFields": [
+            "Pip Andersen",
+            "Stormtrooper"
+          ]
+        },
+        {
+          "number": "S-5",
+          "page": 8,
+          "subject": "Sam Witwer",
+          "signer": null,
+          "material": "Stormtrooper",
+          "sourceFields": [
+            "Sam Witwer",
+            "Stormtrooper"
+          ]
+        },
+        {
+          "number": "S-6",
+          "page": 8,
+          "subject": "Sam Witwer",
+          "signer": null,
+          "material": "Stormtrooper",
+          "sourceFields": [
+            "Sam Witwer",
+            "Stormtrooper"
+          ]
+        },
+        {
+          "number": "S-7",
+          "page": 8,
+          "subject": "Verona Blue",
+          "signer": null,
+          "material": "Stormtrooper",
+          "sourceFields": [
+            "Verona Blue",
+            "Stormtrooper"
+          ]
+        },
+        {
+          "number": "S-8",
+          "page": 8,
+          "subject": "Verona Blue",
+          "signer": null,
+          "material": "Stormtrooper",
+          "sourceFields": [
+            "Verona Blue",
+            "Stormtrooper"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RISE OF THE RESISTANCE RELICS",
+      "rows": [
+        {
+          "number": "RR-B",
+          "page": 8,
+          "subject": "BB-8",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "BB-8"
+          ]
+        },
+        {
+          "number": "RR-F",
+          "page": 8,
+          "subject": "Finn",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Finn"
+          ]
+        },
+        {
+          "number": "RR-G",
+          "page": 8,
+          "subject": "General Hux",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "General Hux"
+          ]
+        },
+        {
+          "number": "RR-K",
+          "page": 8,
+          "subject": "Kylo Ren",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Kylo Ren"
+          ]
+        },
+        {
+          "number": "RR-N",
+          "page": 8,
+          "subject": "Nien Nunb",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Nien Nunb"
+          ]
+        },
+        {
+          "number": "RR-P",
+          "page": 8,
+          "subject": "Poe Dameron",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Poe Dameron"
+          ]
+        },
+        {
+          "number": "RR-R",
+          "page": 8,
+          "subject": "Rey",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Rey"
+          ]
+        },
+        {
+          "number": "RR-S",
+          "page": 8,
+          "subject": "Stormtrooper",
+          "signer": null,
+          "material": null,
+          "sourceFields": [
+            "Stormtrooper"
+          ]
+        }
+      ]
+    }
+  ],
+  "sketchArtists": [
+    {
+      "name": "Angel Aviles",
+      "page": 9
+    },
+    {
+      "name": "Ashley Marsh",
+      "page": 9
+    },
+    {
+      "name": "Ben Jones",
+      "page": 9
+    },
+    {
+      "name": "Mayumi Seto",
+      "page": 9
+    },
+    {
+      "name": "Carlos Cabaleiro",
+      "page": 9
+    },
+    {
+      "name": "Cisco Rivera",
+      "page": 9
+    },
+    {
+      "name": "Dan Bergren",
+      "page": 9
+    },
+    {
+      "name": "Gabe Farber",
+      "page": 9
+    },
+    {
+      "name": "Jamison Murdock",
+      "page": 9
+    },
+    {
+      "name": "Jason Davies",
+      "page": 9
+    },
+    {
+      "name": "Josh Trout",
+      "page": 9
+    },
+    {
+      "name": "DYJ",
+      "page": 9
+    },
+    {
+      "name": "Kris Penix",
+      "page": 9
+    },
+    {
+      "name": "Shyla Lee",
+      "page": 9
+    },
+    {
+      "name": "Yves Van Berlo",
+      "page": 9
+    },
+    {
+      "name": "Aaron Lenahan",
+      "page": 9
+    },
+    {
+      "name": "Adam Beck",
+      "page": 9
+    },
+    {
+      "name": "Allen Grimes",
+      "page": 9
+    },
+    {
+      "name": "Andy Hanks",
+      "page": 9
+    },
+    {
+      "name": "Anthony Pietszak",
+      "page": 9
+    },
+    {
+      "name": "Basak Kahraman",
+      "page": 9
+    },
+    {
+      "name": "Bobby Blakey",
+      "page": 9
+    },
+    {
+      "name": "Brandon Klein",
+      "page": 9
+    },
+    {
+      "name": "Brandon \"B.Done\" Blevins",
+      "page": 9
+    },
+    {
+      "name": "Chris Thorne",
+      "page": 9
+    },
+    {
+      "name": "Christoffer Allen Victoria",
+      "page": 9
+    },
+    {
+      "name": "Clinton Yeager",
+      "page": 9
+    },
+    {
+      "name": "Cory Payne, CMP",
+      "page": 9
+    },
+    {
+      "name": "Dan Cooney",
+      "page": 9
+    },
+    {
+      "name": "Dan Lawler",
+      "page": 9
+    },
+    {
+      "name": "Dan Gorman",
+      "page": 9
+    },
+    {
+      "name": "Dave Wilson",
+      "page": 9
+    },
+    {
+      "name": "David Willingham",
+      "page": 9
+    },
+    {
+      "name": "Debjit Kar",
+      "page": 9
+    },
+    {
+      "name": "Derek A Johnson",
+      "page": 9
+    },
+    {
+      "name": "Dirk Shearer",
+      "page": 9
+    },
+    {
+      "name": "Emre VARLIBAŞ",
+      "page": 9
+    },
+    {
+      "name": "Ian McKesson",
+      "page": 9
+    },
+    {
+      "name": "J.Hammond",
+      "page": 9
+    },
+    {
+      "name": "Jackson \"JackArts\" Ong",
+      "page": 9
+    },
+    {
+      "name": "Jake Minor",
+      "page": 9
+    },
+    {
+      "name": "James Harris",
+      "page": 9
+    },
+    {
+      "name": "Jamie Richards",
+      "page": 9
+    },
+    {
+      "name": "Jane Rushton",
+      "page": 9
+    },
+    {
+      "name": "Jason Sobol",
+      "page": 9
+    },
+    {
+      "name": "Jeffrey C. Benitez",
+      "page": 9
+    },
+    {
+      "name": "Jessica Van Dusen",
+      "page": 10
+    },
+    {
+      "name": "Joey Mason",
+      "page": 10
+    },
+    {
+      "name": "John Still",
+      "page": 10
+    },
+    {
+      "name": "John Pleak",
+      "page": 10
+    },
+    {
+      "name": "Joe Ortiz",
+      "page": 10
+    },
+    {
+      "name": "Julia McKenzie",
+      "page": 10
+    },
+    {
+      "name": "Julie-Anne",
+      "page": 10
+    },
+    {
+      "name": "Karl Jones",
+      "page": 10
+    },
+    {
+      "name": "Keith Farnum",
+      "page": 10
+    },
+    {
+      "name": "Kevin Scott Jacobs",
+      "page": 10
+    },
+    {
+      "name": "Khloe Delnick",
+      "page": 10
+    },
+    {
+      "name": "Krishna Sharma",
+      "page": 10
+    },
+    {
+      "name": "Lukas Maurer",
+      "page": 10
+    },
+    {
+      "name": "Luke Seavers",
+      "page": 10
+    },
+    {
+      "name": "Marlo Agunos",
+      "page": 10
+    },
+    {
+      "name": "Matt Steffens",
+      "page": 10
+    },
+    {
+      "name": "Matt Stewart",
+      "page": 10
+    },
+    {
+      "name": "Michael Munshaw",
+      "page": 10
+    },
+    {
+      "name": "Mike J Sealie",
+      "page": 10
+    },
+    {
+      "name": "Mike LaPeruta",
+      "page": 10
+    },
+    {
+      "name": "Mike Dalzell",
+      "page": 10
+    },
+    {
+      "name": "Mongola Das",
+      "page": 10
+    },
+    {
+      "name": "Neil Camera",
+      "page": 10
+    },
+    {
+      "name": "Neil A Brady",
+      "page": 10
+    },
+    {
+      "name": "Nick Sutphin",
+      "page": 10
+    },
+    {
+      "name": "Oscar Chavez",
+      "page": 10
+    },
+    {
+      "name": "Patrick Giles",
+      "page": 10
+    },
+    {
+      "name": "Rich \"RAM\" Molinelli",
+      "page": 10
+    },
+    {
+      "name": "Rob Demers",
+      "page": 10
+    },
+    {
+      "name": "Rusty Gilligan",
+      "page": 10
+    },
+    {
+      "name": "Ryan Edwards",
+      "page": 10
+    },
+    {
+      "name": "Ryan Thompson",
+      "page": 10
+    },
+    {
+      "name": "Ryan Johnston",
+      "page": 10
+    },
+    {
+      "name": "Scott West",
+      "page": 10
+    },
+    {
+      "name": "Sean Mathews",
+      "page": 10
+    },
+    {
+      "name": "Srijan Das",
+      "page": 10
+    },
+    {
+      "name": "Rico Dela Rosa",
+      "page": 10
+    },
+    {
+      "name": "Vincenzo \"Chenduz\" D'Ippolito",
+      "page": 10
+    },
+    {
+      "name": "Zach Woolsey",
+      "page": 10
+    },
+    {
+      "name": "Alex Mines",
+      "page": 10
+    },
+    {
+      "name": "Angelina Benedetti",
+      "page": 10
+    },
+    {
+      "name": "Brent Scotchmer",
+      "page": 10
+    },
+    {
+      "name": "Candice Dailey",
+      "page": 10
+    },
+    {
+      "name": "Cyrus Sherkat",
+      "page": 10
+    },
+    {
+      "name": "Daniel Chavez",
+      "page": 10
+    },
+    {
+      "name": "Dan Tearle",
+      "page": 10
+    },
+    {
+      "name": "Darrin Pepe",
+      "page": 10
+    },
+    {
+      "name": "Dave Gaskin",
+      "page": 10
+    },
+    {
+      "name": "Douglas Stromenger",
+      "page": 10
+    },
+    {
+      "name": "Eddie Rhodes III",
+      "page": 10
+    },
+    {
+      "name": "Eric Lehtonen",
+      "page": 10
+    },
+    {
+      "name": "Frank A. Kadar",
+      "page": 11
+    },
+    {
+      "name": "Gerry Garcia Jr",
+      "page": 11
+    },
+    {
+      "name": "Jason Christner",
+      "page": 11
+    },
+    {
+      "name": "Jason Saldajeno",
+      "page": 11
+    },
+    {
+      "name": "Jay Manchand",
+      "page": 11
+    },
+    {
+      "name": "Jonathan Beistline",
+      "page": 11
+    },
+    {
+      "name": "Kang Jing",
+      "page": 11
+    },
+    {
+      "name": "Kevin Graham",
+      "page": 11
+    },
+    {
+      "name": "Kyle Babbitt",
+      "page": 11
+    },
+    {
+      "name": "Lindsey Greyling",
+      "page": 11
+    },
+    {
+      "name": "Madison Emerick",
+      "page": 11
+    },
+    {
+      "name": "Marcia Dye",
+      "page": 11
+    },
+    {
+      "name": "Patricio Carrasco",
+      "page": 11
+    },
+    {
+      "name": "Rebeca  Louro",
+      "page": 11
+    },
+    {
+      "name": "Rugved Bhuskute",
+      "page": 11
+    },
+    {
+      "name": "Sammy Gomez",
+      "page": 11
+    },
+    {
+      "name": "Semra Bulut",
+      "page": 11
+    },
+    {
+      "name": "Steve Alce",
+      "page": 11
+    },
+    {
+      "name": "Veronica Louro",
+      "page": 11
+    },
+    {
+      "name": "Will Pleydon",
+      "page": 11
+    },
+    {
+      "name": "Aleksandr Gigov",
+      "page": 11
+    },
+    {
+      "name": "Andrew Fry",
+      "page": 11
+    },
+    {
+      "name": "Antni Ellison",
+      "page": 11
+    },
+    {
+      "name": "Roy Cover",
+      "page": 11
+    },
+    {
+      "name": "Sir Edmund Duke",
+      "page": 11
+    },
+    {
+      "name": "Brent Ragland",
+      "page": 11
+    },
+    {
+      "name": "Candice Clemmons",
+      "page": 11
+    },
+    {
+      "name": "Charlie Cody",
+      "page": 11
+    },
+    {
+      "name": "Dan Curto",
+      "page": 11
+    },
+    {
+      "name": "Daniel Riveron",
+      "page": 11
+    },
+    {
+      "name": "Dawn Murphy",
+      "page": 11
+    },
+    {
+      "name": "Don Pedicini Jr",
+      "page": 11
+    },
+    {
+      "name": "David \"Dove\" McHargue",
+      "page": 11
+    },
+    {
+      "name": "Dwayne Carpenter",
+      "page": 11
+    },
+    {
+      "name": "Dylan Riley",
+      "page": 11
+    },
+    {
+      "name": "Elvin A Hernandez",
+      "page": 11
+    },
+    {
+      "name": "Emrah Cildir",
+      "page": 11
+    },
+    {
+      "name": "Eric Medina",
+      "page": 11
+    },
+    {
+      "name": "Erik Muller",
+      "page": 11
+    },
+    {
+      "name": "Evgheni Batu",
+      "page": 11
+    },
+    {
+      "name": "Frank Sansone",
+      "page": 11
+    },
+    {
+      "name": "Garrett Dix",
+      "page": 11
+    },
+    {
+      "name": "Isiah Xavier Bradley",
+      "page": 11
+    },
+    {
+      "name": "Jaime Lopez",
+      "page": 11
+    },
+    {
+      "name": "Jim O'Riley",
+      "page": 11
+    },
+    {
+      "name": "James Boyd",
+      "page": 11
+    },
+    {
+      "name": "Jim Dickson",
+      "page": 11
+    },
+    {
+      "name": "Jason Queen",
+      "page": 11
+    },
+    {
+      "name": "Jason Montoya",
+      "page": 11
+    },
+    {
+      "name": "Jason Adams",
+      "page": 11
+    },
+    {
+      "name": "Jessica Hickman",
+      "page": 11
+    },
+    {
+      "name": "John \"JAR\" Rodriguez",
+      "page": 12
+    },
+    {
+      "name": "John Bruce",
+      "page": 12
+    },
+    {
+      "name": "Kevin Cleveland",
+      "page": 12
+    },
+    {
+      "name": "Limuel Pinzon",
+      "page": 12
+    },
+    {
+      "name": "Mathilde Machuel",
+      "page": 12
+    },
+    {
+      "name": "Matt Maldonado",
+      "page": 12
+    },
+    {
+      "name": "Matthew Sutton",
+      "page": 12
+    },
+    {
+      "name": "Michael Mastermaker",
+      "page": 12
+    },
+    {
+      "name": "Nathaniel Howard",
+      "page": 12
+    },
+    {
+      "name": "Nick Gribbon",
+      "page": 12
+    },
+    {
+      "name": "Patrick Richardson",
+      "page": 12
+    },
+    {
+      "name": "Phillip Trujillo",
+      "page": 12
+    },
+    {
+      "name": "Rachel Jane Hetherington",
+      "page": 12
+    },
+    {
+      "name": "Rees Chua-Finlay",
+      "page": 12
+    },
+    {
+      "name": "Rich Hennemann",
+      "page": 12
+    },
+    {
+      "name": "El Smetchö",
+      "page": 12
+    },
+    {
+      "name": "Robert Hendrickson",
+      "page": 12
+    },
+    {
+      "name": "Rutvig Vaid",
+      "page": 12
+    },
+    {
+      "name": "Ryan Crosby",
+      "page": 12
+    },
+    {
+      "name": "Ryan Finley",
+      "page": 12
+    },
+    {
+      "name": "Ryan Moffett",
+      "page": 12
+    },
+    {
+      "name": "Ryan Olsen",
+      "page": 12
+    },
+    {
+      "name": "Sam Barugh",
+      "page": 12
+    },
+    {
+      "name": "Sean Earey",
+      "page": 12
+    },
+    {
+      "name": "Shaow Siong",
+      "page": 12
+    },
+    {
+      "name": "Stephane Leonardi",
+      "page": 12
+    },
+    {
+      "name": "Ted Dastick Jr",
+      "page": 12
+    },
+    {
+      "name": "Tim Shinn",
+      "page": 12
+    },
+    {
+      "name": "Tom Amici",
+      "page": 12
+    },
+    {
+      "name": "Tony Riley",
+      "page": 12
+    },
+    {
+      "name": "Traci Easterday",
+      "page": 12
+    },
+    {
+      "name": "Vini Pirani",
+      "page": 12
+    },
+    {
+      "name": "Ward Silverman",
+      "page": 12
+    },
+    {
+      "name": "Mike Stephens",
+      "page": 12
+    }
+  ],
+  "multiSignerLabels": [
+    {
+      "number": "DA-CB",
+      "page": 6,
+      "y": 134.54
+    },
+    {
+      "number": "DA-HR",
+      "page": 6,
+      "y": 54.624
+    },
+    {
+      "number": "DA-EN",
+      "page": 6,
+      "y": 81.264
+    },
+    {
+      "number": "DA-DF",
+      "page": 6,
+      "y": 107.9
+    },
+    {
+      "number": "TA-AT",
+      "page": 7,
+      "y": 540.91
+    },
+    {
+      "number": "TA-EMP",
+      "page": 7,
+      "y": 500.95
+    },
+    {
+      "number": "TA-GP",
+      "page": 7,
+      "y": 460.99
+    },
+    {
+      "number": "DA-TT",
+      "page": 7,
+      "y": 600.82
+    },
+    {
+      "number": "DA-SF",
+      "page": 7,
+      "y": 627.46
+    },
+    {
+      "number": "DA-RE",
+      "page": 7,
+      "y": 654.1
+    },
+    {
+      "number": "DA-KG",
+      "page": 7,
+      "y": 680.74
+    },
+    {
+      "number": "DA-ID",
+      "page": 7,
+      "y": 707.38
+    },
+    {
+      "number": "DA-HR",
+      "page": 7,
+      "y": 734.04
+    },
+    {
+      "number": "TA-ROJ",
+      "page": 7,
+      "y": 421.03
+    },
+    {
+      "number": "QAB-MPPH",
+      "page": 7,
+      "y": 241.13
+    },
+    {
+      "number": "QAB-DWBE",
+      "page": 7,
+      "y": 294.41
+    },
+    {
+      "number": "QAB-DSGG",
+      "page": 7,
+      "y": 347.69
+    }
+  ],
+  "sourceArtifacts": [
+    {
+      "text": "Star Wars: Tales of The Empire",
+      "page": 16,
+      "x": -98.424,
+      "y": 673.66,
+      "reason": "Detached off-page story-context fragment; not an artist or card identity."
+    },
+    {
+      "text": "Star Wars: The Phantom Menace",
+      "page": 17,
+      "x": -98.424,
+      "y": 513.79,
+      "reason": "Detached off-page story-context fragment; not an artist or card identity."
+    },
+    {
+      "text": "Star Wars: Attack of the Clones",
+      "page": 17,
+      "x": -98.424,
+      "y": 500.47,
+      "reason": "Detached off-page story-context fragment; not an artist or card identity."
+    },
+    {
+      "text": "Star Wars: Revenge of The Sith",
+      "page": 17,
+      "x": -98.424,
+      "y": 487.15,
+      "reason": "Detached off-page story-context fragment; not an artist or card identity."
+    },
+    {
+      "text": "Star Wars: Revenge of The Sith",
+      "page": 17,
+      "x": -98.424,
+      "y": 473.83,
+      "reason": "Detached off-page story-context fragment; not an artist or card identity."
+    },
+    {
+      "text": "Star Wars: The Empire Strikes Back",
+      "page": 17,
+      "x": -98.424,
+      "y": 420.55,
+      "reason": "Detached off-page story-context fragment; not an artist or card identity."
+    },
+    {
+      "text": "Star Wars: Return of The Jedi",
+      "page": 17,
+      "x": -98.424,
+      "y": 407.23,
+      "reason": "Detached off-page story-context fragment; not an artist or card identity."
+    },
+    {
+      "text": "Star Wars: Return of The Jedi",
+      "page": 17,
+      "x": -98.424,
+      "y": 393.91,
+      "reason": "Detached off-page story-context fragment; not an artist or card identity."
+    },
+    {
+      "text": "Star Wars: Attack of the Clones",
+      "page": 17,
+      "x": -98.424,
+      "y": 353.93,
+      "reason": "Detached off-page story-context fragment; not an artist or card identity."
+    },
+    {
+      "text": "Star Wars: Attack of the Clones",
+      "page": 17,
+      "x": -98.424,
+      "y": 340.61,
+      "reason": "Detached off-page story-context fragment; not an artist or card identity."
+    },
+    {
+      "text": "Star Wars: Attack of the Clones",
+      "page": 17,
+      "x": -98.424,
+      "y": 327.29,
+      "reason": "Detached off-page story-context fragment; not an artist or card identity."
+    },
+    {
+      "text": "Star Wars: Revenge of The Sith",
+      "page": 17,
+      "x": -98.424,
+      "y": 313.97,
+      "reason": "Detached off-page story-context fragment; not an artist or card identity."
+    },
+    {
+      "text": "Star Wars: Revenge of The Sith",
+      "page": 17,
+      "x": -98.424,
+      "y": 300.65,
+      "reason": "Detached off-page story-context fragment; not an artist or card identity."
+    },
+    {
+      "text": "Star Wars: The Empire Strikes Back",
+      "page": 17,
+      "x": -98.424,
+      "y": 274.01,
+      "reason": "Detached off-page story-context fragment; not an artist or card identity."
+    },
+    {
+      "text": "Star Wars: The Empire Strikes Back",
+      "page": 17,
+      "x": -98.424,
+      "y": 260.69,
+      "reason": "Detached off-page story-context fragment; not an artist or card identity."
+    },
+    {
+      "text": "Star Wars: Return of The Jedi",
+      "page": 17,
+      "x": -98.424,
+      "y": 247.37,
+      "reason": "Detached off-page story-context fragment; not an artist or card identity."
+    }
+  ],
+  "blankPages": [
+    13,
+    14,
+    15
+  ],
+  "odds": [
+    {
+      "label": "BASE CARDS BLUE",
+      "hobby": "1:2",
+      "page": 1,
+      "rawCells": [
+        "BASE CARDS BLUE",
+        "1:2"
+      ]
+    },
+    {
+      "label": "BASE CARDS GREEN",
+      "hobby": "1:6",
+      "page": 1,
+      "rawCells": [
+        "BASE CARDS GREEN",
+        "1:6"
+      ]
+    },
+    {
+      "label": "BASE CARDS PURPLE",
+      "hobby": "1:11",
+      "page": 1,
+      "rawCells": [
+        "BASE CARDS PURPLE",
+        "1:11"
+      ]
+    },
+    {
+      "label": "BASE CARDS RED",
+      "hobby": "1:21",
+      "page": 1,
+      "rawCells": [
+        "BASE CARDS RED",
+        "1:21"
+      ]
+    },
+    {
+      "label": "BASE CARDS ORANGE",
+      "hobby": "1:51",
+      "page": 1,
+      "rawCells": [
+        "BASE CARDS ORANGE",
+        "1:51"
+      ]
+    },
+    {
+      "label": "BASE CARDS BLACK",
+      "hobby": "1:102",
+      "page": 1,
+      "rawCells": [
+        "BASE CARDS BLACK",
+        "1:102"
+      ]
+    },
+    {
+      "label": "BASE CARDS GOLD",
+      "hobby": "1:510",
+      "page": 1,
+      "rawCells": [
+        "BASE CARDS GOLD",
+        "1:510"
+      ]
+    },
+    {
+      "label": "BASE CARDS PRINTING PLATES",
+      "hobby": "1:127",
+      "page": 1,
+      "rawCells": [
+        "BASE CARDS PRINTING PLATES",
+        "1:127"
+      ]
+    },
+    {
+      "label": "BEHIND THE NEW SCENES",
+      "hobby": "1:5",
+      "page": 1,
+      "rawCells": [
+        "BEHIND THE NEW SCENES",
+        "1:5"
+      ]
+    },
+    {
+      "label": "BEHIND THE NEW SCENES RAINBOW FOIL",
+      "hobby": "1:8",
+      "page": 1,
+      "rawCells": [
+        "BEHIND THE NEW SCENES RAINBOW FOIL",
+        "1:8"
+      ]
+    },
+    {
+      "label": "BEHIND THE NEW SCENES CANVAS",
+      "hobby": "1:88",
+      "page": 1,
+      "rawCells": [
+        "BEHIND THE NEW SCENES CANVAS",
+        "1:88"
+      ]
+    },
+    {
+      "label": "BEHIND THE NEW SCENES WOOD",
+      "hobby": "1:220",
+      "page": 1,
+      "rawCells": [
+        "BEHIND THE NEW SCENES WOOD",
+        "1:220"
+      ]
+    },
+    {
+      "label": "BEHIND THE NEW SCENES METAL",
+      "hobby": "1:437",
+      "page": 1,
+      "rawCells": [
+        "BEHIND THE NEW SCENES METAL",
+        "1:437"
+      ]
+    },
+    {
+      "label": "BEHIND THE NEW SCENES GOLD METAL",
+      "hobby": "1:2,200",
+      "page": 1,
+      "rawCells": [
+        "BEHIND THE NEW SCENES GOLD METAL",
+        "1:2,200"
+      ]
+    },
+    {
+      "label": "BEHIND THE NEW SCENES PRINTING PLATES",
+      "hobby": "1:550",
+      "page": 1,
+      "rawCells": [
+        "BEHIND THE NEW SCENES PRINTING PLATES",
+        "1:550"
+      ]
+    },
+    {
+      "label": "JOURNEY OF AHSOKA TANO",
+      "hobby": "1:6",
+      "page": 1,
+      "rawCells": [
+        "JOURNEY OF AHSOKA TANO",
+        "1:6"
+      ]
+    },
+    {
+      "label": "JOURNEY OF AHSOKA TANO RAINBOW FOIL",
+      "hobby": "1:9",
+      "page": 1,
+      "rawCells": [
+        "JOURNEY OF AHSOKA TANO RAINBOW FOIL",
+        "1:9"
+      ]
+    },
+    {
+      "label": "JOURNEY OF AHSOKA TANO CANVAS",
+      "hobby": "1:102",
+      "page": 1,
+      "rawCells": [
+        "JOURNEY OF AHSOKA TANO CANVAS",
+        "1:102"
+      ]
+    },
+    {
+      "label": "JOURNEY OF AHSOKA TANO WOOD",
+      "hobby": "1:253",
+      "page": 1,
+      "rawCells": [
+        "JOURNEY OF AHSOKA TANO WOOD",
+        "1:253"
+      ]
+    },
+    {
+      "label": "JOURNEY OF AHSOKA TANO METAL",
+      "hobby": "1:500",
+      "page": 1,
+      "rawCells": [
+        "JOURNEY OF AHSOKA TANO METAL",
+        "1:500"
+      ]
+    },
+    {
+      "label": "JOURNEY OF AHSOKA TANO GOLD METAL",
+      "hobby": "1:2,423",
+      "page": 1,
+      "rawCells": [
+        "JOURNEY OF AHSOKA TANO GOLD METAL",
+        "1:2,423"
+      ]
+    },
+    {
+      "label": "JOURNEY OF AHSOKA TANO PRINTING PLATES",
+      "hobby": "1:622",
+      "page": 1,
+      "rawCells": [
+        "JOURNEY OF AHSOKA TANO PRINTING PLATES",
+        "1:622"
+      ]
+    },
+    {
+      "label": "THE GRAND ADMIRAL",
+      "hobby": "1:6",
+      "page": 1,
+      "rawCells": [
+        "THE GRAND ADMIRAL",
+        "1:6"
+      ]
+    },
+    {
+      "label": "THE GRAND ADMIRAL RAINBOW FOIL",
+      "hobby": "1:9",
+      "page": 1,
+      "rawCells": [
+        "THE GRAND ADMIRAL RAINBOW FOIL",
+        "1:9"
+      ]
+    },
+    {
+      "label": "THE GRAND ADMIRAL CANVAS",
+      "hobby": "1:102",
+      "page": 1,
+      "rawCells": [
+        "THE GRAND ADMIRAL CANVAS",
+        "1:102"
+      ]
+    },
+    {
+      "label": "THE GRAND ADMIRAL WOOD",
+      "hobby": "1:253",
+      "page": 1,
+      "rawCells": [
+        "THE GRAND ADMIRAL WOOD",
+        "1:253"
+      ]
+    },
+    {
+      "label": "THE GRAND ADMIRAL PRINTING PLATES",
+      "hobby": "1:622",
+      "page": 1,
+      "rawCells": [
+        "THE GRAND ADMIRAL PRINTING PLATES",
+        "1:622"
+      ]
+    },
+    {
+      "label": "MARVEL COMICS COVERS",
+      "hobby": "1:4",
+      "page": 1,
+      "rawCells": [
+        "MARVEL COMICS COVERS",
+        "1:4"
+      ]
+    },
+    {
+      "label": "MARVEL COMICS COVERS RAINBOW FOIL",
+      "hobby": "1:6",
+      "page": 1,
+      "rawCells": [
+        "MARVEL COMICS COVERS RAINBOW FOIL",
+        "1:6"
+      ]
+    },
+    {
+      "label": "MARVEL COMICS COVERS CANVAS",
+      "hobby": "1:62",
+      "page": 1,
+      "rawCells": [
+        "MARVEL COMICS COVERS CANVAS",
+        "1:62"
+      ]
+    },
+    {
+      "label": "MARVEL COMICS COVERS WOOD",
+      "hobby": "1:153",
+      "page": 1,
+      "rawCells": [
+        "MARVEL COMICS COVERS WOOD",
+        "1:153"
+      ]
+    },
+    {
+      "label": "MARVEL COMICS COVERS METAL",
+      "hobby": "1:303",
+      "page": 1,
+      "rawCells": [
+        "MARVEL COMICS COVERS METAL",
+        "1:303"
+      ]
+    },
+    {
+      "label": "MARVEL COMICS COVERS GOLD METAL",
+      "hobby": "1:1,469",
+      "page": 1,
+      "rawCells": [
+        "MARVEL COMICS COVERS GOLD METAL",
+        "1:1,469"
+      ]
+    },
+    {
+      "label": "MARVEL COMICS COVERS PRINTING PLATES",
+      "hobby": "1:379",
+      "page": 1,
+      "rawCells": [
+        "MARVEL COMICS COVERS PRINTING PLATES",
+        "1:379"
+      ]
+    },
+    {
+      "label": "FORCE SPIRITS",
+      "hobby": "1:15",
+      "page": 1,
+      "rawCells": [
+        "FORCE SPIRITS",
+        "1:15"
+      ]
+    },
+    {
+      "label": "ARTOO-DETOO",
+      "hobby": "1:1,000",
+      "page": 1,
+      "rawCells": [
+        "ARTOO-DETOO",
+        "1:1,000"
+      ]
+    },
+    {
+      "label": "SEE-THREEPIO",
+      "hobby": "1:1,000",
+      "page": 1,
+      "rawCells": [
+        "SEE-THREEPIO",
+        "1:1,000"
+      ]
+    },
+    {
+      "label": "ON CARD AUTOGRAPHS",
+      "hobby": "1:2",
+      "page": 1,
+      "rawCells": [
+        "ON CARD AUTOGRAPHS",
+        "1:2"
+      ]
+    },
+    {
+      "label": "ON CARD AUTOGRAPHS BLUE FOIL",
+      "hobby": "1:12",
+      "page": 1,
+      "rawCells": [
+        "ON CARD AUTOGRAPHS BLUE FOIL",
+        "1:12"
+      ]
+    },
+    {
+      "label": "ON CARD AUTOGRAPHS RAINBOW FOIL",
+      "hobby": "1:24",
+      "page": 1,
+      "rawCells": [
+        "ON CARD AUTOGRAPHS RAINBOW FOIL",
+        "1:24"
+      ]
+    },
+    {
+      "label": "ON CARD AUTOGRAPHS CANVAS",
+      "hobby": "1:49",
+      "page": 1,
+      "rawCells": [
+        "ON CARD AUTOGRAPHS CANVAS",
+        "1:49"
+      ]
+    },
+    {
+      "label": "ON CARD AUTOGRAPHS WOOD",
+      "hobby": "1:103",
+      "page": 1,
+      "rawCells": [
+        "ON CARD AUTOGRAPHS WOOD",
+        "1:103"
+      ]
+    },
+    {
+      "label": "ON CARD AUTOGRAPHS SILVER FRAMED",
+      "hobby": "1:208",
+      "page": 1,
+      "rawCells": [
+        "ON CARD AUTOGRAPHS SILVER FRAMED",
+        "1:208"
+      ]
+    },
+    {
+      "label": "ON CARD AUTOGRAPHS GOLD FRAMED",
+      "hobby": "1:1,181",
+      "page": 1,
+      "rawCells": [
+        "ON CARD AUTOGRAPHS GOLD FRAMED",
+        "1:1,181"
+      ]
+    },
+    {
+      "label": "ON CARD AUTOGRAPHS PRINTING PLATES",
+      "hobby": "1:258",
+      "page": 1,
+      "rawCells": [
+        "ON CARD AUTOGRAPHS PRINTING PLATES",
+        "1:258"
+      ]
+    },
+    {
+      "label": "DUO AUTOGRAPHS",
+      "hobby": "1:1,030",
+      "page": 1,
+      "rawCells": [
+        "DUO AUTOGRAPHS",
+        "1:1,030"
+      ]
+    },
+    {
+      "label": "DUO AUTOGRAPHS WOOD",
+      "hobby": "1:1,274",
+      "page": 1,
+      "rawCells": [
+        "DUO AUTOGRAPHS WOOD",
+        "1:1,274"
+      ]
+    },
+    {
+      "label": "DUO AUTOGRAPHS BLACK",
+      "hobby": "1:2,548",
+      "page": 1,
+      "rawCells": [
+        "DUO AUTOGRAPHS BLACK",
+        "1:2,548"
+      ]
+    },
+    {
+      "label": "DUO AUTOGRAPHS GOLD",
+      "hobby": "1:5,379",
+      "page": 1,
+      "rawCells": [
+        "DUO AUTOGRAPHS GOLD",
+        "1:5,379"
+      ]
+    },
+    {
+      "label": "TRIO AUTOGRAPHS",
+      "hobby": "1:2,017",
+      "page": 1,
+      "rawCells": [
+        "TRIO AUTOGRAPHS",
+        "1:2,017"
+      ]
+    },
+    {
+      "label": "TRIO AUTOGRAPHS WOOD",
+      "hobby": "1:4,841",
+      "page": 1,
+      "rawCells": [
+        "TRIO AUTOGRAPHS WOOD",
+        "1:4,841"
+      ]
+    },
+    {
+      "label": "TRIO AUTOGRAPHS BLACK",
+      "hobby": "1:9,683",
+      "page": 1,
+      "rawCells": [
+        "TRIO AUTOGRAPHS BLACK",
+        "1:9,683"
+      ]
+    },
+    {
+      "label": "TRIO AUTOGRAPHS GOLD",
+      "hobby": "1:12,104",
+      "page": 1,
+      "rawCells": [
+        "TRIO AUTOGRAPHS GOLD",
+        "1:12,104"
+      ]
+    },
+    {
+      "label": "QUAD AUTOGRAPH BOOK CARD",
+      "hobby": "1:3,227",
+      "page": 1,
+      "rawCells": [
+        "QUAD AUTOGRAPH BOOK CARD",
+        "1:3,227"
+      ]
+    },
+    {
+      "label": "QUAD AUTOGRAPH BOOK CARD GOLD",
+      "hobby": "1:16,138",
+      "page": 1,
+      "rawCells": [
+        "QUAD AUTOGRAPH BOOK CARD GOLD",
+        "1:16,138"
+      ]
+    },
+    {
+      "label": "PEN AUTOGRAPHS RELICS",
+      "hobby": "1:1,669",
+      "page": 1,
+      "rawCells": [
+        "PEN AUTOGRAPHS RELICS",
+        "1:1,669"
+      ]
+    },
+    {
+      "label": "STORMTROOPER ARMOR",
+      "hobby": "1:39",
+      "page": 1,
+      "rawCells": [
+        "STORMTROOPER ARMOR",
+        "1:39"
+      ]
+    },
+    {
+      "label": "STORMTROOPER ARMOR PURPLE",
+      "hobby": "1:127",
+      "page": 1,
+      "rawCells": [
+        "STORMTROOPER ARMOR PURPLE",
+        "1:127"
+      ]
+    },
+    {
+      "label": "STORMTROOPER ARMOR RED",
+      "hobby": "1:253",
+      "page": 1,
+      "rawCells": [
+        "STORMTROOPER ARMOR RED",
+        "1:253"
+      ]
+    },
+    {
+      "label": "STORMTROOPER ARMOR ORANGE",
+      "hobby": "1:622",
+      "page": 1,
+      "rawCells": [
+        "STORMTROOPER ARMOR ORANGE",
+        "1:622"
+      ]
+    },
+    {
+      "label": "STORMTROOPER ARMOR BLACK",
+      "hobby": "1:1,243",
+      "page": 1,
+      "rawCells": [
+        "STORMTROOPER ARMOR BLACK",
+        "1:1,243"
+      ]
+    },
+    {
+      "label": "STORMTROOPER ARMOR GOLD",
+      "hobby": "1:6,056",
+      "page": 1,
+      "rawCells": [
+        "STORMTROOPER ARMOR GOLD",
+        "1:6,056"
+      ]
+    },
+    {
+      "label": "STORMTROOPER ARMOR AUTOGRAPH VARIATION",
+      "hobby": "1:2,423",
+      "page": 1,
+      "rawCells": [
+        "STORMTROOPER ARMOR AUTOGRAPH VARIATION",
+        "1:2,423"
+      ]
+    },
+    {
+      "label": "STORMTROOPER ARMOR AUTOGRAPH VARIATION BLAC",
+      "hobby": "1:4,845",
+      "page": 1,
+      "rawCells": [
+        "STORMTROOPER ARMOR AUTOGRAPH VARIATION BLAC",
+        "1:4,845"
+      ]
+    },
+    {
+      "label": "STORMTROOPER ARMOR AUTOGRAPH VARIATION GOLD",
+      "hobby": "1:24,224",
+      "page": 1,
+      "rawCells": [
+        "STORMTROOPER ARMOR AUTOGRAPH VARIATION GOLD",
+        "1:24,224"
+      ]
+    },
+    {
+      "label": "RISE OF THE RESISTANCE RELICS",
+      "hobby": "1:22",
+      "page": 1,
+      "rawCells": [
+        "RISE OF THE RESISTANCE RELICS",
+        "1:22"
+      ]
+    },
+    {
+      "label": "RISE OF THE RESISTANCE RELICS GREEN",
+      "hobby": "1:64",
+      "page": 1,
+      "rawCells": [
+        "RISE OF THE RESISTANCE RELICS GREEN",
+        "1:64"
+      ]
+    },
+    {
+      "label": "RISE OF THE RESISTANCE RELICS PURPLE",
+      "hobby": "1:127",
+      "page": 1,
+      "rawCells": [
+        "RISE OF THE RESISTANCE RELICS PURPLE",
+        "1:127"
+      ]
+    },
+    {
+      "label": "RISE OF THE RESISTANCE RELIC RED",
+      "hobby": "1:253",
+      "page": 1,
+      "rawCells": [
+        "RISE OF THE RESISTANCE RELIC RED",
+        "1:253"
+      ]
+    },
+    {
+      "label": "RISE OF THE RESISTANCE RELICS ORANGE",
+      "hobby": "1:622",
+      "page": 1,
+      "rawCells": [
+        "RISE OF THE RESISTANCE RELICS ORANGE",
+        "1:622"
+      ]
+    },
+    {
+      "label": "RISE OF THE RESISTANCE RELICS BLACK",
+      "hobby": "1:1,243",
+      "page": 1,
+      "rawCells": [
+        "RISE OF THE RESISTANCE RELICS BLACK",
+        "1:1,243"
+      ]
+    },
+    {
+      "label": "RISE OF THE RESISTANCE RELICS GOLD",
+      "hobby": "1:6,056",
+      "page": 1,
+      "rawCells": [
+        "RISE OF THE RESISTANCE RELICS GOLD",
+        "1:6,056"
+      ]
+    },
+    {
+      "label": "SKETCH CARDS",
+      "hobby": "1:4",
+      "page": 1,
+      "rawCells": [
+        "SKETCH CARDS",
+        "1:4"
+      ]
+    },
+    {
+      "label": "SKETCH CARD BOOKS",
+      "hobby": "1:423",
+      "page": 1,
+      "rawCells": [
+        "SKETCH CARD BOOKS",
+        "1:423"
+      ]
+    },
+    {
+      "label": "PANORAMIC SKETCH CARDS",
+      "hobby": "1:563",
+      "page": 1,
+      "rawCells": [
+        "PANORAMIC SKETCH CARDS",
+        "1:563"
+      ]
+    },
+    {
+      "label": "TRIPTYCH SKETCH CARDS",
+      "hobby": "1:385",
+      "page": 1,
+      "rawCells": [
+        "TRIPTYCH SKETCH CARDS",
+        "1:385"
+      ]
+    }
+  ]
+}

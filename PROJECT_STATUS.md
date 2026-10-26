@@ -2,6 +2,14 @@
 
 Read this first; inspect only files needed for the current task.
 
+## Star Wars Masterwork 2024 — 26 October 2026 (imported, publication pending)
+
+- Authorised SW-014: 337 identities /16 subsets from 363 source subject/signer rows. Official 2024 title, release 16 April 2025. Nine duals/four triples/three quads combine only within printed designs. DA-HR is repeated across pages 6–7 for one design. All 17 printed multi labels, numbered rows, 182 artists and 76 odds independently matched Poppler.
+- Three blank pages and 16 detached off-page story fragments remain artifacts, not artist/card entries. 72 subset odds rules; four sketch rates source-only. BLAC label retained without interpretation; no guessed caps/grids or sketch IDs. Audit: docs/MASTERWORK_STAR_WARS_2024_IMPORT_AUDIT.md.
+- Local/database totals 34 sets /17,157 identities; Star Wars 10 /5,859. All prior 33 metadata/set bundles and frozen snapshot unchanged. Five focused tests and existing source/catalogue/category regressions passed locally. Browser CI/publication pending; known unavailable local Chromium not retried.
+- Guarded SQL supabase/corrections/2026-10-26-star-wars-masterwork-2024.sql passed rolled-back dry run, commit and identical repeat across eight full-row digests. All 30 collections retain 6648329147d88b88ed9e52eaac40cfa9; images empty, no collector writes. Authenticated private-photo/two-device flows not rerun.
+- Next: SW-016 — 2024 Topps Star Wars Hyperspace, Topps official Available From 19 February 2025. One set per task.
+
 ## Star Wars Meiyo 2025 — 26 October 2026 (published)
 
 - Authorised SW-008: 267 identities /22 subsets from all 280 Hobby checklist subject/signer rows. Thirteen centered dual labels mapped by geometry and independently matched Poppler. 25 sketch artists remain a roster. Official general-public/Hobby date May 4, 2025; earlier Celebration availability noted without guessing a day.
