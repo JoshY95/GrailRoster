@@ -2,6 +2,12 @@
 
 Read this first; inspect only files needed for the current task.
 
+## 2023 WWE coverage audit — 27 October 2026
+
+- Audited latest main a991f2abadfe55b66dce96f03a2c316804f35532 against the identical production index: global 49 /25,285; WWE 31 /15,967. Immaculate, Chronicles and Impeccable are already published through PR #24. No catalogue or database changes made by this audit.
+- Seven confirmed main 2023-labelled product families: three published, four missing. **Next three: 2023 Donruss Elite WWE (21 February 2024), 2023 Panini Select WWE (28 July 2023), 2023 Panini Revolution WWE (16 June 2023).** After those: 2023 Panini Prizm WWE (7 April 2023), including a distinct 2023 Premium edition/subject audit. Dates are main Hobby releases, not FOTL/retail/region dates. All three next-product GTS XLS/PDF links located; no unworked checklist is card-by-card certified.
+- Full queue, release sources and format cautions: docs/WWE_2023_COVERAGE_AUDIT.md. Donruss Elite Blaster and Select Asia/Tmall need edition review under their parents. Prizm Premium sources disagree on its precise May 2023 date; keep unresolved and do not copy 2024 Premium contents. Instant Weekly Pass remains a separate confirmed programme gap; a distinct 2023 Adrenalyn XL edition is unconfirmed. No worldwide completeness claim.
+
 ## WWE 2023 three-set batch — 27 October 2026 (published)
 
 - User authorised Immaculate Collection (1,047 identities /35 subsets), Chronicles (843 /34) and Impeccable (664 /24). Added 2,554 identities /93 subsets and 11,559 exact source-listed editions; 10,215 have printed caps. Catalogue 49 /25,285; WWE 31 /15,967; Star Wars unchanged at 18 /9,318.
