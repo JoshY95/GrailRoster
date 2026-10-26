@@ -1,6 +1,6 @@
 # Chrome 2024 / Sapphire 2024 / Masterwork 2022 — import audit
 
-Status: imported and locally validated; browser CI and publication pending.
+Status: imported, browser-tested and published via PR #21 on 26 October 2026.
 
 Authorised batch: SW-010, SW-013 and SW-031, following actual US release dates rather than product labels. **1,397 identities /44 subsets** added. Every printed checklist field, number, attached DEBUT flag and artist roster entry reconciles to independent extraction. Chrome and Sapphire odds match independent Poppler layout output across all columns. Representative Chrome page 16, Sapphire page 4 and Masterwork pages 4 and 9 were visually inspected.
 
@@ -108,3 +108,7 @@ The atomic SQL `supabase/corrections/2026-10-26-star-wars-chrome-sapphire-master
 Next: SW-021 — 2023 Topps Finest Star Wars, [official availability 29 November 2023](https://www.topps.com/products/2023-topps-star-wars-finest-master-box).
 
 Database dry run passed and rolled back with all eight baseline full-row digests unchanged. Committed import and identical repeat passed all atomic guards; all full-row digests were unchanged on repeat. Totals: 42 sets /20,616 cards /41,977 variants /691 subsets /2,432 rules /120 sources. All 30 collections retain digest `6648329147d88b88ed9e52eaac40cfa9`; reference images remain empty.
+
+## Publication verification
+
+Browser CI 40305395204 passed all catalogue-preservation and guest/Vault/offline flows, including eighteen-set ownership isolation, source-number separation, filters, quotes and responsive layouts. Feature 1c446ece90107f63df36f155a1da6155c096ac00 merged as 94d827185a02140154b6ca6c773ddb4cb451e6cd. Pages 40309235459 succeeded; all 55 production assets match the tested source byte-for-byte. Live guest UI confirms 18 Star Wars sets /9,318 cards, Chrome 838/16, Sapphire 187/8 and Masterwork 372/20. All 30 collector rows retain their prior full-row digest. Authenticated private-photo/two-device flows were not rerun. Receipt: STAR_WARS_CSM_BATCH_RELEASE.json.
