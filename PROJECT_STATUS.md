@@ -2,12 +2,12 @@
 
 Read this first; inspect only files needed for the current task.
 
-## Star Wars Meiyo 2025 — 26 October 2026 (imported, publication pending)
+## Star Wars Meiyo 2025 — 26 October 2026 (published)
 
 - Authorised SW-008: 267 identities /22 subsets from all 280 Hobby checklist subject/signer rows. Thirteen centered dual labels mapped by geometry and independently matched Poppler. 25 sketch artists remain a roster. Official general-public/Hobby date May 4, 2025; earlier Celebration availability noted without guessing a day.
 - All 99 two-format odds rows verified; 91 subset rules. Base guide explicitly confirms 24 faction/parallel cap rules; no per-card grids or autograph caps inferred. Four sketch and four Celebration-only Manga rows source-only. Manga card-by-card primary checklist not located: full Celebration identity coverage remains incomplete. Ukiyo E Hobby exclusivity retained. Audit: docs/MEIYO_STAR_WARS_2025_IMPORT_AUDIT.md.
-- Local/database 33 sets /16,820 identities; Star Wars 9 /5,522, WWE unchanged. All prior 32 metadata/set bundles and frozen snapshot unchanged. Focused and all existing source/catalogue/category regressions passed. Browser CI/publication pending; known unavailable local Chromium not retried.
-- Guarded SQL supabase/corrections/2026-10-26-star-wars-meiyo-2025.sql passed rolled-back dry run, commit and identical second application across eight full-row digests. All 30 collections retain 6648329147d88b88ed9e52eaac40cfa9; images remain empty. No collector writes. Authenticated private-photo/two-device flows not rerun.
+- Local/database 33 sets /16,820 identities; Star Wars 9 /5,522, WWE unchanged. All prior 32 metadata/set bundles and frozen snapshot unchanged. Focused and all existing source/catalogue/category regressions passed. Browser CI 40261098049 passed guest, Vault, offline, nine-set ownership, Meiyo filters/dual pairing and responsive checks; known unavailable local Chromium not retried.
+- Guarded SQL supabase/corrections/2026-10-26-star-wars-meiyo-2025.sql passed rolled-back dry run, commit and identical second application across eight full-row digests. All 30 collections retain 6648329147d88b88ed9e52eaac40cfa9; images remain empty. No collector writes. Published PR #16: feature 31a2755349d566accb8f780e0d5f2c19b1f99b25, merge c497c6858053502d50b4b08551742aa98d0c6da1; Pages 40261267351 succeeded. All 46 live assets match source; live guest shows nine sets /5,522 cards, Meiyo 267/22 and DA-H one Billy Dee Williams /Harrison Ford card. Cache refreshed after activation/reload. Receipt: docs/MEIYO_STAR_WARS_2025_RELEASE.json. Authenticated private-photo/two-device flows not rerun.
 - Next: SW-014 — 2024 Topps Star Wars Masterwork, Topps UK release metadata 16 April 2025. One set per task.
 
 ## Star Wars Hyperspace 2025 — 26 October 2026 (published)

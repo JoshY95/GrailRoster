@@ -1,6 +1,6 @@
 # 2025 Topps Star Wars Meiyo — import audit
 
-Status: imported; browser CI and publication pending.
+Status: imported and published via PR #16. Browser CI 40261098049 and Pages 40261267351 succeeded.
 
 ## Verified designs and sources
 
@@ -45,7 +45,7 @@ All 99 odds rows retain both format columns and dashes. 91 become subset rules; 
 
 All previous 32 metadata records and set bundles, stable IDs and frozen compatibility snapshot remain unchanged against 502153f024e72fbb84531b3de81d04a6ad3a99a4. Totals: 33 sets /16,820 cards; Star Wars nine sets /5,522; WWE unchanged 24 /11,298. Conflicting identities are rejected; reruns leave existing bytes unchanged.
 
-Four focused tests and all eight existing Star Wars source/import suites, Stadium Club, split catalogue, category import and real-page category DOM regressions passed locally. Earlier Hyperspace total assertions now permit additive future sets while retaining full prior metadata/byte-preservation checks. Browser coverage adds independent Meiyo faction ownership, 40 variation/67 insert/60 autograph filters, UK-4 Grogu and the correctly paired DA-H dual; existing guest, Vault, offline and responsive checks remain. Known unavailable local Chromium was not retried; CI pending.
+Four focused tests and all eight existing Star Wars source/import suites, Stadium Club, split catalogue, category import and real-page category DOM regressions passed locally. Earlier Hyperspace total assertions now permit additive future sets while retaining full prior metadata/byte-preservation checks. Browser coverage adds independent Meiyo faction ownership, 40 variation/67 insert/60 autograph filters, UK-4 Grogu and the correctly paired DA-H dual; existing guest, Vault, offline and responsive checks remain. Known unavailable local Chromium was not retried; browser CI passed.
 
 Guarded SQL `supabase/corrections/2026-10-26-star-wars-meiyo-2025.sql` passed rolled-back dry run, committed import and an identical second application across all eight full-row digests. Database totals: 33 sets /16,820 cards /38,181 variants /571 subsets /1,946 rules /92 sources. All 30 collection rows retain 6648329147d88b88ed9e52eaac40cfa9; images remain empty. No collector, image, auth, RLS or schema writes. Authenticated private-photo/two-device checks were not rerun.
 
@@ -58,3 +58,7 @@ Guarded SQL `supabase/corrections/2026-10-26-star-wars-meiyo-2025.sql` passed ro
 - [Official brand history](https://ripped.topps.com/brand-history-topps-star-wars-meiyo-product/) — earlier Celebration availability.
 
 Next: SW-014 — 2024 Topps Star Wars Masterwork (Topps UK product Available From 16 April 2025), before the earlier 2024-labelled Hyperspace and Galactic Antiquities. Verify the rest of the 2024 queue by actual release dates when that work begins.
+
+## Published verification
+
+Feature 31a2755349d566accb8f780e0d5f2c19b1f99b25 passed CI 40261098049, including preservation/source/category checks, guest, Vault, real offline reload, nine-set ownership isolation, all added filter/pairing checks and responsive widths. PR #16 merged as c497c6858053502d50b4b08551742aa98d0c6da1. Pages 40261267351 succeeded. All 46 live runtime/index/set assets match validated source byte-for-byte. Live guest confirmed nine Star Wars sets /5,522 cards, Meiyo 267/22 and DA-H as one Lando Calrissian (Billy Dee Williams) / Han Solo (Harrison Ford) card. Previous eight-set cache refreshed after service-worker activation and a normal reload. Receipt: docs/MEIYO_STAR_WARS_2025_RELEASE.json. Celebration-only Manga identities remain deferred as documented above.
