@@ -2,12 +2,12 @@
 
 Read this first; inspect only files needed for the current task.
 
-## Star Wars Hyperspace 2024 — 26 October 2026 (imported, publication pending)
+## Star Wars Hyperspace 2024 — 26 October 2026 (published)
 
 - Authorised SW-016: 326 identities /10 subsets: 100 base, 100 BPV variations, 80 inserts, 46 autographs. Official 2024 title; released 19 February 2025. All numbered rows, five sketch themes, 106 artist entries /105 distinct names and 61 odds independently matched Poppler. Brent Scotchmer appears twice in the source roster; no fake sketch identities.
 - All base/BPV spelling/planet differences retained, including #54 and #56. 56 subset odds rules; five sketch rates source-only. No inferred caps or grids. Audit: docs/HYPERSPACE_STAR_WARS_2024_IMPORT_AUDIT.md.
-- Local/database 35 sets /17,483 cards; Star Wars 11 /6,185. All prior 34 metadata/set bundles and frozen snapshot unchanged. Five focused and existing source/catalogue/category regressions passed. Browser CI/publication pending; known unavailable local Chromium not retried.
-- Guarded SQL supabase/corrections/2026-10-26-star-wars-hyperspace-2024.sql passed rolled-back dry run, commit and identical second application across eight full-row digests. All 30 collections retain 6648329147d88b88ed9e52eaac40cfa9; images empty, no collector writes. Authenticated private-photo/two-device flows not rerun.
+- Local/database 35 sets /17,483 cards; Star Wars 11 /6,185. All prior 34 metadata/set bundles and frozen snapshot unchanged. Five focused and existing source/catalogue/category regressions passed. Browser CI 40264087061 passed guest, Vault, offline, eleven-set/year ownership isolation, base/BPV separation, filters, numbering/signer search and responsive checks; known unavailable local Chromium not retried.
+- Guarded SQL supabase/corrections/2026-10-26-star-wars-hyperspace-2024.sql passed rolled-back dry run, commit and identical second application across eight full-row digests. All 30 collections retain 6648329147d88b88ed9e52eaac40cfa9; images empty, no collector writes. Published PR #18: feature c4b93760ae4c9bbf841a9bd856b74c523f693b18, merge dfb5de2b6a792e43975bacf2bf72d5c9a097a2e2; Pages 40264240888 succeeded. All 48 live assets match tested source. Live guest UI was not separately rerun; browser CI exercised identical runtime assets. Receipt: docs/HYPERSPACE_STAR_WARS_2024_RELEASE.json. Authenticated private-photo/two-device flows not rerun.
 - Next: SW-017 — 2024 Topps Star Wars Galactic Antiquities, official availability 5 February 2025. One set per task.
 
 ## Star Wars Masterwork 2024 — 26 October 2026 (published)

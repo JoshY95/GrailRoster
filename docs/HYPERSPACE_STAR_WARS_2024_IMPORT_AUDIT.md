@@ -1,6 +1,6 @@
 # 2024 Topps Star Wars Hyperspace — import audit
 
-Status: imported; browser CI and publication pending.
+Status: imported and published via PR #18. Browser CI 40264087061 and Pages 40264240888 succeeded.
 
 ## Manufacturer reconciliation
 
@@ -39,7 +39,7 @@ Topps' product title is 2024, while Available From is **19 February 2025** and g
 
 All previous 34 metadata records, set bundles and stable IDs, plus the frozen compatibility snapshot, remain unchanged against 6bf9fcd11e6db774c3798cb954c956313950935b. Totals: 35 sets /17,483 cards; Star Wars 11 /6,185; WWE unchanged 24 /11,298. Reruns are byte-identical and conflicts are rejected.
 
-Five focused tests and all ten existing Star Wars source/import suites, Stadium Club, split catalogue, category import and real-page category DOM checks passed locally. Earlier 2024 Masterwork totals now permit additive future sets while retaining full prior metadata/byte preservation checks. Browser coverage adds independent 2024/2025 Hyperspace ownership, base/BPV separation, 100 variation /80 insert /46 autograph filters, BPV-54 Naboo, R-6 Lord Vader and Ewan McGregor search. Existing guest, Vault, real offline reload and responsive checks remain enabled. Known unavailable local Chromium was not retried; browser CI pending.
+Five focused tests and all ten existing Star Wars source/import suites, Stadium Club, split catalogue, category import and real-page category DOM checks passed locally. Earlier 2024 Masterwork totals now permit additive future sets while retaining full prior metadata/byte preservation checks. Browser coverage adds independent 2024/2025 Hyperspace ownership, base/BPV separation, 100 variation /80 insert /46 autograph filters, BPV-54 Naboo, R-6 Lord Vader and Ewan McGregor search. Existing guest, Vault, real offline reload and responsive checks remain enabled. Known unavailable local Chromium was not retried; browser CI passed.
 
 Guarded SQL `supabase/corrections/2026-10-26-star-wars-hyperspace-2024.sql` passed rolled-back dry run, committed import and identical second application across all eight full-row digests. Database: 35 sets /17,483 cards /38,844 variants /597 subsets /2,074 rules /98 sources. All 30 collections retain 6648329147d88b88ed9e52eaac40cfa9; images remain empty. No collector, image, auth, RLS or schema writes. Authenticated private-photo/two-device checks not rerun.
 
@@ -50,3 +50,7 @@ Guarded SQL `supabase/corrections/2026-10-26-star-wars-hyperspace-2024.sql` pass
 - [Official odds](https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2024_Star_Wars_Hyperspace_Odds.pdf?v=1787937372) — SHA-256 `22cc1620c185ce7c18db3c22ed9438836d3cd880382f4ad242441c07e10098d4`.
 
 Next: SW-017 — 2024 Topps Star Wars Galactic Antiquities. Topps' official product records Available From 5 February 2025: https://www.topps.com/products/2024-topps-star-wars-galactic-antiquities .
+
+## Published verification
+
+Feature c4b93760ae4c9bbf841a9bd856b74c523f693b18 passed CI 40264087061: all source/catalogue/category checks, guest, Vault, real offline reload, eleven-set ownership isolation, separate 2024/2025 Hyperspace ownership, base/BPV separation, filters, printed-number and signer searches, and responsive widths. PR #18 merged as dfb5de2b6a792e43975bacf2bf72d5c9a097a2e2. Pages 40264240888 succeeded. All 48 live runtime/index/set assets match validated source byte-for-byte. Live guest UI was not separately rerun; browser CI exercised identical deployed runtime assets. Receipt: docs/HYPERSPACE_STAR_WARS_2024_RELEASE.json. Authenticated private-photo/two-device flows remain unrerun.
