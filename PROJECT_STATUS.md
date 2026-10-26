@@ -2,6 +2,14 @@
 
 Read this first; inspect only files needed for the current task.
 
+## Star Wars Meiyo 2025 — 26 October 2026 (imported, publication pending)
+
+- Authorised SW-008: 267 identities /22 subsets from all 280 Hobby checklist subject/signer rows. Thirteen centered dual labels mapped by geometry and independently matched Poppler. 25 sketch artists remain a roster. Official general-public/Hobby date May 4, 2025; earlier Celebration availability noted without guessing a day.
+- All 99 two-format odds rows verified; 91 subset rules. Base guide explicitly confirms 24 faction/parallel cap rules; no per-card grids or autograph caps inferred. Four sketch and four Celebration-only Manga rows source-only. Manga card-by-card primary checklist not located: full Celebration identity coverage remains incomplete. Ukiyo E Hobby exclusivity retained. Audit: docs/MEIYO_STAR_WARS_2025_IMPORT_AUDIT.md.
+- Local/database 33 sets /16,820 identities; Star Wars 9 /5,522, WWE unchanged. All prior 32 metadata/set bundles and frozen snapshot unchanged. Focused and all existing source/catalogue/category regressions passed. Browser CI/publication pending; known unavailable local Chromium not retried.
+- Guarded SQL supabase/corrections/2026-10-26-star-wars-meiyo-2025.sql passed rolled-back dry run, commit and identical second application across eight full-row digests. All 30 collections retain 6648329147d88b88ed9e52eaac40cfa9; images remain empty. No collector writes. Authenticated private-photo/two-device flows not rerun.
+- Next: SW-014 — 2024 Topps Star Wars Masterwork, Topps UK release metadata 16 April 2025. One set per task.
+
 ## Star Wars Hyperspace 2025 — 26 October 2026 (published)
 
 - Resumed next authorised set SW-006: 2025 Topps Star Wars Hyperspace, official release 30 December 2025. 347 numbered designs /12 subsets: 100 base, 100 separately numbered BPV variations, 110 inserts and 37 autographs. All source rows, five unnumbered panoramic themes, 18 panoramic/144 regular sketch artists and 77 odds independently matched Poppler. Japanese artist ジェイソン (Jason) is one split-text line, not two artists.

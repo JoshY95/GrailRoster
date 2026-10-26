@@ -50,8 +50,8 @@ class Hyperspace2025(unittest.TestCase):
   baseline='286e5b1'
   def old(p):return subprocess.check_output(['git','show',f'{baseline}:{p}'],cwd=ROOT)
   prior=json.loads(old('data/catalogue-index.json'));current=load_catalogue()
-  self.assertEqual((len(current['sets']),len(current['cards'])),(32,16553))
-  self.assertEqual(sum(x['cardCount'] for x in current['sets'] if x['categoryId']=='star-wars'),5255)
+  self.assertGreaterEqual(len(current['sets']),32);self.assertGreaterEqual(len(current['cards']),16553)
+  self.assertGreaterEqual(sum(x['cardCount'] for x in current['sets'] if x['categoryId']=='star-wars'),5255)
   for r in prior['sets']:
    self.assertEqual((ROOT/'data'/r['file']).read_bytes(),old('data/'+r['file']))
    self.assertEqual(next(x for x in current['sets'] if x['id']==r['id']),{k:v for k,v in r.items() if k!='file'})
