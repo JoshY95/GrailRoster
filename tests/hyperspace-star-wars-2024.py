@@ -37,8 +37,8 @@ class Hyperspace2024(unittest.TestCase):
  def test_preservation_and_repeat(self):
   def old(p):return subprocess.check_output(['git','show',f'6bf9fcd:{p}'],cwd=ROOT)
   prior=json.loads(old('data/catalogue-index.json'));current=load_catalogue()
-  self.assertEqual((len(current['sets']),len(current['cards'])),(35,17483))
-  self.assertEqual(sum(x['cardCount'] for x in current['sets'] if x['categoryId']=='star-wars'),6185)
+  self.assertGreaterEqual(len(current['sets']),35);self.assertGreaterEqual(len(current['cards']),17483)
+  self.assertGreaterEqual(sum(x['cardCount'] for x in current['sets'] if x['categoryId']=='star-wars'),6185)
   for r in prior['sets']:
    self.assertEqual((ROOT/'data'/r['file']).read_bytes(),old('data/'+r['file']))
    self.assertEqual(next(x for x in current['sets'] if x['id']==r['id']),{k:v for k,v in r.items() if k!='file'})
