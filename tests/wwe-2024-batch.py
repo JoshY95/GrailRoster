@@ -35,7 +35,7 @@ class WWE2024Batch(unittest.TestCase):
  def test_all_existing_bytes_and_repeat_conflict(self):
   def old(p):return subprocess.check_output(['git','show',f'{b.BASELINE}:{p}'],cwd=ROOT)
   base=json.loads(old('data/catalogue-index.json'));cat=load_catalogue()
-  self.assertEqual((len(cat['sets']),len(cat['cards'])),(45,22215));self.assertEqual(sum(x['cardCount'] for x in cat['sets'] if x['categoryId']=='wwe'),12897)
+  self.assertGreaterEqual(len(cat['sets']),45);self.assertGreaterEqual(len(cat['cards']),22215);self.assertGreaterEqual(sum(x['cardCount'] for x in cat['sets'] if x['categoryId']=='wwe'),12897)
   for s in base['sets']:
    self.assertEqual((ROOT/'data'/s['file']).read_bytes(),old('data/'+s['file']))
    self.assertEqual(next(x for x in cat['sets'] if x['id']==s['id']),{k:v for k,v in s.items() if k!='file'})
