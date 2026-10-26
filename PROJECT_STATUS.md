@@ -2,11 +2,12 @@
 
 Read this first; inspect only files needed for the current task.
 
-## Star Wars Galactic Antiquities 2024 — 26 October 2026 (built)
+## Star Wars Galactic Antiquities 2024 — 26 October 2026 (published)
 
 - Authorised SW-017: 165 identities /10 subsets from all 177 official subject/signer rows. 60 regular and 30 metal base designs have independent numbering; two books combine seven signers each. All rows, 47 artist names and 47 ordered odds pairs independently matched Poppler. Unexpected trilogy headings retained without reassignment.
 - Odds labels occupy pages 1–2, corresponding rates pages 3–4. 31 subset rules; 15 A/B/C design rates remain source-only because their mapping to trilogy headings is unverified, plus one sketch rate. No inferred caps, subject/parallel grids or sketch IDs. Official 2024 title, release 5 February 2025. Audit: docs/GALACTIC_ANTIQUITIES_STAR_WARS_2024_IMPORT_AUDIT.md.
-- Local totals 36 sets /17,648 cards; Star Wars 12 /6,350. All 35 prior metadata/set bundles and frozen snapshot unchanged. All twelve Star Wars source/import suites, Stadium Club, split catalogue and category regressions pass. Guarded database dry run, committed import and identical repeat pass; browser CI/publication pending. All 30 collection rows unchanged, digest 6648329147d88b88ed9e52eaac40cfa9; images remain empty. Known unavailable local Chromium not retried.
+- Local totals 36 sets /17,648 cards; Star Wars 12 /6,350. All 35 prior metadata/set bundles and frozen snapshot unchanged. All twelve Star Wars source/import suites, Stadium Club, split catalogue and category regressions pass. Browser CI 40295521725 passed guest, Vault, offline, twelve-set ownership isolation, regular/metal separation, filters, source headings, both seven-signer books and responsive checks; known unavailable local Chromium not retried.
+- Guarded SQL supabase/corrections/2026-10-26-star-wars-galactic-antiquities-2024.sql passed rolled-back dry run, commit and identical repeat across eight full-row digests. All 30 collection rows retain 6648329147d88b88ed9e52eaac40cfa9; images empty, no collector writes. PR #19 feature eb49a838182ad17fc01bf9dcb1aebb7414fe38c7, merge adf21b2c4570f5b965cbe576371e7ccce2e1ca8a; Pages 40295773056 succeeded. All 49 live assets match tested source. Live guest UI not separately rerun; browser CI exercised identical deployed runtime assets. Receipt: docs/GALACTIC_ANTIQUITIES_STAR_WARS_2024_RELEASE.json. Authenticated private-photo/two-device flows not rerun.
 - Next: SW-015 — 2024 Topps Star Wars High-Tek, official Available From 8 January 2025. One set per task.
 
 ## Star Wars Hyperspace 2024 — 26 October 2026 (published)

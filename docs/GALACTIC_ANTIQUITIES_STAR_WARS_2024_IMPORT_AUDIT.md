@@ -1,6 +1,6 @@
 # 2024 Topps Star Wars Galactic Antiquities — import audit
 
-Status: imported and locally validated; browser CI and publication verification pending.
+Status: imported and published via PR #19. Browser CI 40295521725 and Pages 40295773056 succeeded.
 
 ## Manufacturer reconciliation
 
@@ -33,7 +33,7 @@ Topps uses a 2024 title, generic Product Year 2025 and **Available From 5 Februa
 
 All previous 35 set metadata records, bundles and IDs plus the frozen compatibility snapshot remain unchanged against `4543c5cef7fcc6339cf6c06b5fa2872afedacd8d`. Local totals: 36 sets /17,648 cards; Star Wars 12 /6,350; WWE unchanged 24 /11,298. Reruns are byte-identical; conflicts and missing source rows are rejected.
 
-Five focused checks pass and cover complete identities, seven-signer books, independent base numbering, source anomalies, exact odds pairing, deferred design mapping, no inferred caps, preservation, idempotency and guarded SQL. All eleven existing Star Wars suites, Stadium Club, catalogue split, category import and DOM regressions passed locally. Browser coverage adds separate regular/metal ownership, 90 base /75 autograph filters, printed trilogy headings, signer searches, both seven-signer books and 320–1440px layout. Guest, Vault and real offline reload remain enabled. Known unavailable local Chromium was not retried; browser CI must pass before merge. Authenticated private-photo/two-device flows are not rerun.
+Five focused checks pass and cover complete identities, seven-signer books, independent base numbering, source anomalies, exact odds pairing, deferred design mapping, no inferred caps, preservation, idempotency and guarded SQL. All eleven existing Star Wars suites, Stadium Club, catalogue split, category import and DOM regressions passed locally. Browser coverage adds separate regular/metal ownership, 90 base /75 autograph filters, printed trilogy headings, signer searches, both seven-signer books and 320–1440px layout. Guest, Vault and real offline reload remain enabled. Known unavailable local Chromium was not retried; browser CI passed before merge. Authenticated private-photo/two-device flows are not rerun.
 
 The generated SQL `supabase/corrections/2026-10-26-star-wars-galactic-antiquities-2024.sql` uses the shared additive transaction with a 35-set /17,483-card baseline. It snapshots all eight catalogue/collection/image tables, rejects conflicts, and verifies counts, linkage and complete prior-row preservation. It performs no collector, image, auth, RLS or schema writes.
 
@@ -46,3 +46,7 @@ The generated SQL `supabase/corrections/2026-10-26-star-wars-galactic-antiquitie
 Next: SW-015 — 2024 Topps Star Wars High-Tek, official Available From 8 January 2025: https://www.topps.com/products/2024-topps-star-wars-high-tek-hobby-box .
 
 Database dry run passed and rolled back with all eight baseline digests unchanged. The committed import and a second committed application passed; every full-row digest was identical on repeat. Totals: 36 sets /17,648 cards /39,009 variants /607 subsets /2,105 rules /101 sources. All 30 collections retain digest `6648329147d88b88ed9e52eaac40cfa9`; reference images remain empty.
+
+## Published verification
+
+Feature `eb49a838182ad17fc01bf9dcb1aebb7414fe38c7` passed CI 40295521725 (job 121480523223): all source/catalogue/category checks, guest, Vault, real offline reload, twelve-set ownership isolation, separate regular/metal ownership, filters, printed headings, signer searches, both seven-signer books and responsive widths. PR #19 merged as `adf21b2c4570f5b965cbe576371e7ccce2e1ca8a`. Pages 40295773056 succeeded. All 49 live runtime/index/set assets match tested source byte-for-byte. Live guest UI was not separately rerun; browser CI exercised identical deployed runtime assets. Receipt: docs/GALACTIC_ANTIQUITIES_STAR_WARS_2024_RELEASE.json. Authenticated private-photo/two-device flows remain unrerun.
