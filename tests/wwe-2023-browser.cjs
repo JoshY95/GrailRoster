@@ -26,7 +26,11 @@ const ids=['2023-panini-immaculate-wwe','2023-panini-chronicles-wwe','2023-panin
   const book=await page.evaluate(()=>state.catalogue.cards.find(c=>c.setId==='2023-panini-immaculate-wwe'&&c.subsetCode==='TAE'));
   assert.equal(book.name.split(' / ').length,8);
   await page.locator('#globalSearch').fill('The Attitude Era');assert.equal(await page.locator('#cardList .card-row').count(),1);
-  for(const width of [320,390,768,1024,1440]){await page.setViewportSize({width,height:900});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`Overflow at ${width}`);}
+  for(const width of [320,390,768,1024,1440]){
+   await page.setViewportSize({width,height:900});
+   const layout=await page.evaluate(()=>({fits:document.documentElement.scrollWidth<=innerWidth,overflow:Array.from(document.querySelectorAll('main *')).filter(e=>e.getBoundingClientRect().width&&e.getBoundingClientRect().right>innerWidth+1).slice(0,12).map(e=>({tag:e.tagName,class:e.className,text:e.textContent.slice(0,100),width:e.getBoundingClientRect().width,right:e.getBoundingClientRect().right}))}));
+   assert(layout.fits,`Overflow at ${width}: ${JSON.stringify(layout.overflow)}`);
+  }
   await page.evaluate(id=>setStatus(id,'owned'),book.id);assert.equal(await page.evaluate(()=>counts().owned),4);
   await page.reload();await page.locator('#allSets .set-card').first().waitFor({state:'attached'});
   assert.equal(await page.evaluate(id=>JSON.stringify(state.collection[id]),original.id),original.value);assert.equal(await page.evaluate(()=>counts().owned),4);
