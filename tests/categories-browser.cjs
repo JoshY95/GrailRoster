@@ -228,6 +228,36 @@ const starWarsCount=starWarsSets.reduce((n,s)=>n+s.cardCount,0);
     await page.locator('#globalSearch').fill('Ewan McGregor');
     assert.equal(await page.locator('#cardList .card-row').count(),1);
     await page.locator('#clearFilters').click();
+    await page.locator('#setFilter').selectOption('2024-topps-star-wars-galactic-antiquities');
+    assert.equal(await page.locator('#resultCount').innerText(),'165 cards');
+    await page.locator('#cardList .card-row').first().locator('.state-button.owned').click();
+    assert.equal(await page.evaluate(()=>counts().owned),13);
+    assert.equal(await page.evaluate(()=>state.collection['2024-TSWGA-BASE-1']?.status),'owned');
+    assert.equal(await page.evaluate(()=>state.collection['2024-TSWGA-METAL-1']?.status),undefined);
+    await page.locator('#categoryFilter').selectOption('Base');
+    assert.equal(await page.locator('#resultCount').innerText(),'90 cards');
+    await page.locator('#globalSearch').fill('Admiral Ackbar');
+    assert.equal(await page.locator('#cardList .card-row').count(),1);
+    assert.match(await page.locator('#cardList').innerText(),/METAL CHARACTERS/);
+    await page.locator('#globalSearch').fill('');
+    await page.locator('#categoryFilter').selectOption('Autograph');
+    assert.equal(await page.locator('#resultCount').innerText(),'75 cards');
+    await page.locator('#globalSearch').fill('Andy Serkis');
+    assert.equal(await page.locator('#cardList .card-row').count(),2);
+    assert.match(await page.locator('#cardList').innerText(),/PREQUEL TRILOGY AUTOGRAPHS/);
+    await page.locator('#globalSearch').fill('BC-O');
+    assert.equal(await page.locator('#cardList .card-row').count(),1);
+    for(const signer of ['Carrie Fisher','Mark Hamill','Billy Dee Williams','Peter Mayhew','David Prowse','Anthony Daniels','Harrison Ford']) {
+      assert((await page.locator('#cardList').innerText()).includes(signer));
+    }
+    for(const width of [320,390,768,1024,1440]) {
+      await page.setViewportSize({width,height:900});
+      assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth),true,`Seven-signer book overflows at ${width}`);
+    }
+    await page.locator('#globalSearch').fill('BC-X');
+    assert.equal(await page.locator('#cardList .card-row').count(),1);
+    assert.match(await page.locator('#cardList').innerText(),/Natalie Portman/);
+    await page.locator('#clearFilters').click();
     const both=await page.evaluate(()=>localStorage.getItem(GUEST_STORAGE_KEY));
     await page.locator('#categorySwitcher [data-franchise="marvel"]').click();
     for(const width of [320,390,768,1024,1440]) {
@@ -252,7 +282,7 @@ const starWarsCount=starWarsSets.reduce((n,s)=>n+s.cardCount,0);
     for(const [id,entry] of Object.entries(JSON.parse(before))) assert.deepEqual(JSON.parse(both)[id],entry);
     await page.locator('#categorySwitcher [data-franchise="star-wars"]').click();
     assert.equal(await page.locator('#allSets .set-card').count(),starWarsSets.length);
-    assert.equal(await page.evaluate(()=>counts().owned),12);
+    assert.equal(await page.evaluate(()=>counts().owned),13);
     assert.equal(await page.locator('#wantedList .card-row').count(),0);
     for(const width of [320,390,768,1024,1440]) {
       await page.setViewportSize({width,height:900});
