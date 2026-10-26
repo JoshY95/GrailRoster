@@ -2,6 +2,13 @@
 
 Read this first; inspect only files needed for the current task.
 
+## Prizm WWE 2024 — 26 October 2026 (built; publication in progress)
+
+- Authorised 2024 Prizm including Premium review. One parent, 516 identities /16 subsets, 9,270 exact source editions. Premium contributes 400 variants across the same 200 base IDs (/199 and Gold /5); no duplicate set. Twenty Under Card image/persona variations have independent IDs. Hobby 9 August, Under Card 23 August; Premium guide estimates 27 August 2024.
+- All 9,270 original GTS workbook rows reconcile with an independent copy after 59 occurrences of one Seth nickname encoding repair. WrestleMania Moments source gaps 3/20/30 retained; ten dual designs combine two signers. Base White Sparkle source SEQUENCE=1 conflicts with unnumbered treatment in other guides: 200 base caps withheld, source cells retained; 174 autograph White Sparkle caps retain 1/1. Audit: docs/PRIZM_WWE_2024_IMPORT_AUDIT.md.
+- Local 46 /22,731; WWE 28 /13,413, Star Wars 18 /9,318. All prior 45 metadata/bundles and frozen snapshot unchanged. Seven focused and prior WWE/split/category checks pass. Atomic rolled-back SQL dry run exactly matches all six generated tables; CI, committed/repeat import and live publication pending. No collector writes.
+- Next WWE: audit 2023 main releases by actual release date, then import next verified gaps. 2024 Instant and regional Adrenalyn XL remain open, distinct from the six covered main hobby parents.
+
 ## WWE 2024 three-set batch — 26 October 2026 (published)
 
 - Authorised auditing 2024 WWE gaps and importing the next three: Three Count (415 identities /13 subsets), Select (789 /21), PhotoGenic (395 /12). Total 1,599 new identities /46 subsets and 17,491 explicitly listed versions; 13,097 have printed caps. Local catalogue 45 /22,215; WWE 27 /12,897.

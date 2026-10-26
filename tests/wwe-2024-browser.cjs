@@ -8,7 +8,7 @@ const ids=['2024-panini-three-count-wwe','2024-panini-select-wwe','2024-panini-p
   const context=await browser.newContext({viewport:{width:1440,height:900}}),page=await context.newPage(),errors=[];
   page.on('pageerror',e=>errors.push(e.message));await page.route('**/rest/v1/**',r=>r.abort());
   await page.goto(process.env.GRAILROSTER_BASE_URL||'http://127.0.0.1:8767');await page.locator('#allSets .set-card').first().waitFor({state:'attached'});
-  assert.equal(await page.locator('#allSets .set-card').count(),27);
+  assert.equal(await page.locator('#allSets .set-card').count(),index.sets.filter(s=>s.categoryId==='wwe').length);
   const original=await page.evaluate(()=>{const c=state.catalogue.cards[0];state.collection[c.id]={status:'wanted',quantity:2,notes:'Existing collector sentinel',updatedAt:'2026-10-26T00:00:00Z'};saveCollection();renderAll();return {id:c.id,value:JSON.stringify(state.collection[c.id])};});
   await page.evaluate(()=>changeView('cards'));
   for(const id of ids){
