@@ -1,6 +1,6 @@
 # 2024 Topps Star Wars Masterwork — import audit
 
-Status: imported; browser CI and publication pending.
+Status: imported and published via PR #17. Browser CI 40262668991 and Pages 40262846111 succeeded.
 
 ## Manufacturer reconciliation
 
@@ -41,7 +41,7 @@ All 76 single-column odds rows are retained. 72 become numbered-subset rules; fo
 
 All prior 33 metadata records, set bundles and stable IDs, plus the frozen compatibility snapshot, remain unchanged against 12c336b170e5f5deb09e9794dc7536d307edfc87. Totals: 34 sets /17,157 identities; Star Wars 10 /5,859; WWE unchanged 24 /11,298. Reruns are byte-identical; conflicts are rejected.
 
-Five focused tests and all nine existing Star Wars source/import suites, Stadium Club, split catalogue, category import and category DOM regressions passed locally. Earlier Meiyo totals now permit additive future sets while retaining full byte/metadata preservation checks. Browser coverage adds independent 2024/2025 Masterwork ownership, 33 autograph-relic and 66 autograph filters, cross-page DA-HR pairing and the four-signer QAB-MPPH book. Existing guest, Vault, real offline reload and responsive checks remain enabled. Known unavailable local Chromium was not retried; browser CI pending.
+Five focused tests and all nine existing Star Wars source/import suites, Stadium Club, split catalogue, category import and category DOM regressions passed locally. Earlier Meiyo totals now permit additive future sets while retaining full byte/metadata preservation checks. Browser coverage adds independent 2024/2025 Masterwork ownership, 33 autograph-relic and 66 autograph filters, cross-page DA-HR pairing and the four-signer QAB-MPPH book. Existing guest, Vault, real offline reload and responsive checks remain enabled. Known unavailable local Chromium was not retried; browser CI passed.
 
 Guarded SQL `supabase/corrections/2026-10-26-star-wars-masterwork-2024.sql` passed rolled-back dry run, committed import and an identical second application across all eight full-row table digests. Database: 34 sets /17,157 cards /38,518 variants /587 subsets /2,018 rules /95 sources. All 30 collection rows retain 6648329147d88b88ed9e52eaac40cfa9; images remain empty. No collector, image, auth, RLS or schema writes occurred. Authenticated private-photo/two-device checks were not rerun.
 
@@ -52,3 +52,7 @@ Guarded SQL `supabase/corrections/2026-10-26-star-wars-masterwork-2024.sql` pass
 - [Official odds](https://cdn.shopify.com/s/files/1/0739/2015/1805/files/2024StarWarsMasterworkOdds.pdf?v=1787909664) — SHA-256 `14398995d3175045f2323d8383122a74ef9b54b7c635e67f03affb34ec88f832`.
 
 Next: SW-016 — 2024 Topps Star Wars Hyperspace. Topps product metadata records 19 February 2025: https://www.topps.com/products/2024-topps-star-wars-hyperspace-hobby-box . Follow with the earlier 2024 Galactic Antiquities release, subject to its own date verification.
+
+## Published verification
+
+Feature 83b2c92fcc645ace22c6bd83612ffe5b5c2369ae passed CI 40262668991: all source/catalogue/category checks, guest, Vault, real offline reload, ten-set ownership isolation, separate 2024/2025 Masterwork ownership, filters, cross-page dual/quad identities and responsive widths. PR #17 merged as 319b1a17ecf2f52d68ce509bf5df5509def3f4df. Pages 40262846111 succeeded. All 47 live runtime/index/set assets match validated source byte-for-byte. Live guest UI was not separately rerun; the deployed runtime assets are identical to those exercised by browser CI. Receipt: docs/MASTERWORK_STAR_WARS_2024_RELEASE.json. Authenticated private-photo/two-device flows remain unrerun.
