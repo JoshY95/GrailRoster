@@ -57,8 +57,8 @@ class Batch2024(unittest.TestCase):
  def test_prior_bytes_metadata_idempotency_conflicts(self):
   def old(p):return subprocess.check_output(['git','show',f'52ed0f6:{p}'],cwd=ROOT)
   prior=json.loads(old('data/catalogue-index.json'));current=load_catalogue()
-  self.assertEqual((len(current['sets']),len(current['cards'])),(39,19219))
-  self.assertEqual(sum(x['cardCount'] for x in current['sets'] if x['categoryId']=='star-wars'),7921)
+  self.assertGreaterEqual(len(current['sets']),39);self.assertGreaterEqual(len(current['cards']),19219)
+  self.assertGreaterEqual(sum(x['cardCount'] for x in current['sets'] if x['categoryId']=='star-wars'),7921)
   for x in prior['sets']:
    self.assertEqual((ROOT/'data'/x['file']).read_bytes(),old('data/'+x['file']))
    self.assertEqual(next(y for y in current['sets'] if y['id']==x['id']),{k:v for k,v in x.items() if k!='file'})

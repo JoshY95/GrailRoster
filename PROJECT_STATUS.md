@@ -2,6 +2,14 @@
 
 Read this first; inspect only files needed for the current task.
 
+## Chrome / Sapphire 2024 and Masterwork 2022 batch — 26 October 2026 (built)
+
+- Authorised SW-010, SW-013, SW-031: Chrome 838 /16, Sapphire V3 187 /8 and Masterwork 372 /20 identities/subsets. Total 1,397 cards /44 subsets. Five official PDFs recovered; Masterwork odds linked by Topps are unavailable (404), so no odds/cap coverage claimed for that set. Audit: docs/STAR_WARS_CSM_BATCH_IMPORT_AUDIT.md.
+- Chrome retains all four 150-card design programmes, 46 DEBUT marks, 82 artists, all 82 five-format odds rows; 71 rules, seven unmapped puzzle and four sketch rates source-only. Sapphire has three V3 duals, 41 rules; unnumbered Mystery Redemption remains unresolved. No inferred caps/grids.
+- Masterwork MWA-KS (Katee) and MWA- KS (Kiran) retain printed numbers and separate IDs. Four artist rosters remain unnumbered; two clipped quotations independently verified in full character flow. Actual US release 8 December 2023 despite 2022 title.
+- Local totals 42 sets /20,616 cards; Star Wars 18 /9,318. All prior 39 metadata/bundles and frozen snapshot preserved. All seven focused and thirteen existing Star Wars suites plus split/category/Stadium Club regressions pass. Atomic SQL dry run, commit and identical repeat pass across eight full-row digests. All 30 collections retain 6648329147d88b88ed9e52eaac40cfa9; images empty. Browser/publication pending. Known unavailable local Chromium not retried.
+- Next: SW-021 — 2023 Topps Finest Star Wars, official availability 29 November 2023.
+
 ## Star Wars 2024 three-set batch — 26 October 2026 (published)
 
 - User authorised three sets per batch, superseding one-set-per-task. SW-011 Chrome Black (19 March 2025), SW-015 High-Tek (8 January 2025), SW-012 Chrome Galaxy (1 November 2024). Chrome Black corrects the earlier pending-queue omission.
