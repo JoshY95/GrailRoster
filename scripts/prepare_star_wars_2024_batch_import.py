@@ -6,11 +6,12 @@ from pathlib import Path
 from star_wars_2024_batch import CONFIGS, tables
 OUT = Path(__file__).resolve().parents[1] / 'supabase/corrections/2026-10-26-star-wars-2024-batch.sql'
 
-def generate():
-    parts = [tables(k) for k in CONFIGS]
+def generate(data_parts=None, *, baseline_sets=36, baseline_cards=17648):
+    parts = [tables(k) for k in CONFIGS] if data_parts is None else data_parts
     data = OrderedDict((t, [r for p in parts for r in p[t]]) for t in parts[0])
-    ids = [c['id'] for c in CONFIGS.values()]
-    final_cards = 17648 + len(data['catalogue_cards'])
+    ids = [p['catalogue_sets'][0]['id'] for p in parts]
+    final_sets = baseline_sets + len(ids)
+    final_cards = baseline_cards + len(data['catalogue_cards'])
     watched = [*data, 'collection_items', 'reference_images']
     sql = ['-- Generated atomic three-set import; additive catalogue data only.', 'begin;',
            "set local lock_timeout='5s';", 'lock table '+','.join('public.'+t for t in data)+' in share row exclusive mode;']
@@ -18,9 +19,9 @@ def generate():
         sql.append(f'create temporary table before_{table} on commit drop as select to_jsonb(t) as row from public.{table} t;')
     quoted_ids = ','.join("'"+sid+"'" for sid in ids)
     sql.append(f"""do $$ begin
- if (select count(*) from public.catalogue_sets) not in (36,39)
- or (select count(*) from public.catalogue_cards) not in (17648,{final_cards})
- or ((select count(*) from public.catalogue_sets)=39 and (select count(*) from public.catalogue_sets where id in ({quoted_ids}))<>3)
+ if (select count(*) from public.catalogue_sets) not in ({baseline_sets},{final_sets})
+ or (select count(*) from public.catalogue_cards) not in ({baseline_cards},{final_cards})
+ or ((select count(*) from public.catalogue_sets)={final_sets} and (select count(*) from public.catalogue_sets where id in ({quoted_ids}))<>{len(ids)})
  then raise exception 'Catalogue baseline changed; review batch import'; end if;
 end $$;""")
     for table, rows in data.items():
@@ -39,7 +40,7 @@ insert into public.{table}({','.join(columns)}) select {','.join(columns)} from 
         for table, rows in part.items():
             key = 'id' if table=='catalogue_sets' else 'set_id'
             conditions.append(f"(select count(*) from public.{table} where {key}='{sid}')<>{len(rows)}")
-    conditions += [f'(select count(*) from public.catalogue_sets)<>39', f'(select count(*) from public.catalogue_cards)<>{final_cards}',
+    conditions += [f'(select count(*) from public.catalogue_sets)<>{final_sets}', f'(select count(*) from public.catalogue_cards)<>{final_cards}',
         f"exists(select 1 from public.catalogue_variants v left join public.catalogue_cards c on c.id=v.card_id where v.set_id in ({quoted_ids}) and (c.id is null or c.set_id<>v.set_id))",
         f"exists(select 1 from public.catalogue_subsets s where s.set_id in ({quoted_ids}) and s.card_count<>(select count(*) from public.catalogue_cards c where c.set_id=s.set_id and c.subset_code=s.subset_code))"]
     for table in watched:

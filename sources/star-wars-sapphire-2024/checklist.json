@@ -1,0 +1,1746 @@
+{
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/STW2476-2024StarWarsChromeSapphireChecklistV3.pdf",
+  "checklistSha256": "30706a685fa3884054a5daf061060c9b1ac585288ee0d63a6783652e575749b7",
+  "productUrl": "https://www.topps.com/products/2024-topps-star-wars-chrome-sapphire-edition-sealed-case",
+  "subsets": [
+    {
+      "name": "BASE CARDS",
+      "rows": [
+        {
+          "number": "1",
+          "page": 1,
+          "fields": [
+            "The Chancellor's Ambassadors Arrive"
+          ]
+        },
+        {
+          "number": "2",
+          "page": 1,
+          "fields": [
+            "The Trade Federation's Mysterious Conspirator"
+          ]
+        },
+        {
+          "number": "3",
+          "page": 1,
+          "fields": [
+            "The <i>Radiant VII</i> is Obliterated!"
+          ]
+        },
+        {
+          "number": "4",
+          "page": 1,
+          "fields": [
+            "Poisonous Gas Fills the Meeting Room"
+          ]
+        },
+        {
+          "number": "5",
+          "page": 1,
+          "fields": [
+            "A Squad of Droids Arrive"
+          ]
+        },
+        {
+          "number": "6",
+          "page": 1,
+          "fields": [
+            "The Jedi Make Their Way to the Command Deck"
+          ]
+        },
+        {
+          "number": "7",
+          "page": 1,
+          "fields": [
+            "Breaking Down the Blast Doors"
+          ]
+        },
+        {
+          "number": "8",
+          "page": 1,
+          "fields": [
+            "Stowaways"
+          ]
+        },
+        {
+          "number": "9",
+          "page": 1,
+          "fields": [
+            "The Queen's Disapproval"
+          ]
+        },
+        {
+          "number": "10",
+          "page": 1,
+          "fields": [
+            "Senator Sheev Palpatine"
+          ]
+        },
+        {
+          "number": "11",
+          "page": 1,
+          "fields": [
+            "The Trade Federation Touches Down on Naboo"
+          ]
+        },
+        {
+          "number": "12",
+          "page": 1,
+          "fields": [
+            "Hunt for the Jedi"
+          ]
+        },
+        {
+          "number": "13",
+          "page": 1,
+          "fields": [
+            "On the Run in the Swamp!"
+          ]
+        },
+        {
+          "number": "14",
+          "page": 1,
+          "fields": [
+            "Jar Jar Binks"
+          ]
+        },
+        {
+          "number": "15",
+          "page": 1,
+          "fields": [
+            "Seeking Safety Among the Gungans"
+          ]
+        },
+        {
+          "number": "16",
+          "page": 1,
+          "fields": [
+            "The Banished One"
+          ]
+        },
+        {
+          "number": "17",
+          "page": 1,
+          "fields": [
+            "The Hidden Underwater City"
+          ]
+        },
+        {
+          "number": "18",
+          "page": 1,
+          "fields": [
+            "An Unwelcome Return"
+          ]
+        },
+        {
+          "number": "19",
+          "page": 1,
+          "fields": [
+            "Boss Nass"
+          ]
+        },
+        {
+          "number": "20",
+          "page": 1,
+          "fields": [
+            "The Jedi & Their Navigator"
+          ]
+        },
+        {
+          "number": "21",
+          "page": 1,
+          "fields": [
+            "Creatures of the Deep"
+          ]
+        },
+        {
+          "number": "22",
+          "page": 1,
+          "fields": [
+            "The Dark Lord's Political Tactics"
+          ]
+        },
+        {
+          "number": "23",
+          "page": 1,
+          "fields": [
+            "Theed Falls to the Trade Federation Army"
+          ]
+        },
+        {
+          "number": "24",
+          "page": 1,
+          "fields": [
+            "The Royal Court Rescued!"
+          ]
+        },
+        {
+          "number": "25",
+          "page": 1,
+          "fields": [
+            "Boarding the Queen's Starship"
+          ]
+        },
+        {
+          "number": "26",
+          "page": 1,
+          "fields": [
+            "Blasting through the Blockade"
+          ]
+        },
+        {
+          "number": "27",
+          "page": 1,
+          "fields": [
+            "The Heroic Astromech, R2-D2"
+          ]
+        },
+        {
+          "number": "28",
+          "page": 1,
+          "fields": [
+            "Necessary Repairs on Tatooine"
+          ]
+        },
+        {
+          "number": "29",
+          "page": 1,
+          "fields": [
+            "\"He will find your lost ship…\""
+          ]
+        },
+        {
+          "number": "30",
+          "page": 1,
+          "fields": [
+            "The Queen's Handmaiden, Padmé Amidala"
+          ]
+        },
+        {
+          "number": "31",
+          "page": 1,
+          "fields": [
+            "Watto's Junk Shop"
+          ]
+        },
+        {
+          "number": "32",
+          "page": 1,
+          "fields": [
+            "Meeting Anakin Skywalker"
+          ]
+        },
+        {
+          "number": "33",
+          "page": 1,
+          "fields": [
+            "Negotiating with Watto"
+          ]
+        },
+        {
+          "number": "34",
+          "page": 1,
+          "fields": [
+            "Finding Trouble with the Locals"
+          ]
+        },
+        {
+          "number": "35",
+          "page": 1,
+          "fields": [
+            "Sebulba & Anakin Skywalker"
+          ]
+        },
+        {
+          "number": "36",
+          "page": 1,
+          "fields": [
+            "Shelter in the Skywalker Home"
+          ]
+        },
+        {
+          "number": "37",
+          "page": 1,
+          "fields": [
+            "Anakin's Protocol Droid"
+          ]
+        },
+        {
+          "number": "38",
+          "page": 1,
+          "fields": [
+            "Darth Maul is Sent to Tatooine"
+          ]
+        },
+        {
+          "number": "39",
+          "page": 1,
+          "fields": [
+            "The Podracing Solution"
+          ]
+        },
+        {
+          "number": "40",
+          "page": 1,
+          "fields": [
+            "Making the Deal with Watto"
+          ]
+        },
+        {
+          "number": "41",
+          "page": 1,
+          "fields": [
+            "Anakin's Gifts"
+          ]
+        },
+        {
+          "number": "42",
+          "page": 1,
+          "fields": [
+            "The Prophecy of the Chosen One"
+          ]
+        },
+        {
+          "number": "43",
+          "page": 1,
+          "fields": [
+            "Repairs for Anakin's Podracer"
+          ]
+        },
+        {
+          "number": "44",
+          "page": 1,
+          "fields": [
+            "Blood Sample Analysis"
+          ]
+        },
+        {
+          "number": "45",
+          "page": 1,
+          "fields": [
+            "Dispatching the Seeker Droids"
+          ]
+        },
+        {
+          "number": "46",
+          "page": 1,
+          "fields": [
+            "A New Bet with Watto"
+          ]
+        },
+        {
+          "number": "47",
+          "page": 1,
+          "fields": [
+            "The Boonta Eve Classic"
+          ]
+        },
+        {
+          "number": "48",
+          "page": 1,
+          "fields": [
+            "Qui-Gon Jinn's Advice"
+          ]
+        },
+        {
+          "number": "49",
+          "page": 2,
+          "fields": [
+            "Protests from Padmé"
+          ]
+        },
+        {
+          "number": "50",
+          "page": 2,
+          "fields": [
+            "Moving Through The Field of Racers"
+          ]
+        },
+        {
+          "number": "51",
+          "page": 2,
+          "fields": [
+            "Clash with Sebulba"
+          ]
+        },
+        {
+          "number": "52",
+          "page": 2,
+          "fields": [
+            "Victory!"
+          ]
+        },
+        {
+          "number": "53",
+          "page": 2,
+          "fields": [
+            "\"Now you can make your dreams come true, Ani\""
+          ]
+        },
+        {
+          "number": "54",
+          "page": 2,
+          "fields": [
+            "Our Heroes Encounter Darth Maul"
+          ]
+        },
+        {
+          "number": "55",
+          "page": 2,
+          "fields": [
+            "A Narrow Escape"
+          ]
+        },
+        {
+          "number": "56",
+          "page": 2,
+          "fields": [
+            "Arrival on Coruscant"
+          ]
+        },
+        {
+          "number": "57",
+          "page": 2,
+          "fields": [
+            "Palpatine's Disdain for Republic Politics"
+          ]
+        },
+        {
+          "number": "58",
+          "page": 2,
+          "fields": [
+            "Qui-Gon Jinn Reports to the Jedi Council"
+          ]
+        },
+        {
+          "number": "59",
+          "page": 2,
+          "fields": [
+            "A Vergence in the Force"
+          ]
+        },
+        {
+          "number": "60",
+          "page": 2,
+          "fields": [
+            "The Queen's Plea to the Senate"
+          ]
+        },
+        {
+          "number": "61",
+          "page": 2,
+          "fields": [
+            "Chancellor Valorum's True Allegiance"
+          ]
+        },
+        {
+          "number": "62",
+          "page": 2,
+          "fields": [
+            "Vote of No Confidence"
+          ]
+        },
+        {
+          "number": "63",
+          "page": 2,
+          "fields": [
+            "The Rebellious Qui-Gon Jinn"
+          ]
+        },
+        {
+          "number": "64",
+          "page": 2,
+          "fields": [
+            "\"Fear is the path to the dark side\""
+          ]
+        },
+        {
+          "number": "65",
+          "page": 2,
+          "fields": [
+            "Palpatine's Rise to Supreme Chancellor"
+          ]
+        },
+        {
+          "number": "66",
+          "page": 2,
+          "fields": [
+            "Return to Naboo"
+          ]
+        },
+        {
+          "number": "67",
+          "page": 2,
+          "fields": [
+            "The Will of the Force"
+          ]
+        },
+        {
+          "number": "68",
+          "page": 2,
+          "fields": [
+            "Otoh Gunga Deserted"
+          ]
+        },
+        {
+          "number": "69",
+          "page": 2,
+          "fields": [
+            "Imploring the Gungans for Help"
+          ]
+        },
+        {
+          "number": "70",
+          "page": 2,
+          "fields": [
+            "The True Queen Revealed"
+          ]
+        },
+        {
+          "number": "71",
+          "page": 2,
+          "fields": [
+            "Jar Jar Binks' Promotion"
+          ]
+        },
+        {
+          "number": "72",
+          "page": 2,
+          "fields": [
+            "The Plan to Capture the Viceroy"
+          ]
+        },
+        {
+          "number": "73",
+          "page": 2,
+          "fields": [
+            "The Gungans Mobilize"
+          ]
+        },
+        {
+          "number": "74",
+          "page": 2,
+          "fields": [
+            "The Trade Federation Opens Fire"
+          ]
+        },
+        {
+          "number": "75",
+          "page": 2,
+          "fields": [
+            "The Queen's Army Mounts Their Attack!"
+          ]
+        },
+        {
+          "number": "76",
+          "page": 2,
+          "fields": [
+            "Dispatching the Pilots"
+          ]
+        },
+        {
+          "number": "77",
+          "page": 2,
+          "fields": [
+            "Anakin Skywalker's Hiding Spot"
+          ]
+        },
+        {
+          "number": "78",
+          "page": 2,
+          "fields": [
+            "Engaging the Droid Control Ship"
+          ]
+        },
+        {
+          "number": "79",
+          "page": 2,
+          "fields": [
+            "Droids Activated!"
+          ]
+        },
+        {
+          "number": "80",
+          "page": 2,
+          "fields": [
+            "Jedi vs. Sith"
+          ]
+        },
+        {
+          "number": "81",
+          "page": 2,
+          "fields": [
+            "R2-D2 & Anakin Skywalker Join the Battle"
+          ]
+        },
+        {
+          "number": "82",
+          "page": 2,
+          "fields": [
+            "Duel Beneath the Palace"
+          ]
+        },
+        {
+          "number": "83",
+          "page": 2,
+          "fields": [
+            "Swarms of Droid Starships"
+          ]
+        },
+        {
+          "number": "84",
+          "page": 2,
+          "fields": [
+            "Ascending the Palace Walls"
+          ]
+        },
+        {
+          "number": "85",
+          "page": 2,
+          "fields": [
+            "The Gungan Shields Fall"
+          ]
+        },
+        {
+          "number": "86",
+          "page": 2,
+          "fields": [
+            "Crash Landing in the Droid Ship Hangar"
+          ]
+        },
+        {
+          "number": "87",
+          "page": 2,
+          "fields": [
+            "The Queen Captured?"
+          ]
+        },
+        {
+          "number": "88",
+          "page": 2,
+          "fields": [
+            "Obi-Wan Kenobi's Ferocious Fight"
+          ]
+        },
+        {
+          "number": "89",
+          "page": 2,
+          "fields": [
+            "The Main Reactor Fails"
+          ]
+        },
+        {
+          "number": "90",
+          "page": 2,
+          "fields": [
+            "The Droid Army Deactivated"
+          ]
+        },
+        {
+          "number": "91",
+          "page": 2,
+          "fields": [
+            "The Sith Apprentice Defeated!"
+          ]
+        },
+        {
+          "number": "92",
+          "page": 2,
+          "fields": [
+            "Viceroy Apprehended"
+          ]
+        },
+        {
+          "number": "93",
+          "page": 2,
+          "fields": [
+            "\"Peace and prosperity to the Republic\""
+          ]
+        },
+        {
+          "number": "94",
+          "page": 2,
+          "fields": [
+            "At Odds with Master Yoda"
+          ]
+        },
+        {
+          "number": "95",
+          "page": 2,
+          "fields": [
+            "The Gungans are Surrounded"
+          ]
+        },
+        {
+          "number": "96",
+          "page": 2,
+          "fields": [
+            "The Fate of Anakin Skywalker"
+          ]
+        },
+        {
+          "number": "97",
+          "page": 2,
+          "fields": [
+            "\"Always two there are…\""
+          ]
+        },
+        {
+          "number": "98",
+          "page": 2,
+          "fields": [
+            "The Gungans Arrive in Theed"
+          ]
+        },
+        {
+          "number": "99",
+          "page": 2,
+          "fields": [
+            "Padawan Anakin Skywalker"
+          ]
+        },
+        {
+          "number": "100",
+          "page": 2,
+          "fields": [
+            "Peace for Naboo"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DUEL OF THE FATES",
+      "rows": [
+        {
+          "number": "DF-1",
+          "page": 3,
+          "fields": [
+            "Storming the Palace Hangar"
+          ]
+        },
+        {
+          "number": "DF-2",
+          "page": 3,
+          "fields": [
+            "Enter: Darth Maul!"
+          ]
+        },
+        {
+          "number": "DF-3",
+          "page": 3,
+          "fields": [
+            "Two Jedi Versus One Sith"
+          ]
+        },
+        {
+          "number": "DF-4",
+          "page": 3,
+          "fields": [
+            "Beneath the Palace"
+          ]
+        },
+        {
+          "number": "DF-5",
+          "page": 3,
+          "fields": [
+            "Obi-Wan Kenobi Hangs for Dear Life!"
+          ]
+        },
+        {
+          "number": "DF-6",
+          "page": 3,
+          "fields": [
+            "Qui-Gon Jinn Takes on Darth Maul Alone"
+          ]
+        },
+        {
+          "number": "DF-7",
+          "page": 3,
+          "fields": [
+            "Struggling to Catch Up"
+          ]
+        },
+        {
+          "number": "DF-8",
+          "page": 3,
+          "fields": [
+            "Separated by Laser Gates"
+          ]
+        },
+        {
+          "number": "DF-9",
+          "page": 3,
+          "fields": [
+            "The Intimidating Darth Maul"
+          ]
+        },
+        {
+          "number": "DF-10",
+          "page": 3,
+          "fields": [
+            "A Moment of Calm for Qui-Gon Jinn"
+          ]
+        },
+        {
+          "number": "DF-11",
+          "page": 3,
+          "fields": [
+            "Darth Maul Gains the Upper Hand"
+          ]
+        },
+        {
+          "number": "DF-12",
+          "page": 3,
+          "fields": [
+            "The Sith Waits for the Apprentice"
+          ]
+        },
+        {
+          "number": "DF-13",
+          "page": 3,
+          "fields": [
+            "A Flurry of Attacks from Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "DF-14",
+          "page": 3,
+          "fields": [
+            "Maul's Lightsaber is Cut in Half"
+          ]
+        },
+        {
+          "number": "DF-15",
+          "page": 3,
+          "fields": [
+            "Sending His Oppenent into the Chasm!"
+          ]
+        },
+        {
+          "number": "DF-16",
+          "page": 3,
+          "fields": [
+            "Darth Maul Taunts Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "DF-17",
+          "page": 3,
+          "fields": [
+            "Obi-Wan Kenobi Reemerges!"
+          ]
+        },
+        {
+          "number": "DF-18",
+          "page": 3,
+          "fields": [
+            "Qui-Gon Jinn's Final Request"
+          ]
+        },
+        {
+          "number": "DF-19",
+          "page": 3,
+          "fields": [
+            "Qui-Gon Jinn Advances"
+          ]
+        },
+        {
+          "number": "DF-20",
+          "page": 3,
+          "fields": [
+            "Darth Maul pulls out Dual Lightsaber"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JEDI HIGH COUNCIL",
+      "rows": [
+        {
+          "number": "JC-1",
+          "page": 3,
+          "fields": [
+            "Yaddle"
+          ]
+        },
+        {
+          "number": "JC-2",
+          "page": 3,
+          "fields": [
+            "Plo Koon"
+          ]
+        },
+        {
+          "number": "JC-3",
+          "page": 3,
+          "fields": [
+            "Adi Gallia"
+          ]
+        },
+        {
+          "number": "JC-4",
+          "page": 3,
+          "fields": [
+            "Depa Billaba"
+          ]
+        },
+        {
+          "number": "JC-5",
+          "page": 3,
+          "fields": [
+            "Saesee Tiin"
+          ]
+        },
+        {
+          "number": "JC-6",
+          "page": 3,
+          "fields": [
+            "Yarael Poof"
+          ]
+        },
+        {
+          "number": "JC-7",
+          "page": 3,
+          "fields": [
+            "Eeth Koth"
+          ]
+        },
+        {
+          "number": "JC-8",
+          "page": 3,
+          "fields": [
+            "Oppo Rancisis"
+          ]
+        },
+        {
+          "number": "JC-9",
+          "page": 3,
+          "fields": [
+            "Even Piell"
+          ]
+        },
+        {
+          "number": "JC-10",
+          "page": 3,
+          "fields": [
+            "Ki-Adi-Mundi"
+          ]
+        },
+        {
+          "number": "JC-11",
+          "page": 3,
+          "fields": [
+            "Mace Windu"
+          ]
+        },
+        {
+          "number": "JC-12",
+          "page": 3,
+          "fields": [
+            "Yoda"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PODRACING",
+      "rows": [
+        {
+          "number": "PR-1",
+          "page": 3,
+          "fields": [
+            "Arriving at the Hangar"
+          ]
+        },
+        {
+          "number": "PR-2",
+          "page": 3,
+          "fields": [
+            "Watto's Chance Cubes"
+          ]
+        },
+        {
+          "number": "PR-3",
+          "page": 3,
+          "fields": [
+            "Sebulba's Interference"
+          ]
+        },
+        {
+          "number": "PR-4",
+          "page": 3,
+          "fields": [
+            "A Tough Start for Anakin Skywalker"
+          ]
+        },
+        {
+          "number": "PR-5",
+          "page": 3,
+          "fields": [
+            "Weaving Through the Other Racers"
+          ]
+        },
+        {
+          "number": "PR-6",
+          "page": 3,
+          "fields": [
+            "Pushed off of the Track by Sebulba!"
+          ]
+        },
+        {
+          "number": "PR-7",
+          "page": 3,
+          "fields": [
+            "Quick Thinking Recovery"
+          ]
+        },
+        {
+          "number": "PR-8",
+          "page": 3,
+          "fields": [
+            "In the Final Stretch!"
+          ]
+        },
+        {
+          "number": "PR-9",
+          "page": 3,
+          "fields": [
+            "Victory for Anakin Skywalker!"
+          ]
+        },
+        {
+          "number": "PR-10",
+          "page": 3,
+          "fields": [
+            "Freed from Watto"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SAPPHIRE SELECTIONS",
+      "rows": [
+        {
+          "number": "SS-1",
+          "page": 4,
+          "fields": [
+            "Qui-Gon Jinn"
+          ]
+        },
+        {
+          "number": "SS-2",
+          "page": 4,
+          "fields": [
+            "Queen Amidala"
+          ]
+        },
+        {
+          "number": "SS-3",
+          "page": 4,
+          "fields": [
+            "R2-D2"
+          ]
+        },
+        {
+          "number": "SS-4",
+          "page": 4,
+          "fields": [
+            "Sabé"
+          ]
+        },
+        {
+          "number": "SS-5",
+          "page": 4,
+          "fields": [
+            "Anakin Skywalker"
+          ]
+        },
+        {
+          "number": "SS-6",
+          "page": 4,
+          "fields": [
+            "Jar Jar Binks"
+          ]
+        },
+        {
+          "number": "SS-7",
+          "page": 4,
+          "fields": [
+            "Mace Windu"
+          ]
+        },
+        {
+          "number": "SS-8",
+          "page": 4,
+          "fields": [
+            "Yoda"
+          ]
+        },
+        {
+          "number": "SS-9",
+          "page": 4,
+          "fields": [
+            "Captain Panaka"
+          ]
+        },
+        {
+          "number": "SS-10",
+          "page": 4,
+          "fields": [
+            "Darth Maul"
+          ]
+        },
+        {
+          "number": "SS-11",
+          "page": 4,
+          "fields": [
+            "Senator Palpatine"
+          ]
+        },
+        {
+          "number": "SS-12",
+          "page": 4,
+          "fields": [
+            "Shmi Skywalker"
+          ]
+        },
+        {
+          "number": "SS-13",
+          "page": 4,
+          "fields": [
+            "Ki-Adi-Mundi"
+          ]
+        },
+        {
+          "number": "SS-14",
+          "page": 4,
+          "fields": [
+            "Sebulba"
+          ]
+        },
+        {
+          "number": "SS-15",
+          "page": 4,
+          "fields": [
+            "Nute Gunray"
+          ]
+        },
+        {
+          "number": "SS-16",
+          "page": 4,
+          "fields": [
+            "Boss Nass"
+          ]
+        },
+        {
+          "number": "SS-17",
+          "page": 4,
+          "fields": [
+            "Sio Bibble"
+          ]
+        },
+        {
+          "number": "SS-18",
+          "page": 4,
+          "fields": [
+            "Chancellor Valorum"
+          ]
+        },
+        {
+          "number": "SS-19",
+          "page": 4,
+          "fields": [
+            "Ric Olié"
+          ]
+        },
+        {
+          "number": "SS-20",
+          "page": 4,
+          "fields": [
+            "Obi-Wan Kenobi"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PHANTOM MENACE CAST",
+      "rows": [
+        {
+          "number": "PA-AB",
+          "page": 4,
+          "fields": [
+            "Ahmed Best",
+            "Jar Jar Binks"
+          ]
+        },
+        {
+          "number": "PA-BB",
+          "page": 4,
+          "fields": [
+            "Brian Blessed",
+            "Boss Nass"
+          ]
+        },
+        {
+          "number": "PA-EM",
+          "page": 4,
+          "fields": [
+            "Ewan McGregor",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "PA-IM",
+          "page": 4,
+          "fields": [
+            "Ian McDiarmid",
+            "Senator Palpatine"
+          ]
+        },
+        {
+          "number": "PA-KK",
+          "page": 4,
+          "fields": [
+            "Keira Knightley",
+            "Sabé"
+          ]
+        },
+        {
+          "number": "PA-LM",
+          "page": 4,
+          "fields": [
+            "Lewis MacLeod",
+            "Sebulba"
+          ]
+        },
+        {
+          "number": "PA-MC",
+          "page": 4,
+          "fields": [
+            "Michaela Cottrell",
+            "Even Piell"
+          ]
+        },
+        {
+          "number": "PA-NP",
+          "page": 4,
+          "fields": [
+            "Natalie Portman",
+            "Queen Amidala"
+          ]
+        },
+        {
+          "number": "PA-OD",
+          "page": 4,
+          "fields": [
+            "Oliver Ford Davies",
+            "Sio Bibble"
+          ]
+        },
+        {
+          "number": "PA-RB",
+          "page": 4,
+          "fields": [
+            "Ralph Brown",
+            "Ric Olié"
+          ]
+        },
+        {
+          "number": "PA-RP",
+          "page": 4,
+          "fields": [
+            "Ray Park",
+            "Darth Maul"
+          ]
+        },
+        {
+          "number": "PA-SJ",
+          "page": 4,
+          "fields": [
+            "Samuel L. Jackson",
+            "Mace Windu"
+          ]
+        },
+        {
+          "number": "PA-WD",
+          "page": 4,
+          "fields": [
+            "Warwick Davis",
+            "Weazel"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DUAL AUTOGRAPHS",
+      "rows": [
+        {
+          "number": "PD-MB",
+          "page": 4,
+          "fields": [
+            "Ewan McGregor",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "PD-MB",
+          "page": 4,
+          "fields": [
+            "Ahmed Best",
+            "Jar Jar Binks"
+          ]
+        },
+        {
+          "number": "PD-PK",
+          "page": 4,
+          "fields": [
+            "Keira Knightley",
+            "Sabé"
+          ]
+        },
+        {
+          "number": "PD-PK",
+          "page": 4,
+          "fields": [
+            "Natalie Portman",
+            "Queen Amidala"
+          ]
+        },
+        {
+          "number": "PD-PM",
+          "page": 4,
+          "fields": [
+            "Ray Park",
+            "Darth Maul"
+          ]
+        },
+        {
+          "number": "PD-PM",
+          "page": 4,
+          "fields": [
+            "Ian McDiarmid",
+            "Darth Sidious"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SAPPHIRE SELECTIONS AUTOGRAPHS",
+      "rows": [
+        {
+          "number": "SSA-AB",
+          "page": 4,
+          "fields": [
+            "Ahmed Best",
+            "Jar Jar Binks"
+          ]
+        },
+        {
+          "number": "SSA-BB",
+          "page": 5,
+          "fields": [
+            "Brian Blessed",
+            "Boss Nass"
+          ]
+        },
+        {
+          "number": "SSA-EM",
+          "page": 5,
+          "fields": [
+            "Ewan McGregor",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "SSA-IM",
+          "page": 5,
+          "fields": [
+            "Ian McDiarmid",
+            "Senator Palpatine"
+          ]
+        },
+        {
+          "number": "SSA-KK",
+          "page": 5,
+          "fields": [
+            "Keira Knightley",
+            "Sabé"
+          ]
+        },
+        {
+          "number": "SSA-NP",
+          "page": 5,
+          "fields": [
+            "Natalie Portman",
+            "Queen Amidala"
+          ]
+        },
+        {
+          "number": "SSA-OD",
+          "page": 5,
+          "fields": [
+            "Oliver Ford Davies",
+            "Sio Bibble"
+          ]
+        },
+        {
+          "number": "SSA-RP",
+          "page": 5,
+          "fields": [
+            "Ray Park",
+            "Darth Maul"
+          ]
+        },
+        {
+          "number": "SSA-SJ",
+          "page": 5,
+          "fields": [
+            "Samuel L. Jackson",
+            "Mace Windu"
+          ]
+        }
+      ]
+    }
+  ],
+  "rosters": {},
+  "unresolved": [
+    {
+      "label": "Mystery Redemption",
+      "page": 5,
+      "reason": "No printed number or subject supplied; no identity invented."
+    }
+  ],
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2024StarWarsChromeSapphireOdds.pdf",
+  "oddsSha256": "13b2d971adde24ea51ad0f30b5a72ea3c9acf43638b0b79d012c9391ee986c50",
+  "oddsUnavailable": null,
+  "odds": [
+    {
+      "label": "BASE SET CARDS PURPLE SAPPHIRE",
+      "rates": [
+        "1:8"
+      ],
+      "page": 1,
+      "rawLine": "BASE SET CARDS PURPLE SAPPHIRE 1:8"
+    },
+    {
+      "label": "BASE SET CARDS GREEN SAPPHIRE",
+      "rates": [
+        "1:10"
+      ],
+      "page": 1,
+      "rawLine": "BASE SET CARDS GREEN SAPPHIRE 1:10"
+    },
+    {
+      "label": "BASE SET CARDS YELLOW SAPPHIRE",
+      "rates": [
+        "1:13"
+      ],
+      "page": 1,
+      "rawLine": "BASE SET CARDS YELLOW SAPPHIRE 1:13"
+    },
+    {
+      "label": "BASE SET CARDS GOLD SAPPHIRE",
+      "rates": [
+        "1:19"
+      ],
+      "page": 1,
+      "rawLine": "BASE SET CARDS GOLD SAPPHIRE 1:19"
+    },
+    {
+      "label": "BASE SET CARDS ORANGE SAPPHIRE",
+      "rates": [
+        "1:37"
+      ],
+      "page": 1,
+      "rawLine": "BASE SET CARDS ORANGE SAPPHIRE 1:37"
+    },
+    {
+      "label": "BASE SET CARDS BLACK SAPPHIRE",
+      "rates": [
+        "1:93"
+      ],
+      "page": 1,
+      "rawLine": "BASE SET CARDS BLACK SAPPHIRE 1:93"
+    },
+    {
+      "label": "BASE SET CARDS RED SAPPHIRE",
+      "rates": [
+        "1:185"
+      ],
+      "page": 1,
+      "rawLine": "BASE SET CARDS RED SAPPHIRE 1:185"
+    },
+    {
+      "label": "BASE SET CARDS PAPRADASCHA SAPPHIRE",
+      "rates": [
+        "1:927"
+      ],
+      "page": 1,
+      "rawLine": "BASE SET CARDS PAPRADASCHA SAPPHIRE 1:927"
+    },
+    {
+      "label": "DUAL AUTOGRAPHS",
+      "rates": [
+        "1:5,867"
+      ],
+      "page": 1,
+      "rawLine": "DUAL AUTOGRAPHS 1:5,867"
+    },
+    {
+      "label": "DUAL AUTOGRAPHS PAPRADASCHA SAPPHIRE",
+      "rates": [
+        "1:29,334"
+      ],
+      "page": 1,
+      "rawLine": "DUAL AUTOGRAPHS PAPRADASCHA SAPPHIRE 1:29,334"
+    },
+    {
+      "label": "DUEL OF THE FATES GREEN SAPPHIRE",
+      "rates": [
+        "1:47"
+      ],
+      "page": 1,
+      "rawLine": "DUEL OF THE FATES GREEN SAPPHIRE 1:47"
+    },
+    {
+      "label": "DUEL OF THE FATES YELLOW SAPPHIRE",
+      "rates": [
+        "1:62"
+      ],
+      "page": 1,
+      "rawLine": "DUEL OF THE FATES YELLOW SAPPHIRE 1:62"
+    },
+    {
+      "label": "DUEL OF THE FATES GOLD SAPPHIRE",
+      "rates": [
+        "1:93"
+      ],
+      "page": 1,
+      "rawLine": "DUEL OF THE FATES GOLD SAPPHIRE 1:93"
+    },
+    {
+      "label": "DUEL OF THE FATES ORANGE SAPPHIRE",
+      "rates": [
+        "1:185"
+      ],
+      "page": 1,
+      "rawLine": "DUEL OF THE FATES ORANGE SAPPHIRE 1:185"
+    },
+    {
+      "label": "DUEL OF THE FATES BLACK SAPPHIRE",
+      "rates": [
+        "1:461"
+      ],
+      "page": 1,
+      "rawLine": "DUEL OF THE FATES BLACK SAPPHIRE 1:461"
+    },
+    {
+      "label": "DUEL OF THE FATES RED SAPPHIRE",
+      "rates": [
+        "1:926"
+      ],
+      "page": 1,
+      "rawLine": "DUEL OF THE FATES RED SAPPHIRE 1:926"
+    },
+    {
+      "label": "DUEL OF THE FATES PAPRADASCHA SAPPHIRE",
+      "rates": [
+        "1:4,632"
+      ],
+      "page": 1,
+      "rawLine": "DUEL OF THE FATES PAPRADASCHA SAPPHIRE 1:4,632"
+    },
+    {
+      "label": "JEDI HIGH HIGH COUNCIL",
+      "rates": [
+        "1:77"
+      ],
+      "page": 1,
+      "rawLine": "JEDI HIGH HIGH COUNCIL 1:77"
+    },
+    {
+      "label": "JEDI HIGH COUNCIL ORANGE SAPPHIRE",
+      "rates": [
+        "1:308"
+      ],
+      "page": 1,
+      "rawLine": "JEDI HIGH COUNCIL ORANGE SAPPHIRE 1:308"
+    },
+    {
+      "label": "JEDI HIGH COUNCIL BLACK SAPPHIRE",
+      "rates": [
+        "1:772"
+      ],
+      "page": 1,
+      "rawLine": "JEDI HIGH COUNCIL BLACK SAPPHIRE 1:772"
+    },
+    {
+      "label": "JEDI HIGH COUNCIL RED SAPPHIRE",
+      "rates": [
+        "1:1,544"
+      ],
+      "page": 1,
+      "rawLine": "JEDI HIGH COUNCIL RED SAPPHIRE 1:1,544"
+    },
+    {
+      "label": "JEDI HIGH COUNCIL PAPRADASCHA SAPPHIRE",
+      "rates": [
+        "1:7,334"
+      ],
+      "page": 1,
+      "rawLine": "JEDI HIGH COUNCIL PAPRADASCHA SAPPHIRE 1:7,334"
+    },
+    {
+      "label": "PHANTOM MENACE CAST AUTOGRAPHS",
+      "rates": [
+        "1:112"
+      ],
+      "page": 1,
+      "rawLine": "PHANTOM MENACE CAST AUTOGRAPHS 1:112"
+    },
+    {
+      "label": "PHANTOM MENACE CAST AUTOGRAPHS BLACK SAPPHIRE",
+      "rates": [
+        "1:683"
+      ],
+      "page": 1,
+      "rawLine": "PHANTOM MENACE CAST AUTOGRAPHS BLACK SAPPHIRE 1:683"
+    },
+    {
+      "label": "PHANTOM MENACE CAST AUTOGRAPHS RED SAPPHIRE",
+      "rates": [
+        "1:1,354"
+      ],
+      "page": 1,
+      "rawLine": "PHANTOM MENACE CAST AUTOGRAPHS RED SAPPHIRE 1:1,354"
+    },
+    {
+      "label": "PHANTOM MENACE CAST AUTOGRAPHS PAPRADASCHA SAPPHIRE",
+      "rates": [
+        "1:6,286"
+      ],
+      "page": 1,
+      "rawLine": "PHANTOM MENACE CAST AUTOGRAPHS PAPRADASCHA SAPPHIRE 1:6,286"
+    },
+    {
+      "label": "PODRACING GREEN SAPPHIRE",
+      "rates": [
+        "1:94"
+      ],
+      "page": 1,
+      "rawLine": "PODRACING GREEN SAPPHIRE 1:94"
+    },
+    {
+      "label": "PODRACING YELLOW SAPPHIRE",
+      "rates": [
+        "1:123"
+      ],
+      "page": 1,
+      "rawLine": "PODRACING YELLOW SAPPHIRE 1:123"
+    },
+    {
+      "label": "PODRACING GOLD SAPPHIRE",
+      "rates": [
+        "1:185"
+      ],
+      "page": 1,
+      "rawLine": "PODRACING GOLD SAPPHIRE 1:185"
+    },
+    {
+      "label": "PODRACING ORANGE SAPPHIRE",
+      "rates": [
+        "1:369"
+      ],
+      "page": 1,
+      "rawLine": "PODRACING ORANGE SAPPHIRE 1:369"
+    },
+    {
+      "label": "PODRACING BLACK SAPPHIRE",
+      "rates": [
+        "1:927"
+      ],
+      "page": 1,
+      "rawLine": "PODRACING BLACK SAPPHIRE 1:927"
+    },
+    {
+      "label": "PODRACING RED SAPPHIRE",
+      "rates": [
+        "1:1,834"
+      ],
+      "page": 1,
+      "rawLine": "PODRACING RED SAPPHIRE 1:1,834"
+    },
+    {
+      "label": "PODRACING PAPRADASCHA SAPPHIRE",
+      "rates": [
+        "1:8,800"
+      ],
+      "page": 1,
+      "rawLine": "PODRACING PAPRADASCHA SAPPHIRE 1:8,800"
+    },
+    {
+      "label": "SAPPHIRE SELECTIONS",
+      "rates": [
+        "1:47"
+      ],
+      "page": 1,
+      "rawLine": "SAPPHIRE SELECTIONS 1:47"
+    },
+    {
+      "label": "SAPPHIRE SELECTIONS GOLD SAPPHIRE",
+      "rates": [
+        "1:93"
+      ],
+      "page": 1,
+      "rawLine": "SAPPHIRE SELECTIONS GOLD SAPPHIRE 1:93"
+    },
+    {
+      "label": "SAPPHIRE SELECTIONS ORANGE SAPPHIRE",
+      "rates": [
+        "1:185"
+      ],
+      "page": 1,
+      "rawLine": "SAPPHIRE SELECTIONS ORANGE SAPPHIRE 1:185"
+    },
+    {
+      "label": "SAPPHIRE SELECTIONS RED SAPPHIRE",
+      "rates": [
+        "1:927"
+      ],
+      "page": 1,
+      "rawLine": "SAPPHIRE SELECTIONS RED SAPPHIRE 1:927"
+    },
+    {
+      "label": "SAPPHIRE SELECTIONS PAPRADASCHA SAPPHIRE",
+      "rates": [
+        "1:4,632"
+      ],
+      "page": 1,
+      "rawLine": "SAPPHIRE SELECTIONS PAPRADASCHA SAPPHIRE 1:4,632"
+    },
+    {
+      "label": "SAPPHIRE SELECTIONS AUTOGRAPHS",
+      "rates": [
+        "1:1,760"
+      ],
+      "page": 1,
+      "rawLine": "SAPPHIRE SELECTIONS AUTOGRAPHS 1:1,760"
+    },
+    {
+      "label": "SAPPHIRE SELECTIONS AUTOGRAPHS RED SAPPHIRE",
+      "rates": [
+        "1:2,220"
+      ],
+      "page": 1,
+      "rawLine": "SAPPHIRE SELECTIONS AUTOGRAPHS RED SAPPHIRE 1:2,220"
+    },
+    {
+      "label": "SAPPHIRE SELECTIONS AUTOGRAPHS PAPRADASCHA SAPPHIRE",
+      "rates": [
+        "1:9,778"
+      ],
+      "page": 1,
+      "rawLine": "SAPPHIRE SELECTIONS AUTOGRAPHS PAPRADASCHA SAPPHIRE 1:9,778"
+    }
+  ]
+}
