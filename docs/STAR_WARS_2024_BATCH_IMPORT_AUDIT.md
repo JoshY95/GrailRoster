@@ -1,6 +1,6 @@
 # Star Wars 2024 three-set batch — import audit
 
-Status: imported and locally validated; browser CI and publication verification pending.
+Status: imported and published via PR #20. Browser CI 40301765754 and Pages 40302076081 succeeded.
 
 The user authorised batching three sets: SW-011 Chrome Black, SW-015 High-Tek and SW-012 Chrome Galaxy. This supersedes the earlier one-set-per-task queue. Chrome Black was still pending despite its 19 March 2025 release; this batch corrects that queue omission. Previous published records are unchanged.
 
@@ -96,10 +96,14 @@ All **1,571 added variant rows are checklist identity placeholders** with null c
 
 All 36 prior set bundles, metadata records and stable IDs plus the frozen compatibility snapshot remain unchanged against `52ed0f6fd7dd315fae6ed39744601228985e9c4d`. New totals: **39 sets /19,219 identities**; Star Wars **15 /7,921**; WWE unchanged **24 /11,298**. Additions: 1,571 identities /40 subsets /215 rules /10 source records. Seven focused batch checks cover manifests, all source counts, repeated numbers, signer combinations, independent patterns, source anomalies, explicit caps, preservation, repeatability, rejected conflicts and atomic SQL.
 
-All twelve existing Star Wars source suites, the seven focused batch checks, split catalogue, category import/DOM and Stadium Club regressions passed locally. Browser coverage adds ALS-KK ownership isolation, all seven High-Tek base patterns, printed Fantastek prefixes, dual-signer search, cross-year Galaxy isolation, artwork/artist search, cross-page quads, 15-set category totals, responsive widths and real offline persistence. Known unavailable local Chromium is not retried; browser CI must pass before merge. Authenticated private-photo/two-device flows are not rerun.
+All twelve existing Star Wars source suites, the seven focused batch checks, split catalogue, category import/DOM and Stadium Club regressions passed locally. Browser coverage adds ALS-KK ownership isolation, all seven High-Tek base patterns, printed Fantastek prefixes, dual-signer search, cross-year Galaxy isolation, artwork/artist search, cross-page quads, 15-set category totals, responsive widths and real offline persistence. Known unavailable local Chromium is not retried; browser CI passed before merge. Authenticated private-photo/two-device flows are not rerun.
 
 The atomic SQL `supabase/corrections/2026-10-26-star-wars-2024-batch.sql` imports all three sets together from baseline 36 sets /17,648 cards. It snapshots eight complete tables, rejects conflicts/changed baselines, verifies per-set counts and linkage, and proves complete old-row preservation. No collector, image, auth, RLS or schema writes.
 
 Next: SW-010 — 2024 Topps Chrome Star Wars, [official Available From 14 August 2024](https://www.topps.com/products/2024-topps-star-wars-chrome-hobby-box).
 
 Database verification: rolled-back dry run preserved all eight baseline full-row digests. The committed import and identical second application passed all guards; every full-row digest was unchanged on repeat. Totals: 39 sets /19,219 cards /40,580 variants /647 subsets /2,320 rules /111 sources. All 30 collections retain digest `6648329147d88b88ed9e52eaac40cfa9`; images remain empty.
+
+## Published verification
+
+Feature `7fb272386706a206718163f02966f729ce127320` passed CI 40301765754 (job 121501105350): all source/catalogue/category checks, guest, Vault, real offline reload, fifteen-set ownership isolation, separate ALS-KK subjects, independent High-Tek patterns, category filters, original Fantastek prefixes, dual signer searches, Galaxy cross-year separation, artwork/artist search, cross-page quads and responsive widths 320–1440px. PR #20 merged as `df8519dd5ed2f8252af4723dd66f4d9047b39d7c`. Pages 40302076081 succeeded. All 52 live runtime/index/set assets match tested source byte-for-byte. Live guest UI was not separately rerun; browser CI exercised identical deployed runtime assets. Receipt: docs/STAR_WARS_2024_BATCH_RELEASE.json. Authenticated private-photo/two-device flows remain unrerun.
