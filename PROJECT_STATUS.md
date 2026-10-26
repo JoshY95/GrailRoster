@@ -2,6 +2,24 @@
 
 Read this first; inspect only files needed for the current task.
 
+## Star Wars PRs #9–#14 verification audit — 27 October 2026
+
+- Checked main d365251d4f63d1730b7d6bdef3718b75c7c32cb6, the actual Actions jobs, each release receipt, production assets and Sydney using read-only SQL. PR descriptions retained pre-publication wording after later publication receipts were committed. All five merged PRs passed catalogue preservation and guest/Vault/offline browser steps before merge; their Pages runs succeeded against their merge SHAs.
+
+| PR | Product | Browser CI | Pages | Current status |
+| --- | --- | --- | --- | --- |
+| [#9](https://github.com/JoshY95/GrailRoster/pull/9) | 2025 Topps Star Wars Masterwork | [40196453340](https://github.com/JoshY95/GrailRoster/actions/runs/40196453340) passed | [40196643494](https://github.com/JoshY95/GrailRoster/actions/runs/40196643494) succeeded | Merged; live and database verified. |
+| [#10](https://github.com/JoshY95/GrailRoster/pull/10) | 2025 Topps Star Wars Smugglers Outpost | [40200759468](https://github.com/JoshY95/GrailRoster/actions/runs/40200759468) passed | [40200929665](https://github.com/JoshY95/GrailRoster/actions/runs/40200929665) succeeded | Merged; live and database verified. |
+| [#11](https://github.com/JoshY95/GrailRoster/pull/11) | 2025 Topps Chrome Star Wars Galaxy | [40201920499](https://github.com/JoshY95/GrailRoster/actions/runs/40201920499) passed | [40202136681](https://github.com/JoshY95/GrailRoster/actions/runs/40202136681) succeeded | Merged; live and database verified. |
+| [#12](https://github.com/JoshY95/GrailRoster/pull/12) | 2025 Topps Chrome Sapphire Star Wars | [40237700074](https://github.com/JoshY95/GrailRoster/actions/runs/40237700074) passed | [40237875862](https://github.com/JoshY95/GrailRoster/actions/runs/40237875862) succeeded | Merged; live and database verified. |
+| [#13](https://github.com/JoshY95/GrailRoster/pull/13) | Regular Chrome 2025 (superseded) | [40240084810](https://github.com/JoshY95/GrailRoster/actions/runs/40240084810) passed | No separate deployment | Open, conflicting; not merged. Product live via #14. |
+| [#14](https://github.com/JoshY95/GrailRoster/pull/14) | 2025 Topps Chrome Star Wars with verified checklist | [40240834274](https://github.com/JoshY95/GrailRoster/actions/runs/40240834274) passed | [40240987507](https://github.com/JoshY95/GrailRoster/actions/runs/40240987507) succeeded | Merged; live and database verified. |
+
+- Fresh production check: all 59 runtime/index/set assets match main by Git blob hash. Live guest library shows 18 Star Wars sets /9,318 identities (global 46 /22,731). All five set counts and sorted card-ID digests match the database; no orphan variants or collection references. UBC-456 ten-signer book, both ARS-25 subjects, Galaxy Q-JNJF quad and separate Chrome/Sapphire DA-MJj duos verified in live guest UI.
+- All 30 complete collector rows still have digest 6648329147d88b88ed9e52eaac40cfa9, matching every release receipt; reference images remain empty. This audit made no database or collector writes and did not reapply historical imports. No catalogue republishing required.
+- Remaining: authenticated private-photo upload/privacy and two-session/device cloud sync/conflict recovery were not rerun; the available browser is in guest mode. Existing CI guest/Vault/offline coverage does not establish these flows. tests/vault-cloud.cjs uses mocked network and is not invoked by the inspected workflow. Do not mark authenticated checks complete. PR #13 remains open and must not be merged to publish the already-live Chrome set.
+- Full evidence: docs/STAR_WARS_PRS_9_14_VERIFICATION_2026_10_27.json.
+
 ## Prizm WWE 2024 — 26 October 2026 (published)
 
 - Authorised 2024 Prizm including Premium review. One parent, 516 identities /16 subsets, 9,270 exact source editions. Premium contributes 400 variants across the same 200 base IDs (/199 and Gold /5); no duplicate set. Twenty Under Card image/persona variations have independent IDs. Hobby 9 August, Under Card 23 August; Premium guide estimates 27 August 2024.

@@ -1,0 +1,940 @@
+{
+  "schemaVersion": 1,
+  "verifiedOn": "2026-10-27",
+  "timezone": "Australia/Melbourne",
+  "repository": "JoshY95/GrailRoster",
+  "verifiedMain": "d365251d4f63d1730b7d6bdef3718b75c7c32cb6",
+  "findings": "Five unique sets are merged, passed browser CI before merge, have successful Pages deployments, and remain live. PR 13 is open and conflicting; its regular Chrome product was delivered by PR 14.",
+  "prs": [
+    {
+      "number": 9,
+      "title": "Add 2025 Topps Star Wars Masterwork",
+      "state": "closed",
+      "merged": true,
+      "head": "30c8519b272588531385dbbb125c3744a6a198d5",
+      "merge": "d887ab592a768dfe550777e46854117fa00cf569",
+      "mergedAt": "2026-10-25T13:13:37Z",
+      "ci": {
+        "id": 40196453340,
+        "url": "https://github.com/JoshY95/GrailRoster/actions/runs/40196453340",
+        "head": "30c8519b272588531385dbbb125c3744a6a198d5",
+        "conclusion": "success",
+        "completedBy": "2026-10-25T13:12:35Z",
+        "completedBeforeMerge": true,
+        "steps": [
+          {
+            "name": "Verify catalogue preservation",
+            "conclusion": "success"
+          },
+          {
+            "name": "Exercise guest, Vault and offline flows",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "pages": {
+        "id": 40196643494,
+        "conclusion": "success",
+        "head": "d887ab592a768dfe550777e46854117fa00cf569"
+      },
+      "receipt": "docs/MASTERWORK_STAR_WARS_2025_RELEASE.json",
+      "status": "Merged, CI validated, Pages succeeded, live reverified."
+    },
+    {
+      "number": 10,
+      "title": "Add 2025 Topps Star Wars Smugglers Outpost",
+      "state": "closed",
+      "merged": true,
+      "head": "3aaf86fd2ca3b754de92e41bfb70e34817fe312e",
+      "merge": "58eac31f42b8f2a3666479514b45ced1a75cf3b8",
+      "mergedAt": "2026-10-25T14:09:41Z",
+      "ci": {
+        "id": 40200759468,
+        "url": "https://github.com/JoshY95/GrailRoster/actions/runs/40200759468",
+        "head": "3aaf86fd2ca3b754de92e41bfb70e34817fe312e",
+        "conclusion": "success",
+        "completedBy": "2026-10-25T14:09:05Z",
+        "completedBeforeMerge": true,
+        "steps": [
+          {
+            "name": "Verify catalogue preservation",
+            "conclusion": "success"
+          },
+          {
+            "name": "Exercise guest, Vault and offline flows",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "pages": {
+        "id": 40200929665,
+        "conclusion": "success",
+        "head": "58eac31f42b8f2a3666479514b45ced1a75cf3b8"
+      },
+      "receipt": "docs/SMUGGLERS_OUTPOST_STAR_WARS_2025_RELEASE.json",
+      "status": "Merged, CI validated, Pages succeeded, live reverified."
+    },
+    {
+      "number": 11,
+      "title": "Add 2025 Topps Chrome Star Wars Galaxy",
+      "state": "closed",
+      "merged": true,
+      "head": "fa2134a1e55b58dac2e2497886c7403bbbbdd80f",
+      "merge": "fcaba490bcbcf3de3e373829c69cf556f1551617",
+      "mergedAt": "2026-10-25T14:25:07Z",
+      "ci": {
+        "id": 40201920499,
+        "url": "https://github.com/JoshY95/GrailRoster/actions/runs/40201920499",
+        "head": "fa2134a1e55b58dac2e2497886c7403bbbbdd80f",
+        "conclusion": "success",
+        "completedBy": "2026-10-25T14:23:58Z",
+        "completedBeforeMerge": true,
+        "steps": [
+          {
+            "name": "Verify catalogue preservation",
+            "conclusion": "success"
+          },
+          {
+            "name": "Exercise guest, Vault and offline flows",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "pages": {
+        "id": 40202136681,
+        "conclusion": "success",
+        "head": "fcaba490bcbcf3de3e373829c69cf556f1551617"
+      },
+      "receipt": "docs/CHROME_STAR_WARS_GALAXY_2025_RELEASE.json",
+      "status": "Merged, CI validated, Pages succeeded, live reverified."
+    },
+    {
+      "number": 12,
+      "title": "Add 2025 Topps Chrome Sapphire Star Wars",
+      "state": "closed",
+      "merged": true,
+      "head": "964aad6d5996b0a5fa21b5f7b9d68e0c88e7bd4d",
+      "merge": "1f1ea977a4a814bb2eec3de21ab15bc7f7776a6e",
+      "mergedAt": "2026-10-25T21:57:06Z",
+      "ci": {
+        "id": 40237700074,
+        "url": "https://github.com/JoshY95/GrailRoster/actions/runs/40237700074",
+        "head": "964aad6d5996b0a5fa21b5f7b9d68e0c88e7bd4d",
+        "conclusion": "success",
+        "completedBy": "2026-10-25T21:56:28Z",
+        "completedBeforeMerge": true,
+        "steps": [
+          {
+            "name": "Verify catalogue preservation",
+            "conclusion": "success"
+          },
+          {
+            "name": "Exercise guest, Vault and offline flows",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "pages": {
+        "id": 40237875862,
+        "conclusion": "success",
+        "head": "1f1ea977a4a814bb2eec3de21ab15bc7f7776a6e"
+      },
+      "receipt": "docs/CHROME_SAPPHIRE_STAR_WARS_2025_RELEASE.json",
+      "status": "Merged, CI validated, Pages succeeded, live reverified."
+    },
+    {
+      "number": 13,
+      "title": "Add 2025 Topps Chrome Star Wars",
+      "state": "open",
+      "merged": false,
+      "head": "000f271a57e0a28e9dcd30bb513c32508c513ecf",
+      "merge": null,
+      "mergedAt": null,
+      "ci": {
+        "id": 40240084810,
+        "url": "https://github.com/JoshY95/GrailRoster/actions/runs/40240084810",
+        "head": "000f271a57e0a28e9dcd30bb513c32508c513ecf",
+        "conclusion": "success",
+        "completedBy": "2026-10-25T22:26:42Z",
+        "completedBeforeMerge": null,
+        "steps": [
+          {
+            "name": "Verify catalogue preservation",
+            "conclusion": "success"
+          },
+          {
+            "name": "Exercise guest, Vault and offline flows",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "pages": null,
+      "receipt": null,
+      "status": "Open, conflicting, unmerged; same product live via PR 14. No independent publication."
+    },
+    {
+      "number": 14,
+      "title": "Add 2025 Topps Chrome Star Wars with verified checklist",
+      "state": "closed",
+      "merged": true,
+      "head": "58cc19994d96ebef0d17f3e4c18fc6d25ccb33eb",
+      "merge": "428e662978c9c7e6c56f2befa99aaa5a1eb0dfe6",
+      "mergedAt": "2026-10-25T22:36:24Z",
+      "ci": {
+        "id": 40240834274,
+        "url": "https://github.com/JoshY95/GrailRoster/actions/runs/40240834274",
+        "head": "58cc19994d96ebef0d17f3e4c18fc6d25ccb33eb",
+        "conclusion": "success",
+        "completedBy": "2026-10-25T22:36:15Z",
+        "completedBeforeMerge": true,
+        "steps": [
+          {
+            "name": "Verify catalogue preservation",
+            "conclusion": "success"
+          },
+          {
+            "name": "Exercise guest, Vault and offline flows",
+            "conclusion": "success"
+          }
+        ]
+      },
+      "pages": {
+        "id": 40240987507,
+        "conclusion": "success",
+        "head": "428e662978c9c7e6c56f2befa99aaa5a1eb0dfe6"
+      },
+      "receipt": "docs/CHROME_STAR_WARS_2025_RELEASE.json",
+      "status": "Merged, CI validated, Pages succeeded, live reverified."
+    }
+  ],
+  "latestPages": {
+    "id": 40324120488,
+    "head": "d365251d4f63d1730b7d6bdef3718b75c7c32cb6",
+    "conclusion": "success"
+  },
+  "live": {
+    "url": "https://grailroster.com/#sets",
+    "checkedAt": "2026-10-26T15:02:28.690301+00:00",
+    "assetCount": 59,
+    "allAssetsMatchRepository": true,
+    "assets": [
+      {
+        "path": "app.js",
+        "status": 200,
+        "bytes": 58912,
+        "gitBlobSha": "62c832afb26c5cb38f11f9ffc094f013512d7c29",
+        "expected": "62c832afb26c5cb38f11f9ffc094f013512d7c29",
+        "matches": true,
+        "sha256": "a448caece5fea1211e338ea21311c341216e199927ea7b13e3f3246a80252b19"
+      },
+      {
+        "path": "categories.js",
+        "status": 200,
+        "bytes": 1837,
+        "gitBlobSha": "adf1632754849f72edeb8d2ec9ecb0c974fdcd16",
+        "expected": "adf1632754849f72edeb8d2ec9ecb0c974fdcd16",
+        "matches": true,
+        "sha256": "d2f06940130016b559e940b088173a5bd0f077bdc864bc9106ad45a4f30b5443"
+      },
+      {
+        "path": "config.js",
+        "status": 200,
+        "bytes": 183,
+        "gitBlobSha": "8273e75104c048f8e6c80bf1a93a4d29f1ae7974",
+        "expected": "8273e75104c048f8e6c80bf1a93a4d29f1ae7974",
+        "matches": true,
+        "sha256": "040a47f72115d631d9d21cf8f69043296733b8b43216b7a626818a7cf8bc9894"
+      },
+      {
+        "path": "data/catalogue-index.json",
+        "status": 200,
+        "bytes": 73211,
+        "gitBlobSha": "6d92b14d894b2bb533540df2b063a45cbdccc754",
+        "expected": "6d92b14d894b2bb533540df2b063a45cbdccc754",
+        "matches": true,
+        "sha256": "1998de46d0e4aac0c0f37da14dd8d4d2cc7f30c747f5a891f20d2682abca3b68"
+      },
+      {
+        "path": "data/images.json",
+        "status": 200,
+        "bytes": 77,
+        "gitBlobSha": "a5ff551d9f0dd4195832f420df979414ad8cd03f",
+        "expected": "a5ff551d9f0dd4195832f420df979414ad8cd03f",
+        "matches": true,
+        "sha256": "df0055e66d00cc4592621a7956e0e3f1d191e520cd47d0420c434b35285c805e"
+      },
+      {
+        "path": "data/sets/2022-topps-star-wars-masterwork.json",
+        "status": 200,
+        "bytes": 105323,
+        "gitBlobSha": "635802bb7aa78710080c41d50d8bddaeec1bc11a",
+        "expected": "635802bb7aa78710080c41d50d8bddaeec1bc11a",
+        "matches": true,
+        "sha256": "fa8c2826afd750598ec5af79b0ba097b423dd74c47c9153c52c96f9e5fdc68c3"
+      },
+      {
+        "path": "data/sets/2024-panini-flawless-wwe.json",
+        "status": 200,
+        "bytes": 172370,
+        "gitBlobSha": "52bbcb8e224e611548313dbc20b8d5be8402e285",
+        "expected": "52bbcb8e224e611548313dbc20b8d5be8402e285",
+        "matches": true,
+        "sha256": "f0e6af90db3e5639f0453b60b4631aa1674db945cc3b93092543a03b77729be2"
+      },
+      {
+        "path": "data/sets/2024-panini-national-treasures-wwe.json",
+        "status": 200,
+        "bytes": 186686,
+        "gitBlobSha": "70fe9c46fdb1ed4b70d8eaf06935753b19aac57e",
+        "expected": "70fe9c46fdb1ed4b70d8eaf06935753b19aac57e",
+        "matches": true,
+        "sha256": "c4be3cf253aa6a7222c27ea7298f0d8427027e6dbf5764117047f7d896b873d3"
+      },
+      {
+        "path": "data/sets/2024-panini-photogenic-wwe.json",
+        "status": 200,
+        "bytes": 98632,
+        "gitBlobSha": "a4e57394e6e3404d945fafd4a3d2939a0875231d",
+        "expected": "a4e57394e6e3404d945fafd4a3d2939a0875231d",
+        "matches": true,
+        "sha256": "4c0562c8b79c319e0d4590fc02ae32946ddcc0272f742f672fcf4bf3a68ffcee"
+      },
+      {
+        "path": "data/sets/2024-panini-prizm-wwe.json",
+        "status": 200,
+        "bytes": 125748,
+        "gitBlobSha": "4e0cad2922f19f50f6c52ecfb151f34b18cd1cfb",
+        "expected": "4e0cad2922f19f50f6c52ecfb151f34b18cd1cfb",
+        "matches": true,
+        "sha256": "8f21dd89a5ab1130463e7c36911e1865115007e28bc806e49dcb895e6cf6da13"
+      },
+      {
+        "path": "data/sets/2024-panini-select-wwe.json",
+        "status": 200,
+        "bytes": 192995,
+        "gitBlobSha": "a7780ae13e03ec82f6dac16150eb27a83b9e2a38",
+        "expected": "a7780ae13e03ec82f6dac16150eb27a83b9e2a38",
+        "matches": true,
+        "sha256": "4663008be128f70f2faf5bf47322e2df55e5b89a1145f519e254163673fc9d53"
+      },
+      {
+        "path": "data/sets/2024-panini-three-count-wwe.json",
+        "status": 200,
+        "bytes": 105428,
+        "gitBlobSha": "63642e7221121317c76b90bef82c4c80ef9c2953",
+        "expected": "63642e7221121317c76b90bef82c4c80ef9c2953",
+        "matches": true,
+        "sha256": "0fd8bbf330bc7853836910e54917bf9300eba8693af327f9fa2f00efeb24bde3"
+      },
+      {
+        "path": "data/sets/2024-topps-chrome-black-star-wars.json",
+        "status": 200,
+        "bytes": 118572,
+        "gitBlobSha": "a4a4404b1c470ba5a0cab8839bec7e52b296b676",
+        "expected": "a4a4404b1c470ba5a0cab8839bec7e52b296b676",
+        "matches": true,
+        "sha256": "4829af886d7b38a836a18b9932fc54c8ac4fe0577a6d9bae283781f91ed0a69a"
+      },
+      {
+        "path": "data/sets/2024-topps-chrome-star-wars-galaxy.json",
+        "status": 200,
+        "bytes": 73083,
+        "gitBlobSha": "db5b229be4e6ba2ef48e53a3b633aa5fbfb3fa5a",
+        "expected": "db5b229be4e6ba2ef48e53a3b633aa5fbfb3fa5a",
+        "matches": true,
+        "sha256": "4e920b6942c64625141e0716258535a0a1db2d807638be403c892ce81e957d17"
+      },
+      {
+        "path": "data/sets/2024-topps-chrome-star-wars.json",
+        "status": 200,
+        "bytes": 218005,
+        "gitBlobSha": "c09fcf73ff4a1ac3c7d995b3a79c62720ff596ef",
+        "expected": "c09fcf73ff4a1ac3c7d995b3a79c62720ff596ef",
+        "matches": true,
+        "sha256": "758f790a1ff4b34224169da35fdaf256b8a0a4f13e197d435326d11040cbc903"
+      },
+      {
+        "path": "data/sets/2024-topps-star-wars-chrome-sapphire.json",
+        "status": 200,
+        "bytes": 50027,
+        "gitBlobSha": "c6c14e299b3b97861628b8194f8e2a0d84e3e26a",
+        "expected": "c6c14e299b3b97861628b8194f8e2a0d84e3e26a",
+        "matches": true,
+        "sha256": "b06df5ef8b738558698235b9e2ab52d00bb38259b16830b4eece52c9d6a3e264"
+      },
+      {
+        "path": "data/sets/2024-topps-star-wars-galactic-antiquities.json",
+        "status": 200,
+        "bytes": 47345,
+        "gitBlobSha": "4bf52fba8aa13c567ed097d84f728d94cad937ce",
+        "expected": "4bf52fba8aa13c567ed097d84f728d94cad937ce",
+        "matches": true,
+        "sha256": "5df01a390765b8dea5b0014ea506f324d5e516b310f65729a168dbd6d8c20cf6"
+      },
+      {
+        "path": "data/sets/2024-topps-star-wars-high-tek.json",
+        "status": 200,
+        "bytes": 243869,
+        "gitBlobSha": "501be2dd57e77a76d0a532b6024f00fa1430d5c9",
+        "expected": "501be2dd57e77a76d0a532b6024f00fa1430d5c9",
+        "matches": true,
+        "sha256": "72fee2bdfade411d65d2d63a30b74dd98d73a8d1b9fd77fd90da217ff9e363cd"
+      },
+      {
+        "path": "data/sets/2024-topps-star-wars-hyperspace.json",
+        "status": 200,
+        "bytes": 87037,
+        "gitBlobSha": "debd29a18aa73c6278ae3b8771bc64db2191da8a",
+        "expected": "debd29a18aa73c6278ae3b8771bc64db2191da8a",
+        "matches": true,
+        "sha256": "5e4f92ce70f91ec15942c19d0041e829c65aa08a5724171c040da376df45b2f3"
+      },
+      {
+        "path": "data/sets/2024-topps-star-wars-masterwork.json",
+        "status": 200,
+        "bytes": 89937,
+        "gitBlobSha": "b18d7e11f109d1cf6a6df22dc196c0dad41f8919",
+        "expected": "b18d7e11f109d1cf6a6df22dc196c0dad41f8919",
+        "matches": true,
+        "sha256": "c8aa78ade0c775c8a3d444f423bb15bcbed2bfce2af3c5e76ff585a51ea7b402"
+      },
+      {
+        "path": "data/sets/2025-topps-chrome-cactus-jack-wrestlemania.json",
+        "status": 200,
+        "bytes": 40559,
+        "gitBlobSha": "e24b045d7a1674604a315d68fd4e416237ca2f2e",
+        "expected": "e24b045d7a1674604a315d68fd4e416237ca2f2e",
+        "matches": true,
+        "sha256": "1b2fbd9ec596c317ea47ec5a3ab13532abda8e3b4b2a66fa3da6ecf4187727b0"
+      },
+      {
+        "path": "data/sets/2025-topps-chrome-sapphire-star-wars.json",
+        "status": 200,
+        "bytes": 95937,
+        "gitBlobSha": "71cd749b5740250ec75e21e5ab41cd7e03a8f54a",
+        "expected": "71cd749b5740250ec75e21e5ab41cd7e03a8f54a",
+        "matches": true,
+        "sha256": "35fa3b8361ea030646170d30d50b2610624bac9f0d1981594427c232cb4dcb2c"
+      },
+      {
+        "path": "data/sets/2025-topps-chrome-sapphire-wwe.json",
+        "status": 200,
+        "bytes": 90986,
+        "gitBlobSha": "409edcb3548428ba9a3561345ed81ba5c729b503",
+        "expected": "409edcb3548428ba9a3561345ed81ba5c729b503",
+        "matches": true,
+        "sha256": "a70927f24c97e7224c8aea3f6a9fbff5033e533232bc229ff62d654ea044ab37"
+      },
+      {
+        "path": "data/sets/2025-topps-chrome-star-wars-galaxy.json",
+        "status": 200,
+        "bytes": 80897,
+        "gitBlobSha": "de7e0ccb8c0d0180a21560a690d622fda4fb665d",
+        "expected": "de7e0ccb8c0d0180a21560a690d622fda4fb665d",
+        "matches": true,
+        "sha256": "8ee57badd56d6ecc6e83a875024c7c9fdaca81e1f844ebca41c29e0032644771"
+      },
+      {
+        "path": "data/sets/2025-topps-chrome-star-wars.json",
+        "status": 200,
+        "bytes": 314980,
+        "gitBlobSha": "49631491044c9a3dd597b83a898c16abbf92e9a8",
+        "expected": "49631491044c9a3dd597b83a898c16abbf92e9a8",
+        "matches": true,
+        "sha256": "e3552e29290e4d2dd4e473e4a60a93fd25026aab1b146c1033b071f9adb0cf4e"
+      },
+      {
+        "path": "data/sets/2025-topps-chrome-wwe-x-cactus-jack.json",
+        "status": 200,
+        "bytes": 138164,
+        "gitBlobSha": "17d99f213535918b5c0fa42ccd02482949b4a184",
+        "expected": "17d99f213535918b5c0fa42ccd02482949b4a184",
+        "matches": true,
+        "sha256": "d782d90a51b2eb01e2fb8e5ba409b7a3488b2dff2ad8b4ca966e6dae817e87fd"
+      },
+      {
+        "path": "data/sets/2025-topps-chrome-wwe.json",
+        "status": 200,
+        "bytes": 266367,
+        "gitBlobSha": "e2a62b36c1b5ae41bcfd52f9e69158589623a0b9",
+        "expected": "e2a62b36c1b5ae41bcfd52f9e69158589623a0b9",
+        "matches": true,
+        "sha256": "d8845d5f03f336a3a32585cc87c8b20654ebf6ce2a35e888cc533b3783a50bcf"
+      },
+      {
+        "path": "data/sets/2025-topps-exalted-wwe.json",
+        "status": 200,
+        "bytes": 98800,
+        "gitBlobSha": "750ddddc2f3250a95da72b34bb95d311f1e6a2d9",
+        "expected": "750ddddc2f3250a95da72b34bb95d311f1e6a2d9",
+        "matches": true,
+        "sha256": "33b8c9e95176e17934b469b3a5664788738213e501b5227ee569f1dd2634b42f"
+      },
+      {
+        "path": "data/sets/2025-topps-finest-wwe.json",
+        "status": 200,
+        "bytes": 132334,
+        "gitBlobSha": "d1c355c0ba2310b8c3423e95ec9c12d652097601",
+        "expected": "d1c355c0ba2310b8c3423e95ec9c12d652097601",
+        "matches": true,
+        "sha256": "6a72005324d17c0d8c7a595f15bd423f24e72995a92c761cd89652ecbb96d66f"
+      },
+      {
+        "path": "data/sets/2025-topps-john-cena-commemorative-collection.json",
+        "status": 200,
+        "bytes": 19928,
+        "gitBlobSha": "fe6c638ef17a71fe3d79eb1700d36c6b040e1167",
+        "expected": "fe6c638ef17a71fe3d79eb1700d36c6b040e1167",
+        "matches": true,
+        "sha256": "2bdbedf18a2db32890e86f584405517b61c85efc0f216033b34949e5329e9d30"
+      },
+      {
+        "path": "data/sets/2025-topps-now-wwe.json",
+        "status": 200,
+        "bytes": 37305,
+        "gitBlobSha": "3f6736edb9131f2c8b454f9bd1ae9fef3e6241ec",
+        "expected": "3f6736edb9131f2c8b454f9bd1ae9fef3e6241ec",
+        "matches": true,
+        "sha256": "e7d2e533cb7c9399de83b7f7bd4d3efb5ef3f924502137faf3aa91356c7919b3"
+      },
+      {
+        "path": "data/sets/2025-topps-royalty-wwe.json",
+        "status": 200,
+        "bytes": 179625,
+        "gitBlobSha": "7ceaf129c28a64969a35d0c2140ead294a57483f",
+        "expected": "7ceaf129c28a64969a35d0c2140ead294a57483f",
+        "matches": true,
+        "sha256": "f8bdc2ed842e3712dc550f6cf40a9a35bde7d6fda0a000ae7b783d02e0e6b952"
+      },
+      {
+        "path": "data/sets/2025-topps-star-wars-hyperspace.json",
+        "status": 200,
+        "bytes": 92948,
+        "gitBlobSha": "e1ed90da33c58df67dd4982b5ba796f63e7efab6",
+        "expected": "e1ed90da33c58df67dd4982b5ba796f63e7efab6",
+        "matches": true,
+        "sha256": "fa1dc9f331689702b53aa51e58346db20b667635d61feaef62845cbf6420a26d"
+      },
+      {
+        "path": "data/sets/2025-topps-star-wars-masterwork.json",
+        "status": 200,
+        "bytes": 162320,
+        "gitBlobSha": "e699dedb45c55bed5750ad1ee4735ff6ab6be9b4",
+        "expected": "e699dedb45c55bed5750ad1ee4735ff6ab6be9b4",
+        "matches": true,
+        "sha256": "436aacdbebb5f1cc2cc78ca56ab58648a5352e4e7d52fa74688235acbf73664e"
+      },
+      {
+        "path": "data/sets/2025-topps-star-wars-meiyo.json",
+        "status": 200,
+        "bytes": 71323,
+        "gitBlobSha": "f3d936686a79190b171971eba8b6fb014c4bcbc4",
+        "expected": "f3d936686a79190b171971eba8b6fb014c4bcbc4",
+        "matches": true,
+        "sha256": "836a17b6eb7a1a21e207031ab44acf6f6e915f41809b260dd7f63a0e395ea899"
+      },
+      {
+        "path": "data/sets/2025-topps-star-wars-smugglers-outpost.json",
+        "status": 200,
+        "bytes": 225159,
+        "gitBlobSha": "79f4d8bfd1f13101b20685760d78bdbaacade1f2",
+        "expected": "79f4d8bfd1f13101b20685760d78bdbaacade1f2",
+        "matches": true,
+        "sha256": "4b2d671634acdf2669e13feecc73ee9d5a91d5cfd73195dbe534bc367a168a7c"
+      },
+      {
+        "path": "data/sets/2025-topps-universe-wwe.json",
+        "status": 200,
+        "bytes": 210968,
+        "gitBlobSha": "3933e15983ce3db3003f3cea99951d2e2425ea09",
+        "expected": "3933e15983ce3db3003f3cea99951d2e2425ea09",
+        "matches": true,
+        "sha256": "88ffbf2dd51e341e4ca9b120568731b4cdf346b7151bc566c406ecfd20fd761b"
+      },
+      {
+        "path": "data/sets/2025-topps-wwe-x-bape.json",
+        "status": 200,
+        "bytes": 31508,
+        "gitBlobSha": "f39fa372f405a9638c7adb9f2ca98a814af65830",
+        "expected": "f39fa372f405a9638c7adb9f2ca98a814af65830",
+        "matches": true,
+        "sha256": "06c674781c6ead9325251418e662511174bf527ff87daca561e89852b4d5f40e"
+      },
+      {
+        "path": "data/sets/2026-topps-chrome-logofractor-wwe.json",
+        "status": 200,
+        "bytes": 97703,
+        "gitBlobSha": "8d724496c6c9274fa073c7fbaae2530b5a19a53c",
+        "expected": "8d724496c6c9274fa073c7fbaae2530b5a19a53c",
+        "matches": true,
+        "sha256": "9e8bf5bce2a46fcca8948c058ace78a1b80c824a8eaddf989bd188e3a98bcba5"
+      },
+      {
+        "path": "data/sets/2026-topps-chrome-sapphire-wwe.json",
+        "status": 200,
+        "bytes": 132764,
+        "gitBlobSha": "6a591e34d4368b090d7304820822028d6d0bd027",
+        "expected": "6a591e34d4368b090d7304820822028d6d0bd027",
+        "matches": true,
+        "sha256": "6d26aecb94d2d070ae7afbb2f1bb52c6716d404583c9370cb438071e95c7ecdd"
+      },
+      {
+        "path": "data/sets/2026-topps-chrome-star-wars-galaxy.json",
+        "status": 200,
+        "bytes": 88907,
+        "gitBlobSha": "5b78e15a749b0c41348e533e818cd7b0cfb10d90",
+        "expected": "5b78e15a749b0c41348e533e818cd7b0cfb10d90",
+        "matches": true,
+        "sha256": "61a423b12c1972d31fdd5d771ade4b684e3f132b1a98f6f0f3bd2d5644f9edd7"
+      },
+      {
+        "path": "data/sets/2026-topps-chrome-star-wars.json",
+        "status": 200,
+        "bytes": 345664,
+        "gitBlobSha": "4b652f223bce0a5689466f4e10c46b9bfe382896",
+        "expected": "4b652f223bce0a5689466f4e10c46b9bfe382896",
+        "matches": true,
+        "sha256": "39575e61ba2c30652b8e6ea50b52cb7391c0996708491af1ce9e71ba2a8dfcc7"
+      },
+      {
+        "path": "data/sets/2026-topps-chrome-wwe.json",
+        "status": 200,
+        "bytes": 293152,
+        "gitBlobSha": "3ae7c961d2af7ed9669835a176b810ef51904bb8",
+        "expected": "3ae7c961d2af7ed9669835a176b810ef51904bb8",
+        "matches": true,
+        "sha256": "efee78c0fe4d0c3692601586b77aeb5c13cc08298343fab0f179354e818ec092"
+      },
+      {
+        "path": "data/sets/2026-topps-cosmic-chrome-wwe.json",
+        "status": 200,
+        "bytes": 191454,
+        "gitBlobSha": "efa67b0a62466242c2d823946af701db70171b10",
+        "expected": "efa67b0a62466242c2d823946af701db70171b10",
+        "matches": true,
+        "sha256": "a4063ea1306b59677e2472ad23bd04180c0ac841df5b6b12c8dd1da44cfe0340"
+      },
+      {
+        "path": "data/sets/2026-topps-decades-wwe-90s.json",
+        "status": 200,
+        "bytes": 70863,
+        "gitBlobSha": "2a520b7f842569ee8b31190f9c2a2d193ff80a33",
+        "expected": "2a520b7f842569ee8b31190f9c2a2d193ff80a33",
+        "matches": true,
+        "sha256": "622564a7135d84976fc7c148518c455e113552ae30343b87e37915bfacd54de4"
+      },
+      {
+        "path": "data/sets/2026-topps-now-wrestlemania-vegas.json",
+        "status": 200,
+        "bytes": 10483,
+        "gitBlobSha": "14a3e91a8d40e0f089f8188aa569e2fe9a71f7fd",
+        "expected": "14a3e91a8d40e0f089f8188aa569e2fe9a71f7fd",
+        "matches": true,
+        "sha256": "3d0911a9c0c0cf94b492e365893b14e4849a002a7d9bd886d6babc773c799144"
+      },
+      {
+        "path": "data/sets/2026-topps-now-wwe-crossovers.json",
+        "status": 200,
+        "bytes": 320,
+        "gitBlobSha": "fb44afc5ad3be5f4927067c436db03c8183fd624",
+        "expected": "fb44afc5ad3be5f4927067c436db03c8183fd624",
+        "matches": true,
+        "sha256": "13b708d9b040e3b0435afe5c7e1a3e541f35d7b5770fdae896d1cfb81fc3b8d6"
+      },
+      {
+        "path": "data/sets/2026-topps-now-wwe.json",
+        "status": 200,
+        "bytes": 30871,
+        "gitBlobSha": "645472dd76e90fce2f6e50d13a8f9285475ee5e9",
+        "expected": "645472dd76e90fce2f6e50d13a8f9285475ee5e9",
+        "matches": true,
+        "sha256": "efb59628a822bb96d1304ad0dab639a90d3c10669b6ecdec7bd7803f87bb64ba"
+      },
+      {
+        "path": "data/sets/2026-topps-nscc-collection-wwe.json",
+        "status": 200,
+        "bytes": 29796,
+        "gitBlobSha": "dfd801cb1031d6341d9d88008ee80733da7b7941",
+        "expected": "dfd801cb1031d6341d9d88008ee80733da7b7941",
+        "matches": true,
+        "sha256": "e0c9fb5f565421e807e488c8f45a9efa075ee3f85cdcacb50e7f82302b56205c"
+      },
+      {
+        "path": "data/sets/2026-topps-stadium-club-wwe.json",
+        "status": 200,
+        "bytes": 241958,
+        "gitBlobSha": "f61eac57c827a094eedb04ab7789b06f844985d1",
+        "expected": "f61eac57c827a094eedb04ab7789b06f844985d1",
+        "matches": true,
+        "sha256": "ea9993e715ca5838c0077532a7482947724135f31699da2407ffae3150a600ef"
+      },
+      {
+        "path": "data/sets/2026-topps-universe-wwe.json",
+        "status": 200,
+        "bytes": 227431,
+        "gitBlobSha": "d0aaba98363bfa8f69f1492facf2370b6d44a761",
+        "expected": "d0aaba98363bfa8f69f1492facf2370b6d44a761",
+        "matches": true,
+        "sha256": "15102994a75e77624a661d0cda908cd97fe7e803f5b686eef75d8f20485445cb"
+      },
+      {
+        "path": "index.html",
+        "status": 200,
+        "bytes": 17106,
+        "gitBlobSha": "238e8c418e48b4b84c2f5c1dc39369a9cf6d27b7",
+        "expected": "238e8c418e48b4b84c2f5c1dc39369a9cf6d27b7",
+        "matches": true,
+        "sha256": "28a16f93983ff7c7937af177d8813b2e3d2bc7962747d3fefb2b827d67704469"
+      },
+      {
+        "path": "manifest.json",
+        "status": 200,
+        "bytes": 240,
+        "gitBlobSha": "dd30ca91c66aaef5f3092c5ae0356f0c4e774b9b",
+        "expected": "dd30ca91c66aaef5f3092c5ae0356f0c4e774b9b",
+        "matches": true,
+        "sha256": "1c211cb5f11f69b296dcb1a1d741be4e322b4482936ee80ce481b63044b2bc9d"
+      },
+      {
+        "path": "styles.css",
+        "status": 200,
+        "bytes": 26919,
+        "gitBlobSha": "183da4c331a1bda582cceff646eb819c07e38272",
+        "expected": "183da4c331a1bda582cceff646eb819c07e38272",
+        "matches": true,
+        "sha256": "218fad84a69973080c74268955f3dc70c5ef290340e58f1a9a63315d9d60da35"
+      },
+      {
+        "path": "sw.js",
+        "status": 200,
+        "bytes": 1402,
+        "gitBlobSha": "eeb7da601a71879a220c5e03fe97bf546de3e8be",
+        "expected": "eeb7da601a71879a220c5e03fe97bf546de3e8be",
+        "matches": true,
+        "sha256": "023a668b59afb252ac8ce0ca2bd81fbf5fef56c6e08ae7f5b814f26464cebaa2"
+      },
+      {
+        "path": "theme.css",
+        "status": 200,
+        "bytes": 1220,
+        "gitBlobSha": "176e32c6ab287a2c5a5c66c27da52711fed41c97",
+        "expected": "176e32c6ab287a2c5a5c66c27da52711fed41c97",
+        "matches": true,
+        "sha256": "719dd67067880ac0419845e2c903bb8dca6f9e09ece83d07f3f4fb8c5393e8f0"
+      },
+      {
+        "path": "ui.js",
+        "status": 200,
+        "bytes": 2809,
+        "gitBlobSha": "868c9d52bca2a83951652f2a0e5835c50d7840e9",
+        "expected": "868c9d52bca2a83951652f2a0e5835c50d7840e9",
+        "matches": true,
+        "sha256": "7e0bd706ea8bc72aa7156a562c5d383b2c821678e21b28da2c81421282104964"
+      },
+      {
+        "path": "vault.css",
+        "status": 200,
+        "bytes": 1808,
+        "gitBlobSha": "929fb4cd9bddc7195fc604c4051aac343ebd5eac",
+        "expected": "929fb4cd9bddc7195fc604c4051aac343ebd5eac",
+        "matches": true,
+        "sha256": "44db6a546ebc1917d2af2a76a74e4c05b24b591692df2a8bb9aaed109eeffd42"
+      },
+      {
+        "path": "vault.js",
+        "status": 200,
+        "bytes": 22941,
+        "gitBlobSha": "54ce34af320be6b3348125c430b4d1d90aa5c35d",
+        "expected": "54ce34af320be6b3348125c430b4d1d90aa5c35d",
+        "matches": true,
+        "sha256": "a1ae9bf48f656aaaff66d6e5522b696e42ce33ab9d7ae2d7c6ec0b3f8eadd231"
+      }
+    ],
+    "totals": {
+      "sets": 46,
+      "cards": 22731,
+      "starWarsSets": 18,
+      "starWarsCards": 9318
+    },
+    "guestChecks": [
+      "Library shows all 18 Star Wars sets / 9318 cards and all five PR products with expected counts.",
+      "Masterwork UBC-456 is one ten-signer card.",
+      "Smugglers Outpost ARS-25 shows separate Jar Jar Binks and Darth Vader identities.",
+      "2025 Galaxy Q-JNJF is one four-signer card.",
+      "2025 Sapphire DA-MJj is one Lee Jung-jae / Manny Jacinto card.",
+      "Regular 2025 Chrome DA-MJj is one separate Lee Jung-jae / Manny Jacinto card."
+    ],
+    "cardIdentityDigests": [
+      {
+        "set_id": "2025-topps-chrome-sapphire-star-wars",
+        "cards": 358,
+        "id_digest": "cd356b54a755ddaed50e65a60e11306e"
+      },
+      {
+        "set_id": "2025-topps-chrome-star-wars",
+        "cards": 1235,
+        "id_digest": "fce717f04bca9ea99e35415940810255"
+      },
+      {
+        "set_id": "2025-topps-chrome-star-wars-galaxy",
+        "cards": 293,
+        "id_digest": "85c06524274c1c275d2c66447fd5bfd3"
+      },
+      {
+        "set_id": "2025-topps-star-wars-masterwork",
+        "cards": 589,
+        "id_digest": "da0a20061d29b645359398bdd465f3aa"
+      },
+      {
+        "set_id": "2025-topps-star-wars-smugglers-outpost",
+        "cards": 806,
+        "id_digest": "c87880c762508fb9381dc144299827f3"
+      }
+    ]
+  },
+  "database": {
+    "readOnly": true,
+    "star_wars_sets": [
+      {
+        "id": "2022-topps-star-wars-masterwork",
+        "card_count": 372,
+        "actual_cards": 372,
+        "subset_count": 20
+      },
+      {
+        "id": "2024-topps-chrome-black-star-wars",
+        "card_count": 424,
+        "actual_cards": 424,
+        "subset_count": 11
+      },
+      {
+        "id": "2024-topps-chrome-star-wars",
+        "card_count": 838,
+        "actual_cards": 838,
+        "subset_count": 16
+      },
+      {
+        "id": "2024-topps-chrome-star-wars-galaxy",
+        "card_count": 265,
+        "actual_cards": 265,
+        "subset_count": 13
+      },
+      {
+        "id": "2024-topps-star-wars-chrome-sapphire",
+        "card_count": 187,
+        "actual_cards": 187,
+        "subset_count": 8
+      },
+      {
+        "id": "2024-topps-star-wars-galactic-antiquities",
+        "card_count": 165,
+        "actual_cards": 165,
+        "subset_count": 10
+      },
+      {
+        "id": "2024-topps-star-wars-high-tek",
+        "card_count": 882,
+        "actual_cards": 882,
+        "subset_count": 16
+      },
+      {
+        "id": "2024-topps-star-wars-hyperspace",
+        "card_count": 326,
+        "actual_cards": 326,
+        "subset_count": 10
+      },
+      {
+        "id": "2024-topps-star-wars-masterwork",
+        "card_count": 337,
+        "actual_cards": 337,
+        "subset_count": 16
+      },
+      {
+        "id": "2025-topps-chrome-sapphire-star-wars",
+        "card_count": 358,
+        "actual_cards": 358,
+        "subset_count": 5
+      },
+      {
+        "id": "2025-topps-chrome-star-wars",
+        "card_count": 1235,
+        "actual_cards": 1235,
+        "subset_count": 20
+      },
+      {
+        "id": "2025-topps-chrome-star-wars-galaxy",
+        "card_count": 293,
+        "actual_cards": 293,
+        "subset_count": 15
+      },
+      {
+        "id": "2025-topps-star-wars-hyperspace",
+        "card_count": 347,
+        "actual_cards": 347,
+        "subset_count": 12
+      },
+      {
+        "id": "2025-topps-star-wars-masterwork",
+        "card_count": 589,
+        "actual_cards": 589,
+        "subset_count": 19
+      },
+      {
+        "id": "2025-topps-star-wars-meiyo",
+        "card_count": 267,
+        "actual_cards": 267,
+        "subset_count": 22
+      },
+      {
+        "id": "2025-topps-star-wars-smugglers-outpost",
+        "card_count": 806,
+        "actual_cards": 806,
+        "subset_count": 23
+      },
+      {
+        "id": "2026-topps-chrome-star-wars",
+        "card_count": 1304,
+        "actual_cards": 1304,
+        "subset_count": 27
+      },
+      {
+        "id": "2026-topps-chrome-star-wars-galaxy",
+        "card_count": 323,
+        "actual_cards": 323,
+        "subset_count": 14
+      }
+    ],
+    "orphan_variants": 0,
+    "collector_tables": [
+      {
+        "count": 30,
+        "digest": "6648329147d88b88ed9e52eaac40cfa9",
+        "table_name": "collection_items"
+      },
+      {
+        "count": 0,
+        "digest": "d41d8cd98f00b204e9800998ecf8427e",
+        "table_name": "reference_images"
+      }
+    ],
+    "orphan_collections": 0,
+    "historicalGuardedImportStatus": "Release receipts record committed guarded imports and idempotent repeat checks. Historical imports were not reapplied during this audit; current database counts and all five card-ID digests match live catalogue.",
+    "collectorDigestMatchesAllFiveReleaseReceipts": true
+  },
+  "changes": "Verification records only. No catalogue, ownership, Vault, photo, auth, storage-policy or database writes. No PR merges or closure.",
+  "remaining": [
+    {
+      "check": "Authenticated private-photo upload/read/delete and cross-user access denial",
+      "status": "Not rerun; no authenticated test session available."
+    },
+    {
+      "check": "Two independent authenticated sessions/devices, cloud sync and conflict recovery",
+      "status": "Not rerun; guest/live checks and historical guest/Vault/offline CI do not establish this."
+    },
+    {
+      "check": "Mocked cloud contract test",
+      "status": "tests/vault-cloud.cjs exists but is not invoked by the inspected design-smoke workflow; it is not evidence of real authenticated testing."
+    }
+  ],
+  "publicationDecision": "No catalogue republishing required. Existing successful deployments remain live; fresh public verification completed."
+}
