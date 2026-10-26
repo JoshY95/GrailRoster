@@ -38,7 +38,7 @@ Final guide dates are used above. GTS's preliminary Three Count schedule says 22
 - Blank SEQ values remain unknown. They never imply an unlimited print run or 1/1. Caps come only from actual subject/edition rows, with no extrapolated parallel grids. The 409 subset rules are explicitly restricted to exact variant rows.
 - No artwork, inventory, auth, storage or collector data is changed.
 
-## 2024 gap register after this batch
+## 2024 gap register — updated after the Prizm follow-up
 
 | Release/programme | State / next action |
 |---|---|
@@ -47,7 +47,7 @@ Final guide dates are used above. GTS's preliminary Three Count schedule says 22
 | Panini Three Count WWE | Added in this batch |
 | Panini Select WWE | Added in this batch |
 | Panini PhotoGenic WWE | Added in this batch |
-| Panini Prizm WWE, including Premium Factory Set editions | Missing. Next 2024 research/import target. Premium guide reports 27 August 2024; verify actual edition identities and parent relationship before importing. Standard Prizm guide reports 9 August 2024. Do not duplicate the same parent designs merely because of factory-box packaging. |
+| Panini Prizm WWE, including Premium Factory Set editions | Published in the Prizm follow-up: one parent, 516 identities /16 subsets and 9,270 listed versions, including 400 Premium editions across the same 200 base IDs. See [Prizm audit](PRIZM_WWE_2024_IMPORT_AUDIT.md). Premium does not create a duplicate parent. |
 | Panini Instant WWE 2024 | Continuing online programme; missing historical coverage. Enumerate releases separately before claiming completeness. |
 | Panini Adrenalyn XL WWE 2024 | Regional/game-format candidate; not covered by the main hobby import. Verify physical edition, region and checklist. |
 | Promotions/event exclusives | Open title audit; no worldwide completeness claim. Digital blockchain releases excluded. |

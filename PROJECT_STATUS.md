@@ -2,11 +2,12 @@
 
 Read this first; inspect only files needed for the current task.
 
-## Prizm WWE 2024 — 26 October 2026 (built; publication in progress)
+## Prizm WWE 2024 — 26 October 2026 (published)
 
 - Authorised 2024 Prizm including Premium review. One parent, 516 identities /16 subsets, 9,270 exact source editions. Premium contributes 400 variants across the same 200 base IDs (/199 and Gold /5); no duplicate set. Twenty Under Card image/persona variations have independent IDs. Hobby 9 August, Under Card 23 August; Premium guide estimates 27 August 2024.
 - All 9,270 original GTS workbook rows reconcile with an independent copy after 59 occurrences of one Seth nickname encoding repair. WrestleMania Moments source gaps 3/20/30 retained; ten dual designs combine two signers. Base White Sparkle source SEQUENCE=1 conflicts with unnumbered treatment in other guides: 200 base caps withheld, source cells retained; 174 autograph White Sparkle caps retain 1/1. Audit: docs/PRIZM_WWE_2024_IMPORT_AUDIT.md.
-- Local 46 /22,731; WWE 28 /13,413, Star Wars 18 /9,318. All prior 45 metadata/bundles and frozen snapshot unchanged. Seven focused and prior WWE/split/category checks pass. Atomic rolled-back SQL dry run exactly matches all six generated tables; CI, committed/repeat import and live publication pending. No collector writes.
+- Local 46 /22,731; WWE 28 /13,413, Star Wars 18 /9,318. All prior 45 metadata/bundles and frozen snapshot unchanged. Seven focused and prior WWE/split/category checks pass. Atomic rolled-back and committed SQL exactly match all six generated tables; identical repeat leaves all eight full-row digests unchanged. All 30 collections retain 6648329147d88b88ed9e52eaac40cfa9; images empty. No collector writes.
+- Browser CI 40323355505 passed preservation, guest, Vault, real offline reload, one Prizm parent, independent variation ownership, signer search, persistence and responsive checks. Published PR #23: feature 7accd1c0eeacb4dfd8b18abf120df6316abcb59b, merge 7dfd564828c1ecfcfa214441f978a2989e4c0bee. Pages 40323799684 succeeded. All 59 live assets match tested bytes; live public index confirms Prizm 516 /16 and one parent, global 46 /22,731. Live guest UI not separately rerun; authenticated cloud/private-photo/two-device flows not rerun. Receipt: docs/PRIZM_WWE_2024_RELEASE.json.
 - Next WWE: audit 2023 main releases by actual release date, then import next verified gaps. 2024 Instant and regional Adrenalyn XL remain open, distinct from the six covered main hobby parents.
 
 ## WWE 2024 three-set batch — 26 October 2026 (published)
