@@ -1,0 +1,7740 @@
+{
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/STW2487-2024StarWarsHigh-TekChecklist.pdf",
+  "oddsUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/2024NYCCStarWarsHi-TekOdds.pdf",
+  "productUrl": "https://www.topps.com/products/2024-topps-star-wars-high-tek-hobby-box",
+  "checklistSha256": "325bf73dfe8444fff107bb17faccab61f4d5cad3be930fe583ceb1924587a94d",
+  "oddsSha256": "00e1c69b69cc72a1f4d480fb5d72deb0ce89b8d6b71e7ee3e22d1baa629af646",
+  "subsets": [
+    {
+      "name": "BASE CARDS THRONE ROOM PATTERN",
+      "rows": [
+        {
+          "number": "1",
+          "page": 1,
+          "fields": [
+            "Aayla Secura",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "2",
+          "page": 1,
+          "fields": [
+            "Admiral Ackbar",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "3",
+          "page": 1,
+          "fields": [
+            "Admiral Motti",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "4",
+          "page": 1,
+          "fields": [
+            "Admiral Piett",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "5",
+          "page": 1,
+          "fields": [
+            "Ahsoka Tano",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "6",
+          "page": 1,
+          "fields": [
+            "Vice Admiral Amilyn Holdo",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "7",
+          "page": 1,
+          "fields": [
+            "Anakin Skywalker",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "8",
+          "page": 1,
+          "fields": [
+            "Bail Organa",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "9",
+          "page": 1,
+          "fields": [
+            "Baylan Skoll",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "10",
+          "page": 1,
+          "fields": [
+            "Baze Malbus",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "11",
+          "page": 1,
+          "fields": [
+            "BB-8",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "12",
+          "page": 1,
+          "fields": [
+            "Bib Fortuna",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "13",
+          "page": 1,
+          "fields": [
+            "Biggs Darklighter",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "14",
+          "page": 1,
+          "fields": [
+            "Boba Fett",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "15",
+          "page": 1,
+          "fields": [
+            "Bo-Katan Kryze",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "16",
+          "page": 1,
+          "fields": [
+            "Bossk",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "17",
+          "page": 1,
+          "fields": [
+            "C-3PO",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "18",
+          "page": 1,
+          "fields": [
+            "Cad Bane",
+            "The Book of Boba Fett"
+          ]
+        },
+        {
+          "number": "19",
+          "page": 1,
+          "fields": [
+            "Captain Rex",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "20",
+          "page": 1,
+          "fields": [
+            "Carson Teva",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "21",
+          "page": 1,
+          "fields": [
+            "Cassian Andor",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "22",
+          "page": 1,
+          "fields": [
+            "Chirrut Îmwe",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "23",
+          "page": 1,
+          "fields": [
+            "Chopper",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "24",
+          "page": 1,
+          "fields": [
+            "Cobb Vanth",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "25",
+          "page": 1,
+          "fields": [
+            "Count Dooku",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "26",
+          "page": 1,
+          "fields": [
+            "Darth Vader",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "27",
+          "page": 1,
+          "fields": [
+            "Darth Maul",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "28",
+          "page": 1,
+          "fields": [
+            "Dedra Meero",
+            "Andor"
+          ]
+        },
+        {
+          "number": "29",
+          "page": 1,
+          "fields": [
+            "Director Orson Krennic",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "30",
+          "page": 1,
+          "fields": [
+            "DJ",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "31",
+          "page": 1,
+          "fields": [
+            "Emperor Palpatine",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "32",
+          "page": 1,
+          "fields": [
+            "Enfys Nest",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "33",
+          "page": 1,
+          "fields": [
+            "EV-9D9",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "34",
+          "page": 1,
+          "fields": [
+            "Ezra Bridger",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "35",
+          "page": 1,
+          "fields": [
+            "Fennec Shand",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "36",
+          "page": 1,
+          "fields": [
+            "Fifth Brother",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "37",
+          "page": 1,
+          "fields": [
+            "Figrin D'an",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "38",
+          "page": 1,
+          "fields": [
+            "Finn",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "39",
+          "page": 1,
+          "fields": [
+            "Galen Erso",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "40",
+          "page": 1,
+          "fields": [
+            "Zeb Orrelios",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "41",
+          "page": 1,
+          "fields": [
+            "General Grievous",
+            "Star Wars: Revenge of the Sith"
+          ]
+        },
+        {
+          "number": "42",
+          "page": 1,
+          "fields": [
+            "Grand Admiral Thrawn",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "43",
+          "page": 1,
+          "fields": [
+            "Grand Moff Tarkin",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "44",
+          "page": 1,
+          "fields": [
+            "Greedo",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "45",
+          "page": 1,
+          "fields": [
+            "Greef Karga",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "46",
+          "page": 1,
+          "fields": [
+            "Grogu",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "47",
+          "page": 1,
+          "fields": [
+            "Han Solo",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "48",
+          "page": 1,
+          "fields": [
+            "Hera Syndulla",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "49",
+          "page": 1,
+          "fields": [
+            "Huyang",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "50",
+          "page": 1,
+          "fields": [
+            "IG-11",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "51",
+          "page": 1,
+          "fields": [
+            "IG-88",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "52",
+          "page": 1,
+          "fields": [
+            "Jabba the Hutt",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "53",
+          "page": 2,
+          "fields": [
+            "Jango Fett",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "54",
+          "page": 2,
+          "fields": [
+            "Jar Jar Binks",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "55",
+          "page": 2,
+          "fields": [
+            "Jek Porkins",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "56",
+          "page": 2,
+          "fields": [
+            "Jyn Erso",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "57",
+          "page": 2,
+          "fields": [
+            "K-2SO",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "58",
+          "page": 2,
+          "fields": [
+            "Caleb Dume",
+            "Star Wars: The Bad Batch"
+          ]
+        },
+        {
+          "number": "59",
+          "page": 2,
+          "fields": [
+            "Ki-Adi-Mundi",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "60",
+          "page": 2,
+          "fields": [
+            "Kit Fisto",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "61",
+          "page": 2,
+          "fields": [
+            "Kuiil",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "62",
+          "page": 2,
+          "fields": [
+            "Kylo Ren",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "63",
+          "page": 2,
+          "fields": [
+            "L3-37",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "64",
+          "page": 2,
+          "fields": [
+            "Lando Calrissian",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "65",
+          "page": 2,
+          "fields": [
+            "Leia Organa",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "66",
+          "page": 2,
+          "fields": [
+            "Lobot",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "67",
+          "page": 2,
+          "fields": [
+            "Luke Skywalker",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "68",
+          "page": 2,
+          "fields": [
+            "Luthen Rael",
+            "Andor"
+          ]
+        },
+        {
+          "number": "69",
+          "page": 2,
+          "fields": [
+            "Mace Windu",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "70",
+          "page": 2,
+          "fields": [
+            "Max Rebo",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "71",
+          "page": 2,
+          "fields": [
+            "Maz Kanata",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "72",
+          "page": 2,
+          "fields": [
+            "Moff Gideon",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "73",
+          "page": 2,
+          "fields": [
+            "Mon Mothma",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "74",
+          "page": 2,
+          "fields": [
+            "Nien Nunb",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "75",
+          "page": 2,
+          "fields": [
+            "Obi-Wan Kenobi",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "76",
+          "page": 2,
+          "fields": [
+            "Padmé Amidala",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "77",
+          "page": 2,
+          "fields": [
+            "Paige Tico",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "78",
+          "page": 2,
+          "fields": [
+            "Peli Motto",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "79",
+          "page": 2,
+          "fields": [
+            "Plo Koon",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "80",
+          "page": 2,
+          "fields": [
+            "Poe Dameron",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "81",
+          "page": 2,
+          "fields": [
+            "Ponda Baba",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "82",
+          "page": 2,
+          "fields": [
+            "Qi'ra",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "83",
+          "page": 2,
+          "fields": [
+            "Qui-Gon Jinn",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "84",
+          "page": 2,
+          "fields": [
+            "R2-D2",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "85",
+          "page": 2,
+          "fields": [
+            "R5-D4",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "86",
+          "page": 2,
+          "fields": [
+            "Rey",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "87",
+          "page": 2,
+          "fields": [
+            "Rose Tico",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "88",
+          "page": 2,
+          "fields": [
+            "Sabine Wren",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "89",
+          "page": 2,
+          "fields": [
+            "Salacious B. Crumb",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "90",
+          "page": 2,
+          "fields": [
+            "Saw Gerrera",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "91",
+          "page": 2,
+          "fields": [
+            "Sebulba",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "92",
+          "page": 2,
+          "fields": [
+            "Sy Snootles",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "93",
+          "page": 2,
+          "fields": [
+            "The Client",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "94",
+          "page": 2,
+          "fields": [
+            "The Grand Inquisitor",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "95",
+          "page": 2,
+          "fields": [
+            "The Mandalorian",
+            "The Book of Boba Fett"
+          ]
+        },
+        {
+          "number": "96",
+          "page": 2,
+          "fields": [
+            "Tusken Raider",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "97",
+          "page": 2,
+          "fields": [
+            "Wedge Antilles",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "98",
+          "page": 2,
+          "fields": [
+            "Wicket W. Warrick",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "99",
+          "page": 2,
+          "fields": [
+            "Yoda",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "100",
+          "page": 2,
+          "fields": [
+            "Zam Wesell",
+            "Star Wars: Attack of the Clones"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BASE CARDS HYPERSPACE PATTERN",
+      "rows": [
+        {
+          "number": "1",
+          "page": 2,
+          "fields": [
+            "Aayla Secura",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "2",
+          "page": 2,
+          "fields": [
+            "Admiral Ackbar",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "3",
+          "page": 2,
+          "fields": [
+            "Admiral Motti",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "4",
+          "page": 2,
+          "fields": [
+            "Admiral Piett",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "5",
+          "page": 2,
+          "fields": [
+            "Ahsoka Tano",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "6",
+          "page": 3,
+          "fields": [
+            "Vice Admiral Amilyn Holdo",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "7",
+          "page": 3,
+          "fields": [
+            "Anakin Skywalker",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "8",
+          "page": 3,
+          "fields": [
+            "Bail Organa",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "9",
+          "page": 3,
+          "fields": [
+            "Baylan Skoll",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "10",
+          "page": 3,
+          "fields": [
+            "Baze Malbus",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "11",
+          "page": 3,
+          "fields": [
+            "BB-8",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "12",
+          "page": 3,
+          "fields": [
+            "Bib Fortuna",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "13",
+          "page": 3,
+          "fields": [
+            "Biggs Darklighter",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "14",
+          "page": 3,
+          "fields": [
+            "Boba Fett",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "15",
+          "page": 3,
+          "fields": [
+            "Bo-Katan Kryze",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "16",
+          "page": 3,
+          "fields": [
+            "Bossk",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "17",
+          "page": 3,
+          "fields": [
+            "C-3PO",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "18",
+          "page": 3,
+          "fields": [
+            "Cad Bane",
+            "The Book of Boba Fett"
+          ]
+        },
+        {
+          "number": "19",
+          "page": 3,
+          "fields": [
+            "Captain Rex",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "20",
+          "page": 3,
+          "fields": [
+            "Carson Teva",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "21",
+          "page": 3,
+          "fields": [
+            "Cassian Andor",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "22",
+          "page": 3,
+          "fields": [
+            "Chirrut Îmwe",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "23",
+          "page": 3,
+          "fields": [
+            "Chopper",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "24",
+          "page": 3,
+          "fields": [
+            "Cobb Vanth",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "25",
+          "page": 3,
+          "fields": [
+            "Count Dooku",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "26",
+          "page": 3,
+          "fields": [
+            "Darth Vader",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "27",
+          "page": 3,
+          "fields": [
+            "Darth Maul",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "28",
+          "page": 3,
+          "fields": [
+            "Dedra Meero",
+            "Andor"
+          ]
+        },
+        {
+          "number": "29",
+          "page": 3,
+          "fields": [
+            "Director Orson Krennic",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "30",
+          "page": 3,
+          "fields": [
+            "DJ",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "31",
+          "page": 3,
+          "fields": [
+            "Emperor Palpatine",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "32",
+          "page": 3,
+          "fields": [
+            "Enfys Nest",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "33",
+          "page": 3,
+          "fields": [
+            "EV-9D9",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "34",
+          "page": 3,
+          "fields": [
+            "Ezra Bridger",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "35",
+          "page": 3,
+          "fields": [
+            "Fennec Shand",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "36",
+          "page": 3,
+          "fields": [
+            "Fifth Brother",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "37",
+          "page": 3,
+          "fields": [
+            "Figrin D'an",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "38",
+          "page": 3,
+          "fields": [
+            "Finn",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "39",
+          "page": 3,
+          "fields": [
+            "Galen Erso",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "40",
+          "page": 3,
+          "fields": [
+            "Zeb Orrelios",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "41",
+          "page": 3,
+          "fields": [
+            "General Grievous",
+            "Star Wars: Revenge of the Sith"
+          ]
+        },
+        {
+          "number": "42",
+          "page": 3,
+          "fields": [
+            "Grand Admiral Thrawn",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "43",
+          "page": 3,
+          "fields": [
+            "Grand Moff Tarkin",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "44",
+          "page": 3,
+          "fields": [
+            "Greedo",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "45",
+          "page": 3,
+          "fields": [
+            "Greef Karga",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "46",
+          "page": 3,
+          "fields": [
+            "Grogu",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "47",
+          "page": 3,
+          "fields": [
+            "Han Solo",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "48",
+          "page": 3,
+          "fields": [
+            "Hera Syndulla",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "49",
+          "page": 3,
+          "fields": [
+            "Huyang",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "50",
+          "page": 3,
+          "fields": [
+            "IG-11",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "51",
+          "page": 3,
+          "fields": [
+            "IG-88",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "52",
+          "page": 3,
+          "fields": [
+            "Jabba the Hutt",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "53",
+          "page": 3,
+          "fields": [
+            "Jango Fett",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "54",
+          "page": 3,
+          "fields": [
+            "Jar Jar Binks",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "55",
+          "page": 3,
+          "fields": [
+            "Jek Porkins",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "56",
+          "page": 3,
+          "fields": [
+            "Jyn Erso",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "57",
+          "page": 3,
+          "fields": [
+            "K-2SO",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "58",
+          "page": 3,
+          "fields": [
+            "Kanan Jarrus",
+            "Star Wars: The Bad Batch"
+          ]
+        },
+        {
+          "number": "59",
+          "page": 3,
+          "fields": [
+            "Ki-Adi-Mundi",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "60",
+          "page": 3,
+          "fields": [
+            "Kit Fisto",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "61",
+          "page": 4,
+          "fields": [
+            "Kuiil",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "62",
+          "page": 4,
+          "fields": [
+            "Kylo Ren",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "63",
+          "page": 4,
+          "fields": [
+            "L3-37",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "64",
+          "page": 4,
+          "fields": [
+            "Lando Calrissian",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "65",
+          "page": 4,
+          "fields": [
+            "Leia Organa",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "66",
+          "page": 4,
+          "fields": [
+            "Lobot",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "67",
+          "page": 4,
+          "fields": [
+            "Luke Skywalker",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "68",
+          "page": 4,
+          "fields": [
+            "Luthen Rael",
+            "Andor"
+          ]
+        },
+        {
+          "number": "69",
+          "page": 4,
+          "fields": [
+            "Mace Windu",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "70",
+          "page": 4,
+          "fields": [
+            "Max Rebo",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "71",
+          "page": 4,
+          "fields": [
+            "Maz Kanata",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "72",
+          "page": 4,
+          "fields": [
+            "Moff Gideon",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "73",
+          "page": 4,
+          "fields": [
+            "Mon Mothma",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "74",
+          "page": 4,
+          "fields": [
+            "Nien Nunb",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "75",
+          "page": 4,
+          "fields": [
+            "Obi-Wan Kenobi",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "76",
+          "page": 4,
+          "fields": [
+            "Padmé Amidala",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "77",
+          "page": 4,
+          "fields": [
+            "Paige Tico",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "78",
+          "page": 4,
+          "fields": [
+            "Peli Motto",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "79",
+          "page": 4,
+          "fields": [
+            "Plo Koon",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "80",
+          "page": 4,
+          "fields": [
+            "Poe Dameron",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "81",
+          "page": 4,
+          "fields": [
+            "Ponda Baba",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "82",
+          "page": 4,
+          "fields": [
+            "Qi'ra",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "83",
+          "page": 4,
+          "fields": [
+            "Qui-Gon Jinn",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "84",
+          "page": 4,
+          "fields": [
+            "R2-D2",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "85",
+          "page": 4,
+          "fields": [
+            "R5-D4",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "86",
+          "page": 4,
+          "fields": [
+            "Rey",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "87",
+          "page": 4,
+          "fields": [
+            "Rose Tico",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "88",
+          "page": 4,
+          "fields": [
+            "Sabine Wren",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "89",
+          "page": 4,
+          "fields": [
+            "Salacious B. Crumb",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "90",
+          "page": 4,
+          "fields": [
+            "Saw Gerrera",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "91",
+          "page": 4,
+          "fields": [
+            "Sebulba",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "92",
+          "page": 4,
+          "fields": [
+            "Sy Snootles",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "93",
+          "page": 4,
+          "fields": [
+            "The Client",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "94",
+          "page": 4,
+          "fields": [
+            "The Grand Inquisitor",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "95",
+          "page": 4,
+          "fields": [
+            "The Mandalorian",
+            "The Book of Boba Fett"
+          ]
+        },
+        {
+          "number": "96",
+          "page": 4,
+          "fields": [
+            "Tusken Raider",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "97",
+          "page": 4,
+          "fields": [
+            "Wedge Antilles",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "98",
+          "page": 4,
+          "fields": [
+            "Wicket W. Warrick",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "99",
+          "page": 4,
+          "fields": [
+            "Yoda",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "100",
+          "page": 4,
+          "fields": [
+            "Zam Wesell",
+            "Star Wars: Attack of the Clones"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BASE CARDS IMPERIAL PATTERN",
+      "rows": [
+        {
+          "number": "1",
+          "page": 4,
+          "fields": [
+            "Aayla Secura",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "2",
+          "page": 4,
+          "fields": [
+            "Admiral Ackbar",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "3",
+          "page": 4,
+          "fields": [
+            "Admiral Motti",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "4",
+          "page": 4,
+          "fields": [
+            "Admiral Piett",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "5",
+          "page": 4,
+          "fields": [
+            "Ahsoka Tano",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "6",
+          "page": 4,
+          "fields": [
+            "Vice Admiral Amilyn Holdo",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "7",
+          "page": 4,
+          "fields": [
+            "Anakin Skywalker",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "8",
+          "page": 4,
+          "fields": [
+            "Bail Organa",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "9",
+          "page": 4,
+          "fields": [
+            "Baylan Skoll",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "10",
+          "page": 4,
+          "fields": [
+            "Baze Malbus",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "11",
+          "page": 4,
+          "fields": [
+            "BB-8",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "12",
+          "page": 4,
+          "fields": [
+            "Bib Fortuna",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "13",
+          "page": 4,
+          "fields": [
+            "Biggs Darklighter",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "14",
+          "page": 5,
+          "fields": [
+            "Boba Fett",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "15",
+          "page": 5,
+          "fields": [
+            "Bo-Katan Kryze",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "16",
+          "page": 5,
+          "fields": [
+            "Bossk",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "17",
+          "page": 5,
+          "fields": [
+            "C-3PO",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "18",
+          "page": 5,
+          "fields": [
+            "Cad Bane",
+            "The Book of Boba Fett"
+          ]
+        },
+        {
+          "number": "19",
+          "page": 5,
+          "fields": [
+            "Captain Rex",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "20",
+          "page": 5,
+          "fields": [
+            "Carson Teva",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "21",
+          "page": 5,
+          "fields": [
+            "Cassian Andor",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "22",
+          "page": 5,
+          "fields": [
+            "Chirrut Îmwe",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "23",
+          "page": 5,
+          "fields": [
+            "Chopper",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "24",
+          "page": 5,
+          "fields": [
+            "Cobb Vanth",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "25",
+          "page": 5,
+          "fields": [
+            "Count Dooku",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "26",
+          "page": 5,
+          "fields": [
+            "Darth Vader",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "27",
+          "page": 5,
+          "fields": [
+            "Darth Maul",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "28",
+          "page": 5,
+          "fields": [
+            "Dedra Meero",
+            "Andor"
+          ]
+        },
+        {
+          "number": "29",
+          "page": 5,
+          "fields": [
+            "Director Orson Krennic",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "30",
+          "page": 5,
+          "fields": [
+            "DJ",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "31",
+          "page": 5,
+          "fields": [
+            "Emperor Palpatine",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "32",
+          "page": 5,
+          "fields": [
+            "Enfys Nest",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "33",
+          "page": 5,
+          "fields": [
+            "EV-9D9",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "34",
+          "page": 5,
+          "fields": [
+            "Ezra Bridger",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "35",
+          "page": 5,
+          "fields": [
+            "Fennec Shand",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "36",
+          "page": 5,
+          "fields": [
+            "Fifth Brother",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "37",
+          "page": 5,
+          "fields": [
+            "Figrin D'an",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "38",
+          "page": 5,
+          "fields": [
+            "Finn",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "39",
+          "page": 5,
+          "fields": [
+            "Galen Erso",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "40",
+          "page": 5,
+          "fields": [
+            "Zeb Orrelios",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "41",
+          "page": 5,
+          "fields": [
+            "General Grievous",
+            "Star Wars: Revenge of the Sith"
+          ]
+        },
+        {
+          "number": "42",
+          "page": 5,
+          "fields": [
+            "Grand Admiral Thrawn",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "43",
+          "page": 5,
+          "fields": [
+            "Grand Moff Tarkin",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "44",
+          "page": 5,
+          "fields": [
+            "Greedo",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "45",
+          "page": 5,
+          "fields": [
+            "Greef Karga",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "46",
+          "page": 5,
+          "fields": [
+            "Grogu",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "47",
+          "page": 5,
+          "fields": [
+            "Han Solo",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "48",
+          "page": 5,
+          "fields": [
+            "Hera Syndulla",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "49",
+          "page": 5,
+          "fields": [
+            "Huyang",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "50",
+          "page": 5,
+          "fields": [
+            "IG-11",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "51",
+          "page": 5,
+          "fields": [
+            "IG-88",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "52",
+          "page": 5,
+          "fields": [
+            "Jabba the Hutt",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "53",
+          "page": 5,
+          "fields": [
+            "Jango Fett",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "54",
+          "page": 5,
+          "fields": [
+            "Jar Jar Binks",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "55",
+          "page": 5,
+          "fields": [
+            "Jek Porkins",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "56",
+          "page": 5,
+          "fields": [
+            "Jyn Erso",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "57",
+          "page": 5,
+          "fields": [
+            "K-2SO",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "58",
+          "page": 5,
+          "fields": [
+            "Kanan Jarrus",
+            "Star Wars: The Bad Batch"
+          ]
+        },
+        {
+          "number": "59",
+          "page": 5,
+          "fields": [
+            "Ki-Adi-Mundi",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "60",
+          "page": 5,
+          "fields": [
+            "Kit Fisto",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "61",
+          "page": 5,
+          "fields": [
+            "Kuiil",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "62",
+          "page": 5,
+          "fields": [
+            "Kylo Ren",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "63",
+          "page": 5,
+          "fields": [
+            "L3-37",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "64",
+          "page": 5,
+          "fields": [
+            "Lando Calrissian",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "65",
+          "page": 5,
+          "fields": [
+            "Leia Organa",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "66",
+          "page": 5,
+          "fields": [
+            "Lobot",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "67",
+          "page": 5,
+          "fields": [
+            "Luke Skywalker",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "68",
+          "page": 5,
+          "fields": [
+            "Luthen Rael",
+            "Andor"
+          ]
+        },
+        {
+          "number": "69",
+          "page": 6,
+          "fields": [
+            "Mace Windu",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "70",
+          "page": 6,
+          "fields": [
+            "Max Rebo",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "71",
+          "page": 6,
+          "fields": [
+            "Maz Kanata",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "72",
+          "page": 6,
+          "fields": [
+            "Moff Gideon",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "73",
+          "page": 6,
+          "fields": [
+            "Mon Mothma",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "74",
+          "page": 6,
+          "fields": [
+            "Nien Nunb",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "75",
+          "page": 6,
+          "fields": [
+            "Obi-Wan Kenobi",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "76",
+          "page": 6,
+          "fields": [
+            "Padmé Amidala",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "77",
+          "page": 6,
+          "fields": [
+            "Paige Tico",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "78",
+          "page": 6,
+          "fields": [
+            "Peli Motto",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "79",
+          "page": 6,
+          "fields": [
+            "Plo Koon",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "80",
+          "page": 6,
+          "fields": [
+            "Poe Dameron",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "81",
+          "page": 6,
+          "fields": [
+            "Ponda Baba",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "82",
+          "page": 6,
+          "fields": [
+            "Qi'ra",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "83",
+          "page": 6,
+          "fields": [
+            "Qui-Gon Jinn",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "84",
+          "page": 6,
+          "fields": [
+            "R2-D2",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "85",
+          "page": 6,
+          "fields": [
+            "R5-D4",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "86",
+          "page": 6,
+          "fields": [
+            "Rey",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "87",
+          "page": 6,
+          "fields": [
+            "Rose Tico",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "88",
+          "page": 6,
+          "fields": [
+            "Sabine Wren",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "89",
+          "page": 6,
+          "fields": [
+            "Salacious B. Crumb",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "90",
+          "page": 6,
+          "fields": [
+            "Saw Gerrera",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "91",
+          "page": 6,
+          "fields": [
+            "Sebulba",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "92",
+          "page": 6,
+          "fields": [
+            "Sy Snootles",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "93",
+          "page": 6,
+          "fields": [
+            "The Client",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "94",
+          "page": 6,
+          "fields": [
+            "The Grand Inquisitor",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "95",
+          "page": 6,
+          "fields": [
+            "The Mandalorian",
+            "The Book of Boba Fett"
+          ]
+        },
+        {
+          "number": "96",
+          "page": 6,
+          "fields": [
+            "Tusken Raider",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "97",
+          "page": 6,
+          "fields": [
+            "Wedge Antilles",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "98",
+          "page": 6,
+          "fields": [
+            "Wicket W. Warrick",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "99",
+          "page": 6,
+          "fields": [
+            "Yoda",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "100",
+          "page": 6,
+          "fields": [
+            "Zam Wesell",
+            "Star Wars: Attack of the Clones"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BASE CARDS LASER PATTERN",
+      "rows": [
+        {
+          "number": "1",
+          "page": 6,
+          "fields": [
+            "Aayla Secura",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "2",
+          "page": 6,
+          "fields": [
+            "Admiral Ackbar",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "3",
+          "page": 6,
+          "fields": [
+            "Admiral Motti",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "4",
+          "page": 6,
+          "fields": [
+            "Admiral Piett",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "5",
+          "page": 6,
+          "fields": [
+            "Ahsoka Tano",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "6",
+          "page": 6,
+          "fields": [
+            "Vice Admiral Amilyn Holdo",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "7",
+          "page": 6,
+          "fields": [
+            "Anakin Skywalker",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "8",
+          "page": 6,
+          "fields": [
+            "Bail Organa",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "9",
+          "page": 6,
+          "fields": [
+            "Baylan Skoll",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "10",
+          "page": 6,
+          "fields": [
+            "Baze Malbus",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "11",
+          "page": 6,
+          "fields": [
+            "BB-8",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "12",
+          "page": 6,
+          "fields": [
+            "Bib Fortuna",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "13",
+          "page": 6,
+          "fields": [
+            "Biggs Darklighter",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "14",
+          "page": 6,
+          "fields": [
+            "Boba Fett",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "15",
+          "page": 6,
+          "fields": [
+            "Bo-Katan Kryze",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "16",
+          "page": 6,
+          "fields": [
+            "Bossk",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "17",
+          "page": 6,
+          "fields": [
+            "C-3PO",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "18",
+          "page": 6,
+          "fields": [
+            "Cad Bane",
+            "The Book of Boba Fett"
+          ]
+        },
+        {
+          "number": "19",
+          "page": 6,
+          "fields": [
+            "Captain Rex",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "20",
+          "page": 6,
+          "fields": [
+            "Carson Teva",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "21",
+          "page": 6,
+          "fields": [
+            "Cassian Andor",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "22",
+          "page": 7,
+          "fields": [
+            "Chirrut Îmwe",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "23",
+          "page": 7,
+          "fields": [
+            "Chopper",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "24",
+          "page": 7,
+          "fields": [
+            "Cobb Vanth",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "25",
+          "page": 7,
+          "fields": [
+            "Count Dooku",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "26",
+          "page": 7,
+          "fields": [
+            "Darth Vader",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "27",
+          "page": 7,
+          "fields": [
+            "Darth Maul",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "28",
+          "page": 7,
+          "fields": [
+            "Dedra Meero",
+            "Andor"
+          ]
+        },
+        {
+          "number": "29",
+          "page": 7,
+          "fields": [
+            "Director Orson Krennic",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "30",
+          "page": 7,
+          "fields": [
+            "DJ",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "31",
+          "page": 7,
+          "fields": [
+            "Emperor Palpatine",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "32",
+          "page": 7,
+          "fields": [
+            "Enfys Nest",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "33",
+          "page": 7,
+          "fields": [
+            "EV-9D9",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "34",
+          "page": 7,
+          "fields": [
+            "Ezra Bridger",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "35",
+          "page": 7,
+          "fields": [
+            "Fennec Shand",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "36",
+          "page": 7,
+          "fields": [
+            "Fifth Brother",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "37",
+          "page": 7,
+          "fields": [
+            "Figrin D'an",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "38",
+          "page": 7,
+          "fields": [
+            "Finn",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "39",
+          "page": 7,
+          "fields": [
+            "Galen Erso",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "40",
+          "page": 7,
+          "fields": [
+            "Zeb Orrelios",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "41",
+          "page": 7,
+          "fields": [
+            "General Grievous",
+            "Star Wars: Revenge of the Sith"
+          ]
+        },
+        {
+          "number": "42",
+          "page": 7,
+          "fields": [
+            "Grand Admiral Thrawn",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "43",
+          "page": 7,
+          "fields": [
+            "Grand Moff Tarkin",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "44",
+          "page": 7,
+          "fields": [
+            "Greedo",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "45",
+          "page": 7,
+          "fields": [
+            "Greef Karga",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "46",
+          "page": 7,
+          "fields": [
+            "Grogu",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "47",
+          "page": 7,
+          "fields": [
+            "Han Solo",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "48",
+          "page": 7,
+          "fields": [
+            "Hera Syndulla",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "49",
+          "page": 7,
+          "fields": [
+            "Huyang",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "50",
+          "page": 7,
+          "fields": [
+            "IG-11",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "51",
+          "page": 7,
+          "fields": [
+            "IG-88",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "52",
+          "page": 7,
+          "fields": [
+            "Jabba the Hutt",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "53",
+          "page": 7,
+          "fields": [
+            "Jango Fett",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "54",
+          "page": 7,
+          "fields": [
+            "Jar Jar Binks",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "55",
+          "page": 7,
+          "fields": [
+            "Jek Porkins",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "56",
+          "page": 7,
+          "fields": [
+            "Jyn Erso",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "57",
+          "page": 7,
+          "fields": [
+            "K-2SO",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "58",
+          "page": 7,
+          "fields": [
+            "Kanan Jarrus",
+            "Star Wars: The Bad Batch"
+          ]
+        },
+        {
+          "number": "59",
+          "page": 7,
+          "fields": [
+            "Ki-Adi-Mundi",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "60",
+          "page": 7,
+          "fields": [
+            "Kit Fisto",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "61",
+          "page": 7,
+          "fields": [
+            "Kuiil",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "62",
+          "page": 7,
+          "fields": [
+            "Kylo Ren",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "63",
+          "page": 7,
+          "fields": [
+            "L3-37",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "64",
+          "page": 7,
+          "fields": [
+            "Lando Calrissian",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "65",
+          "page": 7,
+          "fields": [
+            "Leia Organa",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "66",
+          "page": 7,
+          "fields": [
+            "Lobot",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "67",
+          "page": 7,
+          "fields": [
+            "Luke Skywalker",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "68",
+          "page": 7,
+          "fields": [
+            "Luthen Rael",
+            "Andor"
+          ]
+        },
+        {
+          "number": "69",
+          "page": 7,
+          "fields": [
+            "Mace Windu",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "70",
+          "page": 7,
+          "fields": [
+            "Max Rebo",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "71",
+          "page": 7,
+          "fields": [
+            "Maz Kanata",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "72",
+          "page": 7,
+          "fields": [
+            "Moff Gideon",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "73",
+          "page": 7,
+          "fields": [
+            "Mon Mothma",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "74",
+          "page": 7,
+          "fields": [
+            "Nien Nunb",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "75",
+          "page": 7,
+          "fields": [
+            "Obi-Wan Kenobi",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "76",
+          "page": 7,
+          "fields": [
+            "Padmé Amidala",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "77",
+          "page": 8,
+          "fields": [
+            "Paige Tico",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "78",
+          "page": 8,
+          "fields": [
+            "Peli Motto",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "79",
+          "page": 8,
+          "fields": [
+            "Plo Koon",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "80",
+          "page": 8,
+          "fields": [
+            "Poe Dameron",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "81",
+          "page": 8,
+          "fields": [
+            "Ponda Baba",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "82",
+          "page": 8,
+          "fields": [
+            "Qi'ra",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "83",
+          "page": 8,
+          "fields": [
+            "Qui-Gon Jinn",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "84",
+          "page": 8,
+          "fields": [
+            "R2-D2",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "85",
+          "page": 8,
+          "fields": [
+            "R5-D4",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "86",
+          "page": 8,
+          "fields": [
+            "Rey",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "87",
+          "page": 8,
+          "fields": [
+            "Rose Tico",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "88",
+          "page": 8,
+          "fields": [
+            "Sabine Wren",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "89",
+          "page": 8,
+          "fields": [
+            "Salacious B. Crumb",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "90",
+          "page": 8,
+          "fields": [
+            "Saw Gerrera",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "91",
+          "page": 8,
+          "fields": [
+            "Sebulba",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "92",
+          "page": 8,
+          "fields": [
+            "Sy Snootles",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "93",
+          "page": 8,
+          "fields": [
+            "The Client",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "94",
+          "page": 8,
+          "fields": [
+            "The Grand Inquisitor",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "95",
+          "page": 8,
+          "fields": [
+            "The Mandalorian",
+            "The Book of Boba Fett"
+          ]
+        },
+        {
+          "number": "96",
+          "page": 8,
+          "fields": [
+            "Tusken Raider",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "97",
+          "page": 8,
+          "fields": [
+            "Wedge Antilles",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "98",
+          "page": 8,
+          "fields": [
+            "Wicket W. Warrick",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "99",
+          "page": 8,
+          "fields": [
+            "Yoda",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "100",
+          "page": 8,
+          "fields": [
+            "Zam Wesell",
+            "Star Wars: Attack of the Clones"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BASE CARDS REBEL PATTERN",
+      "rows": [
+        {
+          "number": "1",
+          "page": 8,
+          "fields": [
+            "Aayla Secura",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "2",
+          "page": 8,
+          "fields": [
+            "Admiral Ackbar",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "3",
+          "page": 8,
+          "fields": [
+            "Admiral Motti",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "4",
+          "page": 8,
+          "fields": [
+            "Admiral Piett",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "5",
+          "page": 8,
+          "fields": [
+            "Ahsoka Tano",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "6",
+          "page": 8,
+          "fields": [
+            "Vice Admiral Amilyn Holdo",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "7",
+          "page": 8,
+          "fields": [
+            "Anakin Skywalker",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "8",
+          "page": 8,
+          "fields": [
+            "Bail Organa",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "9",
+          "page": 8,
+          "fields": [
+            "Baylan Skoll",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "10",
+          "page": 8,
+          "fields": [
+            "Baze Malbus",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "11",
+          "page": 8,
+          "fields": [
+            "BB-8",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "12",
+          "page": 8,
+          "fields": [
+            "Bib Fortuna",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "13",
+          "page": 8,
+          "fields": [
+            "Biggs Darklighter",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "14",
+          "page": 8,
+          "fields": [
+            "Boba Fett",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "15",
+          "page": 8,
+          "fields": [
+            "Bo-Katan Kryze",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "16",
+          "page": 8,
+          "fields": [
+            "Bossk",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "17",
+          "page": 8,
+          "fields": [
+            "C-3PO",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "18",
+          "page": 8,
+          "fields": [
+            "Cad Bane",
+            "The Book of Boba Fett"
+          ]
+        },
+        {
+          "number": "19",
+          "page": 8,
+          "fields": [
+            "Captain Rex",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "20",
+          "page": 8,
+          "fields": [
+            "Carson Teva",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "21",
+          "page": 8,
+          "fields": [
+            "Cassian Andor",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "22",
+          "page": 8,
+          "fields": [
+            "Chirrut Îmwe",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "23",
+          "page": 8,
+          "fields": [
+            "Chopper",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "24",
+          "page": 8,
+          "fields": [
+            "Cobb Vanth",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "25",
+          "page": 8,
+          "fields": [
+            "Count Dooku",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "26",
+          "page": 8,
+          "fields": [
+            "Darth Vader",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "27",
+          "page": 8,
+          "fields": [
+            "Darth Maul",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "28",
+          "page": 8,
+          "fields": [
+            "Dedra Meero",
+            "Andor"
+          ]
+        },
+        {
+          "number": "29",
+          "page": 8,
+          "fields": [
+            "Director Orson Krennic",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "30",
+          "page": 9,
+          "fields": [
+            "DJ",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "31",
+          "page": 9,
+          "fields": [
+            "Emperor Palpatine",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "32",
+          "page": 9,
+          "fields": [
+            "Enfys Nest",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "33",
+          "page": 9,
+          "fields": [
+            "EV-9D9",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "34",
+          "page": 9,
+          "fields": [
+            "Ezra Bridger",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "35",
+          "page": 9,
+          "fields": [
+            "Fennec Shand",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "36",
+          "page": 9,
+          "fields": [
+            "Fifth Brother",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "37",
+          "page": 9,
+          "fields": [
+            "Figrin D'an",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "38",
+          "page": 9,
+          "fields": [
+            "Finn",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "39",
+          "page": 9,
+          "fields": [
+            "Galen Erso",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "40",
+          "page": 9,
+          "fields": [
+            "Zeb Orrelios",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "41",
+          "page": 9,
+          "fields": [
+            "General Grievous",
+            "Star Wars: Revenge of the Sith"
+          ]
+        },
+        {
+          "number": "42",
+          "page": 9,
+          "fields": [
+            "Grand Admiral Thrawn",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "43",
+          "page": 9,
+          "fields": [
+            "Grand Moff Tarkin",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "44",
+          "page": 9,
+          "fields": [
+            "Greedo",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "45",
+          "page": 9,
+          "fields": [
+            "Greef Karga",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "46",
+          "page": 9,
+          "fields": [
+            "Grogu",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "47",
+          "page": 9,
+          "fields": [
+            "Han Solo",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "48",
+          "page": 9,
+          "fields": [
+            "Hera Syndulla",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "49",
+          "page": 9,
+          "fields": [
+            "Huyang",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "50",
+          "page": 9,
+          "fields": [
+            "IG-11",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "51",
+          "page": 9,
+          "fields": [
+            "IG-88",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "52",
+          "page": 9,
+          "fields": [
+            "Jabba the Hutt",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "53",
+          "page": 9,
+          "fields": [
+            "Jango Fett",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "54",
+          "page": 9,
+          "fields": [
+            "Jar Jar Binks",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "55",
+          "page": 9,
+          "fields": [
+            "Jek Porkins",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "56",
+          "page": 9,
+          "fields": [
+            "Jyn Erso",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "57",
+          "page": 9,
+          "fields": [
+            "K-2SO",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "58",
+          "page": 9,
+          "fields": [
+            "Kanan Jarrus",
+            "Star Wars: The Bad Batch"
+          ]
+        },
+        {
+          "number": "59",
+          "page": 9,
+          "fields": [
+            "Ki-Adi-Mundi",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "60",
+          "page": 9,
+          "fields": [
+            "Kit Fisto",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "61",
+          "page": 9,
+          "fields": [
+            "Kuiil",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "62",
+          "page": 9,
+          "fields": [
+            "Kylo Ren",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "63",
+          "page": 9,
+          "fields": [
+            "L3-37",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "64",
+          "page": 9,
+          "fields": [
+            "Lando Calrissian",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "65",
+          "page": 9,
+          "fields": [
+            "Leia Organa",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "66",
+          "page": 9,
+          "fields": [
+            "Lobot",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "67",
+          "page": 9,
+          "fields": [
+            "Luke Skywalker",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "68",
+          "page": 9,
+          "fields": [
+            "Luthen Rael",
+            "Andor"
+          ]
+        },
+        {
+          "number": "69",
+          "page": 9,
+          "fields": [
+            "Mace Windu",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "70",
+          "page": 9,
+          "fields": [
+            "Max Rebo",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "71",
+          "page": 9,
+          "fields": [
+            "Maz Kanata",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "72",
+          "page": 9,
+          "fields": [
+            "Moff Gideon",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "73",
+          "page": 9,
+          "fields": [
+            "Mon Mothma",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "74",
+          "page": 9,
+          "fields": [
+            "Nien Nunb",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "75",
+          "page": 9,
+          "fields": [
+            "Obi-Wan Kenobi",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "76",
+          "page": 9,
+          "fields": [
+            "Padmé Amidala",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "77",
+          "page": 9,
+          "fields": [
+            "Paige Tico",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "78",
+          "page": 9,
+          "fields": [
+            "Peli Motto",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "79",
+          "page": 9,
+          "fields": [
+            "Plo Koon",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "80",
+          "page": 9,
+          "fields": [
+            "Poe Dameron",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "81",
+          "page": 9,
+          "fields": [
+            "Ponda Baba",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "82",
+          "page": 9,
+          "fields": [
+            "Qi'ra",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "83",
+          "page": 9,
+          "fields": [
+            "Qui-Gon Jinn",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "84",
+          "page": 9,
+          "fields": [
+            "R2-D2",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "85",
+          "page": 10,
+          "fields": [
+            "R5-D4",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "86",
+          "page": 10,
+          "fields": [
+            "Rey",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "87",
+          "page": 10,
+          "fields": [
+            "Rose Tico",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "88",
+          "page": 10,
+          "fields": [
+            "Sabine Wren",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "89",
+          "page": 10,
+          "fields": [
+            "Salacious B. Crumb",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "90",
+          "page": 10,
+          "fields": [
+            "Saw Gerrera",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "91",
+          "page": 10,
+          "fields": [
+            "Sebulba",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "92",
+          "page": 10,
+          "fields": [
+            "Sy Snootles",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "93",
+          "page": 10,
+          "fields": [
+            "The Client",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "94",
+          "page": 10,
+          "fields": [
+            "The Grand Inquisitor",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "95",
+          "page": 10,
+          "fields": [
+            "The Mandalorian",
+            "The Book of Boba Fett"
+          ]
+        },
+        {
+          "number": "96",
+          "page": 10,
+          "fields": [
+            "Tusken Raider",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "97",
+          "page": 10,
+          "fields": [
+            "Wedge Antilles",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "98",
+          "page": 10,
+          "fields": [
+            "Wicket W. Warrick",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "99",
+          "page": 10,
+          "fields": [
+            "Yoda",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "100",
+          "page": 10,
+          "fields": [
+            "Zam Wesell",
+            "Star Wars: Attack of the Clones"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BASE CARDS DEATH STAR INTERIOR PATTERN",
+      "rows": [
+        {
+          "number": "1",
+          "page": 10,
+          "fields": [
+            "Aayla Secura",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "2",
+          "page": 10,
+          "fields": [
+            "Admiral Ackbar",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "3",
+          "page": 10,
+          "fields": [
+            "Admiral Motti",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "4",
+          "page": 10,
+          "fields": [
+            "Admiral Piett",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "5",
+          "page": 10,
+          "fields": [
+            "Ahsoka Tano",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "6",
+          "page": 10,
+          "fields": [
+            "Vice Admiral Amilyn Holdo",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "7",
+          "page": 10,
+          "fields": [
+            "Anakin Skywalker",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "8",
+          "page": 10,
+          "fields": [
+            "Bail Organa",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "9",
+          "page": 10,
+          "fields": [
+            "Baylan Skoll",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "10",
+          "page": 10,
+          "fields": [
+            "Baze Malbus",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "11",
+          "page": 10,
+          "fields": [
+            "BB-8",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "12",
+          "page": 10,
+          "fields": [
+            "Bib Fortuna",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "13",
+          "page": 10,
+          "fields": [
+            "Biggs Darklighter",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "14",
+          "page": 10,
+          "fields": [
+            "Boba Fett",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "15",
+          "page": 10,
+          "fields": [
+            "Bo-Katan Kryze",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "16",
+          "page": 10,
+          "fields": [
+            "Bossk",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "17",
+          "page": 10,
+          "fields": [
+            "C-3PO",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "18",
+          "page": 10,
+          "fields": [
+            "Cad Bane",
+            "The Book of Boba Fett"
+          ]
+        },
+        {
+          "number": "19",
+          "page": 10,
+          "fields": [
+            "Captain Rex",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "20",
+          "page": 10,
+          "fields": [
+            "Carson Teva",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "21",
+          "page": 10,
+          "fields": [
+            "Cassian Andor",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "22",
+          "page": 10,
+          "fields": [
+            "Chirrut Îmwe",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "23",
+          "page": 10,
+          "fields": [
+            "Chopper",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "24",
+          "page": 10,
+          "fields": [
+            "Cobb Vanth",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "25",
+          "page": 10,
+          "fields": [
+            "Count Dooku",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "26",
+          "page": 10,
+          "fields": [
+            "Darth Vader",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "27",
+          "page": 10,
+          "fields": [
+            "Darth Maul",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "28",
+          "page": 10,
+          "fields": [
+            "Dedra Meero",
+            "Andor"
+          ]
+        },
+        {
+          "number": "29",
+          "page": 10,
+          "fields": [
+            "Director Orson Krennic",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "30",
+          "page": 10,
+          "fields": [
+            "DJ",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "31",
+          "page": 10,
+          "fields": [
+            "Emperor Palpatine",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "32",
+          "page": 10,
+          "fields": [
+            "Enfys Nest",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "33",
+          "page": 10,
+          "fields": [
+            "EV-9D9",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "34",
+          "page": 10,
+          "fields": [
+            "Ezra Bridger",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "35",
+          "page": 10,
+          "fields": [
+            "Fennec Shand",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "36",
+          "page": 10,
+          "fields": [
+            "Fifth Brother",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "37",
+          "page": 10,
+          "fields": [
+            "Figrin D'an",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "38",
+          "page": 11,
+          "fields": [
+            "Finn",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "39",
+          "page": 11,
+          "fields": [
+            "Galen Erso",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "40",
+          "page": 11,
+          "fields": [
+            "Zeb Orrelios",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "41",
+          "page": 11,
+          "fields": [
+            "General Grievous",
+            "Star Wars: Revenge of the Sith"
+          ]
+        },
+        {
+          "number": "42",
+          "page": 11,
+          "fields": [
+            "Grand Admiral Thrawn",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "43",
+          "page": 11,
+          "fields": [
+            "Grand Moff Tarkin",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "44",
+          "page": 11,
+          "fields": [
+            "Greedo",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "45",
+          "page": 11,
+          "fields": [
+            "Greef Karga",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "46",
+          "page": 11,
+          "fields": [
+            "Grogu",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "47",
+          "page": 11,
+          "fields": [
+            "Han Solo",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "48",
+          "page": 11,
+          "fields": [
+            "Hera Syndulla",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "49",
+          "page": 11,
+          "fields": [
+            "Huyang",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "50",
+          "page": 11,
+          "fields": [
+            "IG-11",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "51",
+          "page": 11,
+          "fields": [
+            "IG-88",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "52",
+          "page": 11,
+          "fields": [
+            "Jabba the Hutt",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "53",
+          "page": 11,
+          "fields": [
+            "Jango Fett",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "54",
+          "page": 11,
+          "fields": [
+            "Jar Jar Binks",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "55",
+          "page": 11,
+          "fields": [
+            "Jek Porkins",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "56",
+          "page": 11,
+          "fields": [
+            "Jyn Erso",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "57",
+          "page": 11,
+          "fields": [
+            "K-2SO",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "58",
+          "page": 11,
+          "fields": [
+            "Kanan Jarrus",
+            "Star Wars: The Bad Batch"
+          ]
+        },
+        {
+          "number": "59",
+          "page": 11,
+          "fields": [
+            "Ki-Adi-Mundi",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "60",
+          "page": 11,
+          "fields": [
+            "Kit Fisto",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "61",
+          "page": 11,
+          "fields": [
+            "Kuiil",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "62",
+          "page": 11,
+          "fields": [
+            "Kylo Ren",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "63",
+          "page": 11,
+          "fields": [
+            "L3-37",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "64",
+          "page": 11,
+          "fields": [
+            "Lando Calrissian",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "65",
+          "page": 11,
+          "fields": [
+            "Leia Organa",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "66",
+          "page": 11,
+          "fields": [
+            "Lobot",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "67",
+          "page": 11,
+          "fields": [
+            "Luke Skywalker",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "68",
+          "page": 11,
+          "fields": [
+            "Luthen Rael",
+            "Andor"
+          ]
+        },
+        {
+          "number": "69",
+          "page": 11,
+          "fields": [
+            "Mace Windu",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "70",
+          "page": 11,
+          "fields": [
+            "Max Rebo",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "71",
+          "page": 11,
+          "fields": [
+            "Maz Kanata",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "72",
+          "page": 11,
+          "fields": [
+            "Moff Gideon",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "73",
+          "page": 11,
+          "fields": [
+            "Mon Mothma",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "74",
+          "page": 11,
+          "fields": [
+            "Nien Nunb",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "75",
+          "page": 11,
+          "fields": [
+            "Obi-Wan Kenobi",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "76",
+          "page": 11,
+          "fields": [
+            "Padmé Amidala",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "77",
+          "page": 11,
+          "fields": [
+            "Paige Tico",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "78",
+          "page": 11,
+          "fields": [
+            "Peli Motto",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "79",
+          "page": 11,
+          "fields": [
+            "Plo Koon",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "80",
+          "page": 11,
+          "fields": [
+            "Poe Dameron",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "81",
+          "page": 11,
+          "fields": [
+            "Ponda Baba",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "82",
+          "page": 11,
+          "fields": [
+            "Qi'ra",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "83",
+          "page": 11,
+          "fields": [
+            "Qui-Gon Jinn",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "84",
+          "page": 11,
+          "fields": [
+            "R2-D2",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "85",
+          "page": 11,
+          "fields": [
+            "R5-D4",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "86",
+          "page": 11,
+          "fields": [
+            "Rey",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "87",
+          "page": 11,
+          "fields": [
+            "Rose Tico",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "88",
+          "page": 11,
+          "fields": [
+            "Sabine Wren",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "89",
+          "page": 11,
+          "fields": [
+            "Salacious B. Crumb",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "90",
+          "page": 11,
+          "fields": [
+            "Saw Gerrera",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "91",
+          "page": 11,
+          "fields": [
+            "Sebulba",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "92",
+          "page": 11,
+          "fields": [
+            "Sy Snootles",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "93",
+          "page": 12,
+          "fields": [
+            "The Client",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "94",
+          "page": 12,
+          "fields": [
+            "The Grand Inquisitor",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "95",
+          "page": 12,
+          "fields": [
+            "The Mandalorian",
+            "The Book of Boba Fett"
+          ]
+        },
+        {
+          "number": "96",
+          "page": 12,
+          "fields": [
+            "Tusken Raider",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "97",
+          "page": 12,
+          "fields": [
+            "Wedge Antilles",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "98",
+          "page": 12,
+          "fields": [
+            "Wicket W. Warrick",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "99",
+          "page": 12,
+          "fields": [
+            "Yoda",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "100",
+          "page": 12,
+          "fields": [
+            "Zam Wesell",
+            "Star Wars: Attack of the Clones"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BASE CARDS DEATH STAR EXTERIOR PATTERN",
+      "rows": [
+        {
+          "number": "1",
+          "page": 12,
+          "fields": [
+            "Aayla Secura",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "2",
+          "page": 12,
+          "fields": [
+            "Admiral Ackbar",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "3",
+          "page": 12,
+          "fields": [
+            "Admiral Motti",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "4",
+          "page": 12,
+          "fields": [
+            "Admiral Piett",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "5",
+          "page": 12,
+          "fields": [
+            "Ahsoka Tano",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "6",
+          "page": 12,
+          "fields": [
+            "Vice Admiral Amilyn Holdo",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "7",
+          "page": 12,
+          "fields": [
+            "Anakin Skywalker",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "8",
+          "page": 12,
+          "fields": [
+            "Bail Organa",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "9",
+          "page": 12,
+          "fields": [
+            "Baylan Skoll",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "10",
+          "page": 12,
+          "fields": [
+            "Baze Malbus",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "11",
+          "page": 12,
+          "fields": [
+            "BB-8",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "12",
+          "page": 12,
+          "fields": [
+            "Bib Fortuna",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "13",
+          "page": 12,
+          "fields": [
+            "Biggs Darklighter",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "14",
+          "page": 12,
+          "fields": [
+            "Boba Fett",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "15",
+          "page": 12,
+          "fields": [
+            "Bo-Katan Kryze",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "16",
+          "page": 12,
+          "fields": [
+            "Bossk",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "17",
+          "page": 12,
+          "fields": [
+            "C-3PO",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "18",
+          "page": 12,
+          "fields": [
+            "Cad Bane",
+            "The Book of Boba Fett"
+          ]
+        },
+        {
+          "number": "19",
+          "page": 12,
+          "fields": [
+            "Captain Rex",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "20",
+          "page": 12,
+          "fields": [
+            "Carson Teva",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "21",
+          "page": 12,
+          "fields": [
+            "Cassian Andor",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "22",
+          "page": 12,
+          "fields": [
+            "Chirrut Îmwe",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "23",
+          "page": 12,
+          "fields": [
+            "Chopper",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "24",
+          "page": 12,
+          "fields": [
+            "Cobb Vanth",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "25",
+          "page": 12,
+          "fields": [
+            "Count Dooku",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "26",
+          "page": 12,
+          "fields": [
+            "Darth Vader",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "27",
+          "page": 12,
+          "fields": [
+            "Darth Maul",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "28",
+          "page": 12,
+          "fields": [
+            "Dedra Meero",
+            "Andor"
+          ]
+        },
+        {
+          "number": "29",
+          "page": 12,
+          "fields": [
+            "Director Orson Krennic",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "30",
+          "page": 12,
+          "fields": [
+            "DJ",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "31",
+          "page": 12,
+          "fields": [
+            "Emperor Palpatine",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "32",
+          "page": 12,
+          "fields": [
+            "Enfys Nest",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "33",
+          "page": 12,
+          "fields": [
+            "EV-9D9",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "34",
+          "page": 12,
+          "fields": [
+            "Ezra Bridger",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "35",
+          "page": 12,
+          "fields": [
+            "Fennec Shand",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "36",
+          "page": 12,
+          "fields": [
+            "Fifth Brother",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "37",
+          "page": 12,
+          "fields": [
+            "Figrin D'an",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "38",
+          "page": 12,
+          "fields": [
+            "Finn",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "39",
+          "page": 12,
+          "fields": [
+            "Galen Erso",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "40",
+          "page": 12,
+          "fields": [
+            "Zeb Orrelios",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "41",
+          "page": 12,
+          "fields": [
+            "General Grievous",
+            "Star Wars: Revenge of the Sith"
+          ]
+        },
+        {
+          "number": "42",
+          "page": 12,
+          "fields": [
+            "Grand Admiral Thrawn",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "43",
+          "page": 12,
+          "fields": [
+            "Grand Moff Tarkin",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "44",
+          "page": 12,
+          "fields": [
+            "Greedo",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "45",
+          "page": 12,
+          "fields": [
+            "Greef Karga",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "46",
+          "page": 13,
+          "fields": [
+            "Grogu",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "47",
+          "page": 13,
+          "fields": [
+            "Han Solo",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "48",
+          "page": 13,
+          "fields": [
+            "Hera Syndulla",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "49",
+          "page": 13,
+          "fields": [
+            "Huyang",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "50",
+          "page": 13,
+          "fields": [
+            "IG-11",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "51",
+          "page": 13,
+          "fields": [
+            "IG-88",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "52",
+          "page": 13,
+          "fields": [
+            "Jabba the Hutt",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "53",
+          "page": 13,
+          "fields": [
+            "Jango Fett",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "54",
+          "page": 13,
+          "fields": [
+            "Jar Jar Binks",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "55",
+          "page": 13,
+          "fields": [
+            "Jek Porkins",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "56",
+          "page": 13,
+          "fields": [
+            "Jyn Erso",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "57",
+          "page": 13,
+          "fields": [
+            "K-2SO",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "58",
+          "page": 13,
+          "fields": [
+            "Kanan Jarrus",
+            "Star Wars: The Bad Batch"
+          ]
+        },
+        {
+          "number": "59",
+          "page": 13,
+          "fields": [
+            "Ki-Adi-Mundi",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "60",
+          "page": 13,
+          "fields": [
+            "Kit Fisto",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "61",
+          "page": 13,
+          "fields": [
+            "Kuiil",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "62",
+          "page": 13,
+          "fields": [
+            "Kylo Ren",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "63",
+          "page": 13,
+          "fields": [
+            "L3-37",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "64",
+          "page": 13,
+          "fields": [
+            "Lando Calrissian",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "65",
+          "page": 13,
+          "fields": [
+            "Leia Organa",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "66",
+          "page": 13,
+          "fields": [
+            "Lobot",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "67",
+          "page": 13,
+          "fields": [
+            "Luke Skywalker",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "68",
+          "page": 13,
+          "fields": [
+            "Luthen Rael",
+            "Andor"
+          ]
+        },
+        {
+          "number": "69",
+          "page": 13,
+          "fields": [
+            "Mace Windu",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "70",
+          "page": 13,
+          "fields": [
+            "Max Rebo",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "71",
+          "page": 13,
+          "fields": [
+            "Maz Kanata",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "72",
+          "page": 13,
+          "fields": [
+            "Moff Gideon",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "73",
+          "page": 13,
+          "fields": [
+            "Mon Mothma",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "74",
+          "page": 13,
+          "fields": [
+            "Nien Nunb",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "75",
+          "page": 13,
+          "fields": [
+            "Obi-Wan Kenobi",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "76",
+          "page": 13,
+          "fields": [
+            "Padmé Amidala",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "77",
+          "page": 13,
+          "fields": [
+            "Paige Tico",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "78",
+          "page": 13,
+          "fields": [
+            "Peli Motto",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "79",
+          "page": 13,
+          "fields": [
+            "Plo Koon",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "80",
+          "page": 13,
+          "fields": [
+            "Poe Dameron",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "81",
+          "page": 13,
+          "fields": [
+            "Ponda Baba",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "82",
+          "page": 13,
+          "fields": [
+            "Qi'ra",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "83",
+          "page": 13,
+          "fields": [
+            "Qui-Gon Jinn",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "84",
+          "page": 13,
+          "fields": [
+            "R2-D2",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "85",
+          "page": 13,
+          "fields": [
+            "R5-D4",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "86",
+          "page": 13,
+          "fields": [
+            "Rey",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "87",
+          "page": 13,
+          "fields": [
+            "Rose Tico",
+            "Star Wars: The Last Jedi"
+          ]
+        },
+        {
+          "number": "88",
+          "page": 13,
+          "fields": [
+            "Sabine Wren",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "89",
+          "page": 13,
+          "fields": [
+            "Salacious B. Crumb",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "90",
+          "page": 13,
+          "fields": [
+            "Saw Gerrera",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "91",
+          "page": 13,
+          "fields": [
+            "Sebulba",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "92",
+          "page": 13,
+          "fields": [
+            "Sy Snootles",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "93",
+          "page": 13,
+          "fields": [
+            "The Client",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "94",
+          "page": 13,
+          "fields": [
+            "The Grand Inquisitor",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "95",
+          "page": 13,
+          "fields": [
+            "The Mandalorian",
+            "The Book of Boba Fett"
+          ]
+        },
+        {
+          "number": "96",
+          "page": 13,
+          "fields": [
+            "Tusken Raider",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "97",
+          "page": 13,
+          "fields": [
+            "Wedge Antilles",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "98",
+          "page": 13,
+          "fields": [
+            "Wicket W. Warrick",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "99",
+          "page": 13,
+          "fields": [
+            "Yoda",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "100",
+          "page": 13,
+          "fields": [
+            "Zam Wesell",
+            "Star Wars: Attack of the Clones"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BLACK AND WHITE VARIATION",
+      "rows": [
+        {
+          "number": "BW-AT",
+          "page": 14,
+          "fields": [
+            "Ahsoka Tano",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "BW-BB",
+          "page": 14,
+          "fields": [
+            "BB-8",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "BW-BF",
+          "page": 14,
+          "fields": [
+            "Boba Fett",
+            "The Book of Boba Fett"
+          ]
+        },
+        {
+          "number": "BW-C",
+          "page": 14,
+          "fields": [
+            "C-3PO",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "BW-DM",
+          "page": 14,
+          "fields": [
+            "Darth Maul",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "BW-DV",
+          "page": 14,
+          "fields": [
+            "Darth Vader",
+            "Star Wars: Revenge of the Sith"
+          ]
+        },
+        {
+          "number": "BW-EP",
+          "page": 14,
+          "fields": [
+            "Emperor Palpatine",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "BW-G",
+          "page": 14,
+          "fields": [
+            "Grogu",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "BW-GG",
+          "page": 14,
+          "fields": [
+            "General Grievous",
+            "Star Wars: Revenge of the Sith"
+          ]
+        },
+        {
+          "number": "BW-HS",
+          "page": 14,
+          "fields": [
+            "Han Solo",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "BW-JH",
+          "page": 14,
+          "fields": [
+            "Jabba the Hutt",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "BW-K",
+          "page": 14,
+          "fields": [
+            "K-2SO",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "BW-KR",
+          "page": 14,
+          "fields": [
+            "Kylo Ren",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "BW-LC",
+          "page": 14,
+          "fields": [
+            "Lando Calrissian",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "BW-LO",
+          "page": 14,
+          "fields": [
+            "Leia Organa",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "BW-LS",
+          "page": 14,
+          "fields": [
+            "Luke Skywalker",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "BW-M",
+          "page": 14,
+          "fields": [
+            "The Mandalorian",
+            "The Book of Boba Fett"
+          ]
+        },
+        {
+          "number": "BW-MW",
+          "page": 14,
+          "fields": [
+            "Mace Windu",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "BW-OWK",
+          "page": 14,
+          "fields": [
+            "Obi-Wan Kenobi",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "BW-PA",
+          "page": 14,
+          "fields": [
+            "Padmé Amidala",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "BW-PD",
+          "page": 14,
+          "fields": [
+            "Poe Dameron",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "BW-QGJ",
+          "page": 14,
+          "fields": [
+            "Qui-Gon Jinn",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "BW-R",
+          "page": 14,
+          "fields": [
+            "Rey",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "BW-R2",
+          "page": 14,
+          "fields": [
+            "R2-D2",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "BW-Y",
+          "page": 14,
+          "fields": [
+            "Yoda",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WOOKIEE TEK",
+      "rows": [
+        {
+          "number": "W-B",
+          "page": 14,
+          "fields": [
+            "Burryaga",
+            "Star Wars: The High Republic"
+          ]
+        },
+        {
+          "number": "W-C",
+          "page": 14,
+          "fields": [
+            "Chewbacca",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "W-G",
+          "page": 14,
+          "fields": [
+            "Gungi",
+            "Star Wars: The Bad Batch"
+          ]
+        },
+        {
+          "number": "W-KR",
+          "page": 14,
+          "fields": [
+            "Krrsantan",
+            "The Book of Boba Fett"
+          ]
+        },
+        {
+          "number": "W-L",
+          "page": 14,
+          "fields": [
+            "Lachichuk",
+            "Star Wars: Revenge of the Sith"
+          ]
+        },
+        {
+          "number": "W-M",
+          "page": 14,
+          "fields": [
+            "Captain Merumeru",
+            "Star Wars: Revenge of the Sith"
+          ]
+        },
+        {
+          "number": "W-S",
+          "page": 14,
+          "fields": [
+            "Sagwa",
+            "Solo: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "W-T",
+          "page": 14,
+          "fields": [
+            "Tarfful",
+            "Star Wars: Revenge of the Sith"
+          ]
+        },
+        {
+          "number": "W-W",
+          "page": 14,
+          "fields": [
+            "Wullffwarro",
+            "Star Wars Rebels"
+          ]
+        },
+        {
+          "number": "W-Y",
+          "page": 14,
+          "fields": [
+            "Yanna",
+            "Star Wars: The Bad Batch"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SPECTACULAR SPECIES",
+      "rows": [
+        {
+          "number": "S-C",
+          "page": 14,
+          "fields": [
+            "Clawdite",
+            "Zam Wesell"
+          ]
+        },
+        {
+          "number": "S-E",
+          "page": 14,
+          "fields": [
+            "Ewok",
+            "Chief Chirpa"
+          ]
+        },
+        {
+          "number": "S-GE",
+          "page": 14,
+          "fields": [
+            "Geonosian",
+            "Poggle the Lesser"
+          ]
+        },
+        {
+          "number": "S-GN",
+          "page": 14,
+          "fields": [
+            "Gungan",
+            "Captain Tarpals"
+          ]
+        },
+        {
+          "number": "S-H",
+          "page": 14,
+          "fields": [
+            "Hutt",
+            "Jabba the Hutt"
+          ]
+        },
+        {
+          "number": "S-HM",
+          "page": 14,
+          "fields": [
+            "Human",
+            "Tobias Beckett"
+          ]
+        },
+        {
+          "number": "S-J",
+          "page": 14,
+          "fields": [
+            "Jawa",
+            "Offworld Jawa Elder"
+          ]
+        },
+        {
+          "number": "S-KD",
+          "page": 14,
+          "fields": [
+            "Kel Dor",
+            "Plo Koon"
+          ]
+        },
+        {
+          "number": "S-KM",
+          "page": 14,
+          "fields": [
+            "Kaminoan",
+            "Lama Su"
+          ]
+        },
+        {
+          "number": "S-L",
+          "page": 14,
+          "fields": [
+            "Lasat",
+            "Gron"
+          ]
+        },
+        {
+          "number": "S-MC",
+          "page": 15,
+          "fields": [
+            "Mon Calamari",
+            "Nahdar Vebb"
+          ]
+        },
+        {
+          "number": "S-N",
+          "page": 15,
+          "fields": [
+            "Nautolan",
+            "Kit Fisto"
+          ]
+        },
+        {
+          "number": "S-R",
+          "page": 15,
+          "fields": [
+            "Rodian",
+            "Glem"
+          ]
+        },
+        {
+          "number": "S-T",
+          "page": 15,
+          "fields": [
+            "Trandoshan",
+            "Bossk"
+          ]
+        },
+        {
+          "number": "S-TD",
+          "page": 15,
+          "fields": [
+            "Toydarian",
+            "Watto"
+          ]
+        },
+        {
+          "number": "S-TK",
+          "page": 15,
+          "fields": [
+            "Tusken",
+            "Tusken Raider"
+          ]
+        },
+        {
+          "number": "S-TL",
+          "page": 15,
+          "fields": [
+            "Twi'lek",
+            "Bib Fortuna"
+          ]
+        },
+        {
+          "number": "S-TR",
+          "page": 15,
+          "fields": [
+            "Togruta",
+            "Shaak Ti"
+          ]
+        },
+        {
+          "number": "S-W",
+          "page": 15,
+          "fields": [
+            "Wookiee",
+            "Krrsantan"
+          ]
+        },
+        {
+          "number": "S-Z",
+          "page": 15,
+          "fields": [
+            "Zabrak",
+            "Savage Opress"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SHADOW TEK",
+      "rows": [
+        {
+          "number": "ST-AS",
+          "page": 15,
+          "fields": [
+            "Aurra Sing",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "ST-AT",
+          "page": 15,
+          "fields": [
+            "Grand Admiral Thrawn",
+            "Ahsoka"
+          ]
+        },
+        {
+          "number": "ST-AV",
+          "page": 15,
+          "fields": [
+            "Asajj Ventress",
+            "Star Wars: The Clone Wars"
+          ]
+        },
+        {
+          "number": "ST-BF",
+          "page": 15,
+          "fields": [
+            "Boba Fett",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "ST-BO",
+          "page": 15,
+          "fields": [
+            "Barriss Offee",
+            "Star Wars: The Clone Wars"
+          ]
+        },
+        {
+          "number": "ST-CB",
+          "page": 15,
+          "fields": [
+            "Cad Bane",
+            "The Book of Boba Fett"
+          ]
+        },
+        {
+          "number": "ST-DD",
+          "page": 15,
+          "fields": [
+            "Darth Tyranus",
+            "Star Wars: Attack of the Clones"
+          ]
+        },
+        {
+          "number": "ST-DM",
+          "page": 15,
+          "fields": [
+            "Darth Maul",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "ST-DV",
+          "page": 15,
+          "fields": [
+            "Darth Vader",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "ST-EP",
+          "page": 15,
+          "fields": [
+            "Emperor Palpatine",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "ST-GG",
+          "page": 15,
+          "fields": [
+            "General Grievous",
+            "Star Wars: Revenge of the Sith"
+          ]
+        },
+        {
+          "number": "ST-GH",
+          "page": 15,
+          "fields": [
+            "General Hux",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "ST-GI",
+          "page": 15,
+          "fields": [
+            "The Grand Inquisitor",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "ST-J",
+          "page": 15,
+          "fields": [
+            "Jabba the Hutt",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "ST-KR",
+          "page": 15,
+          "fields": [
+            "Kylo Ren",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "ST-MG",
+          "page": 15,
+          "fields": [
+            "Moff Gideon",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "ST-MT",
+          "page": 15,
+          "fields": [
+            "Grand Moff Tarkin",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "ST-OK",
+          "page": 15,
+          "fields": [
+            "Director Orson Krennic",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "ST-S",
+          "page": 15,
+          "fields": [
+            "Supreme Leader Snoke",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "ST-SO",
+          "page": 15,
+          "fields": [
+            "Savage Opress",
+            "Star Wars: The Clone Wars"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FANTASTEK",
+      "rows": [
+        {
+          "number": "F-AS",
+          "page": 15,
+          "fields": [
+            "Anakin Skywalker",
+            "Star Wars: Return of the Jedi"
+          ]
+        },
+        {
+          "number": "F-AT",
+          "page": 15,
+          "fields": [
+            "Ahsoka Tano",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "F-BF",
+          "page": 15,
+          "fields": [
+            "Boba Fett",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "F-C",
+          "page": 15,
+          "fields": [
+            "Chewbacca",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "F-CA",
+          "page": 15,
+          "fields": [
+            "Cassian Andor",
+            "Rogue One: A Star Wars Story"
+          ]
+        },
+        {
+          "number": "F-DM",
+          "page": 15,
+          "fields": [
+            "Darth Maul",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "F-DV",
+          "page": 15,
+          "fields": [
+            "Darth Vader",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "F-F",
+          "page": 15,
+          "fields": [
+            "Finn",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "F-FS",
+          "page": 15,
+          "fields": [
+            "Fennec Shand",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "F-G",
+          "page": 15,
+          "fields": [
+            "Grogu",
+            "The Mandalorian"
+          ]
+        },
+        {
+          "number": "F-HS",
+          "page": 15,
+          "fields": [
+            "Han Solo",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "F-K",
+          "page": 15,
+          "fields": [
+            "Krrsantan",
+            "The Book of Boba Fett"
+          ]
+        },
+        {
+          "number": "F-KS",
+          "page": 15,
+          "fields": [
+            "Kylo Ren",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "F-LC",
+          "page": 15,
+          "fields": [
+            "Lando Calrissian",
+            "Star Wars: The Empire Strikes Back"
+          ]
+        },
+        {
+          "number": "F-LO",
+          "page": 15,
+          "fields": [
+            "Leia Organa",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "F-LS",
+          "page": 15,
+          "fields": [
+            "Luke Skywalker",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "F-MW",
+          "page": 15,
+          "fields": [
+            "Mace Windu",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "F-OWK",
+          "page": 15,
+          "fields": [
+            "Obi-Wan Kenobi",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "F-PA",
+          "page": 15,
+          "fields": [
+            "Padmé Amidala",
+            "Star Wars: The Phantom Menace"
+          ]
+        },
+        {
+          "number": "F-R",
+          "page": 15,
+          "fields": [
+            "Rey",
+            "Star Wars: The Force Awakens"
+          ]
+        },
+        {
+          "number": "F-R2",
+          "page": 15,
+          "fields": [
+            "R2-D2",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "F-S",
+          "page": 16,
+          "fields": [
+            "Stormtrooper",
+            "Star Wars: A New Hope"
+          ]
+        },
+        {
+          "number": "F-ST",
+          "page": 16,
+          "fields": [
+            "Sith Trooper",
+            "Star Wars: The Rise of Skywalker"
+          ]
+        },
+        {
+          "number": "S-M",
+          "page": 16,
+          "fields": [
+            "The Mandalorian",
+            "The Book of Boba Fett"
+          ]
+        },
+        {
+          "number": "S-ZB",
+          "page": 16,
+          "fields": [
+            "Zorii Bliss",
+            "Star Wars: The Rise of Skywalker"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AUTOGRAPH CARDS",
+      "rows": [
+        {
+          "number": "A-AA",
+          "page": 16,
+          "fields": [
+            "Adria Arjona",
+            "Bix Caleen"
+          ]
+        },
+        {
+          "number": "A-AB",
+          "page": 16,
+          "fields": [
+            "Ahmed Best",
+            "Kelleran Beq"
+          ]
+        },
+        {
+          "number": "A-AD",
+          "page": 16,
+          "fields": [
+            "Adam Driver",
+            "Kylo Ren"
+          ]
+        },
+        {
+          "number": "A-BDT",
+          "page": 16,
+          "fields": [
+            "Benicio Del Toro",
+            "DJ"
+          ]
+        },
+        {
+          "number": "A-BDW",
+          "page": 16,
+          "fields": [
+            "Billy Dee Williams",
+            "Lando Calrissian"
+          ]
+        },
+        {
+          "number": "A-DB",
+          "page": 16,
+          "fields": [
+            "Dante Briggins",
+            "Stormtrooper"
+          ]
+        },
+        {
+          "number": "A-DG",
+          "page": 16,
+          "fields": [
+            "Domhnall Gleeson",
+            "General Hux"
+          ]
+        },
+        {
+          "number": "A-DL",
+          "page": 16,
+          "fields": [
+            "Diego Luna",
+            "Cassian Andor"
+          ]
+        },
+        {
+          "number": "A-DM",
+          "page": 16,
+          "fields": [
+            "Denise Gough",
+            "Dedra Meero"
+          ]
+        },
+        {
+          "number": "A-DR",
+          "page": 16,
+          "fields": [
+            "Daisy Ridley",
+            "Rey"
+          ]
+        },
+        {
+          "number": "A-DY",
+          "page": 16,
+          "fields": [
+            "Donnie Yen",
+            "Chirrut Îmwe"
+          ]
+        },
+        {
+          "number": "A-EC",
+          "page": 16,
+          "fields": [
+            "Emilia Clarke",
+            "Qi'ra"
+          ]
+        },
+        {
+          "number": "A-EM",
+          "page": 16,
+          "fields": [
+            "Ewan McGregor",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "A-FJ",
+          "page": 16,
+          "fields": [
+            "Felicity Jones",
+            "Jyn Erso"
+          ]
+        },
+        {
+          "number": "A-FPJ",
+          "page": 16,
+          "fields": [
+            "Freddie Prinze Jr.",
+            "Kanan Jarrus"
+          ]
+        },
+        {
+          "number": "A-FW",
+          "page": 16,
+          "fields": [
+            "Forest Whitaker",
+            "Saw Gerrera"
+          ]
+        },
+        {
+          "number": "A-GOR",
+          "page": 16,
+          "fields": [
+            "Genevieve O'Reilly",
+            "Mon Mothma"
+          ]
+        },
+        {
+          "number": "A-HC",
+          "page": 16,
+          "fields": [
+            "Hayden Christensen",
+            "Anakin Skywalker"
+          ]
+        },
+        {
+          "number": "A-HF",
+          "page": 16,
+          "fields": [
+            "Harrison Ford",
+            "Han Solo"
+          ]
+        },
+        {
+          "number": "A-HQ",
+          "page": 16,
+          "fields": [
+            "Hugh Quarshie",
+            "Captain Panaka"
+          ]
+        },
+        {
+          "number": "A-IM",
+          "page": 16,
+          "fields": [
+            "Ian McDiarmid",
+            "Darth Sidious"
+          ]
+        },
+        {
+          "number": "A-IS",
+          "page": 16,
+          "fields": [
+            "Ivanna Sakhno",
+            "Shin Hati"
+          ]
+        },
+        {
+          "number": "A-JB",
+          "page": 16,
+          "fields": [
+            "Jennifer Beals",
+            "Garsa Fwip"
+          ]
+        },
+        {
+          "number": "A-JC",
+          "page": 16,
+          "fields": [
+            "Jim Cummings",
+            "Hondo Ohnaka"
+          ]
+        },
+        {
+          "number": "A-JG",
+          "page": 16,
+          "fields": [
+            "Julian Glover",
+            "General Veers"
+          ]
+        },
+        {
+          "number": "A-KCS",
+          "page": 16,
+          "fields": [
+            "Karol Cristina da Silva",
+            "Rabé"
+          ]
+        },
+        {
+          "number": "A-KK",
+          "page": 16,
+          "fields": [
+            "Keira Knightley",
+            "Sabé"
+          ]
+        },
+        {
+          "number": "A-KS",
+          "page": 16,
+          "fields": [
+            "Katee Sackhoff",
+            "Bo-Katan Kryze"
+          ]
+        },
+        {
+          "number": "A-LM",
+          "page": 16,
+          "fields": [
+            "Lars Mikkelsen",
+            "Grand Admiral Thrawn"
+          ]
+        },
+        {
+          "number": "A-LN",
+          "page": 16,
+          "fields": [
+            "Lupita Nyong'o",
+            "Maz Kanata"
+          ]
+        },
+        {
+          "number": "A-LS",
+          "page": 16,
+          "fields": [
+            "Leilani Shiu",
+            "Teeka the Jawa"
+          ]
+        },
+        {
+          "number": "A-MC",
+          "page": 16,
+          "fields": [
+            "Michaela Cottrell",
+            "Even Piell"
+          ]
+        },
+        {
+          "number": "A-ME",
+          "page": 16,
+          "fields": [
+            "Maya Erskine",
+            "Sully Stark"
+          ]
+        },
+        {
+          "number": "A-MEW",
+          "page": 16,
+          "fields": [
+            "Natasha Liu Bordizzo",
+            "Sabine Wren"
+          ]
+        },
+        {
+          "number": "A-MH",
+          "page": 16,
+          "fields": [
+            "Mark Hamill",
+            "Luke Skywalker"
+          ]
+        },
+        {
+          "number": "A-MNW",
+          "page": 16,
+          "fields": [
+            "Ming-Na Wen",
+            "Fennec Shand"
+          ]
+        },
+        {
+          "number": "A-NK",
+          "page": 16,
+          "fields": [
+            "Nalini Krishan",
+            "Barriss Offee"
+          ]
+        },
+        {
+          "number": "A-NLB",
+          "page": 16,
+          "fields": [
+            "Mary Elizabeth Winstead",
+            "Hera Syndulla"
+          ]
+        },
+        {
+          "number": "A-NN",
+          "page": 16,
+          "fields": [
+            "Nick Nolte",
+            "Kuiil"
+          ]
+        },
+        {
+          "number": "A-NP",
+          "page": 16,
+          "fields": [
+            "Natalie Portman",
+            "Padmé Amidala"
+          ]
+        },
+        {
+          "number": "A-PL",
+          "page": 16,
+          "fields": [
+            "Phil LaMarr",
+            "Kit Fisto"
+          ]
+        },
+        {
+          "number": "A-PM",
+          "page": 16,
+          "fields": [
+            "Amy Sedaris",
+            "Peli Motto"
+          ]
+        },
+        {
+          "number": "A-RA",
+          "page": 16,
+          "fields": [
+            "Riz Ahmed",
+            "Bodhi Rook"
+          ]
+        },
+        {
+          "number": "A-RD",
+          "page": 16,
+          "fields": [
+            "Rosario Dawson",
+            "Ahsoka Tano"
+          ]
+        },
+        {
+          "number": "A-RF",
+          "page": 16,
+          "fields": [
+            "Rupert Friend",
+            "The Grand Inquisitor"
+          ]
+        },
+        {
+          "number": "A-RP",
+          "page": 16,
+          "fields": [
+            "Ray Park",
+            "Darth Maul"
+          ]
+        },
+        {
+          "number": "A-SJ",
+          "page": 17,
+          "fields": [
+            "Samuel L. Jackson",
+            "Mace Windu"
+          ]
+        },
+        {
+          "number": "A-SLS",
+          "page": 17,
+          "fields": [
+            "Andy Serkis",
+            "Supreme Leader Snoke"
+          ]
+        },
+        {
+          "number": "A-SS",
+          "page": 17,
+          "fields": [
+            "Stellan Skarsgård",
+            "Luthen Rael"
+          ]
+        },
+        {
+          "number": "A-TM",
+          "page": 17,
+          "fields": [
+            "Temuera Morrison",
+            "Boba Fett"
+          ]
+        },
+        {
+          "number": "A-TO",
+          "page": 17,
+          "fields": [
+            "Timothy Olyphant",
+            "Cobb Vanth"
+          ]
+        },
+        {
+          "number": "A-TR",
+          "page": 17,
+          "fields": [
+            "Tim Rose",
+            "Admiral Ackbar"
+          ]
+        },
+        {
+          "number": "A-TW",
+          "page": 17,
+          "fields": [
+            "Taika Watiti",
+            "IG-11"
+          ]
+        },
+        {
+          "number": "A-WD",
+          "page": 17,
+          "fields": [
+            "Warwick Davis",
+            "Wicket W. Warrick"
+          ]
+        },
+        {
+          "number": "A-WH",
+          "page": 17,
+          "fields": [
+            "Werner Herzog",
+            "The Client"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DUAL AUTOGRAPH CARDS",
+      "rows": [
+        {
+          "number": "DA-EM",
+          "page": 17,
+          "fields": [
+            "Ewan McGregor",
+            "Obi-Wan Kenobi",
+            "Hayden Christensen",
+            "Darth Vader"
+          ]
+        },
+        {
+          "number": "DA-HF",
+          "page": 17,
+          "fields": [
+            "Harrison Ford",
+            "Han Solo",
+            "Peter Mayhew",
+            "Chewbacca"
+          ]
+        },
+        {
+          "number": "DA-DR",
+          "page": 17,
+          "fields": [
+            "Daisy Ridley",
+            "Rey",
+            "Adam Driver",
+            "Kylo Ren"
+          ]
+        },
+        {
+          "number": "DA-IM",
+          "page": 17,
+          "fields": [
+            "Ian McDiarmid",
+            "Darth Sidious",
+            "Hayden Christensen",
+            "Darth Vader"
+          ]
+        },
+        {
+          "number": "DA-DL",
+          "page": 17,
+          "fields": [
+            "Diego Luna",
+            "Cassian Andor",
+            "Felicity Jones",
+            "Jyn Erso"
+          ]
+        },
+        {
+          "number": "DA-AT",
+          "page": 17,
+          "fields": [
+            "Rosario Dawson",
+            "Ahsoka Tano",
+            "Hayden Christensen",
+            "Anakin Skywalker"
+          ]
+        },
+        {
+          "number": "DA-MEW",
+          "page": 17,
+          "fields": [
+            "Mary Elizabeth Winstead",
+            "Hera Syndulla",
+            "Evan Whitten",
+            "Jacen Syndulla"
+          ]
+        },
+        {
+          "number": "DA-IMD",
+          "page": 17,
+          "fields": [
+            "Ian McDiarmid",
+            "Darth Sidious",
+            "Ray Park",
+            "Darth Maul"
+          ]
+        },
+        {
+          "number": "DA-KA",
+          "page": 17,
+          "fields": [
+            "Adam Driver",
+            "Kylo Ren",
+            "Andy Serkis",
+            "Supreme Leader Snoke"
+          ]
+        },
+        {
+          "number": "DA-TM",
+          "page": 17,
+          "fields": [
+            "Temuera Morrison",
+            "Boba Fett",
+            "Ming-Na Wen",
+            "Fennec Shand"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DOUBLE SIDED DUAL AUTOGRAPHS",
+      "rows": [
+        {
+          "number": "DS-OWK",
+          "page": 17,
+          "fields": [
+            "Ewan McGregor",
+            "Obi-Wan Kenobi",
+            "Hayden Christensen",
+            "Darth Vader"
+          ]
+        },
+        {
+          "number": "DS-HS",
+          "page": 17,
+          "fields": [
+            "Harrison Ford",
+            "Han Solo",
+            "Peter Mayhew",
+            "Chewbacca"
+          ]
+        },
+        {
+          "number": "DS-BF",
+          "page": 17,
+          "fields": [
+            "Temuera Morrison",
+            "Boba Fett",
+            "Ming-Na Wen",
+            "Fennec Shand"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BLACK AND WHITE AUTOGRAPH VARIATION",
+      "rows": [
+        {
+          "number": "ABW-AT",
+          "page": 17,
+          "fields": [
+            "Rosario Dawson",
+            "Ahsoka Tano"
+          ]
+        },
+        {
+          "number": "ABW-BF",
+          "page": 17,
+          "fields": [
+            "Temuera Morrison",
+            "Boba Fett"
+          ]
+        },
+        {
+          "number": "ABW-DM",
+          "page": 17,
+          "fields": [
+            "Ray Park",
+            "Darth Maul"
+          ]
+        },
+        {
+          "number": "ABW-DV",
+          "page": 17,
+          "fields": [
+            "Hayden Christensen",
+            "Darth Vader"
+          ]
+        },
+        {
+          "number": "ABW-EP",
+          "page": 17,
+          "fields": [
+            "Ian McDiarmid",
+            "Emperor Palpatine"
+          ]
+        },
+        {
+          "number": "ABW-HS",
+          "page": 17,
+          "fields": [
+            "Harrison Ford",
+            "Han Solo"
+          ]
+        },
+        {
+          "number": "ABW-KR",
+          "page": 17,
+          "fields": [
+            "Adam Driver",
+            "Kylo Ren"
+          ]
+        },
+        {
+          "number": "ABW-LC",
+          "page": 17,
+          "fields": [
+            "Billy Dee Williams",
+            "Lando Calrissian"
+          ]
+        },
+        {
+          "number": "ABW-LS",
+          "page": 17,
+          "fields": [
+            "Mark Hamill",
+            "Luke Skywalker"
+          ]
+        },
+        {
+          "number": "ABW-MW",
+          "page": 17,
+          "fields": [
+            "Samuel L. Jackson",
+            "Mace Windu"
+          ]
+        },
+        {
+          "number": "ABW-OWK",
+          "page": 17,
+          "fields": [
+            "Ewan McGregor",
+            "Obi-Wan Kenobi"
+          ]
+        },
+        {
+          "number": "ABW-PA",
+          "page": 17,
+          "fields": [
+            "Natalie Portman",
+            "Padmé Amidala"
+          ]
+        },
+        {
+          "number": "ABW-PD",
+          "page": 18,
+          "fields": [
+            "Oscar Isaac",
+            "Poe Dameron"
+          ]
+        },
+        {
+          "number": "ABW-R",
+          "page": 18,
+          "fields": [
+            "Daisy Ridley",
+            "Rey"
+          ]
+        }
+      ]
+    }
+  ],
+  "rosters": {},
+  "odds": [
+    {
+      "label": "BASE CARDS PATTERN",
+      "hobby": "1:12",
+      "page": 1,
+      "rawLine": "BASE CARDS PATTERN 1:12"
+    },
+    {
+      "label": "BASE CARDS THRONE ROOM PATTERN GOLD FOIL FOIL",
+      "hobby": "1:4",
+      "page": 1,
+      "rawLine": "BASE CARDS THRONE ROOM PATTERN GOLD FOIL FOIL 1:4"
+    },
+    {
+      "label": "BASE CARDS THRONE ROOM PATTERN ORANGE DIFFRACTOR",
+      "hobby": "1:8",
+      "page": 1,
+      "rawLine": "BASE CARDS THRONE ROOM PATTERN ORANGE DIFFRACTOR 1:8"
+    },
+    {
+      "label": "BASE CARDS THRONE ROOM PATTERN GREEN DIFFRACTOR",
+      "hobby": "1:20",
+      "page": 1,
+      "rawLine": "BASE CARDS THRONE ROOM PATTERN GREEN DIFFRACTOR 1:20"
+    },
+    {
+      "label": "BASE CARDS THRONE ROOM PATTERN RED DIFFRACTOR",
+      "hobby": "1:39",
+      "page": 1,
+      "rawLine": "BASE CARDS THRONE ROOM PATTERN RED DIFFRACTOR 1:39"
+    },
+    {
+      "label": "BASE CARDS THRONE ROOM PATTERN BLACK DIFFRACTOR",
+      "hobby": "1:192",
+      "page": 1,
+      "rawLine": "BASE CARDS THRONE ROOM PATTERN BLACK DIFFRACTOR 1:192"
+    },
+    {
+      "label": "BASE CARDS HYPERSPACE PATTERN GOLD FOIL",
+      "hobby": "1:4",
+      "page": 1,
+      "rawLine": "BASE CARDS HYPERSPACE PATTERN GOLD FOIL 1:4"
+    },
+    {
+      "label": "BASE CARDS HYPERSPACE PATTERN ORANGE DIFFRACTOR",
+      "hobby": "1:8",
+      "page": 1,
+      "rawLine": "BASE CARDS HYPERSPACE PATTERN ORANGE DIFFRACTOR 1:8"
+    },
+    {
+      "label": "BASE CARDS HYPERSPACE PATTERN GREEN DIFFRACTOR",
+      "hobby": "1:20",
+      "page": 1,
+      "rawLine": "BASE CARDS HYPERSPACE PATTERN GREEN DIFFRACTOR 1:20"
+    },
+    {
+      "label": "BASE CARDS HYPERSPACE PATTERN RED DIFFRACTOR",
+      "hobby": "1:39",
+      "page": 1,
+      "rawLine": "BASE CARDS HYPERSPACE PATTERN RED DIFFRACTOR 1:39"
+    },
+    {
+      "label": "BASE CARDS HYPERSPACE PATTERN BLACK DIFFRACTOR",
+      "hobby": "1:192",
+      "page": 1,
+      "rawLine": "BASE CARDS HYPERSPACE PATTERN BLACK DIFFRACTOR 1:192"
+    },
+    {
+      "label": "BASE CARDS IMPERIAL PATTERN GOLD FOIL",
+      "hobby": "1:4",
+      "page": 1,
+      "rawLine": "BASE CARDS IMPERIAL PATTERN GOLD FOIL 1:4"
+    },
+    {
+      "label": "BASE CARDS IMPERIAL PATTERN ORANGE DIFFRACTOR",
+      "hobby": "1:8",
+      "page": 1,
+      "rawLine": "BASE CARDS IMPERIAL PATTERN ORANGE DIFFRACTOR 1:8"
+    },
+    {
+      "label": "BASE CARDS IMPERIAL PATTERN GREEN DIFFRACTOR",
+      "hobby": "1:20",
+      "page": 1,
+      "rawLine": "BASE CARDS IMPERIAL PATTERN GREEN DIFFRACTOR 1:20"
+    },
+    {
+      "label": "BASE CARDS IMPERIAL PATTERN RED DIFFRACTOR",
+      "hobby": "1:39",
+      "page": 1,
+      "rawLine": "BASE CARDS IMPERIAL PATTERN RED DIFFRACTOR 1:39"
+    },
+    {
+      "label": "BASE CARDS IMPERIAL PATTERN BLACK DIFFRACTOR",
+      "hobby": "1:192",
+      "page": 1,
+      "rawLine": "BASE CARDS IMPERIAL PATTERN BLACK DIFFRACTOR 1:192"
+    },
+    {
+      "label": "BASE CARDS LASER PATTERN GOLD FOIL",
+      "hobby": "1:4",
+      "page": 1,
+      "rawLine": "BASE CARDS LASER PATTERN GOLD FOIL 1:4"
+    },
+    {
+      "label": "BASE CARDS LASER PATTERN ORANGE DIFFRACTOR",
+      "hobby": "1:8",
+      "page": 1,
+      "rawLine": "BASE CARDS LASER PATTERN ORANGE DIFFRACTOR 1:8"
+    },
+    {
+      "label": "BASE CARDS LASER PATTERN GREEN DIFFRACTOR",
+      "hobby": "1:20",
+      "page": 1,
+      "rawLine": "BASE CARDS LASER PATTERN GREEN DIFFRACTOR 1:20"
+    },
+    {
+      "label": "BASE CARDS LASER PATTERN RED DIFFRACTOR",
+      "hobby": "1:39",
+      "page": 1,
+      "rawLine": "BASE CARDS LASER PATTERN RED DIFFRACTOR 1:39"
+    },
+    {
+      "label": "BASE CARDS LASER PATTERN BLACK DIFFRACTOR",
+      "hobby": "1:192",
+      "page": 1,
+      "rawLine": "BASE CARDS LASER PATTERN BLACK DIFFRACTOR 1:192"
+    },
+    {
+      "label": "BASE CARDS REBEL PATTERN GREEN DIFFRACTOR",
+      "hobby": "1:20",
+      "page": 1,
+      "rawLine": "BASE CARDS REBEL PATTERN GREEN DIFFRACTOR 1:20"
+    },
+    {
+      "label": "BASE CARDS REBEL PATTERN RED DIFFRACTOR",
+      "hobby": "1:39",
+      "page": 1,
+      "rawLine": "BASE CARDS REBEL PATTERN RED DIFFRACTOR 1:39"
+    },
+    {
+      "label": "BASE CARDS REBEL PATTERN BLACK DIFFRACTOR",
+      "hobby": "1:192",
+      "page": 1,
+      "rawLine": "BASE CARDS REBEL PATTERN BLACK DIFFRACTOR 1:192"
+    },
+    {
+      "label": "BASE CARDS DEATH STAR INTERIOR ORANGE DIFFRACTOR",
+      "hobby": "1:8",
+      "page": 1,
+      "rawLine": "BASE CARDS DEATH STAR INTERIOR ORANGE DIFFRACTOR 1:8"
+    },
+    {
+      "label": "BASE CARDS DEATH STAR INTERIOR GREEN DIFFRACTOR",
+      "hobby": "1:20",
+      "page": 1,
+      "rawLine": "BASE CARDS DEATH STAR INTERIOR GREEN DIFFRACTOR 1:20"
+    },
+    {
+      "label": "BASE CARDS DEATH STAR INTERIOR RED DIFFRACTOR",
+      "hobby": "1:40",
+      "page": 1,
+      "rawLine": "BASE CARDS DEATH STAR INTERIOR RED DIFFRACTOR 1:40"
+    },
+    {
+      "label": "BASE CARDS DEATH STAR INTERIOR BLACK DIFFRACTOR",
+      "hobby": "1:198",
+      "page": 1,
+      "rawLine": "BASE CARDS DEATH STAR INTERIOR BLACK DIFFRACTOR 1:198"
+    },
+    {
+      "label": "BASE CARDS DEATH STAR EXTERIOR ORANGE DIFFRACTOR",
+      "hobby": "1:8",
+      "page": 1,
+      "rawLine": "BASE CARDS DEATH STAR EXTERIOR ORANGE DIFFRACTOR 1:8"
+    },
+    {
+      "label": "BASE CARDS DEATH STAR EXTERIOR GREEN DIFFRACTOR",
+      "hobby": "1:20",
+      "page": 1,
+      "rawLine": "BASE CARDS DEATH STAR EXTERIOR GREEN DIFFRACTOR 1:20"
+    },
+    {
+      "label": "BASE CARDS DEATH STAR EXTERIOR RED DIFFRACTOR",
+      "hobby": "1:40",
+      "page": 1,
+      "rawLine": "BASE CARDS DEATH STAR EXTERIOR RED DIFFRACTOR 1:40"
+    },
+    {
+      "label": "BASE CARDS DEATH STAR EXTERIOR BLACK DIFFRACTOR",
+      "hobby": "1:198",
+      "page": 1,
+      "rawLine": "BASE CARDS DEATH STAR EXTERIOR BLACK DIFFRACTOR 1:198"
+    },
+    {
+      "label": "BLACK & WHITE VARIATION",
+      "hobby": "1:16",
+      "page": 1,
+      "rawLine": "BLACK & WHITE VARIATION 1:16"
+    },
+    {
+      "label": "BLACK & WHITE VARIATION BLACK DIFFRACTOR",
+      "hobby": "1:784",
+      "page": 1,
+      "rawLine": "BLACK & WHITE VARIATION BLACK DIFFRACTOR 1:784"
+    },
+    {
+      "label": "WOOKIEE TEK",
+      "hobby": "1:79",
+      "page": 1,
+      "rawLine": "WOOKIEE TEK 1:79"
+    },
+    {
+      "label": "WOOKIEE TEK GREEN DIFFRACTOR",
+      "hobby": "1:198",
+      "page": 1,
+      "rawLine": "WOOKIEE TEK GREEN DIFFRACTOR 1:198"
+    },
+    {
+      "label": "WOOKIEE TEK RED DIFFRACTOR",
+      "hobby": "1:392",
+      "page": 1,
+      "rawLine": "WOOKIEE TEK RED DIFFRACTOR 1:392"
+    },
+    {
+      "label": "WOOKIEE TEK BLACK DIFFRACTOR",
+      "hobby": "1:1,881",
+      "page": 1,
+      "rawLine": "WOOKIEE TEK BLACK DIFFRACTOR 1:1,881"
+    },
+    {
+      "label": "SPECTACULAR SPECIES",
+      "hobby": "1:40",
+      "page": 1,
+      "rawLine": "SPECTACULAR SPECIES 1:40"
+    },
+    {
+      "label": "SPECTACULAR SPECIES GREEN DIFFRACTOR",
+      "hobby": "1:99",
+      "page": 1,
+      "rawLine": "SPECTACULAR SPECIES GREEN DIFFRACTOR 1:99"
+    },
+    {
+      "label": "SPECTACULAR SPECIES RED DIFFRACTOR",
+      "hobby": "1:198",
+      "page": 1,
+      "rawLine": "SPECTACULAR SPECIES RED DIFFRACTOR 1:198"
+    },
+    {
+      "label": "SPECTACULAR SPECIES BLACK DIFFRACTOR",
+      "hobby": "1:990",
+      "page": 1,
+      "rawLine": "SPECTACULAR SPECIES BLACK DIFFRACTOR 1:990"
+    },
+    {
+      "label": "SHADOW TEK",
+      "hobby": "1:40",
+      "page": 1,
+      "rawLine": "SHADOW TEK 1:40"
+    },
+    {
+      "label": "SHADOW TEK GREEN DIFFRACTOR",
+      "hobby": "1:99",
+      "page": 1,
+      "rawLine": "SHADOW TEK GREEN DIFFRACTOR 1:99"
+    },
+    {
+      "label": "SHADOW TEK RED DIFFRACTOR",
+      "hobby": "1:198",
+      "page": 1,
+      "rawLine": "SHADOW TEK RED DIFFRACTOR 1:198"
+    },
+    {
+      "label": "SHADOW TEK BLACK DIFFRACTOR",
+      "hobby": "1:990",
+      "page": 1,
+      "rawLine": "SHADOW TEK BLACK DIFFRACTOR 1:990"
+    },
+    {
+      "label": "FANTASTEK",
+      "hobby": "1:31",
+      "page": 1,
+      "rawLine": "FANTASTEK 1:31"
+    },
+    {
+      "label": "FANTASTEK GREEN DIFFRACTOR",
+      "hobby": "1:79",
+      "page": 1,
+      "rawLine": "FANTASTEK GREEN DIFFRACTOR 1:79"
+    },
+    {
+      "label": "FANTASTEK RED DIFFRACTOR",
+      "hobby": "1:158",
+      "page": 1,
+      "rawLine": "FANTASTEK RED DIFFRACTOR 1:158"
+    },
+    {
+      "label": "FANTASTEK BLACK DIFFRACTOR",
+      "hobby": "1:784",
+      "page": 1,
+      "rawLine": "FANTASTEK BLACK DIFFRACTOR 1:784"
+    },
+    {
+      "label": "AUTOGRAPHS",
+      "hobby": "1:12",
+      "page": 1,
+      "rawLine": "AUTOGRAPHS 1:12"
+    },
+    {
+      "label": "AUTOGRAPHS ORANGE DIFFRACTOR",
+      "hobby": "1:19",
+      "page": 1,
+      "rawLine": "AUTOGRAPHS ORANGE DIFFRACTOR 1:19"
+    },
+    {
+      "label": "AUTOGRAPHS GREEN DIFFRACTOR",
+      "hobby": "1:47",
+      "page": 1,
+      "rawLine": "AUTOGRAPHS GREEN DIFFRACTOR 1:47"
+    },
+    {
+      "label": "AUTOGRAPHS RED DIFFRACTOR",
+      "hobby": "1:89",
+      "page": 1,
+      "rawLine": "AUTOGRAPHS RED DIFFRACTOR 1:89"
+    },
+    {
+      "label": "AUTOGRAPHS BLACK DIFFRACTOR",
+      "hobby": "1:342",
+      "page": 1,
+      "rawLine": "AUTOGRAPHS BLACK DIFFRACTOR 1:342"
+    },
+    {
+      "label": "DUAL AUTOGRAPHS",
+      "hobby": "1:377",
+      "page": 1,
+      "rawLine": "DUAL AUTOGRAPHS 1:377"
+    },
+    {
+      "label": "DUAL AUTOGRAPHS GREEN DIFFRACTOR",
+      "hobby": "1:941",
+      "page": 1,
+      "rawLine": "DUAL AUTOGRAPHS GREEN DIFFRACTOR 1:941"
+    },
+    {
+      "label": "DUAL AUTOGRAPHS RED DIFFRACTOR",
+      "hobby": "1:1,881",
+      "page": 1,
+      "rawLine": "DUAL AUTOGRAPHS RED DIFFRACTOR 1:1,881"
+    },
+    {
+      "label": "DUAL AUTOGRAPHS BLACK DIFFRACTOR",
+      "hobby": "1:1,881",
+      "page": 2,
+      "rawLine": "DUAL AUTOGRAPHS BLACK DIFFRACTOR 1:1,881"
+    },
+    {
+      "label": "DOUBLE-SIDED DUAL AUTOGRAPHS",
+      "hobby": "1:1,881",
+      "page": 2,
+      "rawLine": "DOUBLE-SIDED DUAL AUTOGRAPHS 1:1,881"
+    },
+    {
+      "label": "DOUBLE-SIDED DUAL AUTOGRAPHS RED DIFFRACTOR",
+      "hobby": "1:3,761",
+      "page": 2,
+      "rawLine": "DOUBLE-SIDED DUAL AUTOGRAPHS RED DIFFRACTOR 1:3,761"
+    },
+    {
+      "label": "DOUBLE-SIDED DUAL AUTOGRAPHS BLACK DIFFRACTOR",
+      "hobby": "1:6,268",
+      "page": 2,
+      "rawLine": "DOUBLE-SIDED DUAL AUTOGRAPHS BLACK DIFFRACTOR 1:6,268"
+    },
+    {
+      "label": "BLACK & WHITE AUTOGRAPH VARIATIONS",
+      "hobby": "1:79",
+      "page": 2,
+      "rawLine": "BLACK & WHITE AUTOGRAPH VARIATIONS 1:79"
+    },
+    {
+      "label": "BLACK & WHITE AUTOGRAPH VARIATIONS BLACK DIFFRACTOR",
+      "hobby": "1:1,344",
+      "page": 2,
+      "rawLine": "BLACK & WHITE AUTOGRAPH VARIATIONS BLACK DIFFRACTOR 1:1,344"
+    },
+    {
+      "label": "SKETCH ART CARDS",
+      "hobby": "1:29",
+      "page": 2,
+      "rawLine": "SKETCH ART CARDS 1:29"
+    },
+    {
+      "label": "SKETCH ART CARDS SILVER",
+      "hobby": "1:48",
+      "page": 2,
+      "rawLine": "SKETCH ART CARDS SILVER 1:48"
+    },
+    {
+      "label": "SKETCH ART CARDS GOLD",
+      "hobby": "1:120",
+      "page": 2,
+      "rawLine": "SKETCH ART CARDS GOLD 1:120"
+    },
+    {
+      "label": "SKETCH ART CARDS BLACK",
+      "hobby": "1:1,881",
+      "page": 2,
+      "rawLine": "SKETCH ART CARDS BLACK 1:1,881"
+    }
+  ],
+  "guideUrl": "https://ripped.topps.com/how-to-collect-2024-topps-star-wars-high-tek-tiered-and-parallel-structure-base-set-product/",
+  "guideCaps": [
+    {
+      "code": "TR",
+      "parallel": "GOLD FOIL",
+      "cap": 50
+    },
+    {
+      "code": "TR",
+      "parallel": "ORANGE DIFFRACTOR",
+      "cap": 25
+    },
+    {
+      "code": "TR",
+      "parallel": "GREEN DIFFRACTOR",
+      "cap": 10
+    },
+    {
+      "code": "TR",
+      "parallel": "RED DIFFRACTOR",
+      "cap": 5
+    },
+    {
+      "code": "TR",
+      "parallel": "BLACK DIFFRACTOR",
+      "cap": 1
+    },
+    {
+      "code": "HP",
+      "parallel": "GOLD FOIL",
+      "cap": 50
+    },
+    {
+      "code": "HP",
+      "parallel": "ORANGE DIFFRACTOR",
+      "cap": 25
+    },
+    {
+      "code": "HP",
+      "parallel": "GREEN DIFFRACTOR",
+      "cap": 10
+    },
+    {
+      "code": "HP",
+      "parallel": "RED DIFFRACTOR",
+      "cap": 5
+    },
+    {
+      "code": "HP",
+      "parallel": "BLACK DIFFRACTOR",
+      "cap": 1
+    },
+    {
+      "code": "IM",
+      "parallel": "GOLD FOIL",
+      "cap": 50
+    },
+    {
+      "code": "IM",
+      "parallel": "ORANGE DIFFRACTOR",
+      "cap": 25
+    },
+    {
+      "code": "IM",
+      "parallel": "GREEN DIFFRACTOR",
+      "cap": 10
+    },
+    {
+      "code": "IM",
+      "parallel": "RED DIFFRACTOR",
+      "cap": 5
+    },
+    {
+      "code": "IM",
+      "parallel": "BLACK DIFFRACTOR",
+      "cap": 1
+    },
+    {
+      "code": "LA",
+      "parallel": "GOLD FOIL",
+      "cap": 50
+    },
+    {
+      "code": "LA",
+      "parallel": "ORANGE DIFFRACTOR",
+      "cap": 25
+    },
+    {
+      "code": "LA",
+      "parallel": "GREEN DIFFRACTOR",
+      "cap": 10
+    },
+    {
+      "code": "LA",
+      "parallel": "RED DIFFRACTOR",
+      "cap": 5
+    },
+    {
+      "code": "LA",
+      "parallel": "BLACK DIFFRACTOR",
+      "cap": 1
+    },
+    {
+      "code": "RE",
+      "parallel": "GREEN DIFFRACTOR",
+      "cap": 10
+    },
+    {
+      "code": "RE",
+      "parallel": "RED DIFFRACTOR",
+      "cap": 5
+    },
+    {
+      "code": "RE",
+      "parallel": "BLACK DIFFRACTOR",
+      "cap": 1
+    },
+    {
+      "code": "DSI",
+      "parallel": "ORANGE DIFFRACTOR",
+      "cap": 25
+    },
+    {
+      "code": "DSI",
+      "parallel": "GREEN DIFFRACTOR",
+      "cap": 10
+    },
+    {
+      "code": "DSI",
+      "parallel": "RED DIFFRACTOR",
+      "cap": 5
+    },
+    {
+      "code": "DSI",
+      "parallel": "BLACK DIFFRACTOR",
+      "cap": 1
+    },
+    {
+      "code": "DSE",
+      "parallel": "ORANGE DIFFRACTOR",
+      "cap": 25
+    },
+    {
+      "code": "DSE",
+      "parallel": "GREEN DIFFRACTOR",
+      "cap": 10
+    },
+    {
+      "code": "DSE",
+      "parallel": "RED DIFFRACTOR",
+      "cap": 5
+    },
+    {
+      "code": "DSE",
+      "parallel": "BLACK DIFFRACTOR",
+      "cap": 1
+    }
+  ]
+}

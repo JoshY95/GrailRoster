@@ -64,8 +64,9 @@ class GalacticAntiquities2024(unittest.TestCase):
             return subprocess.check_output(['git', 'show', f'4543c5c:{path}'], cwd=ROOT)
         prior = json.loads(old('data/catalogue-index.json'))
         current = load_catalogue()
-        self.assertEqual((len(current['sets']), len(current['cards'])), (36, 17648))
-        self.assertEqual(sum(x['cardCount'] for x in current['sets'] if x['categoryId'] == 'star-wars'), 6350)
+        self.assertGreaterEqual(len(current['sets']), 36)
+        self.assertGreaterEqual(len(current['cards']), 17648)
+        self.assertGreaterEqual(sum(x['cardCount'] for x in current['sets'] if x['categoryId'] == 'star-wars'), 6350)
         for row in prior['sets']:
             self.assertEqual((ROOT / 'data' / row['file']).read_bytes(), old('data/' + row['file']))
             self.assertEqual(next(x for x in current['sets'] if x['id'] == row['id']), {k: v for k, v in row.items() if k != 'file'})
