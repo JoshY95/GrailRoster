@@ -154,14 +154,15 @@ const Vault = (() => {
     if (userId) {
       // Cloud-first edits: failed writes never masquerade as a saved copy.
       const row = {...entryToRemote(cardId,next), vault_copies:copies};
-      let query = state.supabase.from('collection_items').update(row).eq('user_id',userId).eq('card_id',cardId);
-      if (previous.updatedAt) query = query.eq('updated_at',previous.updatedAt);
-      const {data,error} = await query.select('card_id');
-      if (error) throw error;
-      if (!data?.length) {
-        if (previous.updatedAt) throw Error('This card changed elsewhere, or has not synced yet. Close this window, sync your collection and reopen it before saving.');
-        const result = await state.supabase.from('collection_items').insert(row);
-        if (result.error) throw result.error;
+      if (!previous.updatedAt) {
+        // A first copy must not overwrite a card saved elsewhere before sync.
+        const {error} = await state.supabase.from('collection_items').insert(row);
+        if (error) throw error;
+      } else {
+        const {data,error} = await state.supabase.from('collection_items').update(row)
+          .eq('user_id',userId).eq('card_id',cardId).eq('updated_at',previous.updatedAt).select('card_id');
+        if (error) throw error;
+        if (!data?.length) throw Error('This card changed elsewhere, or has not synced yet. Close this window, sync your collection and reopen it before saving.');
       }
       if (state.user?.id !== userId) throw Error('Your account changed. Reopen the Vault.');
     }

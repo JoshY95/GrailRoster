@@ -5,7 +5,7 @@ Read this first; inspect only files needed for the current task.
 ## Direct copy entry — 27 October 2026 (implementation; publication pending)
 
 - User approved replacing the explicit physical-copy setup with Add to collection → optional parallel/serial → Save or Save & add another. More details holds grading, purchase/storage, valuations, notes, history and photos. New saves automatically create identified copy records; existing cards expose Manage copies. New-copy drafts and legacy previews write nothing until successful save; cancellation preserves wanted/owned state. Legacy quantities and parent metadata are retained, with legacy acquisition data on the first copy only.
-- Reuses the existing atomic, cloud-first Vault persistence and conflict checks. No schema, catalogue or collector data writes/migrations performed. Read-only preflight: 12 current collection rows, complete-row digest b7e0aaa1e3e25fa9ae9f2057fbc39de0 (27 October; do not compare against old 30-row release snapshots as a session baseline).
+- Retains atomic, cloud-first Vault saves and timestamp conflict checks; new cards use insert-only writes so an unseen remote row cannot be overwritten. No schema, catalogue or collector data writes/migrations performed. Read-only preflight: 12 current collection rows, complete-row digest b7e0aaa1e3e25fa9ae9f2057fbc39de0 (27 October; do not compare against old 30-row release snapshots as a session baseline).
 - Added direct-entry browser coverage and updated existing smoke/category/WWE/Vault flows for the new save step. Cloud conflict/photo tests now run in CI with mocked network. JavaScript syntax and diff checks pass; browser CI and publication still pending. Real authenticated private-photo and two-device checks remain outstanding.
 
 

@@ -42,7 +42,43 @@ const {chromium}=require('playwright');
   await page.evaluate(()=>Vault.reset());
   assert.equal(await page.locator('#vaultDialog').isVisible(),false);
   assert.equal(await page.locator('#vaultContent').innerText(),'');
-  console.log('PASS: cloud write contract, optimistic conflicts, photo JPEG processing, failed-save cleanup, in-session conflict detection and private view reset (mocked network).');
+  // First-copy writes use insert, so unseen cloud rows cannot be overwritten.
+  const newId=await page.evaluate(()=>{
+   const id=state.catalogue.cards[1].id;
+   vaultTest.inserts=[];vaultTest.insertFail=true;vaultTest.insertConflict=false;vaultTest.defer=false;
+   state.supabase.from=()=>({
+    update(){throw Error('New copies must use insert, never overwrite an unseen row');},
+    async insert(row){
+     vaultTest.inserts.push(row);
+     if(vaultTest.insertFail)return {error:Error('Fixture: first-copy network failure')};
+     if(vaultTest.insertConflict)return {error:Error('Fixture: duplicate cloud row; sync first')};
+     if(vaultTest.defer)await new Promise(resolve=>vaultTest.release=resolve);
+     return {error:null};
+    }
+   });
+   Vault.open(id);return id;
+  });
+  await page.locator('#vaultForm [name=serialNumber]').fill('04/5');
+  await page.locator('#vaultSave').click();
+  await page.waitForFunction(()=>document.querySelector('#vaultMessage').textContent.includes('first-copy network failure'));
+  assert.equal(await page.evaluate(id=>entryFor(id),newId),null);
+  assert.equal(await page.locator('#vaultForm [name=serialNumber]').inputValue(),'04/5');
+  await page.evaluate(()=>{vaultTest.insertFail=false;vaultTest.defer=true;});
+  await page.locator('#vaultSave').click();
+  await page.waitForFunction(()=>typeof vaultTest.release==='function');
+  // Rapid repeat submit must not create a second physical copy.
+  await page.evaluate(()=>document.querySelector('#vaultForm').dispatchEvent(new SubmitEvent('submit',{bubbles:true,cancelable:true})));
+  assert.equal(await page.evaluate(()=>vaultTest.inserts.length),2,'One failed request and one pending retry only');
+  await page.evaluate(()=>vaultTest.release());
+  await page.locator('#vaultDialog').waitFor({state:'hidden'});
+  assert.equal(await page.evaluate(id=>entryFor(id).copies.length,newId),1);
+  assert.equal(await page.evaluate(id=>entryFor(id).copies[0].serialNumber,newId),'04/5');
+  const conflictId=await page.evaluate(()=>{vaultTest.defer=false;vaultTest.insertConflict=true;const id=state.catalogue.cards[2].id;Vault.open(id);return id;});
+  await page.locator('#vaultSave').click();
+  await page.waitForFunction(()=>document.querySelector('#vaultMessage').textContent.includes('duplicate cloud row'));
+  assert.equal(await page.evaluate(id=>entryFor(id),conflictId),null);
+  assert.equal(await page.locator('#vaultForm').isVisible(),true);
+  console.log('PASS: cloud first-copy insertion/failure/retry, duplicate-row protection, double-submit guard, optimistic conflicts, photo JPEG processing, failed-save cleanup, in-session conflict detection and private view reset (mocked network).');
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exit(1);});
 
