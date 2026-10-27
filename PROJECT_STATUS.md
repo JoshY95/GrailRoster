@@ -2,11 +2,12 @@
 
 Read this first; inspect only files needed for the current task.
 
-## Adjustable tile sizes — 28 October 2026 (implementation; publication pending)
+## Adjustable tile sizes — 28 October 2026 (published)
 
 - User approved Compact/Standard/Large choices with Standard as default. Independent set and card choices are saved in grailroster.tile-sizes.v1 on the device, outside collector records. Set size covers library and dashboard suggestions; card size covers catalogue/owned/wanted grid views. Inline selects synchronize with guest-accessible Display settings in the sidebar. List rows retain their layout, with the size selector hidden until grid mode is selected.
 - Compact adds columns on wider screens and shortens artwork/spacing on narrow phones. Compact set/card names stay readable, card numbers remain visible, and grid ownership buttons have 44px minimum height. Blocked storage keeps a session preference with feedback; unknown stored values fall back independently to Standard.
-- New browser suite covers guest settings, synchronization, reload/category persistence, dimensions across 320/390/600/768/1024/1440px, list preservation, names/numbers/actions, unchanged catalogue/collection, reset and storage-failure handling. Syntax/diff checks pass; CI/publication pending. No auth, database, schema or catalogue changes.
+- Local syntax/diff, catalogue-split, category-import and real-app preference/default checks passed. Final-head CI [40511535159](https://github.com/JoshY95/GrailRoster/actions/runs/40511535159) passed every existing suite plus guest settings, synchronized independent choices, reload/category persistence, Compact < Standard < Large geometry across 320/390/600/768/1024/1440px, readable names/numbers and 44px ownership actions, unchanged list rows/catalogue/collection, reset and blocked/corrupt-storage recovery.
+- Published through [PR #27](https://github.com/JoshY95/GrailRoster/pull/27): tested head 6a99e524ec8bc7c1fcb263d2fead6f8422c69d45, merge 50a33135aeee332189d1dc8ee8a5232b447b28d2; Pages [40512285351](https://github.com/JoshY95/GrailRoster/actions/runs/40512285351) succeeded. Live guest verified Display settings, separate saved choices, inline synchronization and Compact set/card grids. First set changed from 325×341px to 195×229px at the live desktop width; card grid showed six columns with names/numbers/actions retained. Standard was restored after checking. No collector records saved and no auth/database/schema/catalogue changes; real authenticated photo/two-device checks were not rerun for this presentation change.
 
 
 ## Set library sorting and filters — 27 October 2026 (published)
