@@ -2,11 +2,12 @@
 
 Read this first; inspect only files needed for the current task.
 
-## Direct copy entry — 27 October 2026 (implementation; publication pending)
+## Direct copy entry — 27 October 2026 (published)
 
 - User approved replacing the explicit physical-copy setup with Add to collection → optional parallel/serial → Save or Save & add another. More details holds grading, purchase/storage, valuations, notes, history and photos. New saves automatically create identified copy records; existing cards expose Manage copies. New-copy drafts and legacy previews write nothing until successful save; cancellation preserves wanted/owned state. Legacy quantities and parent metadata are retained, with legacy acquisition data on the first copy only.
 - Retains atomic, cloud-first Vault saves and timestamp conflict checks; new cards use insert-only writes so an unseen remote row cannot be overwritten. No schema, catalogue or collector data writes/migrations performed. Read-only preflight: 12 current collection rows, complete-row digest b7e0aaa1e3e25fa9ae9f2057fbc39de0 (27 October; do not compare against old 30-row release snapshots as a session baseline).
-- Added direct-entry browser coverage and updated existing smoke/category/WWE/Vault flows for the new save step. Cloud conflict/photo tests now run in CI with mocked network. JavaScript syntax and diff checks pass; browser CI and publication still pending. Real authenticated private-photo and two-device checks remain outstanding.
+- JavaScript syntax/diff checks and full final-head CI [40494189608](https://github.com/JoshY95/GrailRoster/actions/runs/40494189608) passed: catalogue preservation, guest smoke, direct add, optional fields, /50-/25-/5 copies, Save & add another, blank base cards, cancel/Escape, wanted status, device-full retries, legacy metadata/quantities, grading/history, offline/reload and 320–1440px layouts, all category/WWE regressions. Cloud tests now run in CI and verify first-copy insert/failure/retry, unseen-row protection, repeated submit, timestamp conflicts, JPEG conversion and photo cleanup using mocked network. Real authenticated private-photo and two-device checks remain outstanding.
+- Published through [PR #25](https://github.com/JoshY95/GrailRoster/pull/25): tested feature 5f6bf25fa81e61f9f0acc57e0ef229e9d65e8eed, merge c10420824164a8bc5f83a5c1177edb0591670812; Pages [40494700636](https://github.com/JoshY95/GrailRoster/actions/runs/40494700636) succeeded. Live guest browser verified Add to collection opens the two-field form directly with More details collapsed and both save buttons, vault.js?v=25, and cancelling keeps the card unowned. Existing service-worker cache refreshed after normal reloads. No live test records were saved. Post-release read-only collector check still has 12 rows and digest b7e0aaa1e3e25fa9ae9f2057fbc39de0, identical to this session’s preflight. Catalogue files and schema remain unchanged.
 
 
 ## 2023 WWE coverage audit — 27 October 2026
