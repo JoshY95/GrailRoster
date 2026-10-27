@@ -1,5 +1,5 @@
-const CACHE = 'grailroster-wwe-2023-batch-20261027';
-const ASSETS = ["./", "index.html", "theme.css", "styles.css", "vault.css?v=19", "categories.js", "ui.js", "vault.js?v=24", "config.js", "app.js?v=25", "manifest.json", "data/catalogue-index.json", "data/images.json"];
+const CACHE = 'grailroster-copy-entry-20261027';
+const ASSETS = ["./", "index.html", "theme.css", "styles.css", "vault.css?v=20", "categories.js", "ui.js", "vault.js?v=25", "config.js", "app.js?v=26", "manifest.json", "data/catalogue-index.json", "data/images.json"];
 
 self.addEventListener("install", (event) => event.waitUntil((async () => {
   const cache = await caches.open(CACHE);
@@ -22,3 +22,4 @@ self.addEventListener("fetch", (event) => {
     return response;
   })));
 });
+

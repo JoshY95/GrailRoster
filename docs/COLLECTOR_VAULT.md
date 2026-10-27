@@ -1,10 +1,12 @@
 # Collector Vault
 
-Feature branch: `feature/collector-vault`.
+Copy entry update: 27 October 2026.
 
 ## Behaviour
 
-- Open a card and choose **Set up physical copies**. Conversion is explicit and per card.
+- Choose **Add to collection** from a card row or its details. The copy form opens immediately with optional parallel and printed serial fields. **More details (optional)** holds grading, purchases, valuations, history, notes and private photographs.
+- **Save** adds a new copy and closes the form. **Save & add another** saves one copy and opens a fresh, unsaved copy for the same card; numbering, prices and notes are not repeated. Existing cards offer **Manage copies** and **+ Add another copy**.
+- Opening, starting a new copy or cancelling never writes collection data. Legacy quantities are previewed in memory and converted only on a successful save. Wanted status remains unchanged until a copy is saved.
 - A legacy quantity becomes that many independently identified copy records. Existing price/date/notes stay on the first copy only; this avoids inventing acquisition costs for duplicates. The legacy fields remain in the parent record as well.
 - Each copy records parallel, printed serial, raw/graded format, grading company, grade, certification, condition, purchase cost/date/source, currency, storage, notes, manual valuation/date, sale price/date/fees and private front/back photos.
 - Sold/traded copies stay in history but do not count as owned. Unique-card completion remains unchanged by duplicate quantities.
@@ -28,10 +30,11 @@ The additive migration does not convert or delete existing user records. A valid
 - Live PostgreSQL transaction test: validation, derived quantity, legacy overwrite/deletion guards, owner photo access, cross-user read/upload denial. All fixture writes rolled back; 30 existing records, zero converted.
 - Security advisor: no new database findings. Existing warning: leaked-password protection disabled.
 
-Before production UI release, finish a real authenticated photo upload/read/replace/delete and two-device save/reload check. The database migration has been applied; the UI remains on the feature branch until release.
+The Vault UI and additive database migration were previously published. Real authenticated photo upload/read/replace/delete and two-device save/reload checks remain outstanding; mocked cloud tests do not establish those flows. This update reuses the existing cloud-first save path and makes no database/schema changes.
 
 Run browser suites with Playwright available in NODE_PATH and CHROMIUM_EXECUTABLE_PATH set as needed:
 
 ```sh
-node tests/run.cjs tests/vault.cjs tests/vault-cloud.cjs tests/smoke.cjs
+node tests/run.cjs tests/copy-entry.cjs tests/vault.cjs tests/vault-cloud.cjs tests/smoke.cjs
 ```
+

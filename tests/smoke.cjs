@@ -2,6 +2,11 @@ const assert = require('node:assert/strict');
 const { chromium } = require('playwright');
 const expectedSetCount = require('../data/catalogue-index.json').sets.filter(s=>s.categoryId==='wwe').length;
 
+
+async function saveNewCopy(page) {
+ await page.locator('#vaultSave').click();
+ await page.locator('#vaultDialog').waitFor({state:'hidden'});
+}
 (async () => {
   const browser = await chromium.launch({ headless: true, ...(process.env.CHROMIUM_EXECUTABLE_PATH ? {executablePath:process.env.CHROMIUM_EXECUTABLE_PATH, args:['--no-sandbox']} : {}) });
   try {
@@ -27,7 +32,7 @@ const expectedSetCount = require('../data/catalogue-index.json').sets.filter(s=>
     await page.locator('#dashboardSets .set-card').first().click();
     assert.equal(await page.locator('#cardsView').isVisible(), true);
     assert.notEqual(await page.locator('#setFilter').inputValue(), 'all');
-    await page.locator('#cardList .card-row').first().locator('.state-button.owned').click();
+    await page.locator('#cardList .card-row').first().locator('.state-button.owned').click();await saveNewCopy(page);
     assert.equal(await page.locator('#dashboardRecent .recent-card').count(), 1);
     await page.reload();
     await page.locator('#allSets .set-card').first().waitFor({ state: 'attached' });
@@ -37,11 +42,12 @@ const expectedSetCount = require('../data/catalogue-index.json').sets.filter(s=>
     assert.equal(await page.locator('#collectionList .card-row').count(), 1);
     await page.locator('#collectionList .card-name-button').first().click();
     assert.equal(await page.locator('#cardDialog').isVisible(), true);
-    await page.locator('#collectionDetailsForm [name="quantity"]').fill('2');
-    await page.locator('#collectionDetailsForm button[type="submit"]').click();
+    await page.locator('#collectionCopyActions [data-vault-card]').click();
+    await page.locator('#vaultAdd').click();
+    await saveNewCopy(page);
     await page.locator('#closeCardDialog').click();
     await page.locator('#collectionList .card-name-button').first().click();
-    assert.equal(await page.locator('#collectionDetailsForm [name="quantity"]').inputValue(), '2');
+    assert.match(await page.locator('#collectionCopyActions').innerText(), /2 owned copies/);
     await page.locator('#closeCardDialog').click();
 
     await page.locator('.sidebar [data-view="cards"]').click();
@@ -117,3 +123,4 @@ const expectedSetCount = require('../data/catalogue-index.json').sets.filter(s=>
     await browser.close();
   }
 })().catch(error => { console.error(error); process.exitCode = 1; });
+

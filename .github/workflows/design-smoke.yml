@@ -44,4 +44,5 @@ jobs:
           node tests/categories.cjs
           python3 tests/category-imports.py
       - name: Exercise guest, Vault and offline flows
-        run: node tests/run.cjs tests/smoke.cjs tests/vault.cjs tests/offline.cjs tests/categories-browser.cjs tests/wwe-2024-browser.cjs tests/prizm-wwe-2024-browser.cjs tests/wwe-2023-browser.cjs
+        run: node tests/run.cjs tests/smoke.cjs tests/vault.cjs tests/copy-entry.cjs tests/vault-cloud.cjs tests/offline.cjs tests/categories-browser.cjs tests/wwe-2024-browser.cjs tests/prizm-wwe-2024-browser.cjs tests/wwe-2023-browser.cjs
+

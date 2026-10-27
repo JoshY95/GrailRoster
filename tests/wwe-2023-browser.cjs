@@ -2,6 +2,11 @@ const assert=require('node:assert/strict');
 const {chromium}=require('playwright');
 const index=require('../data/catalogue-index.json');
 const ids=['2023-panini-immaculate-wwe','2023-panini-chronicles-wwe','2023-panini-impeccable-wwe'];
+
+async function saveNewCopy(page) {
+ await page.locator('#vaultSave').click();
+ await page.locator('#vaultDialog').waitFor({state:'hidden'});
+}
 (async()=>{
  const browser=await chromium.launch({headless:true});
  try{
@@ -14,7 +19,7 @@ const ids=['2023-panini-immaculate-wwe','2023-panini-chronicles-wwe','2023-panin
   for(const id of ids){
    await page.locator('#clearFilters').click();await page.locator('#setFilter').selectOption(id);
    assert.equal(await page.locator('#resultCount').innerText(),index.sets.find(s=>s.id===id).cardCount.toLocaleString('en-US')+' cards');
-   await page.locator('#cardList .card-row').first().locator('.state-button.owned').click();
+   await page.locator('#cardList .card-row').first().locator('.state-button.owned').click();await saveNewCopy(page);
   }
   assert.equal(await page.evaluate(()=>counts().owned),3);
   await page.locator('#categorySwitcher [data-franchise="star-wars"]').click();assert.equal(await page.evaluate(()=>counts().owned),0);
@@ -31,7 +36,7 @@ const ids=['2023-panini-immaculate-wwe','2023-panini-chronicles-wwe','2023-panin
    const layout=await page.evaluate(()=>({fits:document.documentElement.scrollWidth<=innerWidth,overflow:Array.from(document.querySelectorAll('main *')).filter(e=>e.getBoundingClientRect().width&&e.getBoundingClientRect().right>innerWidth+1).slice(0,12).map(e=>({tag:e.tagName,class:e.className,text:e.textContent.slice(0,100),width:e.getBoundingClientRect().width,right:e.getBoundingClientRect().right}))}));
    assert(layout.fits,`Overflow at ${width}: ${JSON.stringify(layout.overflow)}`);
   }
-  await page.evaluate(id=>setStatus(id,'owned'),book.id);assert.equal(await page.evaluate(()=>counts().owned),4);
+  await page.evaluate(id=>setStatus(id,'owned'),book.id);await saveNewCopy(page);assert.equal(await page.evaluate(()=>counts().owned),4);
   await page.reload();await page.locator('#allSets .set-card').first().waitFor({state:'attached'});
   assert.equal(await page.evaluate(id=>JSON.stringify(state.collection[id]),original.id),original.value);assert.equal(await page.evaluate(()=>counts().owned),4);
   const gaps=await page.evaluate(()=>({impeccable:state.catalogue.cards.some(c=>c.setId==='2023-panini-impeccable-wwe'&&c.subsetCode==='BASE'&&c.number==='36'),chronicles:state.catalogue.cards.some(c=>c.setId==='2023-panini-chronicles-wwe'&&c.subsetCode==='BCHR'&&c.number==='14')}));
@@ -39,3 +44,4 @@ const ids=['2023-panini-immaculate-wwe','2023-panini-chronicles-wwe','2023-panin
   console.log('PASS: three 2023 WWE sets, ownership/category separation, prior entry persistence, original numbering gaps, Nova parallel-only identity, corrected four-signer and eight-signer designs, responsive layout.');
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exit(1)});
+

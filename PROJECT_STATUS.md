@@ -2,6 +2,13 @@
 
 Read this first; inspect only files needed for the current task.
 
+## Direct copy entry — 27 October 2026 (implementation; publication pending)
+
+- User approved replacing the explicit physical-copy setup with Add to collection → optional parallel/serial → Save or Save & add another. More details holds grading, purchase/storage, valuations, notes, history and photos. New saves automatically create identified copy records; existing cards expose Manage copies. New-copy drafts and legacy previews write nothing until successful save; cancellation preserves wanted/owned state. Legacy quantities and parent metadata are retained, with legacy acquisition data on the first copy only.
+- Reuses the existing atomic, cloud-first Vault persistence and conflict checks. No schema, catalogue or collector data writes/migrations performed. Read-only preflight: 12 current collection rows, complete-row digest b7e0aaa1e3e25fa9ae9f2057fbc39de0 (27 October; do not compare against old 30-row release snapshots as a session baseline).
+- Added direct-entry browser coverage and updated existing smoke/category/WWE/Vault flows for the new save step. Cloud conflict/photo tests now run in CI with mocked network. JavaScript syntax and diff checks pass; browser CI and publication still pending. Real authenticated private-photo and two-device checks remain outstanding.
+
+
 ## 2023 WWE coverage audit — 27 October 2026
 
 - Audited latest main a991f2abadfe55b66dce96f03a2c316804f35532 against the identical production index: global 49 /25,285; WWE 31 /15,967. Immaculate, Chronicles and Impeccable are already published through PR #24. No catalogue or database changes made by this audit.
@@ -255,3 +262,4 @@ Correction validation: catalogue-split and National Treasures tests passed; repa
 Topps NOW release-list milestone: docs/WWE_TOPPS_NOW_2025_2026_RELEASE_LIST.md covers all 157 2025 annual cards, 123 2026 annual WWE cards through #104, the separately labelled WBCO crossover and the existing 40-design Vegas checklist. Standalone workbook created with product links, release dates, print runs and published extras. Annual lists and the separately labelled WBC crossover are imported and published; the existing Vegas list is unchanged. Only verified checklist identities were added; advertised extras remain source notes pending variant verification. New-set queue remains paused.
 
 Upload milestone — 4 October 2026: user authorised uploading every completed list. Annual NOW 2025 (157), annual NOW 2026 (123) and separate WBC crossover (1) are imported locally and in Sydney. All prior card and collection digests match; zero orphan variants. Existing Vegas is unchanged. No new research sets authorised. Published website bundle includes National Treasures, Royalty/Sapphire corrections and the split catalogue. Local catalogue, source, idempotency and preservation checks passed. GitHub CI browser smoke, Vault and real offline reload passed; production deployment and file parity verified. Collection digest remains 4a4cedb954d6d44b24667d0d04001d2b; pre-existing card digest remains 746683a59318a70ae53834ad1d4860c5.
+
