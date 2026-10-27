@@ -15,7 +15,7 @@
     <link rel="canonical" href="https://grailroster.com/" />
     <link rel="manifest" href="manifest.json" />
     <link rel="stylesheet" href="theme.css" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=27" />
     <link rel="stylesheet" href="vault.css?v=20" />
     <title>GrailRoster</title>
   </head>
@@ -105,9 +105,16 @@
 
           <section class="view" id="setsView">
             <div class="section-heading">
-              <div><p class="muted" id="setLibraryCount">Explore the catalogue.</p></div>
+              <div><p class="muted" id="setLibraryCount" role="status" aria-live="polite">Explore the catalogue.</p></div>
             </div>
-            <div class="list-toolbar"><input id="setSearch" type="search" placeholder="Search sets" aria-label="Search sets" /><select id="setOwnership" aria-label="Filter set library"><option value="all">All sets</option><option value="collecting">Collecting</option></select></div>
+            <div class="set-library-toolbar" role="group" aria-label="Sort and filter sets">
+              <div class="set-library-search"><input id="setSearch" type="search" placeholder="Search sets" aria-label="Search sets" /><button type="button" class="secondary-button" id="resetSetLibrary">Reset filters</button></div>
+              <label>Sort by<select id="setSort"><option value="newest">Newest first</option><option value="oldest">Oldest first</option><option value="name-asc">Name A–Z</option><option value="name-desc">Name Z–A</option><option value="progress-desc">Most complete</option><option value="progress-asc">Least complete</option><option value="cards-desc">Most cards</option><option value="cards-asc">Fewest cards</option></select></label>
+              <label>Year<select id="setYear"><option value="all">All years</option></select></label>
+              <label>Brand<select id="setBrand"><option value="all">All brands</option></select></label>
+              <label>Collection status<select id="setOwnership"><option value="all">All sets</option><option value="collecting">Collecting</option><option value="in-progress">In progress</option><option value="completed">Completed</option><option value="not-started">Not started</option><option value="wanted">Wanted cards</option></select></label>
+            </div>
+            <p class="muted set-date-note" id="setDateNote" hidden>Sets without a recorded release date appear last.</p>
             <div class="set-grid large" id="allSets"></div>
           </section>
 
@@ -234,7 +241,7 @@
     <script src="categories.js"></script>
     <script src="ui.js" defer></script>
     <script src="vault.js?v=25" defer></script>
-    <script src="app.js?v=26" defer></script>
+    <script src="app.js?v=27" defer></script>
   </body>
 </html>
 

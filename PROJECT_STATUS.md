@@ -2,6 +2,13 @@
 
 Read this first; inspect only files needed for the current task.
 
+## Set library sorting and filters — 27 October 2026 (implementation; publication pending)
+
+- User requested alternate set ordering and filters. Library now defaults to newest recorded release date; offers oldest, name A–Z/Z–A, most/least complete and most/fewest cards. Undated sets stay last in both date orders. Dashboard discovery also uses newest first, independent of library filters.
+- Combined search, product year, brand and collection status (all, collecting, in progress, completed, not started, have wanted cards). Completion counts unique owned identities rather than physical duplicates. Reset filters restores the default view. View choices persist per category in a separate local-storage key; collector records and catalogue/schema are untouched. Preferences are device-local.
+- Responsive labelled controls use two columns on phones. Added browser coverage for all sorts, undated sets, combined/status filters, reset, per-category persistence/reload, preservation and navigation. Syntax/diff checks pass; CI/publication pending. No database writes or new catalogue research.
+
+
 ## Direct copy entry — 27 October 2026 (published)
 
 - User approved replacing the explicit physical-copy setup with Add to collection → optional parallel/serial → Save or Save & add another. More details holds grading, purchase/storage, valuations, notes, history and photos. New saves automatically create identified copy records; existing cards expose Manage copies. New-copy drafts and legacy previews write nothing until successful save; cancellation preserves wanted/owned state. Legacy quantities and parent metadata are retained, with legacy acquisition data on the first copy only.
