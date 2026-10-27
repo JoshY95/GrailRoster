@@ -16,3 +16,8 @@
 .vault-actions { display:flex; gap:var(--space-3); flex-wrap:wrap; margin-top:var(--space-5) }
 #vaultMessage { color:var(--accent); margin-top:var(--space-4) }
 @media(max-width:480px) { .vault-dialog .form-grid,.vault-photos { grid-template-columns:1fr } }
+
+
+#vaultMoreDetails { margin-top:var(--space-5) }
+#vaultMoreDetails > summary { cursor:pointer; padding:var(--space-3) 0 }
+#collectionCopyActions .vault-entry button { margin:var(--space-2) var(--space-2) 0 0 }

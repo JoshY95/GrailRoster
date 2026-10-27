@@ -85,7 +85,7 @@ function statusFor(cardId) { return Vault.effectiveStatus(entryFor(cardId)); }
 
 async function setStatus(cardId, nextStatus) {
   if (!cardInCategory(cardId)) return;
-  if (Vault.managed(entryFor(cardId))) { Vault.open(cardId); return; }
+  if (nextStatus === "owned" || Vault.managed(entryFor(cardId))) { Vault.open(cardId); return; }
   const current = statusFor(cardId);
   state.collection[cardId] = {
     ...(entryFor(cardId) || {}),
@@ -265,7 +265,7 @@ function renderRecent() {
       <span class="recent-name">${group.cards.length} cards added</span><span class="recent-number">${escapeHtml(set.shortName)}</span>
       <span class="recent-batch-names">${escapeHtml(names)}${group.cards.length > 3 ? "…" : ""}</span>
     </button>`;
-  }).join("") : emptyState("Your collection starts here", "Mark a card as Owned and it will appear in your vault.");
+  }).join("") : emptyState("Your collection starts here", "Add a card to your collection and it will appear here.");
   $(".recent-heading-actions").classList.toggle("has-overflow", groups.length > 4);
 }
 
@@ -293,7 +293,7 @@ function cardRow(card) {
     <div class="card-set">${escapeHtml(set.shortName)}<small>${escapeHtml(card.roster || GrailCategories.get(set.categoryId).name)}</small></div>
     <span class="category-pill">${escapeHtml(card.category)}</span>
     <div class="card-actions">
-      <button class="state-button owned ${status === "owned" ? "active" : ""}" aria-pressed="${status === "owned"}" data-card-id="${card.id}" data-status="owned">${status === "owned" ? "✓ " : ""}Owned</button>
+      <button class="state-button owned ${status === "owned" ? "active" : ""}" aria-pressed="${status === "owned"}" data-card-id="${card.id}" data-status="owned">${status === "owned" ? "✓ Owned · copies" : "Add to collection"}</button>
       <button class="state-button wanted ${status === "wanted" ? "active" : ""}" aria-pressed="${status === "wanted"}" data-card-id="${card.id}" data-status="wanted">Wanted</button>
     </div>
   </article>`;
@@ -308,8 +308,6 @@ function openCard(cardId) {
   const front = safeUrl(entry?.front || entry?.image || entry?.thumbnail);
   const back = safeUrl(entry?.back);
   const source = safeUrl(entry?.sourceUrl, false);
-  const collectionEntry = entryFor(card.id) || {};
-  const selected = (value, current) => value === current ? " selected" : "";
   $("#cardDialogContent").innerHTML = `<div class="dialog-grid">
     <div class="dialog-images">
       ${imageMarkup(front ? { front, rightsStatus: "approved" } : null, `${card.name} front`, initials(card.name), "card-preview", GrailUI.cardPlaceholder(card, set))}
@@ -326,30 +324,7 @@ function openCard(cardId) {
       <p class="image-status ${entry ? "approved" : "pending"}">${entry ? "Approved reference image" : "Reference image not yet added"}</p>
       ${entry?.photographerCredit ? `<p class="image-credit">Image: ${escapeHtml(entry.photographerCredit)}</p>` : ""}
       ${source ? `<a class="source-link" href="${escapeHtml(source)}" target="_blank" rel="noopener noreferrer">View image source</a>` : ""}
-      <form class="collection-details-form" id="collectionDetailsForm" data-card-id="${escapeHtml(card.id)}">
-        <div class="collection-form-heading"><strong>Collection details</strong><small>${state.user ? "Synced to your account" : "Saved on this device"}</small></div>
-        <div class="form-grid">
-          <label>Status<select name="status">
-            <option value="missing"${selected("missing", collectionEntry.status || "missing")}>Missing</option>
-            <option value="owned"${selected("owned", collectionEntry.status)}>Owned</option>
-            <option value="wanted"${selected("wanted", collectionEntry.status)}>Wanted</option>
-          </select></label>
-          <label>Quantity<input name="quantity" type="number" min="1" max="999" value="${escapeHtml(collectionEntry.quantity || 1)}" /></label>
-          <label>Condition<select name="condition">
-            <option value=""${selected("", collectionEntry.condition || "")}>Not specified</option>
-            <option value="Raw"${selected("Raw", collectionEntry.condition)}>Raw</option>
-            <option value="Near Mint"${selected("Near Mint", collectionEntry.condition)}>Near Mint</option>
-            <option value="Excellent"${selected("Excellent", collectionEntry.condition)}>Excellent</option>
-            <option value="Good"${selected("Good", collectionEntry.condition)}>Good</option>
-            <option value="Graded"${selected("Graded", collectionEntry.condition)}>Graded</option>
-          </select></label>
-          <label>Purchase price<input name="purchasePrice" type="number" min="0" step="0.01" inputmode="decimal" value="${escapeHtml(collectionEntry.purchasePrice ?? "")}" placeholder="0.00" /></label>
-          <label>Currency<input name="purchaseCurrency" maxlength="3" pattern="[A-Za-z]{3}" value="${escapeHtml(collectionEntry.purchaseCurrency || "AUD")}" /></label>
-          <label>Acquired<input name="acquiredAt" type="date" value="${escapeHtml(collectionEntry.acquiredAt || "")}" /></label>
-        </div>
-        <label class="notes-field">Notes<textarea name="notes" maxlength="2000" rows="3" placeholder="Grade, serial number, where you found it…">${escapeHtml(collectionEntry.notes || "")}</textarea></label>
-        <button class="secondary-button" type="submit">Save details</button>
-      </form>
+      <section id="collectionCopyActions"></section>
     </div>
   </div>`;
   const dialog = $("#cardDialog");
@@ -357,35 +332,6 @@ function openCard(cardId) {
   if (typeof dialog.showModal === "function") dialog.showModal(); else dialog.setAttribute("open", "");
 }
 
-async function saveCollectionDetails(form) {
-  const values = new FormData(form);
-  const cardId = form.dataset.cardId;
-  if (Vault.managed(entryFor(cardId))) { Vault.open(cardId); return; }
-  const status = values.get("status");
-  state.collection[cardId] = {
-    status,
-    quantity: Math.min(999, Math.max(1, Number(values.get("quantity")) || 1)),
-    condition: String(values.get("condition") || "").trim() || null,
-    purchasePrice: values.get("purchasePrice") === "" ? null : Math.max(0, Number(values.get("purchasePrice"))),
-    purchaseCurrency: String(values.get("purchaseCurrency") || "AUD").trim().toUpperCase(),
-    acquiredAt: values.get("acquiredAt") || null,
-    notes: String(values.get("notes") || "").trim() || null,
-    updatedAt: new Date().toISOString(),
-  };
-  saveCollection();
-  renderAll();
-  if (state.user) {
-    updateSyncStatus("syncing", "Saving details…");
-    try {
-      await syncCard(cardId);
-      updateSyncStatus("cloud", "Synced to your account");
-    } catch (error) {
-      updateSyncStatus("pending", "Saved here · sync pending");
-      console.error(error);
-    }
-  }
-  showToast(status === "missing" ? "Card removed from your list" : "Collection details saved");
-}
 
 function renderCards() {
   const matches = filteredCards();
@@ -411,7 +357,7 @@ function renderCollection() {
   const query = $("#ownedSearch").value.trim().toLocaleLowerCase();
   const sort = $("#ownedSort").value;
   const shown = ownedCards.filter(card => matchesPersonalSearch(card, query)).sort((a,b) => sort === "name" ? a.name.localeCompare(b.name) : sort === "set" ? a.setId.localeCompare(b.setId) || String(a.number).localeCompare(String(b.number), undefined, {numeric:true}) : new Date(entryFor(b.id)?.updatedAt || 0) - new Date(entryFor(a.id)?.updatedAt || 0));
-  $("#collectionList").innerHTML = shown.length ? shown.map(cardRow).join("") : emptyState(ownedCards.length ? "No matching cards" : "Your collection starts here", ownedCards.length ? `Try another ${activeCategory().subject.toLowerCase()}, set or card number.` : "Browse the set library and mark your first card as Owned.");
+  $("#collectionList").innerHTML = shown.length ? shown.map(cardRow).join("") : emptyState(ownedCards.length ? "No matching cards" : "Your collection starts here", ownedCards.length ? `Try another ${activeCategory().subject.toLowerCase()}, set or card number.` : "Browse the set library and add your first card.");
   const wantedCards = categoryCatalogue().cards.filter(card => statusFor(card.id) === "wanted");
   const wantedQuery = $("#wantedSearch").value.trim().toLocaleLowerCase();
   const wantedShown = wantedCards.filter(card => matchesPersonalSearch(card, wantedQuery));
@@ -899,11 +845,6 @@ function attachEvents() {
     event.preventDefault();
     set.click();
   });
-  document.addEventListener("submit", (event) => {
-    if (event.target.id !== "collectionDetailsForm") return;
-    event.preventDefault();
-    saveCollectionDetails(event.target);
-  });
   $("#menuButton").addEventListener("click", () => toggleMenu(!$(".sidebar").classList.contains("open")));
   $("#setSearch").addEventListener("input", renderSets);
   $("#setOwnership").addEventListener("change", renderSets);
@@ -1121,3 +1062,4 @@ async function init() {
 }
 
 init();
+
