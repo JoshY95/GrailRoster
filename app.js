@@ -2,6 +2,7 @@ const GUEST_STORAGE_KEY = "grailroster.collection.v1";
 const USER_STORAGE_PREFIX = "grailroster.collection.user";
 const LEGACY_GUEST_STORAGE_KEY = "ringvault.collection.v1";
 const LEGACY_USER_STORAGE_PREFIX = "ringvault.collection.user";
+const SET_LIBRARY_STORAGE_KEY = "grailroster.set-library.v1";
 const PAGE_SIZE = 100;
 const API_PAGE_SIZE = 1000;
 let authMode = "sign-in";
@@ -130,7 +131,6 @@ function changeCategory(id) {
   state.query = '';
   state.visibleCards = PAGE_SIZE;
   for (const selector of ['#globalSearch','#setSearch','#ownedSearch','#wantedSearch']) $(selector).value = '';
-  $('#setOwnership').value = 'all';
   $('#ownedSort').value = 'recent';
   $('#statusFilter').value = 'all';
   populateFilters();
@@ -227,14 +227,82 @@ function renderStats() {
   ].map(([label, value, note]) => `<div class="stat-card"><p>${label}</p><strong>${value}</strong><small>${note}</small></div>`).join("");
 }
 
+function setLibraryPreferences() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(SET_LIBRARY_STORAGE_KEY));
+    return saved && typeof saved === 'object' && !Array.isArray(saved) ? saved : {};
+  } catch { return {}; }
+}
+
+function setLibraryControls() {
+  return Object.fromEntries(['sort','year','brand','ownership'].map(key => [key, $(`#set${key[0].toUpperCase()}${key.slice(1)}`).value]));
+}
+
+function rememberSetLibrary() {
+  try { localStorage.setItem(SET_LIBRARY_STORAGE_KEY, JSON.stringify({...setLibraryPreferences(), [state.franchise]:setLibraryControls()})); }
+  catch { /* Browsing still works when device storage is unavailable. */ }
+}
+
+function populateSetLibraryFilters() {
+  const sets = categoryCatalogue().sets;
+  const years = [...new Set(sets.map(set => String(set.year)))].sort((a,b)=>Number(b)-Number(a));
+  const brands = [...new Set(sets.map(set => set.manufacturer).filter(Boolean))].sort();
+  $('#setYear').innerHTML = '<option value="all">All years</option>' + years.map(year=>`<option value="${escapeHtml(year)}">${escapeHtml(year)}</option>`).join('');
+  $('#setBrand').innerHTML = '<option value="all">All brands</option>' + brands.map(brand=>`<option value="${escapeHtml(brand)}">${escapeHtml(brand)}</option>`).join('');
+  const saved = setLibraryPreferences()[state.franchise];
+  for (const [key,fallback] of Object.entries({sort:'newest',year:'all',brand:'all',ownership:'all'})) {
+    const select = $(`#set${key[0].toUpperCase()}${key.slice(1)}`);
+    const value = saved?.[key];
+    select.value = [...select.options].some(option=>option.value === value) ? value : fallback;
+  }
+}
+
+function setLibraryEntries() {
+  const catalogue = categoryCatalogue();
+  const owned = new Map();
+  const wanted = new Set();
+  for (const card of catalogue.cards) {
+    const status = statusFor(card.id);
+    if (status === 'owned') owned.set(card.setId, (owned.get(card.setId) || 0) + 1);
+    if (status === 'wanted') wanted.add(card.setId);
+  }
+  return catalogue.sets.map(set=>({set, owned:owned.get(set.id) || 0, wanted:wanted.has(set.id),
+    progress:set.cardCount > 0 ? (owned.get(set.id) || 0) / set.cardCount : 0,
+    date:Number.isFinite(Date.parse(set.releaseDate)) ? Date.parse(set.releaseDate) : null}));
+}
+
+function compareLibrarySets(a,b,order) {
+  const name = () => (a.set.shortName || a.set.name).localeCompare(b.set.shortName || b.set.name, 'en-AU', {numeric:true,sensitivity:'base'}) || b.set.year-a.set.year || a.set.id.localeCompare(b.set.id);
+  if (order === 'name-asc') return name();
+  if (order === 'name-desc') return -name();
+  if (order === 'progress-desc') return b.progress-a.progress || name();
+  if (order === 'progress-asc') return a.progress-b.progress || name();
+  if (order === 'cards-desc') return b.set.cardCount-a.set.cardCount || name();
+  if (order === 'cards-asc') return a.set.cardCount-b.set.cardCount || name();
+  // Undated sets stay last in both release orders; no date is inferred from the year.
+  if (a.date === null || b.date === null) return a.date === b.date ? name() : a.date === null ? 1 : -1;
+  return (order === 'oldest' ? a.date-b.date : b.date-a.date) || name();
+}
+
 function renderSets() {
-  const cards = categoryCatalogue().sets.map(setCard).join("");
-  $("#dashboardSets").innerHTML = cards;
-  const query = $("#setSearch").value.trim().toLocaleLowerCase();
-  const collecting = $("#setOwnership").value === "collecting";
-  const sets = categoryCatalogue().sets.filter(set => (!query || `${set.name} ${set.year}`.toLocaleLowerCase().includes(query)) && (!collecting || setOwnedCount(set.id) > 0));
-  $("#setLibraryCount").textContent = `${sets.length} of ${categoryCatalogue().setCount} ${activeCategory().name} sets`;
-  $("#allSets").innerHTML = sets.length ? sets.map(setCard).join("") : emptyState("No sets found", collecting ? "Mark a card as Owned to start collecting a set." : "Try another set name or year.");
+  const entries = setLibraryEntries();
+  $('#dashboardSets').innerHTML = [...entries].sort((a,b)=>compareLibrarySets(a,b,'newest')).map(({set})=>setCard(set)).join('');
+  const query = $('#setSearch').value.trim().toLocaleLowerCase();
+  const {sort,year,brand,ownership} = setLibraryControls();
+  const sets = entries.filter(({set,owned,wanted}) => {
+    if (query && !`${set.name} ${set.shortName} ${set.year} ${set.manufacturer}`.toLocaleLowerCase().includes(query)) return false;
+    if (year !== 'all' && String(set.year) !== year) return false;
+    if (brand !== 'all' && set.manufacturer !== brand) return false;
+    if (ownership === 'collecting') return owned > 0;
+    if (ownership === 'in-progress') return owned > 0 && owned < set.cardCount;
+    if (ownership === 'completed') return set.cardCount > 0 && owned >= set.cardCount;
+    if (ownership === 'not-started') return owned === 0;
+    if (ownership === 'wanted') return wanted;
+    return true;
+  }).sort((a,b)=>compareLibrarySets(a,b,sort));
+  $('#setLibraryCount').textContent = `${sets.length} of ${categoryCatalogue().setCount} ${activeCategory().name} sets`;
+  $('#allSets').innerHTML = sets.length ? sets.map(({set})=>setCard(set)).join('') : emptyState('No sets match these filters', 'Try another search or reset the filters.');
+  $('#setDateNote').hidden = !['newest','oldest'].includes(sort) || !entries.some(entry=>entry.date === null);
 }
 
 function renderRecent() {
@@ -374,6 +442,7 @@ function emptyState(title, message) { return `<div class="empty-state"><strong>$
 function renderAll() { renderCategory(); renderStats(); renderSets(); renderRecent(); renderCards(); renderCollection(); }
 
 function populateFilters() {
+  populateSetLibraryFilters();
   $("#setFilter").innerHTML = `<option value="all">All sets</option>${categoryCatalogue().sets.map((set) => `<option value="${set.id}">${escapeHtml(set.shortName)}</option>`).join("")}`;
   const categories = [...new Set(categoryCatalogue().cards.map((card) => card.category))].sort();
   $("#categoryFilter").innerHTML = `<option value="all">All card types</option>${categories.map((category) => `<option value="${escapeHtml(category)}">${escapeHtml(category)}</option>`).join("")}`;
@@ -847,7 +916,15 @@ function attachEvents() {
   });
   $("#menuButton").addEventListener("click", () => toggleMenu(!$(".sidebar").classList.contains("open")));
   $("#setSearch").addEventListener("input", renderSets);
-  $("#setOwnership").addEventListener("change", renderSets);
+  for (const selector of ['#setSort','#setYear','#setBrand','#setOwnership']) {
+    $(selector).addEventListener('change',()=>{ rememberSetLibrary();renderSets(); });
+  }
+  $('#resetSetLibrary').addEventListener('click',()=>{
+    $('#setSearch').value = '';
+    $('#setSort').value = 'newest';
+    for (const selector of ['#setYear','#setBrand','#setOwnership']) $(selector).value = 'all';
+    rememberSetLibrary();renderSets();
+  });
   $("#ownedSearch").addEventListener("input", renderCollection);
   $("#wantedSearch").addEventListener("input", renderCollection);
   $("#ownedSort").addEventListener("change", renderCollection);

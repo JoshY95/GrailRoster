@@ -284,3 +284,13 @@ dialog::backdrop { background:var(--overlay); backdrop-filter:blur(6px) }
   .category-choice small { font-size:.6875rem; }
   .category-empty { padding:40px 20px; }
 }
+
+/* Set library controls remain readable as two columns on phones. */
+.set-library-toolbar { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:var(--space-3); margin:var(--space-5) 0 }
+.set-library-toolbar label { display:grid; gap:var(--space-2); min-width:0; color:var(--text-secondary); font-size:var(--text-sm) }
+.set-library-toolbar select { width:100%; min-width:0 }
+.set-library-search { grid-column:1/-1; display:flex; gap:var(--space-3); min-width:0 }
+.set-library-search input { flex:1; width:0 }
+.set-library-search button { flex-shrink:0 }
+.set-date-note { margin-bottom:var(--space-4); font-size:var(--text-xs) }
+@media(max-width:700px) { .set-library-toolbar { grid-template-columns:repeat(2,minmax(0,1fr)) } }
