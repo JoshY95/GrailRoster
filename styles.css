@@ -294,3 +294,40 @@ dialog::backdrop { background:var(--overlay); backdrop-filter:blur(6px) }
 .set-library-search button { flex-shrink:0 }
 .set-date-note { margin-bottom:var(--space-4); font-size:var(--text-xs) }
 @media(max-width:700px) { .set-library-toolbar { grid-template-columns:repeat(2,minmax(0,1fr)) } }
+
+/* Tile sizes affect grid presentation only; Standard retains the original layout. */
+#displaySettingsButton { min-height:44px }
+.tile-toolbar { display:flex; align-items:center; justify-content:flex-end; flex-wrap:wrap; gap:var(--space-4) }
+.tile-size-control { display:flex; align-items:center; flex-wrap:wrap; gap:var(--space-2); color:var(--text-secondary); font-size:var(--text-xs); min-width:0 }
+.tile-size-control select { min-height:44px; max-width:100%; padding:var(--space-2) var(--space-3) }
+.results-line { flex-wrap:wrap }
+.display-settings-dialog h2 { padding-right:var(--space-6) }
+.display-size-fields { display:grid; grid-template-columns:1fr 1fr; gap:var(--space-4); margin:var(--space-5) 0 }
+.display-size-fields .tile-size-control { display:grid }
+.display-settings-actions { display:flex; flex-wrap:wrap; justify-content:flex-end; gap:var(--space-3); margin-top:var(--space-5) }
+[data-set-tile-size=compact] .set-grid { grid-template-columns:repeat(5,minmax(0,1fr)); gap:var(--space-4) var(--space-3) }
+[data-set-tile-size=large] .set-grid { grid-template-columns:repeat(2,minmax(0,1fr)) }
+[data-set-tile-size=compact] .set-visual { aspect-ratio:1.8 }
+[data-set-tile-size=compact] .set-cover-placeholder { padding:var(--space-2) }
+[data-set-tile-size=compact] .set-cover-placeholder strong { font-size:var(--text-sm); letter-spacing:-.02em }
+[data-set-tile-size=compact] .set-cover-placeholder>small { display:none }
+[data-set-tile-size=compact] .set-card-body { padding:var(--space-2) 0 }
+[data-set-tile-size=compact] .set-card h3 { font-size:var(--text-xs); overflow-wrap:anywhere }
+[data-set-tile-size=compact] .progress-label { flex-wrap:wrap; gap:var(--space-1) }
+[data-card-tile-size=compact] .card-list[data-layout=grid] { grid-template-columns:repeat(6,minmax(0,1fr)); gap:var(--space-4) var(--space-3) }
+[data-card-tile-size=large] .card-list[data-layout=grid] { grid-template-columns:repeat(3,minmax(0,1fr)) }
+[data-card-tile-size=compact] [data-layout=grid] .card-image-button { max-width:112px; align-self:center }
+[data-card-tile-size=compact] [data-layout=grid] .card-placeholder { padding:var(--space-2) }
+[data-card-tile-size=compact] [data-layout=grid] .card-placeholder-name { font-size:var(--text-sm) }
+[data-card-tile-size=compact] [data-layout=grid] .placeholder-bottom,
+[data-card-tile-size=compact] [data-layout=grid] .category-pill { display:none }
+[data-card-tile-size=compact] [data-layout=grid] .card-number { display:block; font-size:var(--text-xs); color:var(--text-secondary) }
+[data-card-tile-size=compact] [data-layout=grid] .card-name { font-size:var(--text-sm) }
+[data-card-tile-size=compact] [data-layout=grid] .card-name,
+[data-card-tile-size=compact] [data-layout=grid] .card-set { overflow-wrap:anywhere }
+[data-layout=grid] .card-actions { flex-wrap:wrap }
+[data-layout=grid] .state-button { min-height:44px }
+@media(min-width:1500px) { [data-set-tile-size=compact] .set-grid { grid-template-columns:repeat(6,minmax(0,1fr)) } [data-set-tile-size=large] .set-grid { grid-template-columns:repeat(3,minmax(0,1fr)) } }
+@media(max-width:1150px) { [data-set-tile-size=compact] .set-grid,[data-card-tile-size=compact] .card-list[data-layout=grid] { grid-template-columns:repeat(4,minmax(0,1fr)) } [data-card-tile-size=large] .card-list[data-layout=grid] { grid-template-columns:repeat(2,minmax(0,1fr)) } }
+@media(max-width:800px) { [data-set-tile-size=compact] .set-grid,[data-card-tile-size=compact] .card-list[data-layout=grid] { grid-template-columns:repeat(3,minmax(0,1fr)) } [data-set-tile-size=large] .set-grid,[data-card-tile-size=large] .card-list[data-layout=grid] { grid-template-columns:minmax(0,1fr) } .results-line .tile-size-control { margin-left:auto } }
+@media(max-width:560px) { [data-set-tile-size=compact] .set-grid,[data-card-tile-size=compact] .card-list[data-layout=grid] { grid-template-columns:repeat(2,minmax(0,1fr)) } .display-size-fields { grid-template-columns:1fr } .section-heading { flex-wrap:wrap } }

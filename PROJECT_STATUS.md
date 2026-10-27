@@ -2,6 +2,13 @@
 
 Read this first; inspect only files needed for the current task.
 
+## Adjustable tile sizes — 28 October 2026 (implementation; publication pending)
+
+- User approved Compact/Standard/Large choices with Standard as default. Independent set and card choices are saved in grailroster.tile-sizes.v1 on the device, outside collector records. Set size covers library and dashboard suggestions; card size covers catalogue/owned/wanted grid views. Inline selects synchronize with guest-accessible Display settings in the sidebar. List rows retain their layout, with the size selector hidden until grid mode is selected.
+- Compact adds columns on wider screens and shortens artwork/spacing on narrow phones. Compact set/card names stay readable, card numbers remain visible, and grid ownership buttons have 44px minimum height. Blocked storage keeps a session preference with feedback; unknown stored values fall back independently to Standard.
+- New browser suite covers guest settings, synchronization, reload/category persistence, dimensions across 320/390/600/768/1024/1440px, list preservation, names/numbers/actions, unchanged catalogue/collection, reset and storage-failure handling. Syntax/diff checks pass; CI/publication pending. No auth, database, schema or catalogue changes.
+
+
 ## Set library sorting and filters — 27 October 2026 (published)
 
 - User requested alternate set ordering and filters. Library now defaults to newest recorded release date; offers oldest, name A–Z/Z–A, most/least complete and most/fewest cards. Undated sets stay last in both date orders. Dashboard discovery also uses newest first, independent of library filters.
