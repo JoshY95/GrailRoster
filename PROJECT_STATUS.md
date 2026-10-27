@@ -2,11 +2,12 @@
 
 Read this first; inspect only files needed for the current task.
 
-## Set library sorting and filters — 27 October 2026 (implementation; publication pending)
+## Set library sorting and filters — 27 October 2026 (published)
 
 - User requested alternate set ordering and filters. Library now defaults to newest recorded release date; offers oldest, name A–Z/Z–A, most/least complete and most/fewest cards. Undated sets stay last in both date orders. Dashboard discovery also uses newest first, independent of library filters.
 - Combined search, product year, brand and collection status (all, collecting, in progress, completed, not started, have wanted cards). Completion counts unique owned identities rather than physical duplicates. Reset filters restores the default view. View choices persist per category in a separate local-storage key; collector records and catalogue/schema are untouched. Preferences are device-local.
-- Responsive labelled controls use two columns on phones. Added browser coverage for all sorts, undated sets, combined/status filters, reset, per-category persistence/reload, preservation and navigation. Syntax/diff checks pass; CI/publication pending. No database writes or new catalogue research.
+- Responsive labelled controls use two columns on phones. Local syntax/diff, catalogue-split and category-import checks plus actual-app comparator fixtures pass. Final-head CI [40502493427](https://github.com/JoshY95/GrailRoster/actions/runs/40502493427) passed all existing suites plus the new browser tests for eight sorts, undated-last order, combined/status filters, unique-design progress, reset, per-category preference/reload, catalogue/collection preservation, checklist navigation and widths 320–1440px.
+- Published through [PR #26](https://github.com/JoshY95/GrailRoster/pull/26): tested head c3da811cb5bc1b3f3d14e5fefb2c581944a6555b, merge ce7c4baf872b23780a74a7dfda7ee8bfda0e7214; Pages [40503078653](https://github.com/JoshY95/GrailRoster/actions/runs/40503078653) succeeded. Live guest set library verified newest-first Stadium Club, oldest ordering, combined 2024/Panini filter yielding six sets, and reset to the full 31-set WWE library. New controls visually checked. No collector/database/catalogue writes or new research; auth/photo/two-device flows were not rerun for this display-only change.
 
 
 ## Direct copy entry — 27 October 2026 (published)
