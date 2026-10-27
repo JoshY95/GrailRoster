@@ -32,7 +32,7 @@ const {chromium} = require('playwright');
   await page.waitForFunction(()=>document.querySelector('#vaultMessage').textContent==='Copy saved.');
   assert.match(await page.locator('#vaultContent').innerText(),/Unrealised gain\/loss.*\$20\.00/);
   await page.locator('#vaultForm [name=status]').selectOption('sold');
-  await page.locator('#vaultForm details').evaluate(el=>el.open=true);
+  await page.locator('#vaultSaleDetails').evaluate(el=>el.open=true);
   await page.locator('#vaultForm [name=salePrice]').fill('65');
   await page.locator('#vaultForm [name=saleFees]').fill('5');
   await page.locator('#vaultForm [name=soldAt]').fill('2026-09-30');
