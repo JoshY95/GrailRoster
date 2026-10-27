@@ -15,7 +15,7 @@
     <link rel="canonical" href="https://grailroster.com/" />
     <link rel="manifest" href="manifest.json" />
     <link rel="stylesheet" href="theme.css" />
-    <link rel="stylesheet" href="styles.css?v=27" />
+    <link rel="stylesheet" href="styles.css?v=28" />
     <link rel="stylesheet" href="vault.css?v=20" />
     <title>GrailRoster</title>
   </head>
@@ -41,6 +41,7 @@
           </div>
           <div class="sync-status local" id="syncStatus"><span class="status-dot"></span>Saved on this device</div>
           <button class="account-button" id="authButton">Sign in to sync</button>
+          <button class="text-button" id="displaySettingsButton">Display settings</button>
           <button class="text-button" id="accountSettingsButton" hidden>Account settings</button>
           <button class="text-button" id="signOutButton" hidden>Sign out</button>
           <button class="text-button" id="backupButton">Back up collection</button>
@@ -98,7 +99,7 @@
             <div class="recent-grid" id="dashboardRecent" aria-label="Recently added cards"></div>
             <div class="section-heading">
               <div><p class="eyebrow">CHECKLISTS</p><h2>Explore your next set</h2></div>
-              <button class="text-button" data-go="sets">View all sets</button>
+              <div class="tile-toolbar"><label class="tile-size-control">Set tile size<select data-tile-kind="sets"><option value="compact">Compact</option><option value="standard" selected>Standard</option><option value="large">Large</option></select></label><button class="text-button" data-go="sets">View all sets</button></div>
             </div>
             <div class="set-grid" id="dashboardSets"></div>
           </section>
@@ -106,6 +107,7 @@
           <section class="view" id="setsView">
             <div class="section-heading">
               <div><p class="muted" id="setLibraryCount" role="status" aria-live="polite">Explore the catalogue.</p></div>
+              <label class="tile-size-control">Set tile size<select data-tile-kind="sets"><option value="compact">Compact</option><option value="standard" selected>Standard</option><option value="large">Large</option></select></label>
             </div>
             <div class="set-library-toolbar" role="group" aria-label="Sort and filter sets">
               <div class="set-library-search"><input id="setSearch" type="search" placeholder="Search sets" aria-label="Search sets" /><button type="button" class="secondary-button" id="resetSetLibrary">Reset filters</button></div>
@@ -128,7 +130,7 @@
               </select>
               <button class="secondary-button" id="clearFilters">Clear filters</button>
             </div>
-            <div class="results-line"><strong id="resultCount">0 cards</strong><span id="activeSetLabel">Across all sets</span><div class="view-toggle" aria-label="Card layout"><button data-layout-target="cardList" data-layout="grid" aria-label="Card grid" aria-pressed="false"><span data-icon="grid"></span></button><button data-layout-target="cardList" data-layout="list" aria-label="Card list" aria-pressed="true"><span data-icon="list"></span></button></div></div>
+            <div class="results-line"><strong id="resultCount">0 cards</strong><span id="activeSetLabel">Across all sets</span><label class="tile-size-control" data-card-size-target="cardList" hidden>Card tile size<select data-tile-kind="cards"><option value="compact">Compact</option><option value="standard" selected>Standard</option><option value="large">Large</option></select></label><div class="view-toggle" aria-label="Card layout"><button data-layout-target="cardList" data-layout="grid" aria-label="Card grid" aria-pressed="false"><span data-icon="grid"></span></button><button data-layout-target="cardList" data-layout="list" aria-label="Card list" aria-pressed="true"><span data-icon="list"></span></button></div></div>
             <div class="card-list" id="cardList" data-layout="list"></div>
             <button class="secondary-button load-more" id="loadMore">Load more</button>
           </section>
@@ -136,12 +138,12 @@
           <section class="view" id="collectionView">
             <div class="collection-summary" id="collectionSummary"></div>
             <div id="vaultOverview"></div>
-            <div class="list-toolbar"><input id="ownedSearch" type="search" placeholder="Search your collection" aria-label="Search owned cards" /><select id="ownedSort" aria-label="Sort owned cards"><option value="recent">Recently added</option><option value="name">Wrestler A–Z</option><option value="set">Set</option></select><div class="view-toggle" aria-label="Collection layout"><button data-layout-target="collectionList" data-layout="grid" aria-label="Collection grid" aria-pressed="true"><span data-icon="grid"></span></button><button data-layout-target="collectionList" data-layout="list" aria-label="Collection list" aria-pressed="false"><span data-icon="list"></span></button></div></div>
+            <div class="list-toolbar"><input id="ownedSearch" type="search" placeholder="Search your collection" aria-label="Search owned cards" /><select id="ownedSort" aria-label="Sort owned cards"><option value="recent">Recently added</option><option value="name">Wrestler A–Z</option><option value="set">Set</option></select><label class="tile-size-control" data-card-size-target="collectionList">Card tile size<select data-tile-kind="cards"><option value="compact">Compact</option><option value="standard" selected>Standard</option><option value="large">Large</option></select></label><div class="view-toggle" aria-label="Collection layout"><button data-layout-target="collectionList" data-layout="grid" aria-label="Collection grid" aria-pressed="true"><span data-icon="grid"></span></button><button data-layout-target="collectionList" data-layout="list" aria-label="Collection list" aria-pressed="false"><span data-icon="list"></span></button></div></div>
             <div class="card-list" id="collectionList" data-layout="grid"></div>
           </section>
           <section class="view" id="wantedView">
             <p class="muted" id="wantedCount">Your next finds.</p>
-            <div class="list-toolbar"><input id="wantedSearch" type="search" placeholder="Search your wanted list" aria-label="Search wanted cards" /><div class="view-toggle" aria-label="Wanted layout"><button data-layout-target="wantedList" data-layout="grid" aria-label="Wanted grid" aria-pressed="false"><span data-icon="grid"></span></button><button data-layout-target="wantedList" data-layout="list" aria-label="Wanted list" aria-pressed="true"><span data-icon="list"></span></button></div></div>
+            <div class="list-toolbar"><input id="wantedSearch" type="search" placeholder="Search your wanted list" aria-label="Search wanted cards" /><label class="tile-size-control" data-card-size-target="wantedList" hidden>Card tile size<select data-tile-kind="cards"><option value="compact">Compact</option><option value="standard" selected>Standard</option><option value="large">Large</option></select></label><div class="view-toggle" aria-label="Wanted layout"><button data-layout-target="wantedList" data-layout="grid" aria-label="Wanted grid" aria-pressed="false"><span data-icon="grid"></span></button><button data-layout-target="wantedList" data-layout="list" aria-label="Wanted list" aria-pressed="true"><span data-icon="list"></span></button></div></div>
             <div class="card-list" id="wantedList" data-layout="list"></div>
           </section>
           </div>
@@ -184,6 +186,16 @@
         <button class="auth-help-button auth-back-button" id="authBackButton" type="button" hidden>Back to sign in</button>
         <p class="auth-message" id="authMessage" role="status" aria-live="polite"></p>
       </form>
+    </dialog>
+
+    <dialog class="account-dialog display-settings-dialog" id="displaySettingsDialog" aria-labelledby="displaySettingsTitle">
+      <button type="button" class="dialog-close" id="closeDisplaySettings" aria-label="Close display settings">×</button>
+      <h2 id="displaySettingsTitle">Display settings</h2>
+      <p class="account-settings-intro">Choose how much you see at once. Changes apply immediately and are saved on this device.</p>
+      <div class="display-size-fields"><label class="tile-size-control">Set tile size<select data-tile-kind="sets" data-display-setting="true"><option value="compact">Compact</option><option value="standard" selected>Standard</option><option value="large">Large</option></select></label><label class="tile-size-control">Card tile size<select data-tile-kind="cards" data-display-setting="true"><option value="compact">Compact</option><option value="standard" selected>Standard</option><option value="large">Large</option></select></label></div>
+      <p class="muted">Set size applies to the library and set suggestions. Card size applies to the catalogue, owned and wanted grids. List view keeps its current layout.</p>
+      <div class="display-settings-actions"><button type="button" class="secondary-button" id="resetTileSizes">Reset tile sizes</button><button type="button" class="primary-button" id="doneDisplaySettings">Done</button></div>
+      <p class="settings-message" id="displaySettingsMessage" role="status" aria-live="polite"></p>
     </dialog>
 
     <dialog class="account-dialog" id="accountSettingsDialog">
@@ -241,7 +253,7 @@
     <script src="categories.js"></script>
     <script src="ui.js" defer></script>
     <script src="vault.js?v=25" defer></script>
-    <script src="app.js?v=27" defer></script>
+    <script src="app.js?v=28" defer></script>
   </body>
 </html>
 

@@ -3,6 +3,7 @@ const USER_STORAGE_PREFIX = "grailroster.collection.user";
 const LEGACY_GUEST_STORAGE_KEY = "ringvault.collection.v1";
 const LEGACY_USER_STORAGE_PREFIX = "ringvault.collection.user";
 const SET_LIBRARY_STORAGE_KEY = "grailroster.set-library.v1";
+const TILE_SIZE_STORAGE_KEY = "grailroster.tile-sizes.v1";
 const PAGE_SIZE = 100;
 const API_PAGE_SIZE = 1000;
 let authMode = "sign-in";
@@ -225,6 +226,43 @@ function renderStats() {
     ["Completed sets", categoryCatalogue().sets.filter((set) => set.cardCount > 0 && setOwnedCount(set.id) === set.cardCount).length, `of ${categoryCatalogue().setCount} available`],
     ["Cards catalogued", categoryCatalogue().cardCount.toLocaleString(), "Verified master identities"],
   ].map(([label, value, note]) => `<div class="stat-card"><p>${label}</p><strong>${value}</strong><small>${note}</small></div>`).join("");
+}
+
+function tileSizePreferences() {
+  let saved;
+  try { saved = JSON.parse(localStorage.getItem(TILE_SIZE_STORAGE_KEY)); } catch { /* Use defaults. */ }
+  const allowed = ['compact','standard','large'];
+  return Object.fromEntries(['sets','cards'].map(kind=>[kind, allowed.includes(saved?.[kind]) ? saved[kind] : 'standard']));
+}
+
+let tileSizes = tileSizePreferences();
+
+function applyTileSizes() {
+  document.documentElement.dataset.setTileSize = tileSizes.sets;
+  document.documentElement.dataset.cardTileSize = tileSizes.cards;
+  $$('[data-tile-kind]').forEach(select=>{ select.value = tileSizes[select.dataset.tileKind]; });
+  $$('[data-card-size-target]').forEach(label=>{
+    label.hidden = document.getElementById(label.dataset.cardSizeTarget).dataset.layout !== 'grid';
+  });
+}
+
+function saveTileSizes() {
+  applyTileSizes();
+  const message = $('#displaySettingsMessage');
+  try {
+    localStorage.setItem(TILE_SIZE_STORAGE_KEY,JSON.stringify(tileSizes));
+    message.textContent = 'Tile sizes saved on this device.';
+  } catch {
+    message.textContent = 'Tile sizes applied for this session. Device storage is unavailable.';
+    if (!$('#displaySettingsDialog').open) showToast('Size applied for this session; device storage is unavailable.');
+  }
+}
+
+function openDisplaySettings() {
+  toggleMenu(false);
+  applyTileSizes();
+  $('#displaySettingsMessage').textContent = '';
+  $('#displaySettingsDialog').showModal();
 }
 
 function setLibraryPreferences() {
@@ -883,6 +921,7 @@ function attachEvents() {
     if (layout) {
       document.getElementById(layout.dataset.layoutTarget).dataset.layout = layout.dataset.layout;
       $$(`[data-layout-target="${layout.dataset.layoutTarget}"]`).forEach(button => button.setAttribute("aria-pressed", String(button === layout)));
+      applyTileSizes();
       return;
     }
     const recentScroll = event.target.closest("[data-recent-scroll]");
@@ -914,6 +953,18 @@ function attachEvents() {
     event.preventDefault();
     set.click();
   });
+  document.addEventListener('change',event=>{
+    const select = event.target.closest('[data-tile-kind]');
+    if (!select || !['sets','cards'].includes(select.dataset.tileKind) || !['compact','standard','large'].includes(select.value)) return;
+    tileSizes[select.dataset.tileKind] = select.value;
+    saveTileSizes();
+  });
+  $('#displaySettingsButton').addEventListener('click',openDisplaySettings);
+  for (const selector of ['#closeDisplaySettings','#doneDisplaySettings']) {
+    $(selector).addEventListener('click',()=>$('#displaySettingsDialog').close());
+  }
+  $('#displaySettingsDialog').addEventListener('click',event=>{if(event.target === event.currentTarget)event.currentTarget.close();});
+  $('#resetTileSizes').addEventListener('click',()=>{tileSizes={sets:'standard',cards:'standard'};saveTileSizes();});
   $("#menuButton").addEventListener("click", () => toggleMenu(!$(".sidebar").classList.contains("open")));
   $("#setSearch").addEventListener("input", renderSets);
   for (const selector of ['#setSort','#setYear','#setBrand','#setOwnership']) {
@@ -1118,6 +1169,7 @@ function attachEvents() {
 async function init() {
   try {
     GrailUI.mountIcons();
+    applyTileSizes();
     Vault.init();
     await initSupabase();
     const [catalogue, imageResponse] = await Promise.all([loadCatalogue(), fetch("data/images.json").catch(() => null)]);
