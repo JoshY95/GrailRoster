@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-28",
+  "url": "https://grailroster.com/#scanner",
+  "pullRequest": 28,
+  "testedHead": "66a6488df345cdc5dabecd04ed4edc629ad82c14",
+  "mergeCommit": "bfa3d3e3af47854ebcf1d011ea2bdc6a942d887f",
+  "ciRun": 40669033922,
+  "ciConclusion": "success",
+  "pagesRun": 40669797980,
+  "pagesConclusion": "success",
+  "productionByteParity": [
+    "index.html",
+    "app.js",
+    "ui.js",
+    "sw.js",
+    "scanner.js",
+    "scanner.css",
+    "scanner-match.js",
+    "data/catalogue-index.json"
+  ],
+  "browserVerified": [
+    "scanner route and navigation",
+    "31 WWE sets / 15967 identities",
+    "25/25 simulated allowance",
+    "zero test cards",
+    "front/back photo controls",
+    "separate test collection"
+  ],
+  "backendChanges": false,
+  "catalogueChanges": false,
+  "collectorWrites": false,
+  "paidRecognitionCalls": false,
+  "limitations": [
+    "OCR pilot; no artwork or foil recognition",
+    "Real-card accuracy not yet benchmarked",
+    "Device-local simulated allowance, no billing",
+    "Real photos and authenticated two-device flows not tested live"
+  ]
+}

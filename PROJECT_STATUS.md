@@ -3,11 +3,12 @@
 Read this first; inspect only files needed for the current task.
 
 
-## WWE scanner prototype — 28 October 2026 (implementation / testing)
+## WWE scanner prototype — 28 October 2026 (published)
 
 - User requested a usable scanning prototype in GrailRoster. Added #scanner, sidebar/Overview entry points, device-side front/back OCR, conservative catalogue candidates, optional set hint, rotation, explicit review and a separate test collection. No catalogue, Vault, database/schema or auth changes. No images uploaded/persisted, credentials or paid recognition calls. This is printed-text OCR, not artwork/foil recognition; exact parallels require user review. No paid AI backend was present (only delete-account Edge Function).
 - Added a clearly labelled device-local 25-confirmation/month simulation, failed/cancelled scan handling, reset, session-only storage warnings and JSON results with original/reviewed text, candidates, selected rank, timings and test records. No billing or production entitlement enforcement. Pinned Tesseract.js 6.0.1 + core 6.0.0, integrity-checked lazy script and English model; first recognition requires internet. Test history capped at 200 attempts/500 items.
-- Local JS syntax/diff, scanner-match, catalogue-split, real-page category DOM and category-import checks pass. Real browser OCR on synthetic front/back fixtures, failures/credit/reset/storage/mobile and full existing browser regression are queued through CI. Known unavailable local Chromium not retried. Real collector-photo accuracy remains an explicit pilot task; no claim of production AI accuracy. See docs/SCANNER_PROTOTYPE.md.
+- Local JS syntax/diff, scanner-match, catalogue-split, real-page category DOM and category-import checks pass. Final source 66a6488df345cdc5dabecd04ed4edc629ad82c14 passed all CI 40669033922: real Chromium Tesseract OCR on synthetic front/back fixtures; test-only saves, one credit per confirmed card, exports/reload/corrections, cancellation/error/quota/reset/blocked-storage/mobile and all existing guest/Vault/cloud-mock/offline/category/source regressions. Known unavailable local Chromium not retried. Real collector-photo accuracy remains an explicit pilot task; no claim of production AI accuracy. See docs/SCANNER_PROTOTYPE.md.
+- Published through PR #28, merge bfa3d3e3af47854ebcf1d011ea2bdc6a942d887f; Pages 40669797980 succeeded. Production index/app/UI/SW and all scanner files match the tested source byte-for-byte. Live guest browser opened https://grailroster.com/#scanner and verified coverage 31 WWE sets/15,967 identities, 25/25 simulated allowance, zero saved test cards, photo controls and separate test collection. Existing service-worker installations needed the usual reload to take the update. No live collector/account records or photos were written. Receipt: docs/SCANNER_RELEASE_2026_10_28.json.
 
 ## Adjustable tile sizes — 28 October 2026 (published)
 
