@@ -3,11 +3,12 @@
 Read this first; inspect only files needed for the current task.
 
 
-## Scanner rejection feedback — 29 October 2026 (implementation / testing)
+## Scanner rejection feedback — 29 October 2026 (published)
 
 - User reported None of these match appeared to do nothing. The old action stored rejection and changed only a message above the long suggestions list. Rejection now clears suggestions/selection, hides Save and the rejection button, gives a visible inline recovery panel plus toast, and moves focus/scroll to the result. It retains photos/text, consumes no credit and changes no real collection/catalogue records.
 - Recovery opens the front/back file chooser or expands/focuses detected text. Rematching restores candidate review and hides recovery; fresh photos/reset clear it. Rejected candidate IDs are retained in device-local test exports, including when storage failure requires session-only operation. Repeated rejection is guarded.
-- Local syntax/diff, scanner matching, split-catalogue and real-page category DOM checks pass. Extended browser test covers actual click at 390/1440px, removal of selected suggestions, unchanged credit/test collection/photos/text, rejection export, photo-picker recovery, text rematching and blocked-storage feedback. Final browser CI pending; no local Chromium retry.
+- Local syntax/diff, scanner matching, split-catalogue and real-page category DOM checks pass. Final source e6b5756423eaac42a401108597ac4c54be4eeec9 passed full CI 40697120448, including actual rejection click at 390/1440px, removal of selected suggestions, unchanged credit/test collection/photos/text, rejection export, photo-picker recovery, text rematching, blocked-storage feedback and existing guest/Vault/offline/source suites. No local Chromium retry.
+- Published PR #29, merge 178379600f4aa8ddddc55e63d1672ba748a4685f; Pages 40698055185 succeeded. Live index.html, scanner.js, scanner.css and sw.js match the tested source byte-for-byte; guest scanner page loads scanner.js?v=2 and has all three recovery controls. CI screenshot visually reviewed with inline recovery visible and no rejected candidates. No live collector/account/catalogue writes. Existing installations should refresh/reopen the page to load the updated worker cache.
 
 
 ## WWE scanner prototype — 28 October 2026 (published)
