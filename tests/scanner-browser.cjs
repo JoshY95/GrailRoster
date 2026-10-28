@@ -26,9 +26,10 @@ async function fakeOCR(page, text) {
 }
 (async()=>{
  const browser=await chromium.launch({headless:true,...(process.env.CHROMIUM_EXECUTABLE_PATH?{executablePath:process.env.CHROMIUM_EXECUTABLE_PATH,args:['--no-sandbox']}: {})});
+ let page;
  try {
   const context=await browser.newContext({viewport:{width:1440,height:1000},acceptDownloads:true});
-  const page=await context.newPage();const errors=[],photoUploads=[];
+  page=await context.newPage();const errors=[],photoUploads=[];
   page.on('pageerror',e=>errors.push(e.message));
   await page.route('**/rest/v1/**',r=>r.abort());
   await page.route('**/auth/v1/**',r=>r.abort());
@@ -92,6 +93,7 @@ async function fakeOCR(page, text) {
   await page.evaluate(()=>{window.Tesseract={createWorker:()=>new Promise(()=>{})};});
   await page.locator('#scanStart').click();await page.locator('#scanCancel').click();
   assert.match(await page.locator('#scanMessage').innerText(),/cancelled/i);
+  assert.equal(await page.evaluate(key=>JSON.parse(localStorage.getItem(key)).attempts.at(-1).status,KEY),'cancelled');
   assert.equal(await page.locator('#scanStart').isEnabled(),true);
   // At the quota limit, recognition is disabled. Reset never touches Vault data.
   await page.evaluate(key=>{const v=JSON.parse(localStorage.getItem(key));v.usage.used=25;localStorage.setItem(key,JSON.stringify(v));},KEY);
@@ -123,5 +125,12 @@ async function fakeOCR(page, text) {
   assert.equal(await page.locator('#categoryEmpty').isVisible(),true);
   assert.deepEqual(errors,[]);
   console.log('PASS: real browser OCR, front/back one credit, confirmed test-only saves, exports/reload, corrections, failure/cancel/quota/reset, blocked storage, category navigation and responsive scanner.');
+ } catch(error) {
+  if(page) {
+   console.error('Scanner state:',await page.locator('#scanMessage').textContent().catch(()=>''));
+   console.error('Detected text:',await page.locator('#scanText').inputValue().catch(()=>''));
+   await page.screenshot({path:'/tmp/grailroster-scanner.png',fullPage:true}).catch(()=>{});
+  }
+  throw error;
  } finally {await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});

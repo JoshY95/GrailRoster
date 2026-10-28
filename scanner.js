@@ -8,7 +8,7 @@ window.GrailScanner = (() => {
   const $ = id => document.getElementById(id);
   const esc = value => GrailUI.escape(value);
   let store, index, catalogue, toast, busy = false, generation = 0, worker = null;
-  let loader = null, current = null, candidates = [], selected = null;
+  let loader = null, current = null, candidates = [], selected = null, activeRun = null;
   const photos = { front: null, back: null };
   const selectionGeneration = { front: 0, back: 0 };
   let storageAvailable = true;
@@ -120,6 +120,7 @@ window.GrailScanner = (() => {
     const job = ++generation, start = performance.now();
     const attempt = { id: crypto.randomUUID(), at: new Date().toISOString(), engine: ENGINE, status: 'reading',
       photos: photos.back ? 2 : 1, setFilter: $('scanSet').value, apiCostUSD: 0, source: 'photo-ocr' };
+    const cancellation = new Promise((_, reject) => { activeRun = { job, attempt, start, cancel: () => reject(new Error('Scan cancelled.')) }; });
     let timer;
     try {
       const work = async () => {
@@ -151,7 +152,7 @@ window.GrailScanner = (() => {
         }
         return outputs.join('\n\n').slice(0, 10000);
       };
-      const text = await Promise.race([work(), new Promise((_, reject) => { timer = setTimeout(() => reject(new Error('Recognition took too long. Try a closer, upright photo with less glare.')), 90000); })]);
+      const text = await Promise.race([work(), cancellation, new Promise((_, reject) => { timer = setTimeout(() => reject(new Error('Recognition took too long. Try a closer, upright photo with less glare.')), 90000); })]);
       if (job !== generation) return;
       attempt.elapsedMs = Math.round(performance.now() - start); attempt.ocrText = text;
       attempt.status = GrailScanMatch.match(index, text, $('scanSet').value).length ? 'review' : 'no-match';
@@ -168,6 +169,7 @@ window.GrailScanner = (() => {
       message(error.message || 'Recognition failed. Check your connection and try a clearer photo. No credit used.');
     } finally {
       clearTimeout(timer);
+      if (activeRun?.job === job) activeRun = null;
       // A cancelled job has already cleaned up; do not terminate a newer scan.
       if (job === generation || !busy) { stopWorker(); controls(false); }
       else if (attempt.status === 'error') { stopWorker(); controls(false); }
@@ -229,6 +231,11 @@ window.GrailScanner = (() => {
     for (const [id, side] of [['scanCamera', 'front'], ['scanFrontInput', 'front'], ['scanBackInput', 'back']]) $(id).addEventListener('change', event => choosePhoto(event.target, side));
     $('scanStart').addEventListener('click', scan);
     $('scanCancel').addEventListener('click', () => {
+      if (activeRun) {
+        const run = activeRun;
+        Object.assign(run.attempt, { status: 'cancelled', elapsedMs: Math.round(performance.now() - run.start) });
+        recordAttempt(run.attempt); run.cancel();
+      }
       generation++; stopWorker(); controls(false); message('Scan cancelled. No credit used.');
     });
     $('scanSet').addEventListener('change', () => { if (current && current.status !== 'confirmed') showCandidates(); });
