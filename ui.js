@@ -11,6 +11,7 @@ window.GrailUI = (() => {
     list: '<path d="M9 5h12M9 12h12M9 19h12M3 5h1M3 12h1M3 19h1"/>',
     arrow: '<path d="m9 5 7 7-7 7"/>',
     check: '<path d="m5 12 4 4L19 6"/>',
+    scan: '<path d="M8 3H3v5M16 3h5v5M3 16v5h5M21 16v5h-5M7 12h10"/>',
     menu: '<path d="M4 6h16M4 12h16M4 18h16"/>',
   };
   const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

@@ -1,5 +1,5 @@
-const CACHE = 'grailroster-tile-sizes-20261028';
-const ASSETS = ["./", "index.html", "theme.css", "styles.css?v=28", "vault.css?v=20", "categories.js", "ui.js", "vault.js?v=25", "config.js", "app.js?v=28", "manifest.json", "data/catalogue-index.json", "data/images.json"];
+const CACHE = 'grailroster-scanner-20261028-v1';
+const ASSETS = ["./", "index.html", "theme.css", "styles.css?v=28", "vault.css?v=20", "categories.js", "ui.js", "vault.js?v=25", "config.js", "app.js?v=29", "scanner.css?v=1", "scanner-match.js?v=1", "scanner.js?v=1", "manifest.json", "data/catalogue-index.json", "data/images.json"];
 
 self.addEventListener("install", (event) => event.waitUntil((async () => {
   const cache = await caches.open(CACHE);

@@ -42,7 +42,15 @@ jobs:
           python3 tests/star-wars-csm-batch.py
           node tests/catalogue-split.cjs
           node tests/categories.cjs
+          node tests/scanner-match.cjs
           python3 tests/category-imports.py
       - name: Exercise guest, Vault and offline flows
-        run: node tests/run.cjs tests/smoke.cjs tests/set-library.cjs tests/tile-sizes.cjs tests/vault.cjs tests/copy-entry.cjs tests/vault-cloud.cjs tests/offline.cjs tests/categories-browser.cjs tests/wwe-2024-browser.cjs tests/prizm-wwe-2024-browser.cjs tests/wwe-2023-browser.cjs
+        run: node tests/run.cjs tests/smoke.cjs tests/scanner-browser.cjs tests/set-library.cjs tests/tile-sizes.cjs tests/vault.cjs tests/copy-entry.cjs tests/vault-cloud.cjs tests/offline.cjs tests/categories-browser.cjs tests/wwe-2024-browser.cjs tests/prizm-wwe-2024-browser.cjs tests/wwe-2023-browser.cjs
 
+      - name: Save scanner browser screenshot
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scanner-browser-screenshot
+          path: /tmp/grailroster-scanner.png
+          if-no-files-found: ignore

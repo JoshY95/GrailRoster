@@ -149,8 +149,9 @@ function renderCategory() {
   }).join('');
   $('#categoryTitle').textContent = `${category.name} collection`;
   $('#categoryDescription').textContent = scoped.setCount ? `${scoped.setCount} sets · ${scoped.cardCount.toLocaleString()} checklist cards` : category.description;
-  $('#categoryWorkspace').hidden = !scoped.setCount;
-  $('#categoryEmpty').hidden = !!scoped.setCount;
+  $('#categoryWorkspace').hidden = !scoped.setCount || state.view === 'scanner';
+  $('.category-header').hidden = state.view === 'scanner';
+  $('#categoryEmpty').hidden = !!scoped.setCount || state.view === 'scanner';
   $('#categoryEmptyTitle').textContent = `${category.name} is coming to your roster`;
   $('#categoryEmptyCopy').textContent = `Verified ${category.name} checklists will appear here when they are ready. Your collection, wanted list and progress will have their own space.`;
   $('#heroScope').textContent = `Across all ${category.name} sets`;
@@ -487,8 +488,9 @@ function populateFilters() {
 }
 
 function changeView(view) {
-  if (!["dashboard", "sets", "cards", "collection", "wanted"].includes(view)) return;
+  if (!["dashboard", "sets", "cards", "collection", "wanted", "scanner"].includes(view)) return;
   state.view = view;
+  renderCategory();
   $$(".view").forEach((element) => element.classList.toggle("active", element.id === `${view}View`));
   $$(".nav-link").forEach((element) => {
     const active = element.dataset.navGroup === "collection" ? ["dashboard", "collection"].includes(view) : element.dataset.navGroup === "sets" ? ["sets", "cards"].includes(view) : element.dataset.view === view;
@@ -497,7 +499,7 @@ function changeView(view) {
   });
   $("#collectionTabs").hidden = !["dashboard", "collection", "cards"].includes(view);
   $(".global-search").hidden = view !== "cards" || !categoryCatalogue().setCount;
-  $("#pageTitle").textContent = { dashboard: "My collection", sets: "Set library", cards: "Card catalogue", collection: "Owned cards", wanted: "Wanted" }[view];
+  $("#pageTitle").textContent = { dashboard: "My collection", sets: "Set library", cards: "Card catalogue", collection: "Owned cards", wanted: "Wanted", scanner: "Scan a card" }[view];
   toggleMenu(false);
   history.replaceState(null, "", `#${view}`);
   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -1180,9 +1182,10 @@ async function init() {
     attachEvents();
     updateAuthUI();
     renderAll();
+    window.GrailScanner?.init({ catalogue: state.catalogue, showToast });
     if (state.user) await syncCollection();
     const requested = location.hash.slice(1);
-    changeView(["dashboard", "sets", "cards", "collection", "wanted"].includes(requested) ? requested : "dashboard");
+    changeView(["dashboard", "sets", "cards", "collection", "wanted", "scanner"].includes(requested) ? requested : "dashboard");
     if ("serviceWorker" in navigator && location.protocol !== "file:") navigator.serviceWorker.register("sw.js");
   } catch (error) {
     $(".content").innerHTML = emptyState("GrailRoster could not load", "Refresh the page to try again.");

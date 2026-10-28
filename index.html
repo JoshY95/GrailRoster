@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="theme.css" />
     <link rel="stylesheet" href="styles.css?v=28" />
     <link rel="stylesheet" href="vault.css?v=20" />
+    <link rel="stylesheet" href="scanner.css?v=1" />
     <title>GrailRoster</title>
   </head>
   <body>
@@ -33,6 +34,7 @@
           <a class="nav-link" href="#sets" data-view="sets"><span data-icon="sets"></span><span>Set library</span></a>
           <a class="nav-link" href="#cards" data-view="cards"><span data-icon="search"></span><span>All cards</span></a>
           <a class="nav-link" href="#wanted" data-view="wanted"><span data-icon="wanted"></span><span>Wanted</span></a>
+          <a class="nav-link" href="#scanner" data-view="scanner"><span data-icon="scan"></span><span>Scan a card <small>Test</small></span></a>
         </nav>
         <div class="sidebar-footer">
           <div class="account-panel">
@@ -88,6 +90,7 @@
               <div class="hero-progress" id="heroProgress" aria-label="Collection progress"></div>
             </div>
             <div class="stat-grid" id="stats"></div>
+            <div class="scan-dashboard-link"><button type="button" class="secondary-button" data-go="scanner">Scan a card · Try the prototype</button></div>
             <div class="section-heading recent-heading">
               <div><h2>Recent additions</h2></div>
               <div class="recent-heading-actions">
@@ -147,6 +150,72 @@
             <div class="card-list" id="wantedList" data-layout="list"></div>
           </section>
           </div>
+          <section class="view" id="scannerView" aria-label="WWE scanner prototype">
+            <div class="scan-intro">
+              <span class="scan-badge">WWE SCANNER · TEST VERSION</span>
+              <h2>Photo to checklist. Less typing.</h2>
+              <p>Photograph a card, review the possible matches and save it to a separate <strong>test collection</strong>. Your real Vault stays unchanged.</p>
+              <p class="muted">This first version reads printed text on your device. It does not recognise artwork or foil colour. Check the set, year and parallel yourself. Photos are not uploaded or saved; detected text and test results are stored on this device.</p>
+              <p class="muted" id="scanCoverage"></p>
+              <div class="scan-metrics" aria-label="Scanner test statistics">
+                <div><strong id="scanAllowance">25 / 25</strong><span>Test scans remaining this month</span></div>
+                <div><strong id="scanSavedCount">0</strong><span>Test cards saved</span></div>
+                <div><strong id="scanAttemptCount">0</strong><span>Recent attempts logged</span></div>
+              </div>
+              <p class="muted">The 25-scan allowance is a device-local simulation, not billing. One confirmed card uses one credit; front and back count together. No match uses no credit. No paid recognition API is connected.</p>
+              <p id="scanStorageNote" role="status" hidden>Device storage is unavailable. Results may last only for this session. Download them before leaving.</p>
+            </div>
+            <div class="scan-panel">
+              <h2>1. Photograph your card</h2>
+              <p class="muted">Use a close, upright photo with minimal glare. Add the back to capture the card number, product and copyright year. Internet is required to download the recognition files on first use.</p>
+              <div class="scan-photo-grid">
+                <div>
+                  <div class="scan-preview" id="scanFrontPreview">Front photo</div>
+                  <div class="scan-actions">
+                    <label class="secondary-button">Take photo<input type="file" id="scanCamera" accept="image/jpeg,image/png,image/webp,image/avif" capture="environment" aria-label="Take front photo" data-scan-lock /></label>
+                    <label class="secondary-button">Upload front<input type="file" id="scanFrontInput" accept="image/jpeg,image/png,image/webp,image/avif" aria-label="Upload front photo" data-scan-lock /></label>
+                    <button type="button" class="text-button" data-scan-action="rotate" data-scan-side="front" data-scan-lock hidden>Rotate front</button>
+                    <button type="button" class="text-button" data-scan-action="remove" data-scan-side="front" data-scan-lock hidden>Remove front</button>
+                  </div>
+                </div>
+                <div>
+                  <div class="scan-preview" id="scanBackPreview">Back photo (optional)</div>
+                  <div class="scan-actions">
+                    <label class="secondary-button">Add back photo<input type="file" id="scanBackInput" accept="image/jpeg,image/png,image/webp,image/avif" aria-label="Add back photo" data-scan-lock /></label>
+                    <button type="button" class="text-button" data-scan-action="rotate" data-scan-side="back" data-scan-lock hidden>Rotate back</button>
+                    <button type="button" class="text-button" data-scan-action="remove" data-scan-side="back" data-scan-lock hidden>Remove back</button>
+                  </div>
+                </div>
+              </div>
+              <label>Set hint (optional)<select id="scanSet" data-scan-lock><option value="all">All supported WWE sets</option></select></label>
+              <div class="scan-actions"><button type="button" class="primary-button" id="scanStart" disabled>Find my card</button><button type="button" class="secondary-button" id="scanCancel" hidden>Cancel scan</button></div>
+              <progress id="scanProgress" max="1" aria-label="Card recognition progress" hidden></progress>
+              <p id="scanMessage" role="status" aria-live="polite">Choose a front photo to begin.</p>
+            </div>
+            <div class="scan-panel" id="scanResults" hidden>
+              <h2>2. Confirm the checklist card</h2>
+              <p id="scanTiming" class="muted"></p>
+              <p id="scanResultSummary" role="status"></p>
+              <div id="scanCandidates" class="scan-candidates" role="group" aria-label="Possible catalogue matches"></div>
+              <button type="button" class="secondary-button" id="scanReject" data-scan-lock hidden>None of these match</button>
+              <details class="scan-review"><summary>Review or correct detected text</summary><label>Text read from your photos<textarea id="scanText" maxlength="10000" spellcheck="false" data-scan-lock></textarea></label><button type="button" class="secondary-button" id="scanRematch" data-scan-lock>Find matches again</button></details>
+              <form id="scanConfirm" class="scan-confirm" hidden>
+                <h3>3. Save a test card</h3>
+                <p id="scanSelected"></p>
+                <div class="scan-photo-grid"><label>Parallel / variation (optional)<input id="scanParallel" maxlength="120" placeholder="Leave blank if unsure" data-scan-lock /></label><label>Printed serial (optional)<input id="scanSerial" maxlength="40" placeholder="e.g. 07/50" data-scan-lock /></label></div>
+                <label class="scan-check"><input type="checkbox" id="scanEditionCheck" required data-scan-lock /><span>I checked the checklist match and any parallel or serial details. This saves to the test collection only.</span></label>
+                <button type="submit" class="primary-button" id="scanConfirmButton" data-scan-lock>Add to test collection</button>
+              </form>
+            </div>
+            <div class="scan-panel">
+              <h2>Your scanner test collection</h2>
+              <p class="muted" id="scanSavedNote"></p>
+              <p id="scanTestEmpty">No test cards yet. Your real collection is separate.</p>
+              <ul id="scanTestItems" class="scan-test-items"></ul>
+              <div class="scan-actions"><button type="button" class="secondary-button" id="scanExport" data-scan-lock disabled>Download test results</button><button type="button" class="text-button" id="scanReset" data-scan-lock>Reset test data &amp; allowance</button></div>
+              <p class="muted">Downloads include detected text, candidate confirmations, corrections and timing, without photos. This prototype measures usability; identification accuracy on real collector photos is still being tested.</p>
+            </div>
+          </section>
         </div>
       </main>
     </div>
@@ -253,7 +322,9 @@
     <script src="categories.js"></script>
     <script src="ui.js" defer></script>
     <script src="vault.js?v=25" defer></script>
-    <script src="app.js?v=28" defer></script>
+    <script src="scanner-match.js?v=1" defer></script>
+    <script src="scanner.js?v=1" defer></script>
+    <script src="app.js?v=29" defer></script>
   </body>
 </html>
 
