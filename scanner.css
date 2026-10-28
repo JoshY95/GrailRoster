@@ -1,0 +1,45 @@
+.scan-intro, .scan-panel { border: 1px solid var(--border, #293136); background: var(--surface, #141a1e); border-radius: 16px; padding: 22px; margin-bottom: 20px; }
+.scan-intro h2, .scan-panel h2 { margin: 0 0 12px; }
+.scan-intro p { max-width: 75ch; line-height: 1.6; }
+.scan-badge { display: inline-block; color: var(--accent); font-size: 12px; letter-spacing: .1em; font-weight: 700; margin-bottom: 10px; }
+.scan-metrics { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 18px 0; }
+.scan-metrics div { border: 1px solid var(--border, #293136); border-radius: 12px; padding: 14px; }
+.scan-metrics strong, .scan-metrics span { display: block; }
+.scan-metrics strong { font-size: 24px; color: var(--accent); }
+.scan-metrics span { font-size: 12px; margin-top: 6px; color: var(--muted, #a8b3ba); }
+.scan-photo-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin-bottom: 20px; }
+.scan-preview { min-height: 150px; height: 230px; display: grid; place-items: center; border: 1px dashed var(--border, #39474f); border-radius: 12px; margin: 10px 0; color: var(--muted, #a8b3ba); overflow: hidden; }
+.scan-preview canvas { max-width: 100%; max-height: 100%; object-fit: contain; }
+.scan-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.scan-actions label { display: inline-flex; position: relative; align-items: center; cursor: pointer; overflow: hidden; }
+.scan-actions input[type=file] { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; }
+.scan-actions label:focus-within { outline: 2px solid var(--accent); outline-offset: 3px; }
+.scan-actions label:has(input:disabled) { opacity: .5; cursor: wait; }
+.scan-panel label:not(.secondary-button) { display: grid; gap: 8px; font-weight: 600; margin-bottom: 16px; }
+.scan-panel select, .scan-panel input:not([type=file]), .scan-panel textarea { width: 100%; min-width: 0; border: 1px solid var(--border, #39474f); border-radius: 8px; padding: 12px; background: var(--bg, #0b0e10); color: inherit; font: inherit; }
+.scan-panel textarea { resize: vertical; min-height: 130px; }
+.scan-panel progress { width: 100%; accent-color: var(--accent); margin-top: 16px; }
+#scanMessage { min-height: 3em; line-height: 1.5; margin-bottom: 0; }
+.scan-candidates { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 16px 0; }
+.scan-candidate { display: grid; gap: 6px; width: 100%; padding: 16px; text-align: left; color: inherit; background: transparent; border: 1px solid var(--border, #39474f); border-radius: 12px; font: inherit; }
+.scan-candidate:hover, .scan-candidate[aria-pressed=true] { border-color: var(--accent); background: #69e9bf0a; }
+.scan-candidate span, .scan-candidate small, #scanSelected, .scan-test-items li { overflow-wrap: anywhere; }
+.scan-candidate small { color: var(--muted, #a8b3ba); line-height: 1.5; }
+.scan-confirm { border-top: 1px solid var(--border, #293136); padding-top: 20px; }
+.scan-confirm .scan-check { display: flex !important; align-items: flex-start; line-height: 1.5; font-weight: 400 !important; }
+.scan-check input { width: 20px !important; height: 20px; flex: 0 0 20px; margin-top: 2px; accent-color: var(--accent); }
+.scan-test-items { list-style: none; padding: 0; display: grid; gap: 10px; }
+.scan-test-items li { display: grid; gap: 5px; padding: 14px; border: 1px solid var(--border, #293136); border-radius: 10px; }
+.scan-test-items small { color: var(--muted, #a8b3ba); }
+.scan-review { margin-top: 20px; }
+.scan-review summary { cursor: pointer; margin-bottom: 14px; padding: 10px 0; }
+#scannerView button, #scannerView .secondary-button { min-height: 44px; }
+#scannerView [hidden] { display: none !important; }
+@media (max-width: 600px) {
+  .scan-intro, .scan-panel { padding: 16px; }
+  .scan-photo-grid, .scan-candidates { grid-template-columns: 1fr; }
+  .scan-metrics { gap: 6px; }
+  .scan-metrics div { padding: 10px; }
+  .scan-metrics strong { font-size: 20px; }
+  .scan-preview { height: 200px; }
+}

@@ -2,6 +2,13 @@
 
 Read this first; inspect only files needed for the current task.
 
+
+## WWE scanner prototype — 28 October 2026 (implementation / testing)
+
+- User requested a usable scanning prototype in GrailRoster. Added #scanner, sidebar/Overview entry points, device-side front/back OCR, conservative catalogue candidates, optional set hint, rotation, explicit review and a separate test collection. No catalogue, Vault, database/schema or auth changes. No images uploaded/persisted, credentials or paid recognition calls. This is printed-text OCR, not artwork/foil recognition; exact parallels require user review. No paid AI backend was present (only delete-account Edge Function).
+- Added a clearly labelled device-local 25-confirmation/month simulation, failed/cancelled scan handling, reset, session-only storage warnings and JSON results with original/reviewed text, candidates, selected rank, timings and test records. No billing or production entitlement enforcement. Pinned Tesseract.js 6.0.1 + core 6.0.0, integrity-checked lazy script and English model; first recognition requires internet. Test history capped at 200 attempts/500 items.
+- Local JS syntax/diff, scanner-match, catalogue-split, real-page category DOM and category-import checks pass. Real browser OCR on synthetic front/back fixtures, failures/credit/reset/storage/mobile and full existing browser regression are queued through CI. Known unavailable local Chromium not retried. Real collector-photo accuracy remains an explicit pilot task; no claim of production AI accuracy. See docs/SCANNER_PROTOTYPE.md.
+
 ## Adjustable tile sizes — 28 October 2026 (published)
 
 - User approved Compact/Standard/Large choices with Standard as default. Independent set and card choices are saved in grailroster.tile-sizes.v1 on the device, outside collector records. Set size covers library and dashboard suggestions; card size covers catalogue/owned/wanted grid views. Inline selects synchronize with guest-accessible Display settings in the sidebar. List rows retain their layout, with the size selector hidden until grid mode is selected.
