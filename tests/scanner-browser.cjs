@@ -74,6 +74,47 @@ async function fakeOCR(page, text) {
   await page.reload();await page.locator('#scanTestItems li').waitFor();
   assert.equal(await page.locator('#scanAllowance').innerText(),'24 / 25');
   // Remaining tests inject isolated OCR responses to exercise failure/UI branches.
+  // Rejection must visibly replace suggestions at the button, including on phones.
+  for(const width of [390,1440]) {
+   await page.setViewportSize({width,height:900});
+   await fakeOCR(page,'SETH ROLLINS\n2026 TOPPS STADIUM CLUB WWE\n#1');
+   await page.locator('#scanFrontInput').setInputFiles(front);
+   await page.locator('#scanStart').click();await page.locator('.scan-candidate').first().waitFor();
+   const originalText=await page.locator('#scanText').inputValue();
+   const usage=await page.locator('#scanAllowance').innerText();
+   await page.locator('.scan-candidate').first().click();
+   await page.locator('#scanEditionCheck').check();
+   await page.locator('#scanReject').click();
+   await page.locator('#scanRecovery').waitFor();
+   assert.equal(await page.locator('.scan-candidate').count(),0,'Rejected suggestions must clear');
+   assert.equal(await page.locator('#scanConfirm').isVisible(),false,'An old selection must not remain saveable');
+   assert.equal(await page.locator('#scanReject').isVisible(),false);
+   assert.match(await page.locator('#scanResultSummary').innerText(),/Suggestions rejected.*No scan credit/);
+   assert.equal(await page.locator('#scanAllowance').innerText(),usage);
+   assert.equal(await page.locator('#scanTestItems li').count(),1);
+   assert.equal(await page.locator('#scanText').inputValue(),originalText,'Rejection preserves OCR text');
+   assert.equal(await page.locator('#scanFrontPreview canvas').count(),1,'Rejection preserves the front photo');
+   const rejection=await page.evaluate(key=>JSON.parse(localStorage.getItem(key)).attempts.at(-1),KEY);
+   assert.equal(rejection.status,'rejected');assert(rejection.rejectedCandidateIds.length>0);
+   // Repeated/programmatic rejection cannot consume a credit or save the prior card.
+   await page.locator('#scanReject').evaluate(el=>el.click());
+   assert.equal(await page.locator('#scanAllowance').innerText(),usage);
+   if(width===390) {
+    const choosing=page.waitForEvent('filechooser');
+    await page.locator('[data-scan-recovery="front"]').click();
+    await (await choosing).setFiles(front);
+    await page.locator('#scanRecovery').waitFor({state:'hidden'});
+   } else {
+    await page.locator('[data-scan-recovery="text"]').click();
+    assert.equal(await page.locator('#scanResults details').evaluate(el=>el.open),true);
+    assert.equal(await page.locator('#scanText').evaluate(el=>el===document.activeElement),true);
+    await page.locator('#scanText').fill('SETH ROLLINS\n#1');
+    await page.locator('#scanRematch').click();await page.locator('.scan-candidate').first().waitFor();
+    assert.equal(await page.locator('#scanRecovery').isVisible(),false);
+    assert.equal(await page.locator('#scanReject').isVisible(),true);
+    assert.equal(await page.locator('#scanAllowance').innerText(),usage);
+   }
+  }
   await fakeOCR(page,'UNKNOWN POKEMON CARD #999');
   await page.locator('#scanFrontInput').setInputFiles(front);await page.locator('#scanStart').click();
   await page.locator('#scanMessage').filter({hasText:'No match yet'}).waitFor();
@@ -113,6 +154,9 @@ async function fakeOCR(page, text) {
   await page.evaluate(()=>{Storage.prototype.setItem=function(){throw new DOMException('Full','QuotaExceededError');};});
   await page.locator('#scanStart').click();await page.locator('.scan-candidate').first().waitFor();
   assert.equal(await page.locator('#scanStorageNote').isVisible(),true);
+  await page.locator('#scanReject').click();
+  assert.equal(await page.locator('#scanRecovery').isVisible(),true);
+  assert.equal(await page.locator('.scan-candidate').count(),0);
   for(const width of [320,390,600,768,1024,1440]){
    await page.setViewportSize({width,height:900});
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true,`scanner overflow at ${width}`);
@@ -124,7 +168,7 @@ async function fakeOCR(page, text) {
   await page.evaluate(()=>changeView('dashboard'));
   assert.equal(await page.locator('#categoryEmpty').isVisible(),true);
   assert.deepEqual(errors,[]);
-  console.log('PASS: real browser OCR, front/back one credit, confirmed test-only saves, exports/reload, corrections, failure/cancel/quota/reset, blocked storage, category navigation and responsive scanner.');
+  console.log('PASS: real browser OCR, front/back one credit, confirmed test-only saves, exports/reload, corrections, visible rejection/photo-picker/text recovery on phone and desktop, failure/cancel/quota/reset, blocked storage, category navigation and responsive scanner.');
  } catch(error) {
   if(page) {
    console.error('Scanner state:',await page.locator('#scanMessage').textContent().catch(()=>''));

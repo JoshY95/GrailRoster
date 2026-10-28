@@ -3,6 +3,13 @@
 Read this first; inspect only files needed for the current task.
 
 
+## Scanner rejection feedback — 29 October 2026 (implementation / testing)
+
+- User reported None of these match appeared to do nothing. The old action stored rejection and changed only a message above the long suggestions list. Rejection now clears suggestions/selection, hides Save and the rejection button, gives a visible inline recovery panel plus toast, and moves focus/scroll to the result. It retains photos/text, consumes no credit and changes no real collection/catalogue records.
+- Recovery opens the front/back file chooser or expands/focuses detected text. Rematching restores candidate review and hides recovery; fresh photos/reset clear it. Rejected candidate IDs are retained in device-local test exports, including when storage failure requires session-only operation. Repeated rejection is guarded.
+- Local syntax/diff, scanner matching, split-catalogue and real-page category DOM checks pass. Extended browser test covers actual click at 390/1440px, removal of selected suggestions, unchanged credit/test collection/photos/text, rejection export, photo-picker recovery, text rematching and blocked-storage feedback. Final browser CI pending; no local Chromium retry.
+
+
 ## WWE scanner prototype — 28 October 2026 (published)
 
 - User requested a usable scanning prototype in GrailRoster. Added #scanner, sidebar/Overview entry points, device-side front/back OCR, conservative catalogue candidates, optional set hint, rotation, explicit review and a separate test collection. No catalogue, Vault, database/schema or auth changes. No images uploaded/persisted, credentials or paid recognition calls. This is printed-text OCR, not artwork/foil recognition; exact parallels require user review. No paid AI backend was present (only delete-account Edge Function).

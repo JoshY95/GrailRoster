@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="theme.css" />
     <link rel="stylesheet" href="styles.css?v=28" />
     <link rel="stylesheet" href="vault.css?v=20" />
-    <link rel="stylesheet" href="scanner.css?v=1" />
+    <link rel="stylesheet" href="scanner.css?v=2" />
     <title>GrailRoster</title>
   </head>
   <body>
@@ -198,6 +198,15 @@
               <p id="scanResultSummary" role="status"></p>
               <div id="scanCandidates" class="scan-candidates" role="group" aria-label="Possible catalogue matches"></div>
               <button type="button" class="secondary-button" id="scanReject" data-scan-lock hidden>None of these match</button>
+              <div id="scanRecovery" class="scan-recovery" role="region" aria-label="Try another match" tabindex="-1" hidden>
+                <h3>No match confirmed</h3>
+                <p>The suggestions have been cleared. No scan credit was used. Your photos and detected text are still here so you can try again.</p>
+                <div class="scan-actions">
+                  <button type="button" class="secondary-button" data-scan-recovery="back" data-scan-lock>Add or replace back photo</button>
+                  <button type="button" class="secondary-button" data-scan-recovery="front" data-scan-lock>Change front photo</button>
+                  <button type="button" class="secondary-button" data-scan-recovery="text" data-scan-lock>Review detected text</button>
+                </div>
+              </div>
               <details class="scan-review"><summary>Review or correct detected text</summary><label>Text read from your photos<textarea id="scanText" maxlength="10000" spellcheck="false" data-scan-lock></textarea></label><button type="button" class="secondary-button" id="scanRematch" data-scan-lock>Find matches again</button></details>
               <form id="scanConfirm" class="scan-confirm" hidden>
                 <h3>3. Save a test card</h3>
@@ -323,7 +332,7 @@
     <script src="ui.js" defer></script>
     <script src="vault.js?v=25" defer></script>
     <script src="scanner-match.js?v=1" defer></script>
-    <script src="scanner.js?v=1" defer></script>
+    <script src="scanner.js?v=2" defer></script>
     <script src="app.js?v=29" defer></script>
   </body>
 </html>

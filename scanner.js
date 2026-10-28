@@ -41,6 +41,7 @@ window.GrailScanner = (() => {
   function clearResult() {
     current = selected = null; candidates = [];
     $('scanResults').hidden = true; $('scanCandidates').innerHTML = '';
+    $('scanRecovery').hidden = true;
     $('scanConfirm').hidden = true; $('scanText').value = '';
     $('scanParallel').value = $('scanSerial').value = '';
     $('scanEditionCheck').checked = false;
@@ -101,11 +102,13 @@ window.GrailScanner = (() => {
   function stopWorker() { const old = worker; worker = null; if (old) Promise.resolve(old.terminate()).catch(() => {}); }
   function showCandidates() {
     selected = null; $('scanConfirm').hidden = true;
+    $('scanRecovery').hidden = true;
     candidates = GrailScanMatch.match(index, $('scanText').value, $('scanSet').value);
     $('scanResults').hidden = false;
     $('scanResultSummary').textContent = candidates.length ? `${candidates.length} possible matches. Check the set, year and card number.` : 'No supported match found. Try the back photo, select a set or correct the detected text.';
     $('scanCandidates').innerHTML = candidates.map((match, i) => `<button type="button" class="scan-candidate" data-scan-candidate="${i}"><strong>${esc(match.card.name)}</strong><span>${esc(match.set.name)}</span><span>#${esc(match.card.number)} · ${esc(match.card.subset)}</span><small>${esc(match.evidence.join(' · '))}</small></button>`).join('');
     if (current && current.status !== 'confirmed') {
+      current.status = candidates.length ? 'review' : 'no-match';
       current.candidateIds = candidates.map(candidate => candidate.card.id);
       current.reviewedText = $('scanText').value.slice(0, 10000);
       current.setFilter = $('scanSet').value; persist();
@@ -244,8 +247,29 @@ window.GrailScanner = (() => {
       current.correctedText = $('scanText').value !== current.ocrText; showCandidates();
     });
     $('scanReject').addEventListener('click', () => {
-      if (current && current.status !== 'confirmed') { current.status = 'rejected'; current.reviewedText = $('scanText').value.slice(0, 10000); persist(); }
-      selected = null; $('scanConfirm').hidden = true; message('Marked as incorrect. No credit used. Try the back photo or another set.');
+      if (!current || current.status !== 'review' || busy) return;
+      current.status = 'rejected'; current.reviewedText = $('scanText').value.slice(0, 10000);
+      current.rejectedCandidateIds = candidates.map(candidate => candidate.card.id); persist();
+      selected = null; candidates = [];
+      $('scanCandidates').replaceChildren(); $('scanConfirm').hidden = true;
+      $('scanEditionCheck').checked = false; $('scanReject').hidden = true;
+      $('scanResultSummary').textContent = 'Suggestions rejected. No scan credit used.';
+      $('scanRecovery').hidden = false;
+      message('Suggestions rejected. Change a photo or review the detected text to try again. No credit used.');
+      toast('Suggestions rejected — no credit used');
+      $('scanRecovery').focus({ preventScroll: true });
+      $('scanRecovery').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+    $('scanRecovery').addEventListener('click', event => {
+      const action = event.target.closest('[data-scan-recovery]')?.dataset.scanRecovery;
+      if (!action || busy) return;
+      if (action === 'front') $('scanFrontInput').click();
+      if (action === 'back') $('scanBackInput').click();
+      if (action === 'text') {
+        $('scanText').closest('details').open = true;
+        $('scanText').focus({ preventScroll: true });
+        $('scanText').scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
     });
     $('scanCandidates').addEventListener('click', event => { const el = event.target.closest('[data-scan-candidate]'); if (el) pick(Number(el.dataset.scanCandidate)); });
     $('scanConfirm').addEventListener('submit', saveTest);
