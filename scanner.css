@@ -33,6 +33,10 @@
 .scan-test-items li { display: grid; gap: 5px; padding: 14px; border: 1px solid var(--line); border-radius: 10px; }
 .scan-test-items small { color: var(--text-secondary); }
 .scan-review { margin-top: 20px; }
+.scan-recovery { margin-top: 16px; padding: 18px; border: 1px solid var(--accent); border-radius: var(--radius); background: var(--accent-soft); scroll-margin-block: 24px; }
+.scan-recovery h3 { margin-bottom: 8px; }
+.scan-recovery p { margin-bottom: 16px; line-height: 1.6; }
+.scan-recovery .secondary-button { background: var(--surface); }
 .scan-review summary { cursor: pointer; margin-bottom: 14px; padding: 10px 0; }
 #scannerView button, #scannerView .secondary-button { min-height: 44px; }
 #scannerView [hidden] { display: none !important; }
