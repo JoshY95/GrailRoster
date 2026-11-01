@@ -58,6 +58,7 @@ class CSMBatch(unittest.TestCase):
   self.assertGreaterEqual(len(current['sets']),42);self.assertGreaterEqual(len(current['cards']),20616)
   self.assertEqual(sum(x['cardCount'] for x in current['sets'] if x['categoryId']=='star-wars'),9318)
   for x in oldindex['sets']:
+   if x['id']=='2026-topps-now-wwe': continue  # Exact annual append preservation: topps-now-hh01.py
    self.assertEqual((ROOT/'data'/x['file']).read_bytes(),old('data/'+x['file']))
    self.assertEqual(next(y for y in current['sets'] if y['id']==x['id']),{k:v for k,v in x.items() if k!='file'})
   self.assertEqual((ROOT/'data/catalogue.json').read_bytes(),old('data/catalogue.json'))

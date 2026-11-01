@@ -54,6 +54,7 @@ class ChromeStarWars(unittest.TestCase):
         current=load_catalogue()
         self.assertEqual(len([c for c in current['cards'] if c['setId']==sw.SET_ID]),1304)
         for record in old_index['sets']:
+            if record['id']=='2026-topps-now-wwe': continue  # Exact annual append preservation: topps-now-hh01.py
             self.assertEqual((ROOT/'data'/record['file']).read_bytes(),old('data/'+record['file']))
             self.assertEqual(next(s for s in current['sets'] if s['id']==record['id']),{k:v for k,v in record.items() if k!='file'})
         self.assertEqual((ROOT/'data/catalogue.json').read_bytes(),old('data/catalogue.json'))

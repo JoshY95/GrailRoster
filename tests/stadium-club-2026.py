@@ -72,8 +72,8 @@ class CatalogueUpdate(unittest.TestCase):
                 now_main = json.loads(old(path))['cards']
         now_new = json.loads((ROOT / 'data/sets/2026-topps-now-wwe.json').read_text())['cards']
         by_id = {c['id']: c for c in now_new}
-        self.assertEqual(len(now_new), 132)
-        self.assertEqual([c['order'] for c in now_new], list(range(1, 133)))
+        self.assertGreaterEqual(len(now_new), 132)
+        self.assertEqual([c['order'] for c in now_new], list(range(1, len(now_new) + 1)))
         for c in now_main:
             expected = dict(c, order=c['order'] + (6 if c['order'] > 106 else 0))
             self.assertEqual(by_id[c['id']], expected)
@@ -123,7 +123,7 @@ class CatalogueUpdate(unittest.TestCase):
         self.assertEqual({int(n) for n in numbers if n.isdigit()}, set(range(1, 113)))
         self.assertEqual({n for n in numbers if n.startswith('HOF')}, {f'HOF{i}' for i in range(1, 7)})
         current = json.loads((ROOT / 'data/sets/2026-topps-now-wwe.json').read_text())['cards']
-        self.assertEqual(set(numbers), {c['number'] for c in current})
+        self.assertTrue(set(numbers) <= {c['number'] for c in current})
         self.assertEqual(len(other), 2)
         self.assertTrue(any('Vegas' in title for title in other))
         self.assertTrue(any('WBCO' in title for title in other))

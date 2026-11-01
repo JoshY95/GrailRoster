@@ -34,6 +34,7 @@ class WWE2023Batch(unittest.TestCase):
   def old(path):return subprocess.check_output(['git','show',b.BASELINE+':'+path],cwd=ROOT)
   base=json.loads(old('data/catalogue-index.json'));cat=load_catalogue();self.assertGreaterEqual(len(cat['sets']),49);self.assertGreaterEqual(len(cat['cards']),25285)
   for s in base['sets']:
+   if s['id']=='2026-topps-now-wwe': continue  # Exact annual append preservation: topps-now-hh01.py
    self.assertEqual((ROOT/'data'/s['file']).read_bytes(),old('data/'+s['file']))
    self.assertEqual(next(x for x in cat['sets'] if x['id']==s['id']),{k:v for k,v in s.items() if k!='file'})
   self.assertEqual((ROOT/'data/catalogue.json').read_bytes(),old('data/catalogue.json'))

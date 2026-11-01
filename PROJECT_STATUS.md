@@ -3,6 +3,12 @@
 Read this first; inspect only files needed for the current task.
 
 
+## Topps NOW Halloween Havoc HH01 — 2 November 2026
+
+- User authorised adding the confirmed Halloween Havoc poster card. Appended 2026-TNWWE-POSTER-HH01 at order 133 under 2026 Topps NOW WWE / Event poster; all 132 older identities unchanged. Global 49 sets /25,286 cards; WWE 31 /15,968. Source: sources/topps-now-2025-2026/2026-11-02-hh01.json.
+- Official product page confirms on-sale 30 October 2026, Rainbow Foil SP (quantity unknown) and Gold SSP /26. No conditional Chrome/Opal editions inferred. Physical back code not independently inspected; final base print run unknown. Official expiry 2 November 2027 remains an unresolved source anomaly. No image copied or rights assumed.
+- Guarded idempotent transaction: supabase/corrections/2026-11-02-now-hh01.sql. Only one card, three edition rows, one provenance row and annual/poster totals change. Dry run rolled back successfully with all existing full catalogue/collector/image rows preserved; 12 collections in this session. Focused source/preservation, Stadium Club regression, split/offline-loader and scanner matching checks passed. Browser CI, committed import and live publication verification pending at preparation.
+
 ## Scanner rejection feedback — 29 October 2026 (published)
 
 - User reported None of these match appeared to do nothing. The old action stored rejection and changed only a message above the long suggestions list. Rejection now clears suggestions/selection, hides Save and the rejection button, gives a visible inline recovery panel plus toast, and moves focus/scroll to the result. It retains photos/text, consumes no credit and changes no real collection/catalogue records.

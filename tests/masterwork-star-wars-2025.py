@@ -61,6 +61,7 @@ class MasterworkImport(unittest.TestCase):
   prior=json.loads(old('data/catalogue-index.json'));current=load_catalogue()
   self.assertEqual(len([c for c in current['cards'] if c['setId']==mw.SET_ID]),589)
   for record in prior['sets']:
+   if record['id']=='2026-topps-now-wwe': continue  # Exact annual append preservation: topps-now-hh01.py
    self.assertEqual((ROOT/'data'/record['file']).read_bytes(),old('data/'+record['file']))
    self.assertEqual(next(s for s in current['sets'] if s['id']==record['id']),{k:v for k,v in record.items() if k!='file'})
   self.assertEqual((ROOT/'data/catalogue.json').read_bytes(),old('data/catalogue.json'))

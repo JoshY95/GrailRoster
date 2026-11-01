@@ -68,6 +68,7 @@ class GalacticAntiquities2024(unittest.TestCase):
         self.assertGreaterEqual(len(current['cards']), 17648)
         self.assertGreaterEqual(sum(x['cardCount'] for x in current['sets'] if x['categoryId'] == 'star-wars'), 6350)
         for row in prior['sets']:
+            if row['id']=='2026-topps-now-wwe': continue  # Exact annual append preservation: topps-now-hh01.py
             self.assertEqual((ROOT / 'data' / row['file']).read_bytes(), old('data/' + row['file']))
             self.assertEqual(next(x for x in current['sets'] if x['id'] == row['id']), {k: v for k, v in row.items() if k != 'file'})
         self.assertEqual((ROOT / 'data/catalogue.json').read_bytes(), old('data/catalogue.json'))
