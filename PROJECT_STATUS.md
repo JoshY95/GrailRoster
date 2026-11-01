@@ -3,11 +3,11 @@
 Read this first; inspect only files needed for the current task.
 
 
-## Topps NOW Halloween Havoc HH01 — 2 November 2026
+## Topps NOW Halloween Havoc HH01 — 2 November 2026 (published)
 
 - User authorised adding the confirmed Halloween Havoc poster card. Appended 2026-TNWWE-POSTER-HH01 at order 133 under 2026 Topps NOW WWE / Event poster; all 132 older identities unchanged. Global 49 sets /25,286 cards; WWE 31 /15,968. Source: sources/topps-now-2025-2026/2026-11-02-hh01.json.
 - Official product page confirms on-sale 30 October 2026, Rainbow Foil SP (quantity unknown) and Gold SSP /26. No conditional Chrome/Opal editions inferred. Physical back code not independently inspected; final base print run unknown. Official expiry 2 November 2027 remains an unresolved source anomaly. No image copied or rights assumed.
-- Guarded idempotent transaction: supabase/corrections/2026-11-02-now-hh01.sql. Only one card, three edition rows, one provenance row and annual/poster totals change. Dry run rolled back successfully with all existing full catalogue/collector/image rows preserved; 12 collections in this session. Focused source/preservation, Stadium Club regression, split/offline-loader and scanner matching checks passed. Browser CI, committed import and live publication verification pending at preparation.
+- Guarded idempotent transaction: supabase/corrections/2026-11-02-now-hh01.sql. Only one card, three edition rows, one provenance row and annual/poster totals change. Dry run rolled back successfully with all existing full catalogue/collector/image rows preserved; 12 collections in this session. Focused source/preservation, Stadium Club regression, split/offline-loader and scanner matching checks passed. Full final-head CI 41349504159 passed at 80761e605a964e21d7a88b0fd0f90131387e4525, including guest/scanner/Vault/cloud-mock/offline/category checks. Historical frozen-list checks now delegate this one reviewed annual append to the exact HH01 preservation test. Committed import and committed repeat both passed; all 12 complete collection rows retain session digest 6e94a710862562821722cc0f8314947f, no orphan collections, reference images unchanged. Annual NOW 133 identities /165 editions, 15 posters. PR #30 merged as dc8d26380d80a3e6ce534ff561941006e3fa6109; Pages 41349948470 succeeded. Live index, NOW bundle and service worker match the tested source byte-for-byte and include HH01. Authenticated private-photo/two-device flows were not rerun; no collector writes.
 
 ## Scanner rejection feedback — 29 October 2026 (published)
 
