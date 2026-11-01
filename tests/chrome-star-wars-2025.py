@@ -44,6 +44,7 @@ class Chrome2025(unittest.TestCase):
   prior=json.loads(old('data/catalogue-index.json'));current=load_catalogue()
   self.assertGreaterEqual(len(current['sets']),31);self.assertGreaterEqual(len(current['cards']),16206)
   for r in prior['sets']:
+   if r['id']=='2026-topps-now-wwe': continue  # Exact annual append preservation: topps-now-hh01.py
    self.assertEqual((ROOT/'data'/r['file']).read_bytes(),old('data/'+r['file']))
    self.assertEqual(next(x for x in current['sets'] if x['id']==r['id']),{k:v for k,v in r.items() if k!='file'})
   self.assertEqual((ROOT/'data/catalogue.json').read_bytes(),old('data/catalogue.json'))

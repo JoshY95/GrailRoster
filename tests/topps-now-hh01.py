@@ -18,6 +18,11 @@ prior = json.loads(old('data/catalogue-index.json'))
 sid = '2026-topps-now-wwe'
 for s in prior['sets']:
     path = 'data/'+s['file']
+    expected_metadata = {k:v for k,v in s.items() if k!='file'}
+    if s['id']==sid:
+        expected_metadata['cardCount'] += 1
+        next(x for x in expected_metadata['subsets'] if x['code']=='POSTER')['count'] += 1
+    assert next(x for x in cat['sets'] if x['id']==s['id']) == expected_metadata
     if s['id'] != sid:
         assert (ROOT/path).read_bytes() == old(path), s['id']
     else:

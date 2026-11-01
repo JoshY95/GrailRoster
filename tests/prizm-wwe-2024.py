@@ -36,6 +36,7 @@ class PrizmWWE2024(unittest.TestCase):
   def old(path):return subprocess.check_output(['git','show',p.BASELINE+':'+path],cwd=ROOT)
   index=json.loads(old('data/catalogue-index.json'));cat=load_catalogue();self.assertGreaterEqual(len(cat['sets']),46);self.assertGreaterEqual(len(cat['cards']),22731);self.assertGreaterEqual(sum(x['cardCount'] for x in cat['sets'] if x['categoryId']=='wwe'),13413)
   for s in index['sets']:
+   if s['id']=='2026-topps-now-wwe': continue  # Exact annual append preservation: topps-now-hh01.py
    self.assertEqual((ROOT/'data'/s['file']).read_bytes(),old('data/'+s['file']));self.assertEqual(next(x for x in cat['sets'] if x['id']==s['id']),{k:v for k,v in s.items() if k!='file'})
   self.assertEqual((ROOT/'data/catalogue.json').read_bytes(),old('data/catalogue.json'))
   before={x:x.read_bytes() for x in (ROOT/'data').rglob('*.json')};p.apply(cat);save_catalogue(cat);self.assertTrue(all(x.read_bytes()==data for x,data in before.items()))
