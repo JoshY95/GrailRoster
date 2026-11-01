@@ -22,6 +22,7 @@ jobs:
         run: npx playwright install --with-deps chromium
       - name: Verify catalogue preservation
         run: |
+          python3 tests/topps-now-hh01.py
           python3 tests/wwe-2023-batch.py
           python3 tests/prizm-wwe-2024.py
           python3 tests/wwe-2024-batch.py
