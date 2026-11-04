@@ -3,10 +3,10 @@
 Read this first; inspect only files needed for the current task.
 
 
-## Topps NOW #113, #117 and #118 — 5 November 2026
+## Topps NOW #113, #117 and #118 — 5 November 2026 (published)
 
 - Appended three official base identities and five advertised foil tiers per card. #113 B-Fab / Michin has archive print run 515. #117 Ethan Page /5 and 1/1 autograph redemptions are recorded in source notes pending printed code verification. #118 uses Topps' subject name 946. No threshold-dependent Chrome or Opal editions inferred.
-- Official product evidence in sources/topps-now-2025-2026/2026-11-05-now.json and guarded catalogue-only SQL in supabase/corrections/2026-11-05-now.sql. Annual counts 136 identities and 183 edition rows after import. Prior card IDs, checklist order and unrelated set files preserved.
+- Official product evidence in sources/topps-now-2025-2026/2026-11-05-now.json and guarded catalogue-only SQL in supabase/corrections/2026-11-05-now.sql. Annual counts 136 identities and 183 edition rows after import. Prior card IDs, checklist order and unrelated set files preserved. Local catalogue, split loader, offline asset-list and scanner matching regressions passed. Guarded SQL dry run and committed import passed. All 12 saved collection rows retain digest 6e94a710862562821722cc0f8314947f. Merged PR #31 at 9e7f7b3b5b862db265917da6ff5e9153d7273aff. Pages 41926500692 succeeded and live index, annual bundle and service worker match the reviewed source byte-for-byte. Browser CI 41925696171 was still pending at release verification.
 
 ## Topps NOW Halloween Havoc HH01 — 2 November 2026 (published)
 
