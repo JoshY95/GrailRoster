@@ -3,6 +3,11 @@
 Read this first; inspect only files needed for the current task.
 
 
+## Topps NOW #113, #117 and #118 — 5 November 2026
+
+- Appended three official base identities and five advertised foil tiers per card. #113 B-Fab / Michin has archive print run 515. #117 Ethan Page /5 and 1/1 autograph redemptions are recorded in source notes pending printed code verification. #118 uses Topps' subject name 946. No threshold-dependent Chrome or Opal editions inferred.
+- Official product evidence in sources/topps-now-2025-2026/2026-11-05-now.json and guarded catalogue-only SQL in supabase/corrections/2026-11-05-now.sql. Annual counts 136 identities and 183 edition rows after import. Prior card IDs, checklist order and unrelated set files preserved.
+
 ## Topps NOW Halloween Havoc HH01 — 2 November 2026 (published)
 
 - User authorised adding the confirmed Halloween Havoc poster card. Appended 2026-TNWWE-POSTER-HH01 at order 133 under 2026 Topps NOW WWE / Event poster; all 132 older identities unchanged. Global 49 sets /25,286 cards; WWE 31 /15,968. Source: sources/topps-now-2025-2026/2026-11-02-hh01.json.

@@ -1,0 +1,110 @@
+[
+  {
+    "number": "113",
+    "subject": "B-Fab / Michin",
+    "releaseDate": "2026-10-26",
+    "saleEnd": "2026-10-29",
+    "shipping": "7–10 business days",
+    "region": "US",
+    "printRun": 515,
+    "source": "https://www.topps.com/products/b-fab-and-michin-2026-wwe-topps-now-r-card-113",
+    "printRunSource": "https://www.topps.com/collections/wwe-topps-now-archive?stock_status=ALL_STOCK",
+    "publishedEditions": [
+      {
+        "parallel": "Gold Foil",
+        "serialCap": 50
+      },
+      {
+        "parallel": "Orange Foil",
+        "serialCap": 25
+      },
+      {
+        "parallel": "Black Foil",
+        "serialCap": 10
+      },
+      {
+        "parallel": "Red Foil",
+        "serialCap": 5
+      },
+      {
+        "parallel": "FoilFractor",
+        "serialCap": 1
+      }
+    ],
+    "advertisedRedemptionCaps": [],
+    "notes": "US sale window 2026-10-26 to 2026-10-29. Official Topps product number 113; physical back not independently inspected. Official archive print run 515. Conditional Chrome/Opal editions excluded."
+  },
+  {
+    "number": "117",
+    "subject": "Ethan Page",
+    "releaseDate": "2026-11-03",
+    "saleEnd": "2026-11-06",
+    "shipping": "10–15 business days after close",
+    "region": "US",
+    "printRun": null,
+    "source": "https://www.topps.com/products/ethan-page-2026-wwe-topps-now-r-card-117",
+    "printRunSource": null,
+    "publishedEditions": [
+      {
+        "parallel": "Gold Foil",
+        "serialCap": 50
+      },
+      {
+        "parallel": "Orange Foil",
+        "serialCap": 25
+      },
+      {
+        "parallel": "Black Foil",
+        "serialCap": 10
+      },
+      {
+        "parallel": "Red Foil",
+        "serialCap": 5
+      },
+      {
+        "parallel": "FoilFractor",
+        "serialCap": 1
+      }
+    ],
+    "advertisedRedemptionCaps": [
+      5,
+      1
+    ],
+    "notes": "US sale window 2026-11-03 to 2026-11-06. Official Topps product number 117; physical back not independently inspected. Final print run pending. Advertised autograph redemptions /5 and 1/1; printed redemption and fulfilled card codes unverified, so no separate entries. Conditional Chrome/Opal editions excluded."
+  },
+  {
+    "number": "118",
+    "subject": "946",
+    "releaseDate": "2026-11-03",
+    "saleEnd": "2026-11-06",
+    "shipping": "7–10 business days after close",
+    "region": "US",
+    "printRun": null,
+    "source": "https://www.topps.com/products/946-2026-wwe-topps-now-r-card-118",
+    "printRunSource": null,
+    "publishedEditions": [
+      {
+        "parallel": "Gold Foil",
+        "serialCap": 50
+      },
+      {
+        "parallel": "Orange Foil",
+        "serialCap": 25
+      },
+      {
+        "parallel": "Black Foil",
+        "serialCap": 10
+      },
+      {
+        "parallel": "Red Foil",
+        "serialCap": 5
+      },
+      {
+        "parallel": "FoilFractor",
+        "serialCap": 1
+      }
+    ],
+    "advertisedRedemptionCaps": [],
+    "notes": "US sale window 2026-11-03 to 2026-11-06. Official Topps product number 118; physical back not independently inspected. Final print run pending. Conditional Chrome/Opal editions excluded."
+  }
+]
