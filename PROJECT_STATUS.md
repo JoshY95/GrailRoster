@@ -3,6 +3,10 @@
 Read this first; inspect only files needed for the current task.
 
 
+## Topps NOW Crown Jewel CJ26 — 7 November 2026
+
+- User authorised the Crown Jewel poster identity with official Rainbow Foil SP and Gold SSP /26. Appended order 137 under Event poster. Annual NOW 137 identities /186 editions, global 49 sets /25,290 cards. Evidence sources/topps-now-2025-2026/2026-11-07-cj26.json and guarded SQL supabase/corrections/2026-11-07-cj26.sql. Base print run, Rainbow quantity and physical card-back confirmation pending. Conditional Chrome/Opal editions excluded.
+
 ## Topps NOW #113, #117 and #118 — 5 November 2026 (published)
 
 - Appended three official base identities and five advertised foil tiers per card. #113 B-Fab / Michin has archive print run 515. #117 Ethan Page /5 and 1/1 autograph redemptions are recorded in source notes pending printed code verification. #118 uses Topps' subject name 946. No threshold-dependent Chrome or Opal editions inferred.

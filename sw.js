@@ -1,4 +1,4 @@
-const CACHE = 'grailroster-catalogue-20261105-now';
+const CACHE = 'grailroster-catalogue-20261107-cj26';
 const ASSETS = ["./", "index.html", "theme.css", "styles.css?v=28", "vault.css?v=20", "categories.js", "ui.js", "vault.js?v=25", "config.js", "app.js?v=29", "scanner.css?v=2", "scanner-match.js?v=1", "scanner.js?v=2", "manifest.json", "data/catalogue-index.json", "data/images.json"];
 
 self.addEventListener("install", (event) => event.waitUntil((async () => {

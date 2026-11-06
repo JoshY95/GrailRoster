@@ -1,0 +1,25 @@
+{
+  "verifiedOn": "2026-11-07",
+  "number": "CJ26",
+  "subject": "Crown Jewel",
+  "source": "https://www.topps.com/products/crown-jewel-2026-wwe-topps-now-r-card-cj26",
+  "region": "US",
+  "releaseDate": "2026-10-30",
+  "saleEnd": "2026-11-09",
+  "printRun": null,
+  "publishedEditions": [
+    {
+      "parallel": "Base",
+      "serialCap": null
+    },
+    {
+      "parallel": "Rainbow Foil Short Print",
+      "serialCap": null
+    },
+    {
+      "parallel": "Gold Super Short Print",
+      "serialCap": 26
+    }
+  ],
+  "notes": "Official Topps product title identifies CJ26. US listing gives sale window 2026-10-30 to 2026-11-09 and shipping 7-10 business days after close. Final base print run and Rainbow quantity unpublished. Physical card-back code not independently inspected. Conditional Chrome/Opal editions excluded."
+}
