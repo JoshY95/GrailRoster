@@ -22,9 +22,9 @@ for s in prior['sets']:
     path = 'data/'+s['file']
     expected_metadata = {k:v for k,v in s.items() if k!='file'}
     if s['id']==sid:
-        expected_metadata['cardCount'] += 1 + len(additions)
+        expected_metadata['cardCount'] += 2 + len(additions)
         next(x for x in expected_metadata['subsets'] if x['code']=='BASE')['count'] += len(additions)
-        next(x for x in expected_metadata['subsets'] if x['code']=='POSTER')['count'] += 1
+        next(x for x in expected_metadata['subsets'] if x['code']=='POSTER')['count'] += 2
     assert next(x for x in cat['sets'] if x['id']==s['id']) == expected_metadata
     if s['id'] != sid:
         assert (ROOT/path).read_bytes() == old(path), s['id']
@@ -33,19 +33,20 @@ for s in prior['sets']:
         after = [c for c in cat['cards'] if c['setId']==sid]
         assert after[:len(before)] == before
         hh01 = after[len(before)]
-        appended = after[len(before)+1:]
+        appended = after[len(before)+1:-1]
+        assert after[-1] == dict(id='2026-TNWWE-POSTER-CJ26',setId=sid,order=137,number='CJ26',name='Crown Jewel',subject2=None,category='Base',subset='Event poster',subsetCode='POSTER',roster=None,rookie='No',parallelGroup='POSTER')
         assert [(c['number'],c['name'],c['order']) for c in appended] == [
             (c['number'],c['subject'],i) for i,c in enumerate(additions,134)]
         assert all(c['id']=='2026-TNWWE-BASE-'+c['number'] and c['subsetCode']=='BASE' for c in appended)
-        assert len(after)==136 and hh01['number']=='HH01'
+        assert len(after)==137 and hh01['number']=='HH01'
         assert hh01['id']=='2026-TNWWE-POSTER-HH01'
         assert hh01['name']=='Halloween Havoc'
         assert hh01['subsetCode']=='POSTER' and hh01['order']==133
         current = next(x for x in cat['sets'] if x['id']==sid)
-        assert current['cardCount']==136
-        assert next(x for x in current['subsets'] if x['code']=='POSTER')['count']==15
+        assert current['cardCount']==137
+        assert next(x for x in current['subsets'] if x['code']=='POSTER')['count']==16
 assert (ROOT/'data/catalogue.json').read_bytes()==old('data/catalogue.json')
-assert cat['cardCount']==25289
+assert cat['cardCount']==25290
 source=json.loads((ROOT/'sources/topps-now-2025-2026/2026-11-02-hh01.json').read_text())
 assert source['printRun'] is None and source['releaseDate']=='2026-10-30'
 assert [(x['parallel'],x['serialCap']) for x in source['publishedEditions']]==[
