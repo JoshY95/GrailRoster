@@ -10,6 +10,7 @@ Read this first; inspect only files needed for the current task.
 
 ## Topps NOW Crown Jewel CJ26 — 7 November 2026 (published)
 
+- UK listing verified on 9 November 2026. On sale 30 October–9 November, with estimated shipping 15–20 business days after close. Added UK evidence to the existing CJ26 source record.
 - User authorised the Crown Jewel poster identity with official Rainbow Foil SP and Gold SSP /26. Appended order 137 under Event poster. Annual NOW 137 identities /186 editions, global 49 sets /25,290 cards. Evidence sources/topps-now-2025-2026/2026-11-07-cj26.json and guarded SQL supabase/corrections/2026-11-07-cj26.sql. Base print run, Rainbow quantity and physical card-back confirmation pending. Conditional Chrome/Opal editions excluded.
 - Final-head browser CI 42297939331 passed at 40f4ff95fd248b6e691b0cd0c0b4001d37e7f400. Guarded dry run, committed import and repeat passed. All 12 saved collection rows retain session digest 6e94a710862562821722cc0f8314947f. PR #32 merged as 6d573371f209ddae8c2cacd9e7ea90af5b13db0b. Pages 42298726681 succeeded. Live index, annual NOW bundle and service worker match the tested source byte-for-byte. Real authenticated photo/two-device flows were not rerun.
 
