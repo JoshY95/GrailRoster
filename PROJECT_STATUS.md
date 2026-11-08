@@ -2,6 +2,11 @@
 
 Read this first; inspect only files needed for the current task.
 
+## Topps NOW #114–116 — 9 November 2026
+
+- Appended the three official regular identities after existing order 137, preserving every prior ID/order. Topps confirms five foil tiers on each, plus two named image SPs on #114 and three on #115; their quantities and printed codes remain unverified. Annual set: 140 identities (118 regular) and 209 edition rows. Sources: `sources/topps-now-2025-2026/2026-11-09-now-114-116.json`. Guarded catalogue-only SQL: `supabase/corrections/2026-11-09-now-114-116.sql`.
+- Local HH01 preservation and split-catalogue checks passed (49 sets / 25,293 cards). Sydney guarded SQL rollback, commit and repeat all passed: 140 annual cards, 209 editions, 23 new edition rows, 12 collection rows and zero reference images. Its transaction checked all existing cards, editions, collector rows and image records for unchanged full-row values. GitHub CI, merge, Pages deployment and live parity remain pending. The #113 and HH01 print runs 515 and 934 were already reported by Topps; #113 was previously recorded and HH01 source metadata is now updated.
+
 
 ## Topps NOW Crown Jewel CJ26 — 7 November 2026 (published)
 

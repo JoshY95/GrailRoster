@@ -1,0 +1,43 @@
+[
+  {
+    "number": "114", "subject": "Finn Bálor", "roster": "SmackDown",
+    "releaseDate": "2026-11-02", "saleEnd": "2026-11-05", "printRun": null,
+    "source": "https://www.topps.com/products/finn-balor-2026-wwe-topps-now-r-card-114",
+    "publishedEditions": [
+      {"parallel": "Gold Foil", "serialCap": 50},
+      {"parallel": "Orange Foil", "serialCap": 25},
+      {"parallel": "Black Foil", "serialCap": 10},
+      {"parallel": "Red Foil", "serialCap": 5},
+      {"parallel": "FoilFractor", "serialCap": 1}
+    ],
+    "imageVariations": ["Danhausen", "Finn Bálor"],
+    "variationNote": "Topps advertises Danhausen and Finn Bálor image-variation short prints; quantities and printed codes unverified."
+  },
+  {
+    "number": "115", "subject": "Danhausen", "roster": "NXT",
+    "releaseDate": "2026-11-02", "saleEnd": "2026-11-05", "printRun": null,
+    "source": "https://www.topps.com/products/danhausen-2026-wwe-topps-now-r-card-115",
+    "publishedEditions": [
+      {"parallel": "Gold Foil", "serialCap": 50},
+      {"parallel": "Orange Foil", "serialCap": 25},
+      {"parallel": "Black Foil", "serialCap": 10},
+      {"parallel": "Red Foil", "serialCap": 5},
+      {"parallel": "FoilFractor", "serialCap": 1}
+    ],
+    "imageVariations": ["Papa Shango", "Danhausen", "The Boogeyman"],
+    "variationNote": "Topps advertises Papa Shango, Danhausen and The Boogeyman image-variation short prints; quantities and printed codes unverified."
+  },
+  {
+    "number": "116", "subject": "Shiloh Hill", "roster": "NXT",
+    "releaseDate": "2026-11-02", "saleEnd": "2026-11-05", "printRun": null,
+    "source": "https://www.topps.com/products/shiloh-hill-2026-wwe-topps-now-r-card-116",
+    "publishedEditions": [
+      {"parallel": "Gold Foil", "serialCap": 50},
+      {"parallel": "Orange Foil", "serialCap": 25},
+      {"parallel": "Black Foil", "serialCap": 10},
+      {"parallel": "Red Foil", "serialCap": 5},
+      {"parallel": "FoilFractor", "serialCap": 1}
+    ],
+    "imageVariations": [], "variationNote": "No image variation or autograph advertised."
+  }
+]
