@@ -1,5 +1,19 @@
 # WWE Topps NOW release list — 2025 and 2026
 
+## 9 November 2026 addition
+
+Official Topps product pages confirm regular #114 Finn Bálor, #115 Danhausen and #116 Shiloh Hill, each first sold 2 November 2026. These three identities and 15 card-specific numbered foils are appended to GrailRoster. Topps also advertises two named image-variation short prints on #114 and three on #115; those five variants are listed with unknown quantities and unverified physical codes. No image variation is advertised on #116. Final base print runs remain pending; conditional Chrome/Opal tiers are excluded. The current annual set is 140 identities (118 regular, six Hall of Fame, 16 posters) and 209 edition rows. This paragraph supersedes the older snapshot below; original October research remains as its historical record.
+
+| Card | Subject | Foils on each | Additional advertised variations | Official source |
+| --- | --- | --- | --- | --- |
+| 114 | Finn Bálor | Gold /50; Orange /25; Black /10; Red /5; FoilFractor 1/1 | Danhausen; Finn Bálor image SPs | [Topps](https://www.topps.com/products/finn-balor-2026-wwe-topps-now-r-card-114) |
+| 115 | Danhausen | Same five card-specific tiers | Papa Shango; Danhausen; The Boogeyman image SPs | [Topps](https://www.topps.com/products/danhausen-2026-wwe-topps-now-r-card-115) |
+| 116 | Shiloh Hill | Same five card-specific tiers | None advertised | [Topps](https://www.topps.com/products/shiloh-hill-2026-wwe-topps-now-r-card-116) |
+
+Normalized manufacturer evidence: `sources/topps-now-2025-2026/2026-11-09-now-114-116.json`.
+
+The [official archive](https://www.topps.com/collections/wwe-topps-now-archive?stock_status=ALL_STOCK) now reports the Halloween Havoc HH01 base print run as **934**. #113 B-Fab / Michin's **515** was already recorded in `2026-11-05-now.json`. These print runs are base-order totals, not serial caps.
+
 Research updated 24 October 2026; cards #107–112 and 30 confirmed foil variants are synchronized to Sydney and published through PR #5. Production file parity and live guest #112 visibility passed; see PROJECT_STATUS.md. Annual lists and the separately labelled crossover imported locally and in Sydney on 4 October 2026. Website publication verification is tracked in PROJECT_STATUS.md.
 
 | Coverage | Entries |

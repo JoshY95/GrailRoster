@@ -5,7 +5,8 @@
   "subject": "Halloween Havoc",
   "group": "Event poster",
   "releaseDate": "2026-10-30",
-  "printRun": null,
+  "printRun": 934,
+  "printRunSource": "https://www.topps.com/collections/wwe-topps-now-archive?stock_status=ALL_STOCK",
   "source": "https://www.topps.com/products/halloween-havoc-2026-wwe-topps-now-r-card-hh01",
   "ukSource": "https://uk.topps.com/products/halloween-havoc-2026-wwe-topps-now-r-card-hh01",
   "publishedEditions": [
@@ -27,6 +28,6 @@
     "Topps US and UK list expiry 2027-11-02; retained as an unresolved source anomaly, not silently corrected.",
     "US shipping 7-10 business days after expiry; UK 15-20.",
     "No separate checklist published for this single-card product.",
-    "Rainbow quantity and final base print run unpublished. Conditional Chrome/Opal variants excluded; no threshold achievement confirmed."
+    "Official archive lists base print run 934; Rainbow quantity unpublished. Conditional Chrome/Opal variants excluded; no threshold achievement confirmed."
   ]
 }
