@@ -21,5 +21,13 @@
       "serialCap": 26
     }
   ],
-  "notes": "Official Topps product title identifies CJ26. US listing gives sale window 2026-10-30 to 2026-11-09 and shipping 7-10 business days after close. Final base print run and Rainbow quantity unpublished. Physical card-back code not independently inspected. Conditional Chrome/Opal editions excluded."
+  "notes": "Official Topps product title identifies CJ26. US listing gives sale window 2026-10-30 to 2026-11-09 and shipping 7-10 business days after close. Final base print run and Rainbow quantity unpublished. Physical card-back code not independently inspected. Conditional Chrome/Opal editions excluded.",
+  "ukListing": {
+    "verifiedOn": "2026-11-09",
+    "region": "UK",
+    "source": "https://uk.topps.com/products/crown-jewel-2026-wwe-topps-now-r-card-cj26",
+    "releaseDate": "2026-10-30",
+    "saleEnd": "2026-11-09",
+    "shippingEstimate": "15-20 business days after the sale closes"
+  }
 }
