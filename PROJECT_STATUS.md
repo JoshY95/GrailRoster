@@ -2,6 +2,10 @@
 
 Read this first; inspect only files needed for the current task.
 
+## Topps NOW #119–121 — 10 November 2026
+
+- Appended Penta / Je'Von Evans, Tiffany Stratton and Roman Reigns with five officially advertised foil editions each. Topps US and UK sale window 9–12 November. Advertised /5 and 1/1 autograph redemptions are recorded in source notes pending printed codes. Annual set: 143 identities (121 regular) and 227 edition rows. Sources: `sources/topps-now-2025-2026/2026-11-10-now-119-121.json`. Guarded catalogue-only SQL: `supabase/corrections/2026-11-10-now-119-121.sql`.
+
 ## Topps NOW #114–116 — 9 November 2026
 
 - Appended the three official regular identities after existing order 137, preserving every prior ID/order. Topps confirms five foil tiers on each, plus two named image SPs on #114 and three on #115; their quantities and printed codes remain unverified. Annual set: 140 identities (118 regular) and 209 edition rows. Sources: `sources/topps-now-2025-2026/2026-11-09-now-114-116.json`. Guarded catalogue-only SQL: `supabase/corrections/2026-11-09-now-114-116.sql`.
