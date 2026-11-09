@@ -18,12 +18,14 @@ prior = json.loads(old('data/catalogue-index.json'))
 sid = '2026-topps-now-wwe'
 additions = json.loads((ROOT/'sources/topps-now-2025-2026/2026-11-05-now.json').read_text())
 assert [c['number'] for c in additions] == ['113','117','118']
+new_releases = json.loads((ROOT/'sources/topps-now-2025-2026/2026-11-10-now-119-121.json').read_text())
+assert [c['number'] for c in new_releases] == ['119','120','121']
 for s in prior['sets']:
     path = 'data/'+s['file']
     expected_metadata = {k:v for k,v in s.items() if k!='file'}
     if s['id']==sid:
-        expected_metadata['cardCount'] += 5 + len(additions)
-        next(x for x in expected_metadata['subsets'] if x['code']=='BASE')['count'] += len(additions) + 3
+        expected_metadata['cardCount'] += 5 + len(additions) + len(new_releases)
+        next(x for x in expected_metadata['subsets'] if x['code']=='BASE')['count'] += len(additions) + 3 + len(new_releases)
         next(x for x in expected_metadata['subsets'] if x['code']=='POSTER')['count'] += 2
     assert next(x for x in cat['sets'] if x['id']==s['id']) == expected_metadata
     if s['id'] != sid:
@@ -31,6 +33,13 @@ for s in prior['sets']:
     else:
         before = json.loads(old(path))['cards']
         after = [c for c in cat['cards'] if c['setId']==sid]
+        newest = after[-len(new_releases):]
+        after = after[:-len(new_releases)]
+        for card, release, order in zip(newest, new_releases, range(141,144)):
+            assert card == dict(id='2026-TNWWE-BASE-'+release['number'], setId=sid, order=order,
+                                number=release['number'], name=release['subject'], subject2=release['subject2'],
+                                category='Base', subset='Regular', subsetCode='BASE', roster=None,
+                                rookie='No', parallelGroup='BASE')
         assert after[:len(before)] == before
         hh01 = after[len(before)]
         appended = after[len(before)+1:-4]
@@ -44,10 +53,10 @@ for s in prior['sets']:
         assert hh01['name']=='Halloween Havoc'
         assert hh01['subsetCode']=='POSTER' and hh01['order']==133
         current = next(x for x in cat['sets'] if x['id']==sid)
-        assert current['cardCount']==140
+        assert current['cardCount']==143
         assert next(x for x in current['subsets'] if x['code']=='POSTER')['count']==16
 assert (ROOT/'data/catalogue.json').read_bytes()==old('data/catalogue.json')
-assert cat['cardCount']==25293
+assert cat['cardCount']==25296
 source=json.loads((ROOT/'sources/topps-now-2025-2026/2026-11-02-hh01.json').read_text())
 assert source['printRun'] == 934 and source['releaseDate']=='2026-10-30'
 assert [(x['parallel'],x['serialCap']) for x in source['publishedEditions']]==[
