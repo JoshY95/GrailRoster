@@ -1,7 +1,7 @@
 [
   {
     "number": "114", "subject": "Finn Bálor", "roster": "SmackDown",
-    "releaseDate": "2026-11-02", "saleEnd": "2026-11-05", "printRun": null,
+    "releaseDate": "2026-11-02", "saleEnd": "2026-11-05", "printRun": 1473,
     "source": "https://www.topps.com/products/finn-balor-2026-wwe-topps-now-r-card-114",
     "publishedEditions": [
       {"parallel": "Gold Foil", "serialCap": 50},
@@ -15,7 +15,7 @@
   },
   {
     "number": "115", "subject": "Danhausen", "roster": "NXT",
-    "releaseDate": "2026-11-02", "saleEnd": "2026-11-05", "printRun": null,
+    "releaseDate": "2026-11-02", "saleEnd": "2026-11-05", "printRun": 1612,
     "source": "https://www.topps.com/products/danhausen-2026-wwe-topps-now-r-card-115",
     "publishedEditions": [
       {"parallel": "Gold Foil", "serialCap": 50},
@@ -29,7 +29,7 @@
   },
   {
     "number": "116", "subject": "Shiloh Hill", "roster": "NXT",
-    "releaseDate": "2026-11-02", "saleEnd": "2026-11-05", "printRun": null,
+    "releaseDate": "2026-11-02", "saleEnd": "2026-11-05", "printRun": 498,
     "source": "https://www.topps.com/products/shiloh-hill-2026-wwe-topps-now-r-card-116",
     "publishedEditions": [
       {"parallel": "Gold Foil", "serialCap": 50},

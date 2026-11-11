@@ -2,6 +2,10 @@
 
 Read this first; inspect only files needed for the current task.
 
+## Topps NOW print runs and CJ26 date — 11 November 2026
+
+- Updated official print runs on #114 1,473, #115 1,612, #116 498, #117 735, #118 336 and CJ26 668. Topps US and UK revised CJ26 on-sale date to 6 November from 30 October. Earlier 9 November close retained as historical evidence, with current close unconfirmed. Existing card/source notes updated with guarded repeatable SQL. Card identities and editions retain their existing counts. Variation quantities and physical codes remain pending.
+
 ## Topps NOW #119–121 — 10 November 2026
 
 - Appended Penta / Je'Von Evans, Tiffany Stratton and Roman Reigns with five officially advertised foil editions each. Topps US and UK sale window 9–12 November. Advertised /5 and 1/1 autograph redemptions are recorded in source notes pending printed codes. Annual set: 143 identities (121 regular) and 227 edition rows. Sources: `sources/topps-now-2025-2026/2026-11-10-now-119-121.json`. Guarded catalogue-only SQL: `supabase/corrections/2026-11-10-now-119-121.sql`.

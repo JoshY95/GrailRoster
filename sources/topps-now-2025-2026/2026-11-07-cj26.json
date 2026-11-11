@@ -1,12 +1,11 @@
 {
-  "verifiedOn": "2026-11-07",
+  "verifiedOn": "2026-11-11",
   "number": "CJ26",
   "subject": "Crown Jewel",
   "source": "https://www.topps.com/products/crown-jewel-2026-wwe-topps-now-r-card-cj26",
   "region": "US",
-  "releaseDate": "2026-10-30",
-  "saleEnd": "2026-11-09",
-  "printRun": null,
+  "releaseDate": "2026-11-06",
+  "printRun": 668,
   "publishedEditions": [
     {
       "parallel": "Base",
@@ -21,13 +20,20 @@
       "serialCap": 26
     }
   ],
-  "notes": "Official Topps product title identifies CJ26. US listing gives sale window 2026-10-30 to 2026-11-09 and shipping 7-10 business days after close. Final base print run and Rainbow quantity unpublished. Physical card-back code not independently inspected. Conditional Chrome/Opal editions excluded.",
+  "notes": "Official Topps product title identifies CJ26. Topps US and UK now show on-sale 2026-11-06, replacing 2026-10-30. Earlier pages listed close 2026-11-09; current sold-out pages omit the close date. Official archive print run 668. US shipping 7-10 business days after close. Rainbow quantity and physical card-back code unverified. Conditional Chrome/Opal editions excluded.",
   "ukListing": {
-    "verifiedOn": "2026-11-09",
+    "verifiedOn": "2026-11-11",
     "region": "UK",
     "source": "https://uk.topps.com/products/crown-jewel-2026-wwe-topps-now-r-card-cj26",
-    "releaseDate": "2026-10-30",
-    "saleEnd": "2026-11-09",
-    "shippingEstimate": "15-20 business days after the sale closes"
-  }
+    "releaseDate": "2026-11-06",
+    "shippingEstimate": "15-20 business days after the sale closes",
+    "previousReleaseDate": "2026-10-30",
+    "saleEndPreviouslyListed": "2026-11-09",
+    "saleEnd": null
+  },
+  "printRunSource": "https://www.topps.com/collections/wwe-topps-now-archive?stock_status=ALL_STOCK",
+  "printRunVerifiedOn": "2026-11-11",
+  "previousReleaseDate": "2026-10-30",
+  "saleEndPreviouslyListed": "2026-11-09",
+  "saleEnd": null
 }
