@@ -18,14 +18,16 @@ prior = json.loads(old('data/catalogue-index.json'))
 sid = '2026-topps-now-wwe'
 additions = json.loads((ROOT/'sources/topps-now-2025-2026/2026-11-05-now.json').read_text())
 assert [c['number'] for c in additions] == ['113','117','118']
+latest_release = json.loads((ROOT/'sources/topps-now-2025-2026/2026-11-22-now-122.json').read_text())
+assert [c['number'] for c in latest_release] == ['122']
 new_releases = json.loads((ROOT/'sources/topps-now-2025-2026/2026-11-10-now-119-121.json').read_text())
 assert [c['number'] for c in new_releases] == ['119','120','121']
 for s in prior['sets']:
     path = 'data/'+s['file']
     expected_metadata = {k:v for k,v in s.items() if k!='file'}
     if s['id']==sid:
-        expected_metadata['cardCount'] += 5 + len(additions) + len(new_releases)
-        next(x for x in expected_metadata['subsets'] if x['code']=='BASE')['count'] += len(additions) + 3 + len(new_releases)
+        expected_metadata['cardCount'] += 5 + len(additions) + len(new_releases) + len(latest_release)
+        next(x for x in expected_metadata['subsets'] if x['code']=='BASE')['count'] += len(additions) + 3 + len(new_releases) + len(latest_release)
         next(x for x in expected_metadata['subsets'] if x['code']=='POSTER')['count'] += 2
     assert next(x for x in cat['sets'] if x['id']==s['id']) == expected_metadata
     if s['id'] != sid:
@@ -33,6 +35,10 @@ for s in prior['sets']:
     else:
         before = json.loads(old(path))['cards']
         after = [c for c in cat['cards'] if c['setId']==sid]
+        latest = after.pop()
+        assert latest == dict(id='2026-TNWWE-BASE-122', setId=sid, order=144, number='122',
+                              name='IYO SKY', subject2=None, category='Base', subset='Regular',
+                              subsetCode='BASE', roster=None, rookie='No', parallelGroup='BASE')
         newest = after[-len(new_releases):]
         after = after[:-len(new_releases)]
         for card, release, order in zip(newest, new_releases, range(141,144)):
@@ -53,10 +59,10 @@ for s in prior['sets']:
         assert hh01['name']=='Halloween Havoc'
         assert hh01['subsetCode']=='POSTER' and hh01['order']==133
         current = next(x for x in cat['sets'] if x['id']==sid)
-        assert current['cardCount']==143
+        assert current['cardCount']==144
         assert next(x for x in current['subsets'] if x['code']=='POSTER')['count']==16
 assert (ROOT/'data/catalogue.json').read_bytes()==old('data/catalogue.json')
-assert cat['cardCount']==25296
+assert cat['cardCount']==25297
 source=json.loads((ROOT/'sources/topps-now-2025-2026/2026-11-02-hh01.json').read_text())
 assert source['printRun'] == 934 and source['releaseDate']=='2026-10-30'
 assert [(x['parallel'],x['serialCap']) for x in source['publishedEditions']]==[
@@ -65,3 +71,12 @@ sql=generate()
 assert sql==(ROOT/'supabase/corrections/2026-11-02-now-hh01.sql').read_text()
 assert 'update public.collection_items' not in sql and 'insert into public.collection_items' not in sql
 print('PASS: HH01 identity/source/editions, all prior cards and unrelated files preserved, exact guarded SQL.')
+
+# Current append: exact verified editions and reproducible guarded SQL.
+from prepare_now_122 import records as latest_records, generate_sql
+cards, editions, sources = latest_records()
+assert [(c['card_number'],c['display_name'],c['checklist_order']) for c in cards] == [('122','IYO SKY',144)]
+assert [(v['parallel'],v['serial_cap']) for v in editions] == [('Checklist identity',None),('Gold Foil',50),('Orange Foil',25),('Black Foil',10),('Red Foil',5),('FoilFractor',1)]
+assert len(sources)==1
+assert '-- Official Topps NOW #122; guarded catalogue-only append.\n'+generate_sql() == (ROOT/'supabase/corrections/2026-11-22-now-122.sql').read_text()
+print('PASS: NOW 122 official identity, six editions and reproducible preservation SQL.')
