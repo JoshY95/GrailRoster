@@ -2,6 +2,13 @@
 
 Read this first; inspect only files needed for the current task.
 
+## Topps NOW #122 — 22 November 2026
+
+- Official US/UK product pages confirm IYO SKY #122, on sale 17–20 November; five foil tiers /50, /25, /10, /5 and 1/1. Appended at order 144, preserving existing card IDs/orders. Annual set: 144 identities (122 regular), 233 edition rows. Global: 49 sets /25,297 identities.
+- Evidence: sources/topps-now-2025-2026/2026-11-22-now-122.json. Repeatable guarded SQL: supabase/corrections/2026-11-22-now-122.sql. Autograph redemptions /5 and 1/1 remain evidence notes pending printed codes. Physical back and final print run pending. Conditional Chrome/Opal tiers excluded.
+- Official current archive/search surfaced no later WWE release than #122. Full WWE-specific archive returned 403; completeness beyond accessible official sources is not guaranteed. Third-party print runs for #119–121 were not imported without accessible official confirmation.
+- Local exact-preservation, split-catalogue and scanner checks passed. Guarded database dry run rolled back successfully at 25,297 cards; all 12 collection rows unchanged. Browser CI, committed import and publication pending.
+
 ## Topps NOW print runs and CJ26 date — 11 November 2026
 
 - Updated official print runs on #114 1,473, #115 1,612, #116 498, #117 735, #118 336 and CJ26 668. Topps US and UK revised CJ26 on-sale date to 6 November from 30 October. Earlier 9 November close retained as historical evidence, with current close unconfirmed. Existing card/source notes updated with guarded repeatable SQL. Card identities and editions retain their existing counts. Variation quantities and physical codes remain pending.

@@ -1,0 +1,50 @@
+[
+  {
+    "number": "122",
+    "subject": "IYO SKY",
+    "subject1": "IYO SKY",
+    "subject2": null,
+    "roster": null,
+    "releaseDate": "2026-11-17",
+    "saleEnd": "2026-11-20",
+    "printRun": null,
+    "source": "https://www.topps.com/products/iyo-sky-2026-wwe-topps-now-r-card-122",
+    "ukSource": "https://uk.topps.com/products/iyo-sky-2026-wwe-topps-now-r-card-122",
+    "publishedEditions": [
+      {
+        "parallel": "Gold Foil",
+        "serialCap": 50
+      },
+      {
+        "parallel": "Orange Foil",
+        "serialCap": 25
+      },
+      {
+        "parallel": "Black Foil",
+        "serialCap": 10
+      },
+      {
+        "parallel": "Red Foil",
+        "serialCap": 5
+      },
+      {
+        "parallel": "FoilFractor",
+        "serialCap": 1
+      }
+    ],
+    "redemptions": [
+      {
+        "type": "Autograph Redemption",
+        "serialCap": 5
+      },
+      {
+        "type": "Autograph Redemption",
+        "serialCap": 1
+      }
+    ],
+    "imageVariations": [],
+    "notes": "US and UK on-sale window 17–20 November 2026; UK closing date still shown in current Specs, US sold-out page now omits closing date. US shipping estimate 10–15 business days; UK 15–20 business days after expiry. Topps advertises /5 and 1/1 Autograph Redemption cards; printed autograph codes unverified. Official product number verified; physical back and final print run pending. Conditional Chrome/Opal editions excluded.",
+    "checkedAt": "2026-11-22",
+    "variationNote": "US and UK on-sale window 17–20 November 2026; UK closing date still shown in current Specs, US sold-out page now omits closing date. US shipping estimate 10–15 business days; UK 15–20 business days after expiry. Topps advertises /5 and 1/1 Autograph Redemption cards; printed autograph codes unverified. Official product number verified; physical back and final print run pending. Conditional Chrome/Opal editions excluded."
+  }
+]
