@@ -62,7 +62,8 @@ for s in prior['sets']:
         assert current['cardCount']==144
         assert next(x for x in current['subsets'] if x['code']=='POSTER')['count']==16
 assert (ROOT/'data/catalogue.json').read_bytes()==old('data/catalogue.json')
-assert cat['cardCount']==25297
+assert cat['cardCount']==25297 + 878
+assert next(s for s in cat['sets'] if s['id']=='2026-topps-royalty-wwe')['cardCount']==878
 source=json.loads((ROOT/'sources/topps-now-2025-2026/2026-11-02-hh01.json').read_text())
 assert source['printRun'] == 934 and source['releaseDate']=='2026-10-30'
 assert [(x['parallel'],x['serialCap']) for x in source['publishedEditions']]==[
