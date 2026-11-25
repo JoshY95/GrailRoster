@@ -4,7 +4,7 @@
 
 - User authorised adding the official checklist. Imported 878 identities across 38 subsets: 100 Base, 320 Autograph Relic, 328 Autograph and 130 Relic. Shared multi-subject codes are one card. Official PDF, extraction, hash and subset counts are in sources/royalty-wwe-2026/.
 - UK release announced for 4 December via EQL; shipping unconfirmed. Liquid Silver/Gold identities, all serial caps and per-card parallels deferred. Identity edition rows only. Existing IDs, set bundles and frozen snapshot preserved.
-- Local split-catalogue and scanner checks passed. Guarded additive SQL prepared; database dry run and publication pending.
+- Local source reconciliation, idempotency, prior-set preservation, split-catalogue and scanner checks passed. Guarded database rollback, committed import and repeat all passed: 50 sets /26,175 cards, with all 12 collector rows and prior catalogue records preserved. Public API matches all 878 names/codes. Full browser CI 45710339815 passed at ac4ad19; PR #38 merged as b60cb3d25fdd71aa2246cebd40c5979d2b5cbadd. Static deployment verification follows; authenticated real photo/two-device tests were not rerun.
 
 
 Read this first; inspect only files needed for the current task.
