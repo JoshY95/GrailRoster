@@ -1,5 +1,12 @@
 # GrailRoster handover
 
+## Royalty WWE 2026 — 26 November 2026
+
+- User authorised adding the official checklist. Imported 878 identities across 38 subsets: 100 Base, 320 Autograph Relic, 328 Autograph and 130 Relic. Shared multi-subject codes are one card. Official PDF, extraction, hash and subset counts are in sources/royalty-wwe-2026/.
+- UK release announced for 4 December via EQL; shipping unconfirmed. Liquid Silver/Gold identities, all serial caps and per-card parallels deferred. Identity edition rows only. Existing IDs, set bundles and frozen snapshot preserved.
+- Local split-catalogue and scanner checks passed. Guarded additive SQL prepared; database dry run and publication pending.
+
+
 Read this first; inspect only files needed for the current task.
 
 ## Topps NOW #122 — 22 November 2026

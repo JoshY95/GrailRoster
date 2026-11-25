@@ -1,0 +1,236 @@
+{
+  "checklistUrl": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/26RWWE_-_2026_Topps_Royalty_Collection_WWE_Checklist.xls_-_Read-Only_-_Compatibility_Mode.pdf?v=1795531628",
+  "sha256": "248448d625f17965191dcd438b48d576e846bc5c0f293d772b0b13939d719a65",
+  "cardCount": 878,
+  "subsets": [
+    {
+      "category": "Base",
+      "name": "BASE CARDS",
+      "code": "BC",
+      "count": 100
+    },
+    {
+      "category": "Autograph Relic",
+      "name": "ROYALTY RELIC AUTOGRAPHS",
+      "code": "RRA",
+      "count": 35
+    },
+    {
+      "category": "Autograph Relic",
+      "name": "REGALIA RELIC SIGNATURES",
+      "code": "RRS",
+      "count": 25
+    },
+    {
+      "category": "Autograph Relic",
+      "name": "TRIUMPH RELIC SIGNATURES",
+      "code": "TRS",
+      "count": 29
+    },
+    {
+      "category": "Autograph Relic",
+      "name": "SUPERIOR RELIC AUTOGRAPHS",
+      "code": "SRA",
+      "count": 34
+    },
+    {
+      "category": "Autograph Relic",
+      "name": "FOUR CORNER RELIC AUTOGRAPHS",
+      "code": "FCR",
+      "count": 39
+    },
+    {
+      "category": "Autograph Relic",
+      "name": "AUTHENTIC FOOTWEAR RELIC AUTOGRAPHS",
+      "code": "AFA",
+      "count": 10
+    },
+    {
+      "category": "Autograph Relic",
+      "name": "WRESTLEMANIA PATCH AUTOGRAPHS",
+      "code": "WPA",
+      "count": 57
+    },
+    {
+      "category": "Autograph Relic",
+      "name": "IN THE MOMENT AUTOGRAPH JUMBO RELIC BOOKLET",
+      "code": "ITM",
+      "count": 31
+    },
+    {
+      "category": "Autograph Relic",
+      "name": "DUAL SUPERSTAR RELIC AUTOGRAPHS",
+      "code": "DSR",
+      "count": 10
+    },
+    {
+      "category": "Autograph Relic",
+      "name": "USA 250 PATCH AUTOGRAPHS",
+      "code": "USA",
+      "count": 50
+    },
+    {
+      "category": "Autograph",
+      "name": "ROYALTY AUTOGRAPHS",
+      "code": "RA",
+      "count": 42
+    },
+    {
+      "category": "Autograph",
+      "name": "IMPERIAL INK",
+      "code": "II",
+      "count": 24
+    },
+    {
+      "category": "Autograph",
+      "name": "SUPERIOR SIGNATURES",
+      "code": "SS",
+      "count": 29
+    },
+    {
+      "category": "Autograph",
+      "name": "EVOLUTION AUTOGRAPHS",
+      "code": "EA",
+      "count": 39
+    },
+    {
+      "category": "Autograph",
+      "name": "INFLUENTIAL INK",
+      "code": "INF",
+      "count": 33
+    },
+    {
+      "category": "Autograph",
+      "name": "IN RING INK",
+      "code": "IRI",
+      "count": 23
+    },
+    {
+      "category": "Autograph",
+      "name": "CROWNING ACHIEVEMENTS",
+      "code": "CA",
+      "count": 18
+    },
+    {
+      "category": "Autograph",
+      "name": "DUAL AUTOGRAPHS",
+      "code": "DA",
+      "count": 15
+    },
+    {
+      "category": "Autograph",
+      "name": "TRIPLE THREAT AUTOGRAPHS",
+      "code": "TTA",
+      "count": 10
+    },
+    {
+      "category": "Autograph",
+      "name": "FATAL 4 WAY AUTOGRAPHS",
+      "code": "FFW",
+      "count": 5
+    },
+    {
+      "category": "Autograph",
+      "name": "WRITTEN INTO HISTORY",
+      "code": "WIH",
+      "count": 20
+    },
+    {
+      "category": "Autograph",
+      "name": "SOVEREIGN SUPERSTAR SIGNATURES",
+      "code": "SSS",
+      "count": 30
+    },
+    {
+      "category": "Autograph",
+      "name": "WELCOME TO THE CLUB",
+      "code": "WC",
+      "count": 21
+    },
+    {
+      "category": "Autograph",
+      "name": "STONE COLD STEVE AUSTIN 30TH ANNIVERSARY AUTOGRAPHS",
+      "code": "SCA",
+      "count": 3
+    },
+    {
+      "category": "Autograph",
+      "name": "DUDLEY BOYZ 30TH ANNIVERSARY AUTOGRAPHS",
+      "code": "DUD",
+      "count": 2
+    },
+    {
+      "category": "Autograph",
+      "name": "CM PUNK 20TH ANNIVERSARY AUTOGRAPHS",
+      "code": "CMP",
+      "count": 2
+    },
+    {
+      "category": "Autograph",
+      "name": "THE ROCK 30TH ANNIVERSARY AUTOGRAPHS",
+      "code": "TRA",
+      "count": 3
+    },
+    {
+      "category": "Autograph",
+      "name": "NWO 30TH ANNIVERSARY AUTOGRAPHS",
+      "code": "NWO",
+      "count": 3
+    },
+    {
+      "category": "Autograph",
+      "name": "LITA 25TH ANNIVERSARY AUTOGRAPHS",
+      "code": "LIT",
+      "count": 3
+    },
+    {
+      "category": "Autograph",
+      "name": "TRISH STRATUS 25TH ANNIVERSARY AUTOGRAPHS",
+      "code": "TRISH25",
+      "count": 3
+    },
+    {
+      "category": "Relic",
+      "name": "REGALIA RELICS",
+      "code": "RR",
+      "count": 40
+    },
+    {
+      "category": "Relic",
+      "name": "STAR RELICS",
+      "code": "SR",
+      "count": 30
+    },
+    {
+      "category": "Relic",
+      "name": "RELIC JEWELS",
+      "code": "RJ",
+      "count": 20
+    },
+    {
+      "category": "Relic",
+      "name": "PRODIGIOUS PAIRINGS",
+      "code": "PP",
+      "count": 10
+    },
+    {
+      "category": "Relic",
+      "name": "AUSTIN 316 RELICS",
+      "code": "SCR",
+      "count": 10
+    },
+    {
+      "category": "Relic",
+      "name": "PHENOMENAL ONE RELICS",
+      "code": "AJS",
+      "count": 10
+    },
+    {
+      "category": "Relic",
+      "name": "BEST IN THE WORLD RELICS",
+      "code": "BITW",
+      "count": 10
+    }
+  ],
+  "gaps": "Official checklist identity only. Parallel applicability and serial caps unverified; Liquid Silver/Gold identities absent from PDF. Release announced for 4 December 2026; shipping unconfirmed."
+}
