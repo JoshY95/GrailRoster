@@ -26,15 +26,18 @@ for s in prior['sets']:
     path = 'data/'+s['file']
     expected_metadata = {k:v for k,v in s.items() if k!='file'}
     if s['id']==sid:
-        expected_metadata['cardCount'] += 5 + len(additions) + len(new_releases) + len(latest_release)
+        expected_metadata['cardCount'] += 6 + len(additions) + len(new_releases) + len(latest_release)
         next(x for x in expected_metadata['subsets'] if x['code']=='BASE')['count'] += len(additions) + 3 + len(new_releases) + len(latest_release)
-        next(x for x in expected_metadata['subsets'] if x['code']=='POSTER')['count'] += 2
+        next(x for x in expected_metadata['subsets'] if x['code']=='POSTER')['count'] += 3
     assert next(x for x in cat['sets'] if x['id']==s['id']) == expected_metadata
     if s['id'] != sid:
         assert (ROOT/path).read_bytes() == old(path), s['id']
     else:
         before = json.loads(old(path))['cards']
         after = [c for c in cat['cards'] if c['setId']==sid]
+        assert after.pop() == dict(id='2026-TNWWE-POSTER-WG26', setId=sid, order=145,
+            number='WG26', name='Bloodline / 946', subject2='946', category='Base',
+            subset='Event poster', subsetCode='POSTER', roster=None, rookie='No', parallelGroup='POSTER')
         latest = after.pop()
         assert latest == dict(id='2026-TNWWE-BASE-122', setId=sid, order=144, number='122',
                               name='IYO SKY', subject2=None, category='Base', subset='Regular',
@@ -59,10 +62,10 @@ for s in prior['sets']:
         assert hh01['name']=='Halloween Havoc'
         assert hh01['subsetCode']=='POSTER' and hh01['order']==133
         current = next(x for x in cat['sets'] if x['id']==sid)
-        assert current['cardCount']==144
-        assert next(x for x in current['subsets'] if x['code']=='POSTER')['count']==16
+        assert current['cardCount']==145
+        assert next(x for x in current['subsets'] if x['code']=='POSTER')['count']==17
 assert (ROOT/'data/catalogue.json').read_bytes()==old('data/catalogue.json')
-assert cat['cardCount']==25297 + 878
+assert cat['cardCount']==25297 + 878 + 1
 assert next(s for s in cat['sets'] if s['id']=='2026-topps-royalty-wwe')['cardCount']==878
 source=json.loads((ROOT/'sources/topps-now-2025-2026/2026-11-02-hh01.json').read_text())
 assert source['printRun'] == 934 and source['releaseDate']=='2026-10-30'
