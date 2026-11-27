@@ -1,5 +1,10 @@
 # GrailRoster handover
 
+## Topps NOW WG26 — 28 November 2026
+
+- Bloodline / 946, Survivor Series: WarGames poster, appended at order 145. Topps lists a base poster, Rainbow Foil Short Print and Gold Super Short Print /26. Annual totals are 145 identities and 236 edition rows. Final print run, Rainbow numbering and physical card-back code are pending.
+- Guarded catalogue-only transaction: `supabase/corrections/2026-11-28-now-wg26.sql`. Topps US lists 27–30 November for sales and 7–10 business days after close for shipping. Conditional Chrome and Opal Chrome tiers excluded.
+
 ## Royalty WWE 2026 — 26 November 2026
 
 - User authorised adding the official checklist. Imported 878 identities across 38 subsets: 100 Base, 320 Autograph Relic, 328 Autograph and 130 Relic. Shared multi-subject codes are one card. Official PDF, extraction, hash and subset counts are in sources/royalty-wwe-2026/.

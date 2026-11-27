@@ -11,7 +11,9 @@ assert next(x for x in c if x['number']=='AFA-JC')['name']=='John Cena'
 assert all(v['serial_cap'] is None for v in tables()['catalogue_variants'])
 assert len({(x['subsetCode'],x['number']) for x in c})==878
 for f in (ROOT/'data/sets').glob('*.json'):
- if f.stem!=SID:assert f.read_bytes()==subprocess.check_output(['git','show','origin/main:data/sets/'+f.name],cwd=ROOT)
+    # The annual NOW append is validated separately by tests/topps-now-hh01.py.
+    if f.stem not in (SID, '2026-topps-now-wwe'):
+        assert f.read_bytes()==subprocess.check_output(['git','show','origin/main:data/sets/'+f.name],cwd=ROOT)
 before={p:p.read_bytes() for p in (ROOT/'data').rglob('*.json')}
 subprocess.run([sys.executable,'scripts/add_2026_royalty_wwe.py'],cwd=ROOT,check=True)
 assert all(p.read_bytes()==b for p,b in before.items())
